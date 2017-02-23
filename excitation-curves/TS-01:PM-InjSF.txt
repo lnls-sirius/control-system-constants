@@ -1,0 +1,8 @@
+# Injection Septum
+# harmonics       0
+# main_harmonic   0 normal
+# units           Ampere T*m T*m
+#
++0.00e+00	+0.000000e+00 +0.00e+00
++1.00e+03	-5.466662e-01	+0.00e+00
++2.00e+03 -3.000000e+00 +0.00e+00
