@@ -1,4 +1,4 @@
-# Solenoid
+# label           LI-Glob:MA-Slnd
 # harmonics       1
 # main_harmonic   1 normal
 # units           Ampere T T

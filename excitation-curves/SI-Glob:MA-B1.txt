@@ -1,4 +1,4 @@
-# Dipole
+# label           SI-Glob:MA-B1
 # harmonics       0
 # main_harmonic   0 normal
 # units           Ampere T*m T*m

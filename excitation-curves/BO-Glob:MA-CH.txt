@@ -1,4 +1,4 @@
-# Horizontal corrector
+# label           BO-Glob:MA-CH
 # harmonics       0 1 2 3 4 5 6
 # main_harmonic   0 normal
 # units           Ampere T*m T*m

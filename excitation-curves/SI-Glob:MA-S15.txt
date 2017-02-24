@@ -1,4 +1,4 @@
-# Sextupole
+# label           SI-Glob:MA-S15
 # harmonics       0 1 2 3 4 6 7 8 9 10 13 14
 # main_harmonic   2 normal
 # units           Ampere T/m T/m
