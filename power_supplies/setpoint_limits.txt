@@ -1,0 +1,36 @@
+# Current setpoint limits of power supplies
+# =========================================
+
+# [units]  A  Ampere
+
+# power_supply_type          DRVL      LOLO      LOW       LOPR      HOPR      HIGH      HIHI      DRVH
+#---------------------------|---------|---------|---------|---------|---------|---------|---------|-------
+si-dipole-b1b2-fam           +0000.0   +0000.0   +0000.0   +0998.0   +1000.0   +1000.0   +1000.0   +1000.0
+si-quadrupole-q14-fam        +0000.0   +0000.0   +0000.0   +0000.0   +0120.0   +0125.0   +0125.0   +0125.0
+si-quadrupole-q20-fam        +0000.0   +0000.0   +0000.0   +0000.0   +0240.0   +0250.0   +0250.0   +0250.0
+si-quadrupole-q30-fam        +0000.0   +0000.0   +0000.0   +0000.0   +0365.0   +0375.0   +0375.0   +0375.0
+si-quadrupole-q14-trim       -0010.0   -0010.0   -0010.0   -0009.9   +0009.9   +0010.0   +0010.0   +0010.0
+si-quadrupole-q20-trim       -0010.0   -0010.0   -0010.0   -0009.9   +0009.9   +0010.0   +0010.0   +0010.0
+si-quadrupole-q30-trim       -0010.0   -0010.0   -0010.0   -0009.9   +0009.9   +0010.0   +0010.0   +0010.0
+si-sextupole-s15-fam         +0000.0   +0000.0   +0000.0   +0000.0   +0150.0   +0152.0   +0152.0   +0152.0
+si-sextupole-s15-ch          -0010.0   -0010.0   -0010.0   -0009.9   +0009.9   +0010.0   +0010.0   +0010.0
+si-sextupole-s15-cv          -0010.0   -0010.0   -0010.0   -0009.9   +0009.9   +0010.0   +0010.0   +0010.0
+si-sextupole-s15-qs          -0010.0   -0010.0   -0010.0   -0009.9   +0009.9   +0010.0   +0010.0   +0010.0
+si-corrector-cv              -0010.0   -0010.0   -0010.0   -0009.9   +0009.9   +0010.0   +0010.0   +0010.0
+si-corrector-fch             -0009.0   -0009.0   -0009.0   -0008.9   +0008.9   +0009.0   +0009.0   +0009.0
+si-corrector-fcv             -0009.0   -0009.0   -0009.0   -0008.9   +0008.9   +0009.0   +0009.0   +0009.0
+
+
+#  DRVL  driver low level limit
+#  LOLO  IOC low-low level limit (ALARM)
+#  LOW   IOC low level limit (ALARM)
+#  LOPR  Low operating range
+#  HOPR  High operating range
+#  HIGH  IOC high level limit (ALARM)
+#  HIHI  IOC high-high level limit (ALARM)
+#  DRVH  driver high level limit
+
+# Rules
+# -----
+# LOLO <= LO <= HI <= HIHI
+# DRVL <= LOPR <= HOPR <= DRVH.
