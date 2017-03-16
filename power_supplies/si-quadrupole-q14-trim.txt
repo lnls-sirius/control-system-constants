@@ -1,7 +1,7 @@
 # List of power supplies of type si-quadrupole-q14-trim
 # =====================================================
 
-# [nr_ps] 70
+# number of power supplies: 70
 
 # nr_QDA_power_supplies 10
 SI-01M1:PS-QDA

@@ -1,7 +1,7 @@
 # List of power supplies of type si-quadrupole-q30-trim
 # =====================================================
 
-# [nr_ps] 30
+# number of power supplies: 30
 
 # nr_QFB_power_supplies 20
 SI-02M1:PS-QFB

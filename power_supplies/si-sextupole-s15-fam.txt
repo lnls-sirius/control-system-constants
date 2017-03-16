@@ -1,7 +1,7 @@
 # List of power supplies of type si-sextupole-s15-fam
 # ===================================================
 
-# [nr_ps] 21
+# number of power supplies: 21
 
 SI-Fam:PS-SFA0
 SI-Fam:PS-SFA1

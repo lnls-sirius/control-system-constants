@@ -1,7 +1,7 @@
 # List of power supplies of type si-sextupole-s15-ch
 # ==================================================
 
-# [nr_ps] 120
+# number of power supplies: 120
 
 SI-01M1:PS-CH
 SI-01M2:PS-CH

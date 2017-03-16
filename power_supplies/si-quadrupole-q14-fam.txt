@@ -1,7 +1,7 @@
 # List of power supplies of type si-quadrupole-q14-fam
 # ====================================================
 
-# [nr_ps] 5
+# number of power supplies: 5
 
 SI-Fam:PS-QDA
 SI-Fam:PS-QDB1

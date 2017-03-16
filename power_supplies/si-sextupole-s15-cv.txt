@@ -1,7 +1,7 @@
 # List of power supplies of type si-sextupole-s15-cv
 # ==================================================
 
-# [nr_ps] 140
+# number of power supplies: 140
 
 SI-01M1:PS-CV
 SI-01M2:PS-CV
