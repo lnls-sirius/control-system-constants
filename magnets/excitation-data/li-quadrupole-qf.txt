@@ -1,4 +1,4 @@
-# label           LI-Glob:MA-QF
+# label           li-quadrupole-qf
 # harmonics       1
 # main_harmonic   1 normal
 # units           Ampere T T

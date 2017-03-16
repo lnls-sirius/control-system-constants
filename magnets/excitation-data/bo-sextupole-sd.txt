@@ -1,4 +1,4 @@
-# label           BO-Fam:MA-S15
+# label           bo-sextupole-sd
 # harmonics       2 8 14
 # main_harmonic   2 normal
 # units           Ampere T/m T/m

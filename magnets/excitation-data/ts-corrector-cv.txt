@@ -1,4 +1,4 @@
-# label           TS-Glob:MA-CV
+# label           ts-corrector-cv
 # harmonics       0
 # main_harmonic   0 skew
 # units           Ampere T*m T*m

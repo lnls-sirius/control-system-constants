@@ -1,4 +1,4 @@
-# label           TS-01:PM-EjeSF
+# label           ts-septum-ejesf
 # harmonics       0
 # main_harmonic   0 normal
 # units           Ampere T*m T*m

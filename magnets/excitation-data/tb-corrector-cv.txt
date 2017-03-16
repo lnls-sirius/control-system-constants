@@ -1,4 +1,4 @@
-# label           TB-Glob:MA-CV
+# label           tb-corrector-cv
 # harmonics       0
 # main_harmonic   0 skew
 # units           Ampere T*m T*m

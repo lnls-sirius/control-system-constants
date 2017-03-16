@@ -1,4 +1,4 @@
-# label           BO-01D:PM-InjK
+# label           bo-kicker-injk
 # harmonics       0
 # main_harmonic   0 normal
 # units           Voltage T*m T*m

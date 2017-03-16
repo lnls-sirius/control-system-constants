@@ -1,4 +1,4 @@
-# label           LI-Glob:MA-CV
+# label           li-corrector-cv
 # harmonics       0
 # main_harmonic   0 skew
 # units           Ampere T*m T*m

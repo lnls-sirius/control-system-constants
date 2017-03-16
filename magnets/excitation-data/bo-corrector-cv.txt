@@ -1,4 +1,4 @@
-# label           BO-Glob:MA-CV
+# label           bo-corrector-cv
 # harmonics       0 1 2 3 4 5 6
 # main_harmonic   0 skew
 # units           Ampere T*m T*m

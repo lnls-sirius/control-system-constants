@@ -1,4 +1,4 @@
-# label           BO-03D:MA-QS
+# label           bo-quadrupole-qs
 # harmonics       1 5 9 13
 # main_harmonic   1 skew
 # units           Ampere T T

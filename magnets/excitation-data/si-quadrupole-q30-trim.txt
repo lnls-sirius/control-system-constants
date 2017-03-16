@@ -1,4 +1,4 @@
-# label           SI-Glob:MA-Q30
+# label           si-quadrupole-q30-trim
 # harmonics       1
 # main_harmonic   1 normal
 # units           Ampere T T
