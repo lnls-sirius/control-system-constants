@@ -3,7 +3,7 @@
 
 # [units]  A  Ampere
 
-# power_supply_type          DRVL      LOLO      LOW       LOPR      HOPR      HIGH      HIHI      DRVH
+# [power_supply_type]        DRVL      LOLO      LOW       LOPR      HOPR      HIGH      HIHI      DRVH
 #---------------------------|---------|---------|---------|---------|---------|---------|---------|-------
 
 # --- monopolar ---
