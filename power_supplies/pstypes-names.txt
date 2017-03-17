@@ -1,0 +1,26 @@
+# Power supply type names
+# =======================
+
+si-dipole-b1b2-fam           monopolar
+si-quadrupole-q14-fam        monopolar
+si-quadrupole-q20-fam        monopolar
+si-quadrupole-q30-fam        monopolar
+si-sextupole-s15-fam         monopolar
+bo-dipole-b-fam              monopolar
+bo-quadrupole-qd-fam         monopolar
+bo-quadrupole-qf-fam         monopolar
+bo-sextupole-sd-fam          monopolar
+bo-sextupole-sf-fam          monopolar
+
+si-quadrupole-q14-trim       bipolar
+si-quadrupole-q20-trim       bipolar
+si-quadrupole-q30-trim       bipolar
+si-sextupole-s15-ch          bipolar
+si-sextupole-s15-cv          bipolar
+si-sextupole-s15-qs          bipolar
+si-corrector-cv              bipolar
+si-corrector-fch             bipolar
+si-corrector-fcv             bipolar
+bo-quadrupole-qs             bipolar
+bo-corrector-ch              bipolar
+bo-corrector-cv              bipolar
