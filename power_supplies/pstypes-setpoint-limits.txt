@@ -1,7 +1,7 @@
 # Current setpoint limits of power supplies
 # =========================================
 
-# [units]  A  Ampere
+# [unit]  A  Ampere
 
 # [power_supply_type]        DRVL      LOLO      LOW       LOPR      HOPR      HIGH      HIHI      DRVH
 #---------------------------|---------|---------|---------|---------|---------|---------|---------|-------
