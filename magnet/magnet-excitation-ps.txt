@@ -1,5 +1,7 @@
-# magnet                     power_supply1    power_supply2   ...
+# magnet                     power_supply1       power_supply2   ...
 # --------------------------|-------------------|-------------------|----
+
+# should we include here polarity columns?
 
 SI-01M1:MA-QDA               SI-Fam:PS-QDA       SI-01M1:PS-QDA
 SI-01M2:MA-QDA               SI-Fam:PS-QDA       SI-01M2:PS-QDA
