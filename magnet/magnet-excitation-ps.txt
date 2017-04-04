@@ -3,6 +3,58 @@
 
 # should we include here polarity columns?
 
+# --- quadrupole families ---
+
+SI-Fam:MA-QDA                SI-Fam:PS-QDA
+SI-Fam:MA-QFA                SI-Fam:PS-QFA
+SI-Fam:MA-QDB1               SI-Fam:PS-QDB1
+SI-Fam:MA-QFB                SI-Fam:PS-QFB
+SI-Fam:MA-QDB2               SI-Fam:PS-QDB2
+SI-Fam:MA-QDP1               SI-Fam:PS-QDP1
+SI-Fam:MA-QFP                SI-Fam:PS-QFP
+SI-Fam:MA-QDP2               SI-Fam:PS-QDP2
+SI-Fam:MA-Q1                 SI-Fam:PS-Q1
+SI-Fam:MA-Q2                 SI-Fam:PS-Q2
+SI-Fam:MA-Q3                 SI-Fam:PS-Q3
+SI-Fam:MA-Q4                 SI-Fam:PS-Q4
+
+# --- sextupole families ---
+
+SI-Fam:MA-SDA0               SI-Fam:PS-SDA0
+SI-Fam:MA-SDA1               SI-Fam:PS-SDA1
+SI-Fam:MA-SDA2               SI-Fam:PS-SDA2
+SI-Fam:MA-SDA3               SI-Fam:PS-SDA3
+SI-Fam:MA-SDB0               SI-Fam:PS-SDB0
+SI-Fam:MA-SDB1               SI-Fam:PS-SDB1
+SI-Fam:MA-SDB2               SI-Fam:PS-SDB2
+SI-Fam:MA-SDB3               SI-Fam:PS-SDB3
+SI-Fam:MA-SDP0               SI-Fam:PS-SDP0
+SI-Fam:MA-SDP1               SI-Fam:PS-SDP1
+SI-Fam:MA-SDP2               SI-Fam:PS-SDP2
+SI-Fam:MA-SDP3               SI-Fam:PS-SDP3
+SI-Fam:MA-SFA0               SI-Fam:PS-SFA0
+SI-Fam:MA-SFA1               SI-Fam:PS-SFA1
+SI-Fam:MA-SFA2               SI-Fam:PS-SFA2
+SI-Fam:MA-SFB0               SI-Fam:PS-SFB0
+SI-Fam:MA-SFB1               SI-Fam:PS-SFB1
+SI-Fam:MA-SFB2               SI-Fam:PS-SFB2
+SI-Fam:MA-SFP0               SI-Fam:PS-SFP0
+SI-Fam:MA-SFP1               SI-Fam:PS-SFP1
+SI-Fam:MA-SFP2               SI-Fam:PS-SFP2
+
+# --- quadrupole magnets ---
+
+SI-01M1:MA-QFA               SI-Fam:PS-QFA       SI-01M1:PS-QFA
+SI-01M2:MA-QFA               SI-Fam:PS-QFA       SI-01M2:PS-QFA
+SI-05M1:MA-QFA               SI-Fam:PS-QFA       SI-05M1:PS-QFA
+SI-05M2:MA-QFA               SI-Fam:PS-QFA       SI-05M2:PS-QFA
+SI-09M1:MA-QFA               SI-Fam:PS-QFA       SI-09M1:PS-QFA
+SI-09M2:MA-QFA               SI-Fam:PS-QFA       SI-09M2:PS-QFA
+SI-13M1:MA-QFA               SI-Fam:PS-QFA       SI-13M1:PS-QFA
+SI-13M2:MA-QFA               SI-Fam:PS-QFA       SI-13M2:PS-QFA
+SI-17M1:MA-QFA               SI-Fam:PS-QFA       SI-17M1:PS-QFA
+SI-17M2:MA-QFA               SI-Fam:PS-QFA       SI-17M2:PS-QFA
+
 SI-01M1:MA-QDA               SI-Fam:PS-QDA       SI-01M1:PS-QDA
 SI-01M2:MA-QDA               SI-Fam:PS-QDA       SI-01M2:PS-QDA
 SI-05M1:MA-QDA               SI-Fam:PS-QDA       SI-05M1:PS-QDA
@@ -13,6 +65,7 @@ SI-13M1:MA-QDA               SI-Fam:PS-QDA       SI-13M1:PS-QDA
 SI-13M2:MA-QDA               SI-Fam:PS-QDA       SI-13M2:PS-QDA
 SI-17M1:MA-QDA               SI-Fam:PS-QDA       SI-17M1:PS-QDA
 SI-17M2:MA-QDA               SI-Fam:PS-QDA       SI-17M2:PS-QDA
+
 SI-02M1:MA-QDB1              SI-Fam:PS-QDB1      SI-02M1:PS-QDB1
 SI-02M2:MA-QDB1              SI-Fam:PS-QDB1      SI-02M2:PS-QDB1
 SI-04M1:MA-QDB1              SI-Fam:PS-QDB1      SI-04M1:PS-QDB1
@@ -33,6 +86,28 @@ SI-18M1:MA-QDB1              SI-Fam:PS-QDB1      SI-18M1:PS-QDB1
 SI-18M2:MA-QDB1              SI-Fam:PS-QDB1      SI-18M2:PS-QDB1
 SI-20M1:MA-QDB1              SI-Fam:PS-QDB1      SI-20M1:PS-QDB1
 SI-20M2:MA-QDB1              SI-Fam:PS-QDB1      SI-20M2:PS-QDB1
+
+SI-02M1:MA-QFB               SI-Fam:PS-QFB       SI-02M1:PS-QFB
+SI-02M2:MA-QFB               SI-Fam:PS-QFB       SI-02M2:PS-QFB
+SI-04M1:MA-QFB               SI-Fam:PS-QFB       SI-04M1:PS-QFB
+SI-04M2:MA-QFB               SI-Fam:PS-QFB       SI-04M2:PS-QFB
+SI-06M1:MA-QFB               SI-Fam:PS-QFB       SI-06M1:PS-QFB
+SI-06M2:MA-QFB               SI-Fam:PS-QFB       SI-06M2:PS-QFB
+SI-08M1:MA-QFB               SI-Fam:PS-QFB       SI-08M1:PS-QFB
+SI-08M2:MA-QFB               SI-Fam:PS-QFB       SI-08M2:PS-QFB
+SI-10M1:MA-QFB               SI-Fam:PS-QFB       SI-10M1:PS-QFB
+SI-10M2:MA-QFB               SI-Fam:PS-QFB       SI-10M2:PS-QFB
+SI-12M1:MA-QFB               SI-Fam:PS-QFB       SI-12M1:PS-QFB
+SI-12M2:MA-QFB               SI-Fam:PS-QFB       SI-12M2:PS-QFB
+SI-14M1:MA-QFB               SI-Fam:PS-QFB       SI-14M1:PS-QFB
+SI-14M2:MA-QFB               SI-Fam:PS-QFB       SI-14M2:PS-QFB
+SI-16M1:MA-QFB               SI-Fam:PS-QFB       SI-16M1:PS-QFB
+SI-16M2:MA-QFB               SI-Fam:PS-QFB       SI-16M2:PS-QFB
+SI-18M1:MA-QFB               SI-Fam:PS-QFB       SI-18M1:PS-QFB
+SI-18M2:MA-QFB               SI-Fam:PS-QFB       SI-18M2:PS-QFB
+SI-20M1:MA-QFB               SI-Fam:PS-QFB       SI-20M1:PS-QFB
+SI-20M2:MA-QFB               SI-Fam:PS-QFB       SI-20M2:PS-QFB
+
 SI-02M1:MA-QDB2              SI-Fam:PS-QDB2      SI-02M1:PS-QDB2
 SI-02M2:MA-QDB2              SI-Fam:PS-QDB2      SI-02M2:PS-QDB2
 SI-04M1:MA-QDB2              SI-Fam:PS-QDB2      SI-04M1:PS-QDB2
@@ -53,6 +128,7 @@ SI-18M1:MA-QDB2              SI-Fam:PS-QDB2      SI-18M1:PS-QDB2
 SI-18M2:MA-QDB2              SI-Fam:PS-QDB2      SI-18M2:PS-QDB2
 SI-20M1:MA-QDB2              SI-Fam:PS-QDB2      SI-20M1:PS-QDB2
 SI-20M2:MA-QDB2              SI-Fam:PS-QDB2      SI-20M2:PS-QDB2
+
 SI-03M1:MA-QDP1              SI-Fam:PS-QDP1      SI-03M1:PS-QDP1
 SI-03M2:MA-QDP1              SI-Fam:PS-QDP1      SI-03M2:PS-QDP1
 SI-07M1:MA-QDP1              SI-Fam:PS-QDP1      SI-07M1:PS-QDP1
@@ -63,13 +139,265 @@ SI-15M1:MA-QDP1              SI-Fam:PS-QDP1      SI-15M1:PS-QDP1
 SI-15M2:MA-QDP1              SI-Fam:PS-QDP1      SI-15M2:PS-QDP1
 SI-19M1:MA-QDP1              SI-Fam:PS-QDP1      SI-19M1:PS-QDP1
 SI-19M2:MA-QDP1              SI-Fam:PS-QDP1      SI-19M2:PS-QDP1
-SI-03M1:MA-QDP2              SI-Fam:PS-QDP1      SI-03M1:PS-QDP2
-SI-03M2:MA-QDP2              SI-Fam:PS-QDP1      SI-03M2:PS-QDP2
-SI-07M1:MA-QDP2              SI-Fam:PS-QDP1      SI-07M1:PS-QDP2
-SI-07M2:MA-QDP2              SI-Fam:PS-QDP1      SI-07M2:PS-QDP2
-SI-11M1:MA-QDP2              SI-Fam:PS-QDP1      SI-11M1:PS-QDP2
-SI-11M2:MA-QDP2              SI-Fam:PS-QDP1      SI-11M2:PS-QDP2
-SI-15M1:MA-QDP2              SI-Fam:PS-QDP1      SI-15M1:PS-QDP2
-SI-15M2:MA-QDP2              SI-Fam:PS-QDP1      SI-15M2:PS-QDP2
-SI-19M1:MA-QDP2              SI-Fam:PS-QDP1      SI-19M1:PS-QDP2
-SI-19M2:MA-QDP2              SI-Fam:PS-QDP1      SI-19M2:PS-QDP2
+
+SI-03M1:MA-QFP               SI-Fam:PS-QFP       SI-03M1:PS-QFP
+SI-03M2:MA-QFP               SI-Fam:PS-QFP       SI-03M2:PS-QFP
+SI-07M1:MA-QFP               SI-Fam:PS-QFP       SI-07M1:PS-QFP
+SI-07M2:MA-QFP               SI-Fam:PS-QFP       SI-07M2:PS-QFP
+SI-11M1:MA-QFP               SI-Fam:PS-QFP       SI-11M1:PS-QFP
+SI-11M2:MA-QFP               SI-Fam:PS-QFP       SI-11M2:PS-QFP
+SI-15M1:MA-QFP               SI-Fam:PS-QFP       SI-15M1:PS-QFP
+SI-15M2:MA-QFP               SI-Fam:PS-QFP       SI-15M2:PS-QFP
+SI-19M1:MA-QFP               SI-Fam:PS-QFP       SI-19M1:PS-QFP
+SI-19M2:MA-QFP               SI-Fam:PS-QFP       SI-19M2:PS-QFP
+
+SI-03M1:MA-QDP2              SI-Fam:PS-QDP2      SI-03M1:PS-QDP2
+SI-03M2:MA-QDP2              SI-Fam:PS-QDP2      SI-03M2:PS-QDP2
+SI-07M1:MA-QDP2              SI-Fam:PS-QDP2      SI-07M1:PS-QDP2
+SI-07M2:MA-QDP2              SI-Fam:PS-QDP2      SI-07M2:PS-QDP2
+SI-11M1:MA-QDP2              SI-Fam:PS-QDP2      SI-11M1:PS-QDP2
+SI-11M2:MA-QDP2              SI-Fam:PS-QDP2      SI-11M2:PS-QDP2
+SI-15M1:MA-QDP2              SI-Fam:PS-QDP2      SI-15M1:PS-QDP2
+SI-15M2:MA-QDP2              SI-Fam:PS-QDP2      SI-15M2:PS-QDP2
+SI-19M1:MA-QDP2              SI-Fam:PS-QDP2      SI-19M1:PS-QDP2
+SI-19M2:MA-QDP2              SI-Fam:PS-QDP2      SI-19M2:PS-QDP2
+
+SI-01C1:MA-Q1                SI-Fam:PS-Q1        SI-01C1:PS-Q1
+SI-01C4:MA-Q1                SI-Fam:PS-Q1        SI-01C4:PS-Q1
+SI-02C1:MA-Q1                SI-Fam:PS-Q1        SI-02C1:PS-Q1
+SI-02C4:MA-Q1                SI-Fam:PS-Q1        SI-02C4:PS-Q1
+SI-03C1:MA-Q1                SI-Fam:PS-Q1        SI-03C1:PS-Q1
+SI-03C4:MA-Q1                SI-Fam:PS-Q1        SI-03C4:PS-Q1
+SI-04C1:MA-Q1                SI-Fam:PS-Q1        SI-04C1:PS-Q1
+SI-04C4:MA-Q1                SI-Fam:PS-Q1        SI-04C4:PS-Q1
+SI-05C1:MA-Q1                SI-Fam:PS-Q1        SI-05C1:PS-Q1
+SI-05C4:MA-Q1                SI-Fam:PS-Q1        SI-05C4:PS-Q1
+SI-06C1:MA-Q1                SI-Fam:PS-Q1        SI-06C1:PS-Q1
+SI-06C4:MA-Q1                SI-Fam:PS-Q1        SI-06C4:PS-Q1
+SI-07C1:MA-Q1                SI-Fam:PS-Q1        SI-07C1:PS-Q1
+SI-07C4:MA-Q1                SI-Fam:PS-Q1        SI-07C4:PS-Q1
+SI-08C1:MA-Q1                SI-Fam:PS-Q1        SI-08C1:PS-Q1
+SI-08C4:MA-Q1                SI-Fam:PS-Q1        SI-08C4:PS-Q1
+SI-09C1:MA-Q1                SI-Fam:PS-Q1        SI-09C1:PS-Q1
+SI-09C4:MA-Q1                SI-Fam:PS-Q1        SI-09C4:PS-Q1
+SI-10C1:MA-Q1                SI-Fam:PS-Q1        SI-10C1:PS-Q1
+SI-10C4:MA-Q1                SI-Fam:PS-Q1        SI-10C4:PS-Q1
+SI-11C1:MA-Q1                SI-Fam:PS-Q1        SI-11C1:PS-Q1
+SI-11C4:MA-Q1                SI-Fam:PS-Q1        SI-11C4:PS-Q1
+SI-12C1:MA-Q1                SI-Fam:PS-Q1        SI-12C1:PS-Q1
+SI-12C4:MA-Q1                SI-Fam:PS-Q1        SI-12C4:PS-Q1
+SI-13C1:MA-Q1                SI-Fam:PS-Q1        SI-13C1:PS-Q1
+SI-13C4:MA-Q1                SI-Fam:PS-Q1        SI-13C4:PS-Q1
+SI-14C1:MA-Q1                SI-Fam:PS-Q1        SI-14C1:PS-Q1
+SI-14C4:MA-Q1                SI-Fam:PS-Q1        SI-14C4:PS-Q1
+SI-15C1:MA-Q1                SI-Fam:PS-Q1        SI-15C1:PS-Q1
+SI-15C4:MA-Q1                SI-Fam:PS-Q1        SI-15C4:PS-Q1
+SI-16C1:MA-Q1                SI-Fam:PS-Q1        SI-16C1:PS-Q1
+SI-16C4:MA-Q1                SI-Fam:PS-Q1        SI-16C4:PS-Q1
+SI-17C1:MA-Q1                SI-Fam:PS-Q1        SI-17C1:PS-Q1
+SI-17C4:MA-Q1                SI-Fam:PS-Q1        SI-17C4:PS-Q1
+SI-18C1:MA-Q1                SI-Fam:PS-Q1        SI-18C1:PS-Q1
+SI-18C4:MA-Q1                SI-Fam:PS-Q1        SI-18C4:PS-Q1
+SI-19C1:MA-Q1                SI-Fam:PS-Q1        SI-19C1:PS-Q1
+SI-19C4:MA-Q1                SI-Fam:PS-Q1        SI-19C4:PS-Q1
+SI-20C1:MA-Q1                SI-Fam:PS-Q1        SI-20C1:PS-Q1
+SI-20C4:MA-Q1                SI-Fam:PS-Q1        SI-20C4:PS-Q1
+
+SI-01C1:MA-Q2                SI-Fam:PS-Q2        SI-01C1:PS-Q2
+SI-01C4:MA-Q2                SI-Fam:PS-Q2        SI-01C4:PS-Q2
+SI-02C1:MA-Q2                SI-Fam:PS-Q2        SI-02C1:PS-Q2
+SI-02C4:MA-Q2                SI-Fam:PS-Q2        SI-02C4:PS-Q2
+SI-03C1:MA-Q2                SI-Fam:PS-Q2        SI-03C1:PS-Q2
+SI-03C4:MA-Q2                SI-Fam:PS-Q2        SI-03C4:PS-Q2
+SI-04C1:MA-Q2                SI-Fam:PS-Q2        SI-04C1:PS-Q2
+SI-04C4:MA-Q2                SI-Fam:PS-Q2        SI-04C4:PS-Q2
+SI-05C1:MA-Q2                SI-Fam:PS-Q2        SI-05C1:PS-Q2
+SI-05C4:MA-Q2                SI-Fam:PS-Q2        SI-05C4:PS-Q2
+SI-06C1:MA-Q2                SI-Fam:PS-Q2        SI-06C1:PS-Q2
+SI-06C4:MA-Q2                SI-Fam:PS-Q2        SI-06C4:PS-Q2
+SI-07C1:MA-Q2                SI-Fam:PS-Q2        SI-07C1:PS-Q2
+SI-07C4:MA-Q2                SI-Fam:PS-Q2        SI-07C4:PS-Q2
+SI-08C1:MA-Q2                SI-Fam:PS-Q2        SI-08C1:PS-Q2
+SI-08C4:MA-Q2                SI-Fam:PS-Q2        SI-08C4:PS-Q2
+SI-09C1:MA-Q2                SI-Fam:PS-Q2        SI-09C1:PS-Q2
+SI-09C4:MA-Q2                SI-Fam:PS-Q2        SI-09C4:PS-Q2
+SI-10C1:MA-Q2                SI-Fam:PS-Q2        SI-10C1:PS-Q2
+SI-10C4:MA-Q2                SI-Fam:PS-Q2        SI-10C4:PS-Q2
+SI-11C1:MA-Q2                SI-Fam:PS-Q2        SI-11C1:PS-Q2
+SI-11C4:MA-Q2                SI-Fam:PS-Q2        SI-11C4:PS-Q2
+SI-12C1:MA-Q2                SI-Fam:PS-Q2        SI-12C1:PS-Q2
+SI-12C4:MA-Q2                SI-Fam:PS-Q2        SI-12C4:PS-Q2
+SI-13C1:MA-Q2                SI-Fam:PS-Q2        SI-13C1:PS-Q2
+SI-13C4:MA-Q2                SI-Fam:PS-Q2        SI-13C4:PS-Q2
+SI-14C1:MA-Q2                SI-Fam:PS-Q2        SI-14C1:PS-Q2
+SI-14C4:MA-Q2                SI-Fam:PS-Q2        SI-14C4:PS-Q2
+SI-15C1:MA-Q2                SI-Fam:PS-Q2        SI-15C1:PS-Q2
+SI-15C4:MA-Q2                SI-Fam:PS-Q2        SI-15C4:PS-Q2
+SI-16C1:MA-Q2                SI-Fam:PS-Q2        SI-16C1:PS-Q2
+SI-16C4:MA-Q2                SI-Fam:PS-Q2        SI-16C4:PS-Q2
+SI-17C1:MA-Q2                SI-Fam:PS-Q2        SI-17C1:PS-Q2
+SI-17C4:MA-Q2                SI-Fam:PS-Q2        SI-17C4:PS-Q2
+SI-18C1:MA-Q2                SI-Fam:PS-Q2        SI-18C1:PS-Q2
+SI-18C4:MA-Q2                SI-Fam:PS-Q2        SI-18C4:PS-Q2
+SI-19C1:MA-Q2                SI-Fam:PS-Q2        SI-19C1:PS-Q2
+SI-19C4:MA-Q2                SI-Fam:PS-Q2        SI-19C4:PS-Q2
+SI-20C1:MA-Q2                SI-Fam:PS-Q2        SI-20C1:PS-Q2
+SI-20C4:MA-Q2                SI-Fam:PS-Q2        SI-20C4:PS-Q2
+
+SI-01C2:MA-Q3                SI-Fam:PS-Q3        SI-01C2:PS-Q3
+SI-01C3:MA-Q3                SI-Fam:PS-Q3        SI-01C3:PS-Q3
+SI-02C2:MA-Q3                SI-Fam:PS-Q3        SI-02C2:PS-Q3
+SI-02C3:MA-Q3                SI-Fam:PS-Q3        SI-02C3:PS-Q3
+SI-03C2:MA-Q3                SI-Fam:PS-Q3        SI-03C2:PS-Q3
+SI-03C3:MA-Q3                SI-Fam:PS-Q3        SI-03C3:PS-Q3
+SI-04C2:MA-Q3                SI-Fam:PS-Q3        SI-04C2:PS-Q3
+SI-04C3:MA-Q3                SI-Fam:PS-Q3        SI-04C3:PS-Q3
+SI-05C2:MA-Q3                SI-Fam:PS-Q3        SI-05C2:PS-Q3
+SI-05C3:MA-Q3                SI-Fam:PS-Q3        SI-05C3:PS-Q3
+SI-06C2:MA-Q3                SI-Fam:PS-Q3        SI-06C2:PS-Q3
+SI-06C3:MA-Q3                SI-Fam:PS-Q3        SI-06C3:PS-Q3
+SI-07C2:MA-Q3                SI-Fam:PS-Q3        SI-07C2:PS-Q3
+SI-07C3:MA-Q3                SI-Fam:PS-Q3        SI-07C3:PS-Q3
+SI-08C2:MA-Q3                SI-Fam:PS-Q3        SI-08C2:PS-Q3
+SI-08C3:MA-Q3                SI-Fam:PS-Q3        SI-08C3:PS-Q3
+SI-09C2:MA-Q3                SI-Fam:PS-Q3        SI-09C2:PS-Q3
+SI-09C3:MA-Q3                SI-Fam:PS-Q3        SI-09C3:PS-Q3
+SI-10C2:MA-Q3                SI-Fam:PS-Q3        SI-10C2:PS-Q3
+SI-10C3:MA-Q3                SI-Fam:PS-Q3        SI-10C3:PS-Q3
+SI-11C2:MA-Q3                SI-Fam:PS-Q3        SI-11C2:PS-Q3
+SI-11C3:MA-Q3                SI-Fam:PS-Q3        SI-11C3:PS-Q3
+SI-12C2:MA-Q3                SI-Fam:PS-Q3        SI-12C2:PS-Q3
+SI-12C3:MA-Q3                SI-Fam:PS-Q3        SI-12C3:PS-Q3
+SI-13C2:MA-Q3                SI-Fam:PS-Q3        SI-13C2:PS-Q3
+SI-13C3:MA-Q3                SI-Fam:PS-Q3        SI-13C3:PS-Q3
+SI-14C2:MA-Q3                SI-Fam:PS-Q3        SI-14C2:PS-Q3
+SI-14C3:MA-Q3                SI-Fam:PS-Q3        SI-14C3:PS-Q3
+SI-15C2:MA-Q3                SI-Fam:PS-Q3        SI-15C2:PS-Q3
+SI-15C3:MA-Q3                SI-Fam:PS-Q3        SI-15C3:PS-Q3
+SI-16C2:MA-Q3                SI-Fam:PS-Q3        SI-16C2:PS-Q3
+SI-16C3:MA-Q3                SI-Fam:PS-Q3        SI-16C3:PS-Q3
+SI-17C2:MA-Q3                SI-Fam:PS-Q3        SI-17C2:PS-Q3
+SI-17C3:MA-Q3                SI-Fam:PS-Q3        SI-17C3:PS-Q3
+SI-18C2:MA-Q3                SI-Fam:PS-Q3        SI-18C2:PS-Q3
+SI-18C3:MA-Q3                SI-Fam:PS-Q3        SI-18C3:PS-Q3
+SI-19C2:MA-Q3                SI-Fam:PS-Q3        SI-19C2:PS-Q3
+SI-19C3:MA-Q3                SI-Fam:PS-Q3        SI-19C3:PS-Q3
+SI-20C2:MA-Q3                SI-Fam:PS-Q3        SI-20C2:PS-Q3
+SI-20C3:MA-Q3                SI-Fam:PS-Q3        SI-20C3:PS-Q3
+
+SI-01C2:MA-Q4                SI-Fam:PS-Q4        SI-01C2:PS-Q4
+SI-01C3:MA-Q4                SI-Fam:PS-Q4        SI-01C3:PS-Q4
+SI-02C2:MA-Q4                SI-Fam:PS-Q4        SI-02C2:PS-Q4
+SI-02C3:MA-Q4                SI-Fam:PS-Q4        SI-02C3:PS-Q4
+SI-03C2:MA-Q4                SI-Fam:PS-Q4        SI-03C2:PS-Q4
+SI-03C3:MA-Q4                SI-Fam:PS-Q4        SI-03C3:PS-Q4
+SI-04C2:MA-Q4                SI-Fam:PS-Q4        SI-04C2:PS-Q4
+SI-04C3:MA-Q4                SI-Fam:PS-Q4        SI-04C3:PS-Q4
+SI-05C2:MA-Q4                SI-Fam:PS-Q4        SI-05C2:PS-Q4
+SI-05C3:MA-Q4                SI-Fam:PS-Q4        SI-05C3:PS-Q4
+SI-06C2:MA-Q4                SI-Fam:PS-Q4        SI-06C2:PS-Q4
+SI-06C3:MA-Q4                SI-Fam:PS-Q4        SI-06C3:PS-Q4
+SI-07C2:MA-Q4                SI-Fam:PS-Q4        SI-07C2:PS-Q4
+SI-07C3:MA-Q4                SI-Fam:PS-Q4        SI-07C3:PS-Q4
+SI-08C2:MA-Q4                SI-Fam:PS-Q4        SI-08C2:PS-Q4
+SI-08C3:MA-Q4                SI-Fam:PS-Q4        SI-08C3:PS-Q4
+SI-09C2:MA-Q4                SI-Fam:PS-Q4        SI-09C2:PS-Q4
+SI-09C3:MA-Q4                SI-Fam:PS-Q4        SI-09C3:PS-Q4
+SI-10C2:MA-Q4                SI-Fam:PS-Q4        SI-10C2:PS-Q4
+SI-10C3:MA-Q4                SI-Fam:PS-Q4        SI-10C3:PS-Q4
+SI-11C2:MA-Q4                SI-Fam:PS-Q4        SI-11C2:PS-Q4
+SI-11C3:MA-Q4                SI-Fam:PS-Q4        SI-11C3:PS-Q4
+SI-12C2:MA-Q4                SI-Fam:PS-Q4        SI-12C2:PS-Q4
+SI-12C3:MA-Q4                SI-Fam:PS-Q4        SI-12C3:PS-Q4
+SI-13C2:MA-Q4                SI-Fam:PS-Q4        SI-13C2:PS-Q4
+SI-13C3:MA-Q4                SI-Fam:PS-Q4        SI-13C3:PS-Q4
+SI-14C2:MA-Q4                SI-Fam:PS-Q4        SI-14C2:PS-Q4
+SI-14C3:MA-Q4                SI-Fam:PS-Q4        SI-14C3:PS-Q4
+SI-15C2:MA-Q4                SI-Fam:PS-Q4        SI-15C2:PS-Q4
+SI-15C3:MA-Q4                SI-Fam:PS-Q4        SI-15C3:PS-Q4
+SI-16C2:MA-Q4                SI-Fam:PS-Q4        SI-16C2:PS-Q4
+SI-16C3:MA-Q4                SI-Fam:PS-Q4        SI-16C3:PS-Q4
+SI-17C2:MA-Q4                SI-Fam:PS-Q4        SI-17C2:PS-Q4
+SI-17C3:MA-Q4                SI-Fam:PS-Q4        SI-17C3:PS-Q4
+SI-18C2:MA-Q4                SI-Fam:PS-Q4        SI-18C2:PS-Q4
+SI-18C3:MA-Q4                SI-Fam:PS-Q4        SI-18C3:PS-Q4
+SI-19C2:MA-Q4                SI-Fam:PS-Q4        SI-19C2:PS-Q4
+SI-19C3:MA-Q4                SI-Fam:PS-Q4        SI-19C3:PS-Q4
+SI-20C2:MA-Q4                SI-Fam:PS-Q4        SI-20C2:PS-Q4
+SI-20C3:MA-Q4                SI-Fam:PS-Q4        SI-20C3:PS-Q4
+
+# --- sextupole magnets ---
+
+SI-01M1:MA-SFA0              SI-Fam:PS-SFA0      SI-01M1:PS-QS
+SI-01M2:MA-SFA0              SI-Fam:PS-SFA0      SI-01M2:PS-QS
+SI-05M1:MA-SFA0              SI-Fam:PS-SFA0      SI-05M1:PS-QS
+SI-05M2:MA-SFA0              SI-Fam:PS-SFA0      SI-05M2:PS-QS
+SI-09M1:MA-SFA0              SI-Fam:PS-SFA0      SI-09M1:PS-QS
+SI-09M2:MA-SFA0              SI-Fam:PS-SFA0      SI-09M2:PS-QS
+SI-13M1:MA-SFA0              SI-Fam:PS-SFA0      SI-13M1:PS-QS
+SI-13M2:MA-SFA0              SI-Fam:PS-SFA0      SI-13M2:PS-QS
+SI-17M1:MA-SFA0              SI-Fam:PS-SFA0      SI-17M1:PS-QS
+SI-17M2:MA-SFA0              SI-Fam:PS-SFA0      SI-17M2:PS-QS
+
+SI-01M1:MA-SDA0              SI-Fam:PS-SDA0      SI-01M1:PS-CH       SI-01M1:PS-CV
+SI-01M2:MA-SDA0              SI-Fam:PS-SDA0      SI-01M2:PS-CH       SI-01M2:PS-CV
+SI-05M1:MA-SDA0              SI-Fam:PS-SDA0      SI-05M1:PS-CH       SI-05M1:PS-CV
+SI-05M2:MA-SDA0              SI-Fam:PS-SDA0      SI-05M2:PS-CH       SI-05M2:PS-CV
+SI-09M1:MA-SDA0              SI-Fam:PS-SDA0      SI-09M1:PS-CH       SI-09M1:PS-CV
+SI-09M2:MA-SDA0              SI-Fam:PS-SDA0      SI-09M2:PS-CH       SI-09M2:PS-CV
+SI-13M1:MA-SDA0              SI-Fam:PS-SDA0      SI-13M1:PS-CH       SI-13M1:PS-CV
+SI-13M2:MA-SDA0              SI-Fam:PS-SDA0      SI-13M2:PS-CH       SI-13M2:PS-CV
+SI-17M1:MA-SDA0              SI-Fam:PS-SDA0      SI-17M1:PS-CH       SI-17M1:PS-CV
+SI-17M2:MA-SDA0              SI-Fam:PS-SDA0      SI-17M2:PS-CH       SI-17M2:PS-CV
+
+SI-01C1:MA-SDA1              SI-Fam:PS-SDA1      SI-01C1:PS-CH       SI-01C1:PS-CV
+SI-05C1:MA-SDA1              SI-Fam:PS-SDA1      SI-05C1:PS-CH       SI-05C1:PS-CV
+SI-09C1:MA-SDA1              SI-Fam:PS-SDA1      SI-09C1:PS-CH       SI-09C1:PS-CV
+SI-13C1:MA-SDA1              SI-Fam:PS-SDA1      SI-13C1:PS-CH       SI-13C1:PS-CV
+SI-17C1:MA-SDA1              SI-Fam:PS-SDA1      SI-17C1:PS-CH       SI-17C1:PS-CV
+
+SI-01C1:MA-SFA1              SI-Fam:PS-SFA1
+SI-05C1:MA-SFA1              SI-Fam:PS-SFA1
+SI-09C1:MA-SFA1              SI-Fam:PS-SFA1
+SI-13C1:MA-SFA1              SI-Fam:PS-SFA1
+SI-17C1:MA-SFA1              SI-Fam:PS-SFA1
+
+SI-01C1:MA-SDA2              SI-Fam:PS-SDA2      SI-01C1:PS-QS
+SI-05C1:MA-SDA2              SI-Fam:PS-SDA2      SI-05C1:PS-QS
+SI-09C1:MA-SDA2              SI-Fam:PS-SDA2      SI-09C1:PS-QS
+SI-13C1:MA-SDA2              SI-Fam:PS-SDA2      SI-13C1:PS-QS
+SI-17C1:MA-SDA2              SI-Fam:PS-SDA2      SI-17C1:PS-QS
+
+SI-01C2:MA-SDA3              SI-Fam:PS-SDA3      SI-01C2:PS-CV-1
+SI-05C2:MA-SDA3              SI-Fam:PS-SDA3      SI-05C2:PS-CV-1
+SI-09C2:MA-SDA3              SI-Fam:PS-SDA3      SI-09C2:PS-CV-1
+SI-13C2:MA-SDA3              SI-Fam:PS-SDA3      SI-13C2:PS-CV-1
+SI-17C2:MA-SDA3              SI-Fam:PS-SDA3      SI-17C2:PS-CV-1
+
+SI-01C2:MA-SFA2              SI-Fam:PS-SFA2      SI-01C2:PS-CH
+SI-05C2:MA-SFA2              SI-Fam:PS-SFA2      SI-05C2:PS-CH
+SI-09C2:MA-SFA2              SI-Fam:PS-SFA2      SI-09C2:PS-CH
+SI-13C2:MA-SFA2              SI-Fam:PS-SFA2      SI-13C2:PS-CH
+SI-17C2:MA-SFA2              SI-Fam:PS-SFA2      SI-17C2:PS-CH
+
+SI-01C3:MA-SFB2              SI-Fam:PS-SFB2      SI-01C3:PS-CH       SI-01C3:PS-CV-1
+SI-03C3:MA-SFB2              SI-Fam:PS-SFB2      SI-03C3:PS-CH       SI-03C3:PS-CV-1
+SI-05C3:MA-SFB2              SI-Fam:PS-SFB2      SI-05C3:PS-CH       SI-05C3:PS-CV-1
+SI-07C3:MA-SFB2              SI-Fam:PS-SFB2      SI-07C3:PS-CH       SI-07C3:PS-CV-1
+SI-09C3:MA-SFB2              SI-Fam:PS-SFB2      SI-09C3:PS-CH       SI-09C3:PS-CV-1
+SI-11C3:MA-SFB2              SI-Fam:PS-SFB2      SI-11C3:PS-CH       SI-11C3:PS-CV-1
+SI-13C3:MA-SFB2              SI-Fam:PS-SFB2      SI-13C3:PS-CH       SI-13C3:PS-CV-1
+SI-15C3:MA-SFB2              SI-Fam:PS-SFB2      SI-15C3:PS-CH       SI-15C3:PS-CV-1
+SI-17C3:MA-SFB2              SI-Fam:PS-SFB2      SI-17C3:PS-CH       SI-17C3:PS-CV-1
+SI-19C3:MA-SFB2              SI-Fam:PS-SFB2      SI-19C3:PS-CH       SI-19C3:PS-CV-1
+
+SI-02C2:MA-SFB2              SI-Fam:PS-SFB2      SI-02C2:PS-CH
+SI-04C2:MA-SFB2              SI-Fam:PS-SFB2      SI-04C2:PS-CH
+SI-06C2:MA-SFB2              SI-Fam:PS-SFB2      SI-06C2:PS-CH
+SI-08C2:MA-SFB2              SI-Fam:PS-SFB2      SI-08C2:PS-CH
+SI-10C2:MA-SFB2              SI-Fam:PS-SFB2      SI-10C2:PS-CH
+SI-12C2:MA-SFB2              SI-Fam:PS-SFB2      SI-12C2:PS-CH
+SI-14C2:MA-SFB2              SI-Fam:PS-SFB2      SI-14C2:PS-CH
+SI-16C2:MA-SFB2              SI-Fam:PS-SFB2      SI-16C2:PS-CH
+SI-18C2:MA-SFB2              SI-Fam:PS-SFB2      SI-18C2:PS-CH
+SI-20C2:MA-SFB2              SI-Fam:PS-SFB2      SI-20C2:PS-CH
