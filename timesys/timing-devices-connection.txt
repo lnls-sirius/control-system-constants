@@ -4,7 +4,7 @@ AS-Glob:TI-EVG:LCOUT2               AS-06:TI-FOUT:LCIN
 AS-Glob:TI-EVG:LCOUT3               AS-10:TI-FOUT:LCIN
 AS-Glob:TI-EVG:LCOUT4               AS-14:TI-FOUT:LCIN
 AS-Glob:TI-EVG:LCOUT5               AS-18:TI-FOUT:LCIN
-AS-Glob:TI-EVG:LCOUT6               LI-01:TI-EVR:LCIN
+AS-Glob:TI-EVG:LCOUT6               AS-01:TI-FOUT:LCIN
 
 # Second Layer: From FOUTs to EVRS and AFCs
 AS-02:TI-FOUT:LCOUT1                AS-01:TI-EVR:LCIN
@@ -52,6 +52,9 @@ AS-18:TI-FOUT:LCOUT6                AS-18:TI-AFC:LCIN
 AS-18:TI-FOUT:LCOUT7                AS-19:TI-AFC:LCIN
 AS-18:TI-FOUT:LCOUT8                AS-20:TI-AFC:LCIN
 
+AS-01:TI-FOUT:LCOUT1                LI-01:TI-EVR:LCIN
+AS-01:TI-FOUT:LCOUT2                AS-21:TI-AFC:LCIN
+AS-01:TI-FOUT:LCOUT3                AS-22:TI-AFC:LCIN
 
 ##LINAC EVR
 LI-01:TI-EVR:LCOUT1                 LI-01:TI-STDMOE:LCIN1
