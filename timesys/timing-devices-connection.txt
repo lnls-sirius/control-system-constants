@@ -7,7 +7,7 @@ AS-Glob:TI-EVG:LC5                  AS-18:TI-FOUT:LC
 AS-Glob:TI-EVG:LC6                  AS-01:TI-FOUT:LC
 
 # Second Layer: From FOUTs to EVRS and AFCs
-AS-02:TI-FOUT:LC1                   AS-01:TI-EVR:LC
+AS-02:TI-FOUT:LC1                   AS-01:TI-EVR-1:LC
 AS-02:TI-FOUT:LC2                   AS-02:TI-EVR:LC
 AS-02:TI-FOUT:LC3                   AS-03:TI-EVR:LC
 AS-02:TI-FOUT:LC4                   AS-04:TI-EVR:LC
@@ -52,21 +52,21 @@ AS-18:TI-FOUT:LC6                   AS-18:TI-AFC:LC
 AS-18:TI-FOUT:LC7                   AS-19:TI-AFC:LC
 AS-18:TI-FOUT:LC8                   AS-20:TI-AFC:LC
 
-AS-01:TI-FOUT:LC1                   AS-01:TI-EVR:LC
+AS-01:TI-FOUT:LC1                   AS-01:TI-EVR-2:LC
 AS-01:TI-FOUT:LC2                   AS-21:TI-AFC:LC
 AS-01:TI-FOUT:LC3                   AS-22:TI-AFC:LC
 
 ##LINAC EVR
-AS-01:TI-EVR:LC1                    LI-01:TI-STDMOE:LC1
-AS-01:TI-EVR:LC2                    LI-01:TI-STDMOE:LC2
-AS-01:TI-EVR:OPT01                  LI-01:TI-STDSOE-1:OPT1
-AS-01:TI-EVR:OPT02                  LI-01:TI-STDSOE-1:OPT2
-AS-01:TI-EVR:OPT03                  LI-01:TI-STDSOE-2:OPT1
-AS-01:TI-EVR:OPT04                  LI-01:TI-STDSOE-2:OPT2
-AS-01:TI-EVR:OPT05                  LI-01:TI-STDSOE-2:OPT3
-AS-01:TI-EVR:OPT06                  LI-01:TI-STDSOE-3:OPT1
-AS-01:TI-EVR:OPT07                  LI-01:TI-STDSOE-3:OPT2
-AS-01:TI-EVR:OPT08                  LI-01:TI-STDSOE-3:OPT3
+AS-01:TI-EVR-2:LC1                    LI-01:TI-STDMOE:LC1
+AS-01:TI-EVR-2:LC2                    LI-01:TI-STDMOE:LC2
+AS-01:TI-EVR-2:OPT01                  LI-01:TI-STDSOE-1:OPT1
+AS-01:TI-EVR-2:OPT02                  LI-01:TI-STDSOE-1:OPT2
+AS-01:TI-EVR-2:OPT03                  LI-01:TI-STDSOE-2:OPT1
+AS-01:TI-EVR-2:OPT04                  LI-01:TI-STDSOE-2:OPT2
+AS-01:TI-EVR-2:OPT05                  LI-01:TI-STDSOE-2:OPT3
+AS-01:TI-EVR-2:OPT06                  LI-01:TI-STDSOE-3:OPT1
+AS-01:TI-EVR-2:OPT07                  LI-01:TI-STDSOE-3:OPT2
+AS-01:TI-EVR-2:OPT08                  LI-01:TI-STDSOE-3:OPT3
 
 LI-01:TI-STDMOE:BNC1                LI-01:EGun-EGun:BNC1   #MultiBunch
 LI-01:TI-STDMOE:BNC2                LI-01:EGun-EGun:BNC2   #SingleBunch
@@ -80,24 +80,24 @@ LI-01:TI-STDSOE-3:BNC2              LI-01:RF-LLRF-2:BNC
 LI-01:TI-STDSOE-3:BNC3              LI-01:RF-LLRF-3:BNC
 
 ##EVR from Sector 01
-AS-01:TI-EVR:LC1                    SI-01:TI-STDMOE-1:LC1
-AS-01:TI-EVR:LC2                    SI-01:TI-STDMOE-1:LC2
-AS-01:TI-EVR:LC3                    SI-01:TI-STDMOE-1:LC3
-AS-01:TI-EVR:LC4                    SI-01:TI-STDMOE-1:LC4
-AS-01:TI-EVR:LC5                    SI-01:TI-STDMOE-2:LC1
-AS-01:TI-EVR:LC6                    SI-01:TI-STDMOE-2:LC2
-AS-01:TI-EVR:LC8                    SI-01:TI-STDMOE-2:LC4
-AS-01:TI-EVR:OPT01                  BO-01:TI-SOE-1:OPT
-AS-01:TI-EVR:OPT02                  BO-01:TI-SOE-2:OPT
-AS-01:TI-EVR:OPT03                  BO-01:TI-SOE-3:OPT
-AS-01:TI-EVR:OPT04                  BO-01:TI-SOE-4:OPT
-AS-01:TI-EVR:OPT05                  BO-01:TI-SOE-5:OPT
-AS-01:TI-EVR:OPT06                  TB-01:TI-SOE:OPT
-AS-01:TI-EVR:OPT07                  TS-01:TI-SOE-1:OPT
-AS-01:TI-EVR:OPT08                  TS-01:TI-SOE-2:OPT
-AS-01:TI-EVR:OPT09                  TS-01:TI-SOE-3:OPT
-AS-01:TI-EVR:OPT10                  TS-01:TI-SOE-4:OPT
-AS-01:TI-EVR:OPT11                  SI-01:TI-SOE:OPT
+AS-01:TI-EVR-1:LC1                    SI-01:TI-STDMOE-1:LC1
+AS-01:TI-EVR-1:LC2                    SI-01:TI-STDMOE-1:LC2
+AS-01:TI-EVR-1:LC3                    SI-01:TI-STDMOE-1:LC3
+AS-01:TI-EVR-1:LC4                    SI-01:TI-STDMOE-1:LC4
+AS-01:TI-EVR-1:LC5                    SI-01:TI-STDMOE-2:LC1
+AS-01:TI-EVR-1:LC6                    SI-01:TI-STDMOE-2:LC2
+AS-01:TI-EVR-1:LC8                    SI-01:TI-STDMOE-2:LC4
+AS-01:TI-EVR-1:OPT01                  BO-01:TI-SOE-1:OPT
+AS-01:TI-EVR-1:OPT02                  BO-01:TI-SOE-2:OPT
+AS-01:TI-EVR-1:OPT03                  BO-01:TI-SOE-3:OPT
+AS-01:TI-EVR-1:OPT04                  BO-01:TI-SOE-4:OPT
+AS-01:TI-EVR-1:OPT05                  BO-01:TI-SOE-5:OPT
+AS-01:TI-EVR-1:OPT06                  TB-01:TI-SOE:OPT
+AS-01:TI-EVR-1:OPT07                  TS-01:TI-SOE-1:OPT
+AS-01:TI-EVR-1:OPT08                  TS-01:TI-SOE-2:OPT
+AS-01:TI-EVR-1:OPT09                  TS-01:TI-SOE-3:OPT
+AS-01:TI-EVR-1:OPT10                  TS-01:TI-SOE-4:OPT
+AS-01:TI-EVR-1:OPT11                  SI-01:TI-SOE:OPT
 
 SI-01:TI-STDMOE-1:BNC1              SI-01:CO-BBB-1:BNC  # SI quadrupoles
 SI-01:TI-STDMOE-1:BNC2              SI-01:CO-BBB-2:BNC  # SI quadrupoles
