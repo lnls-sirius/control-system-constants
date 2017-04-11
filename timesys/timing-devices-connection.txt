@@ -64,17 +64,17 @@ AS-01:TI-EVR-3:LC1                  BO-Fam:TI-STDMOE:LC1
 AS-01:TI-EVR-3:LC2                  BO-Fam:TI-STDMOE:LC2
 AS-01:TI-EVR-3:LC3                  BO-Fam:TI-STDMOE:LC3
 AS-01:TI-EVR-3:OPT01                SI-Fam:TI-SOE-01:OPT
-AS-02:TI-EVR-3:OPT02                SI-Fam:TI-SOE-02:OPT
-AS-03:TI-EVR-3:OPT03                SI-Fam:TI-SOE-03:OPT
-AS-04:TI-EVR-3:OPT04                SI-Fam:TI-SOE-04:OPT
-AS-05:TI-EVR-3:OPT05                SI-Fam:TI-SOE-05:OPT
-AS-06:TI-EVR-3:OPT06                SI-Fam:TI-SOE-06:OPT
-AS-07:TI-EVR-3:OPT07                SI-Fam:TI-SOE-07:OPT
-AS-08:TI-EVR-3:OPT08                SI-Fam:TI-SOE-08:OPT
-AS-09:TI-EVR-3:OPT09                SI-Fam:TI-SOE-09:OPT
-AS-10:TI-EVR-3:OPT10                SI-Fam:TI-SOE-10:OPT
-AS-11:TI-EVR-3:OPT11                SI-Fam:TI-SOE-11:OPT
-AS-12:TI-EVR-3:OPT12                SI-Fam:TI-SOE-12:OPT
+AS-01:TI-EVR-3:OPT02                SI-Fam:TI-SOE-02:OPT
+AS-01:TI-EVR-3:OPT03                SI-Fam:TI-SOE-03:OPT
+AS-01:TI-EVR-3:OPT04                SI-Fam:TI-SOE-04:OPT
+AS-01:TI-EVR-3:OPT05                SI-Fam:TI-SOE-05:OPT
+AS-01:TI-EVR-3:OPT06                SI-Fam:TI-SOE-06:OPT
+AS-01:TI-EVR-3:OPT07                SI-Fam:TI-SOE-07:OPT
+AS-01:TI-EVR-3:OPT08                SI-Fam:TI-SOE-08:OPT
+AS-01:TI-EVR-3:OPT09                SI-Fam:TI-SOE-09:OPT
+AS-01:TI-EVR-3:OPT10                SI-Fam:TI-SOE-10:OPT
+AS-01:TI-EVR-3:OPT11                SI-Fam:TI-SOE-11:OPT
+AS-01:TI-EVR-3:OPT12                SI-Fam:TI-SOE-12:OPT
 
 BO-Fam:TI-STDMOE:BNC1               BO-Fam:CO-BBB-1:BNC # BO Dipole Families
 BO-Fam:TI-STDMOE:BNC2               BO-Fam:CO-BBB-2:BNC # BO Quadrupoles
@@ -114,7 +114,7 @@ TS-01:TI-SOE-4:BNC                  TS-01:PU-EjeSF:BNC
 TS-01:TI-SOE-5:BNC                  TS-01:PU-EjeSG:BNC
 TS-01:TI-SOE-6:BNC                  TS-Fam:PU-InjSG:BNC
 TS-01:TI-SOE-7:BNC                  TS-04:PU-InjSF:BNC
-SI-01:TI-SOE:BNC                    SI-01SA:PU-InjK:BNC
+SI-01:TI-SOE-7:BNC                    SI-01SA:PU-InjK:BNC
 
 ## Transport lines magnets
 AS-21:TI-AFC:OPT01                  TB-01:TI-SOE-1:OPT
@@ -352,7 +352,7 @@ SI-13:TI-SOE-3:BNC                  SI-13:CO-BBB-3:BNC  # SI correctors
 SI-13:TI-SOE-4:BNC                  SI-13:CO-BBB-4:BNC  # SI correctors
 SI-13:TI-SOE-5:BNC                  SI-13:CO-BBB-5:BNC  # SI skew quadrupoles
 SI-13:TI-SOE-6:BNC                  SI-13:CO-BBB-6:BNC  # SI skew quadrupoles
-BO-13:TI-SOE-1:BNC                  BO-13:CO-BBB:BNC    # BO correctors
+BO-13:TI-SOE:BNC                    BO-13:CO-BBB:BNC    # BO correctors
 
 ##AFC from Sector 14
 AS-14:TI-AFC:OPT01                  SI-14:TI-SOE-1:OPT
@@ -369,7 +369,7 @@ SI-14:TI-SOE-3:BNC                  SI-14:CO-BBB-3:BNC  # SI correctors
 SI-14:TI-SOE-4:BNC                  SI-14:CO-BBB-4:BNC  # SI correctors
 SI-14:TI-SOE-5:BNC                  SI-14:CO-BBB-5:BNC  # SI skew quadrupoles
 SI-14:TI-SOE-6:BNC                  SI-14:CO-BBB-6:BNC  # SI skew quadrupoles
-BO-14:TI-SOE-1:BNC                  BO-14:CO-BBB:BNC    # BO correctors
+BO-14:TI-SOE:BNC                    BO-14:CO-BBB:BNC    # BO correctors
 
 ##AFC from Sector 15
 AS-15:TI-AFC:OPT01                  SI-15:TI-SOE-1:OPT
@@ -386,7 +386,7 @@ SI-15:TI-SOE-3:BNC                  SI-15:CO-BBB-3:BNC  # SI correctors
 SI-15:TI-SOE-4:BNC                  SI-15:CO-BBB-4:BNC  # SI correctors
 SI-15:TI-SOE-5:BNC                  SI-15:CO-BBB-5:BNC  # SI skew quadrupoles
 SI-15:TI-SOE-6:BNC                  SI-15:CO-BBB-6:BNC  # SI skew quadrupoles
-BO-15:TI-SOE-1:BNC                  BO-15:CO-BBB:BNC    # BO correctors
+BO-15:TI-SOE:BNC                    BO-15:CO-BBB:BNC    # BO correctors
 
 ##AFC from Sector 16
 AS-16:TI-AFC:OPT01                  SI-16:TI-SOE-1:OPT
