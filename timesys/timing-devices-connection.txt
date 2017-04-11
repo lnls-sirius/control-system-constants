@@ -1,72 +1,52 @@
 ## First Layer: From EVG to FOUTs
-AS-Glob:TI-EVG:LC1                  AS-02:TI-FOUT:LC
-AS-Glob:TI-EVG:LC2                  AS-06:TI-FOUT:LC
-AS-Glob:TI-EVG:LC3                  AS-10:TI-FOUT:LC
-AS-Glob:TI-EVG:LC4                  AS-14:TI-FOUT:LC
+AS-Glob:TI-EVG:LC1                  AS-01:TI-FOUT:LC
+AS-Glob:TI-EVG:LC2                  AS-03:TI-FOUT:LC
+AS-Glob:TI-EVG:LC3                  AS-08:TI-FOUT:LC
+AS-Glob:TI-EVG:LC4                  AS-13:TI-FOUT:LC
 AS-Glob:TI-EVG:LC5                  AS-18:TI-FOUT:LC
-AS-Glob:TI-EVG:LC6                  AS-01:TI-FOUT:LC
 
 # Second Layer: From FOUTs to EVRS and AFCs
-AS-02:TI-FOUT:LC1                   AS-01:TI-EVR-1:LC
-AS-02:TI-FOUT:LC2                   AS-02:TI-EVR:LC
-AS-02:TI-FOUT:LC3                   AS-03:TI-EVR:LC
-AS-02:TI-FOUT:LC4                   AS-04:TI-EVR:LC
-AS-02:TI-FOUT:LC5                   AS-01:TI-AFC:LC
-AS-02:TI-FOUT:LC6                   AS-02:TI-AFC:LC
-AS-02:TI-FOUT:LC7                   AS-03:TI-AFC:LC
-AS-02:TI-FOUT:LC8                   AS-04:TI-AFC:LC
+AS-01:TI-FOUT:LC1                   AS-21:TI-AFC:LC
+AS-01:TI-FOUT:LC2                   AS-01:TI-EVR-1:LC
+AS-01:TI-FOUT:LC3                   AS-01:TI-EVR-2:LC
+AS-01:TI-FOUT:LC4                   AS-01:TI-EVR-3:LC
 
-AS-06:TI-FOUT:LC1                   AS-05:TI-EVR:LC
-AS-06:TI-FOUT:LC2                   AS-06:TI-EVR:LC
-AS-06:TI-FOUT:LC3                   AS-07:TI-EVR:LC
-AS-06:TI-FOUT:LC4                   AS-08:TI-EVR:LC
-AS-06:TI-FOUT:LC5                   AS-05:TI-AFC:LC
-AS-06:TI-FOUT:LC6                   AS-06:TI-AFC:LC
-AS-06:TI-FOUT:LC7                   AS-07:TI-AFC:LC
-AS-06:TI-FOUT:LC8                   AS-08:TI-AFC:LC
+AS-03:TI-FOUT:LC1                   AS-01:TI-AFC:LC
+AS-03:TI-FOUT:LC2                   AS-02:TI-AFC:LC
+AS-03:TI-FOUT:LC3                   AS-03:TI-AFC:LC
+AS-03:TI-FOUT:LC4                   AS-04:TI-AFC:LC
+AS-03:TI-FOUT:LC5                   AS-05:TI-AFC:LC
 
-AS-10:TI-FOUT:LC1                   AS-09:TI-EVR:LC
-AS-10:TI-FOUT:LC2                   AS-10:TI-EVR:LC
-AS-10:TI-FOUT:LC3                   AS-11:TI-EVR:LC
-AS-10:TI-FOUT:LC4                   AS-12:TI-EVR:LC
-AS-10:TI-FOUT:LC5                   AS-09:TI-AFC:LC
-AS-10:TI-FOUT:LC6                   AS-10:TI-AFC:LC
-AS-10:TI-FOUT:LC7                   AS-11:TI-AFC:LC
-AS-10:TI-FOUT:LC8                   AS-12:TI-AFC:LC
+AS-08:TI-FOUT:LC1                   AS-06:TI-AFC:LC
+AS-08:TI-FOUT:LC2                   AS-07:TI-AFC:LC
+AS-08:TI-FOUT:LC3                   AS-08:TI-AFC:LC
+AS-08:TI-FOUT:LC4                   AS-09:TI-AFC:LC
+AS-08:TI-FOUT:LC5                   AS-10:TI-AFC:LC
 
-AS-14:TI-FOUT:LC1                   AS-13:TI-EVR:LC
-AS-14:TI-FOUT:LC2                   AS-14:TI-EVR:LC
-AS-14:TI-FOUT:LC3                   AS-15:TI-EVR:LC
-AS-14:TI-FOUT:LC4                   AS-16:TI-EVR:LC
-AS-14:TI-FOUT:LC5                   AS-13:TI-AFC:LC
-AS-14:TI-FOUT:LC6                   AS-14:TI-AFC:LC
-AS-14:TI-FOUT:LC7                   AS-15:TI-AFC:LC
-AS-14:TI-FOUT:LC8                   AS-16:TI-AFC:LC
+AS-13:TI-FOUT:LC1                   AS-11:TI-AFC:LC
+AS-13:TI-FOUT:LC2                   AS-12:TI-AFC:LC
+AS-13:TI-FOUT:LC3                   AS-13:TI-AFC:LC
+AS-13:TI-FOUT:LC4                   AS-14:TI-AFC:LC
+AS-13:TI-FOUT:LC5                   AS-15:TI-AFC:LC
 
-AS-18:TI-FOUT:LC1                   AS-17:TI-EVR:LC
-AS-18:TI-FOUT:LC2                   AS-18:TI-EVR:LC
-AS-18:TI-FOUT:LC3                   AS-19:TI-EVR:LC
-AS-18:TI-FOUT:LC4                   AS-20:TI-EVR:LC
-AS-18:TI-FOUT:LC5                   AS-17:TI-AFC:LC
-AS-18:TI-FOUT:LC6                   AS-18:TI-AFC:LC
-AS-18:TI-FOUT:LC7                   AS-19:TI-AFC:LC
-AS-18:TI-FOUT:LC8                   AS-20:TI-AFC:LC
+AS-18:TI-FOUT:LC1                   AS-16:TI-AFC:LC
+AS-18:TI-FOUT:LC2                   AS-17:TI-AFC:LC
+AS-18:TI-FOUT:LC3                   AS-18:TI-AFC:LC
+AS-18:TI-FOUT:LC4                   AS-19:TI-AFC:LC
+AS-18:TI-FOUT:LC5                   AS-20:TI-AFC:LC
 
-AS-01:TI-FOUT:LC1                   AS-01:TI-EVR-2:LC
-AS-01:TI-FOUT:LC2                   AS-21:TI-AFC:LC
-AS-01:TI-FOUT:LC3                   AS-22:TI-AFC:LC
 
 ##LINAC EVR
-AS-01:TI-EVR-2:LC1                    LI-01:TI-STDMOE:LC1
-AS-01:TI-EVR-2:LC2                    LI-01:TI-STDMOE:LC2
-AS-01:TI-EVR-2:OPT01                  LI-01:TI-STDSOE-1:OPT1
-AS-01:TI-EVR-2:OPT02                  LI-01:TI-STDSOE-1:OPT2
-AS-01:TI-EVR-2:OPT03                  LI-01:TI-STDSOE-2:OPT1
-AS-01:TI-EVR-2:OPT04                  LI-01:TI-STDSOE-2:OPT2
-AS-01:TI-EVR-2:OPT05                  LI-01:TI-STDSOE-2:OPT3
-AS-01:TI-EVR-2:OPT06                  LI-01:TI-STDSOE-3:OPT1
-AS-01:TI-EVR-2:OPT07                  LI-01:TI-STDSOE-3:OPT2
-AS-01:TI-EVR-2:OPT08                  LI-01:TI-STDSOE-3:OPT3
+AS-01:TI-EVR-1:LC1                  LI-01:TI-STDMOE:LC1
+AS-01:TI-EVR-1:LC2                  LI-01:TI-STDMOE:LC2
+AS-01:TI-EVR-1:OPT01                LI-01:TI-STDSOE-1:OPT1
+AS-01:TI-EVR-1:OPT02                LI-01:TI-STDSOE-1:OPT2
+AS-01:TI-EVR-1:OPT03                LI-01:TI-STDSOE-2:OPT1
+AS-01:TI-EVR-1:OPT04                LI-01:TI-STDSOE-2:OPT2
+AS-01:TI-EVR-1:OPT05                LI-01:TI-STDSOE-2:OPT3
+AS-01:TI-EVR-1:OPT06                LI-01:TI-STDSOE-3:OPT1
+AS-01:TI-EVR-1:OPT07                LI-01:TI-STDSOE-3:OPT2
+AS-01:TI-EVR-1:OPT08                LI-01:TI-STDSOE-3:OPT3
 
 LI-01:TI-STDMOE:BNC1                LI-01:EGun-EGun:BNC1   #MultiBunch
 LI-01:TI-STDMOE:BNC2                LI-01:EGun-EGun:BNC2   #SingleBunch
@@ -79,34 +59,52 @@ LI-01:TI-STDSOE-3:BNC1              LI-01:RF-LLRF-1:BNC
 LI-01:TI-STDSOE-3:BNC2              LI-01:RF-LLRF-2:BNC
 LI-01:TI-STDSOE-3:BNC3              LI-01:RF-LLRF-3:BNC
 
-##EVR from Sector 01
-AS-01:TI-EVR-1:LC1                    SI-01:TI-STDMOE-1:LC1
-AS-01:TI-EVR-1:LC2                    SI-01:TI-STDMOE-1:LC2
-AS-01:TI-EVR-1:LC3                    SI-01:TI-STDMOE-1:LC3
-AS-01:TI-EVR-1:LC4                    SI-01:TI-STDMOE-1:LC4
-AS-01:TI-EVR-1:LC5                    SI-01:TI-STDMOE-2:LC1
-AS-01:TI-EVR-1:LC6                    SI-01:TI-STDMOE-2:LC2
-AS-01:TI-EVR-1:LC8                    SI-01:TI-STDMOE-2:LC4
-AS-01:TI-EVR-1:OPT01                  BO-01:TI-SOE-1:OPT
-AS-01:TI-EVR-1:OPT02                  BO-01:TI-SOE-2:OPT
-AS-01:TI-EVR-1:OPT03                  BO-01:TI-SOE-3:OPT
-AS-01:TI-EVR-1:OPT04                  BO-01:TI-SOE-4:OPT
-AS-01:TI-EVR-1:OPT05                  BO-01:TI-SOE-5:OPT
-AS-01:TI-EVR-1:OPT06                  TB-01:TI-SOE:OPT
-AS-01:TI-EVR-1:OPT07                  TS-01:TI-SOE-1:OPT
-AS-01:TI-EVR-1:OPT08                  TS-01:TI-SOE-2:OPT
-AS-01:TI-EVR-1:OPT09                  TS-01:TI-SOE-3:OPT
-AS-01:TI-EVR-1:OPT10                  TS-01:TI-SOE-4:OPT
-AS-01:TI-EVR-1:OPT11                  SI-01:TI-SOE:OPT
+## Magnets families power Supplies
+AS-01:TI-EVR-3:LC1                  BO-Fam:TI-STDMOE:LC1
+AS-01:TI-EVR-3:LC2                  BO-Fam:TI-STDMOE:LC2
+AS-01:TI-EVR-3:LC3                  BO-Fam:TI-STDMOE:LC3
+AS-01:TI-EVR-3:OPT01                SI-Fam:TI-SOE-01:OPT
+AS-02:TI-EVR-3:OPT02                SI-Fam:TI-SOE-02:OPT
+AS-03:TI-EVR-3:OPT03                SI-Fam:TI-SOE-03:OPT
+AS-04:TI-EVR-3:OPT04                SI-Fam:TI-SOE-04:OPT
+AS-05:TI-EVR-3:OPT05                SI-Fam:TI-SOE-05:OPT
+AS-06:TI-EVR-3:OPT06                SI-Fam:TI-SOE-06:OPT
+AS-07:TI-EVR-3:OPT07                SI-Fam:TI-SOE-07:OPT
+AS-08:TI-EVR-3:OPT08                SI-Fam:TI-SOE-08:OPT
+AS-09:TI-EVR-3:OPT09                SI-Fam:TI-SOE-09:OPT
+AS-10:TI-EVR-3:OPT10                SI-Fam:TI-SOE-10:OPT
+AS-11:TI-EVR-3:OPT11                SI-Fam:TI-SOE-11:OPT
+AS-12:TI-EVR-3:OPT12                SI-Fam:TI-SOE-12:OPT
 
-SI-01:TI-STDMOE-1:BNC1              SI-01:CO-BBB-1:BNC  # SI quadrupoles
-SI-01:TI-STDMOE-1:BNC2              SI-01:CO-BBB-2:BNC  # SI quadrupoles
-SI-01:TI-STDMOE-1:BNC3              SI-01:CO-BBB-3:BNC  # SI correctors
-SI-01:TI-STDMOE-1:BNC4              SI-01:CO-BBB-4:BNC  # SI correctors
-SI-01:TI-STDMOE-2:BNC1              SI-01:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-01:TI-STDMOE-2:BNC2              SI-01:CO-BBB-6:BNC  # SI skew quadrupoles
-SI-01:TI-STDMOE-2:BNC4              SI-Fam:CO-BBB-1:BNC  # SI Dipole families
-BO-01:TI-SOE-1:BNC                  BO-01:CO-BBB:BNC    # BO correctors
+BO-Fam:TI-STDMOE:BNC1               BO-Fam:CO-BBB-1:BNC # BO Dipole Families
+BO-Fam:TI-STDMOE:BNC2               BO-Fam:CO-BBB-2:BNC # BO Quadrupoles
+BO-Fam:TI-STDMOE:BNC3               BO-Fam:CO-BBB-3:BNC # BO Sextupoles
+SI-Fam:TI-SOE-01:BNC                SI-Fam:CO-BBB-01:BNC  # SI Dipole families
+SI-Fam:TI-SOE-02:BNC                SI-Fam:CO-BBB-02:BNC  # SI families of Quadrupole trims from Dipole
+SI-Fam:TI-SOE-03:BNC                SI-Fam:CO-BBB-03:BNC  # SI QFA and QDA Families
+SI-Fam:TI-SOE-04:BNC                SI-Fam:CO-BBB-04:BNC  # SI QFB and QDBs Families
+SI-Fam:TI-SOE-05:BNC                SI-Fam:CO-BBB-05:BNC  # SI QFP and QDPs Families
+SI-Fam:TI-SOE-06:BNC                SI-Fam:CO-BBB-06:BNC  # SI Q1, Q2, Q3 and Q4 Families
+SI-Fam:TI-SOE-07:BNC                SI-Fam:CO-BBB-07:BNC  # SI SDAs Families
+SI-Fam:TI-SOE-08:BNC                SI-Fam:CO-BBB-08:BNC  # SI SDBs Families
+SI-Fam:TI-SOE-09:BNC                SI-Fam:CO-BBB-09:BNC  # SI SDPs Families
+SI-Fam:TI-SOE-10:BNC                SI-Fam:CO-BBB-10:BNC  # SI SFAs Families
+SI-Fam:TI-SOE-11:BNC                SI-Fam:CO-BBB-11:BNC  # SI SFBs Families
+SI-Fam:TI-SOE-12:BNC                SI-Fam:CO-BBB-12:BNC  # SI SFPs Families
+
+
+## Injection pulsed magnets and cavity
+AS-01:TI-EVR-2:OPT01                BO-01:TI-SOE-2:OPT
+AS-01:TI-EVR-2:OPT02                BO-01:TI-SOE-3:OPT
+AS-01:TI-EVR-2:OPT03                BO-01:TI-SOE-4:OPT
+AS-01:TI-EVR-2:OPT04                BO-01:TI-SOE-5:OPT
+AS-01:TI-EVR-2:OPT05                TB-01:TI-SOE:OPT
+AS-01:TI-EVR-2:OPT06                TS-01:TI-SOE-1:OPT
+AS-01:TI-EVR-2:OPT07                TS-01:TI-SOE-2:OPT
+AS-01:TI-EVR-2:OPT08                TS-01:TI-SOE-3:OPT
+AS-01:TI-EVR-2:OPT19                TS-01:TI-SOE-4:OPT
+AS-01:TI-EVR-2:OPT10                SI-01:TI-SOE-7:OPT
+
 BO-01:TI-SOE-2:BNC                  BO-01D:PU-InjK:BNC
 BO-01:TI-SOE-3:BNC                  BO-48D:PU-EjeK:BNC
 BO-01:TI-SOE-4:BNC                  BO-05D:RF-P5Cav:BNC
@@ -118,359 +116,364 @@ TS-01:TI-SOE-3:BNC                  TS-Fam:PU-InjSG:BNC
 TS-01:TI-SOE-4:BNC                  TS-04:PU-InjSF:BNC
 SI-01:TI-SOE:BNC                    SI-01SA:PU-InjK:BNC
 
+## Transport lines magnets
+AS-21:TI-AFC:OPT01                  TB-01:TI-SOE-1:OPT
+AS-21:TI-AFC:OPT02                  TB-01:TI-SOE-2:OPT
+AS-21:TI-AFC:OPT03                  TB-01:TI-SOE-3:OPT
+AS-21:TI-AFC:OPT04                  TS-01:TI-SOE-1:OPT
+AS-21:TI-AFC:OPT05                  TS-01:TI-SOE-2:OPT
+AS-21:TI-AFC:OPT06                  TS-01:TI-SOE-3:OPT
 
-##EVR from Sector 02
-AS-02:TI-EVR:LC1                    SI-02:TI-STDMOE-1:LC1
-AS-02:TI-EVR:LC2                    SI-02:TI-STDMOE-1:LC2
-AS-02:TI-EVR:LC3                    SI-02:TI-STDMOE-1:LC3
-AS-02:TI-EVR:LC4                    SI-02:TI-STDMOE-1:LC4
-AS-02:TI-EVR:LC5                    SI-02:TI-STDMOE-2:LC1
-AS-02:TI-EVR:LC6                    SI-02:TI-STDMOE-2:LC2
-AS-02:TI-EVR:LC8                    SI-02:TI-STDMOE-2:LC4
-AS-02:TI-EVR:OPT01                  BO-02:TI-SOE:OPT
+TB-01:TI-SOE-1:BNC                  TB-Fam:CO-BBB:BNC   # TB dipoles
+TB-01:TI-SOE-2:BNC                  TB-01:CO-BBB-1:BNC  # TB Quadrupoles
+TB-01:TI-SOE-3:BNC                  TB-01:CO-BBB-2:BNC  # TB Correctors
+TS-01:TI-SOE-1:BNC                  TS-Fam:CO-BBB:BNC   # TB dipoles
+TS-01:TI-SOE-2:BNC                  TS-01:CO-BBB-1:BNC  # TB Quadrupoles
+TS-01:TI-SOE-3:BNC                  TS-01:CO-BBB-1:BNC  # TB Correctors
 
-SI-02:TI-STDMOE-1:BNC1              SI-02:CO-BBB-1:BNC  # SI quadrupoles
-SI-02:TI-STDMOE-1:BNC2              SI-02:CO-BBB-2:BNC  # SI quadrupoles
-SI-02:TI-STDMOE-1:BNC3              SI-02:CO-BBB-3:BNC  # SI correctors
-SI-02:TI-STDMOE-1:BNC4              SI-02:CO-BBB-4:BNC  # SI correctors
-SI-02:TI-STDMOE-2:BNC1              SI-02:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-02:TI-STDMOE-2:BNC2              SI-02:CO-BBB-6:BNC  # SI skew quadrupoles
-SI-02:TI-STDMOE-2:BNC4              SI-Fam:CO-BBB-2:BNC  # SI families of Quadrupole trims from Dipole
+
+##AFC from Sector 01
+AS-01:TI-AFC:OPT01                  SI-01:TI-SOE-1:OPT
+AS-01:TI-AFC:OPT02                  SI-01:TI-SOE-2:OPT
+AS-01:TI-AFC:OPT03                  SI-01:TI-SOE-3:OPT
+AS-01:TI-AFC:OPT04                  SI-01:TI-SOE-4:OPT
+AS-01:TI-AFC:OPT05                  SI-01:TI-SOE-5:OPT
+AS-01:TI-AFC:OPT06                  SI-01:TI-SOE-6:OPT
+AS-01:TI-AFC:OPT07                  BO-01:TI-SOE-1:OPT
+
+SI-01:TI-SOE-1:BNC                  SI-01:CO-BBB-1:BNC  # SI quadrupoles
+SI-01:TI-SOE-2:BNC                  SI-01:CO-BBB-2:BNC  # SI quadrupoles
+SI-01:TI-SOE-3:BNC                  SI-01:CO-BBB-3:BNC  # SI correctors
+SI-01:TI-SOE-4:BNC                  SI-01:CO-BBB-4:BNC  # SI correctors
+SI-01:TI-SOE-5:BNC                  SI-01:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-01:TI-SOE-6:BNC                  SI-01:CO-BBB-6:BNC  # SI skew quadrupoles
+BO-01:TI-SOE-1:BNC                  BO-01:CO-BBB:BNC    # BO correctors
+
+
+##AFC from Sector 02
+AS-02:TI-AFC:OPT01                  SI-02:TI-SOE-1:OPT
+AS-02:TI-AFC:OPT02                  SI-02:TI-SOE-2:OPT
+AS-02:TI-AFC:OPT03                  SI-02:TI-SOE-3:OPT
+AS-02:TI-AFC:OPT04                  SI-02:TI-SOE-4:OPT
+AS-02:TI-AFC:OPT05                  SI-02:TI-SOE-5:OPT
+AS-02:TI-AFC:OPT06                  SI-02:TI-SOE-6:OPT
+AS-02:TI-AFC:OPT07                  BO-02:TI-SOE:OPT
+
+SI-02:TI-SOE-1:BNC                  SI-02:CO-BBB-1:BNC  # SI quadrupoles
+SI-02:TI-SOE-2:BNC                  SI-02:CO-BBB-2:BNC  # SI quadrupoles
+SI-02:TI-SOE-3:BNC                  SI-02:CO-BBB-3:BNC  # SI correctors
+SI-02:TI-SOE-4:BNC                  SI-02:CO-BBB-4:BNC  # SI correctors
+SI-02:TI-SOE-5:BNC                  SI-02:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-02:TI-SOE-6:BNC                  SI-02:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-02:TI-SOE:BNC                    BO-02:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 03
-AS-03:TI-EVR:LC1                    SI-03:TI-STDMOE-1:LC1
-AS-03:TI-EVR:LC2                    SI-03:TI-STDMOE-1:LC2
-AS-03:TI-EVR:LC3                    SI-03:TI-STDMOE-1:LC3
-AS-03:TI-EVR:LC4                    SI-03:TI-STDMOE-1:LC4
-AS-03:TI-EVR:LC5                    SI-03:TI-STDMOE-2:LC1
-AS-03:TI-EVR:LC6                    SI-03:TI-STDMOE-2:LC2
-AS-03:TI-EVR:LC8                    SI-03:TI-STDMOE-2:LC4
-AS-03:TI-EVR:OPT01                  BO-03:TI-SOE:OPT
+##AFC from Sector 03
+AS-03:TI-AFC:OPT01                  SI-03:TI-SOE-1:OPT
+AS-03:TI-AFC:OPT02                  SI-03:TI-SOE-2:OPT
+AS-03:TI-AFC:OPT03                  SI-03:TI-SOE-3:OPT
+AS-03:TI-AFC:OPT04                  SI-03:TI-SOE-4:OPT
+AS-03:TI-AFC:OPT05                  SI-03:TI-SOE-5:OPT
+AS-03:TI-AFC:OPT06                  SI-03:TI-SOE-6:OPT
+AS-03:TI-AFC:OPT07                  BO-03:TI-SOE:OPT
 
-SI-03:TI-STDMOE-1:BNC1              SI-03:CO-BBB-1:BNC  # SI quadrupoles
-SI-03:TI-STDMOE-1:BNC2              SI-03:CO-BBB-2:BNC  # SI quadrupoles
-SI-03:TI-STDMOE-1:BNC3              SI-03:CO-BBB-3:BNC  # SI correctors
-SI-03:TI-STDMOE-1:BNC4              SI-03:CO-BBB-4:BNC  # SI correctors
-SI-03:TI-STDMOE-2:BNC1              SI-03:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-03:TI-STDMOE-2:BNC2              SI-03:CO-BBB-6:BNC  # SI skew quadrupoles
-SI-03:TI-STDMOE-2:BNC4              SI-Fam:CO-BBB-3:BNC  # SI QFA and QDA Families
+SI-03:TI-SOE-1:BNC                  SI-03:CO-BBB-1:BNC  # SI quadrupoles
+SI-03:TI-SOE-2:BNC                  SI-03:CO-BBB-2:BNC  # SI quadrupoles
+SI-03:TI-SOE-3:BNC                  SI-03:CO-BBB-3:BNC  # SI correctors
+SI-03:TI-SOE-4:BNC                  SI-03:CO-BBB-4:BNC  # SI correctors
+SI-03:TI-SOE-5:BNC                  SI-03:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-03:TI-SOE-6:BNC                  SI-03:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-03:TI-SOE:BNC                    BO-03:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 04
-AS-04:TI-EVR:LC1                    SI-04:TI-STDMOE-1:LC1
-AS-04:TI-EVR:LC2                    SI-04:TI-STDMOE-1:LC2
-AS-04:TI-EVR:LC3                    SI-04:TI-STDMOE-1:LC3
-AS-04:TI-EVR:LC4                    SI-04:TI-STDMOE-1:LC4
-AS-04:TI-EVR:LC5                    SI-04:TI-STDMOE-2:LC1
-AS-04:TI-EVR:LC6                    SI-04:TI-STDMOE-2:LC2
-AS-04:TI-EVR:LC8                    SI-04:TI-STDMOE-2:LC4
-AS-04:TI-EVR:OPT01                  BO-04:TI-SOE:OPT
+##AFC from Sector 04
+AS-04:TI-AFC:OPT01                  SI-04:TI-SOE-1:OPT
+AS-04:TI-AFC:OPT02                  SI-04:TI-SOE-2:OPT
+AS-04:TI-AFC:OPT03                  SI-04:TI-SOE-3:OPT
+AS-04:TI-AFC:OPT04                  SI-04:TI-SOE-4:OPT
+AS-04:TI-AFC:OPT05                  SI-04:TI-SOE-5:OPT
+AS-04:TI-AFC:OPT06                  SI-04:TI-SOE-6:OPT
+AS-04:TI-AFC:OPT07                  BO-04:TI-SOE:OPT
 
-SI-04:TI-STDMOE-1:BNC1              SI-04:CO-BBB-1:BNC  # SI quadrupoles
-SI-04:TI-STDMOE-1:BNC2              SI-04:CO-BBB-2:BNC  # SI quadrupoles
-SI-04:TI-STDMOE-1:BNC3              SI-04:CO-BBB-3:BNC  # SI correctors
-SI-04:TI-STDMOE-1:BNC4              SI-04:CO-BBB-4:BNC  # SI correctors
-SI-04:TI-STDMOE-2:BNC1              SI-04:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-04:TI-STDMOE-2:BNC2              SI-04:CO-BBB-6:BNC  # SI skew quadrupoles
-SI-04:TI-STDMOE-2:BNC4              SI-Fam:CO-BBB-4:BNC  # SI QFB and QDBs Families
+SI-04:TI-SOE-1:BNC                  SI-04:CO-BBB-1:BNC  # SI quadrupoles
+SI-04:TI-SOE-2:BNC                  SI-04:CO-BBB-2:BNC  # SI quadrupoles
+SI-04:TI-SOE-3:BNC                  SI-04:CO-BBB-3:BNC  # SI correctors
+SI-04:TI-SOE-4:BNC                  SI-04:CO-BBB-4:BNC  # SI correctors
+SI-04:TI-SOE-5:BNC                  SI-04:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-04:TI-SOE-6:BNC                  SI-04:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-04:TI-SOE:BNC                    BO-04:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 05
-AS-05:TI-EVR:LC1                    SI-05:TI-STDMOE-1:LC1
-AS-05:TI-EVR:LC2                    SI-05:TI-STDMOE-1:LC2
-AS-05:TI-EVR:LC3                    SI-05:TI-STDMOE-1:LC3
-AS-05:TI-EVR:LC4                    SI-05:TI-STDMOE-1:LC4
-AS-05:TI-EVR:LC5                    SI-05:TI-STDMOE-2:LC1
-AS-05:TI-EVR:LC6                    SI-05:TI-STDMOE-2:LC2
-AS-05:TI-EVR:LC8                    SI-05:TI-STDMOE-2:LC4
-AS-05:TI-EVR:OPT01                  BO-05:TI-SOE:OPT
+##AFC from Sector 05
+AS-05:TI-AFC:OPT01                  SI-05:TI-SOE-1:OPT
+AS-05:TI-AFC:OPT02                  SI-05:TI-SOE-2:OPT
+AS-05:TI-AFC:OPT03                  SI-05:TI-SOE-3:OPT
+AS-05:TI-AFC:OPT04                  SI-05:TI-SOE-4:OPT
+AS-05:TI-AFC:OPT05                  SI-05:TI-SOE-5:OPT
+AS-05:TI-AFC:OPT06                  SI-05:TI-SOE-6:OPT
+AS-05:TI-AFC:OPT07                  BO-05:TI-SOE:OPT
 
-SI-05:TI-STDMOE-1:BNC1              SI-05:CO-BBB-1:BNC  # SI quadrupoles
-SI-05:TI-STDMOE-1:BNC2              SI-05:CO-BBB-2:BNC  # SI quadrupoles
-SI-05:TI-STDMOE-1:BNC3              SI-05:CO-BBB-3:BNC  # SI correctors
-SI-05:TI-STDMOE-1:BNC4              SI-05:CO-BBB-4:BNC  # SI correctors
-SI-05:TI-STDMOE-2:BNC1              SI-05:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-05:TI-STDMOE-2:BNC2              SI-05:CO-BBB-6:BNC  # SI skew quadrupoles
-SI-05:TI-STDMOE-2:BNC4              SI-Fam:CO-BBB-5:BNC  # SI QFP and QDPs Families
+SI-05:TI-SOE-1:BNC                  SI-05:CO-BBB-1:BNC  # SI quadrupoles
+SI-05:TI-SOE-2:BNC                  SI-05:CO-BBB-2:BNC  # SI quadrupoles
+SI-05:TI-SOE-3:BNC                  SI-05:CO-BBB-3:BNC  # SI correctors
+SI-05:TI-SOE-4:BNC                  SI-05:CO-BBB-4:BNC  # SI correctors
+SI-05:TI-SOE-5:BNC                  SI-05:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-05:TI-SOE-6:BNC                  SI-05:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-05:TI-SOE:BNC                    BO-05:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 06
-AS-06:TI-EVR:LC1                    SI-06:TI-STDMOE-1:LC1
-AS-06:TI-EVR:LC2                    SI-06:TI-STDMOE-1:LC2
-AS-06:TI-EVR:LC3                    SI-06:TI-STDMOE-1:LC3
-AS-06:TI-EVR:LC4                    SI-06:TI-STDMOE-1:LC4
-AS-06:TI-EVR:LC5                    SI-06:TI-STDMOE-2:LC1
-AS-06:TI-EVR:LC6                    SI-06:TI-STDMOE-2:LC2
-AS-06:TI-EVR:LC8                    SI-06:TI-STDMOE-2:LC4
-AS-06:TI-EVR:OPT01                  BO-06:TI-SOE:OPT
+##AFC from Sector 06
+AS-06:TI-AFC:OPT01                  SI-06:TI-SOE-1:OPT
+AS-06:TI-AFC:OPT02                  SI-06:TI-SOE-2:OPT
+AS-06:TI-AFC:OPT03                  SI-06:TI-SOE-3:OPT
+AS-06:TI-AFC:OPT04                  SI-06:TI-SOE-4:OPT
+AS-06:TI-AFC:OPT05                  SI-06:TI-SOE-5:OPT
+AS-06:TI-AFC:OPT06                  SI-06:TI-SOE-6:OPT
+AS-06:TI-AFC:OPT07                  BO-06:TI-SOE:OPT
 
-SI-06:TI-STDMOE-1:BNC1              SI-06:CO-BBB-1:BNC  # SI quadrupoles
-SI-06:TI-STDMOE-1:BNC2              SI-06:CO-BBB-2:BNC  # SI quadrupoles
-SI-06:TI-STDMOE-1:BNC3              SI-06:CO-BBB-3:BNC  # SI correctors
-SI-06:TI-STDMOE-1:BNC4              SI-06:CO-BBB-4:BNC  # SI correctors
-SI-06:TI-STDMOE-2:BNC1              SI-06:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-06:TI-STDMOE-2:BNC2              SI-06:CO-BBB-6:BNC  # SI skew quadrupoles
-SI-06:TI-STDMOE-2:BNC4              SI-Fam:CO-BBB-6:BNC  # SI Q1, Q2, Q3 and Q4 Families
+SI-06:TI-SOE-1:BNC                  SI-06:CO-BBB-1:BNC  # SI quadrupoles
+SI-06:TI-SOE-2:BNC                  SI-06:CO-BBB-2:BNC  # SI quadrupoles
+SI-06:TI-SOE-3:BNC                  SI-06:CO-BBB-3:BNC  # SI correctors
+SI-06:TI-SOE-4:BNC                  SI-06:CO-BBB-4:BNC  # SI correctors
+SI-06:TI-SOE-5:BNC                  SI-06:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-06:TI-SOE-6:BNC                  SI-06:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-06:TI-SOE:BNC                    BO-06:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 07
-AS-07:TI-EVR:LC1                    SI-07:TI-STDMOE-1:LC1
-AS-07:TI-EVR:LC2                    SI-07:TI-STDMOE-1:LC2
-AS-07:TI-EVR:LC3                    SI-07:TI-STDMOE-1:LC3
-AS-07:TI-EVR:LC4                    SI-07:TI-STDMOE-1:LC4
-AS-07:TI-EVR:LC5                    SI-07:TI-STDMOE-2:LC1
-AS-07:TI-EVR:LC6                    SI-07:TI-STDMOE-2:LC2
-AS-07:TI-EVR:LC8                    SI-07:TI-STDMOE-2:LC4
-AS-07:TI-EVR:OPT01                  BO-07:TI-SOE:OPT
+##AFC from Sector 07
+AS-07:TI-AFC:OPT01                  SI-07:TI-SOE-1:OPT
+AS-07:TI-AFC:OPT02                  SI-07:TI-SOE-2:OPT
+AS-07:TI-AFC:OPT03                  SI-07:TI-SOE-3:OPT
+AS-07:TI-AFC:OPT04                  SI-07:TI-SOE-4:OPT
+AS-07:TI-AFC:OPT05                  SI-07:TI-SOE-5:OPT
+AS-07:TI-AFC:OPT06                  SI-07:TI-SOE-6:OPT
+AS-07:TI-AFC:OPT07                  BO-07:TI-SOE:OPT
 
-SI-07:TI-STDMOE-1:BNC1              SI-07:CO-BBB-1:BNC  # SI quadrupoles
-SI-07:TI-STDMOE-1:BNC2              SI-07:CO-BBB-2:BNC  # SI quadrupoles
-SI-07:TI-STDMOE-1:BNC3              SI-07:CO-BBB-3:BNC  # SI correctors
-SI-07:TI-STDMOE-1:BNC4              SI-07:CO-BBB-4:BNC  # SI correctors
-SI-07:TI-STDMOE-2:BNC1              SI-07:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-07:TI-STDMOE-2:BNC2              SI-07:CO-BBB-6:BNC  # SI skew quadrupoles
-SI-07:TI-STDMOE-2:BNC4              SI-Fam:CO-BBB-7:BNC  # SI SDAs Families
+SI-07:TI-SOE-1:BNC                  SI-07:CO-BBB-1:BNC  # SI quadrupoles
+SI-07:TI-SOE-2:BNC                  SI-07:CO-BBB-2:BNC  # SI quadrupoles
+SI-07:TI-SOE-3:BNC                  SI-07:CO-BBB-3:BNC  # SI correctors
+SI-07:TI-SOE-4:BNC                  SI-07:CO-BBB-4:BNC  # SI correctors
+SI-07:TI-SOE-5:BNC                  SI-07:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-07:TI-SOE-6:BNC                  SI-07:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-07:TI-SOE:BNC                    BO-07:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 08
-AS-08:TI-EVR:LC1                    SI-08:TI-STDMOE-1:LC1
-AS-08:TI-EVR:LC2                    SI-08:TI-STDMOE-1:LC2
-AS-08:TI-EVR:LC3                    SI-08:TI-STDMOE-1:LC3
-AS-08:TI-EVR:LC4                    SI-08:TI-STDMOE-1:LC4
-AS-08:TI-EVR:LC5                    SI-08:TI-STDMOE-2:LC1
-AS-08:TI-EVR:LC6                    SI-08:TI-STDMOE-2:LC2
-AS-08:TI-EVR:LC8                    SI-08:TI-STDMOE-2:LC4
-AS-08:TI-EVR:OPT01                  BO-08:TI-SOE:OPT
+##AFC from Sector 08
+AS-08:TI-AFC:OPT01                  SI-08:TI-SOE-1:OPT
+AS-08:TI-AFC:OPT02                  SI-08:TI-SOE-2:OPT
+AS-08:TI-AFC:OPT03                  SI-08:TI-SOE-3:OPT
+AS-08:TI-AFC:OPT04                  SI-08:TI-SOE-4:OPT
+AS-08:TI-AFC:OPT05                  SI-08:TI-SOE-5:OPT
+AS-08:TI-AFC:OPT06                  SI-08:TI-SOE-6:OPT
+AS-08:TI-AFC:OPT07                  BO-08:TI-SOE:OPT
 
-SI-08:TI-STDMOE-1:BNC1              SI-08:CO-BBB-1:BNC  # SI quadrupoles
-SI-08:TI-STDMOE-1:BNC2              SI-08:CO-BBB-2:BNC  # SI quadrupoles
-SI-08:TI-STDMOE-1:BNC3              SI-08:CO-BBB-3:BNC  # SI correctors
-SI-08:TI-STDMOE-1:BNC4              SI-08:CO-BBB-4:BNC  # SI correctors
-SI-08:TI-STDMOE-2:BNC1              SI-08:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-08:TI-STDMOE-2:BNC2              SI-08:CO-BBB-6:BNC  # SI skew quadrupoles
-SI-08:TI-STDMOE-2:BNC4              SI-Fam:CO-BBB-8:BNC  # SI SDBs Families
+SI-08:TI-SOE-1:BNC                  SI-08:CO-BBB-1:BNC  # SI quadrupoles
+SI-08:TI-SOE-2:BNC                  SI-08:CO-BBB-2:BNC  # SI quadrupoles
+SI-08:TI-SOE-3:BNC                  SI-08:CO-BBB-3:BNC  # SI correctors
+SI-08:TI-SOE-4:BNC                  SI-08:CO-BBB-4:BNC  # SI correctors
+SI-08:TI-SOE-5:BNC                  SI-08:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-08:TI-SOE-6:BNC                  SI-08:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-08:TI-SOE:BNC                    BO-08:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 09
-AS-09:TI-EVR:LC1                    SI-09:TI-STDMOE-1:LC1
-AS-09:TI-EVR:LC2                    SI-09:TI-STDMOE-1:LC2
-AS-09:TI-EVR:LC3                    SI-09:TI-STDMOE-1:LC3
-AS-09:TI-EVR:LC4                    SI-09:TI-STDMOE-1:LC4
-AS-09:TI-EVR:LC5                    SI-09:TI-STDMOE-2:LC1
-AS-09:TI-EVR:LC6                    SI-09:TI-STDMOE-2:LC2
-AS-09:TI-EVR:LC8                    SI-09:TI-STDMOE-2:LC4
-AS-09:TI-EVR:OPT01                  BO-09:TI-SOE:OPT
+##AFC from Sector 09
+AS-09:TI-AFC:OPT01                  SI-09:TI-SOE-1:OPT
+AS-09:TI-AFC:OPT02                  SI-09:TI-SOE-2:OPT
+AS-09:TI-AFC:OPT03                  SI-09:TI-SOE-3:OPT
+AS-09:TI-AFC:OPT04                  SI-09:TI-SOE-4:OPT
+AS-09:TI-AFC:OPT05                  SI-09:TI-SOE-5:OPT
+AS-09:TI-AFC:OPT06                  SI-09:TI-SOE-6:OPT
+AS-09:TI-AFC:OPT07                  BO-09:TI-SOE:OPT
 
-SI-09:TI-STDMOE-1:BNC1              SI-09:CO-BBB-1:BNC  # SI quadrupoles
-SI-09:TI-STDMOE-1:BNC2              SI-09:CO-BBB-2:BNC  # SI quadrupoles
-SI-09:TI-STDMOE-1:BNC3              SI-09:CO-BBB-3:BNC  # SI correctors
-SI-09:TI-STDMOE-1:BNC4              SI-09:CO-BBB-4:BNC  # SI correctors
-SI-09:TI-STDMOE-2:BNC1              SI-09:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-09:TI-STDMOE-2:BNC2              SI-09:CO-BBB-6:BNC  # SI skew quadrupoles
-SI-09:TI-STDMOE-2:BNC4              SI-Fam:CO-BBB-9:BNC  # SI SDPs Families
+SI-09:TI-SOE-1:BNC                  SI-09:CO-BBB-1:BNC  # SI quadrupoles
+SI-09:TI-SOE-2:BNC                  SI-09:CO-BBB-2:BNC  # SI quadrupoles
+SI-09:TI-SOE-3:BNC                  SI-09:CO-BBB-3:BNC  # SI correctors
+SI-09:TI-SOE-4:BNC                  SI-09:CO-BBB-4:BNC  # SI correctors
+SI-09:TI-SOE-5:BNC                  SI-09:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-09:TI-SOE-6:BNC                  SI-09:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-09:TI-SOE:BNC                    BO-09:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 10
-AS-10:TI-EVR:LC1                    SI-10:TI-STDMOE-1:LC1
-AS-10:TI-EVR:LC2                    SI-10:TI-STDMOE-1:LC2
-AS-10:TI-EVR:LC3                    SI-10:TI-STDMOE-1:LC3
-AS-10:TI-EVR:LC4                    SI-10:TI-STDMOE-1:LC4
-AS-10:TI-EVR:LC5                    SI-10:TI-STDMOE-2:LC1
-AS-10:TI-EVR:LC6                    SI-10:TI-STDMOE-2:LC2
-AS-10:TI-EVR:LC8                    SI-10:TI-STDMOE-2:LC4
-AS-10:TI-EVR:OPT01                  BO-10:TI-SOE:OPT
+##AFC from Sector 10
+AS-10:TI-AFC:OPT01                  SI-10:TI-SOE-1:OPT
+AS-10:TI-AFC:OPT02                  SI-10:TI-SOE-2:OPT
+AS-10:TI-AFC:OPT03                  SI-10:TI-SOE-3:OPT
+AS-10:TI-AFC:OPT04                  SI-10:TI-SOE-4:OPT
+AS-10:TI-AFC:OPT05                  SI-10:TI-SOE-5:OPT
+AS-10:TI-AFC:OPT06                  SI-10:TI-SOE-6:OPT
+AS-10:TI-AFC:OPT07                  BO-10:TI-SOE:OPT
 
-SI-10:TI-STDMOE-1:BNC1              SI-10:CO-BBB-1:BNC  # SI quadrupoles
-SI-10:TI-STDMOE-1:BNC2              SI-10:CO-BBB-2:BNC  # SI quadrupoles
-SI-10:TI-STDMOE-1:BNC3              SI-10:CO-BBB-3:BNC  # SI correctors
-SI-10:TI-STDMOE-1:BNC4              SI-10:CO-BBB-4:BNC  # SI correctors
-SI-10:TI-STDMOE-2:BNC1              SI-10:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-10:TI-STDMOE-2:BNC2              SI-10:CO-BBB-6:BNC  # SI skew quadrupoles
-SI-10:TI-STDMOE-2:BNC4              SI-Fam:CO-BBB-10:BNC  # SI SFAs Families
+SI-10:TI-SOE-1:BNC                  SI-10:CO-BBB-1:BNC  # SI quadrupoles
+SI-10:TI-SOE-2:BNC                  SI-10:CO-BBB-2:BNC  # SI quadrupoles
+SI-10:TI-SOE-3:BNC                  SI-10:CO-BBB-3:BNC  # SI correctors
+SI-10:TI-SOE-4:BNC                  SI-10:CO-BBB-4:BNC  # SI correctors
+SI-10:TI-SOE-5:BNC                  SI-10:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-10:TI-SOE-6:BNC                  SI-10:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-10:TI-SOE:BNC                    BO-10:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 11
-AS-11:TI-EVR:LC1                    SI-11:TI-STDMOE-1:LC1
-AS-11:TI-EVR:LC2                    SI-11:TI-STDMOE-1:LC2
-AS-11:TI-EVR:LC3                    SI-11:TI-STDMOE-1:LC3
-AS-11:TI-EVR:LC4                    SI-11:TI-STDMOE-1:LC4
-AS-11:TI-EVR:LC5                    SI-11:TI-STDMOE-2:LC1
-AS-11:TI-EVR:LC6                    SI-11:TI-STDMOE-2:LC2
-AS-11:TI-EVR:LC8                    SI-11:TI-STDMOE-2:LC4
-AS-11:TI-EVR:OPT01                  BO-11:TI-SOE:OPT
+##AFC from Sector 11
+AS-11:TI-AFC:OPT01                  SI-11:TI-SOE-1:OPT
+AS-11:TI-AFC:OPT02                  SI-11:TI-SOE-2:OPT
+AS-11:TI-AFC:OPT03                  SI-11:TI-SOE-3:OPT
+AS-11:TI-AFC:OPT04                  SI-11:TI-SOE-4:OPT
+AS-11:TI-AFC:OPT05                  SI-11:TI-SOE-5:OPT
+AS-11:TI-AFC:OPT06                  SI-11:TI-SOE-6:OPT
+AS-11:TI-AFC:OPT07                  BO-11:TI-SOE:OPT
 
-SI-11:TI-STDMOE-1:BNC1              SI-11:CO-BBB-1:BNC  # SI quadrupoles
-SI-11:TI-STDMOE-1:BNC2              SI-11:CO-BBB-2:BNC  # SI quadrupoles
-SI-11:TI-STDMOE-1:BNC3              SI-11:CO-BBB-3:BNC  # SI correctors
-SI-11:TI-STDMOE-1:BNC4              SI-11:CO-BBB-4:BNC  # SI correctors
-SI-11:TI-STDMOE-2:BNC1              SI-11:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-11:TI-STDMOE-2:BNC2              SI-11:CO-BBB-6:BNC  # SI skew quadrupoles
-SI-11:TI-STDMOE-2:BNC4              SI-Fam:CO-BBB-11:BNC  # SI SFBs Families
+SI-11:TI-SOE-1:BNC                  SI-11:CO-BBB-1:BNC  # SI quadrupoles
+SI-11:TI-SOE-2:BNC                  SI-11:CO-BBB-2:BNC  # SI quadrupoles
+SI-11:TI-SOE-3:BNC                  SI-11:CO-BBB-3:BNC  # SI correctors
+SI-11:TI-SOE-4:BNC                  SI-11:CO-BBB-4:BNC  # SI correctors
+SI-11:TI-SOE-5:BNC                  SI-11:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-11:TI-SOE-6:BNC                  SI-11:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-11:TI-SOE:BNC                    BO-11:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 12
-AS-12:TI-EVR:LC1                    SI-12:TI-STDMOE-1:LC1
-AS-12:TI-EVR:LC2                    SI-12:TI-STDMOE-1:LC2
-AS-12:TI-EVR:LC3                    SI-12:TI-STDMOE-1:LC3
-AS-12:TI-EVR:LC4                    SI-12:TI-STDMOE-1:LC4
-AS-12:TI-EVR:LC5                    SI-12:TI-STDMOE-2:LC1
-AS-12:TI-EVR:LC6                    SI-12:TI-STDMOE-2:LC2
-AS-12:TI-EVR:LC8                    SI-12:TI-STDMOE-2:LC4
-AS-12:TI-EVR:OPT01                  BO-12:TI-SOE:OPT
+##AFC from Sector 12
+AS-12:TI-AFC:OPT01                  SI-12:TI-SOE-1:OPT
+AS-12:TI-AFC:OPT02                  SI-12:TI-SOE-2:OPT
+AS-12:TI-AFC:OPT03                  SI-12:TI-SOE-3:OPT
+AS-12:TI-AFC:OPT04                  SI-12:TI-SOE-4:OPT
+AS-12:TI-AFC:OPT05                  SI-12:TI-SOE-5:OPT
+AS-12:TI-AFC:OPT06                  SI-12:TI-SOE-6:OPT
+AS-12:TI-AFC:OPT07                  BO-12:TI-SOE:OPT
 
-SI-12:TI-STDMOE-1:BNC1              SI-12:CO-BBB-1:BNC  # SI quadrupoles
-SI-12:TI-STDMOE-1:BNC2              SI-12:CO-BBB-2:BNC  # SI quadrupoles
-SI-12:TI-STDMOE-1:BNC3              SI-12:CO-BBB-3:BNC  # SI correctors
-SI-12:TI-STDMOE-1:BNC4              SI-12:CO-BBB-4:BNC  # SI correctors
-SI-12:TI-STDMOE-2:BNC1              SI-12:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-12:TI-STDMOE-2:BNC2              SI-12:CO-BBB-6:BNC  # SI skew quadrupoles
-SI-12:TI-STDMOE-2:BNC4              SI-Fam:CO-BBB-12:BNC  # SI SFPs Families
+SI-12:TI-SOE-1:BNC                  SI-12:CO-BBB-1:BNC  # SI quadrupoles
+SI-12:TI-SOE-2:BNC                  SI-12:CO-BBB-2:BNC  # SI quadrupoles
+SI-12:TI-SOE-3:BNC                  SI-12:CO-BBB-3:BNC  # SI correctors
+SI-12:TI-SOE-4:BNC                  SI-12:CO-BBB-4:BNC  # SI correctors
+SI-12:TI-SOE-5:BNC                  SI-12:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-12:TI-SOE-6:BNC                  SI-12:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-12:TI-SOE:BNC                    BO-12:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 13
-AS-13:TI-EVR:LC1                    SI-13:TI-STDMOE-1:LC1
-AS-13:TI-EVR:LC2                    SI-13:TI-STDMOE-1:LC2
-AS-13:TI-EVR:LC3                    SI-13:TI-STDMOE-1:LC3
-AS-13:TI-EVR:LC4                    SI-13:TI-STDMOE-1:LC4
-AS-13:TI-EVR:LC5                    SI-13:TI-STDMOE-2:LC1
-AS-13:TI-EVR:LC6                    SI-13:TI-STDMOE-2:LC2
-AS-13:TI-EVR:OPT01                  BO-13:TI-SOE-1:OPT
-AS-13:TI-EVR:OPT02                  BO-13:TI-SOE-2:OPT
+##AFC from Sector 13
+AS-13:TI-AFC:OPT01                  SI-13:TI-SOE-1:OPT
+AS-13:TI-AFC:OPT02                  SI-13:TI-SOE-2:OPT
+AS-13:TI-AFC:OPT03                  SI-13:TI-SOE-3:OPT
+AS-13:TI-AFC:OPT04                  SI-13:TI-SOE-4:OPT
+AS-13:TI-AFC:OPT05                  SI-13:TI-SOE-5:OPT
+AS-13:TI-AFC:OPT06                  SI-13:TI-SOE-6:OPT
+AS-13:TI-AFC:OPT07                  BO-13:TI-SOE:OPT
 
-SI-13:TI-STDMOE-1:BNC1              SI-13:CO-BBB-1:BNC  # SI quadrupoles
-SI-13:TI-STDMOE-1:BNC2              SI-13:CO-BBB-2:BNC  # SI quadrupoles
-SI-13:TI-STDMOE-1:BNC3              SI-13:CO-BBB-3:BNC  # SI correctors
-SI-13:TI-STDMOE-1:BNC4              SI-13:CO-BBB-4:BNC  # SI correctors
-SI-13:TI-STDMOE-2:BNC1              SI-13:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-13:TI-STDMOE-2:BNC2              SI-13:CO-BBB-6:BNC  # SI skew quadrupoles
+SI-13:TI-SOE-1:BNC                  SI-13:CO-BBB-1:BNC  # SI quadrupoles
+SI-13:TI-SOE-2:BNC                  SI-13:CO-BBB-2:BNC  # SI quadrupoles
+SI-13:TI-SOE-3:BNC                  SI-13:CO-BBB-3:BNC  # SI correctors
+SI-13:TI-SOE-4:BNC                  SI-13:CO-BBB-4:BNC  # SI correctors
+SI-13:TI-SOE-5:BNC                  SI-13:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-13:TI-SOE-6:BNC                  SI-13:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-13:TI-SOE-1:BNC                  BO-13:CO-BBB:BNC    # BO correctors
-BO-13:TI-SOE-2:BNC                  BO-Fam:CO-BBB-1:BNC # BO Dipole Families
 
-##EVR from Sector 14
-AS-14:TI-EVR:LC1                    SI-14:TI-STDMOE-1:LC1
-AS-14:TI-EVR:LC2                    SI-14:TI-STDMOE-1:LC2
-AS-14:TI-EVR:LC3                    SI-14:TI-STDMOE-1:LC3
-AS-14:TI-EVR:LC4                    SI-14:TI-STDMOE-1:LC4
-AS-14:TI-EVR:LC5                    SI-14:TI-STDMOE-2:LC1
-AS-14:TI-EVR:LC6                    SI-14:TI-STDMOE-2:LC2
-AS-14:TI-EVR:OPT01                  BO-14:TI-SOE-1:OPT
-AS-14:TI-EVR:OPT02                  BO-14:TI-SOE-2:OPT
+##AFC from Sector 14
+AS-14:TI-AFC:OPT01                  SI-14:TI-SOE-1:OPT
+AS-14:TI-AFC:OPT02                  SI-14:TI-SOE-2:OPT
+AS-14:TI-AFC:OPT03                  SI-14:TI-SOE-3:OPT
+AS-14:TI-AFC:OPT04                  SI-14:TI-SOE-4:OPT
+AS-14:TI-AFC:OPT05                  SI-14:TI-SOE-5:OPT
+AS-14:TI-AFC:OPT06                  SI-14:TI-SOE-6:OPT
+AS-14:TI-AFC:OPT07                  BO-14:TI-SOE:OPT
 
-SI-14:TI-STDMOE-1:BNC1              SI-14:CO-BBB-1:BNC  # SI quadrupoles
-SI-14:TI-STDMOE-1:BNC2              SI-14:CO-BBB-2:BNC  # SI quadrupoles
-SI-14:TI-STDMOE-1:BNC3              SI-14:CO-BBB-3:BNC  # SI correctors
-SI-14:TI-STDMOE-1:BNC4              SI-14:CO-BBB-4:BNC  # SI correctors
-SI-14:TI-STDMOE-2:BNC1              SI-14:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-14:TI-STDMOE-2:BNC2              SI-14:CO-BBB-6:BNC  # SI skew quadrupoles
+SI-14:TI-SOE-1:BNC                  SI-14:CO-BBB-1:BNC  # SI quadrupoles
+SI-14:TI-SOE-2:BNC                  SI-14:CO-BBB-2:BNC  # SI quadrupoles
+SI-14:TI-SOE-3:BNC                  SI-14:CO-BBB-3:BNC  # SI correctors
+SI-14:TI-SOE-4:BNC                  SI-14:CO-BBB-4:BNC  # SI correctors
+SI-14:TI-SOE-5:BNC                  SI-14:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-14:TI-SOE-6:BNC                  SI-14:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-14:TI-SOE-1:BNC                  BO-14:CO-BBB:BNC    # BO correctors
-BO-14:TI-SOE-2:BNC                  BO-Fam:CO-BBB-2:BNC # BO Quadrupoles
 
-##EVR from Sector 15
-AS-15:TI-EVR:LC1                    SI-15:TI-STDMOE-1:LC1
-AS-15:TI-EVR:LC2                    SI-15:TI-STDMOE-1:LC2
-AS-15:TI-EVR:LC3                    SI-15:TI-STDMOE-1:LC3
-AS-15:TI-EVR:LC4                    SI-15:TI-STDMOE-1:LC4
-AS-15:TI-EVR:LC5                    SI-15:TI-STDMOE-2:LC1
-AS-15:TI-EVR:LC6                    SI-15:TI-STDMOE-2:LC2
-AS-15:TI-EVR:OPT01                  BO-15:TI-SOE-1:OPT
-AS-15:TI-EVR:OPT02                  BO-15:TI-SOE-2:OPT
+##AFC from Sector 15
+AS-15:TI-AFC:OPT01                  SI-15:TI-SOE-1:OPT
+AS-15:TI-AFC:OPT02                  SI-15:TI-SOE-2:OPT
+AS-15:TI-AFC:OPT03                  SI-15:TI-SOE-3:OPT
+AS-15:TI-AFC:OPT04                  SI-15:TI-SOE-4:OPT
+AS-15:TI-AFC:OPT05                  SI-15:TI-SOE-5:OPT
+AS-15:TI-AFC:OPT06                  SI-15:TI-SOE-6:OPT
+AS-15:TI-AFC:OPT07                  BO-15:TI-SOE:OPT
 
-SI-15:TI-STDMOE-1:BNC1              SI-15:CO-BBB-1:BNC  # SI quadrupoles
-SI-15:TI-STDMOE-1:BNC2              SI-15:CO-BBB-2:BNC  # SI quadrupoles
-SI-15:TI-STDMOE-1:BNC3              SI-15:CO-BBB-3:BNC  # SI correctors
-SI-15:TI-STDMOE-1:BNC4              SI-15:CO-BBB-4:BNC  # SI correctors
-SI-15:TI-STDMOE-2:BNC1              SI-15:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-15:TI-STDMOE-2:BNC2              SI-15:CO-BBB-6:BNC  # SI skew quadrupoles
+SI-15:TI-SOE-1:BNC                  SI-15:CO-BBB-1:BNC  # SI quadrupoles
+SI-15:TI-SOE-2:BNC                  SI-15:CO-BBB-2:BNC  # SI quadrupoles
+SI-15:TI-SOE-3:BNC                  SI-15:CO-BBB-3:BNC  # SI correctors
+SI-15:TI-SOE-4:BNC                  SI-15:CO-BBB-4:BNC  # SI correctors
+SI-15:TI-SOE-5:BNC                  SI-15:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-15:TI-SOE-6:BNC                  SI-15:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-15:TI-SOE-1:BNC                  BO-15:CO-BBB:BNC    # BO correctors
-BO-15:TI-SOE-2:BNC                  BO-Fam:CO-BBB-3:BNC # BO Sextupoles
 
-##EVR from Sector 16
-AS-16:TI-EVR:LC1                    SI-16:TI-STDMOE-1:LC1
-AS-16:TI-EVR:LC2                    SI-16:TI-STDMOE-1:LC2
-AS-16:TI-EVR:LC3                    SI-16:TI-STDMOE-1:LC3
-AS-16:TI-EVR:LC4                    SI-16:TI-STDMOE-1:LC4
-AS-16:TI-EVR:LC5                    SI-16:TI-STDMOE-2:LC1
-AS-16:TI-EVR:LC6                    SI-16:TI-STDMOE-2:LC2
-AS-16:TI-EVR:OPT01                  BO-16:TI-SOE:OPT
+##AFC from Sector 16
+AS-16:TI-AFC:OPT01                  SI-16:TI-SOE-1:OPT
+AS-16:TI-AFC:OPT02                  SI-16:TI-SOE-2:OPT
+AS-16:TI-AFC:OPT03                  SI-16:TI-SOE-3:OPT
+AS-16:TI-AFC:OPT04                  SI-16:TI-SOE-4:OPT
+AS-16:TI-AFC:OPT05                  SI-16:TI-SOE-5:OPT
+AS-16:TI-AFC:OPT06                  SI-16:TI-SOE-6:OPT
+AS-16:TI-AFC:OPT07                  BO-16:TI-SOE:OPT
 
-SI-16:TI-STDMOE-1:BNC1              SI-16:CO-BBB-1:BNC  # SI quadrupoles
-SI-16:TI-STDMOE-1:BNC2              SI-16:CO-BBB-2:BNC  # SI quadrupoles
-SI-16:TI-STDMOE-1:BNC3              SI-16:CO-BBB-3:BNC  # SI correctors
-SI-16:TI-STDMOE-1:BNC4              SI-16:CO-BBB-4:BNC  # SI correctors
-SI-16:TI-STDMOE-2:BNC1              SI-16:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-16:TI-STDMOE-2:BNC2              SI-16:CO-BBB-6:BNC  # SI skew quadrupoles
+SI-16:TI-SOE-1:BNC                  SI-16:CO-BBB-1:BNC  # SI quadrupoles
+SI-16:TI-SOE-2:BNC                  SI-16:CO-BBB-2:BNC  # SI quadrupoles
+SI-16:TI-SOE-3:BNC                  SI-16:CO-BBB-3:BNC  # SI correctors
+SI-16:TI-SOE-4:BNC                  SI-16:CO-BBB-4:BNC  # SI correctors
+SI-16:TI-SOE-5:BNC                  SI-16:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-16:TI-SOE-6:BNC                  SI-16:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-16:TI-SOE:BNC                    BO-16:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 17
-AS-17:TI-EVR:LC1                    SI-17:TI-STDMOE-1:LC1
-AS-17:TI-EVR:LC2                    SI-17:TI-STDMOE-1:LC2
-AS-17:TI-EVR:LC3                    SI-17:TI-STDMOE-1:LC3
-AS-17:TI-EVR:LC4                    SI-17:TI-STDMOE-1:LC4
-AS-17:TI-EVR:LC5                    SI-17:TI-STDMOE-2:LC1
-AS-17:TI-EVR:LC6                    SI-17:TI-STDMOE-2:LC2
-AS-17:TI-EVR:OPT01                  BO-17:TI-SOE:OPT
+##AFC from Sector 17
+AS-17:TI-AFC:OPT01                  SI-17:TI-SOE-1:OPT
+AS-17:TI-AFC:OPT02                  SI-17:TI-SOE-2:OPT
+AS-17:TI-AFC:OPT03                  SI-17:TI-SOE-3:OPT
+AS-17:TI-AFC:OPT04                  SI-17:TI-SOE-4:OPT
+AS-17:TI-AFC:OPT05                  SI-17:TI-SOE-5:OPT
+AS-17:TI-AFC:OPT06                  SI-17:TI-SOE-6:OPT
+AS-17:TI-AFC:OPT07                  BO-17:TI-SOE:OPT
 
-SI-17:TI-STDMOE-1:BNC1              SI-17:CO-BBB-1:BNC  # SI quadrupoles
-SI-17:TI-STDMOE-1:BNC2              SI-17:CO-BBB-2:BNC  # SI quadrupoles
-SI-17:TI-STDMOE-1:BNC3              SI-17:CO-BBB-3:BNC  # SI correctors
-SI-17:TI-STDMOE-1:BNC4              SI-17:CO-BBB-4:BNC  # SI correctors
-SI-17:TI-STDMOE-2:BNC1              SI-17:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-17:TI-STDMOE-2:BNC2              SI-17:CO-BBB-6:BNC  # SI skew quadrupoles
+SI-17:TI-SOE-1:BNC                  SI-17:CO-BBB-1:BNC  # SI quadrupoles
+SI-17:TI-SOE-2:BNC                  SI-17:CO-BBB-2:BNC  # SI quadrupoles
+SI-17:TI-SOE-3:BNC                  SI-17:CO-BBB-3:BNC  # SI correctors
+SI-17:TI-SOE-4:BNC                  SI-17:CO-BBB-4:BNC  # SI correctors
+SI-17:TI-SOE-5:BNC                  SI-17:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-17:TI-SOE-6:BNC                  SI-17:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-17:TI-SOE:BNC                    BO-17:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 18
-AS-18:TI-EVR:LC1                    SI-18:TI-STDMOE-1:LC1
-AS-18:TI-EVR:LC2                    SI-18:TI-STDMOE-1:LC2
-AS-18:TI-EVR:LC3                    SI-18:TI-STDMOE-1:LC3
-AS-18:TI-EVR:LC4                    SI-18:TI-STDMOE-1:LC4
-AS-18:TI-EVR:LC5                    SI-18:TI-STDMOE-2:LC1
-AS-18:TI-EVR:LC6                    SI-18:TI-STDMOE-2:LC2
-AS-18:TI-EVR:OPT01                  BO-18:TI-SOE:OPT
+##AFC from Sector 18
+AS-18:TI-AFC:OPT01                  SI-18:TI-SOE-1:OPT
+AS-18:TI-AFC:OPT02                  SI-18:TI-SOE-2:OPT
+AS-18:TI-AFC:OPT03                  SI-18:TI-SOE-3:OPT
+AS-18:TI-AFC:OPT04                  SI-18:TI-SOE-4:OPT
+AS-18:TI-AFC:OPT05                  SI-18:TI-SOE-5:OPT
+AS-18:TI-AFC:OPT06                  SI-18:TI-SOE-6:OPT
+AS-18:TI-AFC:OPT07                  BO-18:TI-SOE:OPT
 
-SI-18:TI-STDMOE-1:BNC1              SI-18:CO-BBB-1:BNC  # SI quadrupoles
-SI-18:TI-STDMOE-1:BNC2              SI-18:CO-BBB-2:BNC  # SI quadrupoles
-SI-18:TI-STDMOE-1:BNC3              SI-18:CO-BBB-3:BNC  # SI correctors
-SI-18:TI-STDMOE-1:BNC4              SI-18:CO-BBB-4:BNC  # SI correctors
-SI-18:TI-STDMOE-2:BNC1              SI-18:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-18:TI-STDMOE-2:BNC2              SI-18:CO-BBB-6:BNC  # SI skew quadrupoles
+SI-18:TI-SOE-1:BNC                  SI-18:CO-BBB-1:BNC  # SI quadrupoles
+SI-18:TI-SOE-2:BNC                  SI-18:CO-BBB-2:BNC  # SI quadrupoles
+SI-18:TI-SOE-3:BNC                  SI-18:CO-BBB-3:BNC  # SI correctors
+SI-18:TI-SOE-4:BNC                  SI-18:CO-BBB-4:BNC  # SI correctors
+SI-18:TI-SOE-5:BNC                  SI-18:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-18:TI-SOE-6:BNC                  SI-18:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-18:TI-SOE:BNC                    BO-18:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 19
-AS-19:TI-EVR:LC1                    SI-19:TI-STDMOE-1:LC1
-AS-19:TI-EVR:LC2                    SI-19:TI-STDMOE-1:LC2
-AS-19:TI-EVR:LC3                    SI-19:TI-STDMOE-1:LC3
-AS-19:TI-EVR:LC4                    SI-19:TI-STDMOE-1:LC4
-AS-19:TI-EVR:LC5                    SI-19:TI-STDMOE-2:LC1
-AS-19:TI-EVR:LC6                    SI-19:TI-STDMOE-2:LC2
-AS-19:TI-EVR:OPT01                  BO-19:TI-SOE:OPT
+##AFC from Sector 19
+AS-19:TI-AFC:OPT01                  SI-19:TI-SOE-1:OPT
+AS-19:TI-AFC:OPT02                  SI-19:TI-SOE-2:OPT
+AS-19:TI-AFC:OPT03                  SI-19:TI-SOE-3:OPT
+AS-19:TI-AFC:OPT04                  SI-19:TI-SOE-4:OPT
+AS-19:TI-AFC:OPT05                  SI-19:TI-SOE-5:OPT
+AS-19:TI-AFC:OPT06                  SI-19:TI-SOE-6:OPT
+AS-19:TI-AFC:OPT07                  BO-19:TI-SOE:OPT
 
-SI-19:TI-STDMOE-1:BNC1              SI-19:CO-BBB-1:BNC  # SI quadrupoles
-SI-19:TI-STDMOE-1:BNC2              SI-19:CO-BBB-2:BNC  # SI quadrupoles
-SI-19:TI-STDMOE-1:BNC3              SI-19:CO-BBB-3:BNC  # SI correctors
-SI-19:TI-STDMOE-1:BNC4              SI-19:CO-BBB-4:BNC  # SI correctors
-SI-19:TI-STDMOE-2:BNC1              SI-19:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-19:TI-STDMOE-2:BNC2              SI-19:CO-BBB-6:BNC  # SI skew quadrupoles
+SI-19:TI-SOE-1:BNC                  SI-19:CO-BBB-1:BNC  # SI quadrupoles
+SI-19:TI-SOE-2:BNC                  SI-19:CO-BBB-2:BNC  # SI quadrupoles
+SI-19:TI-SOE-3:BNC                  SI-19:CO-BBB-3:BNC  # SI correctors
+SI-19:TI-SOE-4:BNC                  SI-19:CO-BBB-4:BNC  # SI correctors
+SI-19:TI-SOE-5:BNC                  SI-19:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-19:TI-SOE-6:BNC                  SI-19:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-19:TI-SOE:BNC                    BO-19:CO-BBB:BNC  # BO correctors
 
-##EVR from Sector 20
-AS-20:TI-EVR:LC1                    SI-20:TI-STDMOE-1:LC1
-AS-20:TI-EVR:LC2                    SI-20:TI-STDMOE-1:LC2
-AS-20:TI-EVR:LC3                    SI-20:TI-STDMOE-1:LC3
-AS-20:TI-EVR:LC4                    SI-20:TI-STDMOE-1:LC4
-AS-20:TI-EVR:LC5                    SI-20:TI-STDMOE-2:LC1
-AS-20:TI-EVR:LC6                    SI-20:TI-STDMOE-2:LC2
-AS-20:TI-EVR:OPT01                  BO-20:TI-SOE:OPT
+##AFC from Sector 20
+AS-20:TI-AFC:OPT01                  SI-20:TI-SOE-1:OPT
+AS-20:TI-AFC:OPT02                  SI-20:TI-SOE-2:OPT
+AS-20:TI-AFC:OPT03                  SI-20:TI-SOE-3:OPT
+AS-20:TI-AFC:OPT04                  SI-20:TI-SOE-4:OPT
+AS-20:TI-AFC:OPT05                  SI-20:TI-SOE-5:OPT
+AS-20:TI-AFC:OPT06                  SI-20:TI-SOE-6:OPT
+AS-20:TI-AFC:OPT07                  BO-20:TI-SOE:OPT
 
-SI-20:TI-STDMOE-1:BNC1              SI-20:CO-BBB-1:BNC  # SI quadrupoles
-SI-20:TI-STDMOE-1:BNC2              SI-20:CO-BBB-2:BNC  # SI quadrupoles
-SI-20:TI-STDMOE-1:BNC3              SI-20:CO-BBB-3:BNC  # SI correctors
-SI-20:TI-STDMOE-1:BNC4              SI-20:CO-BBB-4:BNC  # SI correctors
-SI-20:TI-STDMOE-2:BNC1              SI-20:CO-BBB-5:BNC  # SI skew quadrupoles
-SI-20:TI-STDMOE-2:BNC2              SI-20:CO-BBB-6:BNC  # SI skew quadrupoles
+SI-20:TI-SOE-1:BNC                  SI-20:CO-BBB-1:BNC  # SI quadrupoles
+SI-20:TI-SOE-2:BNC                  SI-20:CO-BBB-2:BNC  # SI quadrupoles
+SI-20:TI-SOE-3:BNC                  SI-20:CO-BBB-3:BNC  # SI correctors
+SI-20:TI-SOE-4:BNC                  SI-20:CO-BBB-4:BNC  # SI correctors
+SI-20:TI-SOE-5:BNC                  SI-20:CO-BBB-5:BNC  # SI skew quadrupoles
+SI-20:TI-SOE-6:BNC                  SI-20:CO-BBB-6:BNC  # SI skew quadrupoles
 BO-20:TI-SOE:BNC                    BO-20:CO-BBB:BNC  # BO correctors
 
-##AFCs
+##AFCs to BPMs
 AS-01:TI-AFC:ELP1                   AS-01:CO-Crate:ELP1
 AS-01:TI-AFC:ELP2                   AS-01:CO-Crate:ELP2
 AS-01:TI-AFC:ELP3                   AS-01:CO-Crate:ELP3
@@ -659,12 +662,3 @@ AS-21:TI-AFC:ELP5                   AS-21:CO-Crate:ELP5
 AS-21:TI-AFC:ELP6                   AS-21:CO-Crate:ELP6
 AS-21:TI-AFC:ELP7                   AS-21:CO-Crate:ELP7
 AS-21:TI-AFC:ELP8                   AS-21:CO-Crate:ELP8
-
-AS-22:TI-AFC:ELP1                   AS-22:CO-Crate:ELP1
-AS-22:TI-AFC:ELP2                   AS-22:CO-Crate:ELP2
-AS-22:TI-AFC:ELP3                   AS-22:CO-Crate:ELP3
-AS-22:TI-AFC:ELP4                   AS-22:CO-Crate:ELP4
-AS-22:TI-AFC:ELP5                   AS-22:CO-Crate:ELP5
-AS-22:TI-AFC:ELP6                   AS-22:CO-Crate:ELP6
-AS-22:TI-AFC:ELP7                   AS-22:CO-Crate:ELP7
-AS-22:TI-AFC:ELP8                   AS-22:CO-Crate:ELP8
