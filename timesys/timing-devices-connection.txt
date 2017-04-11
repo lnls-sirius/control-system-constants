@@ -129,7 +129,7 @@ TB-01:TI-SOE-2:BNC                  TB-01:CO-BBB-1:BNC  # TB Quadrupoles
 TB-01:TI-SOE-3:BNC                  TB-01:CO-BBB-2:BNC  # TB Correctors
 TS-01:TI-SOE-1:BNC                  TS-Fam:CO-BBB:BNC   # TB dipoles
 TS-01:TI-SOE-2:BNC                  TS-01:CO-BBB-1:BNC  # TB Quadrupoles
-TS-01:TI-SOE-3:BNC                  TS-01:CO-BBB-1:BNC  # TB Correctors
+TS-01:TI-SOE-3:BNC                  TS-01:CO-BBB-2:BNC  # TB Correctors
 
 
 ##AFC from Sector 01
