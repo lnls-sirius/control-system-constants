@@ -98,22 +98,22 @@ AS-01:TI-EVR-2:OPT01                BO-01:TI-SOE-2:OPT
 AS-01:TI-EVR-2:OPT02                BO-01:TI-SOE-3:OPT
 AS-01:TI-EVR-2:OPT03                BO-01:TI-SOE-4:OPT
 AS-01:TI-EVR-2:OPT04                BO-01:TI-SOE-5:OPT
-AS-01:TI-EVR-2:OPT05                TB-01:TI-SOE:OPT
-AS-01:TI-EVR-2:OPT06                TS-01:TI-SOE-1:OPT
-AS-01:TI-EVR-2:OPT07                TS-01:TI-SOE-2:OPT
-AS-01:TI-EVR-2:OPT08                TS-01:TI-SOE-3:OPT
-AS-01:TI-EVR-2:OPT19                TS-01:TI-SOE-4:OPT
+AS-01:TI-EVR-2:OPT05                TB-01:TI-SOE-4:OPT
+AS-01:TI-EVR-2:OPT06                TS-01:TI-SOE-4:OPT
+AS-01:TI-EVR-2:OPT07                TS-01:TI-SOE-5:OPT
+AS-01:TI-EVR-2:OPT08                TS-01:TI-SOE-6:OPT
+AS-01:TI-EVR-2:OPT19                TS-01:TI-SOE-7:OPT
 AS-01:TI-EVR-2:OPT10                SI-01:TI-SOE-7:OPT
 
 BO-01:TI-SOE-2:BNC                  BO-01D:PU-InjK:BNC
 BO-01:TI-SOE-3:BNC                  BO-48D:PU-EjeK:BNC
 BO-01:TI-SOE-4:BNC                  BO-05D:RF-P5Cav:BNC
 BO-01:TI-SOE-5:BNC                  BO-05D:RF-LLRF:BNC
-TB-01:TI-SOE:BNC                    TB-04:PU-InjS:BNC
-TS-01:TI-SOE-1:BNC                  TS-01:PU-EjeSF:BNC
-TS-01:TI-SOE-2:BNC                  TS-01:PU-EjeSG:BNC
-TS-01:TI-SOE-3:BNC                  TS-Fam:PU-InjSG:BNC
-TS-01:TI-SOE-4:BNC                  TS-04:PU-InjSF:BNC
+TB-01:TI-SOE-4:BNC                  TB-04:PU-InjS:BNC
+TS-01:TI-SOE-4:BNC                  TS-01:PU-EjeSF:BNC
+TS-01:TI-SOE-5:BNC                  TS-01:PU-EjeSG:BNC
+TS-01:TI-SOE-6:BNC                  TS-Fam:PU-InjSG:BNC
+TS-01:TI-SOE-7:BNC                  TS-04:PU-InjSF:BNC
 SI-01:TI-SOE:BNC                    SI-01SA:PU-InjK:BNC
 
 ## Transport lines magnets
