@@ -1,6 +1,20 @@
 # Current setpoint limits of power supplies
 # =========================================
 
+#  DRVL  driver low level limit
+#  LOLO  IOC low-low level limit (ALARM)
+#  LOW   IOC low level limit (ALARM)
+#  LOPR  Low operating range
+#  HOPR  High operating range
+#  HIGH  IOC high level limit (ALARM)
+#  HIHI  IOC high-high level limit (ALARM)
+#  DRVH  driver high level limit
+
+# Rules
+# -----
+# LOLO <= LO <= HI <= HIHI
+# DRVL <= LOPR <= HOPR <= DRVH.
+
 # [unit]  A  Ampere
 
 # [power_supply_type]        DRVL      LOLO      LOW       LOPR      HOPR      HIGH      HIHI      DRVH
