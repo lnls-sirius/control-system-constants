@@ -3,6 +3,10 @@
 
 # should we include here polarity columns?
 
+# --- dipole families ---
+
+SI-Fam:MA-B1B2               SI-Fam:PS-B1B2-1    SI-Fam:PS-B1B2-2
+
 # --- quadrupole families ---
 
 SI-Fam:MA-QDA                SI-Fam:PS-QDA
