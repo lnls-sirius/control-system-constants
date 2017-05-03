@@ -6,16 +6,21 @@ AS-Glob:TI-EVG:MFIO3                AS-13:TI-FOUT:MFIO
 AS-Glob:TI-EVG:MFIO4                AS-18:TI-FOUT:MFIO
 
 # Second Layer: From FOUTs to EVRS and AFCs
-AS-01:TI-FOUT:MFIO0                 AS-21:TI-AFC-2:MFIO
-AS-01:TI-FOUT:MFIO1                 AS-01:TI-EVR-1:MFIO
-AS-01:TI-FOUT:MFIO2                 AS-01:TI-EVR-2:MFIO
-AS-01:TI-FOUT:MFIO3                 AS-01:TI-EVR-3:MFIO
+AS-01:TI-FOUT:MFIO0                 AS-01:TI-EVR-1:MFIO
+AS-01:TI-FOUT:MFIO1                 AS-01:TI-EVR-2:MFIO
+AS-01:TI-FOUT:MFIO2                 AS-01:TI-EVR-3:MFIO
+AS-01:TI-FOUT:MFIO3                 AS-01:TI-EVE-1:MFIO
+AS-01:TI-FOUT:MFIO4                 AS-01:TI-EVE-2:MFIO
+AS-01:TI-FOUT:MFIO5                 AS-01:TI-EVE-3:MFIO
+AS-01:TI-FOUT:MFIO6                 AS-01:TI-EVE-4:MFIO
+AS-01:TI-FOUT:MFIO7                 AS-01:TI-EVE-5:MFIO
 
 AS-03:TI-FOUT:MFIO0                 AS-01:TI-AFC-1:MFIO
 AS-03:TI-FOUT:MFIO1                 AS-02:TI-AFC:MFIO
 AS-03:TI-FOUT:MFIO2                 AS-03:TI-AFC:MFIO
 AS-03:TI-FOUT:MFIO3                 AS-04:TI-AFC:MFIO
 AS-03:TI-FOUT:MFIO4                 AS-05:TI-AFC:MFIO
+AS-03:TI-FOUT:MFIO5                 AS-01:TI-AFC-2:MFIO
 
 AS-08:TI-FOUT:MFIO0                 AS-06:TI-AFC:MFIO
 AS-08:TI-FOUT:MFIO1                 AS-07:TI-AFC:MFIO
@@ -48,8 +53,8 @@ AS-01:TI-EVR-1:OPTO5                LI-01:TI-STDSOE-3:OPTI0
 AS-01:TI-EVR-1:OPTO6                LI-01:TI-STDSOE-3:OPTI1
 AS-01:TI-EVR-1:OPTO7                LI-01:TI-STDSOE-3:OPTI2
 
-LI-01:TI-STDMOE:HVEO0               LI-01:EGun-Trig1:HVEI0   #MultiBunch
-LI-01:TI-STDMOE:HVEO1               LI-01:EGun-Trig2:HVEI1   #SingleBunch
+LI-01:TI-STDMOE:HVEO0               LI-01:EGun-Trig-1:HVEI0   #MultiBunch
+LI-01:TI-STDMOE:HVEO1               LI-01:EGun-Trig-2:HVEI1   #SingleBunch
 LI-01:TI-STDSOE-1:HVEO0             LI-01:RF-Modltr-1:HVEI
 LI-01:TI-STDSOE-1:HVEO1             LI-01:RF-Modltr-2:HVEI
 LI-01:TI-STDSOE-2:HVEO0             LI-01:RF-SSA-1:HVEI
@@ -92,6 +97,52 @@ TS-01:TI-SOE-5:HVEO                 TS-01:PU-EjeSG:HVEI
 TS-01:TI-SOE-6:HVEO                 TS-Fam:PU-InjSG:HVEI
 TS-01:TI-SOE-7:HVEO                 TS-04:PU-InjSF:HVEI
 SI-01:TI-SOE-7:HVEO                 SI-01SA:PU-InjK:HVEI
+
+#### Diagnostics
+AS-01:TI-EVE-1:LVEO0                LI-01:DI-ICT-1:LVEI
+AS-01:TI-EVE-1:LVEO1                LI-01:DI-ICT-2:LVEI
+AS-01:TI-EVE-1:LVEO2                LI-Fam:DI-Scrn:LVEI
+AS-01:TI-EVE-1:LVEO3                TB-04:DI-FCT:LVEI
+AS-01:TI-EVE-1:LVEO4                TS-04:DI-FCT:LVEI
+AS-01:TI-EVE-1:LVEO5                SI-19C4:PU-VPing:HVEI
+AS-01:TI-EVE-1:LVEO6                SI-01SA:PU-HPing:HVEI
+AS-01:TI-EVE-1:LVEO7                SI-Glob:DI-BbB:LVEI
+
+AS-01:TI-EVE-2:LVEO0                TB-02:DI-ICT-1:LVEI
+AS-01:TI-EVE-2:LVEO1                TB-04:DI-ICT-2:LVEI
+AS-01:TI-EVE-2:LVEO2                TB-01:DI-Scrn-1:LVEI
+AS-01:TI-EVE-2:LVEO3                TB-01:DI-Scrn-2:LVEI
+AS-01:TI-EVE-2:LVEO4                TB-02:DI-Scrn-1:LVEI
+AS-01:TI-EVE-2:LVEO5                TB-02:DI-Scrn-2:LVEI
+AS-01:TI-EVE-2:LVEO6                TB-03:DI-Scrn:LVEI
+AS-01:TI-EVE-2:LVEO7                TB-04:DI-Scrn:LVEI
+
+AS-01:TI-EVE-3:LVEO0                BO-01D:DI-Scrn-1:LVEI
+AS-01:TI-EVE-3:LVEO1                BO-01D:DI-Scrn-2:LVEI
+AS-01:TI-EVE-3:LVEO2                BO-02U:DI-Scrn:LVEI
+AS-01:TI-EVE-3:LVEO3                BO-04U:DI-GSL:LVEI
+AS-01:TI-EVE-3:LVEO4                BO-02D:DI-TuneS:LVEI
+AS-01:TI-EVE-3:LVEO5                BO-04D:DI-TuneP:LVEI
+AS-01:TI-EVE-3:LVEO6                BO-35D:DI-DCCT:LVEI
+
+AS-01:TI-EVE-4:LVEO0                TS-01:DI-Scrn:LVEI
+AS-01:TI-EVE-4:LVEO1                TS-02:DI-Scrn:LVEI
+AS-01:TI-EVE-4:LVEO2                TS-03:DI-Scrn:LVEI
+AS-01:TI-EVE-4:LVEO3                TS-04:DI-Scrn-1:LVEI
+AS-01:TI-EVE-4:LVEO4                TS-04:DI-Scrn-2:LVEI
+AS-01:TI-EVE-4:LVEO5                TS-04:DI-Scrn-3:LVEI
+AS-01:TI-EVE-4:LVEO6                TS-01:DI-ICT:LVEI
+AS-01:TI-EVE-4:LVEO7                TS-04:DI-ICT:LVEI
+
+AS-01:TI-EVE-5:LVEO0                SI-19SP:DI-GSL15:LVEI
+AS-01:TI-EVE-5:LVEO1                SI-20SB:DI-GSL07:LVEI
+AS-01:TI-EVE-5:LVEO2                SI-13C4:DI-DCCT:LVEI
+AS-01:TI-EVE-5:LVEO3                SI-14C4:DI-DCCT:LVEI
+AS-01:TI-EVE-5:LVEO4                SI-01SA:DI-HTuneS:LVEI
+AS-01:TI-EVE-5:LVEO5                SI-17SA:DI-HTuneP:LVEI
+AS-01:TI-EVE-5:LVEO6                SI-18C4:DI-VTuneS:LVEI
+AS-01:TI-EVE-5:LVEO7                SI-17C4:DI-VTuneP:LVEI
+
 
 ##AFC from Sector 01
 AS-01:TI-AFC-1:OPTO0                BO-01:CO-BBB:OPTI    # BO correctors
