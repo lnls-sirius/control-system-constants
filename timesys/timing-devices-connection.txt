@@ -86,6 +86,8 @@ AS-01:TI-EVR-2:OPTO6                TS-01:TI-SOE-5:OPTI
 AS-01:TI-EVR-2:OPTO7                TS-01:TI-SOE-6:OPTI
 AS-01:TI-EVR-2:OPTO8                TS-01:TI-SOE-7:OPTI
 AS-01:TI-EVR-2:OPTO9                SI-01:TI-SOE-7:OPTI
+AS-01:TI-EVR-2:OPTO9                SI-01:TI-SOE-8:OPTI
+AS-01:TI-EVR-2:OPTO9                SI-01:TI-SOE-9:OPTI
 
 BO-01:TI-SOE-2:HVEO                 BO-01D:PU-InjK:HVEI
 BO-01:TI-SOE-3:HVEO                 BO-48D:PU-EjeK:HVEI
@@ -98,15 +100,16 @@ TS-01:TI-SOE-6:HVEO                 TS-Fam:PU-InjSG:HVEI
 TS-01:TI-SOE-7:HVEO                 TS-04:PU-InjSF:HVEI
 SI-01:TI-SOE-7:HVEO                 SI-01SA:PU-InjK:HVEI
 
+SI-01:TI-SOE-8:HVEO                 SI-19C4:PU-VPing:HVEI
+SI-01:TI-SOE-9:HVEO                 SI-01SA:PU-HPing:HVEI
+
 #### Diagnostics
 AS-01:TI-EVE-1:LVEO0                LI-01:DI-ICT-1:LVEI
 AS-01:TI-EVE-1:LVEO1                LI-01:DI-ICT-2:LVEI
 AS-01:TI-EVE-1:LVEO2                LI-Fam:DI-Scrn:LVEI
 AS-01:TI-EVE-1:LVEO3                TB-04:DI-FCT:LVEI
 AS-01:TI-EVE-1:LVEO4                TS-04:DI-FCT:LVEI
-AS-01:TI-EVE-1:LVEO5                SI-19C4:PU-VPing:HVEI
-AS-01:TI-EVE-1:LVEO6                SI-01SA:PU-HPing:HVEI
-AS-01:TI-EVE-1:LVEO7                SI-Glob:DI-BbB:LVEI
+AS-01:TI-EVE-1:LVEO5                SI-Glob:DI-BbB:LVEI
 
 AS-01:TI-EVE-2:LVEO0                TB-02:DI-ICT-1:LVEI
 AS-01:TI-EVE-2:LVEO1                TB-04:DI-ICT-2:LVEI
