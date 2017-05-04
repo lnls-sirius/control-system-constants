@@ -21,6 +21,7 @@ si-sextupole-s15-qs          bipolar
 si-corrector-cv              bipolar
 si-corrector-fch             bipolar
 si-corrector-fcv             bipolar
+si-corrector-qs              bipolar
 bo-quadrupole-qs             bipolar
 bo-corrector-ch              bipolar
 bo-corrector-cv              bipolar

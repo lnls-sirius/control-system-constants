@@ -405,3 +405,7 @@ SI-14C2:MA-SFB2              SI-Fam:PS-SFB2      SI-14C2:PS-CH
 SI-16C2:MA-SFB2              SI-Fam:PS-SFB2      SI-16C2:PS-CH
 SI-18C2:MA-SFB2              SI-Fam:PS-SFB2      SI-18C2:PS-CH
 SI-20C2:MA-SFB2              SI-Fam:PS-SFB2      SI-20C2:PS-CH
+
+# --- skew quadrupole ---
+
+SI-01M2:MA-QS                SI-01M2:PS-QS

@@ -26,6 +26,7 @@ si-sextupole-s15-qs          Remote              On                  SlowRef    
 si-corrector-cv              Remote              On                  SlowRef             None
 si-corrector-fch             Remote              On                  SlowRef             None
 si-corrector-fcv             Remote              On                  SlowRef             None
+si-corrector-qs              Remote              On                  SlowRef             None
 bo-quadrupole-qs             Remote              On                  WfmRef              None
 bo-corrector-ch              Remote              On                  WfmRef              None
 bo-corrector-cv              Remote              On                  WfmRef              None
