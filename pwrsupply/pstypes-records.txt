@@ -15,6 +15,7 @@ bo-quadrupole-qd-fam         Remote              On                  WfmRef     
 bo-quadrupole-qf-fam         Remote              On                  WfmRef              None
 bo-sextupole-sd-fam          Remote              On                  WfmRef              None
 bo-sextupole-sf-fam          Remote              On                  WfmRef              None
+ts-dipole-b-fam              Remote              On                  WfmRef              None
 
 # --- bipolar ---
 si-quadrupole-q14-trim       Remote              On                  SlowRef             None

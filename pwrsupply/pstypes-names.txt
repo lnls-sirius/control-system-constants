@@ -11,6 +11,7 @@ bo-quadrupole-qd-fam         monopolar
 bo-quadrupole-qf-fam         monopolar
 bo-sextupole-sd-fam          monopolar
 bo-sextupole-sf-fam          monopolar
+ts-dipole-b-fam              monopolar
 
 si-quadrupole-q14-trim       bipolar
 si-quadrupole-q20-trim       bipolar
