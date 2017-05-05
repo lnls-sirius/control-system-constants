@@ -111,8 +111,8 @@ AS-01:TI-EVE-1:LVEO3                TB-04:DI-FCT:LVEI
 AS-01:TI-EVE-1:LVEO4                TS-04:DI-FCT:LVEI
 AS-01:TI-EVE-1:LVEO5                SI-Glob:DI-BbB:LVEI
 
-AS-01:TI-EVE-2:LVEO0                TB-02:DI-ICT-1:LVEI
-AS-01:TI-EVE-2:LVEO1                TB-04:DI-ICT-2:LVEI
+AS-01:TI-EVE-2:LVEO0                TB-02:DI-ICT:LVEI
+AS-01:TI-EVE-2:LVEO1                TB-04:DI-ICT:LVEI
 AS-01:TI-EVE-2:LVEO2                TB-01:DI-Scrn-1:LVEI
 AS-01:TI-EVE-2:LVEO3                TB-01:DI-Scrn-2:LVEI
 AS-01:TI-EVE-2:LVEO4                TB-02:DI-Scrn-1:LVEI
