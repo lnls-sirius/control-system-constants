@@ -11,6 +11,8 @@ bo-quadrupole-qd-fam         monopolar
 bo-quadrupole-qf-fam         monopolar
 bo-sextupole-sd-fam          monopolar
 bo-sextupole-sf-fam          monopolar
+ts-dipole-b-fam              monopolar
+tb-dipole-b-fam              monopolar
 
 si-quadrupole-q14-trim       bipolar
 si-quadrupole-q20-trim       bipolar
@@ -25,3 +27,10 @@ si-corrector-qs              bipolar
 bo-quadrupole-qs             bipolar
 bo-corrector-ch              bipolar
 bo-corrector-cv              bipolar
+ts-quadrupole-q14-trim       bipolar
+ts-quadrupole-q20-trim       bipolar
+ts-corrector-ch              bipolar
+ts-corrector-cv              bipolar
+tb-quadrupole-q14-trim       bipolar
+tb-corrector-ch              bipolar
+tb-corrector-cv              bipolar
