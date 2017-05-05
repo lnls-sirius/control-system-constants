@@ -16,6 +16,7 @@ bo-quadrupole-qf-fam         Remote              On                  WfmRef     
 bo-sextupole-sd-fam          Remote              On                  WfmRef              None
 bo-sextupole-sf-fam          Remote              On                  WfmRef              None
 ts-dipole-b-fam              Remote              On                  WfmRef              None
+tb-dipole-b-fam              Remote              On                  WfmRef              None
 
 # --- bipolar ---
 si-quadrupole-q14-trim       Remote              On                  SlowRef             None
@@ -31,6 +32,13 @@ si-corrector-qs              Remote              On                  SlowRef    
 bo-quadrupole-qs             Remote              On                  WfmRef              None
 bo-corrector-ch              Remote              On                  WfmRef              None
 bo-corrector-cv              Remote              On                  WfmRef              None
+ts-quadrupole-q14-trim       Remote              On                  SlowRef             None
+ts-quadrupole-q20-trim       Remote              On                  SlowRef             None
+ts-corrector-ch              Remote              On                  WfmRef              None
+ts-corrector-cv              Remote              On                  WfmRef              None
+tb-quadrupole-q14-trim       Remote              On                  SlowRef             None
+tb-corrector-ch              Remote              On                  WfmRef              None
+tb-corrector-cv              Remote              On                  WfmRef              None
 
 
 # 1) CtrlMode is an IOC monitor parameter. It is listed here so that software layers that do not
