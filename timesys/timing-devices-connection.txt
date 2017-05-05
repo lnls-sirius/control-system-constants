@@ -53,8 +53,8 @@ AS-01:TI-EVR-1:OPTO5                LI-01:TI-STDSOE-3:OPTI0
 AS-01:TI-EVR-1:OPTO6                LI-01:TI-STDSOE-3:OPTI1
 AS-01:TI-EVR-1:OPTO7                LI-01:TI-STDSOE-3:OPTI2
 
-LI-01:TI-STDMOE:HVEO0               LI-01:EGun-Trig-1:HVEI0   #MultiBunch
-LI-01:TI-STDMOE:HVEO1               LI-01:EGun-Trig-2:HVEI1   #SingleBunch
+LI-01:TI-STDMOE:HVEO0               LI-01:EGun-Trig-1:HVEI  #MultiBunch
+LI-01:TI-STDMOE:HVEO1               LI-01:EGun-Trig-2:HVEI  #SingleBunch
 LI-01:TI-STDSOE-1:HVEO0             LI-01:RF-Modltr-1:HVEI
 LI-01:TI-STDSOE-1:HVEO1             LI-01:RF-Modltr-2:HVEI
 LI-01:TI-STDSOE-2:HVEO0             LI-01:RF-SSA-1:HVEI
@@ -86,8 +86,8 @@ AS-01:TI-EVR-2:OPTO6                TS-01:TI-SOE-5:OPTI
 AS-01:TI-EVR-2:OPTO7                TS-01:TI-SOE-6:OPTI
 AS-01:TI-EVR-2:OPTO8                TS-01:TI-SOE-7:OPTI
 AS-01:TI-EVR-2:OPTO9                SI-01:TI-SOE-7:OPTI
-AS-01:TI-EVR-2:OPTO9                SI-01:TI-SOE-8:OPTI
-AS-01:TI-EVR-2:OPTO9                SI-01:TI-SOE-9:OPTI
+AS-01:TI-EVR-2:OPTO1O               SI-01:TI-SOE-8:OPTI
+AS-01:TI-EVR-2:OPTO11               SI-01:TI-SOE-9:OPTI
 
 BO-01:TI-SOE-2:HVEO                 BO-01D:PU-InjK:HVEI
 BO-01:TI-SOE-3:HVEO                 BO-48D:PU-EjeK:HVEI
