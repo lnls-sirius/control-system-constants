@@ -107,9 +107,10 @@ SI-01:TI-SOE-9:HVEO                 SI-01SA:PU-HPing:HVEI
 AS-01:TI-EVE-1:LVEO0                LI-01:DI-ICT-1:LVEI
 AS-01:TI-EVE-1:LVEO1                LI-01:DI-ICT-2:LVEI
 AS-01:TI-EVE-1:LVEO2                LI-Fam:DI-Scrn:LVEI
-AS-01:TI-EVE-1:LVEO3                TB-04:DI-FCT:LVEI
-AS-01:TI-EVE-1:LVEO4                TS-04:DI-FCT:LVEI
-AS-01:TI-EVE-1:LVEO5                SI-Glob:DI-BbB:LVEI
+AS-01:TI-EVE-1:LVEO3                LI-Fam:DI-BPM:LVEI
+AS-01:TI-EVE-1:LVEO4                TB-04:DI-FCT:LVEI
+AS-01:TI-EVE-1:LVEO5                TS-04:DI-FCT:LVEI
+AS-01:TI-EVE-1:LVEO6                SI-Glob:DI-BbB:LVEI
 
 AS-01:TI-EVE-2:LVEO0                TB-02:DI-ICT:LVEI
 AS-01:TI-EVE-2:LVEO1                TB-04:DI-ICT:LVEI
