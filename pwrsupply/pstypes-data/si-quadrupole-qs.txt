@@ -1,9 +1,7 @@
-# List of power supplies of type si-corrector-qs
-# ==============================================
+# List of power supplies of type si-quadrupole-qs
+# ===============================================
 
 # number of power supplies: 20
-
-# --- skew quadrupole corrector ---
 
 SI-01C2:PS-QS
 SI-02C2:PS-QS
