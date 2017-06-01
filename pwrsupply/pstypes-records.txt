@@ -10,13 +10,13 @@ si-quadrupole-q14-fam        Remote              On                  SlowRef    
 si-quadrupole-q20-fam        Remote              On                  SlowRef             None
 si-quadrupole-q30-fam        Remote              On                  SlowRef             None
 si-sextupole-s15-fam         Remote              On                  SlowRef             None
-bo-dipole-b-fam              Remote              On                  WfmRef              None
-bo-quadrupole-qd-fam         Remote              On                  WfmRef              None
-bo-quadrupole-qf-fam         Remote              On                  WfmRef              None
-bo-sextupole-sd-fam          Remote              On                  WfmRef              None
-bo-sextupole-sf-fam          Remote              On                  WfmRef              None
-ts-dipole-b-fam              Remote              On                  WfmRef              None
-tb-dipole-b-fam              Remote              On                  WfmRef              None
+bo-dipole-b-fam              Remote              On                  SlowRef             None
+bo-quadrupole-qd-fam         Remote              On                  SlowRef             None
+bo-quadrupole-qf-fam         Remote              On                  SlowRef             None
+bo-sextupole-sd-fam          Remote              On                  SlowRef             None
+bo-sextupole-sf-fam          Remote              On                  SlowRef             None
+ts-dipole-b-fam              Remote              On                  SlowRef             None
+tb-dipole-b-fam              Remote              On                  SlowRef             None
 
 # --- bipolar ---
 si-quadrupole-q14-trim       Remote              On                  SlowRef             None
@@ -29,16 +29,16 @@ si-corrector-cv              Remote              On                  SlowRef    
 si-corrector-fch             Remote              On                  SlowRef             None
 si-corrector-fcv             Remote              On                  SlowRef             None
 si-corrector-qs              Remote              On                  SlowRef             None
-bo-quadrupole-qs             Remote              On                  WfmRef              None
-bo-corrector-ch              Remote              On                  WfmRef              None
-bo-corrector-cv              Remote              On                  WfmRef              None
+bo-quadrupole-qs             Remote              On                  SlowRef             None
+bo-corrector-ch              Remote              On                  SlowRef             None
+bo-corrector-cv              Remote              On                  SlowRef             None
 ts-quadrupole-q14-trim       Remote              On                  SlowRef             None
 ts-quadrupole-q20-trim       Remote              On                  SlowRef             None
-ts-corrector-ch              Remote              On                  WfmRef              None
-ts-corrector-cv              Remote              On                  WfmRef              None
+ts-corrector-ch              Remote              On                  SlowRef             None
+ts-corrector-cv              Remote              On                  SlowRef             None
 tb-quadrupole-q14-trim       Remote              On                  SlowRef             None
-tb-corrector-ch              Remote              On                  WfmRef              None
-tb-corrector-cv              Remote              On                  WfmRef              None
+tb-corrector-ch              Remote              On                  SlowRef             None
+tb-corrector-cv              Remote              On                  SlowRef             None
 
 
 # 1) CtrlMode is an IOC monitor parameter. It is listed here so that software layers that do not
