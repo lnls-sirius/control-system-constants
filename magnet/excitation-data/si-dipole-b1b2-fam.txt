@@ -1,0 +1,7 @@
+# label           si-dipole-b1b2-fam
+# harmonics       0
+# main_harmonic   0 normal
+# units           Ampere T*m T*m
+#
++0.00     +0.0000e+00  +0.0000e+00
++1000.00  -1.6560e+00  +0.0000e+00
