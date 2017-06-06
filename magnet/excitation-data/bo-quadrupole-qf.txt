@@ -1,7 +1,0 @@
-# label           bo-quadrupole-qf
-# harmonics       1 5 9 13
-# main_harmonic   1 normal
-# units           Ampere T T
-#
-0       0           0   0           0   0           0   0           0
-+126.92 -4.6972e+00 0   +5.1574e+04 0   -6.2970e+11 0   -1.5806e+17 0
