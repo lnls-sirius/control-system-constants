@@ -1,4 +1,4 @@
-# label           si-kicker-injnlk
+# label           si-injnlk
 # harmonics       0 2 3 4 5 6 7
 # main_harmonic   3 normal
 # units           Voltage T*m T*m
