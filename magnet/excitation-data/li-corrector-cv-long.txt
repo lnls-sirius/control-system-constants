@@ -1,4 +1,4 @@
-# label           li-corrector-cv
+# label           li-corrector-cv-long
 # harmonics       0
 # main_harmonic   0 skew
 # units           Ampere T*m T*m

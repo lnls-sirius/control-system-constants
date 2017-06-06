@@ -1,4 +1,4 @@
-# label           si-quadrupole-q30
+# label           si-quadrupole-q30-fam
 # harmonics       1
 # main_harmonic   1 normal
 # units           Ampere T T
