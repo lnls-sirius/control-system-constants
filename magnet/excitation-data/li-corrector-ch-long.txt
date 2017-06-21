@@ -1,4 +1,4 @@
-# label           li-corrector-ch
+# label           li-corrector-ch-long
 # harmonics       0
 # main_harmonic   0 normal
 # units           Ampere T*m T*m

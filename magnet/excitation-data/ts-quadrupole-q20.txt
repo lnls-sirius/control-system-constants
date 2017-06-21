@@ -1,4 +1,4 @@
-# label           bo-quadrupole-qd
+# label           bo-quadrupole-q20
 # harmonics       1 5 9 13
 # main_harmonic   1 normal
 # units           Ampere T T

@@ -1,4 +1,4 @@
-# label           bo-quadrupole-qf
+# label           bo-quadrupole-qf-fam
 # harmonics       1 5 9 13
 # main_harmonic   1 normal
 # units           Ampere T T

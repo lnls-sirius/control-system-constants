@@ -1,4 +1,4 @@
-# label           tb-dipole-b
+# label           tb-dipole-b-fam
 # harmonics       0
 # main_harmonic   0 normal
 # units           Ampere T*m T*m
