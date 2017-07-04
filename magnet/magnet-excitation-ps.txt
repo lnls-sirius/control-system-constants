@@ -789,11 +789,11 @@ TB-01:MA-QF1                 TB-01:PS-QF1
 TB-02:MA-QD2A                TB-02:PS-QD2A
 TB-02:MA-QF2A                TB-02:PS-QF2A
 TB-02:MA-QF2B                TB-02:PS-QF2B
-TB-02:MA-QD2                 TB-02:PS-QD2
+TB-02:MA-QD2B                TB-02:PS-QD2B
 TB-03:MA-QF3                 TB-03:PS-QF3
 TB-03:MA-QD3                 TB-03:PS-QD3
 TB-04:MA-QF4                 TB-04:PS-QF4
-TB-04:MA-QD                  TB-04:PS-QD
+TB-04:MA-QD4                 TB-04:PS-QD4
 
 # --- tb-corrector-ch ---
 TB-01:MA-CH-1                TB-01:PS-CH-1
