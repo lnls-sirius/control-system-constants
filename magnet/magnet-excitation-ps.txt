@@ -7,6 +7,8 @@
 
 SI-Fam:MA-B1B2               SI-Fam:PS-B1B2-1    SI-Fam:PS-B1B2-2
 TS-Fam:MA-B                  TS-Fam:PS-B
+BO-Fam:MA-B                  BO-Fam:PS-B
+TB-Fam:MA-B                  TB-Fam:PS-B
 
 # --- quadrupole families ---
 
@@ -22,6 +24,9 @@ SI-Fam:MA-Q1                 SI-Fam:PS-Q1
 SI-Fam:MA-Q2                 SI-Fam:PS-Q2
 SI-Fam:MA-Q3                 SI-Fam:PS-Q3
 SI-Fam:MA-Q4                 SI-Fam:PS-Q4
+
+BO-Fam:MA-QD                 BO-Fam:PS-QD
+BO-Fam:MA-QF                 BO-Fam:PS-QF
 
 # --- sextupole families ---
 
@@ -46,6 +51,9 @@ SI-Fam:MA-SFB2               SI-Fam:PS-SFB2
 SI-Fam:MA-SFP0               SI-Fam:PS-SFP0
 SI-Fam:MA-SFP1               SI-Fam:PS-SFP1
 SI-Fam:MA-SFP2               SI-Fam:PS-SFP2
+
+BO-Fam:MA-SD                 BO-Fam:PS-SD
+BO-Fam:MA-SF                 BO-Fam:PS-SF
 
 # --- quadrupole magnets ---
 
@@ -774,3 +782,30 @@ SI-17C2:MA-FC                SI-17C2:PS-FCH      SI-17C2:PS-FCV      SI-17C2:PS-
 SI-18C2:MA-FC                SI-18C2:PS-FCH      SI-18C2:PS-FCV      SI-18C2:PS-QS
 SI-19C2:MA-FC                SI-19C2:PS-FCH      SI-19C2:PS-FCV      SI-19C2:PS-QS
 SI-20C2:MA-FC                SI-20C2:PS-FCH      SI-20C2:PS-FCV      SI-20C2:PS-QS
+
+# --- tb-quadrupoles ---
+TB-01:MA-QD1                 TB-01:PS-QD1
+TB-01:MA-QF1                 TB-01:PS-QF1
+TB-02:MA-QD2A                TB-02:PS-QD2A
+TB-02:MA-QF2A                TB-02:PS-QF2A
+TB-02:MA-QF2B                TB-02:PS-QF2B
+TB-02:MA-QD2                 TB-02:PS-QD2
+TB-03:MA-QF3                 TB-03:PS-QF3
+TB-03:MA-QD3                 TB-03:PS-QD3
+TB-04:MA-QF4                 TB-04:PS-QF4
+TB-04:MA-QD                  TB-04:PS-QD
+
+# --- tb-corrector-ch ---
+TB-01:MA-CH-1                TB-01:PS-CH-1
+TB-01:MA-CH-2                TB-01:PS-CH-2
+TB-02:MA-CH-1                TB-02:PS-CH-1
+TB-02:MA-CH-2                TB-02:PS-CH-2
+TB-03:MA-CH                  TB-03:PS-CH
+
+# --- tb-corrector-cv ---
+TB-01:MA-CV-1                TB-01:PS-CV-1
+TB-01:MA-CV-2                TB-01:PS-CV-2
+TB-02:MA-CV-1                TB-02:PS-CV-1
+TB-02:MA-CV-2                TB-02:PS-CV-2
+TB-04:MA-CV-1                TB-04:PS-CV-1
+TB-04:MA-CV-2                TB-04:PS-CV-2
