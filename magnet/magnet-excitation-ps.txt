@@ -1077,7 +1077,7 @@ BO-41U:MA-CH                 BO-41U:PS-CH
 BO-43U:MA-CH                 BO-43U:PS-CH
 BO-45U:MA-CH                 BO-45U:PS-CH
 BO-47U:MA-CH                 BO-47U:PS-CH
-BO-49U:MA-CH                 BO-49U:PS-CH
+BO-49D:MA-CH                 BO-49U:PS-CH
 
 # --- bo-corrector-cv ---
 BO-01U:MA-CV                 BO-01U:PS-CV
