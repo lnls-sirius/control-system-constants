@@ -1,57 +1,86 @@
 ## First Layer: From EVG to FOUTs
-AS-Glob:TI-EVG:MFIO0                AS-01:TI-FOUT:MFIO
-AS-Glob:TI-EVG:MFIO1                AS-03:TI-FOUT:MFIO
-AS-Glob:TI-EVG:MFIO2                AS-08:TI-FOUT:MFIO
-AS-Glob:TI-EVG:MFIO3                AS-13:TI-FOUT:MFIO
-AS-Glob:TI-EVG:MFIO4                AS-18:TI-FOUT:MFIO
+AS-Glob:TI-EVG:OUT0                AS-Glob:TI-FOUT-1:UPLINK
+AS-Glob:TI-EVG:OUT1                AS-Glob:TI-FOUT-2:UPLINK
+AS-Glob:TI-EVG:OUT2                AS-Glob:TI-FOUT-3:UPLINK
+AS-Glob:TI-EVG:OUT3                AS-Glob:TI-FOUT-4:UPLINK
+AS-Glob:TI-EVG:OUT4                AS-Glob:TI-FOUT-5:UPLINK
 
 # Second Layer: From FOUTs to EVRS and AFCs
-AS-01:TI-FOUT:MFIO0                 AS-01:TI-EVR-1:MFIO
-AS-01:TI-FOUT:MFIO1                 AS-01:TI-EVR-2:MFIO
-AS-01:TI-FOUT:MFIO2                 AS-01:TI-EVR-3:MFIO
-AS-01:TI-FOUT:MFIO3                 AS-01:TI-EVE-1:MFIO
-AS-01:TI-FOUT:MFIO4                 AS-01:TI-EVE-2:MFIO
-AS-01:TI-FOUT:MFIO5                 AS-01:TI-EVE-3:MFIO
-AS-01:TI-FOUT:MFIO6                 AS-01:TI-EVE-4:MFIO
-AS-01:TI-FOUT:MFIO7                 AS-01:TI-EVE-5:MFIO
+AS-Glob:TI-FOUT-1:OUT0             AS-Glob:TI-EVR-1:UPLINK
+AS-Glob:TI-FOUT-1:OUT1             AS-Glob:TI-EVR-2:UPLINK
+AS-Glob:TI-FOUT-1:OUT2             AS-Glob:TI-EVR-3:UPLINK
+AS-Glob:TI-FOUT-1:OUT3             AS-Glob:TI-EVE-1:UPLINK
+AS-Glob:TI-FOUT-1:OUT4             AS-Glob:TI-EVE-2:UPLINK
+AS-Glob:TI-FOUT-1:OUT5             AS-Glob:TI-EVE-3:UPLINK
 
-AS-03:TI-FOUT:MFIO0                 AS-01:TI-AFC-1:MFIO
-AS-03:TI-FOUT:MFIO1                 AS-02:TI-AFC:MFIO
-AS-03:TI-FOUT:MFIO2                 AS-03:TI-AFC:MFIO
-AS-03:TI-FOUT:MFIO3                 AS-04:TI-AFC:MFIO
-AS-03:TI-FOUT:MFIO4                 AS-05:TI-AFC:MFIO
-AS-03:TI-FOUT:MFIO5                 AS-01:TI-AFC-2:MFIO
+AS-Glob:TI-FOUT-2:OUT0             AS-Glob:TI-EVR-4:UPLINK
+AS-Glob:TI-FOUT-2:OUT1             AS-Glob:TI-EVE-4:UPLINK
+AS-Glob:TI-FOUT-2:OUT2             AS-Glob:TI-EVE-5:UPLINK
+AS-Glob:TI-FOUT-2:OUT3             AS-Glob:TI-EVE-6:UPLINK
 
-AS-08:TI-FOUT:MFIO0                 AS-06:TI-AFC:MFIO
-AS-08:TI-FOUT:MFIO1                 AS-07:TI-AFC:MFIO
-AS-08:TI-FOUT:MFIO2                 AS-08:TI-AFC:MFIO
-AS-08:TI-FOUT:MFIO3                 AS-09:TI-AFC:MFIO
-AS-08:TI-FOUT:MFIO4                 AS-10:TI-AFC:MFIO
+AS-Glob:TI-FOUT-3:OUT0             AS-01:TI-AFC:SFP6
+AS-Glob:TI-FOUT-3:OUT1             AS-02:TI-AFC:SFP6
+AS-Glob:TI-FOUT-3:OUT2             AS-03:TI-AFC:SFP6
+AS-Glob:TI-FOUT-3:OUT3             AS-04:TI-AFC:SFP6
+AS-Glob:TI-FOUT-3:OUT4             AS-05:TI-AFC:SFP6
+AS-Glob:TI-FOUT-3:OUT5             AS-06:TI-AFC:SFP6
+AS-Glob:TI-FOUT-3:OUT6             AS-07:TI-AFC:SFP6
 
-AS-13:TI-FOUT:MFIO0                 AS-11:TI-AFC:MFIO
-AS-13:TI-FOUT:MFIO1                 AS-12:TI-AFC:MFIO
-AS-13:TI-FOUT:MFIO2                 AS-13:TI-AFC:MFIO
-AS-13:TI-FOUT:MFIO3                 AS-14:TI-AFC:MFIO
-AS-13:TI-FOUT:MFIO4                 AS-15:TI-AFC:MFIO
+AS-Glob:TI-FOUT-4:OUT0             AS-08:TI-AFC:SFP6
+AS-Glob:TI-FOUT-4:OUT1             AS-09:TI-AFC:SFP6
+AS-Glob:TI-FOUT-4:OUT2             AS-10:TI-AFC:SFP6
+AS-Glob:TI-FOUT-4:OUT3             AS-11:TI-AFC:SFP6
+AS-Glob:TI-FOUT-4:OUT4             AS-12:TI-AFC:SFP6
+AS-Glob:TI-FOUT-4:OUT5             AS-13:TI-AFC:SFP6
+AS-Glob:TI-FOUT-4:OUT6             AS-14:TI-AFC:SFP6
 
-AS-18:TI-FOUT:MFIO0                 AS-16:TI-AFC:MFIO
-AS-18:TI-FOUT:MFIO1                 AS-17:TI-AFC:MFIO
-AS-18:TI-FOUT:MFIO2                 AS-18:TI-AFC:MFIO
-AS-18:TI-FOUT:MFIO3                 AS-19:TI-AFC:MFIO
-AS-18:TI-FOUT:MFIO4                 AS-20:TI-AFC:MFIO
+AS-Glob:TI-FOUT-5:OUT0             AS-15:TI-AFC:SFP6
+AS-Glob:TI-FOUT-5:OUT1             AS-16:TI-AFC:SFP6
+AS-Glob:TI-FOUT-5:OUT2             AS-17:TI-AFC:SFP6
+AS-Glob:TI-FOUT-5:OUT3             AS-18:TI-AFC:SFP6
+AS-Glob:TI-FOUT-5:OUT4             AS-19:TI-AFC:SFP6
+AS-Glob:TI-FOUT-5:OUT5             AS-20:TI-AFC:SFP6
+AS-Glob:TI-FOUT-5:OUT6             AS-21:TI-AFC:SFP6
+
+AS-01:TI-EVR-1:OUT0                 LI-01:TI-STDMOE:OE1
+AS-01:TI-EVR-1:OUT1                 LI-01:TI-STDMOE:OE2
+AS-01:TI-EVR-1:OTP0                LI-01:TI-STDSOE-1:IN1
+AS-01:TI-EVR-1:OTP1                LI-01:TI-STDSOE-1:IN2
+AS-01:TI-EVR-1:OTP2                LI-01:TI-STDSOE-2:IN1
+AS-01:TI-EVR-1:OTP3                LI-01:TI-STDSOE-2:IN2
+AS-01:TI-EVR-1:OTP4                LI-01:TI-STDSOE-2:IN3
+AS-01:TI-EVR-1:OTP5                LI-01:TI-STDSOE-3:IN1
+AS-01:TI-EVR-1:OTP6                LI-01:TI-STDSOE-3:IN2
+AS-01:TI-EVR-1:OTP7                LI-01:TI-STDSOE-3:IN3
+
+## Injection pulsed magnets and cavity
+
+AS-Glob:TI-EVR-2:	                 STD-MOE-2
+AS-Glob:TI-EVR-2:	                 STD-MOE-3
+AS-Glob:TI-EVR-2:	                 STD-MOE-3
+AS-Glob:TI-EVR-2:	                 STD-MOE-3
+AS-Glob:TI-EVR-2:	                 STD-MOE-4
+AS-Glob:TI-EVR-2:	                 STD-MOE-4
+AS-Glob:TI-EVR-2:	                 STD-MOE-5
+AS-Glob:TI-EVR-2:	                 STD-MOE-5
+AS-Glob:TI-EVR-2:	                 SOE-1
+AS-Glob:TI-EVR-2:	                 SOE-2
+AS-Glob:TI-EVR-2:	                 SOE-3
+AS-Glob:TI-EVR-2:	                 SOE-4
 
 
-##LINAC EVR
-AS-01:TI-EVR-1:MFO0                 LI-01:TI-STDMOE:MFI0
-AS-01:TI-EVR-1:MFO1                 LI-01:TI-STDMOE:MFI1
-AS-01:TI-EVR-1:OPTO0                LI-01:TI-STDSOE-1:OPTI0
-AS-01:TI-EVR-1:OPTO1                LI-01:TI-STDSOE-1:OPTI1
-AS-01:TI-EVR-1:OPTO2                LI-01:TI-STDSOE-2:OPTI0
-AS-01:TI-EVR-1:OPTO3                LI-01:TI-STDSOE-2:OPTI1
-AS-01:TI-EVR-1:OPTO4                LI-01:TI-STDSOE-2:OPTI2
-AS-01:TI-EVR-1:OPTO5                LI-01:TI-STDSOE-3:OPTI0
-AS-01:TI-EVR-1:OPTO6                LI-01:TI-STDSOE-3:OPTI1
-AS-01:TI-EVR-1:OPTO7                LI-01:TI-STDSOE-3:OPTI2
+AS-01:TI-EVR-2:OTP0                BO-01:TI-SOE-2:IN
+AS-01:TI-EVR-2:OTP1                BO-01:TI-SOE-3:IN
+AS-01:TI-EVR-2:OTP2                BO-01:TI-SOE-4:IN
+AS-01:TI-EVR-2:OTP3                BO-01:TI-SOE-5:IN
+AS-01:TI-EVR-2:OTP4                TB-01:TI-SOE-4:IN
+AS-01:TI-EVR-2:OTP5                TS-01:TI-SOE-4:IN
+AS-01:TI-EVR-2:OTP6                TS-01:TI-SOE-5:IN
+AS-01:TI-EVR-2:OTP7                TS-01:TI-SOE-6:IN
+AS-01:TI-EVR-2:OTP8                TS-01:TI-SOE-7:IN
+AS-01:TI-EVR-2:OTP9                SI-01:TI-SOE-7:IN
+AS-01:TI-EVR-2:OTP1O               SI-01:TI-SOE-8:IN
+AS-01:TI-EVR-2:OTP11               SI-01:TI-SOE-9:IN
 
 LI-01:TI-STDMOE:HVEO0               LI-01:EGun-Trig-1:HVEI  #MultiBunch
 LI-01:TI-STDMOE:HVEO1               LI-01:EGun-Trig-2:HVEI  #SingleBunch
@@ -65,29 +94,16 @@ LI-01:TI-STDSOE-3:HVEO1             LI-01:RF-LLRF-2:HVEI
 LI-01:TI-STDSOE-3:HVEO2             LI-01:RF-LLRF-3:HVEI
 
 ## Magnets families power Supplies
-AS-01:TI-EVR-3:OPTO0                SI-Fam:CO-BBB-1:OPTI # SI Dipole families
-AS-01:TI-EVR-3:OPTO1                SI-Fam:CO-BBB-2:OPTI # SI straigth section quadrupole families
-AS-01:TI-EVR-3:OPTO2                SI-Fam:CO-BBB-3:OPTI # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
-AS-01:TI-EVR-3:OPTO3                SI-Fam:CO-BBB-4:OPTI # SI straight section sextupole families
-AS-01:TI-EVR-3:OPTO4                SI-Fam:CO-BBB-5:OPTI # SI arch sextupole families
-AS-01:TI-EVR-3:OPTO5                BO-Fam:CO-BBB-1:OPTI # BO Dipole Families
-AS-01:TI-EVR-3:OPTO6                BO-Fam:CO-BBB-2:OPTI # BO Quadrupoles
-AS-01:TI-EVR-3:OPTO7                BO-Fam:CO-BBB-3:OPTI # BO Sextupoles
+AS-01:TI-EVR-3:OTP0                SI-Fam:CO-BBB-1:IN # SI Dipole families
+AS-01:TI-EVR-3:OTP1                SI-Fam:CO-BBB-2:IN # SI straigth section quadrupole families
+AS-01:TI-EVR-3:OTP2                SI-Fam:CO-BBB-3:IN # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
+AS-01:TI-EVR-3:OTP3                SI-Fam:CO-BBB-4:IN # SI straight section sextupole families
+AS-01:TI-EVR-3:OTP4                SI-Fam:CO-BBB-5:IN # SI arch sextupole families
+AS-01:TI-EVR-3:OTP5                BO-Fam:CO-BBB-1:IN # BO Dipole Families
+AS-01:TI-EVR-3:OTP6                BO-Fam:CO-BBB-2:IN # BO Quadrupoles
+AS-01:TI-EVR-3:OTP7                BO-Fam:CO-BBB-3:IN # BO Sextupoles
 
 
-## Injection pulsed magnets and cavity
-AS-01:TI-EVR-2:OPTO0                BO-01:TI-SOE-2:OPTI
-AS-01:TI-EVR-2:OPTO1                BO-01:TI-SOE-3:OPTI
-AS-01:TI-EVR-2:OPTO2                BO-01:TI-SOE-4:OPTI
-AS-01:TI-EVR-2:OPTO3                BO-01:TI-SOE-5:OPTI
-AS-01:TI-EVR-2:OPTO4                TB-01:TI-SOE-4:OPTI
-AS-01:TI-EVR-2:OPTO5                TS-01:TI-SOE-4:OPTI
-AS-01:TI-EVR-2:OPTO6                TS-01:TI-SOE-5:OPTI
-AS-01:TI-EVR-2:OPTO7                TS-01:TI-SOE-6:OPTI
-AS-01:TI-EVR-2:OPTO8                TS-01:TI-SOE-7:OPTI
-AS-01:TI-EVR-2:OPTO9                SI-01:TI-SOE-7:OPTI
-AS-01:TI-EVR-2:OPTO1O               SI-01:TI-SOE-8:OPTI
-AS-01:TI-EVR-2:OPTO11               SI-01:TI-SOE-9:OPTI
 
 BO-01:TI-SOE-2:HVEO                 BO-01D:PU-InjK:HVEI
 BO-01:TI-SOE-3:HVEO                 BO-48D:PU-EjeK:HVEI
@@ -149,223 +165,223 @@ AS-01:TI-EVE-5:LVEO7                SI-17C4:DI-VTuneP:LVEI
 
 
 ##AFC from Sector 01
-AS-01:TI-AFC-1:OPTO0                BO-01:CO-BBB:OPTI    # BO correctors
-AS-01:TI-AFC-1:OPTO1                SI-01:CO-BBB-1:OPTI  # SI quadrupoles
-AS-01:TI-AFC-1:OPTO2                SI-01:CO-BBB-2:OPTI  # SI quadrupoles
-AS-01:TI-AFC-1:OPTO3                SI-01:CO-BBB-3:OPTI  # SI correctors
-AS-01:TI-AFC-1:OPTO4                SI-01:CO-BBB-4:OPTI  # SI correctors
-AS-01:TI-AFC-1:OPTO5                SI-01:CO-BBB-5:OPTI  # SI correctors
-AS-01:TI-AFC-1:OPTO6                SI-01:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-01:TI-AFC-1:OPTO7                SI-01:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-01:TI-AFC-1:OTP0                BO-01:CO-BBB:IN    # BO correctors
+AS-01:TI-AFC-1:OTP1                SI-01:CO-BBB-1:IN  # SI quadrupoles
+AS-01:TI-AFC-1:OTP2                SI-01:CO-BBB-2:IN  # SI quadrupoles
+AS-01:TI-AFC-1:OTP3                SI-01:CO-BBB-3:IN  # SI correctors
+AS-01:TI-AFC-1:OTP4                SI-01:CO-BBB-4:IN  # SI correctors
+AS-01:TI-AFC-1:OTP5                SI-01:CO-BBB-5:IN  # SI correctors
+AS-01:TI-AFC-1:OTP6                SI-01:CO-BBB-6:IN  # SI skew quadrupoles
+AS-01:TI-AFC-1:OTP7                SI-01:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 02
-AS-02:TI-AFC:OPTO0                  BO-02:CO-BBB:OPTI    # BO correctors
-AS-02:TI-AFC:OPTO1                  SI-02:CO-BBB-1:OPTI  # SI quadrupoles
-AS-02:TI-AFC:OPTO2                  SI-02:CO-BBB-2:OPTI  # SI quadrupoles
-AS-02:TI-AFC:OPTO3                  SI-02:CO-BBB-3:OPTI  # SI correctors
-AS-02:TI-AFC:OPTO4                  SI-02:CO-BBB-4:OPTI  # SI correctors
-AS-02:TI-AFC:OPTO5                  SI-02:CO-BBB-5:OPTI  # SI correctors
-AS-02:TI-AFC:OPTO6                  SI-02:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-02:TI-AFC:OPTO7                  SI-02:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-02:TI-AFC:OTP0                  BO-02:CO-BBB:IN    # BO correctors
+AS-02:TI-AFC:OTP1                  SI-02:CO-BBB-1:IN  # SI quadrupoles
+AS-02:TI-AFC:OTP2                  SI-02:CO-BBB-2:IN  # SI quadrupoles
+AS-02:TI-AFC:OTP3                  SI-02:CO-BBB-3:IN  # SI correctors
+AS-02:TI-AFC:OTP4                  SI-02:CO-BBB-4:IN  # SI correctors
+AS-02:TI-AFC:OTP5                  SI-02:CO-BBB-5:IN  # SI correctors
+AS-02:TI-AFC:OTP6                  SI-02:CO-BBB-6:IN  # SI skew quadrupoles
+AS-02:TI-AFC:OTP7                  SI-02:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 03
-AS-03:TI-AFC:OPTO0                  BO-03:CO-BBB:OPTI    # BO correctors
-AS-03:TI-AFC:OPTO1                  SI-03:CO-BBB-1:OPTI  # SI quadrupoles
-AS-03:TI-AFC:OPTO2                  SI-03:CO-BBB-2:OPTI  # SI quadrupoles
-AS-03:TI-AFC:OPTO3                  SI-03:CO-BBB-3:OPTI  # SI correctors
-AS-03:TI-AFC:OPTO4                  SI-03:CO-BBB-4:OPTI  # SI correctors
-AS-03:TI-AFC:OPTO5                  SI-03:CO-BBB-5:OPTI  # SI correctors
-AS-03:TI-AFC:OPTO6                  SI-03:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-03:TI-AFC:OPTO7                  SI-03:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-03:TI-AFC:OTP0                  BO-03:CO-BBB:IN    # BO correctors
+AS-03:TI-AFC:OTP1                  SI-03:CO-BBB-1:IN  # SI quadrupoles
+AS-03:TI-AFC:OTP2                  SI-03:CO-BBB-2:IN  # SI quadrupoles
+AS-03:TI-AFC:OTP3                  SI-03:CO-BBB-3:IN  # SI correctors
+AS-03:TI-AFC:OTP4                  SI-03:CO-BBB-4:IN  # SI correctors
+AS-03:TI-AFC:OTP5                  SI-03:CO-BBB-5:IN  # SI correctors
+AS-03:TI-AFC:OTP6                  SI-03:CO-BBB-6:IN  # SI skew quadrupoles
+AS-03:TI-AFC:OTP7                  SI-03:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 04
-AS-04:TI-AFC:OPTO0                  BO-04:CO-BBB:OPTI    # BO correctors
-AS-04:TI-AFC:OPTO1                  SI-04:CO-BBB-1:OPTI  # SI quadrupoles
-AS-04:TI-AFC:OPTO2                  SI-04:CO-BBB-2:OPTI  # SI quadrupoles
-AS-04:TI-AFC:OPTO3                  SI-04:CO-BBB-3:OPTI  # SI correctors
-AS-04:TI-AFC:OPTO4                  SI-04:CO-BBB-4:OPTI  # SI correctors
-AS-04:TI-AFC:OPTO5                  SI-04:CO-BBB-5:OPTI  # SI correctors
-AS-04:TI-AFC:OPTO6                  SI-04:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-04:TI-AFC:OPTO7                  SI-04:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-04:TI-AFC:OTP0                  BO-04:CO-BBB:IN    # BO correctors
+AS-04:TI-AFC:OTP1                  SI-04:CO-BBB-1:IN  # SI quadrupoles
+AS-04:TI-AFC:OTP2                  SI-04:CO-BBB-2:IN  # SI quadrupoles
+AS-04:TI-AFC:OTP3                  SI-04:CO-BBB-3:IN  # SI correctors
+AS-04:TI-AFC:OTP4                  SI-04:CO-BBB-4:IN  # SI correctors
+AS-04:TI-AFC:OTP5                  SI-04:CO-BBB-5:IN  # SI correctors
+AS-04:TI-AFC:OTP6                  SI-04:CO-BBB-6:IN  # SI skew quadrupoles
+AS-04:TI-AFC:OTP7                  SI-04:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 05
-AS-05:TI-AFC:OPTO0                  BO-05:CO-BBB:OPTI    # BO correctors
-AS-05:TI-AFC:OPTO1                  SI-05:CO-BBB-1:OPTI  # SI quadrupoles
-AS-05:TI-AFC:OPTO2                  SI-05:CO-BBB-2:OPTI  # SI quadrupoles
-AS-05:TI-AFC:OPTO3                  SI-05:CO-BBB-3:OPTI  # SI correctors
-AS-05:TI-AFC:OPTO4                  SI-05:CO-BBB-4:OPTI  # SI correctors
-AS-05:TI-AFC:OPTO5                  SI-05:CO-BBB-5:OPTI  # SI correctors
-AS-05:TI-AFC:OPTO6                  SI-05:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-05:TI-AFC:OPTO7                  SI-05:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-05:TI-AFC:OTP0                  BO-05:CO-BBB:IN    # BO correctors
+AS-05:TI-AFC:OTP1                  SI-05:CO-BBB-1:IN  # SI quadrupoles
+AS-05:TI-AFC:OTP2                  SI-05:CO-BBB-2:IN  # SI quadrupoles
+AS-05:TI-AFC:OTP3                  SI-05:CO-BBB-3:IN  # SI correctors
+AS-05:TI-AFC:OTP4                  SI-05:CO-BBB-4:IN  # SI correctors
+AS-05:TI-AFC:OTP5                  SI-05:CO-BBB-5:IN  # SI correctors
+AS-05:TI-AFC:OTP6                  SI-05:CO-BBB-6:IN  # SI skew quadrupoles
+AS-05:TI-AFC:OTP7                  SI-05:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 06
-AS-06:TI-AFC:OPTO0                  BO-06:CO-BBB:OPTI    # BO correctors
-AS-06:TI-AFC:OPTO1                  SI-06:CO-BBB-1:OPTI  # SI quadrupoles
-AS-06:TI-AFC:OPTO2                  SI-06:CO-BBB-2:OPTI  # SI quadrupoles
-AS-06:TI-AFC:OPTO3                  SI-06:CO-BBB-3:OPTI  # SI correctors
-AS-06:TI-AFC:OPTO4                  SI-06:CO-BBB-4:OPTI  # SI correctors
-AS-06:TI-AFC:OPTO5                  SI-06:CO-BBB-5:OPTI  # SI correctors
-AS-06:TI-AFC:OPTO6                  SI-06:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-06:TI-AFC:OPTO7                  SI-06:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-06:TI-AFC:OTP0                  BO-06:CO-BBB:IN    # BO correctors
+AS-06:TI-AFC:OTP1                  SI-06:CO-BBB-1:IN  # SI quadrupoles
+AS-06:TI-AFC:OTP2                  SI-06:CO-BBB-2:IN  # SI quadrupoles
+AS-06:TI-AFC:OTP3                  SI-06:CO-BBB-3:IN  # SI correctors
+AS-06:TI-AFC:OTP4                  SI-06:CO-BBB-4:IN  # SI correctors
+AS-06:TI-AFC:OTP5                  SI-06:CO-BBB-5:IN  # SI correctors
+AS-06:TI-AFC:OTP6                  SI-06:CO-BBB-6:IN  # SI skew quadrupoles
+AS-06:TI-AFC:OTP7                  SI-06:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 07
-AS-07:TI-AFC:OPTO0                  BO-07:CO-BBB:OPTI    # BO correctors
-AS-07:TI-AFC:OPTO1                  SI-07:CO-BBB-1:OPTI  # SI quadrupoles
-AS-07:TI-AFC:OPTO2                  SI-07:CO-BBB-2:OPTI  # SI quadrupoles
-AS-07:TI-AFC:OPTO3                  SI-07:CO-BBB-3:OPTI  # SI correctors
-AS-07:TI-AFC:OPTO4                  SI-07:CO-BBB-4:OPTI  # SI correctors
-AS-07:TI-AFC:OPTO5                  SI-07:CO-BBB-5:OPTI  # SI correctors
-AS-07:TI-AFC:OPTO6                  SI-07:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-07:TI-AFC:OPTO7                  SI-07:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-07:TI-AFC:OTP0                  BO-07:CO-BBB:IN    # BO correctors
+AS-07:TI-AFC:OTP1                  SI-07:CO-BBB-1:IN  # SI quadrupoles
+AS-07:TI-AFC:OTP2                  SI-07:CO-BBB-2:IN  # SI quadrupoles
+AS-07:TI-AFC:OTP3                  SI-07:CO-BBB-3:IN  # SI correctors
+AS-07:TI-AFC:OTP4                  SI-07:CO-BBB-4:IN  # SI correctors
+AS-07:TI-AFC:OTP5                  SI-07:CO-BBB-5:IN  # SI correctors
+AS-07:TI-AFC:OTP6                  SI-07:CO-BBB-6:IN  # SI skew quadrupoles
+AS-07:TI-AFC:OTP7                  SI-07:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 08
-AS-08:TI-AFC:OPTO0                  BO-08:CO-BBB:OPTI    # BO correctors
-AS-08:TI-AFC:OPTO1                  SI-08:CO-BBB-1:OPTI  # SI quadrupoles
-AS-08:TI-AFC:OPTO2                  SI-08:CO-BBB-2:OPTI  # SI quadrupoles
-AS-08:TI-AFC:OPTO3                  SI-08:CO-BBB-3:OPTI  # SI correctors
-AS-08:TI-AFC:OPTO4                  SI-08:CO-BBB-4:OPTI  # SI correctors
-AS-08:TI-AFC:OPTO5                  SI-08:CO-BBB-5:OPTI  # SI correctors
-AS-08:TI-AFC:OPTO6                  SI-08:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-08:TI-AFC:OPTO7                  SI-08:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-08:TI-AFC:OTP0                  BO-08:CO-BBB:IN    # BO correctors
+AS-08:TI-AFC:OTP1                  SI-08:CO-BBB-1:IN  # SI quadrupoles
+AS-08:TI-AFC:OTP2                  SI-08:CO-BBB-2:IN  # SI quadrupoles
+AS-08:TI-AFC:OTP3                  SI-08:CO-BBB-3:IN  # SI correctors
+AS-08:TI-AFC:OTP4                  SI-08:CO-BBB-4:IN  # SI correctors
+AS-08:TI-AFC:OTP5                  SI-08:CO-BBB-5:IN  # SI correctors
+AS-08:TI-AFC:OTP6                  SI-08:CO-BBB-6:IN  # SI skew quadrupoles
+AS-08:TI-AFC:OTP7                  SI-08:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 09
-AS-09:TI-AFC:OPTO0                  BO-09:CO-BBB:OPTI    # BO correctors
-AS-09:TI-AFC:OPTO1                  SI-09:CO-BBB-1:OPTI  # SI quadrupoles
-AS-09:TI-AFC:OPTO2                  SI-09:CO-BBB-2:OPTI  # SI quadrupoles
-AS-09:TI-AFC:OPTO3                  SI-09:CO-BBB-3:OPTI  # SI correctors
-AS-09:TI-AFC:OPTO4                  SI-09:CO-BBB-4:OPTI  # SI correctors
-AS-09:TI-AFC:OPTO5                  SI-09:CO-BBB-5:OPTI  # SI correctors
-AS-09:TI-AFC:OPTO6                  SI-09:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-09:TI-AFC:OPTO7                  SI-09:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-09:TI-AFC:OTP0                  BO-09:CO-BBB:IN    # BO correctors
+AS-09:TI-AFC:OTP1                  SI-09:CO-BBB-1:IN  # SI quadrupoles
+AS-09:TI-AFC:OTP2                  SI-09:CO-BBB-2:IN  # SI quadrupoles
+AS-09:TI-AFC:OTP3                  SI-09:CO-BBB-3:IN  # SI correctors
+AS-09:TI-AFC:OTP4                  SI-09:CO-BBB-4:IN  # SI correctors
+AS-09:TI-AFC:OTP5                  SI-09:CO-BBB-5:IN  # SI correctors
+AS-09:TI-AFC:OTP6                  SI-09:CO-BBB-6:IN  # SI skew quadrupoles
+AS-09:TI-AFC:OTP7                  SI-09:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 10
-AS-10:TI-AFC:OPTO0                  BO-10:CO-BBB:OPTI    # BO correctors
-AS-10:TI-AFC:OPTO1                  SI-10:CO-BBB-1:OPTI  # SI quadrupoles
-AS-10:TI-AFC:OPTO2                  SI-10:CO-BBB-2:OPTI  # SI quadrupoles
-AS-10:TI-AFC:OPTO3                  SI-10:CO-BBB-3:OPTI  # SI correctors
-AS-10:TI-AFC:OPTO4                  SI-10:CO-BBB-4:OPTI  # SI correctors
-AS-10:TI-AFC:OPTO5                  SI-10:CO-BBB-5:OPTI  # SI correctors
-AS-10:TI-AFC:OPTO6                  SI-10:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-10:TI-AFC:OPTO7                  SI-10:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-10:TI-AFC:OTP0                  BO-10:CO-BBB:IN    # BO correctors
+AS-10:TI-AFC:OTP1                  SI-10:CO-BBB-1:IN  # SI quadrupoles
+AS-10:TI-AFC:OTP2                  SI-10:CO-BBB-2:IN  # SI quadrupoles
+AS-10:TI-AFC:OTP3                  SI-10:CO-BBB-3:IN  # SI correctors
+AS-10:TI-AFC:OTP4                  SI-10:CO-BBB-4:IN  # SI correctors
+AS-10:TI-AFC:OTP5                  SI-10:CO-BBB-5:IN  # SI correctors
+AS-10:TI-AFC:OTP6                  SI-10:CO-BBB-6:IN  # SI skew quadrupoles
+AS-10:TI-AFC:OTP7                  SI-10:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 11
-AS-11:TI-AFC:OPTO0                  BO-11:CO-BBB:OPTI    # BO correctors
-AS-11:TI-AFC:OPTO1                  SI-11:CO-BBB-1:OPTI  # SI quadrupoles
-AS-11:TI-AFC:OPTO2                  SI-11:CO-BBB-2:OPTI  # SI quadrupoles
-AS-11:TI-AFC:OPTO3                  SI-11:CO-BBB-3:OPTI  # SI correctors
-AS-11:TI-AFC:OPTO4                  SI-11:CO-BBB-4:OPTI  # SI correctors
-AS-11:TI-AFC:OPTO5                  SI-11:CO-BBB-5:OPTI  # SI correctors
-AS-11:TI-AFC:OPTO6                  SI-11:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-11:TI-AFC:OPTO7                  SI-11:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-11:TI-AFC:OTP0                  BO-11:CO-BBB:IN    # BO correctors
+AS-11:TI-AFC:OTP1                  SI-11:CO-BBB-1:IN  # SI quadrupoles
+AS-11:TI-AFC:OTP2                  SI-11:CO-BBB-2:IN  # SI quadrupoles
+AS-11:TI-AFC:OTP3                  SI-11:CO-BBB-3:IN  # SI correctors
+AS-11:TI-AFC:OTP4                  SI-11:CO-BBB-4:IN  # SI correctors
+AS-11:TI-AFC:OTP5                  SI-11:CO-BBB-5:IN  # SI correctors
+AS-11:TI-AFC:OTP6                  SI-11:CO-BBB-6:IN  # SI skew quadrupoles
+AS-11:TI-AFC:OTP7                  SI-11:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 12
-AS-12:TI-AFC:OPTO0                  BO-12:CO-BBB:OPTI    # BO correctors
-AS-12:TI-AFC:OPTO1                  SI-12:CO-BBB-1:OPTI  # SI quadrupoles
-AS-12:TI-AFC:OPTO2                  SI-12:CO-BBB-2:OPTI  # SI quadrupoles
-AS-12:TI-AFC:OPTO3                  SI-12:CO-BBB-3:OPTI  # SI correctors
-AS-12:TI-AFC:OPTO4                  SI-12:CO-BBB-4:OPTI  # SI correctors
-AS-12:TI-AFC:OPTO5                  SI-12:CO-BBB-5:OPTI  # SI correctors
-AS-12:TI-AFC:OPTO6                  SI-12:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-12:TI-AFC:OPTO7                  SI-12:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-12:TI-AFC:OTP0                  BO-12:CO-BBB:IN    # BO correctors
+AS-12:TI-AFC:OTP1                  SI-12:CO-BBB-1:IN  # SI quadrupoles
+AS-12:TI-AFC:OTP2                  SI-12:CO-BBB-2:IN  # SI quadrupoles
+AS-12:TI-AFC:OTP3                  SI-12:CO-BBB-3:IN  # SI correctors
+AS-12:TI-AFC:OTP4                  SI-12:CO-BBB-4:IN  # SI correctors
+AS-12:TI-AFC:OTP5                  SI-12:CO-BBB-5:IN  # SI correctors
+AS-12:TI-AFC:OTP6                  SI-12:CO-BBB-6:IN  # SI skew quadrupoles
+AS-12:TI-AFC:OTP7                  SI-12:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 13
-AS-13:TI-AFC:OPTO0                  BO-13:CO-BBB:OPTI    # BO correctors
-AS-13:TI-AFC:OPTO1                  SI-13:CO-BBB-1:OPTI  # SI quadrupoles
-AS-13:TI-AFC:OPTO2                  SI-13:CO-BBB-2:OPTI  # SI quadrupoles
-AS-13:TI-AFC:OPTO3                  SI-13:CO-BBB-3:OPTI  # SI correctors
-AS-13:TI-AFC:OPTO4                  SI-13:CO-BBB-4:OPTI  # SI correctors
-AS-13:TI-AFC:OPTO5                  SI-13:CO-BBB-5:OPTI  # SI correctors
-AS-13:TI-AFC:OPTO6                  SI-13:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-13:TI-AFC:OPTO7                  SI-13:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-13:TI-AFC:OTP0                  BO-13:CO-BBB:IN    # BO correctors
+AS-13:TI-AFC:OTP1                  SI-13:CO-BBB-1:IN  # SI quadrupoles
+AS-13:TI-AFC:OTP2                  SI-13:CO-BBB-2:IN  # SI quadrupoles
+AS-13:TI-AFC:OTP3                  SI-13:CO-BBB-3:IN  # SI correctors
+AS-13:TI-AFC:OTP4                  SI-13:CO-BBB-4:IN  # SI correctors
+AS-13:TI-AFC:OTP5                  SI-13:CO-BBB-5:IN  # SI correctors
+AS-13:TI-AFC:OTP6                  SI-13:CO-BBB-6:IN  # SI skew quadrupoles
+AS-13:TI-AFC:OTP7                  SI-13:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 14
-AS-14:TI-AFC:OPTO0                  BO-14:CO-BBB:OPTI    # BO correctors
-AS-14:TI-AFC:OPTO1                  SI-14:CO-BBB-1:OPTI  # SI quadrupoles
-AS-14:TI-AFC:OPTO2                  SI-14:CO-BBB-2:OPTI  # SI quadrupoles
-AS-14:TI-AFC:OPTO3                  SI-14:CO-BBB-3:OPTI  # SI correctors
-AS-14:TI-AFC:OPTO4                  SI-14:CO-BBB-4:OPTI  # SI correctors
-AS-14:TI-AFC:OPTO5                  SI-14:CO-BBB-5:OPTI  # SI correctors
-AS-14:TI-AFC:OPTO6                  SI-14:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-14:TI-AFC:OPTO7                  SI-14:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-14:TI-AFC:OTP0                  BO-14:CO-BBB:IN    # BO correctors
+AS-14:TI-AFC:OTP1                  SI-14:CO-BBB-1:IN  # SI quadrupoles
+AS-14:TI-AFC:OTP2                  SI-14:CO-BBB-2:IN  # SI quadrupoles
+AS-14:TI-AFC:OTP3                  SI-14:CO-BBB-3:IN  # SI correctors
+AS-14:TI-AFC:OTP4                  SI-14:CO-BBB-4:IN  # SI correctors
+AS-14:TI-AFC:OTP5                  SI-14:CO-BBB-5:IN  # SI correctors
+AS-14:TI-AFC:OTP6                  SI-14:CO-BBB-6:IN  # SI skew quadrupoles
+AS-14:TI-AFC:OTP7                  SI-14:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 15
-AS-15:TI-AFC:OPTO0                  BO-15:CO-BBB:OPTI    # BO correctors
-AS-15:TI-AFC:OPTO1                  SI-15:CO-BBB-1:OPTI  # SI quadrupoles
-AS-15:TI-AFC:OPTO2                  SI-15:CO-BBB-2:OPTI  # SI quadrupoles
-AS-15:TI-AFC:OPTO3                  SI-15:CO-BBB-3:OPTI  # SI correctors
-AS-15:TI-AFC:OPTO4                  SI-15:CO-BBB-4:OPTI  # SI correctors
-AS-15:TI-AFC:OPTO5                  SI-15:CO-BBB-5:OPTI  # SI correctors
-AS-15:TI-AFC:OPTO6                  SI-15:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-15:TI-AFC:OPTO7                  SI-15:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-15:TI-AFC:OTP0                  BO-15:CO-BBB:IN    # BO correctors
+AS-15:TI-AFC:OTP1                  SI-15:CO-BBB-1:IN  # SI quadrupoles
+AS-15:TI-AFC:OTP2                  SI-15:CO-BBB-2:IN  # SI quadrupoles
+AS-15:TI-AFC:OTP3                  SI-15:CO-BBB-3:IN  # SI correctors
+AS-15:TI-AFC:OTP4                  SI-15:CO-BBB-4:IN  # SI correctors
+AS-15:TI-AFC:OTP5                  SI-15:CO-BBB-5:IN  # SI correctors
+AS-15:TI-AFC:OTP6                  SI-15:CO-BBB-6:IN  # SI skew quadrupoles
+AS-15:TI-AFC:OTP7                  SI-15:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 16
-AS-16:TI-AFC:OPTO0                  BO-16:CO-BBB:OPTI    # BO correctors
-AS-16:TI-AFC:OPTO1                  SI-16:CO-BBB-1:OPTI  # SI quadrupoles
-AS-16:TI-AFC:OPTO2                  SI-16:CO-BBB-2:OPTI  # SI quadrupoles
-AS-16:TI-AFC:OPTO3                  SI-16:CO-BBB-3:OPTI  # SI correctors
-AS-16:TI-AFC:OPTO4                  SI-16:CO-BBB-4:OPTI  # SI correctors
-AS-16:TI-AFC:OPTO5                  SI-16:CO-BBB-5:OPTI  # SI correctors
-AS-16:TI-AFC:OPTO6                  SI-16:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-16:TI-AFC:OPTO7                  SI-16:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-16:TI-AFC:OTP0                  BO-16:CO-BBB:IN    # BO correctors
+AS-16:TI-AFC:OTP1                  SI-16:CO-BBB-1:IN  # SI quadrupoles
+AS-16:TI-AFC:OTP2                  SI-16:CO-BBB-2:IN  # SI quadrupoles
+AS-16:TI-AFC:OTP3                  SI-16:CO-BBB-3:IN  # SI correctors
+AS-16:TI-AFC:OTP4                  SI-16:CO-BBB-4:IN  # SI correctors
+AS-16:TI-AFC:OTP5                  SI-16:CO-BBB-5:IN  # SI correctors
+AS-16:TI-AFC:OTP6                  SI-16:CO-BBB-6:IN  # SI skew quadrupoles
+AS-16:TI-AFC:OTP7                  SI-16:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 17
-AS-17:TI-AFC:OPTO0                  BO-17:CO-BBB:OPTI    # BO correctors
-AS-17:TI-AFC:OPTO1                  SI-17:CO-BBB-1:OPTI  # SI quadrupoles
-AS-17:TI-AFC:OPTO2                  SI-17:CO-BBB-2:OPTI  # SI quadrupoles
-AS-17:TI-AFC:OPTO3                  SI-17:CO-BBB-3:OPTI  # SI correctors
-AS-17:TI-AFC:OPTO4                  SI-17:CO-BBB-4:OPTI  # SI correctors
-AS-17:TI-AFC:OPTO5                  SI-17:CO-BBB-5:OPTI  # SI correctors
-AS-17:TI-AFC:OPTO6                  SI-17:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-17:TI-AFC:OPTO7                  SI-17:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-17:TI-AFC:OTP0                  BO-17:CO-BBB:IN    # BO correctors
+AS-17:TI-AFC:OTP1                  SI-17:CO-BBB-1:IN  # SI quadrupoles
+AS-17:TI-AFC:OTP2                  SI-17:CO-BBB-2:IN  # SI quadrupoles
+AS-17:TI-AFC:OTP3                  SI-17:CO-BBB-3:IN  # SI correctors
+AS-17:TI-AFC:OTP4                  SI-17:CO-BBB-4:IN  # SI correctors
+AS-17:TI-AFC:OTP5                  SI-17:CO-BBB-5:IN  # SI correctors
+AS-17:TI-AFC:OTP6                  SI-17:CO-BBB-6:IN  # SI skew quadrupoles
+AS-17:TI-AFC:OTP7                  SI-17:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 18
-AS-18:TI-AFC:OPTO0                  BO-18:CO-BBB:OPTI    # BO correctors
-AS-18:TI-AFC:OPTO1                  SI-18:CO-BBB-1:OPTI  # SI quadrupoles
-AS-18:TI-AFC:OPTO2                  SI-18:CO-BBB-2:OPTI  # SI quadrupoles
-AS-18:TI-AFC:OPTO3                  SI-18:CO-BBB-3:OPTI  # SI correctors
-AS-18:TI-AFC:OPTO4                  SI-18:CO-BBB-4:OPTI  # SI correctors
-AS-18:TI-AFC:OPTO5                  SI-18:CO-BBB-5:OPTI  # SI correctors
-AS-18:TI-AFC:OPTO6                  SI-18:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-18:TI-AFC:OPTO7                  SI-18:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-18:TI-AFC:OTP0                  BO-18:CO-BBB:IN    # BO correctors
+AS-18:TI-AFC:OTP1                  SI-18:CO-BBB-1:IN  # SI quadrupoles
+AS-18:TI-AFC:OTP2                  SI-18:CO-BBB-2:IN  # SI quadrupoles
+AS-18:TI-AFC:OTP3                  SI-18:CO-BBB-3:IN  # SI correctors
+AS-18:TI-AFC:OTP4                  SI-18:CO-BBB-4:IN  # SI correctors
+AS-18:TI-AFC:OTP5                  SI-18:CO-BBB-5:IN  # SI correctors
+AS-18:TI-AFC:OTP6                  SI-18:CO-BBB-6:IN  # SI skew quadrupoles
+AS-18:TI-AFC:OTP7                  SI-18:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 19
-AS-19:TI-AFC:OPTO0                  BO-19:CO-BBB:OPTI    # BO correctors
-AS-19:TI-AFC:OPTO1                  SI-19:CO-BBB-1:OPTI  # SI quadrupoles
-AS-19:TI-AFC:OPTO2                  SI-19:CO-BBB-2:OPTI  # SI quadrupoles
-AS-19:TI-AFC:OPTO3                  SI-19:CO-BBB-3:OPTI  # SI correctors
-AS-19:TI-AFC:OPTO4                  SI-19:CO-BBB-4:OPTI  # SI correctors
-AS-19:TI-AFC:OPTO5                  SI-19:CO-BBB-5:OPTI  # SI correctors
-AS-19:TI-AFC:OPTO6                  SI-19:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-19:TI-AFC:OPTO7                  SI-19:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-19:TI-AFC:OTP0                  BO-19:CO-BBB:IN    # BO correctors
+AS-19:TI-AFC:OTP1                  SI-19:CO-BBB-1:IN  # SI quadrupoles
+AS-19:TI-AFC:OTP2                  SI-19:CO-BBB-2:IN  # SI quadrupoles
+AS-19:TI-AFC:OTP3                  SI-19:CO-BBB-3:IN  # SI correctors
+AS-19:TI-AFC:OTP4                  SI-19:CO-BBB-4:IN  # SI correctors
+AS-19:TI-AFC:OTP5                  SI-19:CO-BBB-5:IN  # SI correctors
+AS-19:TI-AFC:OTP6                  SI-19:CO-BBB-6:IN  # SI skew quadrupoles
+AS-19:TI-AFC:OTP7                  SI-19:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFC from Sector 20
-AS-20:TI-AFC:OPTO0                  BO-20:CO-BBB:OPTI    # BO correctors
-AS-20:TI-AFC:OPTO1                  SI-20:CO-BBB-1:OPTI  # SI quadrupoles
-AS-20:TI-AFC:OPTO2                  SI-20:CO-BBB-2:OPTI  # SI quadrupoles
-AS-20:TI-AFC:OPTO3                  SI-20:CO-BBB-3:OPTI  # SI correctors
-AS-20:TI-AFC:OPTO4                  SI-20:CO-BBB-4:OPTI  # SI correctors
-AS-20:TI-AFC:OPTO5                  SI-20:CO-BBB-5:OPTI  # SI correctors
-AS-20:TI-AFC:OPTO6                  SI-20:CO-BBB-6:OPTI  # SI skew quadrupoles
-AS-20:TI-AFC:OPTO7                  SI-20:CO-BBB-7:OPTI  # SI skew quadrupoles
+AS-20:TI-AFC:OTP0                  BO-20:CO-BBB:IN    # BO correctors
+AS-20:TI-AFC:OTP1                  SI-20:CO-BBB-1:IN  # SI quadrupoles
+AS-20:TI-AFC:OTP2                  SI-20:CO-BBB-2:IN  # SI quadrupoles
+AS-20:TI-AFC:OTP3                  SI-20:CO-BBB-3:IN  # SI correctors
+AS-20:TI-AFC:OTP4                  SI-20:CO-BBB-4:IN  # SI correctors
+AS-20:TI-AFC:OTP5                  SI-20:CO-BBB-5:IN  # SI correctors
+AS-20:TI-AFC:OTP6                  SI-20:CO-BBB-6:IN  # SI skew quadrupoles
+AS-20:TI-AFC:OTP7                  SI-20:CO-BBB-7:IN  # SI skew quadrupoles
 
 
 ##AFCs to BPMs
