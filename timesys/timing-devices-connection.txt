@@ -124,15 +124,15 @@ AS-Glob:TI-EVE-6:OUT1              SI-13C4:DI-NPCT:IN
 AS-Glob:TI-EVE-6:OUT2              SI-14C4:DI-NPCT:IN
 
 ######Missing in Excel spreadsheet:
-AS-01:TI-EVE-3:OUT3                BO-04U:DI-GSL:LVEI
-AS-01:TI-EVE-3:OUT4                BO-02D:DI-TuneS:LVEI
-AS-01:TI-EVE-3:OUT5                BO-04D:DI-TuneP:LVEI
-AS-01:TI-EVE-6:OUT0                SI-19SP:DI-GSL15:LVEI
-AS-01:TI-EVE-6:OUT1                SI-20SB:DI-GSL07:LVEI
-AS-01:TI-EVE-6:OUT4                SI-01SA:DI-HTuneS:LVEI
-AS-01:TI-EVE-6:OUT5                SI-17SA:DI-HTuneP:LVEI
-AS-01:TI-EVE-6:OUT6                SI-18C4:DI-VTuneS:LVEI
-AS-01:TI-EVE-6:OUT7                SI-17C4:DI-VTuneP:LVEI
+AS-01:TI-EVE-3:OUT3                BO-04U:DI-GSL:IN
+AS-01:TI-EVE-3:OUT4                BO-02D:DI-TuneS:IN
+AS-01:TI-EVE-3:OUT5                BO-04D:DI-TuneP:IN
+AS-01:TI-EVE-6:OUT0                SI-19SP:DI-GSL15:IN
+AS-01:TI-EVE-6:OUT1                SI-20SB:DI-GSL07:IN
+AS-01:TI-EVE-6:OUT4                SI-01SA:DI-HTuneS:IN
+AS-01:TI-EVE-6:OUT5                SI-17SA:DI-HTuneP:IN
+AS-01:TI-EVE-6:OUT6                SI-18C4:DI-VTuneS:IN
+AS-01:TI-EVE-6:OUT7                SI-17C4:DI-VTuneP:IN
 ######
 
 
@@ -169,20 +169,20 @@ AS-Glob:TI-STDSOE-3:OUT2           LI-01:RF-LLRF-2:IN
 AS-Glob:TI-STDSOE-3:OUT3           LI-01:RF-LLRF-3:IN
 
 
-AS-Glob:TI-STDSOE-4:OUT1           TB-01:DI-ICTBMC:IN
+AS-Glob:TI-STDSOE-4:OUT1           TB-02:DI-ICTBMC:IN
 AS-Glob:TI-STDSOE-4:OUT2           TB-04:DI-ICTBMC:IN
 AS-Glob:TI-STDSOE-4:OUT3           TS-01:DI-ICTBMC:IN
 AS-Glob:TI-STDSOE-4:OUT4           TS-04:DI-ICTBMC:IN
 
-AS-Glob:TI-STDSOE-5:OUT1           TB-01:DI-ICTMult:IN
+AS-Glob:TI-STDSOE-5:OUT1           TB-02:DI-ICTMult:IN
 AS-Glob:TI-STDSOE-5:OUT2           TB-04:DI-ICTMult:IN
 AS-Glob:TI-STDSOE-5:OUT3           TS-01:DI-ICTMult:IN
 AS-Glob:TI-STDSOE-5:OUT4           TS-04:DI-ICTMult:IN
 
 
 # Fourth Layer: from SOEs to equipment
-SI-01:TI-SOE-1:OUT                 SI-01SA:PU-InjDpK:IN
-SI-01:TI-SOE-2:OUT                 SI-01SA:PU-InjNLK:IN
+SI-01:TI-SOE-1:OUT                 SI-01SA:PU-InjK:IN
+SI-01:TI-SOE-2:OUT                 SI-01SA:PU-HPing:IN
 BO-01:TI-SOE-3:OUT                 BO-01D:PU-InjK:IN
 TB-01:TI-SOE-4:OUT                 TB-04:PU-InjS:IN
 
