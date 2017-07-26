@@ -7,7 +7,7 @@
 
 SI-Fam:MA-B1B2               SI-Fam:PS-B1B2-1    SI-Fam:PS-B1B2-2
 TS-Fam:MA-B                  TS-Fam:PS-B
-BO-Fam:MA-B                  BO-Fam:PS-B
+BO-Fam:MA-B                  BO-Fam:PS-B-1       BO-Fam:PS-B-2
 TB-Fam:MA-B                  TB-Fam:PS-B
 
 # --- quadrupole families ---
@@ -863,7 +863,7 @@ SI-19C3:MA-FCH               SI-19C3:PS-FCH
 SI-20M1:MA-FCH               SI-20M1:PS-FCH
 SI-20M2:MA-FCH               SI-20M2:PS-FCH
 SI-20C2:MA-FCH               SI-20C2:PS-FCH
-SI-20C3:MA-FCH
+SI-20C3:MA-FCH               SI-20C3:PS-FCH
 
 # --- si-corrector-fcv ---
 SI-01M1:MA-FCV               SI-01M1:PS-FCV
@@ -1048,6 +1048,63 @@ SI-20M2:MA-QS                SI-20M2:PS-QS
 SI-20C1:MA-QS                SI-20C1:PS-QS
 SI-20C2:MA-QS                SI-20C2:PS-QS
 SI-20C3:MA-QS                SI-20C3:PS-QS
+
+# --- bo-quadrupole-qs ---
+BO-02D:MA-QS                 BO-02D:PS-QS          
+
+# --- bo-corrector-ch ---
+BO-01U:MA-CH                 BO-01U:PS-CH
+BO-03U:MA-CH                 BO-03U:PS-CH
+BO-05U:MA-CH                 BO-05U:PS-CH
+BO-07U:MA-CH                 BO-07U:PS-CH
+BO-09U:MA-CH                 BO-09U:PS-CH
+BO-11U:MA-CH                 BO-11U:PS-CH
+BO-13U:MA-CH                 BO-13U:PS-CH
+BO-15U:MA-CH                 BO-15U:PS-CH
+BO-17U:MA-CH                 BO-17U:PS-CH
+BO-19U:MA-CH                 BO-19U:PS-CH
+BO-21U:MA-CH                 BO-21U:PS-CH
+BO-23U:MA-CH                 BO-23U:PS-CH
+BO-25U:MA-CH                 BO-25U:PS-CH
+BO-27U:MA-CH                 BO-27U:PS-CH
+BO-29U:MA-CH                 BO-29U:PS-CH
+BO-31U:MA-CH                 BO-31U:PS-CH
+BO-33U:MA-CH                 BO-33U:PS-CH
+BO-35U:MA-CH                 BO-35U:PS-CH
+BO-37U:MA-CH                 BO-37U:PS-CH
+BO-39U:MA-CH                 BO-39U:PS-CH
+BO-41U:MA-CH                 BO-41U:PS-CH
+BO-43U:MA-CH                 BO-43U:PS-CH
+BO-45U:MA-CH                 BO-45U:PS-CH
+BO-47U:MA-CH                 BO-47U:PS-CH
+BO-49D:MA-CH                 BO-49U:PS-CH
+
+# --- bo-corrector-cv ---
+BO-01U:MA-CV                 BO-01U:PS-CV
+BO-03U:MA-CV                 BO-03U:PS-CV
+BO-05U:MA-CV                 BO-05U:PS-CV
+BO-07U:MA-CV                 BO-07U:PS-CV
+BO-09U:MA-CV                 BO-09U:PS-CV
+BO-11U:MA-CV                 BO-11U:PS-CV
+BO-13U:MA-CV                 BO-13U:PS-CV
+BO-15U:MA-CV                 BO-15U:PS-CV
+BO-17U:MA-CV                 BO-17U:PS-CV
+BO-19U:MA-CV                 BO-19U:PS-CV
+BO-21U:MA-CV                 BO-21U:PS-CV
+BO-23U:MA-CV                 BO-23U:PS-CV
+BO-25U:MA-CV                 BO-25U:PS-CV
+BO-27U:MA-CV                 BO-27U:PS-CV
+BO-29U:MA-CV                 BO-29U:PS-CV
+BO-31U:MA-CV                 BO-31U:PS-CV
+BO-33U:MA-CV                 BO-33U:PS-CV
+BO-35U:MA-CV                 BO-35U:PS-CV
+BO-37U:MA-CV                 BO-37U:PS-CV
+BO-39U:MA-CV                 BO-39U:PS-CV
+BO-41U:MA-CV                 BO-41U:PS-CV
+BO-43U:MA-CV                 BO-43U:PS-CV
+BO-45U:MA-CV                 BO-45U:PS-CV
+BO-47U:MA-CV                 BO-47U:PS-CV
+BO-49U:MA-CV                 BO-49U:PS-CV
 
 # --- tb-quadrupoles ---
 TB-01:MA-QD1                 TB-01:PS-QD1
