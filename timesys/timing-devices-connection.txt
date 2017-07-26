@@ -5,6 +5,7 @@ AS-Glob:TI-EVG:OUT2                AS-Glob:TI-FOUT-3:UPLINK
 AS-Glob:TI-EVG:OUT3                AS-Glob:TI-FOUT-4:UPLINK
 AS-Glob:TI-EVG:OUT4                AS-Glob:TI-FOUT-5:UPLINK
 
+
 # Second Layer: From FOUTs to EVRS and AFCs
 AS-Glob:TI-FOUT-1:OUT0             AS-Glob:TI-EVR-1:UPLINK
 AS-Glob:TI-FOUT-1:OUT1             AS-Glob:TI-EVR-2:UPLINK
@@ -42,534 +43,564 @@ AS-Glob:TI-FOUT-5:OUT4             AS-19:TI-AFC:SFP6
 AS-Glob:TI-FOUT-5:OUT5             AS-20:TI-AFC:SFP6
 AS-Glob:TI-FOUT-5:OUT6             AS-21:TI-AFC:SFP6
 
-AS-01:TI-EVR-1:OUT0                 LI-01:TI-STDMOE:OE1
-AS-01:TI-EVR-1:OUT1                 LI-01:TI-STDMOE:OE2
-AS-01:TI-EVR-1:OTP0                LI-01:TI-STDSOE-1:IN1
-AS-01:TI-EVR-1:OTP1                LI-01:TI-STDSOE-1:IN2
-AS-01:TI-EVR-1:OTP2                LI-01:TI-STDSOE-2:IN1
-AS-01:TI-EVR-1:OTP3                LI-01:TI-STDSOE-2:IN2
-AS-01:TI-EVR-1:OTP4                LI-01:TI-STDSOE-2:IN3
-AS-01:TI-EVR-1:OTP5                LI-01:TI-STDSOE-3:IN1
-AS-01:TI-EVR-1:OTP6                LI-01:TI-STDSOE-3:IN2
-AS-01:TI-EVR-1:OTP7                LI-01:TI-STDSOE-3:IN3
 
-## Injection pulsed magnets and cavity
+# Third Layer: From EVRs to STDMOE, STDSOE, SOE, MOE
+AS-Glob:TI-EVR-1:OUT0              AS-Glob:TI-STDMOE-1:OE1
+AS-Glob:TI-EVR-1:OUT1              AS-Glob:TI-STDMOE-1:OE2
+AS-Glob:TI-EVR-1:OTP00             AS-Glob:TI-STDSOE-1:IN1
+AS-Glob:TI-EVR-1:OTP01             AS-Glob:TI-STDSOE-1:IN2
+AS-Glob:TI-EVR-1:OTP02             AS-Glob:TI-STDSOE-2:IN1
+AS-Glob:TI-EVR-1:OTP03             AS-Glob:TI-STDSOE-2:IN2
+AS-Glob:TI-EVR-1:OTP04             AS-Glob:TI-STDSOE-2:IN3
+AS-Glob:TI-EVR-1:OTP05             AS-Glob:TI-STDSOE-3:IN1
+AS-Glob:TI-EVR-1:OTP06             AS-Glob:TI-STDSOE-3:IN2
+AS-Glob:TI-EVR-1:OTP07             AS-Glob:TI-STDSOE-3:IN3
 
-AS-Glob:TI-EVR-2:	                 STD-MOE-2
-AS-Glob:TI-EVR-2:	                 STD-MOE-3
-AS-Glob:TI-EVR-2:	                 STD-MOE-3
-AS-Glob:TI-EVR-2:	                 STD-MOE-3
-AS-Glob:TI-EVR-2:	                 STD-MOE-4
-AS-Glob:TI-EVR-2:	                 STD-MOE-4
-AS-Glob:TI-EVR-2:	                 STD-MOE-5
-AS-Glob:TI-EVR-2:	                 STD-MOE-5
-AS-Glob:TI-EVR-2:	                 SOE-1
-AS-Glob:TI-EVR-2:	                 SOE-2
-AS-Glob:TI-EVR-2:	                 SOE-3
-AS-Glob:TI-EVR-2:	                 SOE-4
+AS-Glob:TI-EVR-2:OUT0              AS-Glob:TI-STDMOE-2:OE1
+AS-Glob:TI-EVR-2:OUT1              AS-Glob:TI-STDMOE-3:OE1
+AS-Glob:TI-EVR-2:OUT2              AS-Glob:TI-STDMOE-3:OE2
+AS-Glob:TI-EVR-2:OUT3              AS-Glob:TI-STDMOE-3:OE3
+AS-Glob:TI-EVR-2:OUT4              AS-Glob:TI-STDMOE-4:OE1
+AS-Glob:TI-EVR-2:OUT5              AS-Glob:TI-STDMOE-4:OE2
+AS-Glob:TI-EVR-2:OUT6              AS-Glob:TI-STDMOE-5:OE1
+AS-Glob:TI-EVR-2:OUT7              AS-Glob:TI-STDMOE-5:OE2
+AS-Glob:TI-EVR-2:OTP00             AS-Glob:TI-SOE-1:IN
+AS-Glob:TI-EVR-2:OTP01             AS-Glob:TI-SOE-2:IN
+AS-Glob:TI-EVR-2:OTP02             AS-Glob:TI-SOE-3:IN
+AS-Glob:TI-EVR-2:OTP03             AS-Glob:TI-SOE-4:IN
 
+AS-Glob:TI-EVR-3:OTP0              SI-Glob:CO-BBB-1:IN  # SI Dipole families
+AS-Glob:TI-EVR-3:OTP1              SI-Glob:CO-BBB-2:IN  # SI straigth section quadrupole families
+AS-Glob:TI-EVR-3:OTP2              SI-Glob:CO-BBB-3:IN  # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
+AS-Glob:TI-EVR-3:OTP3              SI-Glob:CO-BBB-4:IN  # SI straight section sextupole families
+AS-Glob:TI-EVR-3:OTP4              SI-Glob:CO-BBB-5:IN  # SI arch sextupole families
+AS-Glob:TI-EVR-3:OTP5              BO-Glob:CO-BBB-1:IN  # BO Dipole Families
+AS-Glob:TI-EVR-3:OTP6              BO-Glob:CO-BBB-2:IN  # BO Quadrupoles
+AS-Glob:TI-EVR-3:OTP7              BO-Glob:CO-BBB-3:IN  # BO Sextupoles
 
-AS-01:TI-EVR-2:OTP0                BO-01:TI-SOE-2:IN
-AS-01:TI-EVR-2:OTP1                BO-01:TI-SOE-3:IN
-AS-01:TI-EVR-2:OTP2                BO-01:TI-SOE-4:IN
-AS-01:TI-EVR-2:OTP3                BO-01:TI-SOE-5:IN
-AS-01:TI-EVR-2:OTP4                TB-01:TI-SOE-4:IN
-AS-01:TI-EVR-2:OTP5                TS-01:TI-SOE-4:IN
-AS-01:TI-EVR-2:OTP6                TS-01:TI-SOE-5:IN
-AS-01:TI-EVR-2:OTP7                TS-01:TI-SOE-6:IN
-AS-01:TI-EVR-2:OTP8                TS-01:TI-SOE-7:IN
-AS-01:TI-EVR-2:OTP9                SI-01:TI-SOE-7:IN
-AS-01:TI-EVR-2:OTP1O               SI-01:TI-SOE-8:IN
-AS-01:TI-EVR-2:OTP11               SI-01:TI-SOE-9:IN
-
-LI-01:TI-STDMOE:HVEO0               LI-01:EGun-Trig-1:HVEI  #MultiBunch
-LI-01:TI-STDMOE:HVEO1               LI-01:EGun-Trig-2:HVEI  #SingleBunch
-LI-01:TI-STDSOE-1:HVEO0             LI-01:RF-Modltr-1:HVEI
-LI-01:TI-STDSOE-1:HVEO1             LI-01:RF-Modltr-2:HVEI
-LI-01:TI-STDSOE-2:HVEO0             LI-01:RF-SSA-1:HVEI
-LI-01:TI-STDSOE-2:HVEO1             LI-01:RF-SSA-2:HVEI
-LI-01:TI-STDSOE-2:HVEO2             LI-01:RF-SSA-3:HVEI
-LI-01:TI-STDSOE-3:HVEO0             LI-01:RF-LLRF-1:HVEI
-LI-01:TI-STDSOE-3:HVEO1             LI-01:RF-LLRF-2:HVEI
-LI-01:TI-STDSOE-3:HVEO2             LI-01:RF-LLRF-3:HVEI
-
-## Magnets families power Supplies
-AS-01:TI-EVR-3:OTP0                SI-Fam:CO-BBB-1:IN # SI Dipole families
-AS-01:TI-EVR-3:OTP1                SI-Fam:CO-BBB-2:IN # SI straigth section quadrupole families
-AS-01:TI-EVR-3:OTP2                SI-Fam:CO-BBB-3:IN # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
-AS-01:TI-EVR-3:OTP3                SI-Fam:CO-BBB-4:IN # SI straight section sextupole families
-AS-01:TI-EVR-3:OTP4                SI-Fam:CO-BBB-5:IN # SI arch sextupole families
-AS-01:TI-EVR-3:OTP5                BO-Fam:CO-BBB-1:IN # BO Dipole Families
-AS-01:TI-EVR-3:OTP6                BO-Fam:CO-BBB-2:IN # BO Quadrupoles
-AS-01:TI-EVR-3:OTP7                BO-Fam:CO-BBB-3:IN # BO Sextupoles
+AS-Glob:TI-EVR-4:OUT0              AS-Glob:TI-MOE-1:OE1
+AS-Glob:TI-EVR-4:OUT1              AS-Glob:TI-MOE-4:OE1
+AS-Glob:TI-EVR-4:OUT2              AS-Glob:TI-MOE-7:OE2
+AS-Glob:TI-EVR-4:OUT3              AS-Glob:TI-MOE-10:OE3
+AS-Glob:TI-EVR-4:OUT4              AS-Glob:TI-MOE-13:OE1
+AS-Glob:TI-EVR-4:OUT5              AS-Glob:TI-STDMOE-6:OE1
+AS-Glob:TI-EVR-4:OUT6              AS-Glob:TI-STDMOE-6:OE2
+AS-Glob:TI-EVR-4:OTP00             AS-Glob:TI-STDSOE-4:IN
+AS-Glob:TI-EVR-4:OTP01             AS-Glob:TI-STDSOE-4:IN
+AS-Glob:TI-EVR-4:OTP02             AS-Glob:TI-STDSOE-4:IN
+AS-Glob:TI-EVR-4:OTP03             AS-Glob:TI-STDSOE-4:IN
+AS-Glob:TI-EVR-4:OTP00             AS-Glob:TI-STDSOE-5:IN
+AS-Glob:TI-EVR-4:OTP01             AS-Glob:TI-STDSOE-5:IN
+AS-Glob:TI-EVR-4:OTP02             AS-Glob:TI-STDSOE-5:IN
+AS-Glob:TI-EVR-4:OTP03             AS-Glob:TI-STDSOE-5:IN
 
 
+# Third Layer: from EVEs to Equipments
+AS-Glob:TI-EVE-1:RFOUT             LI-01:EGun-EGun:RFIN
 
-BO-01:TI-SOE-2:HVEO                 BO-01D:PU-InjK:HVEI
-BO-01:TI-SOE-3:HVEO                 BO-48D:PU-EjeK:HVEI
-BO-01:TI-SOE-4:HVEO                 BO-05D:RF-P5Cav:HVEI
-BO-01:TI-SOE-5:HVEO                 BO-05D:RF-LLRF:HVEI
-TB-01:TI-SOE-4:HVEO                 TB-04:PU-InjS:HVEI
-TS-01:TI-SOE-4:HVEO                 TS-01:PU-EjeSF:HVEI
-TS-01:TI-SOE-5:HVEO                 TS-01:PU-EjeSG:HVEI
-TS-01:TI-SOE-6:HVEO                 TS-Fam:PU-InjSG:HVEI
-TS-01:TI-SOE-7:HVEO                 TS-04:PU-InjSF:HVEI
-SI-01:TI-SOE-7:HVEO                 SI-01SA:PU-InjK:HVEI
+AS-Glob:TI-EVE-2:OUT0              LI-Fam:DI-BPM:IN
+AS-Glob:TI-EVE-2:OUT1              LI-Fam:DI-Scrn:IN
+AS-Glob:TI-EVE-2:OUT2              LI-01:DI-ICT-1:IN
+AS-Glob:TI-EVE-2:OUT3              LI-01:DI-ICT-2:IN
 
-SI-01:TI-SOE-8:HVEO                 SI-19C4:PU-VPing:HVEI
-SI-01:TI-SOE-9:HVEO                 SI-01SA:PU-HPing:HVEI
+AS-Glob:TI-EVE-3:RFOUT             SI-Glob:DI-StrkCam:RFIN
+AS-Glob:TI-EVE-3:OUT0              SI-Glob:DI-StrkCam:IN1
+AS-Glob:TI-EVE-3:OUT1              SI-Glob:DI-StrkCam:IN2
 
-#### Diagnostics
-AS-01:TI-EVE-1:LVEO0                LI-01:DI-ICT-1:LVEI
-AS-01:TI-EVE-1:LVEO1                LI-01:DI-ICT-2:LVEI
-AS-01:TI-EVE-1:LVEO2                LI-Fam:DI-Scrn:LVEI
-AS-01:TI-EVE-1:LVEO3                LI-Fam:DI-BPM:LVEI
-AS-01:TI-EVE-1:LVEO4                TB-04:DI-FCT:LVEI
-AS-01:TI-EVE-1:LVEO5                TS-04:DI-FCT:LVEI
-AS-01:TI-EVE-1:LVEO6                SI-Glob:DI-BbB:LVEI
+AS-Glob:TI-EVE-4:RFOUT             SI-Glob:BbB-FBELT:RFIN
+AS-Glob:TI-EVE-4:OUT0              SI-Glob:BbB-iGp12H:FID
+AS-Glob:TI-EVE-4:OUT1              SI-Glob:BbB-iGp12V:FID
+AS-Glob:TI-EVE-4:OUT2              SI-Glob:BbB-iGp12L:FID
 
-AS-01:TI-EVE-2:LVEO0                TB-02:DI-ICT:LVEI
-AS-01:TI-EVE-2:LVEO1                TB-04:DI-ICT:LVEI
-AS-01:TI-EVE-2:LVEO2                TB-01:DI-Scrn-1:LVEI
-AS-01:TI-EVE-2:LVEO3                TB-01:DI-Scrn-2:LVEI
-AS-01:TI-EVE-2:LVEO4                TB-02:DI-Scrn-1:LVEI
-AS-01:TI-EVE-2:LVEO5                TB-02:DI-Scrn-2:LVEI
-AS-01:TI-EVE-2:LVEO6                TB-03:DI-Scrn:LVEI
-AS-01:TI-EVE-2:LVEO7                TB-04:DI-Scrn:LVEI
+AS-Glob:TI-EVE-5:OUT0              SI-Glob:BbB-iGp12H:TRIG1
+AS-Glob:TI-EVE-5:OUT1              SI-Glob:BbB-iGp12H:TRIG2
+AS-Glob:TI-EVE-5:OUT2              SI-Glob:BbB-iGp12V:TRIG1
+AS-Glob:TI-EVE-5:OUT3              SI-Glob:BbB-iGp12V:TRIG2
+AS-Glob:TI-EVE-5:OUT4              SI-Glob:BbB-iGp12L:TRIG1
+AS-Glob:TI-EVE-5:OUT5              SI-Glob:BbB-iGp12L:TRIG2
 
-AS-01:TI-EVE-3:LVEO0                BO-01D:DI-Scrn-1:LVEI
-AS-01:TI-EVE-3:LVEO1                BO-01D:DI-Scrn-2:LVEI
-AS-01:TI-EVE-3:LVEO2                BO-02U:DI-Scrn:LVEI
-AS-01:TI-EVE-3:LVEO3                BO-04U:DI-GSL:LVEI
-AS-01:TI-EVE-3:LVEO4                BO-02D:DI-TuneS:LVEI
-AS-01:TI-EVE-3:LVEO5                BO-04D:DI-TuneP:LVEI
-AS-01:TI-EVE-3:LVEO6                BO-35D:DI-DCCT:LVEI
+AS-Glob:TI-EVE-6:OUT0              BO-35D:DI-NPCT:IN
+AS-Glob:TI-EVE-6:OUT1              SI-13C4:DI-NPCT:IN
+AS-Glob:TI-EVE-6:OUT2              SI-14C4:DI-NPCT:IN
 
-AS-01:TI-EVE-4:LVEO0                TS-01:DI-Scrn:LVEI
-AS-01:TI-EVE-4:LVEO1                TS-02:DI-Scrn:LVEI
-AS-01:TI-EVE-4:LVEO2                TS-03:DI-Scrn:LVEI
-AS-01:TI-EVE-4:LVEO3                TS-04:DI-Scrn-1:LVEI
-AS-01:TI-EVE-4:LVEO4                TS-04:DI-Scrn-2:LVEI
-AS-01:TI-EVE-4:LVEO5                TS-04:DI-Scrn-3:LVEI
-AS-01:TI-EVE-4:LVEO6                TS-01:DI-ICT:LVEI
-AS-01:TI-EVE-4:LVEO7                TS-04:DI-ICT:LVEI
+######Missing in Excel spreadsheet:
+AS-01:TI-EVE-3:OUT3                BO-04U:DI-GSL:LVEI
+AS-01:TI-EVE-3:OUT4                BO-02D:DI-TuneS:LVEI
+AS-01:TI-EVE-3:OUT5                BO-04D:DI-TuneP:LVEI
+AS-01:TI-EVE-6:OUT0                SI-19SP:DI-GSL15:LVEI
+AS-01:TI-EVE-6:OUT1                SI-20SB:DI-GSL07:LVEI
+AS-01:TI-EVE-6:OUT4                SI-01SA:DI-HTuneS:LVEI
+AS-01:TI-EVE-6:OUT5                SI-17SA:DI-HTuneP:LVEI
+AS-01:TI-EVE-6:OUT6                SI-18C4:DI-VTuneS:LVEI
+AS-01:TI-EVE-6:OUT7                SI-17C4:DI-VTuneP:LVEI
+######
 
-AS-01:TI-EVE-5:LVEO0                SI-19SP:DI-GSL15:LVEI
-AS-01:TI-EVE-5:LVEO1                SI-20SB:DI-GSL07:LVEI
-AS-01:TI-EVE-5:LVEO2                SI-13C4:DI-DCCT:LVEI
-AS-01:TI-EVE-5:LVEO3                SI-14C4:DI-DCCT:LVEI
-AS-01:TI-EVE-5:LVEO4                SI-01SA:DI-HTuneS:LVEI
-AS-01:TI-EVE-5:LVEO5                SI-17SA:DI-HTuneP:LVEI
-AS-01:TI-EVE-5:LVEO6                SI-18C4:DI-VTuneS:LVEI
-AS-01:TI-EVE-5:LVEO7                SI-17C4:DI-VTuneP:LVEI
+
+# Fourth Layer: from STDMOEs to equipment
+AS-Glob:TI-STDMOE-1:OUT0           LI-01:EGun-AmpSB:IN  #MultiBunch
+AS-Glob:TI-STDMOE-1:OUT1           LI-01:EGun-AmpMB:IN  #SingleBunch
+
+AS-Glob:TI-STDMOE-2:OUT1           BO-Glob:RF-LLRF:IN
+
+AS-Glob:TI-STDMOE-3:OUT1           TS-04:PU-InjSG-1:IN
+AS-Glob:TI-STDMOE-3:OUT2           TS-04:PU-InjSG-2:IN
+AS-Glob:TI-STDMOE-3:OUT3           TS-04:PU-InjSF:IN
+
+AS-Glob:TI-STDMOE-4:OUT1           BO-48D:PU-EjeK:IN
+AS-Glob:TI-STDMOE-4:OUT2           SI-19C4:PU-VPing:IN
+
+AS-Glob:TI-STDMOE-5:OUT1           TS-01:PU-EjeSF:IN
+AS-Glob:TI-STDMOE-5:OUT2           TS-01:PU-EjeSG:IN
+
+AS-Glob:TI-STDMOE-6:OUT1           TB-04:DI-FCT:IN
+AS-Glob:TI-STDMOE-6:OUT2           TS-04:DI-FCT:IN
+
+
+# Fourth Layer: from STDSOEs to equipment
+AS-Glob:TI-STDSOE-1:OUT1           LI-01:RF-Modltr-1:IN
+AS-Glob:TI-STDSOE-1:OUT2           LI-01:RF-Modltr-2:IN
+
+AS-Glob:TI-STDSOE-2:OUT1           LI-01:RF-AmpLF:IN
+AS-Glob:TI-STDSOE-2:OUT2           LI-01:RF-AmpHF-1:IN
+AS-Glob:TI-STDSOE-2:OUT3           LI-01:RF-AmpHF-2:IN
+
+AS-Glob:TI-STDSOE-3:OUT1           LI-01:RF-LLRF-1:IN
+AS-Glob:TI-STDSOE-3:OUT2           LI-01:RF-LLRF-2:IN
+AS-Glob:TI-STDSOE-3:OUT3           LI-01:RF-LLRF-3:IN
+
+
+AS-Glob:TI-STDSOE-4:OUT1           TB-01:DI-ICTBMC:IN
+AS-Glob:TI-STDSOE-4:OUT2           TB-04:DI-ICTBMC:IN
+AS-Glob:TI-STDSOE-4:OUT3           TS-01:DI-ICTBMC:IN
+AS-Glob:TI-STDSOE-4:OUT4           TS-04:DI-ICTBMC:IN
+
+AS-Glob:TI-STDSOE-5:OUT1           TB-01:DI-ICTMult:IN
+AS-Glob:TI-STDSOE-5:OUT2           TB-04:DI-ICTMult:IN
+AS-Glob:TI-STDSOE-5:OUT3           TS-01:DI-ICTMult:IN
+AS-Glob:TI-STDSOE-5:OUT4           TS-04:DI-ICTMult:IN
+
+
+# Fourth Layer: from SOEs to equipment
+SI-01:TI-SOE-1:OUT                 SI-01SA:PU-InjDpK:IN
+SI-01:TI-SOE-2:OUT                 SI-01SA:PU-InjNLK:IN
+BO-01:TI-SOE-3:OUT                 BO-01D:PU-InjK:IN
+TB-01:TI-SOE-4:OUT                 TB-04:PU-InjS:IN
+
+
+# Fourth Layer: from MOEs to equipment
+AS-Glob:TI-MOE-1:INTX              AS-Glob:TI-MOE-2:INRX
+AS-Glob:TI-MOE-2:INTX              AS-Glob:TI-MOE-3:INRX
+AS-Glob:TI-MOE-4:INTX              AS-Glob:TI-MOE-5:INRX
+AS-Glob:TI-MOE-5:INTX              AS-Glob:TI-MOE-6:INRX
+AS-Glob:TI-MOE-7:INTX              AS-Glob:TI-MOE-8:INRX
+AS-Glob:TI-MOE-8:INTX              AS-Glob:TI-MOE-9:INRX
+AS-Glob:TI-MOE-10:INTX             AS-Glob:TI-MOE-11:INRX
+AS-Glob:TI-MOE-11:INTX             AS-Glob:TI-MOE-12:INRX
+AS-Glob:TI-MOE-13:INTX             AS-Glob:TI-MOE-14:INRX
+AS-Glob:TI-MOE-14:INTX             AS-Glob:TI-MOE-15:INRX
+AS-Glob:TI-MOE-1:OUT               TB-01:DI-Scrn-1:IN
+AS-Glob:TI-MOE-2:OUT               TB-01:DI-Scrn-2:IN
+AS-Glob:TI-MOE-3:OUT               TB-02:DI-Scrn-1:IN
+AS-Glob:TI-MOE-4:OUT               TB-02:DI-Scrn-2:IN
+AS-Glob:TI-MOE-5:OUT               TB-03:DI-Scrn:IN
+AS-Glob:TI-MOE-6:OUT               TB-04:DI-Scrn:IN
+AS-Glob:TI-MOE-7:OUT               BO-01D:DI-Scrn-1:IN
+AS-Glob:TI-MOE-8:OUT               BO-01D:DI-Scrn-2:IN
+AS-Glob:TI-MOE-9:OUT               BO-02U:DI-Scrn:IN
+AS-Glob:TI-MOE-10:OUT              TS-01:DI-Scrn:IN
+AS-Glob:TI-MOE-11:OUT              TS-02:DI-Scrn:IN
+AS-Glob:TI-MOE-12:OUT              TS-03:DI-Scrn:IN
+AS-Glob:TI-MOE-13:OUT              TS-04:DI-Scrn-1:IN
+AS-Glob:TI-MOE-14:OUT              TS-04:DI-Scrn-2:IN
+AS-Glob:TI-MOE-15:OUT              TS-04:DI-Scrn-3:IN
 
 
 ##AFC from Sector 01
-AS-01:TI-AFC-1:OTP0                BO-01:CO-BBB:IN    # BO correctors
-AS-01:TI-AFC-1:OTP1                SI-01:CO-BBB-1:IN  # SI quadrupoles
-AS-01:TI-AFC-1:OTP2                SI-01:CO-BBB-2:IN  # SI quadrupoles
-AS-01:TI-AFC-1:OTP3                SI-01:CO-BBB-3:IN  # SI correctors
-AS-01:TI-AFC-1:OTP4                SI-01:CO-BBB-4:IN  # SI correctors
-AS-01:TI-AFC-1:OTP5                SI-01:CO-BBB-5:IN  # SI correctors
-AS-01:TI-AFC-1:OTP6                SI-01:CO-BBB-6:IN  # SI skew quadrupoles
-AS-01:TI-AFC-1:OTP7                SI-01:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-01:TI-AFC:FMC0                  BO-01:CO-BBB:IN    # BO correctors
+AS-01:TI-AFC:FMC1                  SI-01:CO-BBB-1:IN  # SI quadrupoles
+AS-01:TI-AFC:FMC2                  SI-01:CO-BBB-2:IN  # SI quadrupoles
+AS-01:TI-AFC:FMC3                  SI-01:CO-BBB-3:IN  # SI correctors
+AS-01:TI-AFC:FMC4                  SI-01:CO-BBB-4:IN  # SI correctors
+AS-01:TI-AFC:FMC5                  SI-01:CO-BBB-5:IN  # SI correctors
+AS-01:TI-AFC:FMC6                  SI-01:CO-BBB-6:IN  # SI skew quadrupoles
+AS-01:TI-AFC:FMC7                  SI-01:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 02
-AS-02:TI-AFC:OTP0                  BO-02:CO-BBB:IN    # BO correctors
-AS-02:TI-AFC:OTP1                  SI-02:CO-BBB-1:IN  # SI quadrupoles
-AS-02:TI-AFC:OTP2                  SI-02:CO-BBB-2:IN  # SI quadrupoles
-AS-02:TI-AFC:OTP3                  SI-02:CO-BBB-3:IN  # SI correctors
-AS-02:TI-AFC:OTP4                  SI-02:CO-BBB-4:IN  # SI correctors
-AS-02:TI-AFC:OTP5                  SI-02:CO-BBB-5:IN  # SI correctors
-AS-02:TI-AFC:OTP6                  SI-02:CO-BBB-6:IN  # SI skew quadrupoles
-AS-02:TI-AFC:OTP7                  SI-02:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-02:TI-AFC:FMC0                  BO-02:CO-BBB:IN    # BO correctors
+AS-02:TI-AFC:FMC1                  SI-02:CO-BBB-1:IN  # SI quadrupoles
+AS-02:TI-AFC:FMC2                  SI-02:CO-BBB-2:IN  # SI quadrupoles
+AS-02:TI-AFC:FMC3                  SI-02:CO-BBB-3:IN  # SI correctors
+AS-02:TI-AFC:FMC4                  SI-02:CO-BBB-4:IN  # SI correctors
+AS-02:TI-AFC:FMC5                  SI-02:CO-BBB-5:IN  # SI correctors
+AS-02:TI-AFC:FMC6                  SI-02:CO-BBB-6:IN  # SI skew quadrupoles
+AS-02:TI-AFC:FMC7                  SI-02:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 03
-AS-03:TI-AFC:OTP0                  BO-03:CO-BBB:IN    # BO correctors
-AS-03:TI-AFC:OTP1                  SI-03:CO-BBB-1:IN  # SI quadrupoles
-AS-03:TI-AFC:OTP2                  SI-03:CO-BBB-2:IN  # SI quadrupoles
-AS-03:TI-AFC:OTP3                  SI-03:CO-BBB-3:IN  # SI correctors
-AS-03:TI-AFC:OTP4                  SI-03:CO-BBB-4:IN  # SI correctors
-AS-03:TI-AFC:OTP5                  SI-03:CO-BBB-5:IN  # SI correctors
-AS-03:TI-AFC:OTP6                  SI-03:CO-BBB-6:IN  # SI skew quadrupoles
-AS-03:TI-AFC:OTP7                  SI-03:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-03:TI-AFC:FMC0                  BO-03:CO-BBB:IN    # BO correctors
+AS-03:TI-AFC:FMC1                  SI-03:CO-BBB-1:IN  # SI quadrupoles
+AS-03:TI-AFC:FMC2                  SI-03:CO-BBB-2:IN  # SI quadrupoles
+AS-03:TI-AFC:FMC3                  SI-03:CO-BBB-3:IN  # SI correctors
+AS-03:TI-AFC:FMC4                  SI-03:CO-BBB-4:IN  # SI correctors
+AS-03:TI-AFC:FMC5                  SI-03:CO-BBB-5:IN  # SI correctors
+AS-03:TI-AFC:FMC6                  SI-03:CO-BBB-6:IN  # SI skew quadrupoles
+AS-03:TI-AFC:FMC7                  SI-03:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 04
-AS-04:TI-AFC:OTP0                  BO-04:CO-BBB:IN    # BO correctors
-AS-04:TI-AFC:OTP1                  SI-04:CO-BBB-1:IN  # SI quadrupoles
-AS-04:TI-AFC:OTP2                  SI-04:CO-BBB-2:IN  # SI quadrupoles
-AS-04:TI-AFC:OTP3                  SI-04:CO-BBB-3:IN  # SI correctors
-AS-04:TI-AFC:OTP4                  SI-04:CO-BBB-4:IN  # SI correctors
-AS-04:TI-AFC:OTP5                  SI-04:CO-BBB-5:IN  # SI correctors
-AS-04:TI-AFC:OTP6                  SI-04:CO-BBB-6:IN  # SI skew quadrupoles
-AS-04:TI-AFC:OTP7                  SI-04:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-04:TI-AFC:FMC0                  BO-04:CO-BBB:IN    # BO correctors
+AS-04:TI-AFC:FMC1                  SI-04:CO-BBB-1:IN  # SI quadrupoles
+AS-04:TI-AFC:FMC2                  SI-04:CO-BBB-2:IN  # SI quadrupoles
+AS-04:TI-AFC:FMC3                  SI-04:CO-BBB-3:IN  # SI correctors
+AS-04:TI-AFC:FMC4                  SI-04:CO-BBB-4:IN  # SI correctors
+AS-04:TI-AFC:FMC5                  SI-04:CO-BBB-5:IN  # SI correctors
+AS-04:TI-AFC:FMC6                  SI-04:CO-BBB-6:IN  # SI skew quadrupoles
+AS-04:TI-AFC:FMC7                  SI-04:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 05
-AS-05:TI-AFC:OTP0                  BO-05:CO-BBB:IN    # BO correctors
-AS-05:TI-AFC:OTP1                  SI-05:CO-BBB-1:IN  # SI quadrupoles
-AS-05:TI-AFC:OTP2                  SI-05:CO-BBB-2:IN  # SI quadrupoles
-AS-05:TI-AFC:OTP3                  SI-05:CO-BBB-3:IN  # SI correctors
-AS-05:TI-AFC:OTP4                  SI-05:CO-BBB-4:IN  # SI correctors
-AS-05:TI-AFC:OTP5                  SI-05:CO-BBB-5:IN  # SI correctors
-AS-05:TI-AFC:OTP6                  SI-05:CO-BBB-6:IN  # SI skew quadrupoles
-AS-05:TI-AFC:OTP7                  SI-05:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-05:TI-AFC:FMC0                  BO-05:CO-BBB:IN    # BO correctors
+AS-05:TI-AFC:FMC1                  SI-05:CO-BBB-1:IN  # SI quadrupoles
+AS-05:TI-AFC:FMC2                  SI-05:CO-BBB-2:IN  # SI quadrupoles
+AS-05:TI-AFC:FMC3                  SI-05:CO-BBB-3:IN  # SI correctors
+AS-05:TI-AFC:FMC4                  SI-05:CO-BBB-4:IN  # SI correctors
+AS-05:TI-AFC:FMC5                  SI-05:CO-BBB-5:IN  # SI correctors
+AS-05:TI-AFC:FMC6                  SI-05:CO-BBB-6:IN  # SI skew quadrupoles
+AS-05:TI-AFC:FMC7                  SI-05:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 06
-AS-06:TI-AFC:OTP0                  BO-06:CO-BBB:IN    # BO correctors
-AS-06:TI-AFC:OTP1                  SI-06:CO-BBB-1:IN  # SI quadrupoles
-AS-06:TI-AFC:OTP2                  SI-06:CO-BBB-2:IN  # SI quadrupoles
-AS-06:TI-AFC:OTP3                  SI-06:CO-BBB-3:IN  # SI correctors
-AS-06:TI-AFC:OTP4                  SI-06:CO-BBB-4:IN  # SI correctors
-AS-06:TI-AFC:OTP5                  SI-06:CO-BBB-5:IN  # SI correctors
-AS-06:TI-AFC:OTP6                  SI-06:CO-BBB-6:IN  # SI skew quadrupoles
-AS-06:TI-AFC:OTP7                  SI-06:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-06:TI-AFC:FMC0                  BO-06:CO-BBB:IN    # BO correctors
+AS-06:TI-AFC:FMC1                  SI-06:CO-BBB-1:IN  # SI quadrupoles
+AS-06:TI-AFC:FMC2                  SI-06:CO-BBB-2:IN  # SI quadrupoles
+AS-06:TI-AFC:FMC3                  SI-06:CO-BBB-3:IN  # SI correctors
+AS-06:TI-AFC:FMC4                  SI-06:CO-BBB-4:IN  # SI correctors
+AS-06:TI-AFC:FMC5                  SI-06:CO-BBB-5:IN  # SI correctors
+AS-06:TI-AFC:FMC6                  SI-06:CO-BBB-6:IN  # SI skew quadrupoles
+AS-06:TI-AFC:FMC7                  SI-06:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 07
-AS-07:TI-AFC:OTP0                  BO-07:CO-BBB:IN    # BO correctors
-AS-07:TI-AFC:OTP1                  SI-07:CO-BBB-1:IN  # SI quadrupoles
-AS-07:TI-AFC:OTP2                  SI-07:CO-BBB-2:IN  # SI quadrupoles
-AS-07:TI-AFC:OTP3                  SI-07:CO-BBB-3:IN  # SI correctors
-AS-07:TI-AFC:OTP4                  SI-07:CO-BBB-4:IN  # SI correctors
-AS-07:TI-AFC:OTP5                  SI-07:CO-BBB-5:IN  # SI correctors
-AS-07:TI-AFC:OTP6                  SI-07:CO-BBB-6:IN  # SI skew quadrupoles
-AS-07:TI-AFC:OTP7                  SI-07:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-07:TI-AFC:FMC0                  BO-07:CO-BBB:IN    # BO correctors
+AS-07:TI-AFC:FMC1                  SI-07:CO-BBB-1:IN  # SI quadrupoles
+AS-07:TI-AFC:FMC2                  SI-07:CO-BBB-2:IN  # SI quadrupoles
+AS-07:TI-AFC:FMC3                  SI-07:CO-BBB-3:IN  # SI correctors
+AS-07:TI-AFC:FMC4                  SI-07:CO-BBB-4:IN  # SI correctors
+AS-07:TI-AFC:FMC5                  SI-07:CO-BBB-5:IN  # SI correctors
+AS-07:TI-AFC:FMC6                  SI-07:CO-BBB-6:IN  # SI skew quadrupoles
+AS-07:TI-AFC:FMC7                  SI-07:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 08
-AS-08:TI-AFC:OTP0                  BO-08:CO-BBB:IN    # BO correctors
-AS-08:TI-AFC:OTP1                  SI-08:CO-BBB-1:IN  # SI quadrupoles
-AS-08:TI-AFC:OTP2                  SI-08:CO-BBB-2:IN  # SI quadrupoles
-AS-08:TI-AFC:OTP3                  SI-08:CO-BBB-3:IN  # SI correctors
-AS-08:TI-AFC:OTP4                  SI-08:CO-BBB-4:IN  # SI correctors
-AS-08:TI-AFC:OTP5                  SI-08:CO-BBB-5:IN  # SI correctors
-AS-08:TI-AFC:OTP6                  SI-08:CO-BBB-6:IN  # SI skew quadrupoles
-AS-08:TI-AFC:OTP7                  SI-08:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-08:TI-AFC:FMC0                  BO-08:CO-BBB:IN    # BO correctors
+AS-08:TI-AFC:FMC1                  SI-08:CO-BBB-1:IN  # SI quadrupoles
+AS-08:TI-AFC:FMC2                  SI-08:CO-BBB-2:IN  # SI quadrupoles
+AS-08:TI-AFC:FMC3                  SI-08:CO-BBB-3:IN  # SI correctors
+AS-08:TI-AFC:FMC4                  SI-08:CO-BBB-4:IN  # SI correctors
+AS-08:TI-AFC:FMC5                  SI-08:CO-BBB-5:IN  # SI correctors
+AS-08:TI-AFC:FMC6                  SI-08:CO-BBB-6:IN  # SI skew quadrupoles
+AS-08:TI-AFC:FMC7                  SI-08:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 09
-AS-09:TI-AFC:OTP0                  BO-09:CO-BBB:IN    # BO correctors
-AS-09:TI-AFC:OTP1                  SI-09:CO-BBB-1:IN  # SI quadrupoles
-AS-09:TI-AFC:OTP2                  SI-09:CO-BBB-2:IN  # SI quadrupoles
-AS-09:TI-AFC:OTP3                  SI-09:CO-BBB-3:IN  # SI correctors
-AS-09:TI-AFC:OTP4                  SI-09:CO-BBB-4:IN  # SI correctors
-AS-09:TI-AFC:OTP5                  SI-09:CO-BBB-5:IN  # SI correctors
-AS-09:TI-AFC:OTP6                  SI-09:CO-BBB-6:IN  # SI skew quadrupoles
-AS-09:TI-AFC:OTP7                  SI-09:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-09:TI-AFC:FMC0                  BO-09:CO-BBB:IN    # BO correctors
+AS-09:TI-AFC:FMC1                  SI-09:CO-BBB-1:IN  # SI quadrupoles
+AS-09:TI-AFC:FMC2                  SI-09:CO-BBB-2:IN  # SI quadrupoles
+AS-09:TI-AFC:FMC3                  SI-09:CO-BBB-3:IN  # SI correctors
+AS-09:TI-AFC:FMC4                  SI-09:CO-BBB-4:IN  # SI correctors
+AS-09:TI-AFC:FMC5                  SI-09:CO-BBB-5:IN  # SI correctors
+AS-09:TI-AFC:FMC6                  SI-09:CO-BBB-6:IN  # SI skew quadrupoles
+AS-09:TI-AFC:FMC7                  SI-09:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 10
-AS-10:TI-AFC:OTP0                  BO-10:CO-BBB:IN    # BO correctors
-AS-10:TI-AFC:OTP1                  SI-10:CO-BBB-1:IN  # SI quadrupoles
-AS-10:TI-AFC:OTP2                  SI-10:CO-BBB-2:IN  # SI quadrupoles
-AS-10:TI-AFC:OTP3                  SI-10:CO-BBB-3:IN  # SI correctors
-AS-10:TI-AFC:OTP4                  SI-10:CO-BBB-4:IN  # SI correctors
-AS-10:TI-AFC:OTP5                  SI-10:CO-BBB-5:IN  # SI correctors
-AS-10:TI-AFC:OTP6                  SI-10:CO-BBB-6:IN  # SI skew quadrupoles
-AS-10:TI-AFC:OTP7                  SI-10:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-10:TI-AFC:FMC0                  BO-10:CO-BBB:IN    # BO correctors
+AS-10:TI-AFC:FMC1                  SI-10:CO-BBB-1:IN  # SI quadrupoles
+AS-10:TI-AFC:FMC2                  SI-10:CO-BBB-2:IN  # SI quadrupoles
+AS-10:TI-AFC:FMC3                  SI-10:CO-BBB-3:IN  # SI correctors
+AS-10:TI-AFC:FMC4                  SI-10:CO-BBB-4:IN  # SI correctors
+AS-10:TI-AFC:FMC5                  SI-10:CO-BBB-5:IN  # SI correctors
+AS-10:TI-AFC:FMC6                  SI-10:CO-BBB-6:IN  # SI skew quadrupoles
+AS-10:TI-AFC:FMC7                  SI-10:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 11
-AS-11:TI-AFC:OTP0                  BO-11:CO-BBB:IN    # BO correctors
-AS-11:TI-AFC:OTP1                  SI-11:CO-BBB-1:IN  # SI quadrupoles
-AS-11:TI-AFC:OTP2                  SI-11:CO-BBB-2:IN  # SI quadrupoles
-AS-11:TI-AFC:OTP3                  SI-11:CO-BBB-3:IN  # SI correctors
-AS-11:TI-AFC:OTP4                  SI-11:CO-BBB-4:IN  # SI correctors
-AS-11:TI-AFC:OTP5                  SI-11:CO-BBB-5:IN  # SI correctors
-AS-11:TI-AFC:OTP6                  SI-11:CO-BBB-6:IN  # SI skew quadrupoles
-AS-11:TI-AFC:OTP7                  SI-11:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-11:TI-AFC:FMC0                  BO-11:CO-BBB:IN    # BO correctors
+AS-11:TI-AFC:FMC1                  SI-11:CO-BBB-1:IN  # SI quadrupoles
+AS-11:TI-AFC:FMC2                  SI-11:CO-BBB-2:IN  # SI quadrupoles
+AS-11:TI-AFC:FMC3                  SI-11:CO-BBB-3:IN  # SI correctors
+AS-11:TI-AFC:FMC4                  SI-11:CO-BBB-4:IN  # SI correctors
+AS-11:TI-AFC:FMC5                  SI-11:CO-BBB-5:IN  # SI correctors
+AS-11:TI-AFC:FMC6                  SI-11:CO-BBB-6:IN  # SI skew quadrupoles
+AS-11:TI-AFC:FMC7                  SI-11:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 12
-AS-12:TI-AFC:OTP0                  BO-12:CO-BBB:IN    # BO correctors
-AS-12:TI-AFC:OTP1                  SI-12:CO-BBB-1:IN  # SI quadrupoles
-AS-12:TI-AFC:OTP2                  SI-12:CO-BBB-2:IN  # SI quadrupoles
-AS-12:TI-AFC:OTP3                  SI-12:CO-BBB-3:IN  # SI correctors
-AS-12:TI-AFC:OTP4                  SI-12:CO-BBB-4:IN  # SI correctors
-AS-12:TI-AFC:OTP5                  SI-12:CO-BBB-5:IN  # SI correctors
-AS-12:TI-AFC:OTP6                  SI-12:CO-BBB-6:IN  # SI skew quadrupoles
-AS-12:TI-AFC:OTP7                  SI-12:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-12:TI-AFC:FMC0                  BO-12:CO-BBB:IN    # BO correctors
+AS-12:TI-AFC:FMC1                  SI-12:CO-BBB-1:IN  # SI quadrupoles
+AS-12:TI-AFC:FMC2                  SI-12:CO-BBB-2:IN  # SI quadrupoles
+AS-12:TI-AFC:FMC3                  SI-12:CO-BBB-3:IN  # SI correctors
+AS-12:TI-AFC:FMC4                  SI-12:CO-BBB-4:IN  # SI correctors
+AS-12:TI-AFC:FMC5                  SI-12:CO-BBB-5:IN  # SI correctors
+AS-12:TI-AFC:FMC6                  SI-12:CO-BBB-6:IN  # SI skew quadrupoles
+AS-12:TI-AFC:FMC7                  SI-12:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 13
-AS-13:TI-AFC:OTP0                  BO-13:CO-BBB:IN    # BO correctors
-AS-13:TI-AFC:OTP1                  SI-13:CO-BBB-1:IN  # SI quadrupoles
-AS-13:TI-AFC:OTP2                  SI-13:CO-BBB-2:IN  # SI quadrupoles
-AS-13:TI-AFC:OTP3                  SI-13:CO-BBB-3:IN  # SI correctors
-AS-13:TI-AFC:OTP4                  SI-13:CO-BBB-4:IN  # SI correctors
-AS-13:TI-AFC:OTP5                  SI-13:CO-BBB-5:IN  # SI correctors
-AS-13:TI-AFC:OTP6                  SI-13:CO-BBB-6:IN  # SI skew quadrupoles
-AS-13:TI-AFC:OTP7                  SI-13:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-13:TI-AFC:FMC0                  BO-13:CO-BBB:IN    # BO correctors
+AS-13:TI-AFC:FMC1                  SI-13:CO-BBB-1:IN  # SI quadrupoles
+AS-13:TI-AFC:FMC2                  SI-13:CO-BBB-2:IN  # SI quadrupoles
+AS-13:TI-AFC:FMC3                  SI-13:CO-BBB-3:IN  # SI correctors
+AS-13:TI-AFC:FMC4                  SI-13:CO-BBB-4:IN  # SI correctors
+AS-13:TI-AFC:FMC5                  SI-13:CO-BBB-5:IN  # SI correctors
+AS-13:TI-AFC:FMC6                  SI-13:CO-BBB-6:IN  # SI skew quadrupoles
+AS-13:TI-AFC:FMC7                  SI-13:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 14
-AS-14:TI-AFC:OTP0                  BO-14:CO-BBB:IN    # BO correctors
-AS-14:TI-AFC:OTP1                  SI-14:CO-BBB-1:IN  # SI quadrupoles
-AS-14:TI-AFC:OTP2                  SI-14:CO-BBB-2:IN  # SI quadrupoles
-AS-14:TI-AFC:OTP3                  SI-14:CO-BBB-3:IN  # SI correctors
-AS-14:TI-AFC:OTP4                  SI-14:CO-BBB-4:IN  # SI correctors
-AS-14:TI-AFC:OTP5                  SI-14:CO-BBB-5:IN  # SI correctors
-AS-14:TI-AFC:OTP6                  SI-14:CO-BBB-6:IN  # SI skew quadrupoles
-AS-14:TI-AFC:OTP7                  SI-14:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-14:TI-AFC:FMC0                  BO-14:CO-BBB:IN    # BO correctors
+AS-14:TI-AFC:FMC1                  SI-14:CO-BBB-1:IN  # SI quadrupoles
+AS-14:TI-AFC:FMC2                  SI-14:CO-BBB-2:IN  # SI quadrupoles
+AS-14:TI-AFC:FMC3                  SI-14:CO-BBB-3:IN  # SI correctors
+AS-14:TI-AFC:FMC4                  SI-14:CO-BBB-4:IN  # SI correctors
+AS-14:TI-AFC:FMC5                  SI-14:CO-BBB-5:IN  # SI correctors
+AS-14:TI-AFC:FMC6                  SI-14:CO-BBB-6:IN  # SI skew quadrupoles
+AS-14:TI-AFC:FMC7                  SI-14:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 15
-AS-15:TI-AFC:OTP0                  BO-15:CO-BBB:IN    # BO correctors
-AS-15:TI-AFC:OTP1                  SI-15:CO-BBB-1:IN  # SI quadrupoles
-AS-15:TI-AFC:OTP2                  SI-15:CO-BBB-2:IN  # SI quadrupoles
-AS-15:TI-AFC:OTP3                  SI-15:CO-BBB-3:IN  # SI correctors
-AS-15:TI-AFC:OTP4                  SI-15:CO-BBB-4:IN  # SI correctors
-AS-15:TI-AFC:OTP5                  SI-15:CO-BBB-5:IN  # SI correctors
-AS-15:TI-AFC:OTP6                  SI-15:CO-BBB-6:IN  # SI skew quadrupoles
-AS-15:TI-AFC:OTP7                  SI-15:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-15:TI-AFC:FMC0                  BO-15:CO-BBB:IN    # BO correctors
+AS-15:TI-AFC:FMC1                  SI-15:CO-BBB-1:IN  # SI quadrupoles
+AS-15:TI-AFC:FMC2                  SI-15:CO-BBB-2:IN  # SI quadrupoles
+AS-15:TI-AFC:FMC3                  SI-15:CO-BBB-3:IN  # SI correctors
+AS-15:TI-AFC:FMC4                  SI-15:CO-BBB-4:IN  # SI correctors
+AS-15:TI-AFC:FMC5                  SI-15:CO-BBB-5:IN  # SI correctors
+AS-15:TI-AFC:FMC6                  SI-15:CO-BBB-6:IN  # SI skew quadrupoles
+AS-15:TI-AFC:FMC7                  SI-15:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 16
-AS-16:TI-AFC:OTP0                  BO-16:CO-BBB:IN    # BO correctors
-AS-16:TI-AFC:OTP1                  SI-16:CO-BBB-1:IN  # SI quadrupoles
-AS-16:TI-AFC:OTP2                  SI-16:CO-BBB-2:IN  # SI quadrupoles
-AS-16:TI-AFC:OTP3                  SI-16:CO-BBB-3:IN  # SI correctors
-AS-16:TI-AFC:OTP4                  SI-16:CO-BBB-4:IN  # SI correctors
-AS-16:TI-AFC:OTP5                  SI-16:CO-BBB-5:IN  # SI correctors
-AS-16:TI-AFC:OTP6                  SI-16:CO-BBB-6:IN  # SI skew quadrupoles
-AS-16:TI-AFC:OTP7                  SI-16:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-16:TI-AFC:FMC0                  BO-16:CO-BBB:IN    # BO correctors
+AS-16:TI-AFC:FMC1                  SI-16:CO-BBB-1:IN  # SI quadrupoles
+AS-16:TI-AFC:FMC2                  SI-16:CO-BBB-2:IN  # SI quadrupoles
+AS-16:TI-AFC:FMC3                  SI-16:CO-BBB-3:IN  # SI correctors
+AS-16:TI-AFC:FMC4                  SI-16:CO-BBB-4:IN  # SI correctors
+AS-16:TI-AFC:FMC5                  SI-16:CO-BBB-5:IN  # SI correctors
+AS-16:TI-AFC:FMC6                  SI-16:CO-BBB-6:IN  # SI skew quadrupoles
+AS-16:TI-AFC:FMC7                  SI-16:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 17
-AS-17:TI-AFC:OTP0                  BO-17:CO-BBB:IN    # BO correctors
-AS-17:TI-AFC:OTP1                  SI-17:CO-BBB-1:IN  # SI quadrupoles
-AS-17:TI-AFC:OTP2                  SI-17:CO-BBB-2:IN  # SI quadrupoles
-AS-17:TI-AFC:OTP3                  SI-17:CO-BBB-3:IN  # SI correctors
-AS-17:TI-AFC:OTP4                  SI-17:CO-BBB-4:IN  # SI correctors
-AS-17:TI-AFC:OTP5                  SI-17:CO-BBB-5:IN  # SI correctors
-AS-17:TI-AFC:OTP6                  SI-17:CO-BBB-6:IN  # SI skew quadrupoles
-AS-17:TI-AFC:OTP7                  SI-17:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-17:TI-AFC:FMC0                  BO-17:CO-BBB:IN    # BO correctors
+AS-17:TI-AFC:FMC1                  SI-17:CO-BBB-1:IN  # SI quadrupoles
+AS-17:TI-AFC:FMC2                  SI-17:CO-BBB-2:IN  # SI quadrupoles
+AS-17:TI-AFC:FMC3                  SI-17:CO-BBB-3:IN  # SI correctors
+AS-17:TI-AFC:FMC4                  SI-17:CO-BBB-4:IN  # SI correctors
+AS-17:TI-AFC:FMC5                  SI-17:CO-BBB-5:IN  # SI correctors
+AS-17:TI-AFC:FMC6                  SI-17:CO-BBB-6:IN  # SI skew quadrupoles
+AS-17:TI-AFC:FMC7                  SI-17:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 18
-AS-18:TI-AFC:OTP0                  BO-18:CO-BBB:IN    # BO correctors
-AS-18:TI-AFC:OTP1                  SI-18:CO-BBB-1:IN  # SI quadrupoles
-AS-18:TI-AFC:OTP2                  SI-18:CO-BBB-2:IN  # SI quadrupoles
-AS-18:TI-AFC:OTP3                  SI-18:CO-BBB-3:IN  # SI correctors
-AS-18:TI-AFC:OTP4                  SI-18:CO-BBB-4:IN  # SI correctors
-AS-18:TI-AFC:OTP5                  SI-18:CO-BBB-5:IN  # SI correctors
-AS-18:TI-AFC:OTP6                  SI-18:CO-BBB-6:IN  # SI skew quadrupoles
-AS-18:TI-AFC:OTP7                  SI-18:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-18:TI-AFC:FMC0                  BO-18:CO-BBB:IN    # BO correctors
+AS-18:TI-AFC:FMC1                  SI-18:CO-BBB-1:IN  # SI quadrupoles
+AS-18:TI-AFC:FMC2                  SI-18:CO-BBB-2:IN  # SI quadrupoles
+AS-18:TI-AFC:FMC3                  SI-18:CO-BBB-3:IN  # SI correctors
+AS-18:TI-AFC:FMC4                  SI-18:CO-BBB-4:IN  # SI correctors
+AS-18:TI-AFC:FMC5                  SI-18:CO-BBB-5:IN  # SI correctors
+AS-18:TI-AFC:FMC6                  SI-18:CO-BBB-6:IN  # SI skew quadrupoles
+AS-18:TI-AFC:FMC7                  SI-18:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 19
-AS-19:TI-AFC:OTP0                  BO-19:CO-BBB:IN    # BO correctors
-AS-19:TI-AFC:OTP1                  SI-19:CO-BBB-1:IN  # SI quadrupoles
-AS-19:TI-AFC:OTP2                  SI-19:CO-BBB-2:IN  # SI quadrupoles
-AS-19:TI-AFC:OTP3                  SI-19:CO-BBB-3:IN  # SI correctors
-AS-19:TI-AFC:OTP4                  SI-19:CO-BBB-4:IN  # SI correctors
-AS-19:TI-AFC:OTP5                  SI-19:CO-BBB-5:IN  # SI correctors
-AS-19:TI-AFC:OTP6                  SI-19:CO-BBB-6:IN  # SI skew quadrupoles
-AS-19:TI-AFC:OTP7                  SI-19:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-19:TI-AFC:FMC0                  BO-19:CO-BBB:IN    # BO correctors
+AS-19:TI-AFC:FMC1                  SI-19:CO-BBB-1:IN  # SI quadrupoles
+AS-19:TI-AFC:FMC2                  SI-19:CO-BBB-2:IN  # SI quadrupoles
+AS-19:TI-AFC:FMC3                  SI-19:CO-BBB-3:IN  # SI correctors
+AS-19:TI-AFC:FMC4                  SI-19:CO-BBB-4:IN  # SI correctors
+AS-19:TI-AFC:FMC5                  SI-19:CO-BBB-5:IN  # SI correctors
+AS-19:TI-AFC:FMC6                  SI-19:CO-BBB-6:IN  # SI skew quadrupoles
+AS-19:TI-AFC:FMC7                  SI-19:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFC from Sector 20
-AS-20:TI-AFC:OTP0                  BO-20:CO-BBB:IN    # BO correctors
-AS-20:TI-AFC:OTP1                  SI-20:CO-BBB-1:IN  # SI quadrupoles
-AS-20:TI-AFC:OTP2                  SI-20:CO-BBB-2:IN  # SI quadrupoles
-AS-20:TI-AFC:OTP3                  SI-20:CO-BBB-3:IN  # SI correctors
-AS-20:TI-AFC:OTP4                  SI-20:CO-BBB-4:IN  # SI correctors
-AS-20:TI-AFC:OTP5                  SI-20:CO-BBB-5:IN  # SI correctors
-AS-20:TI-AFC:OTP6                  SI-20:CO-BBB-6:IN  # SI skew quadrupoles
-AS-20:TI-AFC:OTP7                  SI-20:CO-BBB-7:IN  # SI skew quadrupoles
-
+AS-20:TI-AFC:FMC0                  BO-20:CO-BBB:IN    # BO correctors
+AS-20:TI-AFC:FMC1                  SI-20:CO-BBB-1:IN  # SI quadrupoles
+AS-20:TI-AFC:FMC2                  SI-20:CO-BBB-2:IN  # SI quadrupoles
+AS-20:TI-AFC:FMC3                  SI-20:CO-BBB-3:IN  # SI correctors
+AS-20:TI-AFC:FMC4                  SI-20:CO-BBB-4:IN  # SI correctors
+AS-20:TI-AFC:FMC5                  SI-20:CO-BBB-5:IN  # SI correctors
+AS-20:TI-AFC:FMC6                  SI-20:CO-BBB-6:IN  # SI skew quadrupoles
+AS-20:TI-AFC:FMC7                  SI-20:CO-BBB-7:IN  # SI skew quadrupoles
 
 ##AFCs to BPMs
-AS-01:TI-AFC-1:LVEIO0               AS-01:CO-Crate-1:LVEIO0
-AS-01:TI-AFC-1:LVEIO1               AS-01:CO-Crate-1:LVEIO1
-AS-01:TI-AFC-1:LVEIO2               AS-01:CO-Crate-1:LVEIO2
-AS-01:TI-AFC-1:LVEIO3               AS-01:CO-Crate-1:LVEIO3
-AS-01:TI-AFC-1:LVEIO4               AS-01:CO-Crate-1:LVEIO4
-AS-01:TI-AFC-1:LVEIO5               AS-01:CO-Crate-1:LVEIO5
-AS-01:TI-AFC-1:LVEIO6               AS-01:CO-Crate-1:LVEIO6
-AS-01:TI-AFC-1:LVEIO7               AS-01:CO-Crate-1:LVEIO7
+AS-01:TI-AFC:OUT0                  AS-01:CO-Crate:OUT0
+AS-01:TI-AFC:OUT1                  AS-01:CO-Crate:OUT1
+AS-01:TI-AFC:OUT2                  AS-01:CO-Crate:OUT2
+AS-01:TI-AFC:OUT3                  AS-01:CO-Crate:OUT3
+AS-01:TI-AFC:OUT4                  AS-01:CO-Crate:OUT4
+AS-01:TI-AFC:OUT5                  AS-01:CO-Crate:OUT5
+AS-01:TI-AFC:OUT6                  AS-01:CO-Crate:OUT6
+AS-01:TI-AFC:OUT7                  AS-01:CO-Crate:OUT7
 
-AS-02:TI-AFC:LVEIO0                 AS-02:CO-Crate:LVEIO0
-AS-02:TI-AFC:LVEIO1                 AS-02:CO-Crate:LVEIO1
-AS-02:TI-AFC:LVEIO2                 AS-02:CO-Crate:LVEIO2
-AS-02:TI-AFC:LVEIO3                 AS-02:CO-Crate:LVEIO3
-AS-02:TI-AFC:LVEIO4                 AS-02:CO-Crate:LVEIO4
-AS-02:TI-AFC:LVEIO5                 AS-02:CO-Crate:LVEIO5
-AS-02:TI-AFC:LVEIO6                 AS-02:CO-Crate:LVEIO6
-AS-02:TI-AFC:LVEIO7                 AS-02:CO-Crate:LVEIO7
+AS-02:TI-AFC:OUT0                  AS-02:CO-Crate:OUT0
+AS-02:TI-AFC:OUT1                  AS-02:CO-Crate:OUT1
+AS-02:TI-AFC:OUT2                  AS-02:CO-Crate:OUT2
+AS-02:TI-AFC:OUT3                  AS-02:CO-Crate:OUT3
+AS-02:TI-AFC:OUT4                  AS-02:CO-Crate:OUT4
+AS-02:TI-AFC:OUT5                  AS-02:CO-Crate:OUT5
+AS-02:TI-AFC:OUT6                  AS-02:CO-Crate:OUT6
+AS-02:TI-AFC:OUT7                  AS-02:CO-Crate:OUT7
 
-AS-03:TI-AFC:LVEIO0                 AS-03:CO-Crate:LVEIO0
-AS-03:TI-AFC:LVEIO1                 AS-03:CO-Crate:LVEIO1
-AS-03:TI-AFC:LVEIO2                 AS-03:CO-Crate:LVEIO2
-AS-03:TI-AFC:LVEIO3                 AS-03:CO-Crate:LVEIO3
-AS-03:TI-AFC:LVEIO4                 AS-03:CO-Crate:LVEIO4
-AS-03:TI-AFC:LVEIO5                 AS-03:CO-Crate:LVEIO5
-AS-03:TI-AFC:LVEIO6                 AS-03:CO-Crate:LVEIO6
-AS-03:TI-AFC:LVEIO7                 AS-03:CO-Crate:LVEIO7
+AS-03:TI-AFC:OUT0                  AS-03:CO-Crate:OUT0
+AS-03:TI-AFC:OUT1                  AS-03:CO-Crate:OUT1
+AS-03:TI-AFC:OUT2                  AS-03:CO-Crate:OUT2
+AS-03:TI-AFC:OUT3                  AS-03:CO-Crate:OUT3
+AS-03:TI-AFC:OUT4                  AS-03:CO-Crate:OUT4
+AS-03:TI-AFC:OUT5                  AS-03:CO-Crate:OUT5
+AS-03:TI-AFC:OUT6                  AS-03:CO-Crate:OUT6
+AS-03:TI-AFC:OUT7                  AS-03:CO-Crate:OUT7
 
-AS-04:TI-AFC:LVEIO0                 AS-04:CO-Crate:LVEIO0
-AS-04:TI-AFC:LVEIO1                 AS-04:CO-Crate:LVEIO1
-AS-04:TI-AFC:LVEIO2                 AS-04:CO-Crate:LVEIO2
-AS-04:TI-AFC:LVEIO3                 AS-04:CO-Crate:LVEIO3
-AS-04:TI-AFC:LVEIO4                 AS-04:CO-Crate:LVEIO4
-AS-04:TI-AFC:LVEIO5                 AS-04:CO-Crate:LVEIO5
-AS-04:TI-AFC:LVEIO6                 AS-04:CO-Crate:LVEIO6
-AS-04:TI-AFC:LVEIO7                 AS-04:CO-Crate:LVEIO7
+AS-04:TI-AFC:OUT0                  AS-04:CO-Crate:OUT0
+AS-04:TI-AFC:OUT1                  AS-04:CO-Crate:OUT1
+AS-04:TI-AFC:OUT2                  AS-04:CO-Crate:OUT2
+AS-04:TI-AFC:OUT3                  AS-04:CO-Crate:OUT3
+AS-04:TI-AFC:OUT4                  AS-04:CO-Crate:OUT4
+AS-04:TI-AFC:OUT5                  AS-04:CO-Crate:OUT5
+AS-04:TI-AFC:OUT6                  AS-04:CO-Crate:OUT6
+AS-04:TI-AFC:OUT7                  AS-04:CO-Crate:OUT7
 
-AS-05:TI-AFC:LVEIO0                 AS-05:CO-Crate:LVEIO0
-AS-05:TI-AFC:LVEIO1                 AS-05:CO-Crate:LVEIO1
-AS-05:TI-AFC:LVEIO2                 AS-05:CO-Crate:LVEIO2
-AS-05:TI-AFC:LVEIO3                 AS-05:CO-Crate:LVEIO3
-AS-05:TI-AFC:LVEIO4                 AS-05:CO-Crate:LVEIO4
-AS-05:TI-AFC:LVEIO5                 AS-05:CO-Crate:LVEIO5
-AS-05:TI-AFC:LVEIO6                 AS-05:CO-Crate:LVEIO6
-AS-05:TI-AFC:LVEIO7                 AS-05:CO-Crate:LVEIO7
+AS-05:TI-AFC:OUT0                  AS-05:CO-Crate:OUT0
+AS-05:TI-AFC:OUT1                  AS-05:CO-Crate:OUT1
+AS-05:TI-AFC:OUT2                  AS-05:CO-Crate:OUT2
+AS-05:TI-AFC:OUT3                  AS-05:CO-Crate:OUT3
+AS-05:TI-AFC:OUT4                  AS-05:CO-Crate:OUT4
+AS-05:TI-AFC:OUT5                  AS-05:CO-Crate:OUT5
+AS-05:TI-AFC:OUT6                  AS-05:CO-Crate:OUT6
+AS-05:TI-AFC:OUT7                  AS-05:CO-Crate:OUT7
 
-AS-06:TI-AFC:LVEIO0                 AS-06:CO-Crate:LVEIO0
-AS-06:TI-AFC:LVEIO1                 AS-06:CO-Crate:LVEIO1
-AS-06:TI-AFC:LVEIO2                 AS-06:CO-Crate:LVEIO2
-AS-06:TI-AFC:LVEIO3                 AS-06:CO-Crate:LVEIO3
-AS-06:TI-AFC:LVEIO4                 AS-06:CO-Crate:LVEIO4
-AS-06:TI-AFC:LVEIO5                 AS-06:CO-Crate:LVEIO5
-AS-06:TI-AFC:LVEIO6                 AS-06:CO-Crate:LVEIO6
-AS-06:TI-AFC:LVEIO7                 AS-06:CO-Crate:LVEIO7
+AS-06:TI-AFC:OUT0                  AS-06:CO-Crate:OUT0
+AS-06:TI-AFC:OUT1                  AS-06:CO-Crate:OUT1
+AS-06:TI-AFC:OUT2                  AS-06:CO-Crate:OUT2
+AS-06:TI-AFC:OUT3                  AS-06:CO-Crate:OUT3
+AS-06:TI-AFC:OUT4                  AS-06:CO-Crate:OUT4
+AS-06:TI-AFC:OUT5                  AS-06:CO-Crate:OUT5
+AS-06:TI-AFC:OUT6                  AS-06:CO-Crate:OUT6
+AS-06:TI-AFC:OUT7                  AS-06:CO-Crate:OUT7
 
-AS-07:TI-AFC:LVEIO0                 AS-07:CO-Crate:LVEIO0
-AS-07:TI-AFC:LVEIO1                 AS-07:CO-Crate:LVEIO1
-AS-07:TI-AFC:LVEIO2                 AS-07:CO-Crate:LVEIO2
-AS-07:TI-AFC:LVEIO3                 AS-07:CO-Crate:LVEIO3
-AS-07:TI-AFC:LVEIO4                 AS-07:CO-Crate:LVEIO4
-AS-07:TI-AFC:LVEIO5                 AS-07:CO-Crate:LVEIO5
-AS-07:TI-AFC:LVEIO6                 AS-07:CO-Crate:LVEIO6
-AS-07:TI-AFC:LVEIO7                 AS-07:CO-Crate:LVEIO7
+AS-07:TI-AFC:OUT0                  AS-07:CO-Crate:OUT0
+AS-07:TI-AFC:OUT1                  AS-07:CO-Crate:OUT1
+AS-07:TI-AFC:OUT2                  AS-07:CO-Crate:OUT2
+AS-07:TI-AFC:OUT3                  AS-07:CO-Crate:OUT3
+AS-07:TI-AFC:OUT4                  AS-07:CO-Crate:OUT4
+AS-07:TI-AFC:OUT5                  AS-07:CO-Crate:OUT5
+AS-07:TI-AFC:OUT6                  AS-07:CO-Crate:OUT6
+AS-07:TI-AFC:OUT7                  AS-07:CO-Crate:OUT7
 
-AS-08:TI-AFC:LVEIO0                 AS-08:CO-Crate:LVEIO0
-AS-08:TI-AFC:LVEIO1                 AS-08:CO-Crate:LVEIO1
-AS-08:TI-AFC:LVEIO2                 AS-08:CO-Crate:LVEIO2
-AS-08:TI-AFC:LVEIO3                 AS-08:CO-Crate:LVEIO3
-AS-08:TI-AFC:LVEIO4                 AS-08:CO-Crate:LVEIO4
-AS-08:TI-AFC:LVEIO5                 AS-08:CO-Crate:LVEIO5
-AS-08:TI-AFC:LVEIO6                 AS-08:CO-Crate:LVEIO6
-AS-08:TI-AFC:LVEIO7                 AS-08:CO-Crate:LVEIO7
+AS-08:TI-AFC:OUT0                  AS-08:CO-Crate:OUT0
+AS-08:TI-AFC:OUT1                  AS-08:CO-Crate:OUT1
+AS-08:TI-AFC:OUT2                  AS-08:CO-Crate:OUT2
+AS-08:TI-AFC:OUT3                  AS-08:CO-Crate:OUT3
+AS-08:TI-AFC:OUT4                  AS-08:CO-Crate:OUT4
+AS-08:TI-AFC:OUT5                  AS-08:CO-Crate:OUT5
+AS-08:TI-AFC:OUT6                  AS-08:CO-Crate:OUT6
+AS-08:TI-AFC:OUT7                  AS-08:CO-Crate:OUT7
 
-AS-09:TI-AFC:LVEIO0                 AS-09:CO-Crate:LVEIO0
-AS-09:TI-AFC:LVEIO1                 AS-09:CO-Crate:LVEIO1
-AS-09:TI-AFC:LVEIO2                 AS-09:CO-Crate:LVEIO2
-AS-09:TI-AFC:LVEIO3                 AS-09:CO-Crate:LVEIO3
-AS-09:TI-AFC:LVEIO4                 AS-09:CO-Crate:LVEIO4
-AS-09:TI-AFC:LVEIO5                 AS-09:CO-Crate:LVEIO5
-AS-09:TI-AFC:LVEIO6                 AS-09:CO-Crate:LVEIO6
-AS-09:TI-AFC:LVEIO7                 AS-09:CO-Crate:LVEIO7
+AS-09:TI-AFC:OUT0                  AS-09:CO-Crate:OUT0
+AS-09:TI-AFC:OUT1                  AS-09:CO-Crate:OUT1
+AS-09:TI-AFC:OUT2                  AS-09:CO-Crate:OUT2
+AS-09:TI-AFC:OUT3                  AS-09:CO-Crate:OUT3
+AS-09:TI-AFC:OUT4                  AS-09:CO-Crate:OUT4
+AS-09:TI-AFC:OUT5                  AS-09:CO-Crate:OUT5
+AS-09:TI-AFC:OUT6                  AS-09:CO-Crate:OUT6
+AS-09:TI-AFC:OUT7                  AS-09:CO-Crate:OUT7
 
-AS-10:TI-AFC:LVEIO0                 AS-10:CO-Crate:LVEIO0
-AS-10:TI-AFC:LVEIO1                 AS-10:CO-Crate:LVEIO1
-AS-10:TI-AFC:LVEIO2                 AS-10:CO-Crate:LVEIO2
-AS-10:TI-AFC:LVEIO3                 AS-10:CO-Crate:LVEIO3
-AS-10:TI-AFC:LVEIO4                 AS-10:CO-Crate:LVEIO4
-AS-10:TI-AFC:LVEIO5                 AS-10:CO-Crate:LVEIO5
-AS-10:TI-AFC:LVEIO6                 AS-10:CO-Crate:LVEIO6
-AS-10:TI-AFC:LVEIO7                 AS-10:CO-Crate:LVEIO7
+AS-10:TI-AFC:OUT0                  AS-10:CO-Crate:OUT0
+AS-10:TI-AFC:OUT1                  AS-10:CO-Crate:OUT1
+AS-10:TI-AFC:OUT2                  AS-10:CO-Crate:OUT2
+AS-10:TI-AFC:OUT3                  AS-10:CO-Crate:OUT3
+AS-10:TI-AFC:OUT4                  AS-10:CO-Crate:OUT4
+AS-10:TI-AFC:OUT5                  AS-10:CO-Crate:OUT5
+AS-10:TI-AFC:OUT6                  AS-10:CO-Crate:OUT6
+AS-10:TI-AFC:OUT7                  AS-10:CO-Crate:OUT7
 
-AS-11:TI-AFC:LVEIO0                 AS-11:CO-Crate:LVEIO0
-AS-11:TI-AFC:LVEIO1                 AS-11:CO-Crate:LVEIO1
-AS-11:TI-AFC:LVEIO2                 AS-11:CO-Crate:LVEIO2
-AS-11:TI-AFC:LVEIO3                 AS-11:CO-Crate:LVEIO3
-AS-11:TI-AFC:LVEIO4                 AS-11:CO-Crate:LVEIO4
-AS-11:TI-AFC:LVEIO5                 AS-11:CO-Crate:LVEIO5
-AS-11:TI-AFC:LVEIO6                 AS-11:CO-Crate:LVEIO6
-AS-11:TI-AFC:LVEIO7                 AS-11:CO-Crate:LVEIO7
+AS-11:TI-AFC:OUT0                  AS-11:CO-Crate:OUT0
+AS-11:TI-AFC:OUT1                  AS-11:CO-Crate:OUT1
+AS-11:TI-AFC:OUT2                  AS-11:CO-Crate:OUT2
+AS-11:TI-AFC:OUT3                  AS-11:CO-Crate:OUT3
+AS-11:TI-AFC:OUT4                  AS-11:CO-Crate:OUT4
+AS-11:TI-AFC:OUT5                  AS-11:CO-Crate:OUT5
+AS-11:TI-AFC:OUT6                  AS-11:CO-Crate:OUT6
+AS-11:TI-AFC:OUT7                  AS-11:CO-Crate:OUT7
 
-AS-12:TI-AFC:LVEIO0                 AS-12:CO-Crate:LVEIO0
-AS-12:TI-AFC:LVEIO1                 AS-12:CO-Crate:LVEIO1
-AS-12:TI-AFC:LVEIO2                 AS-12:CO-Crate:LVEIO2
-AS-12:TI-AFC:LVEIO3                 AS-12:CO-Crate:LVEIO3
-AS-12:TI-AFC:LVEIO4                 AS-12:CO-Crate:LVEIO4
-AS-12:TI-AFC:LVEIO5                 AS-12:CO-Crate:LVEIO5
-AS-12:TI-AFC:LVEIO6                 AS-12:CO-Crate:LVEIO6
-AS-12:TI-AFC:LVEIO7                 AS-12:CO-Crate:LVEIO7
+AS-12:TI-AFC:OUT0                  AS-12:CO-Crate:OUT0
+AS-12:TI-AFC:OUT1                  AS-12:CO-Crate:OUT1
+AS-12:TI-AFC:OUT2                  AS-12:CO-Crate:OUT2
+AS-12:TI-AFC:OUT3                  AS-12:CO-Crate:OUT3
+AS-12:TI-AFC:OUT4                  AS-12:CO-Crate:OUT4
+AS-12:TI-AFC:OUT5                  AS-12:CO-Crate:OUT5
+AS-12:TI-AFC:OUT6                  AS-12:CO-Crate:OUT6
+AS-12:TI-AFC:OUT7                  AS-12:CO-Crate:OUT7
 
-AS-13:TI-AFC:LVEIO0                 AS-13:CO-Crate:LVEIO0
-AS-13:TI-AFC:LVEIO1                 AS-13:CO-Crate:LVEIO1
-AS-13:TI-AFC:LVEIO2                 AS-13:CO-Crate:LVEIO2
-AS-13:TI-AFC:LVEIO3                 AS-13:CO-Crate:LVEIO3
-AS-13:TI-AFC:LVEIO4                 AS-13:CO-Crate:LVEIO4
-AS-13:TI-AFC:LVEIO5                 AS-13:CO-Crate:LVEIO5
-AS-13:TI-AFC:LVEIO6                 AS-13:CO-Crate:LVEIO6
-AS-13:TI-AFC:LVEIO7                 AS-13:CO-Crate:LVEIO7
+AS-13:TI-AFC:OUT0                  AS-13:CO-Crate:OUT0
+AS-13:TI-AFC:OUT1                  AS-13:CO-Crate:OUT1
+AS-13:TI-AFC:OUT2                  AS-13:CO-Crate:OUT2
+AS-13:TI-AFC:OUT3                  AS-13:CO-Crate:OUT3
+AS-13:TI-AFC:OUT4                  AS-13:CO-Crate:OUT4
+AS-13:TI-AFC:OUT5                  AS-13:CO-Crate:OUT5
+AS-13:TI-AFC:OUT6                  AS-13:CO-Crate:OUT6
+AS-13:TI-AFC:OUT7                  AS-13:CO-Crate:OUT7
 
-AS-14:TI-AFC:LVEIO0                 AS-14:CO-Crate:LVEIO0
-AS-14:TI-AFC:LVEIO1                 AS-14:CO-Crate:LVEIO1
-AS-14:TI-AFC:LVEIO2                 AS-14:CO-Crate:LVEIO2
-AS-14:TI-AFC:LVEIO3                 AS-14:CO-Crate:LVEIO3
-AS-14:TI-AFC:LVEIO4                 AS-14:CO-Crate:LVEIO4
-AS-14:TI-AFC:LVEIO5                 AS-14:CO-Crate:LVEIO5
-AS-14:TI-AFC:LVEIO6                 AS-14:CO-Crate:LVEIO6
-AS-14:TI-AFC:LVEIO7                 AS-14:CO-Crate:LVEIO7
+AS-14:TI-AFC:OUT0                  AS-14:CO-Crate:OUT0
+AS-14:TI-AFC:OUT1                  AS-14:CO-Crate:OUT1
+AS-14:TI-AFC:OUT2                  AS-14:CO-Crate:OUT2
+AS-14:TI-AFC:OUT3                  AS-14:CO-Crate:OUT3
+AS-14:TI-AFC:OUT4                  AS-14:CO-Crate:OUT4
+AS-14:TI-AFC:OUT5                  AS-14:CO-Crate:OUT5
+AS-14:TI-AFC:OUT6                  AS-14:CO-Crate:OUT6
+AS-14:TI-AFC:OUT7                  AS-14:CO-Crate:OUT7
 
-AS-15:TI-AFC:LVEIO0                 AS-15:CO-Crate:LVEIO0
-AS-15:TI-AFC:LVEIO1                 AS-15:CO-Crate:LVEIO1
-AS-15:TI-AFC:LVEIO2                 AS-15:CO-Crate:LVEIO2
-AS-15:TI-AFC:LVEIO3                 AS-15:CO-Crate:LVEIO3
-AS-15:TI-AFC:LVEIO4                 AS-15:CO-Crate:LVEIO4
-AS-15:TI-AFC:LVEIO5                 AS-15:CO-Crate:LVEIO5
-AS-15:TI-AFC:LVEIO6                 AS-15:CO-Crate:LVEIO6
-AS-15:TI-AFC:LVEIO7                 AS-15:CO-Crate:LVEIO7
+AS-15:TI-AFC:OUT0                  AS-15:CO-Crate:OUT0
+AS-15:TI-AFC:OUT1                  AS-15:CO-Crate:OUT1
+AS-15:TI-AFC:OUT2                  AS-15:CO-Crate:OUT2
+AS-15:TI-AFC:OUT3                  AS-15:CO-Crate:OUT3
+AS-15:TI-AFC:OUT4                  AS-15:CO-Crate:OUT4
+AS-15:TI-AFC:OUT5                  AS-15:CO-Crate:OUT5
+AS-15:TI-AFC:OUT6                  AS-15:CO-Crate:OUT6
+AS-15:TI-AFC:OUT7                  AS-15:CO-Crate:OUT7
 
-AS-16:TI-AFC:LVEIO0                 AS-16:CO-Crate:LVEIO0
-AS-16:TI-AFC:LVEIO1                 AS-16:CO-Crate:LVEIO1
-AS-16:TI-AFC:LVEIO2                 AS-16:CO-Crate:LVEIO2
-AS-16:TI-AFC:LVEIO3                 AS-16:CO-Crate:LVEIO3
-AS-16:TI-AFC:LVEIO4                 AS-16:CO-Crate:LVEIO4
-AS-16:TI-AFC:LVEIO5                 AS-16:CO-Crate:LVEIO5
-AS-16:TI-AFC:LVEIO6                 AS-16:CO-Crate:LVEIO6
-AS-16:TI-AFC:LVEIO7                 AS-16:CO-Crate:LVEIO7
+AS-16:TI-AFC:OUT0                  AS-16:CO-Crate:OUT0
+AS-16:TI-AFC:OUT1                  AS-16:CO-Crate:OUT1
+AS-16:TI-AFC:OUT2                  AS-16:CO-Crate:OUT2
+AS-16:TI-AFC:OUT3                  AS-16:CO-Crate:OUT3
+AS-16:TI-AFC:OUT4                  AS-16:CO-Crate:OUT4
+AS-16:TI-AFC:OUT5                  AS-16:CO-Crate:OUT5
+AS-16:TI-AFC:OUT6                  AS-16:CO-Crate:OUT6
+AS-16:TI-AFC:OUT7                  AS-16:CO-Crate:OUT7
 
-AS-17:TI-AFC:LVEIO0                 AS-17:CO-Crate:LVEIO0
-AS-17:TI-AFC:LVEIO1                 AS-17:CO-Crate:LVEIO1
-AS-17:TI-AFC:LVEIO2                 AS-17:CO-Crate:LVEIO2
-AS-17:TI-AFC:LVEIO3                 AS-17:CO-Crate:LVEIO3
-AS-17:TI-AFC:LVEIO4                 AS-17:CO-Crate:LVEIO4
-AS-17:TI-AFC:LVEIO5                 AS-17:CO-Crate:LVEIO5
-AS-17:TI-AFC:LVEIO6                 AS-17:CO-Crate:LVEIO6
-AS-17:TI-AFC:LVEIO7                 AS-17:CO-Crate:LVEIO7
+AS-17:TI-AFC:OUT0                  AS-17:CO-Crate:OUT0
+AS-17:TI-AFC:OUT1                  AS-17:CO-Crate:OUT1
+AS-17:TI-AFC:OUT2                  AS-17:CO-Crate:OUT2
+AS-17:TI-AFC:OUT3                  AS-17:CO-Crate:OUT3
+AS-17:TI-AFC:OUT4                  AS-17:CO-Crate:OUT4
+AS-17:TI-AFC:OUT5                  AS-17:CO-Crate:OUT5
+AS-17:TI-AFC:OUT6                  AS-17:CO-Crate:OUT6
+AS-17:TI-AFC:OUT7                  AS-17:CO-Crate:OUT7
 
-AS-18:TI-AFC:LVEIO0                 AS-18:CO-Crate:LVEIO0
-AS-18:TI-AFC:LVEIO1                 AS-18:CO-Crate:LVEIO1
-AS-18:TI-AFC:LVEIO2                 AS-18:CO-Crate:LVEIO2
-AS-18:TI-AFC:LVEIO3                 AS-18:CO-Crate:LVEIO3
-AS-18:TI-AFC:LVEIO4                 AS-18:CO-Crate:LVEIO4
-AS-18:TI-AFC:LVEIO5                 AS-18:CO-Crate:LVEIO5
-AS-18:TI-AFC:LVEIO6                 AS-18:CO-Crate:LVEIO6
-AS-18:TI-AFC:LVEIO7                 AS-18:CO-Crate:LVEIO7
+AS-18:TI-AFC:OUT0                  AS-18:CO-Crate:OUT0
+AS-18:TI-AFC:OUT1                  AS-18:CO-Crate:OUT1
+AS-18:TI-AFC:OUT2                  AS-18:CO-Crate:OUT2
+AS-18:TI-AFC:OUT3                  AS-18:CO-Crate:OUT3
+AS-18:TI-AFC:OUT4                  AS-18:CO-Crate:OUT4
+AS-18:TI-AFC:OUT5                  AS-18:CO-Crate:OUT5
+AS-18:TI-AFC:OUT6                  AS-18:CO-Crate:OUT6
+AS-18:TI-AFC:OUT7                  AS-18:CO-Crate:OUT7
 
-AS-19:TI-AFC:LVEIO0                 AS-19:CO-Crate:LVEIO0
-AS-19:TI-AFC:LVEIO1                 AS-19:CO-Crate:LVEIO1
-AS-19:TI-AFC:LVEIO2                 AS-19:CO-Crate:LVEIO2
-AS-19:TI-AFC:LVEIO3                 AS-19:CO-Crate:LVEIO3
-AS-19:TI-AFC:LVEIO4                 AS-19:CO-Crate:LVEIO4
-AS-19:TI-AFC:LVEIO5                 AS-19:CO-Crate:LVEIO5
-AS-19:TI-AFC:LVEIO6                 AS-19:CO-Crate:LVEIO6
-AS-19:TI-AFC:LVEIO7                 AS-19:CO-Crate:LVEIO7
+AS-19:TI-AFC:OUT0                  AS-19:CO-Crate:OUT0
+AS-19:TI-AFC:OUT1                  AS-19:CO-Crate:OUT1
+AS-19:TI-AFC:OUT2                  AS-19:CO-Crate:OUT2
+AS-19:TI-AFC:OUT3                  AS-19:CO-Crate:OUT3
+AS-19:TI-AFC:OUT4                  AS-19:CO-Crate:OUT4
+AS-19:TI-AFC:OUT5                  AS-19:CO-Crate:OUT5
+AS-19:TI-AFC:OUT6                  AS-19:CO-Crate:OUT6
+AS-19:TI-AFC:OUT7                  AS-19:CO-Crate:OUT7
 
-AS-20:TI-AFC:LVEIO0                 AS-20:CO-Crate:LVEIO0
-AS-20:TI-AFC:LVEIO1                 AS-20:CO-Crate:LVEIO1
-AS-20:TI-AFC:LVEIO2                 AS-20:CO-Crate:LVEIO2
-AS-20:TI-AFC:LVEIO3                 AS-20:CO-Crate:LVEIO3
-AS-20:TI-AFC:LVEIO4                 AS-20:CO-Crate:LVEIO4
-AS-20:TI-AFC:LVEIO5                 AS-20:CO-Crate:LVEIO5
-AS-20:TI-AFC:LVEIO6                 AS-20:CO-Crate:LVEIO6
-AS-20:TI-AFC:LVEIO7                 AS-20:CO-Crate:LVEIO7
+AS-20:TI-AFC:OUT0                  AS-20:CO-Crate:OUT0
+AS-20:TI-AFC:OUT1                  AS-20:CO-Crate:OUT1
+AS-20:TI-AFC:OUT2                  AS-20:CO-Crate:OUT2
+AS-20:TI-AFC:OUT3                  AS-20:CO-Crate:OUT3
+AS-20:TI-AFC:OUT4                  AS-20:CO-Crate:OUT4
+AS-20:TI-AFC:OUT5                  AS-20:CO-Crate:OUT5
+AS-20:TI-AFC:OUT6                  AS-20:CO-Crate:OUT6
+AS-20:TI-AFC:OUT7                  AS-20:CO-Crate:OUT7
 
-AS-01:TI-AFC-2:LVEIO0               AS-01:CO-Crate-2:LVEIO0
-AS-01:TI-AFC-2:LVEIO1               AS-01:CO-Crate-2:LVEIO1
-AS-01:TI-AFC-2:LVEIO2               AS-01:CO-Crate-2:LVEIO2
-AS-01:TI-AFC-2:LVEIO3               AS-01:CO-Crate-2:LVEIO3
-AS-01:TI-AFC-2:LVEIO4               AS-01:CO-Crate-2:LVEIO4
-AS-01:TI-AFC-2:LVEIO5               AS-01:CO-Crate-2:LVEIO5
-AS-01:TI-AFC-2:LVEIO6               AS-01:CO-Crate-2:LVEIO6
-AS-01:TI-AFC-2:LVEIO7               AS-01:CO-Crate-2:LVEIO7
+AS-21:TI-AFC:OUT0                  AS-21:CO-Crate:OUT0
+AS-21:TI-AFC:OUT1                  AS-21:CO-Crate:OUT1
+AS-21:TI-AFC:OUT2                  AS-21:CO-Crate:OUT2
+AS-21:TI-AFC:OUT3                  AS-21:CO-Crate:OUT3
+AS-21:TI-AFC:OUT4                  AS-21:CO-Crate:OUT4
+AS-21:TI-AFC:OUT5                  AS-21:CO-Crate:OUT5
+AS-21:TI-AFC:OUT6                  AS-21:CO-Crate:OUT6
+AS-21:TI-AFC:OUT7                  AS-21:CO-Crate:OUT7
