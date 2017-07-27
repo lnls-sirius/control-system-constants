@@ -360,7 +360,7 @@ HL_TRIGGS = {
     'events': ('Linac', 'Study'),
     'trigger_type': 'simple',
     'channels': (
-        'LI-01:RF-AmpHF-1:IN',
+        'LI-01:RF-AmpHF-2:IN',
         ),
     },
  'LI-Glob:TI-LLRF-1:': {
