@@ -19,29 +19,29 @@ AS-Glob:TI-FOUT-2:OUT1             AS-Glob:TI-EVE-4:UPLINK
 AS-Glob:TI-FOUT-2:OUT2             AS-Glob:TI-EVE-5:UPLINK
 AS-Glob:TI-FOUT-2:OUT3             AS-Glob:TI-EVE-6:UPLINK
 
-AS-Glob:TI-FOUT-3:OUT0             AS-01:TI-AFC:SFP6
-AS-Glob:TI-FOUT-3:OUT1             AS-02:TI-AFC:SFP6
-AS-Glob:TI-FOUT-3:OUT2             AS-03:TI-AFC:SFP6
-AS-Glob:TI-FOUT-3:OUT3             AS-04:TI-AFC:SFP6
-AS-Glob:TI-FOUT-3:OUT4             AS-05:TI-AFC:SFP6
-AS-Glob:TI-FOUT-3:OUT5             AS-06:TI-AFC:SFP6
-AS-Glob:TI-FOUT-3:OUT6             AS-07:TI-AFC:SFP6
+AS-Glob:TI-FOUT-3:OUT0             AS-01:TI-AFC:SFP
+AS-Glob:TI-FOUT-3:OUT1             AS-02:TI-AFC:SFP
+AS-Glob:TI-FOUT-3:OUT2             AS-03:TI-AFC:SFP
+AS-Glob:TI-FOUT-3:OUT3             AS-04:TI-AFC:SFP
+AS-Glob:TI-FOUT-3:OUT4             AS-05:TI-AFC:SFP
+AS-Glob:TI-FOUT-3:OUT5             AS-06:TI-AFC:SFP
+AS-Glob:TI-FOUT-3:OUT6             AS-07:TI-AFC:SFP
 
-AS-Glob:TI-FOUT-4:OUT0             AS-08:TI-AFC:SFP6
-AS-Glob:TI-FOUT-4:OUT1             AS-09:TI-AFC:SFP6
-AS-Glob:TI-FOUT-4:OUT2             AS-10:TI-AFC:SFP6
-AS-Glob:TI-FOUT-4:OUT3             AS-11:TI-AFC:SFP6
-AS-Glob:TI-FOUT-4:OUT4             AS-12:TI-AFC:SFP6
-AS-Glob:TI-FOUT-4:OUT5             AS-13:TI-AFC:SFP6
-AS-Glob:TI-FOUT-4:OUT6             AS-14:TI-AFC:SFP6
+AS-Glob:TI-FOUT-4:OUT0             AS-08:TI-AFC:SFP
+AS-Glob:TI-FOUT-4:OUT1             AS-09:TI-AFC:SFP
+AS-Glob:TI-FOUT-4:OUT2             AS-10:TI-AFC:SFP
+AS-Glob:TI-FOUT-4:OUT3             AS-11:TI-AFC:SFP
+AS-Glob:TI-FOUT-4:OUT4             AS-12:TI-AFC:SFP
+AS-Glob:TI-FOUT-4:OUT5             AS-13:TI-AFC:SFP
+AS-Glob:TI-FOUT-4:OUT6             AS-14:TI-AFC:SFP
 
-AS-Glob:TI-FOUT-5:OUT0             AS-15:TI-AFC:SFP6
-AS-Glob:TI-FOUT-5:OUT1             AS-16:TI-AFC:SFP6
-AS-Glob:TI-FOUT-5:OUT2             AS-17:TI-AFC:SFP6
-AS-Glob:TI-FOUT-5:OUT3             AS-18:TI-AFC:SFP6
-AS-Glob:TI-FOUT-5:OUT4             AS-19:TI-AFC:SFP6
-AS-Glob:TI-FOUT-5:OUT5             AS-20:TI-AFC:SFP6
-AS-Glob:TI-FOUT-5:OUT6             AS-21:TI-AFC:SFP6
+AS-Glob:TI-FOUT-5:OUT0             AS-15:TI-AFC:SFP
+AS-Glob:TI-FOUT-5:OUT1             AS-16:TI-AFC:SFP
+AS-Glob:TI-FOUT-5:OUT2             AS-17:TI-AFC:SFP
+AS-Glob:TI-FOUT-5:OUT3             AS-18:TI-AFC:SFP
+AS-Glob:TI-FOUT-5:OUT4             AS-19:TI-AFC:SFP
+AS-Glob:TI-FOUT-5:OUT5             AS-20:TI-AFC:SFP
+AS-Glob:TI-FOUT-5:OUT6             AS-21:TI-AFC:SFP
 
 
 # Third Layer: From EVRs to STDMOE, STDSOE, SOE, MOE
@@ -85,14 +85,14 @@ AS-Glob:TI-EVR-4:OUT3              AS-Glob:TI-MOE-10:OE3
 AS-Glob:TI-EVR-4:OUT4              AS-Glob:TI-MOE-13:OE1
 AS-Glob:TI-EVR-4:OUT5              AS-Glob:TI-STDMOE-6:OE1
 AS-Glob:TI-EVR-4:OUT6              AS-Glob:TI-STDMOE-6:OE2
-AS-Glob:TI-EVR-4:OTP00             AS-Glob:TI-STDSOE-4:IN
-AS-Glob:TI-EVR-4:OTP01             AS-Glob:TI-STDSOE-4:IN
-AS-Glob:TI-EVR-4:OTP02             AS-Glob:TI-STDSOE-4:IN
-AS-Glob:TI-EVR-4:OTP03             AS-Glob:TI-STDSOE-4:IN
-AS-Glob:TI-EVR-4:OTP00             AS-Glob:TI-STDSOE-5:IN
-AS-Glob:TI-EVR-4:OTP01             AS-Glob:TI-STDSOE-5:IN
-AS-Glob:TI-EVR-4:OTP02             AS-Glob:TI-STDSOE-5:IN
-AS-Glob:TI-EVR-4:OTP03             AS-Glob:TI-STDSOE-5:IN
+AS-Glob:TI-EVR-4:OTP00             AS-Glob:TI-STDSOE-4:IN1
+AS-Glob:TI-EVR-4:OTP01             AS-Glob:TI-STDSOE-4:IN2
+AS-Glob:TI-EVR-4:OTP02             AS-Glob:TI-STDSOE-4:IN3
+AS-Glob:TI-EVR-4:OTP03             AS-Glob:TI-STDSOE-4:IN4
+AS-Glob:TI-EVR-4:OTP00             AS-Glob:TI-STDSOE-5:IN1
+AS-Glob:TI-EVR-4:OTP01             AS-Glob:TI-STDSOE-5:IN2
+AS-Glob:TI-EVR-4:OTP02             AS-Glob:TI-STDSOE-5:IN3
+AS-Glob:TI-EVR-4:OTP03             AS-Glob:TI-STDSOE-5:IN4
 
 
 # Third Layer: from EVEs to Equipments
@@ -124,15 +124,15 @@ AS-Glob:TI-EVE-6:OUT1              SI-13C4:DI-NPCT:IN
 AS-Glob:TI-EVE-6:OUT2              SI-14C4:DI-NPCT:IN
 
 ######Missing in Excel spreadsheet:
-AS-01:TI-EVE-3:OUT3                BO-04U:DI-GSL:IN
-AS-01:TI-EVE-3:OUT4                BO-02D:DI-TuneS:IN
-AS-01:TI-EVE-3:OUT5                BO-04D:DI-TuneP:IN
-AS-01:TI-EVE-6:OUT0                SI-19SP:DI-GSL15:IN
-AS-01:TI-EVE-6:OUT1                SI-20SB:DI-GSL07:IN
-AS-01:TI-EVE-6:OUT4                SI-01SA:DI-HTuneS:IN
-AS-01:TI-EVE-6:OUT5                SI-17SA:DI-HTuneP:IN
-AS-01:TI-EVE-6:OUT6                SI-18C4:DI-VTuneS:IN
-AS-01:TI-EVE-6:OUT7                SI-17C4:DI-VTuneP:IN
+AS-Glob:TI-EVE-3:OUT3                BO-04U:DI-GSL:IN
+AS-Glob:TI-EVE-3:OUT4                BO-02D:DI-TuneS:IN
+AS-Glob:TI-EVE-3:OUT5                BO-04D:DI-TuneP:IN
+AS-Glob:TI-EVE-6:OUT0                SI-19SP:DI-GSL15:IN
+AS-Glob:TI-EVE-6:OUT1                SI-20SB:DI-GSL07:IN
+AS-Glob:TI-EVE-6:OUT4                SI-01SA:DI-HTuneS:IN
+AS-Glob:TI-EVE-6:OUT5                SI-17SA:DI-HTuneP:IN
+AS-Glob:TI-EVE-6:OUT6                SI-18C4:DI-VTuneS:IN
+AS-Glob:TI-EVE-6:OUT7                SI-17C4:DI-VTuneP:IN
 ######
 
 
@@ -181,10 +181,10 @@ AS-Glob:TI-STDSOE-5:OUT4           TS-04:DI-ICTMult:IN
 
 
 # Fourth Layer: from SOEs to equipment
-SI-01:TI-SOE-1:OUT                 SI-01SA:PU-InjK:IN
-SI-01:TI-SOE-2:OUT                 SI-01SA:PU-HPing:IN
-BO-01:TI-SOE-3:OUT                 BO-01D:PU-InjK:IN
-TB-01:TI-SOE-4:OUT                 TB-04:PU-InjS:IN
+AS-Glob:TI-SOE-1:OUT                 SI-01SA:PU-InjK:IN
+AS-Glob:TI-SOE-2:OUT                 SI-01SA:PU-HPing:IN
+AS-Glob:TI-SOE-3:OUT                 BO-01D:PU-InjK:IN
+AS-Glob:TI-SOE-4:OUT                 TB-04:PU-InjS:IN
 
 
 # Fourth Layer: from MOEs to equipment
