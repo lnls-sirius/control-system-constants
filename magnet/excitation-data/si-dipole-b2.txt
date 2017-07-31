@@ -5,3 +5,6 @@
 #
 +0.00     +0.0000e+00  +0.0000e+00
 +1000.00  -8.2800e-01  +0.0000e+00
+
+# This file and the file 'si-dipole-b1.txt' are combined into one excitation table
+# as 'si-dipole-b1b2-fam.txt' which is the one used in the control system.

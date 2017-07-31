@@ -10,4 +10,8 @@
 # Current   B1       B2        SUM
 # 394.1     -0.48122 -0.71546  -1.19668
 # 1000.00                      -3.03649
-
+#
+# Excitation table here is a sum of 'si-dipole-b1.txt' and 'si-dipole-b2.txt'
+# At nominal current corresponding to 3 GeV (I = 394.09815084163006 A), the integrated
+# field is -1.1966750914935 T.m, which devide by 3 GeV beam regidity, gives a deflection
+# angle of 6.85644901049564 degrees (sum of one B1 and one B2 dipoles)   
