@@ -4,7 +4,7 @@
 #Booster Family power supplies
 BO-Glob:CO-BBB-1     BO-Fam:PS-B-1       BO-Fam:PS-B-2
 BO-Glob:CO-BBB-2     BO-Fam:PS-QF        BO-Fam:PS-QD
-BO-Glob:CO-BBB-2     BO-Fam:PS-SD        BO-Fam:PS-SF
+BO-Glob:CO-BBB-3     BO-Fam:PS-SD        BO-Fam:PS-SF
 #Booster correctors
 BO-01:CO-BBB        BO-01U:PS-CH        BO-01U:PS-CV        BO-03U:PS-CH        BO-03U:PS-CV
 BO-02:CO-BBB        BO-05U:PS-CH        BO-05U:PS-CV        BO-02D:PS-QS
