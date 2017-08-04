@@ -1,0 +1,13 @@
+# Vertical Position-Angle Correction Response Matrix for the Storage Ring Injection (TB correctors)
+
+#  | DeltaPosY @ TS-04:PM-InjS |    | m11  m12 |   | Kick TB-04:MA-CV-1 |
+#  |                           | =  |          | * |                    |
+#  | DeltaAngY @ TS-04:PM-InjS |    | m21  m22 |   | Kick TB-04:MA-CV-2 |
+
+
+# Matrix:
+#         m11   m12
+#         m21   m22
+
+1.0	0.1
+1.0 0.1

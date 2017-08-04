@@ -1,0 +1,13 @@
+# Horizontal Position-Angle Correction Response Matrix for the Storage Ring Injection (TB correctors)
+
+#  | DeltaPosX @ TS-04:PM-InjS |    | m11  m12 |   | Kick TB-03:MA-CH   |
+#  |                           | =  |          | * |                    |
+#  | DeltaAngX @ TS-04:PM-InjS |    | m21  m22 |   | Kick TB-04:PM-InjS |
+
+
+# Matrix:
+#         m11   m12
+#         m21   m22
+
+1.0	0.1
+1.0 0.1  	
