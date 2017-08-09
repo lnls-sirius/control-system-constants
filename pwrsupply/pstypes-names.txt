@@ -16,8 +16,13 @@ bo-quadrupole-qd-fam         monopolar        quadrupole
 bo-quadrupole-qf-fam         monopolar        quadrupole
 bo-sextupole-sd-fam          monopolar        sextupole
 bo-sextupole-sf-fam          monopolar        sextupole
+<<<<<<< HEAD
 bo-injkicker                 monopolar        corrector-horizontal
 bo-ejekicker                 monopolar        corrector-horizontal
+=======
+bo-injkicker                 monopolar        corrector-normal
+bo-ejekicker                 monopolar        corrector-normal
+>>>>>>> 8b031af36c9e5d19ffee465d4efd19da2da6b187
 ts-dipole-b-fam              monopolar        dipole
 ts-injseptum-thick           monopolar        corrector-horizontal
 ts-injseptum-thin            monopolar        corrector-horizontal
