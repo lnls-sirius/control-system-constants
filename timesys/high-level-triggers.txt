@@ -335,7 +335,7 @@ HL_TRIGGS = {
         ),
     },
  'BO-Glob:TI-Mags:': {
-    'hl_props': {'state', 'duration'},
+    'hl_props': {'state', 'duration', 'evg_param'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -375,7 +375,7 @@ HL_TRIGGS = {
         ),
     },
  'LI-01:TI-EGun:MultBun': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -392,7 +392,7 @@ HL_TRIGGS = {
         ),
     },
  'LI-01:TI-EGun:SglBun': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -409,7 +409,7 @@ HL_TRIGGS = {
         ),
     },
  'LI-01:TI-Modltr-1:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -426,7 +426,7 @@ HL_TRIGGS = {
         ),
     },
  'LI-01:TI-Modltr-2:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -443,7 +443,7 @@ HL_TRIGGS = {
         ),
     },
  'LI-Glob:TI-SHAmp:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -460,7 +460,7 @@ HL_TRIGGS = {
         ),
     },
  'LI-Glob:TI-RFAmp-1:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -477,7 +477,7 @@ HL_TRIGGS = {
         ),
     },
  'LI-Glob:TI-RFAmp-2:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -494,7 +494,7 @@ HL_TRIGGS = {
         ),
     },
  'LI-Glob:TI-LLRF-1:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -511,7 +511,7 @@ HL_TRIGGS = {
         ),
     },
  'LI-Glob:TI-LLRF-2:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -528,7 +528,7 @@ HL_TRIGGS = {
         ),
     },
  'LI-Glob:TI-LLRF-3:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -545,7 +545,7 @@ HL_TRIGGS = {
         ),
     },
  'TB-04:TI-InjS:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -562,7 +562,7 @@ HL_TRIGGS = {
         ),
     },
  'BO-01D:TI-InjK:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -596,7 +596,7 @@ HL_TRIGGS = {
         ),
     },
  'BO-48D:TI-EjeK:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -613,7 +613,7 @@ HL_TRIGGS = {
         ),
     },
  'TS-Fam:TI-EjeS:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -630,7 +630,7 @@ HL_TRIGGS = {
         ),
     },
  'TS-Fam:TI-InjSG:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -647,7 +647,7 @@ HL_TRIGGS = {
         ),
     },
  'TS-04:TI-InjSF:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
@@ -664,7 +664,7 @@ HL_TRIGGS = {
         ),
     },
  'SI-01SA:TI-InjK:': {
-    'hl_props': {'evg_param', 'delay', 'duration'},
+    'hl_props': {'state', 'evg_param', 'delay'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
