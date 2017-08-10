@@ -1172,7 +1172,7 @@ TS-04:PM-InjSF               TS-04:PU-InjSF
 TS-01:PM-EjeSG               TS-01:PU-EjeSG
 
 # --- ts-ejeseptum-thin ---
-TS-01:PM-EjeS                TS-01:PU-EjeS
+TS-01:PM-EjeSF               TS-01:PU-EjeSF
 
 # --- bo-injkicker ---
 BO-01D:PM-InjK               BO-01D:PU-InjK
