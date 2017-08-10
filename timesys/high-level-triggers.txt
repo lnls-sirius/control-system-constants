@@ -2,15 +2,17 @@
 
 HL_TRIGGS = {
  'SI-Glob:TI-Corrs:': {
-    'events': ('MigSI', 'Orbit', 'Study'),
     'hl_props': {'evg_param', 'state', 'pulses', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 2000,
-      'duration': 2000,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('MigSI', 'Orbit', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 2000},
+      'duration': {'value': 2000},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-01M1:PS-CH:RSIO', 'SI-01M1:PS-CV:RSIO', 'SI-01M2:PS-CH:RSIO',
@@ -116,15 +118,17 @@ HL_TRIGGS = {
         ),
     },
  'SI-Glob:TI-Quads:': {
-    'events': ('MigSI', 'Tunes', 'Study'),
     'hl_props': {'evg_param', 'state', 'pulses', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 2000,
-      'duration': 2000,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('MigSI', 'Tunes', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 2000},
+      'duration': {'value': 2000},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-Fam:PS-QFA:RSIO', 'SI-Fam:PS-QDA:RSIO', 'SI-Fam:PS-QFB:RSIO',
@@ -233,15 +237,17 @@ HL_TRIGGS = {
         ),
     },
  'SI-Glob:TI-Skews:': {
-    'events': ('MigSI', 'Coupl', 'Study'),
     'hl_props': {'evg_param', 'state', 'pulses', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 2000,
-      'duration': 2000,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('MigSI', 'Coupl', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 2000},
+      'duration': {'value': 2000},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-01M1:PS-QS:RSIO', 'SI-01M2:PS-QS:RSIO', 'SI-01C1:PS-QS:RSIO',
@@ -287,30 +293,34 @@ HL_TRIGGS = {
         ),
     },
  'SI-Glob:TI-Dips:': {
-    'events': ('MigSI', 'Study'),
     'hl_props': {'evg_param', 'state', 'pulses', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 2000,
-      'duration': 2000,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('MigSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 2000},
+      'duration': {'value': 2000},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-Fam:PS-B1B2-1:RSIO', 'SI-Fam:PS-B1B2-2:RSIO',
         ),
     },
  'SI-Glob:TI-Sexts:': {
-    'events': ('MigSI', 'Study'),
     'hl_props': {'evg_param', 'state', 'pulses', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 2000,
-      'duration': 2000,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('MigSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 2000},
+      'duration': {'value': 2000},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-Fam:PS-SFA0:RSIO', 'SI-Fam:PS-SFA1:RSIO', 'SI-Fam:PS-SFA2:RSIO',
@@ -325,15 +335,17 @@ HL_TRIGGS = {
         ),
     },
  'BO-Glob:TI-Mags:': {
-    'events': ('RmpBO',),
-    'hl_props': {'state', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 2000,
-      'duration': 490,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'duration', 'evg_param'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('RmpBO', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 2000},
+      'duration': {'value': 490},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'BO-Fam:PS-B-1:RSIO', 'BO-Fam:PS-B-2:RSIO',
@@ -363,350 +375,396 @@ HL_TRIGGS = {
         ),
     },
  'LI-01:TI-EGun:MultBun': {
-    'events': ('Linac', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('Linac', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'LI-01:EGun-AmpMB:IN',
         ),
     },
  'LI-01:TI-EGun:SglBun': {
-    'events': ('Linac', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('Linac', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'LI-01:EGun-AmpSB:IN',
         ),
     },
  'LI-01:TI-Modltr-1:': {
-    'events': ('Linac', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('Linac', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'LI-01:RF-Modltr-1:IN',
         ),
     },
  'LI-01:TI-Modltr-2:': {
-    'events': ('Linac', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('Linac', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'LI-01:RF-Modltr-2:IN',
         ),
     },
  'LI-Glob:TI-SHAmp:': {
-    'events': ('Linac', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('Linac', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'LI-01:RF-AmpLF:IN',
         ),
     },
  'LI-Glob:TI-RFAmp-1:': {
-    'events': ('Linac', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('Linac', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'LI-01:RF-AmpHF-1:IN',
         ),
     },
  'LI-Glob:TI-RFAmp-2:': {
-    'events': ('Linac', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('Linac', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'LI-01:RF-AmpHF-2:IN',
         ),
     },
  'LI-Glob:TI-LLRF-1:': {
-    'events': ('Linac', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('Linac', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'LI-01:RF-LLRF-1:IN',
         ),
     },
  'LI-Glob:TI-LLRF-2:': {
-    'events': ('Linac', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('Linac', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'LI-01:RF-LLRF-2:IN',
         ),
     },
  'LI-Glob:TI-LLRF-3:': {
-    'events': ('Linac', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('Linac', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'LI-01:RF-LLRF-3:IN',
         ),
     },
  'TB-04:TI-InjS:': {
-    'events': ('InjBO', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('InjBO', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'TB-04:PU-InjS:IN',
         ),
     },
  'BO-01D:TI-InjK:': {
-    'events': ('InjBO', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('InjBO', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'BO-01D:PU-InjK:IN',
         ),
     },
  'BO-05D:TI-P5Cav:': {
-    'events': ('InjBO', 'RmpBO', 'Study'),
     'hl_props': {'evg_param', 'state', 'pulses'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 2000,
-      'duration': 490,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('InjBO', 'RmpBO', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 2000},
+      'duration': {'value': 490},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'BO-Glob:RF-LLRF:IN',
         ),
     },
  'BO-48D:TI-EjeK:': {
-    'events': ('InjSI', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('InjSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'BO-48D:PU-EjeK:IN',
         ),
     },
  'TS-Fam:TI-EjeS:': {
-    'events': ('InjSI', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('InjSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'TS-01:PU-EjeSF:IN', 'TS-01:PU-EjeSG:IN',
         ),
     },
  'TS-Fam:TI-InjSG:': {
-    'events': ('InjSI', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('InjSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'TS-04:PU-InjSG-1:IN', 'TS-04:PU-InjSG-1:IN',
         ),
     },
  'TS-04:TI-InjSF:': {
-    'events': ('InjSI', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('InjSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'TS-04:PU-InjSF:IN',
         ),
     },
  'SI-01SA:TI-InjK:': {
-    'events': ('InjSI', 'Study'),
-    'hl_props': {'evg_param', 'delay', 'duration'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'hl_props': {'state', 'evg_param', 'delay'},
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('InjSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-01SA:PU-InjK:IN',
         ),
     },
  'LI-Fam:TI-BPM:': {
-    'events': ('DigLI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigLI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'LI-Fam:DI-BPM:IN',
         ),
     },
  'LI-Fam:TI-Scrn:': {
-    'events': ('DigLI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigLI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'LI-Fam:DI-Scrn:IN',
         ),
     },
  'LI-01:TI-ICT-1:': {
-    'events': ('DigLI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigLI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'LI-01:DI-ICT-1:IN',
         ),
     },
  'LI-01:TI-ICT-2:': {
-    'events': ('DigLI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigLI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'LI-01:DI-ICT-2:IN',
         ),
     },
  'TB-Fam:TI-BPM:': {
-    'events': ('DigTB', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigTB', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'TB-01:DI-BPM-1:CRT7', 'TB-01:DI-BPM-2:CRT7',
@@ -715,16 +773,18 @@ HL_TRIGGS = {
         ),
     },
  'TB-Fam:TI-Scrn:': {
-    'events': ('DigTB', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigTB', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'TB-01:DI-Scrn-1:IN', 'TB-01:DI-Scrn-2:IN', 'TB-02:DI-Scrn-1:IN',
@@ -732,64 +792,72 @@ HL_TRIGGS = {
         ),
     },
  'TB-02:TI-ICT:': {
-    'events': ('DigTB', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigTB', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'TB-02:DI-ICTBMC:IN', 'TB-02:DI-ICTMult:IN',
         ),
     },
  'TB-04:TI-ICT:': {
-    'events': ('DigTB', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigTB', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'TB-04:DI-ICTBMC:IN', 'TB-04:DI-ICTMult:IN',
         ),
     },
  'TB-04:TI-FCT:': {
-    'events': ('DigTB', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigTB', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'TB-04:DI-FCT:IN',
         ),
     },
  'BO-Fam:TI-BPM:': {
-    'events': ('DigBO', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigBO', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'BO-01U:DI-BPM:CRT7', 'BO-02U:DI-BPM:CRT7',
@@ -820,16 +888,18 @@ HL_TRIGGS = {
         ),
     },
  'BO-Fam:TI-Scrn:': {
-    'events': ('DigBO', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigBO', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'BO-01D:DI-Scrn-1:IN', 'BO-01D:DI-Scrn-2:IN',
@@ -837,80 +907,90 @@ HL_TRIGGS = {
         ),
     },
  'BO-04U:TI-GSL:': {
-    'events': ('DigBO', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigBO', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'BO-04U:DI-GSL:IN',
         ),
     },
  'BO-02D:TI-TuneS:': {
-    'events': ('DigBO', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigBO', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'BO-02D:DI-TuneS:IN',
         ),
     },
  'BO-04D:TI-TuneP:': {
-    'events': ('DigBO', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigBO', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'BO-04D:DI-TuneP:IN',
         ),
     },
  'BO-35D:TI-DCCT:': {
-    'events': ('DigBO', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigBO', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'BO-35D:DI-NPCT:IN',
         ),
     },
  'TS-Fam:TI-BPM:': {
-    'events': ('DigTS', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigTS', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'TS-01:DI-BPM:CRT6', 'TS-02:DI-BPM:CRT6',  'TS-03:DI-BPM:CRT6',
@@ -918,16 +998,18 @@ HL_TRIGGS = {
         ),
     },
  'TS-Fam:TI-Scrn:': {
-    'events': ('DigTS', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigTS', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'TS-01:DI-Scrn:IN', 'TS-02:DI-Scrn:IN',  'TS-03:DI-Scrn:IN',
@@ -935,240 +1017,270 @@ HL_TRIGGS = {
         ),
     },
  'TS-01:TI-ICT:': {
-    'events': ('DigTS', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigTS', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'TS-01:DI-ICTBMC:IN', 'TS-01:DI-ICTMult:IN',
         ),
     },
  'TS-04:TI-ICT:': {
-    'events': ('DigTS', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigTS', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'TS-04:DI-ICTBMC:IN', 'TS-04:DI-ICTMult:IN',
         ),
     },
  'TS-04:TI-FCT:': {
-    'events': ('DigTS', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigTS', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'TS-04:DI-FCT:IN',
         ),
     },
  'SI-19SP:TI-GSL15:': {
-    'events': ('DigSI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-19SP:DI-GSL15:IN',
         ),
     },
  'SI-20SB:TI-GSL07:': {
-    'events': ('DigSI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-20SB:DI-GSL07:IN',
         ),
     },
  'SI-13C4:TI-DCCT:': {
-    'events': ('DigSI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-13C4:DI-NPCT:IN',
         ),
     },
  'SI-14C4:TI-DCCT:': {
-    'events': ('DigSI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-14C4:DI-NPCT:IN',
         ),
     },
  'SI-01SA:TI-HTuneS:': {
-    'events': ('DigSI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-01SA:DI-HTuneS:IN',
         ),
     },
  'SI-17SA:TI-HTuneP:': {
-    'events': ('DigSI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-17SA:DI-HTuneP:IN',
         ),
     },
  'SI-18C4:TI-VTuneS:': {
-    'events': ('DigSI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-18C4:DI-VTuneS:IN',
         ),
     },
  'SI-17C4:TI-VTuneP:': {
-    'events': ('DigSI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-17C4:DI-VTuneP:IN',
         ),
     },
  'SI-19C4:TI-VPing:': {
-    'events': ('DigSI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-19C4:PU-VPing:IN',
         ),
     },
  'SI-01SA:TI-HPing:': {
-    'events': ('DigSI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-01SA:PU-HPing:IN',
         ),
     },
  'SI-16C4:TI-GBPM:': {
-    'events': ('DigSI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-16C4:DI-GBPM:CRT5',
         ),
     },
  'SI-Fam:TI-BPM:': {
-    'events': ('DigSI', 'Study'),
     'hl_props': {'evg_param', 'delay', 'pulses',
                  'duration', 'state', 'polarity'},
-    'init_vals': {
-      'evg_param': 0,
-      'delay': 0.0,
-      'pulses': 1,
-      'duration': 150,
-      'state': 0,
-      'polarity': 0,
+    'ioc_params': {
+      'evg_param': {
+        'value': 0,
+        'enums': ('DigSI', 'Study'),
+        },
+      'delay': {'value': 0.0},
+      'pulses': {'value': 1},
+      'duration': {'value': 150},
+      'state': {'value': 0},
+      'polarity': {'value': 0},
       },
     'channels': (
         'SI-01M1:DI-BPM:CRT6', 'SI-01M2:DI-BPM:CRT6',
