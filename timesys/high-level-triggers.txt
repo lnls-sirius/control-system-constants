@@ -579,7 +579,7 @@ HL_TRIGGS = {
         ),
     },
  'BO-05D:TI-P5Cav:': {
-    'hl_props': {'evg_param', 'state', 'pulses'},
+    'hl_props': {'evg_param', 'state', 'duration'},
     'ioc_params': {
       'evg_param': {
         'value': 0,
