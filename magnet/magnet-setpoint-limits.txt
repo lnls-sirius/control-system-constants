@@ -1,4 +1,4 @@
-/# Current setpoint limits of power supplies
+# Current setpoint limits of power supplies
 # =========================================
 
 #  DRVL  driver low level limit
