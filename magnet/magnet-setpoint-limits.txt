@@ -1,4 +1,4 @@
-# Current setpoint limits of power supplies
+/# Current setpoint limits of power supplies
 # =========================================
 
 #  DRVL  driver low level limit
@@ -95,7 +95,7 @@ BO-Fam:MA-SD                 +0000.0   +0000.0   +0000.0   +0000.0   +0133.0   +
 BO-Fam:MA-SF                 +0000.0   +0000.0   +0000.0   +0000.0   +0133.0   +0135.0   +0135.0   +0135.0   +0067.5   +0000.5
 
 # --- tb-dipole-b-fam ---
-TB-Fam:MA-B                  +0000.0   +0000.0   +0000.0   +0000.0   +0975.0   +0977.4   +0977.4   +0977.4   +0488.7   +0000.5
+TB-Fam:MA-B                  +0000.0   +0000.0   +0000.0   +0000.0   +0495.0   +0495.0   +0500.0   +0500.0   +0476.0   +0000.5
 
 
 # --- INDIVIDUAL MAGNET POWER SUPPLIES ---
