@@ -1,17 +1,12 @@
 # label           si-dipole-b1b2-fam
-# harmonics       0
+# harmonics       0 1 2 3 4 5 6
 # main_harmonic   0 normal
-# units           Ampere T*m T*m
+# units           Ampere T*m T*m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3   T/m^4 T/m^4  T/m^5 T/m^5
 #
-+0.00     +0.00000e+00  +0.0000e+00
-+1000.00  -3.03649e+00  +0.0000e+00
 
-# Fieldmaps:
-# Current   B1       B2        SUM
-# 394.1     -0.48122 -0.71546  -1.19668
-# 1000.00                      -3.03649
-#
-# Excitation table here is a sum of 'si-dipole-b1.txt' and 'si-dipole-b2.txt'
-# At nominal current corresponding to 3 GeV (I = 394.09815084163006 A), the integrated
-# field is -1.1966750914935 T.m, which devide by 3 GeV beam regidity, gives a deflection
-# angle of 6.85644901049564 degrees (sum of one B1 and one B2 dipoles)   
+  +0.0    +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  
++394.1	  -1.1967e+00 +0.0000e+00  +1.6060e+01 +0.0000e+00  +4.6308e+00 +0.0000e+00  -8.2940e+01 +0.0000e+00  -6.7182e+02 +0.0000e+00  -9.3620e+04 +0.0000e+00  -2.1752e+06 +0.0000e+00
+
+# This data is the sum of combined B1 and B2 dipoles.
+# see files 'si-dipole-b1.txt' and 'si-dipole-b2.txt'
+

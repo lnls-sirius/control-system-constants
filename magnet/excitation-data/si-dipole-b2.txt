@@ -1,10 +1,13 @@
 # label           si-dipole-b2
-# harmonics       0
+# harmonics       0 1 2 3 4 5 6
 # main_harmonic   0 normal
-# units           Ampere T*m T*m
+# units           Ampere T*m T*m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3   T/m^4 T/m^4  T/m^5 T/m^5
 #
-+0.00     +0.0000e+00  +0.0000e+00
-+1000.00  -8.2800e-01  +0.0000e+00
+
+  +0.0    +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  
++394.1	  -7.1546e-01 +0.0000e+00  +9.5936e+00 +0.0000e+00  +2.0910e+00 +0.0000e+00  -5.2190e+01 +0.0000e+00  -4.4462e+02 +0.0000e+00  -5.1918e+04 +0.0000e+00  -1.2814e+06 +0.0000e+00
 
 # This file and the file 'si-dipole-b1.txt' are combined into one excitation table
-# as 'si-dipole-b1b2-fam.txt' which is the one used in the control system.
+# in 'si-dipole-b1b2-fam.txt', which is the one used in the control system.
+#
+# data here comes from analysis of fieldmap '2017-05-17_B2_Model08_Sim_X=-63_27mm_Z=-1000_1000mm_Imc=394.1A.txt'
