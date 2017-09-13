@@ -6,11 +6,9 @@
 
 
 # Natural Chromaticity (considers Quadrupoles and Dipoles Multipoles)
-#	Chrom0 X
-#	Chrom0 Y     
+#	Chrom0 X	Chrom0 Y     
 
--35.3221
- 11.6223
+-35.3221    11.6223
 
 
 # Correction Matrix
