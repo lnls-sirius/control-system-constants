@@ -1,0 +1,20 @@
+# Chomaticity Correction Response Matrix and Chromaticity Zero for Booster
+
+#  | DeltaChromX |     | Chrom0 X |   | m11  m12 |   | SL BO-Fam:MA-SF |
+#  |             |  =  |          | + |          | * |                 |
+#  | DeltaChromY |     | Chrom0 Y |   | m21  m22 |   | SL BO-Fam:MA-SD |
+
+
+# Chrom0
+#	X     Y     
+
+0.0   0.0
+
+
+# Response Matrix
+#	m11   m12
+#	m21   m22
+
+1.0   2.0
+3.0   4.0
+
