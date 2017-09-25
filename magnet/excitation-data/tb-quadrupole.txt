@@ -1,9 +1,10 @@
 # label           tb-quadrupole
 # harmonics       1 5 9 13
 # main_harmonic   1 normal
-# units           Ampere  T T  T.m/m^4 T.m/m^4  T.m/m^8 T.m/m^8  T.m/m^12 T.m/m^12  
+# units           Ampere  T T  T.m/m^4 T.m/m^4  T.m/m^8 T.m/m^8  T.m/m^12 T.m/m^12
 
-+000.00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  
-+010.00  -8.0056e-01 +0.0000e+00  +4.0254e+04 +0.0000e+00  -1.1194e+11 +0.0000e+00  +3.8928e+15 +0.0000e+00  
++000.00   +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
++010.00   -8.0056e-01 +0.0000e+00  +4.0254e+04 +0.0000e+00  -1.1194e+11 +0.0000e+00  +3.8928e+15 +0.0000e+00
 
-# data come from analysis in file '2017-01-09_TB_Quadrupole_Model01_Sim_X=-20_20mm_Z=-450_450mm_Imc=10A.txt'
+# data from https://github.com/lnls-ima/tb-quadrupoles/blob/master/links-official/analysis.txt
+# multipoles from the file above are calculated for half model and thus have to be multiplied by a factor of 2.

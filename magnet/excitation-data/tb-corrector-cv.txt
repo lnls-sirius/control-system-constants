@@ -2,8 +2,8 @@
 # harmonics       0
 # main_harmonic   0 skew
 # units           Ampere T*m T*m
-#
--10.00    +0.0000e+00  -1.2500e-03
-+10.00    +0.0000e+00  +1.2500e-03
 
-# Taken from https://wiki-sirius.lnls.br/mediawiki/index.php/Table:TB_corrector_parameters
+-010.00   +0.0000e+00 -1.2500e-03
++010.00   +0.0000e+00 +1.2500e-03
+
+# data from https://wiki-sirius.lnls.br/mediawiki/index.php/Table:TB_corrector_parameters
