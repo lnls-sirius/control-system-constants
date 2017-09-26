@@ -1,0 +1,13 @@
+# Tune Correction Response Matrix for Storage Ring
+
+#  | DeltaTuneX |    | m11  m12 |   | f_QF @All SI QF Families |
+#  |            | =  |          | * |                          |  , where (1+f)KL = KL + DeltaKL
+#  | DeltaTuneY |    | m21  m22 |   | f_QD @All SI QD Families |
+
+
+# Matrix (obtained by group method and proportional variation of MML lnls_correct_tunes)
+#         m11   m12
+#         m21   m22
+
+ 62.7833   -14.4104
+-26.7641    28.2237
