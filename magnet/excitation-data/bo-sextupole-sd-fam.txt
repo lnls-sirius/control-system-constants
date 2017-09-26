@@ -1,10 +1,40 @@
+# HEADER
+# ======
 # label           bo-sextupole-sd-fam
 # harmonics       0 2 8 14
 # main_harmonic   2 normal
 # units           Ampere  T*m T*m  T.m/m^1 T.m/m^1  T.m/m^7 T.m/m^7  T.m/m^13 T.m/m^13
 
-+000.00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
-+006.75  -1.2520e-07 +0.0000e+00  +1.0001e+00 +0.0000e+00  -9.3960e+08 +0.0000e+00  -1.7049e+19 +0.0000e+00
-+135.00  -2.5040e-06 +0.0000e+00  +2.0002e+01 +0.0000e+00  -1.8792e+10 +0.0000e+00  -3.4098e+20 +0.0000e+00
+# EXCITATION DATA
+# ===============
+-135.000  +2.5040e-06 +0.0000e+00  -2.0002e+01 +0.0000e+00  +1.8792e+10 +0.0000e+00  +3.4098e+20 +0.0000e+00
+-006.750  +1.2520e-07 +0.0000e+00  -1.0001e+00 +0.0000e+00  +9.3960e+08 +0.0000e+00  +1.7049e+19 +0.0000e+00
++006.750  -1.2520e-07 +0.0000e+00  +1.0001e+00 +0.0000e+00  -9.3960e+08 +0.0000e+00  -1.7049e+19 +0.0000e+00
++135.000  -2.5040e-06 +0.0000e+00  +2.0002e+01 +0.0000e+00  -1.8792e+10 +0.0000e+00  -3.4098e+20 +0.0000e+00
 
-# inverted signs from bo-sextupole-sf-fam
+# COMMENTS
+# ========
+# 1. positive current data is taken from bo-sextupole-sf-fam.txt with inverted signs for multipoles.
+# 2. negative current data is replicated from positive current data inverting multipole signs.
+
+# POLARITY TABLE
+# ==============
+#
+# Magnet    | Intfield(1) | IntStrength(2) | ConvSign(3) | Current(4)
+# ----------|-------------|----------------|-------------|-----------
+# B         | ByL < 0     | Angle > 0      | -1.0        | I > 0
+# CH        | ByL > 0     | HKick > 0      | +1.0        | I > 0
+# CV        | BxL < 0     | VKick > 0      | -1.0        | I > 0
+# QF        | G1L < 0     | KL    > 0      | -1.0        | I > 0
+# QD        | G1L > 0     | KL    < 0      | -1.0        | I > 0
+# SF        | G2L < 0     | SL    > 0      | -1.0        | I > 0
+# SD        | G2L > 0     | SL    < 0      | -1.0        | I > 0
+#
+# (1) Sirius coordinate system
+# (2) Parameter convention and derived from Lorentz force.
+# (3) Conversion sign from IntField <-> IntStrength
+# (4) Convention of magnet excitation polarity, so when I > 0 magnet's strength has positive sign.
+# G1L := L.(dBy/dx)|x=y=0
+# G2L := (1/2!).L.(d2By/dx2)|x=y=0
+# KL  := G1L / abs(Brho)
+# SL  := G2L / abs(Brho)

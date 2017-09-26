@@ -1,14 +1,41 @@
+# HEADER
+# ======
 # label           bo-dipole-b-fam
 # harmonics       0 1 2 3 4 5 6
 # main_harmonic   0 normal
 # units           Ampere T.m T.m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3  T/m^4 T/m^4  T/m^5 T/m^5
-#
 
- +48.920  -6.2876e-02 +0.0000e+00  +1.2433e-01 +0.0000e+00  +1.2655e+00 +0.0000e+00  +4.7684e-01 +0.0000e+00  +1.6064e+02 +0.0000e+00  +4.2202e+03 +0.0000e+00  +2.5224e+05 +0.0000e+00
+# EXCITATION DATA
+# ===============
++048.920  -6.2876e-02 +0.0000e+00  +1.2433e-01 +0.0000e+00  +1.2655e+00 +0.0000e+00  +4.7684e-01 +0.0000e+00  +1.6064e+02 +0.0000e+00  +4.2202e+03 +0.0000e+00  +2.5224e+05 +0.0000e+00
 +680.100  -8.7532e-01 +0.0000e+00  +1.6868e+00 +0.0000e+00  +1.7345e+01 +0.0000e+00  +6.6528e+00 +0.0000e+00  +1.6442e+03 +0.0000e+00  +2.9944e+04 +0.0000e+00  +2.7808e+06 +0.0000e+00
 +981.778  -1.2575e+00 +0.0000e+00  +2.4786e+00 +0.0000e+00  +2.5616e+01 +0.0000e+00  +7.0520e-02 +0.0000e+00  +3.4592e+03 +0.0000e+00  +8.1798e+04 +0.0000e+00  +5.4628e+06 +0.0000e+00
 
-# data is taken from fieldmap analysis, dipole model 09. multipoles here those given in analysis.txt multiplied by 2, since half-model fmap is analysed.
-# @150MeV:  2016-12-05_BD_Model09_Sim_X=-80_35mm_Z=-1000_1000mm_I=48.92A.txt
-# @680.1A:  2017-08-31_TS_Dipole_Model01_Sim_X=-85_85mm_Z=-1000_1000mm_Imc=680.1A.txt
-# @3GeV:    2016-11-11_BD_Model09_Sim_X=-80_35mm_Z=-1000_1000mm_I=981.778A.txt
+# COMMENTS
+# ========
+# 1. data from @150MeV: https://github.com/lnls-ima/bo-dipoles/blob/master/links-official-150mev/analysis.txt
+#              @680.1A: https://github.com/lnls-ima/ts-dipoles/blob/master/links-official/analysis.txt
+#              @3GeV:   https://github.com/lnls-ima/bo-dipoles/blob/master/links-official-3gev/analysis.txt
+# 2. multipoles from the analysis file above are calculated for half model and thus have to be multiplied by a factor of 2.
+
+# POLARITY TABLE
+# ==============
+#
+# Magnet    | Intfield(1) | IntStrength(2) | ConvSign(3) | Current(4)
+# ----------|-------------|----------------|-------------|-----------
+# B         | ByL < 0     | Angle > 0      | -1.0        | I > 0
+# CH        | ByL > 0     | HKick > 0      | +1.0        | I > 0
+# CV        | BxL < 0     | VKick > 0      | -1.0        | I > 0
+# QF        | G1L < 0     | KL    > 0      | -1.0        | I > 0
+# QD        | G1L > 0     | KL    < 0      | -1.0        | I > 0
+# SF        | G2L < 0     | SL    > 0      | -1.0        | I > 0
+# SD        | G2L > 0     | SL    < 0      | -1.0        | I > 0
+#
+# (1) Sirius coordinate system
+# (2) Parameter convention and derived from Lorentz force.
+# (3) Conversion sign from IntField <-> IntStrength
+# (4) Convention of magnet excitation polarity, so when I > 0 magnet's strength has positive sign.
+# G1L := L.(dBy/dx)|x=y=0
+# G2L := (1/2!).L.(d2By/dx2)|x=y=0
+# KL  := G1L / abs(Brho)
+# SL  := G2L / abs(Brho)

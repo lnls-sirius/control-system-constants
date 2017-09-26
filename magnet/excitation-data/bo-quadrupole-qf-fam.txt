@@ -1,12 +1,40 @@
+# HEADER
+# ======
 # label           bo-quadrupole-qf-fam
 # harmonics       1 5 9 13
 # main_harmonic   1 normal
 # units           Ampere  T T  T.m/m^4 T.m/m^4  T.m/m^8 T.m/m^8  T.m/m^12 T.m/m^12
 
-+000.00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
-+005.28  -2.0286e-01 +0.0000e+00  +2.1810e+03 +0.0000e+00  -2.7118e+10 +0.0000e+00  -5.5980e+15 +0.0000e+00
-+105.52  -4.0534e+00 +0.0000e+00  +4.3596e+04 +0.0000e+00  -5.4184e+11 +0.0000e+00  -1.1198e+17 +0.0000e+00
+# EXCITATION DATA
+# ===============
++000.000  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
++005.280  -2.0286e-01 +0.0000e+00  +2.1810e+03 +0.0000e+00  -2.7118e+10 +0.0000e+00  -5.5980e+15 +0.0000e+00
++105.520  -4.0534e+00 +0.0000e+00  +4.3596e+04 +0.0000e+00  -5.4184e+11 +0.0000e+00  -1.1198e+17 +0.0000e+00
 
-# Merge of low and high energy analysis
-# data come from analysis in file '2016-12-06_BQF_Model06_Sim_X=-20_20mm_Z=-450_450mm_I=5.28A.txt'
-# data come from analysis in file '2016-12-06_BQF_Model06_Sim_X=-20_20mm_Z=-450_450mm_I=105.52A.txt'
+# COMMENTS
+# ========
+# 1. data from @150MeV: https://github.com/lnls-ima/bo-quadrupoles-qf/blob/master/links-official-150mev/analysis.txt
+#              @3GeV:   https://github.com/lnls-ima/bo-quadrupoles-qf/blob/master/links-official-3gev/analysis.txt
+# 2. multipoles from the analysis file above are calculated for half model and thus have to be multiplied by a factor of 2.
+
+# POLARITY TABLE
+# ==============
+#
+# Magnet    | Intfield(1) | IntStrength(2) | ConvSign(3) | Current(4)
+# ----------|-------------|----------------|-------------|-----------
+# B         | ByL < 0     | Angle > 0      | -1.0        | I > 0
+# CH        | ByL > 0     | HKick > 0      | +1.0        | I > 0
+# CV        | BxL < 0     | VKick > 0      | -1.0        | I > 0
+# QF        | G1L < 0     | KL    > 0      | -1.0        | I > 0
+# QD        | G1L > 0     | KL    < 0      | -1.0        | I > 0
+# SF        | G2L < 0     | SL    > 0      | -1.0        | I > 0
+# SD        | G2L > 0     | SL    < 0      | -1.0        | I > 0
+#
+# (1) Sirius coordinate system
+# (2) Parameter convention and derived from Lorentz force.
+# (3) Conversion sign from IntField <-> IntStrength
+# (4) Convention of magnet excitation polarity, so when I > 0 magnet's strength has positive sign.
+# G1L := L.(dBy/dx)|x=y=0
+# G2L := (1/2!).L.(d2By/dx2)|x=y=0
+# KL  := G1L / abs(Brho)
+# SL  := G2L / abs(Brho)
