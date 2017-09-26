@@ -3,6 +3,10 @@
 
 # [unit]  A  Ampere
 
+# for a description of the various limit values see 'conv_splims_labels' function in
+# https://github.com/lnls-sirius/dev-packages/blob/master/siriuspy/siriuspy/util.py
+
+
 # [power_supply_type]        DRVL      LOLO      LOW       LOPR      HOPR      HIGH      HIHI      DRVH
 #---------------------------|---------|---------|---------|---------|---------|---------|---------|-------
 
@@ -24,6 +28,8 @@ li-spect                     +0000.0   +0000.0   +0000.0   +0000.0   +0030.0   +
 li-solenoid                  +0000.0   +0000.0   +0000.0   +0000.0   +0034.0   +0035.0   +0035.0   +0035.0
 
 # --- bipolar family ---
+bo-quadrupole-qd-fam         -0115.0   -0115.0   -0115.0   -0110.0   +0110.0   +0115.0   +0115.0   +0115.0
+bo-sextupole-sd-fam          -0135.0   -0135.0   -0135.0   -0133.0   +0133.0   +0135.0   +0135.0   +0135.0
 
 # --- bipolar individual ---
 si-quadrupole-q14-trim       -0010.0   -0010.0   -0010.0   -0009.9   +0009.9   +0010.0   +0010.0   +0010.0
@@ -36,9 +42,7 @@ si-sextupole-s15-qs          -0010.0   -0010.0   -0010.0   -0009.9   +0009.9   +
 si-corrector-cv              -0010.0   -0010.0   -0010.0   -0009.9   +0009.9   +0010.0   +0010.0   +0010.0
 si-corrector-fch             -0009.0   -0009.0   -0009.0   -0008.9   +0008.9   +0009.0   +0009.0   +0009.0
 si-corrector-fcv             -0009.0   -0009.0   -0009.0   -0008.9   +0008.9   +0009.0   +0009.0   +0009.0
-bo-quadrupole-qd-fam         -0115.0   -0115.0   -0115.0   -0110.0   +0110.0   +0115.0   +0115.0   +0115.0
 bo-quadrupole-qs             -0010.0   -0010.0   -0010.0   -0009.9   +0009.9   +0010.0   +0010.0   +0010.0
-bo-sextupole-sd-fam          -0135.0   -0135.0   -0135.0   -0133.0   +0133.0   +0135.0   +0135.0   +0135.0
 bo-corrector-ch              -0009.0   -0009.0   -0009.0   -0008.9   +0008.9   +0009.0   +0009.0   +0009.0
 bo-corrector-cv              -0009.0   -0009.0   -0009.0   -0008.9   +0008.9   +0009.0   +0009.0   +0009.0
 ts-quadrupole-q14            -0010.0   -0010.0   -0010.0   -0009.9   +0009.9   +0010.0   +0010.0   +0010.0
@@ -59,18 +63,3 @@ li-lens                      -0005.0   -0005.0   -0005.0   -0004.9   +0004.9   +
 # --- bipolar ---
 li-quadrupole-short          -0005.0   -0005.0   -0005.0   -0004.9   +0004.9   +0005.0   +0005.0   +0005.0
 li-quadrupole-long           -0005.0   -0005.0   -0005.0   -0004.9   +0004.9   +0005.0   +0005.0   +0005.0
-
-
-#  DRVL  driver low level limit
-#  LOLO  IOC low-low level limit (ALARM)
-#  LOW   IOC low level limit (ALARM)
-#  LOPR  Low operating range
-#  HOPR  High operating range
-#  HIGH  IOC high level limit (ALARM)
-#  HIHI  IOC high-high level limit (ALARM)
-#  DRVH  driver high level limit
-
-# Rules
-# -----
-# LOLO <= LO <= HI <= HIHI
-# DRVL <= LOPR <= HOPR <= DRVH.
