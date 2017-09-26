@@ -2,10 +2,9 @@
 # harmonics       0 1 2 3 4 5 6
 # main_harmonic   0 normal
 # units           Ampere T.m T.m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3  T/m^4 T/m^4  T/m^5 T/m^5
-#
 
 +000.00   +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
-476.00    -1.3098e-01 +0.0000e+00  +6.5424e-02 +0.0000e+00  +1.4107e+00 +0.0000e+00  -1.2184e+01 +0.0000e+00  +3.7484e+02 +0.0000e+00  -4.0544e+03 +0.0000e+00  +1.7826e+05 +0.0000e+00  
++476.00   -1.3098e-01 +0.0000e+00  +6.5424e-02 +0.0000e+00  +1.4107e+00 +0.0000e+00  -1.2184e+01 +0.0000e+00  +3.7484e+02 +0.0000e+00  -4.0544e+03 +0.0000e+00  +1.7826e+05 +0.0000e+00
 
-# These data is taken from fieldmap analysis of TB dipole model 02 (multiplied by 2, since thf fmap analysis is for halv model)
-# filename: 2017-08-25_TB_Dipole_Model02_Sim_X=-85_85mm_Z=-500_500mm.txt
+# data from https://github.com/lnls-ima/tb-dipoles/blob/master/links-official/analysis.txt
+# multipoles from the file above are calculated for half model and thus have to be multiplied by a factor of 2.

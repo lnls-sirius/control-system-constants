@@ -1,7 +1,12 @@
 # label           bo-quadrupole-qf-fam
 # harmonics       1 5 9 13
 # main_harmonic   1 normal
-# units           Ampere T T
-#
-0       0           0   0           0   0           0   0           0
-+126.92 -4.6972e+00 0   +5.1574e+04 0   -6.2970e+11 0   -1.5806e+17 0
+# units           Ampere  T T  T.m/m^4 T.m/m^4  T.m/m^8 T.m/m^8  T.m/m^12 T.m/m^12
+
++000.00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
++005.28  -2.0286e-01 +0.0000e+00  +2.1810e+03 +0.0000e+00  -2.7118e+10 +0.0000e+00  -5.5980e+15 +0.0000e+00
++105.52  -4.0534e+00 +0.0000e+00  +4.3596e+04 +0.0000e+00  -5.4184e+11 +0.0000e+00  -1.1198e+17 +0.0000e+00
+
+# Merge of low and high energy analysis
+# data come from analysis in file '2016-12-06_BQF_Model06_Sim_X=-20_20mm_Z=-450_450mm_I=5.28A.txt'
+# data come from analysis in file '2016-12-06_BQF_Model06_Sim_X=-20_20mm_Z=-450_450mm_I=105.52A.txt'

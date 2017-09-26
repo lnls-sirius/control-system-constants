@@ -1,8 +1,11 @@
 # label           si-corrector-fcv
-# harmonics       0 1 2 3 4 5 6
+# harmonics       0 2 8
 # main_harmonic   0 skew
-# units           Ampere T*m T*m
-#
--9.0    0   -3.1030e-03 +5.5722e-05 0   0   +3.1414e-02 -2.1524e-01 0   0   +3.7930e+01 -8.7908e+02 0   0   -3.0130e+05
-0       0   0           0           0   0   0           0           0   0    0          0           0   0   0
-+9.0    0   +3.1030e-03 -5.5722e-05 0   0   -3.1414e-02 +2.1524e-01 0   0   -3.7930e+01 +8.7908e+02 0   0   +3.0130e+05
+# units           Ampere  T*m T*m  T.m/m^1 T.m/m^1  T.m/m^7 T.m/m^7
+
+# -1 A was manually inserted and is the negative +1 A line
+-001.00  +0.0000e+00 -3.0988e-04  +0.0000e+00 -1.0034e+00  +0.0000e+00 -3.1904e+10  
++000.00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
++001.00  +0.0000e+00 +3.0988e-04  +0.0000e+00 +1.0034e+00  +0.0000e+00 +3.1904e+10
+
+# data come from analysis in file '2017-03-29_SI_FC_Model03_Sim_X=-12_12mm_Z=-250_250mm_Icv=1A.txt'

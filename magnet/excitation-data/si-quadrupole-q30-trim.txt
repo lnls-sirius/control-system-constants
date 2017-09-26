@@ -1,7 +1,9 @@
 # label           si-quadrupole-q30-trim
 # harmonics       1
 # main_harmonic   1 normal
-# units           Ampere T T
+# units           Ampere  T T  T/m^4 T/m^4  T/m^8 T/m^8  T/m^12 T/m^12
 #
-+0.00     +0.0000e+00  +0.0000e+00
-+375.0    -1.5000e+01  +0.0000e+00
++0.00     +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
++163.8    +1.4274e+01 +0.0000e+00  -3.1848e+05 +0.0000e+00  +5.8638e+13 +0.0000e+00  -1.0678e+21 +0.0000e+00
+
+# copied from si-quadrupole-q30-fam

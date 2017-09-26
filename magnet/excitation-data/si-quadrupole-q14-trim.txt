@@ -1,7 +1,9 @@
 # label           si-quadrupole-q14-trim
-# harmonics       1
+# harmonics       1 5 9 13
 # main_harmonic   1 normal
-# units           Ampere T T
+# units           Ampere  T T  T/m^4 T/m^4  T/m^8 T/m^8  T/m^12 T/m^12
 #
--10.0     -6.0000e-01  +0.0000e+00
-+10.0     +6.0000e-01  +0.0000e+00
++0.00     +0.0000e+00  +0.0000e+00  +0.0000e+00  +0.0000e+00  +0.0000e+00  +0.0000e+00  +0.0000e+00  +0.0000e+00
++156.6    +5.6900e-00  +0.0000e+00  -8.9392e+04  +0.0000e+00  +2.0328e+13  +0.0000e+00  -4.0596e+20  +0.0000e+00
+
+# copied from si-quadrupole-q14-fam

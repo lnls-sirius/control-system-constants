@@ -1,8 +1,11 @@
 # label           si-corrector-fch
-# harmonics       0 1 2 3 4 5 6
+# harmonics       0 2 8
 # main_harmonic   0 normal
-# units           Ampere T*m T*m
-#
--9.0    +3.1030e-03 0   -5.3254e-05 0   +3.0702e-02 0   +7.7690e-02 0   -1.0933e+02 0   +1.1717e+03 0   -3.4310e+05 0
-0       0           0   0           0   0           0   0           0   0           0   0           0   0           0
-+9.0    -3.1030e-03 0   +5.3254e-05 0   -3.0702e-02 0   -7.7690e-02 0   +1.0933e+02 0   -1.1717e+03 0   +3.4310e+05 0
+# units           Ampere  T*m T*m  T.m/m^1 T.m/m^1  T.m/m^7 T.m/m^7
+
+# -1 A was manually inserted and is the negative +1 A line
+-001.00  +3.1028e-04 +0.0000e+00  -9.6170e-01 +0.0000e+00  -3.0490e+10 +0.0000e+00
++000.00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
++001.00  -3.1028e-04 +0.0000e+00  +9.6170e-01 +0.0000e+00  +3.0490e+10 +0.0000e+00
+
+# data come from analysis in file '2017-03-29_SI_FC_Model03_Sim_X=-12_12mm_Z=-250_250mm_Ich=1A.txt'

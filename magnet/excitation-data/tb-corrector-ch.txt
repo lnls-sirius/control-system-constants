@@ -2,6 +2,8 @@
 # harmonics       0
 # main_harmonic   0 normal
 # units           Ampere T*m T*m
-#
--10.00    +1.5000e-03  +0.0000e+00
-+10.00    -1.5000e-03  +0.0000e+00
+
+-010.00   +1.2500e-03 +0.0000e+00
++010.00   -1.2500e-03 +0.0000e+00
+
+# data from https://wiki-sirius.lnls.br/mediawiki/index.php/Table:TB_corrector_parameters

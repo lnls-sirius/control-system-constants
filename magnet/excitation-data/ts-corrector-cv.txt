@@ -3,5 +3,7 @@
 # main_harmonic   0 skew
 # units           Ampere T*m T*m
 #
--1.00e+01	+0.00e+00 -3.50e-03
-+1.00e+01	+0.00e+00 +3.50e-03
+-10.00  +0.0000e+00 -3.5000e-03
++10.00	+0.0000e+00 +3.5000e-03
+
+# Taken from https://wiki-sirius.lnls.br/mediawiki/index.php/Table:TS_corrector_parameters
