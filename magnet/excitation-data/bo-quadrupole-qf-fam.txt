@@ -15,26 +15,55 @@
 # ========
 # 1. data from @150MeV: https://github.com/lnls-ima/bo-quadrupoles-qf/blob/master/links-official-150mev/analysis.txt
 #              @3GeV:   https://github.com/lnls-ima/bo-quadrupoles-qf/blob/master/links-official-3gev/analysis.txt
-# 2. multipoles from the analysis file above are calculated for half model and thus have to be multiplied by a factor of 2.
+# 2. multipoles from the analysis files above are calculated for half model and thus had to be multiplied by a factor of 2.
 
 # POLARITY TABLE
 # ==============
 #
-# Magnet    | Intfield(1) | IntStrength(2) | ConvSign(3) | Current(4)
-# ----------|-------------|----------------|-------------|-----------
-# B         | ByL < 0     | Angle > 0      | -1.0        | I > 0
-# CH        | ByL > 0     | HKick > 0      | +1.0        | I > 0
-# CV        | BxL < 0     | VKick > 0      | -1.0        | I > 0
-# QF        | G1L < 0     | KL    > 0      | -1.0        | I > 0
-# QD        | G1L > 0     | KL    < 0      | -1.0        | I > 0
-# SF        | G2L < 0     | SL    > 0      | -1.0        | I > 0
-# SD        | G2L > 0     | SL    < 0      | -1.0        | I > 0
+# Magnet function         | IntStrength(1) | IntField(1) | ConvSign(3) | Current(4)
+# ------------------------|----------------|-------------|-------------|-----------
+# dipole                  | Angle > 0      | BYL  < 0    | -1.0        | I > 0
+# corrector-horizontal    | HKick > 0      | BYL  > 0    | +1.0        | I > 0
+# corrector-vertical      | VKick > 0      | BXL  < 0    | -1.0        | I > 0
+# quadrupole (focusing)   | KL    > 0      | D1NL < 0    | -1.0        | I > 0
+# quadrupole (defocusing) | KL    < 0      | D1NL > 0    | -1.0        | I > 0
+# quadrupole (skew)       | KL    > 0      | D1SL > 0    | +1.0        | I > 0
+# sextupole  (focusing)   | SL    > 0      | D2NL < 0    | -1.0        | I > 0
+# sextupole  (defocusing) | SL    < 0      | D2NL > 0    | -1.0        | I > 0
 #
-# (1) Sirius coordinate system
-# (2) Parameter convention and derived from Lorentz force.
-# (3) Conversion sign from IntField <-> IntStrength
-# (4) Convention of magnet excitation polarity, so when I > 0 magnet's strength has positive sign.
-# G1L := L.(dBy/dx)|x=y=0
-# G2L := (1/2!).L.(d2By/dx2)|x=y=0
-# KL  := G1L / abs(Brho)
-# SL  := G2L / abs(Brho)
+# Defs:
+# ----
+# BYL   := \int{dz By|_{x=y=0}}.
+# BXL   := \int{dz Bx|_{x=y=0}}.
+# D1NL  := \int{dz \frac{dBy}{dx}_{x=y=0}}
+# D2NL  := (1/2!) \int{dz \frac{d^2By}{dx^2}_{x=y=0}}
+# D1SL  := \int{dz \frac{dBx}{dx}_{x=y=0}}
+# Brho  := magnetic rigidity.
+# Angle := ConvSign * BYL / abs(Brho)
+# HKick := ConvSign * BYL / abs(Brho)
+# VKick := ConvSign * BXL / abs(Brho)
+# KL    := ConvSign * D1NL / abs(Brho)
+# SL    := ConvSign * D2NL / abs(Brho)
+#
+# Obs:
+# ---
+# (1) Parameter definition.
+#     IntStrength values correspond to integrated PolynomA and PolynomB parameters
+#     of usual beam tracking codes, with the exception that VKick has its sign
+#     reversed with respecto to its corresponding value in PolynomA.
+# (2) Sirius coordinate system and Lorentz force.
+# (3) Conversion sign for IntField <-> IntStrength
+# (4) Convention of magnet excitation polarity, so that when I > 0 the strength
+#     of the magnet has the expected conventional sign.
+
+# STATIC DATA FILE FORMAT
+# =======================
+#
+# These static data files should comply with the following formatting rules:
+# 1. If the first alphanumeric character of the line is not the pound sign
+#    then the lines is a comment.
+# 2. If the first alphanumeric character is '#' then if
+#    a) it is followed by '[ <parameter> <value> ]' a parameter names <parameter>
+#       is define with value <value>. if the string <value> has spaces in it
+#       it is split as a list of strings.
+#     b) otherwise the line is ignored as a comment line.
