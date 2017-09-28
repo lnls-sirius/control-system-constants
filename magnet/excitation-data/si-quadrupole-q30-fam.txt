@@ -16,7 +16,7 @@
 # 2. multipoles from the analysis files above are calculated for half model and thus had to be multiplied by a factor of 2.
 # 3. multipole signs had to be changed here since the model of the fieldmap was excitated with opposite polarity.
 # 4. the excitation in the fieldmap simulation is due to both main and trim coils
-# 5. QFB magnet family uses this excitation data.
+# 5. QFB and QFP magnet families use this excitation data.
 
 # POLARITY TABLE
 # ==============
