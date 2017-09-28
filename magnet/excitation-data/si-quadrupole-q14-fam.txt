@@ -15,7 +15,7 @@
 # 1. data from @3Gev:   https://github.com/lnls-ima/si-quadrupoles-q14/blob/master/links-official/analysis.txt
 # 2. multipoles from the analysis files above are calculated for half model and thus had to be multiplied by a factor of 2.
 # 3. the excitation in the fieldmap simulation is due to both main and trim coils
-# 4. QDA, QDB1 and QDB2 magnet families use this excitation data.
+# 4. QDA, QDB1, QDB2, QDP1 and QDP2 magnet families use this excitation data.
 
 # POLARITY TABLE
 # ==============

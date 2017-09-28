@@ -8,15 +8,15 @@
   SI      QDA     10               quadrupole     si-quadrupole-q14
   SI      QDB1    20               quadrupole     si-quadrupole-q14
   SI      QDB2    20               quadrupole     si-quadrupole-q14
-  SI      QDP1    20               quadrupole     si-quadrupole-q14
-  SI      QDP2    20               quadrupole     si-quadrupole-q14
+  SI      QDP1    10               quadrupole     si-quadrupole-q14
+  SI      QDP2    10               quadrupole     si-quadrupole-q14
   SI      QFA     10               quadrupole     si-quadrupole-q20
   SI      Q1      40               quadrupole     si-quadrupole-q20
   SI      Q2      40               quadrupole     si-quadrupole-q20
   SI      Q3      40               quadrupole     si-quadrupole-q20
   SI      Q4      40               quadrupole     si-quadrupole-q20
   SI      QFB     20               quadrupole     si-quadrupole-q30
-  SI      QFP     20               quadrupole     si-quadrupole-q30
+  SI      QFP     10               quadrupole     si-quadrupole-q30
 
 # --- si sextupole families ---
 #
