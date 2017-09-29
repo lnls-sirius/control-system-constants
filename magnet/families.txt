@@ -23,9 +23,8 @@
 # system  family  number_magnets   magnet_type    magnet_model_name
 # -----------------------------------------------------------------
   SI      SFA0    10               sextupole      si-sextupole-s15
+  SI      SFA1    10               sextupole      si-sextupole-s15
   SI      SDA0    10               sextupole      si-sextupole-s15
   SI      SDA1    10               sextupole      si-sextupole-s15
-  SI      SFA1    10               sextupole      si-sextupole-s15
   SI      SDA2    10               sextupole      si-sextupole-s15
   SI      SDA3    10               sextupole      si-sextupole-s15
-  SI      SDA1    10               sextupole      si-sextupole-s15

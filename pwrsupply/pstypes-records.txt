@@ -9,7 +9,8 @@ si-dipole-b1b2-fam           Remote              On                  SlowRef    
 si-quadrupole-q14-fam        Remote              On                  SlowRef             None
 si-quadrupole-q20-fam        Remote              On                  SlowRef             None
 si-quadrupole-q30-fam        Remote              On                  SlowRef             None
-si-sextupole-s15-fam         Remote              On                  SlowRef             None
+si-sextupole-s15-sf-fam      Remote              On                  SlowRef             None
+si-sextupole-s15-sd-fam      Remote              On                  SlowRef             None
 bo-dipole-b-fam              Remote              On                  SlowRef             None
 bo-quadrupole-qd-fam         Remote              On                  SlowRef             None
 bo-quadrupole-qf-fam         Remote              On                  SlowRef             None
