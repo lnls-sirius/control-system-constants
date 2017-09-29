@@ -1,20 +1,19 @@
 # HEADER
 # ======
-# label           si-dipole-b1
-# harmonics       0 1 2 3 4 5 6
-# main_harmonic   0 normal
-# units           Ampere T*m T*m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3   T/m^4 T/m^4  T/m^5 T/m^5
+# label           si-sextupole-s15-sf-fam
+# harmonics       0 1 2 3 4 6 7 8 9 10 13 14
+# main_harmonic   2 normal
+# units           Ampere T*m T*m  T T  T/m^1 T/m^1  T/m^2 T/m^2  T/m^3 T/m^3  T/m^5 T/m^5  T/m^6 T/m^6  T/m^7 T/m^7  T/m^8 T/m^8  T/m^9 T/m^9  T/m^12 T/m^12  T/m^13 T/m^13
 
 # EXCITATION DATA
 # ===============
-+000.000  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
-+394.100	-4.8122e-01 +0.0000e+00  +6.4666e+00 +0.0000e+00  +2.5398e+00 +0.0000e+00  -3.0750e+01 +0.0000e+00  -2.2720e+02 +0.0000e+00  -4.1702e+04 +0.0000e+00  -8.9378e+05 +0.0000e+00
++000.000  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
++158.480  -1.3623e-06 -5.0276e-14  +0.0000e+00 -2.0002e-14  -3.6026e+02 +7.4036e-09  +0.0000e+00 +2.5470e-13  -8.5454e+02 -3.0132e-04  +1.7419e+07 +4.9574e+00  +0.0000e+00 -8.7590e-05  +1.1272e+11 -3.5410e+04  +0.0000e+00 +1.3875e+00  +0.0000e+00 +9.1398e+07  +0.0000e+00 -4.6590e+07  -4.9224e+22 +0.0000e+00
 
 # COMMENTS
 # ========
-# 1. data from @3Gev:   https://github.com/lnls-ima/si-dipoles-b1/blob/master/links-official/analysis.txt
+# 1. data from @3Gev:   https://github.com/lnls-ima/si-sextupoles-s15/blob/master/links-official-sx/analysis.txt
 # 2. multipoles from the analysis files above are calculated for half model and thus had to be multiplied by a factor of 2.
-# 3. this file and the file 'si-dipole-b2.txt' are combined into one excitation table
 
 # POLARITY TABLE
 # ==============

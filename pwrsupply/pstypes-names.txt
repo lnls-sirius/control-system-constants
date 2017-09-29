@@ -8,7 +8,8 @@ si-dipole-b1b2-fam           monopolar        dipole
 si-quadrupole-q14-fam        monopolar        quadrupole
 si-quadrupole-q20-fam        monopolar        quadrupole
 si-quadrupole-q30-fam        monopolar        quadrupole
-si-sextupole-s15-fam         monopolar        sextupole
+si-sextupole-s15-sf-fam      monopolar        sextupole
+si-sextupole-s15-sd-fam      monopolar        sextupole
 si-injdpk                    monopolar        corrector-horizontal
 si-injnlk                    monopolar        corrector-horizontal
 bo-dipole-b-fam              monopolar        dipole
