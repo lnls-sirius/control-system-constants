@@ -7,13 +7,14 @@
 
 # EXCITATION DATA
 # ===============
-+000.000  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
+-009.640  +0.0000e+00 -1.6812e-01  +0.0000e+00 +5.8374e-01  +0.0000e+00 -1.7684e+04  +0.0000e+00 +5.0468e+07  +0.0000e+00 -1.2078e+11
 +009.640  +0.0000e+00 +1.6812e-01  +0.0000e+00 -5.8374e-01  +0.0000e+00 +1.7684e+04  +0.0000e+00 -5.0468e+07  +0.0000e+00 +1.2078e+11
 
 # COMMENTS
 # ========
 # 1. data from @3GeV:   https://github.com/lnls-ima/bo-quadrupoles-qs/blob/master/links-official-3gev/analysis.txt
 # 2. multipoles from the analysis files above are calculated for half model and thus had to be multiplied by a factor of 2.
+# 3. multipoles for negative currents have been generated from corresponding positive currents, with sign reversed.
 
 # POLARITY TABLE
 # ==============
