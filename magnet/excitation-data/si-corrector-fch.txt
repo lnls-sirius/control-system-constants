@@ -7,14 +7,14 @@
 
 # EXCITATION DATA
 # ===============
--001.00  +3.1028e-04 +0.0000e+00  -9.6170e-01 +0.0000e+00  -3.0490e+10 +0.0000e+00
-+000.00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
-+001.00  -3.1028e-04 +0.0000e+00  +9.6170e-01 +0.0000e+00  +3.0490e+10 +0.0000e+00
+-001.000  -3.1028e-04 +0.0000e+00  +9.6170e-01 +0.0000e+00  +3.0490e+10 +0.0000e+00
++001.000  +3.1028e-04 +0.0000e+00  -9.6170e-01 +0.0000e+00  -3.0490e+10 +0.0000e+00
 
 # COMMENTS
 # ========
 # 1. data from https://github.com/lnls-ima/si-fast-correctors/blob/master/links-official-fch/analysis.txt
 # 2. multipoles from the analysis files above are calculated for half model and thus had to be multiplied by a factor of 2.
+# 3. myltipoles from file had to be inverted since model has opposite polarity.
 
 # POLARITY TABLE
 # ==============
