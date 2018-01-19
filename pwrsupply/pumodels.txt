@@ -1,0 +1,18 @@
+# Pulsed Power Supply to Model Mapping
+# ====================================
+
+TB-04:PM-InjS       FBP
+
+BO-01D:PM-InjK      FBP
+BO-48D:PM-EjeK      FBP
+
+TS-04:PM-InjSG-1    FBP
+TS-04:PM-InjSG-2    FBP
+TS-04:PM-InjSF      FBP
+TS-01:PM-EjeSG      FBP
+TS-01:PM-EjeSF      FBP
+
+SI-01SA:PM-InjDpK   FBP
+SI-01SA:PM-InjNLK   FBP
+SI-01SA:PM-HPing    FBP
+SI-19C4:PM-VPing    FBP
