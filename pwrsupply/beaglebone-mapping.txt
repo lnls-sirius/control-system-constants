@@ -31,7 +31,7 @@ BO-16:CO-BBB         BO-39U:PS-CH        BO-39U:PS-CV
 BO-17:CO-BBB         BO-41U:PS-CH        BO-41U:PS-CV        BO-43U:PS-CH        BO-43U:PS-CV
 BO-18:CO-BBB         BO-45U:PS-CH        BO-45U:PS-CV
 BO-19:CO-BBB         BO-47U:PS-CH        BO-47U:PS-CV
-BO-20:CO-BBB         BO-49U:PS-CH        BO-49U:PS-CV
+BO-20:CO-BBB         BO-49D:PS-CH        BO-49U:PS-CV
 
 # --- Sirius Dipoles
 
@@ -42,7 +42,7 @@ SI-Glob:CO-BBB-1     SI-Fam:PS-B1B2-1    SI-Fam:PS-B1B2-2
 SI-Glob:CO-BBB-2     SI-Fam:PS-QFA       SI-Fam:PS-QDA
 SI-Glob:CO-BBB-2     SI-Fam:PS-QFB       SI-Fam:PS-QDB1      SI-Fam:PS-QDB2
 SI-Glob:CO-BBB-2     SI-Fam:PS-QFP       SI-Fam:PS-QDP1      SI-Fam:PS-QDP2
-SI-Glob:CO-BBB-3     SI-Fam:PS-QB1       SI-Fam:PS-QB2
+# SI-Glob:CO-BBB-3     SI-Fam:PS-QB1      SI-Fam:PS-QB2
 SI-Glob:CO-BBB-3     SI-Fam:PS-Q1        SI-Fam:PS-Q2        SI-Fam:PS-Q3       SI-Fam:PS-Q4
 
 # --- Sirius Sextupole Families

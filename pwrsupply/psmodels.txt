@@ -63,6 +63,10 @@ BO-47U:PS-CV        FBP
 BO-49D:PS-CH        FBP
 BO-49U:PS-CV        FBP
 
+# -- Booster Quadrupole skew --
+
+BO-02D:PS-QS	    FBP
+
 # --- Sirius Dipoles
 
 SI-Fam:PS-B1B2-1    FBP
