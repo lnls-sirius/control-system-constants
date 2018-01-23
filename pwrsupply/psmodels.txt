@@ -966,7 +966,7 @@ TB-04:PS-CV-2       FBP
 
 # --- TS (Booster-Storage) Transport Line
 
-TS-Fam:PS-B
+TS-Fam:PS-B         FBP
 
 TS-01:PS-QF1A       FBP
 TS-01:PS-QF1B       FBP
