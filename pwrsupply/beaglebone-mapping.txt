@@ -31,21 +31,21 @@ SI-Glob:CO-BBB-1    SI-Fam:PS-B1B2-1    SI-Fam:PS-B1B2-2
 # --- Sirius Quadrupole Families
 
 SI-Glob:CO-BBB-2    SI-Fam:PS-QFA    SI-Fam:PS-QDA
-SI-Glob:CO-BBB-2    SI-Fam:PS-QFB    SI-Fam:PS-QDB1    SI-Fam:PS-QDB2
-SI-Glob:CO-BBB-2    SI-Fam:PS-QFP    SI-Fam:PS-QDP1    SI-Fam:PS-QDP2
+SI-Glob:CO-BBB-3    SI-Fam:PS-QFB    SI-Fam:PS-QDB1    SI-Fam:PS-QDB2
+SI-Glob:CO-BBB-4    SI-Fam:PS-QFP    SI-Fam:PS-QDP1    SI-Fam:PS-QDP2
 # SI-Glob:CO-BBB-3    SI-Fam:PS-QB1    SI-Fam:PS-QB2
-SI-Glob:CO-BBB-3    SI-Fam:PS-Q1    SI-Fam:PS-Q2    SI-Fam:PS-Q3    SI-Fam:PS-Q4
+SI-Glob:CO-BBB-5    SI-Fam:PS-Q1    SI-Fam:PS-Q2    SI-Fam:PS-Q3    SI-Fam:PS-Q4
 
 # --- Sirius Sextupole Families
 
-SI-Glob:CO-BBB-4    SI-Fam:PS-SDA0    SI-Fam:PS-SDB0    SI-Fam:PS-SDP0
-SI-Glob:CO-BBB-4    SI-Fam:PS-SFA0    SI-Fam:PS-SFB0    SI-Fam:PS-SFP0
-SI-Glob:CO-BBB-5    SI-Fam:PS-SDA1    SI-Fam:PS-SDA2    SI-Fam:PS-SDA3
-SI-Glob:CO-BBB-5    SI-Fam:PS-SDB1    SI-Fam:PS-SDB2    SI-Fam:PS-SDB3
-SI-Glob:CO-BBB-5    SI-Fam:PS-SDP1    SI-Fam:PS-SDP2    SI-Fam:PS-SDP3
-SI-Glob:CO-BBB-5    SI-Fam:PS-SFA1    SI-Fam:PS-SFA2
-SI-Glob:CO-BBB-5    SI-Fam:PS-SFB1    SI-Fam:PS-SFB2
-SI-Glob:CO-BBB-5    SI-Fam:PS-SFP1    SI-Fam:PS-SFP2
+SI-Glob:CO-BBB-6    SI-Fam:PS-SDA0    SI-Fam:PS-SDB0    SI-Fam:PS-SDP0
+SI-Glob:CO-BBB-7    SI-Fam:PS-SFA0    SI-Fam:PS-SFB0    SI-Fam:PS-SFP0
+SI-Glob:CO-BBB-8    SI-Fam:PS-SDA1    SI-Fam:PS-SDA2    SI-Fam:PS-SDA3
+SI-Glob:CO-BBB-9    SI-Fam:PS-SDB1    SI-Fam:PS-SDB2    SI-Fam:PS-SDB3
+SI-Glob:CO-BBB-10   SI-Fam:PS-SDP1    SI-Fam:PS-SDP2    SI-Fam:PS-SDP3
+SI-Glob:CO-BBB-11   SI-Fam:PS-SFA1    SI-Fam:PS-SFA2
+SI-Glob:CO-BBB-12   SI-Fam:PS-SFB1    SI-Fam:PS-SFB2
+SI-Glob:CO-BBB-13   SI-Fam:PS-SFP1    SI-Fam:PS-SFP2
 
 # --- Sirius Quadrupole Individual power supplies
 
