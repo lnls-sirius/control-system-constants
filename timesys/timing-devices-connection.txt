@@ -289,7 +289,7 @@ AS-05:TI-AFC:FMC2CH2              SI-05:CO-BBB-7:IN  # correctors
 AS-05:TI-AFC:FMC2CH3              SI-05:CO-BBB-8:IN  # correctors
 AS-05:TI-AFC:FMC2CH4              SI-05:CO-BBB-9:IN  # skew quad
 AS-05:TI-AFC:FMC2CH5              SI-05:CO-BBB-10:IN # skew quad
-AS-05:TI-AFC:FMC3CH1              BO-05:CO-BBB-1:IN  # BO correctors
+AS-05:TI-AFC:FMC3CH1              BO-05:CO-BBB:IN  # BO correctors
 
 ##AFC from Sector 06
 AS-06:TI-AFC:FMC1CH1              SI-06:CO-BBB-1:IN  # QFB, QDB1, QDB2
