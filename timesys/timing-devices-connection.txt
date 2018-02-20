@@ -13,6 +13,7 @@ AS-Glob:TI-FOUT-1:OUT2             AS-Glob:TI-EVR-3:UPLINK
 AS-Glob:TI-FOUT-1:OUT3             AS-Glob:TI-EVE-1:UPLINK
 AS-Glob:TI-FOUT-1:OUT4             AS-Glob:TI-EVE-2:UPLINK
 AS-Glob:TI-FOUT-1:OUT5             AS-Glob:TI-EVE-3:UPLINK
+AS-Glob:TI-FOUT-1:OUT6             AS-Glob:TI-EVR-4:UPLINK #FAKE
 
 AS-Glob:TI-FOUT-2:OUT0             AS-Glob:TI-EVR-4:UPLINK
 AS-Glob:TI-FOUT-2:OUT1             AS-Glob:TI-EVE-4:UPLINK
@@ -69,14 +70,27 @@ AS-Glob:TI-EVR-2:OTP01             AS-Glob:TI-SOE-2:IN
 AS-Glob:TI-EVR-2:OTP02             AS-Glob:TI-SOE-3:IN
 AS-Glob:TI-EVR-2:OTP03             AS-Glob:TI-SOE-4:IN
 
+#######
+# FAKE
 AS-Glob:TI-EVR-3:OTP00             SI-Glob:CO-BBB-1:IN  # SI Dipole families
 AS-Glob:TI-EVR-3:OTP01             SI-Glob:CO-BBB-2:IN  # SI straight section quadrupole families
 AS-Glob:TI-EVR-3:OTP02             SI-Glob:CO-BBB-3:IN  # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
 AS-Glob:TI-EVR-3:OTP03             SI-Glob:CO-BBB-4:IN  # SI straight section sextupole families
 AS-Glob:TI-EVR-3:OTP04             SI-Glob:CO-BBB-5:IN  # SI arc sextupole families
-AS-Glob:TI-EVR-3:OTP05             BO-Glob:CO-BBB-1:IN  # BO Dipole Families
-AS-Glob:TI-EVR-3:OTP06             BO-Glob:CO-BBB-2:IN  # BO Quadrupoles
-AS-Glob:TI-EVR-3:OTP07             BO-Glob:CO-BBB-3:IN  # BO Sextupoles
+AS-Glob:TI-EVR-3:OTP05             SI-Glob:CO-BBB-6:IN  # SI Dipole families
+AS-Glob:TI-EVR-3:OTP06             SI-Glob:CO-BBB-7:IN  # SI straight section quadrupole families
+AS-Glob:TI-EVR-3:OTP07             SI-Glob:CO-BBB-8:IN  # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
+
+AS-Glob:TI-EVR-4:OTP00             SI-Glob:CO-BBB-9:IN  # SI Dipole families
+AS-Glob:TI-EVR-4:OTP01             SI-Glob:CO-BBB-10:IN  # SI straight section quadrupole families
+AS-Glob:TI-EVR-4:OTP02             SI-Glob:CO-BBB-11:IN  # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
+AS-Glob:TI-EVR-4:OTP03             SI-Glob:CO-BBB-12:IN  # SI straight section sextupole families
+AS-Glob:TI-EVR-4:OTP04             SI-Glob:CO-BBB-13:IN  # SI arc sextupole families
+AS-Glob:TI-EVR-4:OTP05             BO-Glob:CO-BBB-1:IN  # BO Dipole Families
+AS-Glob:TI-EVR-4:OTP06             BO-Glob:CO-BBB-2:IN  # BO Quadrupoles
+AS-Glob:TI-EVR-4:OTP07             BO-Glob:CO-BBB-3:IN  # BO Sextupoles
+########
+
 
 AS-Glob:TI-EVR-4:OUT0              AS-Glob:TI-MOE-1:INRX
 AS-Glob:TI-EVR-4:OUT1              AS-Glob:TI-MOE-4:INRX
