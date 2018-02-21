@@ -376,7 +376,7 @@ HL_TRIGGS = {
         'BO-41U:PS-CH:RSIO', 'BO-41U:PS-CV:RSIO', 'BO-43U:PS-CH:RSIO',
         'BO-43U:PS-CV:RSIO', 'BO-45U:PS-CH:RSIO', 'BO-45U:PS-CV:RSIO',
         'BO-47U:PS-CH:RSIO', 'BO-47U:PS-CV:RSIO', 'BO-49U:PS-CH:RSIO',
-        'BO-49U:PS-CV:RSIO',
+        'BO-49D:PS-CV:RSIO',
         'BO-02D:PS-QS:RSIO',
         ),
     },
