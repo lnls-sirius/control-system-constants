@@ -379,7 +379,7 @@ HL_TRIGGS = {
       'Intlk': {'value': 0},
       },
     'channels': (
-        'BO-Fam:PS-B-1:RSIO', 'BO-Fam:PS-B-2:RSIO',
+        # 'BO-Fam:PS-B-1:RSIO', 'BO-Fam:PS-B-2:RSIO',
         'BO-Fam:PS-QF:RSIO', 'BO-Fam:PS-QD:RSIO',
         'BO-Fam:PS-SF:RSIO', 'BO-Fam:PS-SD:RSIO',
         'BO-01U:PS-CH:RSIO', 'BO-01U:PS-CV:RSIO', 'BO-03U:PS-CH:RSIO',
