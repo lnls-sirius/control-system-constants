@@ -2,18 +2,19 @@
 
 HL_TRIGGS = {
  'SI-Glob:TI-Corrs:': {
-    'hl_props': {'EVGParam', 'State', 'Pulses', 'Duration'},
+    'hl_props': {'Src', 'State', 'Pulses', 'Duration'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('MigSI', 'Orbit', 'Study'),
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0},
-      'Pulses': {'value': 2000},
+      'Pulses': {'value': 4000},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-01M1:PS-CH:RSIO', 'SI-01M1:PS-CV:RSIO', 'SI-01M2:PS-CH:RSIO',
@@ -119,18 +120,19 @@ HL_TRIGGS = {
         ),
     },
  'SI-Glob:TI-Quads:': {
-    'hl_props': {'EVGParam', 'State', 'Pulses', 'Duration'},
+    'hl_props': {'Src', 'State', 'Pulses', 'Duration'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('MigSI', 'Tunes', 'Study'),
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0},
-      'Pulses': {'value': 2000},
+      'Pulses': {'value': 4000},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-Fam:PS-QFA:RSIO', 'SI-Fam:PS-QDA:RSIO', 'SI-Fam:PS-QFB:RSIO',
@@ -239,18 +241,19 @@ HL_TRIGGS = {
         ),
     },
  'SI-Glob:TI-Skews:': {
-    'hl_props': {'EVGParam', 'State', 'Pulses', 'Duration'},
+    'hl_props': {'Src', 'State', 'Pulses', 'Duration'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('MigSI', 'Coupl', 'Study'),
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0},
-      'Pulses': {'value': 2000},
+      'Pulses': {'value': 4000},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-01M1:PS-QS:RSIO', 'SI-01M2:PS-QS:RSIO', 'SI-01C1:PS-QS:RSIO',
@@ -296,36 +299,38 @@ HL_TRIGGS = {
         ),
     },
  'SI-Glob:TI-Dips:': {
-    'hl_props': {'EVGParam', 'State', 'Pulses', 'Duration'},
+    'hl_props': {'Src', 'State', 'Pulses', 'Duration'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('MigSI', 'Study'),
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0},
-      'Pulses': {'value': 2000},
+      'Pulses': {'value': 4000},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-Fam:PS-B1B2-1:RSIO', 'SI-Fam:PS-B1B2-2:RSIO',
         ),
     },
  'SI-Glob:TI-Sexts:': {
-    'hl_props': {'EVGParam', 'State', 'Pulses', 'Duration'},
+    'hl_props': {'Src', 'State', 'Pulses', 'Duration'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('MigSI', 'Study'),
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0},
-      'Pulses': {'value': 2000},
+      'Pulses': {'value': 4000},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-Fam:PS-SFA0:RSIO', 'SI-Fam:PS-SFA1:RSIO', 'SI-Fam:PS-SFA2:RSIO',
@@ -339,19 +344,39 @@ HL_TRIGGS = {
         'SI-Fam:PS-SDP3:RSIO',
         ),
     },
- 'BO-Glob:TI-Mags:': {
-    'hl_props': {'State', 'Duration', 'EVGParam'},
+ 'BO-Glob:TI-Dip:': {
+    'hl_props': {'State', 'Pulses', 'Duration', 'Src'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('RmpBO', 'Study'),
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0},
-      'Pulses': {'value': 2000},
+      'Pulses': {'value': 4000},
       'Duration': {'value': 490},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
+      },
+    'channels': (
+        'BO-Fam:PS-B-1:RSIO', 'BO-Fam:PS-B-2:RSIO',
+        ),
+    },
+ 'BO-Glob:TI-Mags:': {
+    'hl_props': {'State', 'Pulses', 'Duration', 'Src'},
+    'pvs_config': {
+      'Src': {
+        'value': 0,
+        'enums': ('RmpBO', 'Study'),
+        },
+      'Delay': {'value': 0.0},
+      'DelayType': {'value': 0},
+      'Pulses': {'value': 4000},
+      'Duration': {'value': 490},
+      'State': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'BO-Fam:PS-B-1:RSIO', 'BO-Fam:PS-B-2:RSIO',
@@ -381,27 +406,28 @@ HL_TRIGGS = {
         ),
     },
  'LI-01:TI-EGun:MultBun': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'State': {'value': 0},
+      'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
+      'Duration': {'value': 150},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
+      'Pulses': {'value': 1},
       'Delay': {'value': 0.0},
       'DelayType': {'value': 1},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
-      'State': {'value': 0},
-      'Polrty': {'value': 0},
       },
     'channels': (
         'LI-01:EGun-AmpMB:IN',
         ),
     },
  'LI-01:TI-EGun:SglBun': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
@@ -410,16 +436,17 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'LI-01:EGun-AmpSB:IN',
         ),
     },
  'LI-01:TI-Modltr-1:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
@@ -428,16 +455,17 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'LI-01:RF-Modltr-1:IN',
         ),
     },
  'LI-01:TI-Modltr-2:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
@@ -446,16 +474,17 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'LI-01:RF-Modltr-2:IN',
         ),
     },
  'LI-Glob:TI-SHAmp:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
@@ -464,16 +493,17 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'LI-01:RF-AmpLF:IN',
         ),
     },
  'LI-Glob:TI-RFAmp-1:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
@@ -482,16 +512,17 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'LI-01:RF-AmpHF-1:IN',
         ),
     },
  'LI-Glob:TI-RFAmp-2:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
@@ -500,16 +531,17 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'LI-01:RF-AmpHF-2:IN',
         ),
     },
  'LI-Glob:TI-LLRF-1:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
@@ -518,16 +550,17 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'LI-01:RF-LLRF-1:IN',
         ),
     },
  'LI-Glob:TI-LLRF-2:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
@@ -536,16 +569,17 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'LI-01:RF-LLRF-2:IN',
         ),
     },
  'LI-Glob:TI-LLRF-3:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
@@ -554,16 +588,17 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'LI-01:RF-LLRF-3:IN',
         ),
     },
  'TB-04:TI-InjS:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('InjBO', 'Study'),
         },
@@ -572,16 +607,17 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'TB-04:PU-InjS:IN',
         ),
     },
  'BO-01D:TI-InjK:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('InjBO', 'Study'),
         },
@@ -590,34 +626,36 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'BO-01D:PU-InjK:IN',
         ),
     },
  'BO-05D:TI-P5Cav:': {
-    'hl_props': {'EVGParam', 'State', 'Duration'},
+    'hl_props': {'Src', 'State', 'Duration'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('InjBO', 'RmpBO', 'Study'),
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0},
-      'Pulses': {'value': 2000},
+      'Pulses': {'value': 4000},
       'Duration': {'value': 490},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'BO-Glob:RF-LLRF:IN',
         ),
     },
  'BO-48D:TI-EjeK:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('InjSI', 'Study'),
         },
@@ -626,16 +664,17 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'BO-48D:PU-EjeK:IN',
         ),
     },
  'TS-Fam:TI-EjeS:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('InjSI', 'Study'),
         },
@@ -644,16 +683,17 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'TS-01:PU-EjeSF:IN', 'TS-01:PU-EjeSG:IN',
         ),
     },
  'TS-Fam:TI-InjSG:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('InjSI', 'Study'),
         },
@@ -662,16 +702,17 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'TS-04:PU-InjSG-1:IN', 'TS-04:PU-InjSG-1:IN',
         ),
     },
  'TS-04:TI-InjSF:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('InjSI', 'Study'),
         },
@@ -680,16 +721,17 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'TS-04:PU-InjSF:IN',
         ),
     },
  'SI-01SA:TI-InjK:': {
-    'hl_props': {'State', 'EVGParam', 'Delay'},
+    'hl_props': {'State', 'Src', 'Delay'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('InjSI', 'Study'),
         },
@@ -698,17 +740,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-01SA:PU-InjK:IN',
         ),
     },
  'LI-Fam:TI-BPM:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigLI', 'Study'),
         },
@@ -717,17 +760,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'LI-Fam:DI-BPM:IN',
         ),
     },
  'LI-Fam:TI-Scrn:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigLI', 'Study'),
         },
@@ -736,17 +780,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'LI-Fam:DI-Scrn:IN',
         ),
     },
  'LI-01:TI-ICT-1:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigLI', 'Study'),
         },
@@ -755,17 +800,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'LI-01:DI-ICT-1:IN',
         ),
     },
  'LI-01:TI-ICT-2:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigLI', 'Study'),
         },
@@ -774,17 +820,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'LI-01:DI-ICT-2:IN',
         ),
     },
  'TB-Fam:TI-BPM:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigTB', 'Study'),
         },
@@ -793,7 +840,8 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'TB-01:DI-BPM-1:CRT7', 'TB-01:DI-BPM-2:CRT7',
@@ -802,10 +850,10 @@ HL_TRIGGS = {
         ),
     },
  'TB-Fam:TI-Scrn:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigTB', 'Study'),
         },
@@ -814,7 +862,8 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'TB-01:DI-Scrn-1:IN', 'TB-01:DI-Scrn-2:IN', 'TB-02:DI-Scrn-1:IN',
@@ -822,10 +871,10 @@ HL_TRIGGS = {
         ),
     },
  'TB-02:TI-ICT:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigTB', 'Study'),
         },
@@ -834,17 +883,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'TB-02:DI-ICTBMC:IN', 'TB-02:DI-ICTMult:IN',
         ),
     },
  'TB-04:TI-ICT:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigTB', 'Study'),
         },
@@ -853,17 +903,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'TB-04:DI-ICTBMC:IN', 'TB-04:DI-ICTMult:IN',
         ),
     },
  'TB-04:TI-FCT:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigTB', 'Study'),
         },
@@ -872,17 +923,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'TB-04:DI-FCT:IN',
         ),
     },
  'BO-Fam:TI-BPM:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigBO', 'Study'),
         },
@@ -891,7 +943,8 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'BO-01U:DI-BPM:CRT7', 'BO-02U:DI-BPM:CRT7',
@@ -922,10 +975,10 @@ HL_TRIGGS = {
         ),
     },
  'BO-Fam:TI-Scrn:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigBO', 'Study'),
         },
@@ -934,7 +987,8 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'BO-01D:DI-Scrn-1:IN', 'BO-01D:DI-Scrn-2:IN',
@@ -942,10 +996,10 @@ HL_TRIGGS = {
         ),
     },
  'BO-04U:TI-GSL:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigBO', 'Study'),
         },
@@ -954,17 +1008,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'BO-04U:DI-GSL:IN',
         ),
     },
  'BO-02D:TI-TuneS:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigBO', 'Study'),
         },
@@ -973,17 +1028,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'BO-02D:DI-TuneS:IN',
         ),
     },
  'BO-04D:TI-TuneP:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigBO', 'Study'),
         },
@@ -992,17 +1048,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'BO-04D:DI-TuneP:IN',
         ),
     },
  'BO-35D:TI-DCCT:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigBO', 'Study'),
         },
@@ -1011,17 +1068,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'BO-35D:DI-NPCT:IN',
         ),
     },
  'TS-Fam:TI-BPM:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigTS', 'Study'),
         },
@@ -1030,7 +1088,8 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'TS-01:DI-BPM:CRT6', 'TS-02:DI-BPM:CRT6',  'TS-03:DI-BPM:CRT6',
@@ -1038,10 +1097,10 @@ HL_TRIGGS = {
         ),
     },
  'TS-Fam:TI-Scrn:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigTS', 'Study'),
         },
@@ -1050,7 +1109,8 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'TS-01:DI-Scrn:IN', 'TS-02:DI-Scrn:IN',  'TS-03:DI-Scrn:IN',
@@ -1058,10 +1118,10 @@ HL_TRIGGS = {
         ),
     },
  'TS-01:TI-ICT:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigTS', 'Study'),
         },
@@ -1070,17 +1130,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'TS-01:DI-ICTBMC:IN', 'TS-01:DI-ICTMult:IN',
         ),
     },
  'TS-04:TI-ICT:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigTS', 'Study'),
         },
@@ -1089,17 +1150,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'TS-04:DI-ICTBMC:IN', 'TS-04:DI-ICTMult:IN',
         ),
     },
  'TS-04:TI-FCT:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigTS', 'Study'),
         },
@@ -1108,17 +1170,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'TS-04:DI-FCT:IN',
         ),
     },
  'SI-19SP:TI-GSL15:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
@@ -1127,17 +1190,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-19SP:DI-GSL15:IN',
         ),
     },
  'SI-20SB:TI-GSL07:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
@@ -1146,17 +1210,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-20SB:DI-GSL07:IN',
         ),
     },
  'SI-13C4:TI-DCCT:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
@@ -1165,17 +1230,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-13C4:DI-NPCT:IN',
         ),
     },
  'SI-14C4:TI-DCCT:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
@@ -1184,17 +1250,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-14C4:DI-NPCT:IN',
         ),
     },
  'SI-01SA:TI-HTuneS:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
@@ -1203,17 +1270,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-01SA:DI-HTuneS:IN',
         ),
     },
  'SI-17SA:TI-HTuneP:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
@@ -1222,17 +1290,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-17SA:DI-HTuneP:IN',
         ),
     },
  'SI-18C4:TI-VTuneS:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
@@ -1241,17 +1310,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-18C4:DI-VTuneS:IN',
         ),
     },
  'SI-17C4:TI-VTuneP:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
@@ -1260,17 +1330,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-17C4:DI-VTuneP:IN',
         ),
     },
  'SI-19C4:TI-VPing:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
@@ -1279,17 +1350,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-19C4:PU-VPing:IN',
         ),
     },
  'SI-01SA:TI-HPing:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
@@ -1298,17 +1370,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-01SA:PU-HPing:IN',
         ),
     },
  'SI-16C4:TI-GBPM:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
@@ -1317,17 +1390,18 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-16C4:DI-GBPM:CRT5',
         ),
     },
  'SI-Fam:TI-BPM:': {
-    'hl_props': {'EVGParam', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polrty'},
+    'hl_props': {'Src', 'Delay', 'Pulses',
+                 'Duration', 'State', 'Polarity'},
     'pvs_config': {
-      'EVGParam': {
+      'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
@@ -1336,7 +1410,8 @@ HL_TRIGGS = {
       'Pulses': {'value': 1},
       'Duration': {'value': 150},
       'State': {'value': 0},
-      'Polrty': {'value': 0},
+      'Polarity': {'value': 0},
+      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-01M1:DI-BPM:CRT6', 'SI-01M2:DI-BPM:CRT6',
