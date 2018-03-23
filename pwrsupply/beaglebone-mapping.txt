@@ -10,13 +10,8 @@ BO-Glob:CO-BBB-3    BO-Fam:PS-SD    BO-Fam:PS-SF
 
 # --- Booster correctors
 
-# (temporary for PS tests)
-# BO-01:CO-BBB-1      BO-01U:PS-CH    BO-01U:PS-CV    BO-02D:PS-QS
-BO-01:CO-BBB-1      BO-02D:PS-QS
-
-# (temporary for PS tests)
-# BO-01:CO-BBB-2      BO-03U:PS-CH    BO-03U:PS-CV    BO-05U:PS-CH    BO-05U:PS-CV
-BO-01:CO-BBB-2      BO-05U:PS-CH    BO-05U:PS-CV
+BO-01:CO-BBB-1      BO-01U:PS-CH    BO-01U:PS-CV    BO-02D:PS-QS
+BO-01:CO-BBB-2      BO-03U:PS-CH    BO-03U:PS-CV    BO-05U:PS-CH    BO-05U:PS-CV
 
 BO-03:CO-BBB        BO-07U:PS-CH    BO-07U:PS-CV    BO-09U:PS-CH    BO-09U:PS-CV
 BO-05:CO-BBB        BO-11U:PS-CH    BO-11U:PS-CV    BO-13U:PS-CH    BO-13U:PS-CV
@@ -331,7 +326,3 @@ TS-Glob:CO-BBB-3    TS-01:PS-CV-1  TS-01:PS-CH    TS-01:PS-CV-2  TS-02:PS-CH
 TS-Glob:CO-BBB-4    TS-02:PS-CV    TS-03:PS-CH    TS-03:PS-CV    TS-04:PS-CV-1
 TS-Glob:CO-BBB-5    TS-04:PS-CH    TS-04:PS-CV-2
 
-# --- Test BBB (should eventually be erased) ---
-
-BO-Glob:CO-BBB-T1   BO-01U:PS-CH   BO-01U:PS-CV
-BO-Glob:CO-BBB-T2   BO-03U:PS-CH   BO-03U:PS-CV
