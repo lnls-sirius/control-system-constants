@@ -2,18 +2,23 @@
 
 HL_TRIGGS = {
  'SI-Glob:TI-Corrs:': {
-    'hl_props': {'Src', 'State', 'Pulses', 'Duration'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('MigSI', 'Orbit', 'Study'),
         },
-      'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 4000},
+      'Delay': {
+        'value': 0.0,
+        'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 4000,
+        'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
       'Intlk': {'value': 0},
       },
     'channels': (
@@ -120,18 +125,23 @@ HL_TRIGGS = {
         ),
     },
  'SI-Glob:TI-Quads:': {
-    'hl_props': {'Src', 'State', 'Pulses', 'Duration'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('MigSI', 'Tunes', 'Study'),
         },
-      'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 4000},
+      'Delay': {
+        'value': 0.0,
+        'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 4000,
+        'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
       'Intlk': {'value': 0},
       },
     'channels': (
@@ -241,18 +251,23 @@ HL_TRIGGS = {
         ),
     },
  'SI-Glob:TI-Skews:': {
-    'hl_props': {'Src', 'State', 'Pulses', 'Duration'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('MigSI', 'Coupl', 'Study'),
         },
-      'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 4000},
+      'Delay': {
+        'value': 0.0,
+        'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 4000,
+        'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
       'Intlk': {'value': 0},
       },
     'channels': (
@@ -299,18 +314,23 @@ HL_TRIGGS = {
         ),
     },
  'SI-Glob:TI-Dips:': {
-    'hl_props': {'Src', 'State', 'Pulses', 'Duration'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('MigSI', 'Study'),
         },
-      'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 4000},
+      'Delay': {
+        'value': 0.0,
+        'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 4000,
+        'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
       'Intlk': {'value': 0},
       },
     'channels': (
@@ -318,18 +338,23 @@ HL_TRIGGS = {
         ),
     },
  'SI-Glob:TI-Sexts:': {
-    'hl_props': {'Src', 'State', 'Pulses', 'Duration'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('MigSI', 'Study'),
         },
-      'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 4000},
+      'Delay': {
+        'value': 0.0,
+        'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 4000,
+        'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
       'Intlk': {'value': 0},
       },
     'channels': (
@@ -345,18 +370,26 @@ HL_TRIGGS = {
         ),
     },
  'BO-Glob:TI-Dip:': {
-    'hl_props': {'State', 'Pulses', 'Duration', 'Src'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('RmpBO', 'Study'),
         },
-      'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 4000},
-      'Duration': {'value': 490},
+      'Delay': {
+        'value': 0.0,
+        'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 4000,
+        'hilim': 4001, 'high': 4001, 'hihi': 4001},
+      'Duration': {
+        'value': 490,
+        'lolim': 485, 'low': 485, 'lolo': 480,
+        'hilim': 495, 'high': 495, 'hihi': 500},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
       'Intlk': {'value': 0},
       },
     'channels': (
@@ -364,18 +397,26 @@ HL_TRIGGS = {
         ),
     },
  'BO-Glob:TI-Mags:': {
-    'hl_props': {'State', 'Pulses', 'Duration', 'Src'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('RmpBO', 'Study'),
         },
-      'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 4000},
-      'Duration': {'value': 490},
+      'Delay': {
+        'value': 0.0,
+        'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 4000,
+        'hilim': 4001, 'high': 4001, 'hihi': 4001},
+      'Duration': {
+        'value': 490,
+        'lolim': 485, 'low': 485, 'lolo': 480,
+        'hilim': 495, 'high': 495, 'hihi': 500},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
       'Intlk': {'value': 0},
       },
     'channels': (
@@ -406,442 +447,575 @@ HL_TRIGGS = {
         ),
     },
  'LI-01:TI-EGun:MultBun': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
-      'State': {'value': 0},
       'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
-      'Duration': {'value': 150},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
-      'Pulses': {'value': 1},
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 1},
+      'DelayType': {'value': 1, 'states': (1, 0)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+      'State': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:EGun-AmpMB:IN',
         ),
     },
  'LI-01:TI-EGun:SglBun': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 1},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 1, 'states': (1, 0)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:EGun-AmpSB:IN',
         ),
     },
  'LI-01:TI-Modltr-1:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-Modltr-1:IN',
         ),
     },
  'LI-01:TI-Modltr-2:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-Modltr-2:IN',
         ),
     },
  'LI-Glob:TI-SHAmp:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-AmpLF:IN',
         ),
     },
  'LI-Glob:TI-RFAmp-1:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-AmpHF-1:IN',
         ),
     },
  'LI-Glob:TI-RFAmp-2:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-AmpHF-2:IN',
         ),
     },
  'LI-Glob:TI-LLRF-1:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-LLRF-1:IN',
         ),
     },
  'LI-Glob:TI-LLRF-2:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-LLRF-2:IN',
         ),
     },
  'LI-Glob:TI-LLRF-3:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('Linac', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-LLRF-3:IN',
         ),
     },
  'TB-04:TI-InjS:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('InjBO', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TB-04:PU-InjS:IN',
         ),
     },
  'BO-01D:TI-InjK:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('InjBO', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-01D:PU-InjK:IN',
         ),
     },
  'BO-05D:TI-P5Cav:': {
-    'hl_props': {'Src', 'State', 'Duration'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('InjBO', 'RmpBO', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 4000},
-      'Duration': {'value': 490},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-Glob:RF-LLRF:IN',
         ),
     },
  'BO-48D:TI-EjeK:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('InjSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-48D:PU-EjeK:IN',
         ),
     },
  'TS-Fam:TI-EjeS:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('InjSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-01:PU-EjeSF:IN', 'TS-01:PU-EjeSG:IN',
         ),
     },
  'TS-Fam:TI-InjSG:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('InjSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-04:PU-InjSG-1:IN', 'TS-04:PU-InjSG-1:IN',
         ),
     },
  'TS-04:TI-InjSF:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('InjSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-04:PU-InjSF:IN',
         ),
     },
  'SI-01SA:TI-InjK:': {
-    'hl_props': {'State', 'Src', 'Delay'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('InjSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-01SA:PU-InjK:IN',
         ),
     },
  'LI-Fam:TI-BPM:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigLI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-Fam:DI-BPM:IN',
         ),
     },
  'LI-Fam:TI-Scrn:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigLI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-Fam:DI-Scrn:IN',
         ),
     },
  'LI-01:TI-ICT-1:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigLI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:DI-ICT-1:IN',
         ),
     },
  'LI-01:TI-ICT-2:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigLI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:DI-ICT-2:IN',
         ),
     },
  'TB-Fam:TI-BPM:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigTB', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TB-01:DI-BPM-1:CRT7', 'TB-01:DI-BPM-2:CRT7',
@@ -850,20 +1024,25 @@ HL_TRIGGS = {
         ),
     },
  'TB-Fam:TI-Scrn:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigTB', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TB-01:DI-Scrn-1:IN', 'TB-01:DI-Scrn-2:IN', 'TB-02:DI-Scrn-1:IN',
@@ -871,80 +1050,100 @@ HL_TRIGGS = {
         ),
     },
  'TB-02:TI-ICT:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigTB', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TB-02:DI-ICTBMC:IN', 'TB-02:DI-ICTMult:IN',
         ),
     },
  'TB-04:TI-ICT:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigTB', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TB-04:DI-ICTBMC:IN', 'TB-04:DI-ICTMult:IN',
         ),
     },
  'TB-04:TI-FCT:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigTB', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TB-04:DI-FCT:IN',
         ),
     },
  'BO-Fam:TI-BPM:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigBO', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-01U:DI-BPM:CRT7', 'BO-02U:DI-BPM:CRT7',
@@ -975,20 +1174,25 @@ HL_TRIGGS = {
         ),
     },
  'BO-Fam:TI-Scrn:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigBO', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-01D:DI-Scrn-1:IN', 'BO-01D:DI-Scrn-2:IN',
@@ -996,100 +1200,125 @@ HL_TRIGGS = {
         ),
     },
  'BO-04U:TI-GSL:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigBO', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-04U:DI-GSL:IN',
         ),
     },
  'BO-02D:TI-TuneS:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigBO', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-02D:DI-TuneS:IN',
         ),
     },
  'BO-04D:TI-TuneP:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigBO', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-04D:DI-TuneP:IN',
         ),
     },
  'BO-35D:TI-DCCT:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigBO', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-35D:DI-NPCT:IN',
         ),
     },
  'TS-Fam:TI-BPM:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigTS', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-01:DI-BPM:CRT6', 'TS-02:DI-BPM:CRT6',  'TS-03:DI-BPM:CRT6',
@@ -1097,20 +1326,25 @@ HL_TRIGGS = {
         ),
     },
  'TS-Fam:TI-Scrn:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigTS', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-01:DI-Scrn:IN', 'TS-02:DI-Scrn:IN',  'TS-03:DI-Scrn:IN',
@@ -1118,300 +1352,375 @@ HL_TRIGGS = {
         ),
     },
  'TS-01:TI-ICT:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigTS', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-01:DI-ICTBMC:IN', 'TS-01:DI-ICTMult:IN',
         ),
     },
  'TS-04:TI-ICT:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigTS', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-04:DI-ICTBMC:IN', 'TS-04:DI-ICTMult:IN',
         ),
     },
  'TS-04:TI-FCT:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigTS', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-04:DI-FCT:IN',
         ),
     },
  'SI-19SP:TI-GSL15:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-19SP:DI-GSL15:IN',
         ),
     },
  'SI-20SB:TI-GSL07:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-20SB:DI-GSL07:IN',
         ),
     },
  'SI-13C4:TI-DCCT:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-13C4:DI-NPCT:IN',
         ),
     },
  'SI-14C4:TI-DCCT:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 2, 'high': 2, 'hihi': 2},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-14C4:DI-NPCT:IN',
         ),
     },
  'SI-01SA:TI-HTuneS:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-01SA:DI-HTuneS:IN',
         ),
     },
  'SI-17SA:TI-HTuneP:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-17SA:DI-HTuneP:IN',
         ),
     },
  'SI-18C4:TI-VTuneS:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-18C4:DI-VTuneS:IN',
         ),
     },
  'SI-17C4:TI-VTuneP:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-17C4:DI-VTuneP:IN',
         ),
     },
  'SI-19C4:TI-VPing:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-19C4:PU-VPing:IN',
         ),
     },
  'SI-01SA:TI-HPing:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-01SA:PU-HPing:IN',
         ),
     },
  'SI-16C4:TI-GBPM:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-16C4:DI-GBPM:CRT5',
         ),
     },
  'SI-Fam:TI-BPM:': {
-    'hl_props': {'Src', 'Delay', 'Pulses',
-                 'Duration', 'State', 'Polarity'},
+    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
+                 'Polarity', 'Intlk'},
     'pvs_config': {
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
         },
       'Delay': {'value': 0.0},
-      'DelayType': {'value': 0},
-      'Pulses': {'value': 1},
-      'Duration': {'value': 150},
+      'DelayType': {'value': 0, 'states': (0, 1)},
+      'Pulses': {
+        'value': 1,
+        'hilim': 30, 'high': 30, 'hihi': 30},
+      'Duration': {
+        'value': 0.15,
+        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Polarity': {'value': 0},
-      'Intlk': {'value': 0},
+      'Polarity': {'value': 1, 'states': (1, 0)},
+      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-01M1:DI-BPM:CRT6', 'SI-01M2:DI-BPM:CRT6',
