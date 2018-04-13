@@ -1428,15 +1428,8 @@ HL_TRIGGS = {
         'SI-14C4:DI-NPCT:IN',
         ),
     },
-<<<<<<< HEAD
  'SI-01SA:TI-TuneShkrH:': {
-    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
-                 'Polarity', 'Intlk'},
-    'pvs_config': {
-=======
- 'SI-01SA:TI-HTuneS:': {
     'database': {
->>>>>>> b2f3713aa0a04608cc2ded19e69b01dacd60e8c0
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
@@ -1458,15 +1451,8 @@ HL_TRIGGS = {
         'SI-01SA:DI-TuneShkrH:IN',
         ),
     },
-<<<<<<< HEAD
  'SI-17SA:TI-TunePkupH:': {
-    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
-                 'Polarity', 'Intlk'},
-    'pvs_config': {
-=======
- 'SI-17SA:TI-HTuneP:': {
     'database': {
->>>>>>> b2f3713aa0a04608cc2ded19e69b01dacd60e8c0
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
@@ -1488,15 +1474,8 @@ HL_TRIGGS = {
         'SI-17SA:DI-TunePkupH:IN',
         ),
     },
-<<<<<<< HEAD
  'SI-18C4:TI-TuneShkrV:': {
-    'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
-                 'Polarity', 'Intlk'},
-    'pvs_config': {
-=======
- 'SI-18C4:TI-VTuneS:': {
     'database': {
->>>>>>> b2f3713aa0a04608cc2ded19e69b01dacd60e8c0
       'Src': {
         'value': 0,
         'enums': ('DigSI', 'Study'),
