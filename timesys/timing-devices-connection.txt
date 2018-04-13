@@ -143,10 +143,10 @@ AS-Glob:TI-EVE-3:OUT4                BO-02D:DI-TuneS:IN
 AS-Glob:TI-EVE-3:OUT5                BO-04D:DI-TuneP:IN
 AS-Glob:TI-EVE-3:OUT6                SI-19SP:DI-GSL15:IN
 AS-Glob:TI-EVE-6:OUT3                SI-20SB:DI-GSL07:IN
-AS-Glob:TI-EVE-6:OUT4                SI-01SA:DI-HTuneS:IN
-AS-Glob:TI-EVE-6:OUT5                SI-17SA:DI-HTuneP:IN
-AS-Glob:TI-EVE-6:OUT6                SI-18C4:DI-VTuneS:IN
-AS-Glob:TI-EVE-6:OUT7                SI-17C4:DI-VTuneP:IN
+AS-Glob:TI-EVE-6:OUT4                SI-01SA:DI-TuneShkrH:IN
+AS-Glob:TI-EVE-6:OUT5                SI-17SA:DI-TunePkupH:IN
+AS-Glob:TI-EVE-6:OUT6                SI-18C4:DI-TuneShkrV:IN
+AS-Glob:TI-EVE-6:OUT7                SI-17C4:DI-TunePkupV:IN
 ######
 
 

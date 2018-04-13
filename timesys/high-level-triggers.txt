@@ -1526,7 +1526,7 @@ HL_TRIGGS = {
         'SI-14C4:DI-NPCT:IN',
         ),
     },
- 'SI-01SA:TI-HTuneS:': {
+ 'SI-01SA:TI-TuneShkrH:': {
     'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
                  'Polarity', 'Intlk'},
     'pvs_config': {
@@ -1548,10 +1548,10 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'SI-01SA:DI-HTuneS:IN',
+        'SI-01SA:DI-TuneShkrH:IN',
         ),
     },
- 'SI-17SA:TI-HTuneP:': {
+ 'SI-17SA:TI-TunePkupH:': {
     'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
                  'Polarity', 'Intlk'},
     'pvs_config': {
@@ -1573,10 +1573,10 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'SI-17SA:DI-HTuneP:IN',
+        'SI-17SA:DI-TunePkupH:IN',
         ),
     },
- 'SI-18C4:TI-VTuneS:': {
+ 'SI-18C4:TI-TuneShkrV:': {
     'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
                  'Polarity', 'Intlk'},
     'pvs_config': {
@@ -1598,10 +1598,10 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'SI-18C4:DI-VTuneS:IN',
+        'SI-18C4:DI-TuneShkrV:IN',
         ),
     },
- 'SI-17C4:TI-VTuneP:': {
+ 'SI-17C4:TI-TunePkupV:': {
     'hl_props': {'Src', 'Delay', 'DelayType', 'Pulses', 'Duration', 'State',
                  'Polarity', 'Intlk'},
     'pvs_config': {
@@ -1623,7 +1623,7 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'SI-17C4:DI-VTuneP:IN',
+        'SI-17C4:DI-TunePkupV:IN',
         ),
     },
  'SI-19C4:TI-VPing:': {
