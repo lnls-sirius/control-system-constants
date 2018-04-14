@@ -662,7 +662,7 @@ HL_TRIGGS = {
         'LI-01:RF-LLRF-3:IN',
         ),
     },
- 'TB-04:TI-InjS:': {
+ 'TB-04:TI-InjSept:': {
     'database': {
       'Src': {
         'value': 0,
@@ -682,7 +682,7 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'TB-04:PU-InjS:IN',
+        'TB-04:PU-InjSept:IN',
         ),
     },
  'BO-01D:TI-InjK:': {
@@ -731,11 +731,11 @@ HL_TRIGGS = {
         'BO-Glob:RF-LLRF:IN',
         ),
     },
- 'BO-48D:TI-EjeK:': {
+ 'BO-48D:TI-EjeKckr:': {
     'database': {
       'Src': {
         'value': 0,
-        'enums': ('InjSI', 'Study'),
+        'enums': ('InjSeptI', 'Study'),
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
@@ -751,14 +751,14 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'BO-48D:PU-EjeK:IN',
+        'BO-48D:PU-EjeKckr:IN',
         ),
     },
- 'TS-Fam:TI-EjeS:': {
+ 'TS-Fam:TI-EjeSept:': {
     'database': {
       'Src': {
         'value': 0,
-        'enums': ('InjSI', 'Study'),
+        'enums': ('InjSeptI', 'Study'),
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
@@ -774,14 +774,14 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'TS-01:PU-EjeSF:IN', 'TS-01:PU-EjeSG:IN',
+        'TS-01:PU-EjeSeptF:IN', 'TS-01:PU-EjeSeptG:IN',
         ),
     },
- 'TS-Fam:TI-InjSG:': {
+ 'TS-Fam:TI-InjSeptG:': {
     'database': {
       'Src': {
         'value': 0,
-        'enums': ('InjSI', 'Study'),
+        'enums': ('InjSeptI', 'Study'),
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
@@ -797,14 +797,14 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'TS-04:PU-InjSG-1:IN', 'TS-04:PU-InjSG-1:IN',
+        'TS-04:PU-InjSeptG-1:IN', 'TS-04:PU-InjSeptG-1:IN',
         ),
     },
- 'TS-04:TI-InjSF:': {
+ 'TS-04:TI-InjSeptF:': {
     'database': {
       'Src': {
         'value': 0,
-        'enums': ('InjSI', 'Study'),
+        'enums': ('InjSeptI', 'Study'),
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
@@ -820,14 +820,14 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'TS-04:PU-InjSF:IN',
+        'TS-04:PU-InjSeptF:IN',
         ),
     },
  'SI-01SA:TI-InjK:': {
     'database': {
       'Src': {
         'value': 0,
-        'enums': ('InjSI', 'Study'),
+        'enums': ('InjSeptI', 'Study'),
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
@@ -1150,7 +1150,7 @@ HL_TRIGGS = {
         'BO-04U:DI-GSL:IN',
         ),
     },
- 'BO-02D:TI-TuneS:': {
+ 'BO-02D:TI-TuneShkr:': {
     'database': {
       'Src': {
         'value': 0,
@@ -1170,10 +1170,10 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'BO-02D:DI-TuneS:IN',
+        'BO-02D:DI-TuneShkr:IN',
         ),
     },
- 'BO-04D:TI-TuneP:': {
+ 'BO-04D:TI-TunePkup:': {
     'database': {
       'Src': {
         'value': 0,
@@ -1193,7 +1193,7 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'BO-04D:DI-TuneP:IN',
+        'BO-04D:DI-TunePkup:IN',
         ),
     },
  'BO-35D:TI-DCCT:': {
@@ -1520,7 +1520,7 @@ HL_TRIGGS = {
         'SI-17C4:DI-TunePkupV:IN',
         ),
     },
- 'SI-19C4:TI-VPing:': {
+ 'SI-19C4:TI-PingV:': {
     'database': {
       'Src': {
         'value': 0,
@@ -1540,10 +1540,10 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'SI-19C4:PU-VPing:IN',
+        'SI-19C4:PU-PingV:IN',
         ),
     },
- 'SI-01SA:TI-HPing:': {
+ 'SI-01SA:TI-PingH:': {
     'database': {
       'Src': {
         'value': 0,
@@ -1563,7 +1563,7 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'SI-01SA:PU-HPing:IN',
+        'SI-01SA:PU-PingH:IN',
         ),
     },
  'SI-16C4:TI-GBPM:': {

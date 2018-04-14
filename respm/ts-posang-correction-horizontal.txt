@@ -2,7 +2,7 @@
 
 #  | DeltaPosX @ TS-04:DI-Scrn-3 |    | m11  m12 |   | Kick TS-04:MA-CH    |
 #  |                             | =  |          | * |                     |
-#  | DeltaAngX @ TS-04:DI-Scrn-3 |    | m21  m22 |   | Kick TS-04:PM-InjSF |
+#  | DeltaAngX @ TS-04:DI-Scrn-3 |    | m21  m22 |   | Kick TS-04:PM-InjSeptF |
 
 
 # Matrix:
