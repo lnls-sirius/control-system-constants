@@ -3,7 +3,7 @@
 
 TB-04:PU-InjSept       FBP
 
-BO-01D:PU-InjK      FBP
+BO-01D:PU-InjKckr      FBP
 BO-48D:PU-EjeKckr      FBP
 
 TS-04:PU-InjSeptG-1    FBP

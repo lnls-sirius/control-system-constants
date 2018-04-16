@@ -685,7 +685,7 @@ HL_TRIGGS = {
         'TB-04:PU-InjSept:IN',
         ),
     },
- 'BO-01D:TI-InjK:': {
+ 'BO-01D:TI-InjKckr:': {
     'database': {
       'Src': {
         'value': 0,
@@ -705,7 +705,7 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'BO-01D:PU-InjK:IN',
+        'BO-01D:PU-InjKckr:IN',
         ),
     },
  'BO-05D:TI-P5Cav:': {
@@ -823,7 +823,7 @@ HL_TRIGGS = {
         'TS-04:PU-InjSeptF:IN',
         ),
     },
- 'SI-01SA:TI-InjK:': {
+ 'SI-01SA:TI-InjKckr:': {
     'database': {
       'Src': {
         'value': 0,
@@ -843,7 +843,7 @@ HL_TRIGGS = {
       'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        'SI-01SA:PU-InjK:IN',
+        'SI-01SA:PU-InjKckr:IN',
         ),
     },
  'LI-Fam:TI-BPM:': {
