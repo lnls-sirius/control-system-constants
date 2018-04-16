@@ -1068,7 +1068,7 @@ LI-01:PS-Spect          Sine          1           nan                   nan     
 # PSNAME                TYPE          NR_CYCLES   FREQ[Hz]              AMPLITUDE[A]    OFFSET[A]     PARAM0:ThetaBeg[deg]   PARAM1:ThetaEnd[deg]     PARAM2:DecayTime[s]     PARAM3:<NOT_USED>
 
 SI-19C4:PU-PingV        Sine          1           nan                   nan             nan           nan                    nan                      nan                     nan
-BO-01D:PU-InjK          Sine          1           nan                   nan             nan           nan                    nan                      nan                     nan
+BO-01D:PU-InjKckr          Sine          1           nan                   nan             nan           nan                    nan                      nan                     nan
 BO-48D:PU-EjeKckr          Sine          1           nan                   nan             nan           nan                    nan                      nan                     nan
 SI-01SA:PU-PingH        Sine          1           nan                   nan             nan           nan                    nan                      nan                     nan
 SI-01SA:PU-InjDpKckr       Sine          1           nan                   nan             nan           nan                    nan                      nan                     nan

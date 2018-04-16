@@ -1175,7 +1175,7 @@ TS-01:PM-EjeSeptG               TS-01:PU-EjeSeptG
 TS-01:PM-EjeSeptF               TS-01:PU-EjeSeptF
 
 # --- bo-injkicker ---
-BO-01D:PM-InjK               BO-01D:PU-InjK
+BO-01D:PM-InjKckr               BO-01D:PU-InjKckr
 
 # --- bo-ejekicker ---
 BO-48D:PM-EjeKckr               BO-48D:PU-EjeKckr
