@@ -139,14 +139,14 @@ AS-Glob:TI-EVE-6:OUT2              SI-14C4:DI-NPCT:IN
 
 ######Missing in Excel spreadsheet:
 AS-Glob:TI-EVE-3:OUT3                BO-04U:DI-GSL:IN
-AS-Glob:TI-EVE-3:OUT4                BO-02D:DI-TuneS:IN
-AS-Glob:TI-EVE-3:OUT5                BO-04D:DI-TuneP:IN
+AS-Glob:TI-EVE-3:OUT4                BO-02D:DI-TuneShkr:IN
+AS-Glob:TI-EVE-3:OUT5                BO-04D:DI-TunePkup:IN
 AS-Glob:TI-EVE-3:OUT6                SI-19SP:DI-GSL15:IN
 AS-Glob:TI-EVE-6:OUT3                SI-20SB:DI-GSL07:IN
-AS-Glob:TI-EVE-6:OUT4                SI-01SA:DI-HTuneS:IN
-AS-Glob:TI-EVE-6:OUT5                SI-17SA:DI-HTuneP:IN
-AS-Glob:TI-EVE-6:OUT6                SI-18C4:DI-VTuneS:IN
-AS-Glob:TI-EVE-6:OUT7                SI-17C4:DI-VTuneP:IN
+AS-Glob:TI-EVE-6:OUT4                SI-01SA:DI-TuneShkrH:IN
+AS-Glob:TI-EVE-6:OUT5                SI-17SA:DI-TunePkupH:IN
+AS-Glob:TI-EVE-6:OUT6                SI-18C4:DI-TuneShkrV:IN
+AS-Glob:TI-EVE-6:OUT7                SI-17C4:DI-TunePkupV:IN
 ######
 
 
@@ -156,15 +156,15 @@ AS-Glob:TI-STDMOE-1:OUT2           LI-01:EGun-AmpMB:IN  #SingleBunch
 
 AS-Glob:TI-STDMOE-2:OUT1           BO-Glob:RF-LLRF:IN
 
-AS-Glob:TI-STDMOE-3:OUT1           TS-04:PU-InjSG-1:IN
-AS-Glob:TI-STDMOE-3:OUT2           TS-04:PU-InjSG-2:IN
-AS-Glob:TI-STDMOE-3:OUT3           TS-04:PU-InjSF:IN
+AS-Glob:TI-STDMOE-3:OUT1           TS-04:PU-InjSeptG-1:IN
+AS-Glob:TI-STDMOE-3:OUT2           TS-04:PU-InjSeptG-2:IN
+AS-Glob:TI-STDMOE-3:OUT3           TS-04:PU-InjSeptF:IN
 
-AS-Glob:TI-STDMOE-4:OUT1           BO-48D:PU-EjeK:IN
-AS-Glob:TI-STDMOE-4:OUT2           SI-19C4:PU-VPing:IN
+AS-Glob:TI-STDMOE-4:OUT1           BO-48D:PU-EjeKckr:IN
+AS-Glob:TI-STDMOE-4:OUT2           SI-19C4:PU-PingV:IN
 
-AS-Glob:TI-STDMOE-5:OUT1           TS-01:PU-EjeSF:IN
-AS-Glob:TI-STDMOE-5:OUT2           TS-01:PU-EjeSG:IN
+AS-Glob:TI-STDMOE-5:OUT1           TS-01:PU-EjeSeptF:IN
+AS-Glob:TI-STDMOE-5:OUT2           TS-01:PU-EjeSeptG:IN
 
 AS-Glob:TI-STDMOE-6:OUT1           TB-04:DI-FCT:IN
 AS-Glob:TI-STDMOE-6:OUT2           TS-04:DI-FCT:IN
@@ -196,9 +196,9 @@ AS-Glob:TI-STDSOE-5:OUT4           TS-04:DI-ICTMult:IN
 
 # Fourth Layer: from SOEs to equipment
 AS-Glob:TI-SOE-1:OUT                 SI-01SA:PU-InjK:IN
-AS-Glob:TI-SOE-2:OUT                 SI-01SA:PU-HPing:IN
+AS-Glob:TI-SOE-2:OUT                 SI-01SA:PU-PingH:IN
 AS-Glob:TI-SOE-3:OUT                 BO-01D:PU-InjK:IN
-AS-Glob:TI-SOE-4:OUT                 TB-04:PU-InjS:IN
+AS-Glob:TI-SOE-4:OUT                 TB-04:PU-InjSept:IN
 
 
 # Fourth Layer: from MOEs to equipment
