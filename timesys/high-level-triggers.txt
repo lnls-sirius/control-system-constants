@@ -11,13 +11,12 @@ HL_TRIGGS = {
         'value': 0.0,
         'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 4000,
         'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-01M1:PS-CH:RSIO', 'SI-01M1:PS-CV:RSIO', 'SI-01M2:PS-CH:RSIO',
@@ -132,13 +131,12 @@ HL_TRIGGS = {
         'value': 0.0,
         'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 4000,
         'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-Fam:PS-QFA:RSIO', 'SI-Fam:PS-QDA:RSIO', 'SI-Fam:PS-QFB:RSIO',
@@ -256,13 +254,12 @@ HL_TRIGGS = {
         'value': 0.0,
         'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 4000,
         'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-01M1:PS-QS:RSIO', 'SI-01M2:PS-QS:RSIO', 'SI-01C1:PS-QS:RSIO',
@@ -317,13 +314,12 @@ HL_TRIGGS = {
         'value': 0.0,
         'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 4000,
         'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-Fam:PS-B1B2-1:RSIO', 'SI-Fam:PS-B1B2-2:RSIO',
@@ -339,13 +335,12 @@ HL_TRIGGS = {
         'value': 0.0,
         'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 4000,
         'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 0},
       },
     'channels': (
         'SI-Fam:PS-SFA0:RSIO', 'SI-Fam:PS-SFA1:RSIO', 'SI-Fam:PS-SFA2:RSIO',
@@ -369,7 +364,7 @@ HL_TRIGGS = {
         'value': 0.0,
         'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 4000,
         'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {
@@ -378,7 +373,6 @@ HL_TRIGGS = {
         'hilim': 495, 'high': 495, 'hihi': 500},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 0},
       },
     'channels': (
         'BO-Fam:PS-B-1:RSIO', 'BO-Fam:PS-B-2:RSIO',
@@ -394,7 +388,7 @@ HL_TRIGGS = {
         'value': 0.0,
         'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 4000,
         'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {
@@ -403,7 +397,6 @@ HL_TRIGGS = {
         'hilim': 495, 'high': 495, 'hihi': 500},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 0},
       },
     'channels': (
         # 'BO-Fam:PS-B-1:RSIO', 'BO-Fam:PS-B-2:RSIO',
@@ -440,7 +433,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 1, 'states': (1, 0)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -449,7 +442,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:EGun-AmpMB:IN',
@@ -463,7 +455,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 1, 'states': (1, 0)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -472,7 +464,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:EGun-AmpSB:IN',
@@ -486,7 +477,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -495,7 +486,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-Modltr-1:IN',
@@ -509,7 +499,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -518,7 +508,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-Modltr-2:IN',
@@ -532,7 +521,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -541,7 +530,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-AmpLF:IN',
@@ -555,7 +543,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -564,7 +552,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-AmpHF-1:IN',
@@ -578,7 +565,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -587,7 +574,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-AmpHF-2:IN',
@@ -601,7 +587,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -610,7 +596,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-LLRF-1:IN',
@@ -624,7 +609,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -633,7 +618,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-LLRF-2:IN',
@@ -647,7 +631,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -656,7 +640,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:RF-LLRF-3:IN',
@@ -670,7 +653,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -679,7 +662,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TB-04:PU-InjSept:IN',
@@ -693,7 +675,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -702,7 +684,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-01D:PU-InjKckr:IN',
@@ -716,7 +697,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -725,7 +706,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-Glob:RF-LLRF:IN',
@@ -739,7 +719,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -748,7 +728,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-48D:PU-EjeKckr:IN',
@@ -762,7 +741,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -771,7 +750,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-01:PU-EjeSeptF:IN', 'TS-01:PU-EjeSeptG:IN',
@@ -785,7 +763,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -794,7 +772,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-04:PU-InjSeptG-1:IN', 'TS-04:PU-InjSeptG-1:IN',
@@ -808,7 +785,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -817,7 +794,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-04:PU-InjSeptF:IN',
@@ -831,7 +807,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -840,7 +816,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-01SA:PU-InjKckr:IN',
@@ -854,7 +829,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -863,7 +838,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-Fam:DI-BPM:IN',
@@ -877,7 +851,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -886,7 +860,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-Fam:DI-Scrn:IN',
@@ -900,7 +873,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -909,7 +882,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:DI-ICT-1:IN',
@@ -923,7 +895,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -932,7 +904,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'LI-01:DI-ICT-2:IN',
@@ -946,7 +917,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -955,7 +926,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TB-01:DI-BPM-1:CRT7', 'TB-01:DI-BPM-2:CRT7',
@@ -971,7 +941,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -980,7 +950,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TB-01:DI-Scrn-1:IN', 'TB-01:DI-Scrn-2:IN', 'TB-02:DI-Scrn-1:IN',
@@ -995,7 +964,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -1004,7 +973,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TB-02:DI-ICTBMC:IN', 'TB-02:DI-ICTMult:IN',
@@ -1018,7 +986,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -1027,7 +995,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TB-04:DI-ICTBMC:IN', 'TB-04:DI-ICTMult:IN',
@@ -1041,7 +1008,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -1050,7 +1017,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TB-04:DI-FCT:IN',
@@ -1064,7 +1030,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1073,7 +1039,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-01U:DI-BPM:CRT7', 'BO-02U:DI-BPM:CRT7',
@@ -1111,7 +1076,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -1120,7 +1085,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-01D:DI-Scrn-1:IN', 'BO-01D:DI-Scrn-2:IN',
@@ -1135,7 +1099,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1144,7 +1108,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-04U:DI-GSL:IN',
@@ -1158,7 +1121,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1167,7 +1130,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-02D:DI-TuneShkr:IN',
@@ -1181,7 +1143,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1190,7 +1152,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-04D:DI-TunePkup:IN',
@@ -1204,7 +1165,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -1213,7 +1174,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'BO-35D:DI-NPCT:IN',
@@ -1227,7 +1187,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1236,7 +1196,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-01:DI-BPM:CRT6', 'TS-02:DI-BPM:CRT6',  'TS-03:DI-BPM:CRT6',
@@ -1251,7 +1210,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -1260,7 +1219,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-01:DI-Scrn:IN', 'TS-02:DI-Scrn:IN',  'TS-03:DI-Scrn:IN',
@@ -1275,7 +1233,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -1284,7 +1242,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-01:DI-ICTBMC:IN', 'TS-01:DI-ICTMult:IN',
@@ -1298,7 +1255,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -1307,7 +1264,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-04:DI-ICTBMC:IN', 'TS-04:DI-ICTMult:IN',
@@ -1321,7 +1277,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -1330,7 +1286,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'TS-04:DI-FCT:IN',
@@ -1344,7 +1299,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1353,7 +1308,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-19SP:DI-GSL15:IN',
@@ -1367,7 +1321,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1376,7 +1330,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-20SB:DI-GSL07:IN',
@@ -1390,7 +1343,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -1399,7 +1352,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-13C4:DI-NPCT:IN',
@@ -1413,7 +1365,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
@@ -1422,7 +1374,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-14C4:DI-NPCT:IN',
@@ -1436,7 +1387,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1445,7 +1396,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-01SA:DI-TuneShkrH:IN',
@@ -1459,7 +1409,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1468,7 +1418,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-17SA:DI-TunePkupH:IN',
@@ -1482,7 +1431,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1491,7 +1440,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-18C4:DI-TuneShkrV:IN',
@@ -1505,7 +1453,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1514,7 +1462,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-17C4:DI-TunePkupV:IN',
@@ -1528,7 +1475,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1537,7 +1484,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-19C4:PU-PingV:IN',
@@ -1551,7 +1497,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1560,7 +1506,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-01SA:PU-PingH:IN',
@@ -1574,7 +1519,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1583,7 +1528,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-16C4:DI-GBPM:CRT5',
@@ -1597,7 +1541,7 @@ HL_TRIGGS = {
         },
       'Delay': {'value': 0.0},
       'DelayType': {'value': 0, 'states': (0, 1)},
-      'Pulses': {
+      'NrPulses': {
         'value': 1,
         'hilim': 30, 'high': 30, 'hihi': 30},
       'Duration': {
@@ -1606,7 +1550,6 @@ HL_TRIGGS = {
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
-      'Intlk': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
         'SI-01M1:DI-BPM:CRT6', 'SI-01M2:DI-BPM:CRT6',
