@@ -3,6 +3,19 @@
 # main_harmonic   0 normal
 # units           Volt T*m T*m
 #
-+0.00     +0.00000e-00  +0.0000e+00
-+7210.00  -6.10000e-02  +0.0000e+00
-+7920.00  -6.70000e-02  +0.0000e+00
+# current values are based on specifications.
+# sources: https://wiki-sirius.lnls.br/mediawiki/index.php/Table:Kickers_parameters (kicks)
+#          Missing nominal and maximum voltage information !!! values used here are guesses.
+#
+# device names: SI-01SA:PM-InjDpKckr
+#
+# TODO: update this excitation curve using measurement data (ximenes 2018-05-03)
+
+# --- zero point
++000.00   +0.00000000e-00  +0.0000e+00
+
+# --- nominal value, deflection 6.1 mrad
+100.0     +6.10422285e-02  +0.0000e+00
+
+# --- maximum value, deflection 6.7 mrad
+109.8     +6.70463822e-02  +0.0000e+00

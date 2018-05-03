@@ -3,6 +3,18 @@
 # main_harmonic   0 normal
 # units           Volt T*m T*m
 #
-+0.00e+00	+0.0000000e+00 +0.00e+00
-+1.00e+03	-1.0828532e+00 +0.00e+00
-+2.00e+03 -3.0000000e+00 +0.00e+00
+# current values are based on specifications.
+# source: https://wiki-sirius.lnls.br/mediawiki/index.php/Table:Septa_parameters
+#
+# device names: TS-04:PM-InjSeptG-1 and TS-04:PM-InjSeptG-2
+#
+# TODO: update this excitation curve using measurement data (ximenes 2018-05-03)
+
+# --- zero point
++000.00   -0.00000000e-00  +0.0000e+00
+
+# --- nominal value, deflection 62.83 mrad
++513.00   -6.28734954e-01  +0.0000e+00
+
+# --- maximum value, deflection 68.0 mrad
++555.00   -6.80470744e-01  +0.0000e+00
