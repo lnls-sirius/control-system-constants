@@ -3,5 +3,18 @@
 # main_harmonic   0 normal
 # units           Volt T*m T*m
 #
-+0.00     +0.00000000e-00  +0.0000e+00
-+406.00   -1.89934853e-01  +0.0000e+00
+# current values are based on specifications.
+# source: https://wiki-sirius.lnls.br/mediawiki/index.php/Machine:Pulsed_Magnets
+#
+# device name: TB-04:PM-InjSept
+#
+# TODO: update this excitation curve using measurement data (ximenes 2018-05-03)
+
+# --- zero point
++0.00     -0.00000000e-00  +0.0000e+00
+
+# --- nominal value, deflection 379.61 mrad
++382.00   -1.89934853e-01  +0.0000e+00
+
+# --- maximum value, deflection 400.48 mrad
++403.00   -2.00376298e-01  +0.0000e+00
