@@ -334,3 +334,15 @@ TS-Glob:CO-BBB-2    TS-03:PS-QF3    TS-04:PS-QD4A    TS-04:PS-QF4    TS-04:PS-QD
 TS-Glob:CO-BBB-3    TS-01:PS-CV-1  TS-01:PS-CH    TS-01:PS-CV-2  TS-02:PS-CH
 TS-Glob:CO-BBB-4    TS-02:PS-CV    TS-03:PS-CH    TS-03:PS-CV    TS-04:PS-CV-1
 TS-Glob:CO-BBB-5    TS-04:PS-CH    TS-04:PS-CV-2
+
+TB-Glob:CO-BBB-InjSept      TB-04:PU-InjSept
+TS-Glob:CO-BBB-EjeSeptF     TS-01:PU-EjeSeptF
+TS-Glob:CO-BBB-EjeSeptG     TS-01:PU-EjeSeptG
+TS-Glob:CO-BBB-InjSeptG-1   TS-04:PU-InjSeptG-1
+TS-Glob:CO-BBB-InjSeptG-2   TS-04:PU-InjSeptG-2
+TS-Glob:CO-BBB-InjSeptF     TS-04:PU-InjSeptF
+BO-Glob:CO-BBB-InjKckr      BO-01D:PU-InjKckr
+BO-Glob:CO-BBB-EjeKckr      BO-48D:PU-EjeKckr
+SI-Glob:CO-BBB-InjNLKckr    SI-01SA:PU-InjNLKckr
+SI-Glob:CO-BBB-InjDpKckr    SI-01SA:PU-InjDpKckr
+SI-Glob:CO-BBB-PingV        SI-19C4:PU-PingV
