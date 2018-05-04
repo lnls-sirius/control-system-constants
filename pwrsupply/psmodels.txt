@@ -5,7 +5,7 @@
 
 BO-Fam:PS-B-1       FBP
 BO-Fam:PS-B-2       FBP
-BO-Fam:PS-QF        FBP         
+BO-Fam:PS-QF        FBP
 BO-Fam:PS-QD        FBP
 BO-Fam:PS-SD        FBP
 BO-Fam:PS-SF        FBP
@@ -76,8 +76,11 @@ SI-Fam:PS-B1B2-2    FBP
 
 SI-Fam:PS-QFA       FBP
 SI-Fam:PS-QDA       FBP
-SI-Fam:PS-QB1       FBP
-SI-Fam:PS-QB2       FBP
+
+# TODO: will quadrupole power supply in SI bend magnets exist?!
+# SI-Fam:PS-QB1       FBP
+# SI-Fam:PS-QB2       FBP
+
 SI-Fam:PS-QFB       FBP
 SI-Fam:PS-QDB1      FBP
 SI-Fam:PS-QDB2      FBP
