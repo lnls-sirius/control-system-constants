@@ -65,7 +65,7 @@ BO-49U:PS-CV        FBP
 
 # -- Booster Quadrupole skew --
 
-BO-02D:PS-QS	    FBP
+BO-02D:PS-QS	      FBP
 
 # --- Sirius Dipoles
 
