@@ -72,23 +72,23 @@ AS-Glob:TI-EVR-2:OTP03             AS-Glob:TI-SOE-4:IN
 
 #######
 # FAKE
-AS-Glob:TI-EVR-3:OTP00             SI-Glob:CO-BBB-1:IN  # SI Dipole families
-AS-Glob:TI-EVR-3:OTP01             SI-Glob:CO-BBB-2:IN  # SI straight section quadrupole families
-AS-Glob:TI-EVR-3:OTP02             SI-Glob:CO-BBB-3:IN  # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
-AS-Glob:TI-EVR-3:OTP03             SI-Glob:CO-BBB-4:IN  # SI straight section sextupole families
-AS-Glob:TI-EVR-3:OTP04             SI-Glob:CO-BBB-5:IN  # SI arc sextupole families
-AS-Glob:TI-EVR-3:OTP05             SI-Glob:CO-BBB-6:IN  # SI Dipole families
-AS-Glob:TI-EVR-3:OTP06             SI-Glob:CO-BBB-7:IN  # SI straight section quadrupole families
-AS-Glob:TI-EVR-3:OTP07             SI-Glob:CO-BBB-8:IN  # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
+AS-Glob:TI-EVR-3:OTP00             SI-Glob:CO-PSCtrl-1:IN  # SI Dipole families
+AS-Glob:TI-EVR-3:OTP01             SI-Glob:CO-PSCtrl-2:IN  # SI straight section quadrupole families
+AS-Glob:TI-EVR-3:OTP02             SI-Glob:CO-PSCtrl-3:IN  # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
+AS-Glob:TI-EVR-3:OTP03             SI-Glob:CO-PSCtrl-4:IN  # SI straight section sextupole families
+AS-Glob:TI-EVR-3:OTP04             SI-Glob:CO-PSCtrl-5:IN  # SI arc sextupole families
+AS-Glob:TI-EVR-3:OTP05             SI-Glob:CO-PSCtrl-6:IN  # SI Dipole families
+AS-Glob:TI-EVR-3:OTP06             SI-Glob:CO-PSCtrl-7:IN  # SI straight section quadrupole families
+AS-Glob:TI-EVR-3:OTP07             SI-Glob:CO-PSCtrl-8:IN  # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
 
-AS-Glob:TI-EVR-5:OTP00             SI-Glob:CO-BBB-9:IN  # SI Dipole families
-AS-Glob:TI-EVR-5:OTP01             SI-Glob:CO-BBB-10:IN  # SI straight section quadrupole families
-AS-Glob:TI-EVR-5:OTP02             SI-Glob:CO-BBB-11:IN  # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
-AS-Glob:TI-EVR-5:OTP03             SI-Glob:CO-BBB-12:IN  # SI straight section sextupole families
-AS-Glob:TI-EVR-5:OTP04             SI-Glob:CO-BBB-13:IN  # SI arc sextupole families
-AS-Glob:TI-EVR-5:OTP05             BO-Glob:CO-BBB-1:IN  # BO Dipole Families
-AS-Glob:TI-EVR-5:OTP06             BO-Glob:CO-BBB-2:IN  # BO Quadrupoles
-AS-Glob:TI-EVR-5:OTP07             BO-Glob:CO-BBB-3:IN  # BO Sextupoles
+AS-Glob:TI-EVR-5:OTP00             SI-Glob:CO-PSCtrl-9:IN  # SI Dipole families
+AS-Glob:TI-EVR-5:OTP01             SI-Glob:CO-PSCtrl-10:IN  # SI straight section quadrupole families
+AS-Glob:TI-EVR-5:OTP02             SI-Glob:CO-PSCtrl-11:IN  # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
+AS-Glob:TI-EVR-5:OTP03             SI-Glob:CO-PSCtrl-12:IN  # SI straight section sextupole families
+AS-Glob:TI-EVR-5:OTP04             SI-Glob:CO-PSCtrl-13:IN  # SI arc sextupole families
+AS-Glob:TI-EVR-5:OTP05             BO-Glob:CO-PSCtrl-1:IN  # BO Dipole Families
+AS-Glob:TI-EVR-5:OTP06             BO-Glob:CO-PSCtrl-2:IN  # BO Quadrupoles
+AS-Glob:TI-EVR-5:OTP07             BO-Glob:CO-PSCtrl-3:IN  # BO Sextupoles
 ########
 
 
@@ -230,252 +230,252 @@ AS-Glob:TI-MOE-15:OUT              TS-04:DI-Scrn-3:IN
 
 
 ##AFC from Sector 01
-AS-01:TI-AFC:FMC1CH1              SI-01:CO-BBB-1:IN  # QFA ,QDA
-AS-01:TI-AFC:FMC1CH3              SI-01:CO-BBB-3:IN  # Q1, ..., Q4
-AS-01:TI-AFC:FMC1CH4              SI-01:CO-BBB-4:IN  # Q1, ..., Q4
-AS-01:TI-AFC:FMC1CH5              SI-01:CO-BBB-5:IN  # correctors
-AS-01:TI-AFC:FMC2CH1              SI-01:CO-BBB-6:IN  # correctors
-AS-01:TI-AFC:FMC2CH2              SI-01:CO-BBB-7:IN  # correctors
-AS-01:TI-AFC:FMC2CH3              SI-01:CO-BBB-8:IN  # correctors
-AS-01:TI-AFC:FMC2CH4              SI-01:CO-BBB-9:IN  # skew quad
-AS-01:TI-AFC:FMC2CH5              SI-01:CO-BBB-10:IN # skew quad
-AS-01:TI-AFC:FMC3CH1              BO-01:CO-BBB-1:IN  # BO correctors
-AS-01:TI-AFC:FMC3CH2              BO-01:CO-BBB-2:IN  # BO correctors
+AS-01:TI-AFC:FMC1CH1              SI-01:CO-PSCtrl-1:IN  # QFA ,QDA
+AS-01:TI-AFC:FMC1CH3              SI-01:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-01:TI-AFC:FMC1CH4              SI-01:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-01:TI-AFC:FMC1CH5              SI-01:CO-PSCtrl-5:IN  # correctors
+AS-01:TI-AFC:FMC2CH1              SI-01:CO-PSCtrl-6:IN  # correctors
+AS-01:TI-AFC:FMC2CH2              SI-01:CO-PSCtrl-7:IN  # correctors
+AS-01:TI-AFC:FMC2CH3              SI-01:CO-PSCtrl-8:IN  # correctors
+AS-01:TI-AFC:FMC2CH4              SI-01:CO-PSCtrl-9:IN  # skew quad
+AS-01:TI-AFC:FMC2CH5              SI-01:CO-PSCtrl-10:IN # skew quad
+AS-01:TI-AFC:FMC3CH1              BO-01:CO-PSCtrl-1:IN  # BO correctors
+AS-01:TI-AFC:FMC3CH2              BO-01:CO-PSCtrl-2:IN  # BO correctors
 
 ##AFC from Sector 02
-AS-02:TI-AFC:FMC1CH1              SI-02:CO-BBB-1:IN  # QFB, QDB1, QDB2
-AS-02:TI-AFC:FMC1CH2              SI-02:CO-BBB-2:IN  # QFB, QDB1, QDB2
-AS-02:TI-AFC:FMC1CH3              SI-02:CO-BBB-3:IN  # Q1, ..., Q4
-AS-02:TI-AFC:FMC1CH4              SI-02:CO-BBB-4:IN  # Q1, ..., Q4
-AS-02:TI-AFC:FMC1CH5              SI-02:CO-BBB-5:IN  # correctors
-AS-02:TI-AFC:FMC2CH1              SI-02:CO-BBB-6:IN  # correctors
-AS-02:TI-AFC:FMC2CH2              SI-02:CO-BBB-7:IN  # correctors
-AS-02:TI-AFC:FMC2CH3              SI-02:CO-BBB-8:IN  # correctors
-AS-02:TI-AFC:FMC2CH4              SI-02:CO-BBB-9:IN  # skew quad
-AS-02:TI-AFC:FMC2CH5              SI-02:CO-BBB-10:IN # skew quad
+AS-02:TI-AFC:FMC1CH1              SI-02:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+AS-02:TI-AFC:FMC1CH2              SI-02:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+AS-02:TI-AFC:FMC1CH3              SI-02:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-02:TI-AFC:FMC1CH4              SI-02:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-02:TI-AFC:FMC1CH5              SI-02:CO-PSCtrl-5:IN  # correctors
+AS-02:TI-AFC:FMC2CH1              SI-02:CO-PSCtrl-6:IN  # correctors
+AS-02:TI-AFC:FMC2CH2              SI-02:CO-PSCtrl-7:IN  # correctors
+AS-02:TI-AFC:FMC2CH3              SI-02:CO-PSCtrl-8:IN  # correctors
+AS-02:TI-AFC:FMC2CH4              SI-02:CO-PSCtrl-9:IN  # skew quad
+AS-02:TI-AFC:FMC2CH5              SI-02:CO-PSCtrl-10:IN # skew quad
 
 ##AFC from Sector 03
-AS-03:TI-AFC:FMC1CH1              SI-03:CO-BBB-1:IN  # QFP, QDP1, QDP2
-AS-03:TI-AFC:FMC1CH2              SI-03:CO-BBB-2:IN  # QFP, QDP1, QDP2
-AS-03:TI-AFC:FMC1CH3              SI-03:CO-BBB-3:IN  # Q1, ..., Q4
-AS-03:TI-AFC:FMC1CH4              SI-03:CO-BBB-4:IN  # Q1, ..., Q4
-AS-03:TI-AFC:FMC1CH5              SI-03:CO-BBB-5:IN  # correctors
-AS-03:TI-AFC:FMC2CH1              SI-03:CO-BBB-6:IN  # correctors
-AS-03:TI-AFC:FMC2CH2              SI-03:CO-BBB-7:IN  # correctors
-AS-03:TI-AFC:FMC2CH3              SI-03:CO-BBB-8:IN  # correctors
-AS-03:TI-AFC:FMC2CH4              SI-03:CO-BBB-9:IN  # skew quad
-AS-03:TI-AFC:FMC2CH5              SI-03:CO-BBB-10:IN # skew quad
-AS-03:TI-AFC:FMC3CH1              BO-03:CO-BBB:IN  # BO correctors
+AS-03:TI-AFC:FMC1CH1              SI-03:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
+AS-03:TI-AFC:FMC1CH2              SI-03:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
+AS-03:TI-AFC:FMC1CH3              SI-03:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-03:TI-AFC:FMC1CH4              SI-03:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-03:TI-AFC:FMC1CH5              SI-03:CO-PSCtrl-5:IN  # correctors
+AS-03:TI-AFC:FMC2CH1              SI-03:CO-PSCtrl-6:IN  # correctors
+AS-03:TI-AFC:FMC2CH2              SI-03:CO-PSCtrl-7:IN  # correctors
+AS-03:TI-AFC:FMC2CH3              SI-03:CO-PSCtrl-8:IN  # correctors
+AS-03:TI-AFC:FMC2CH4              SI-03:CO-PSCtrl-9:IN  # skew quad
+AS-03:TI-AFC:FMC2CH5              SI-03:CO-PSCtrl-10:IN # skew quad
+AS-03:TI-AFC:FMC3CH1              BO-03:CO-PSCtrl:IN  # BO correctors
 
 ##AFC from Sector 04
-AS-04:TI-AFC:FMC1CH1              SI-04:CO-BBB-1:IN  # QFB, QDB1, QDB2
-AS-04:TI-AFC:FMC1CH2              SI-04:CO-BBB-2:IN  # QFB, QDB1, QDB2
-AS-04:TI-AFC:FMC1CH3              SI-04:CO-BBB-3:IN  # Q1, ..., Q4
-AS-04:TI-AFC:FMC1CH4              SI-04:CO-BBB-4:IN  # Q1, ..., Q4
-AS-04:TI-AFC:FMC1CH5              SI-04:CO-BBB-5:IN  # correctors
-AS-04:TI-AFC:FMC2CH1              SI-04:CO-BBB-6:IN  # correctors
-AS-04:TI-AFC:FMC2CH2              SI-04:CO-BBB-7:IN  # correctors
-AS-04:TI-AFC:FMC2CH3              SI-04:CO-BBB-8:IN  # correctors
-AS-04:TI-AFC:FMC2CH4              SI-04:CO-BBB-9:IN  # skew quad
-AS-04:TI-AFC:FMC2CH5              SI-04:CO-BBB-10:IN # skew quad
+AS-04:TI-AFC:FMC1CH1              SI-04:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+AS-04:TI-AFC:FMC1CH2              SI-04:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+AS-04:TI-AFC:FMC1CH3              SI-04:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-04:TI-AFC:FMC1CH4              SI-04:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-04:TI-AFC:FMC1CH5              SI-04:CO-PSCtrl-5:IN  # correctors
+AS-04:TI-AFC:FMC2CH1              SI-04:CO-PSCtrl-6:IN  # correctors
+AS-04:TI-AFC:FMC2CH2              SI-04:CO-PSCtrl-7:IN  # correctors
+AS-04:TI-AFC:FMC2CH3              SI-04:CO-PSCtrl-8:IN  # correctors
+AS-04:TI-AFC:FMC2CH4              SI-04:CO-PSCtrl-9:IN  # skew quad
+AS-04:TI-AFC:FMC2CH5              SI-04:CO-PSCtrl-10:IN # skew quad
 
 ##AFC from Sector 05
-AS-05:TI-AFC:FMC1CH1              SI-05:CO-BBB-1:IN  # QFA ,QDA
-AS-05:TI-AFC:FMC1CH3              SI-05:CO-BBB-3:IN  # Q1, ..., Q4
-AS-05:TI-AFC:FMC1CH4              SI-05:CO-BBB-4:IN  # Q1, ..., Q4
-AS-05:TI-AFC:FMC1CH5              SI-05:CO-BBB-5:IN  # correctors
-AS-05:TI-AFC:FMC2CH1              SI-05:CO-BBB-6:IN  # correctors
-AS-05:TI-AFC:FMC2CH2              SI-05:CO-BBB-7:IN  # correctors
-AS-05:TI-AFC:FMC2CH3              SI-05:CO-BBB-8:IN  # correctors
-AS-05:TI-AFC:FMC2CH4              SI-05:CO-BBB-9:IN  # skew quad
-AS-05:TI-AFC:FMC2CH5              SI-05:CO-BBB-10:IN # skew quad
-AS-05:TI-AFC:FMC3CH1              BO-05:CO-BBB:IN  # BO correctors
+AS-05:TI-AFC:FMC1CH1              SI-05:CO-PSCtrl-1:IN  # QFA ,QDA
+AS-05:TI-AFC:FMC1CH3              SI-05:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-05:TI-AFC:FMC1CH4              SI-05:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-05:TI-AFC:FMC1CH5              SI-05:CO-PSCtrl-5:IN  # correctors
+AS-05:TI-AFC:FMC2CH1              SI-05:CO-PSCtrl-6:IN  # correctors
+AS-05:TI-AFC:FMC2CH2              SI-05:CO-PSCtrl-7:IN  # correctors
+AS-05:TI-AFC:FMC2CH3              SI-05:CO-PSCtrl-8:IN  # correctors
+AS-05:TI-AFC:FMC2CH4              SI-05:CO-PSCtrl-9:IN  # skew quad
+AS-05:TI-AFC:FMC2CH5              SI-05:CO-PSCtrl-10:IN # skew quad
+AS-05:TI-AFC:FMC3CH1              BO-05:CO-PSCtrl:IN  # BO correctors
 
 ##AFC from Sector 06
-AS-06:TI-AFC:FMC1CH1              SI-06:CO-BBB-1:IN  # QFB, QDB1, QDB2
-AS-06:TI-AFC:FMC1CH2              SI-06:CO-BBB-2:IN  # QFB, QDB1, QDB2
-AS-06:TI-AFC:FMC1CH3              SI-06:CO-BBB-3:IN  # Q1, ..., Q4
-AS-06:TI-AFC:FMC1CH4              SI-06:CO-BBB-4:IN  # Q1, ..., Q4
-AS-06:TI-AFC:FMC1CH5              SI-06:CO-BBB-5:IN  # correctors
-AS-06:TI-AFC:FMC2CH1              SI-06:CO-BBB-6:IN  # correctors
-AS-06:TI-AFC:FMC2CH2              SI-06:CO-BBB-7:IN  # correctors
-AS-06:TI-AFC:FMC2CH3              SI-06:CO-BBB-8:IN  # correctors
-AS-06:TI-AFC:FMC2CH4              SI-06:CO-BBB-9:IN  # skew quad
-AS-06:TI-AFC:FMC2CH5              SI-06:CO-BBB-10:IN # skew quad
+AS-06:TI-AFC:FMC1CH1              SI-06:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+AS-06:TI-AFC:FMC1CH2              SI-06:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+AS-06:TI-AFC:FMC1CH3              SI-06:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-06:TI-AFC:FMC1CH4              SI-06:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-06:TI-AFC:FMC1CH5              SI-06:CO-PSCtrl-5:IN  # correctors
+AS-06:TI-AFC:FMC2CH1              SI-06:CO-PSCtrl-6:IN  # correctors
+AS-06:TI-AFC:FMC2CH2              SI-06:CO-PSCtrl-7:IN  # correctors
+AS-06:TI-AFC:FMC2CH3              SI-06:CO-PSCtrl-8:IN  # correctors
+AS-06:TI-AFC:FMC2CH4              SI-06:CO-PSCtrl-9:IN  # skew quad
+AS-06:TI-AFC:FMC2CH5              SI-06:CO-PSCtrl-10:IN # skew quad
 
 ##AFC from Sector 07
-AS-07:TI-AFC:FMC1CH1              SI-07:CO-BBB-1:IN  # QFP, QDP1, QDP2
-AS-07:TI-AFC:FMC1CH2              SI-07:CO-BBB-2:IN  # QFP, QDP1, QDP2
-AS-07:TI-AFC:FMC1CH3              SI-07:CO-BBB-3:IN  # Q1, ..., Q4
-AS-07:TI-AFC:FMC1CH4              SI-07:CO-BBB-4:IN  # Q1, ..., Q4
-AS-07:TI-AFC:FMC1CH5              SI-07:CO-BBB-5:IN  # correctors
-AS-07:TI-AFC:FMC2CH1              SI-07:CO-BBB-6:IN  # correctors
-AS-07:TI-AFC:FMC2CH2              SI-07:CO-BBB-7:IN  # correctors
-AS-07:TI-AFC:FMC2CH3              SI-07:CO-BBB-8:IN  # correctors
-AS-07:TI-AFC:FMC2CH4              SI-07:CO-BBB-9:IN  # skew quad
-AS-07:TI-AFC:FMC2CH5              SI-07:CO-BBB-10:IN # skew quad
-AS-07:TI-AFC:FMC3CH1              BO-07:CO-BBB:IN  # BO correctors
+AS-07:TI-AFC:FMC1CH1              SI-07:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
+AS-07:TI-AFC:FMC1CH2              SI-07:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
+AS-07:TI-AFC:FMC1CH3              SI-07:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-07:TI-AFC:FMC1CH4              SI-07:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-07:TI-AFC:FMC1CH5              SI-07:CO-PSCtrl-5:IN  # correctors
+AS-07:TI-AFC:FMC2CH1              SI-07:CO-PSCtrl-6:IN  # correctors
+AS-07:TI-AFC:FMC2CH2              SI-07:CO-PSCtrl-7:IN  # correctors
+AS-07:TI-AFC:FMC2CH3              SI-07:CO-PSCtrl-8:IN  # correctors
+AS-07:TI-AFC:FMC2CH4              SI-07:CO-PSCtrl-9:IN  # skew quad
+AS-07:TI-AFC:FMC2CH5              SI-07:CO-PSCtrl-10:IN # skew quad
+AS-07:TI-AFC:FMC3CH1              BO-07:CO-PSCtrl:IN  # BO correctors
 
 ##AFC from Sector 08
-AS-08:TI-AFC:FMC1CH1              SI-08:CO-BBB-1:IN  # QFB, QDB1, QDB2
-AS-08:TI-AFC:FMC1CH2              SI-08:CO-BBB-2:IN  # QFB, QDB1, QDB2
-AS-08:TI-AFC:FMC1CH3              SI-08:CO-BBB-3:IN  # Q1, ..., Q4
-AS-08:TI-AFC:FMC1CH4              SI-08:CO-BBB-4:IN  # Q1, ..., Q4
-AS-08:TI-AFC:FMC1CH5              SI-08:CO-BBB-5:IN  # correctors
-AS-08:TI-AFC:FMC2CH1              SI-08:CO-BBB-6:IN  # correctors
-AS-08:TI-AFC:FMC2CH2              SI-08:CO-BBB-7:IN  # correctors
-AS-08:TI-AFC:FMC2CH3              SI-08:CO-BBB-8:IN  # correctors
-AS-08:TI-AFC:FMC2CH4              SI-08:CO-BBB-9:IN  # skew quad
-AS-08:TI-AFC:FMC2CH5              SI-08:CO-BBB-10:IN # skew quad
-AS-08:TI-AFC:FMC3CH1              BO-08:CO-BBB:IN  # BO correctors
+AS-08:TI-AFC:FMC1CH1              SI-08:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+AS-08:TI-AFC:FMC1CH2              SI-08:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+AS-08:TI-AFC:FMC1CH3              SI-08:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-08:TI-AFC:FMC1CH4              SI-08:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-08:TI-AFC:FMC1CH5              SI-08:CO-PSCtrl-5:IN  # correctors
+AS-08:TI-AFC:FMC2CH1              SI-08:CO-PSCtrl-6:IN  # correctors
+AS-08:TI-AFC:FMC2CH2              SI-08:CO-PSCtrl-7:IN  # correctors
+AS-08:TI-AFC:FMC2CH3              SI-08:CO-PSCtrl-8:IN  # correctors
+AS-08:TI-AFC:FMC2CH4              SI-08:CO-PSCtrl-9:IN  # skew quad
+AS-08:TI-AFC:FMC2CH5              SI-08:CO-PSCtrl-10:IN # skew quad
+AS-08:TI-AFC:FMC3CH1              BO-08:CO-PSCtrl:IN  # BO correctors
 
 ##AFC from Sector 09
-AS-09:TI-AFC:FMC1CH1              SI-09:CO-BBB-1:IN  # QFA ,QDA
-AS-09:TI-AFC:FMC1CH3              SI-09:CO-BBB-3:IN  # Q1, ..., Q4
-AS-09:TI-AFC:FMC1CH4              SI-09:CO-BBB-4:IN  # Q1, ..., Q4
-AS-09:TI-AFC:FMC1CH5              SI-09:CO-BBB-5:IN  # correctors
-AS-09:TI-AFC:FMC2CH1              SI-09:CO-BBB-6:IN  # correctors
-AS-09:TI-AFC:FMC2CH2              SI-09:CO-BBB-7:IN  # correctors
-AS-09:TI-AFC:FMC2CH3              SI-09:CO-BBB-8:IN  # correctors
-AS-09:TI-AFC:FMC2CH4              SI-09:CO-BBB-9:IN  # skew quad
-AS-09:TI-AFC:FMC2CH5              SI-09:CO-BBB-10:IN # skew quad
-AS-09:TI-AFC:FMC3CH1              BO-09:CO-BBB:IN    # BO correctors
+AS-09:TI-AFC:FMC1CH1              SI-09:CO-PSCtrl-1:IN  # QFA ,QDA
+AS-09:TI-AFC:FMC1CH3              SI-09:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-09:TI-AFC:FMC1CH4              SI-09:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-09:TI-AFC:FMC1CH5              SI-09:CO-PSCtrl-5:IN  # correctors
+AS-09:TI-AFC:FMC2CH1              SI-09:CO-PSCtrl-6:IN  # correctors
+AS-09:TI-AFC:FMC2CH2              SI-09:CO-PSCtrl-7:IN  # correctors
+AS-09:TI-AFC:FMC2CH3              SI-09:CO-PSCtrl-8:IN  # correctors
+AS-09:TI-AFC:FMC2CH4              SI-09:CO-PSCtrl-9:IN  # skew quad
+AS-09:TI-AFC:FMC2CH5              SI-09:CO-PSCtrl-10:IN # skew quad
+AS-09:TI-AFC:FMC3CH1              BO-09:CO-PSCtrl:IN    # BO correctors
 
 ##AFC from Sector 10
-AS-10:TI-AFC:FMC1CH1              SI-10:CO-BBB-1:IN  # QFB, QDB1, QDB2
-AS-10:TI-AFC:FMC1CH2              SI-10:CO-BBB-2:IN  # QFB, QDB1, QDB2
-AS-10:TI-AFC:FMC1CH3              SI-10:CO-BBB-3:IN  # Q1, ..., Q4
-AS-10:TI-AFC:FMC1CH4              SI-10:CO-BBB-4:IN  # Q1, ..., Q4
-AS-10:TI-AFC:FMC1CH5              SI-10:CO-BBB-5:IN  # correctors
-AS-10:TI-AFC:FMC2CH1              SI-10:CO-BBB-6:IN  # correctors
-AS-10:TI-AFC:FMC2CH2              SI-10:CO-BBB-7:IN  # correctors
-AS-10:TI-AFC:FMC2CH3              SI-10:CO-BBB-8:IN  # correctors
-AS-10:TI-AFC:FMC2CH4              SI-10:CO-BBB-9:IN  # skew quad
-AS-10:TI-AFC:FMC2CH5              SI-10:CO-BBB-10:IN # skew quad
+AS-10:TI-AFC:FMC1CH1              SI-10:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+AS-10:TI-AFC:FMC1CH2              SI-10:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+AS-10:TI-AFC:FMC1CH3              SI-10:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-10:TI-AFC:FMC1CH4              SI-10:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-10:TI-AFC:FMC1CH5              SI-10:CO-PSCtrl-5:IN  # correctors
+AS-10:TI-AFC:FMC2CH1              SI-10:CO-PSCtrl-6:IN  # correctors
+AS-10:TI-AFC:FMC2CH2              SI-10:CO-PSCtrl-7:IN  # correctors
+AS-10:TI-AFC:FMC2CH3              SI-10:CO-PSCtrl-8:IN  # correctors
+AS-10:TI-AFC:FMC2CH4              SI-10:CO-PSCtrl-9:IN  # skew quad
+AS-10:TI-AFC:FMC2CH5              SI-10:CO-PSCtrl-10:IN # skew quad
 
 ##AFC from Sector 11
-AS-11:TI-AFC:FMC1CH1              SI-11:CO-BBB-1:IN  # QFP, QDP1, QDP2
-AS-11:TI-AFC:FMC1CH2              SI-11:CO-BBB-2:IN  # QFP, QDP1, QDP2
-AS-11:TI-AFC:FMC1CH3              SI-11:CO-BBB-3:IN  # Q1, ..., Q4
-AS-11:TI-AFC:FMC1CH4              SI-11:CO-BBB-4:IN  # Q1, ..., Q4
-AS-11:TI-AFC:FMC1CH5              SI-11:CO-BBB-5:IN  # correctors
-AS-11:TI-AFC:FMC2CH1              SI-11:CO-BBB-6:IN  # correctors
-AS-11:TI-AFC:FMC2CH2              SI-11:CO-BBB-7:IN  # correctors
-AS-11:TI-AFC:FMC2CH3              SI-11:CO-BBB-8:IN  # correctors
-AS-11:TI-AFC:FMC2CH4              SI-11:CO-BBB-9:IN  # skew quad
-AS-11:TI-AFC:FMC2CH5              SI-11:CO-BBB-10:IN # skew quad
-AS-11:TI-AFC:FMC3CH1              BO-11:CO-BBB:IN  # BO correctors
+AS-11:TI-AFC:FMC1CH1              SI-11:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
+AS-11:TI-AFC:FMC1CH2              SI-11:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
+AS-11:TI-AFC:FMC1CH3              SI-11:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-11:TI-AFC:FMC1CH4              SI-11:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-11:TI-AFC:FMC1CH5              SI-11:CO-PSCtrl-5:IN  # correctors
+AS-11:TI-AFC:FMC2CH1              SI-11:CO-PSCtrl-6:IN  # correctors
+AS-11:TI-AFC:FMC2CH2              SI-11:CO-PSCtrl-7:IN  # correctors
+AS-11:TI-AFC:FMC2CH3              SI-11:CO-PSCtrl-8:IN  # correctors
+AS-11:TI-AFC:FMC2CH4              SI-11:CO-PSCtrl-9:IN  # skew quad
+AS-11:TI-AFC:FMC2CH5              SI-11:CO-PSCtrl-10:IN # skew quad
+AS-11:TI-AFC:FMC3CH1              BO-11:CO-PSCtrl:IN  # BO correctors
 
 ##AFC from Sector 12
-AS-12:TI-AFC:FMC1CH1              SI-12:CO-BBB-1:IN  # QFB, QDB1, QDB2
-AS-12:TI-AFC:FMC1CH2              SI-12:CO-BBB-2:IN  # QFB, QDB1, QDB2
-AS-12:TI-AFC:FMC1CH3              SI-12:CO-BBB-3:IN  # Q1, ..., Q4
-AS-12:TI-AFC:FMC1CH4              SI-12:CO-BBB-4:IN  # Q1, ..., Q4
-AS-12:TI-AFC:FMC1CH5              SI-12:CO-BBB-5:IN  # correctors
-AS-12:TI-AFC:FMC2CH1              SI-12:CO-BBB-6:IN  # correctors
-AS-12:TI-AFC:FMC2CH2              SI-12:CO-BBB-7:IN  # correctors
-AS-12:TI-AFC:FMC2CH3              SI-12:CO-BBB-8:IN  # correctors
-AS-12:TI-AFC:FMC2CH4              SI-12:CO-BBB-9:IN  # skew quad
-AS-12:TI-AFC:FMC2CH5              SI-12:CO-BBB-10:IN # skew quad
+AS-12:TI-AFC:FMC1CH1              SI-12:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+AS-12:TI-AFC:FMC1CH2              SI-12:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+AS-12:TI-AFC:FMC1CH3              SI-12:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-12:TI-AFC:FMC1CH4              SI-12:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-12:TI-AFC:FMC1CH5              SI-12:CO-PSCtrl-5:IN  # correctors
+AS-12:TI-AFC:FMC2CH1              SI-12:CO-PSCtrl-6:IN  # correctors
+AS-12:TI-AFC:FMC2CH2              SI-12:CO-PSCtrl-7:IN  # correctors
+AS-12:TI-AFC:FMC2CH3              SI-12:CO-PSCtrl-8:IN  # correctors
+AS-12:TI-AFC:FMC2CH4              SI-12:CO-PSCtrl-9:IN  # skew quad
+AS-12:TI-AFC:FMC2CH5              SI-12:CO-PSCtrl-10:IN # skew quad
 
 ##AFC from Sector 13
-AS-13:TI-AFC:FMC1CH1              SI-13:CO-BBB-1:IN  # QFA ,QDA
-AS-13:TI-AFC:FMC1CH3              SI-13:CO-BBB-3:IN  # Q1, ..., Q4
-AS-13:TI-AFC:FMC1CH4              SI-13:CO-BBB-4:IN  # Q1, ..., Q4
-AS-13:TI-AFC:FMC1CH5              SI-13:CO-BBB-5:IN  # correctors
-AS-13:TI-AFC:FMC2CH1              SI-13:CO-BBB-6:IN  # correctors
-AS-13:TI-AFC:FMC2CH2              SI-13:CO-BBB-7:IN  # correctors
-AS-13:TI-AFC:FMC2CH3              SI-13:CO-BBB-8:IN  # correctors
-AS-13:TI-AFC:FMC2CH4              SI-13:CO-BBB-9:IN  # skew quad
-AS-13:TI-AFC:FMC2CH5              SI-13:CO-BBB-10:IN # skew quad
-AS-13:TI-AFC:FMC3CH1              BO-13:CO-BBB:IN    # BO correctors
+AS-13:TI-AFC:FMC1CH1              SI-13:CO-PSCtrl-1:IN  # QFA ,QDA
+AS-13:TI-AFC:FMC1CH3              SI-13:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-13:TI-AFC:FMC1CH4              SI-13:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-13:TI-AFC:FMC1CH5              SI-13:CO-PSCtrl-5:IN  # correctors
+AS-13:TI-AFC:FMC2CH1              SI-13:CO-PSCtrl-6:IN  # correctors
+AS-13:TI-AFC:FMC2CH2              SI-13:CO-PSCtrl-7:IN  # correctors
+AS-13:TI-AFC:FMC2CH3              SI-13:CO-PSCtrl-8:IN  # correctors
+AS-13:TI-AFC:FMC2CH4              SI-13:CO-PSCtrl-9:IN  # skew quad
+AS-13:TI-AFC:FMC2CH5              SI-13:CO-PSCtrl-10:IN # skew quad
+AS-13:TI-AFC:FMC3CH1              BO-13:CO-PSCtrl:IN    # BO correctors
 
 ##AFC from Sector 14
-AS-14:TI-AFC:FMC1CH1              SI-14:CO-BBB-1:IN  # QFB, QDB1, QDB2
-AS-14:TI-AFC:FMC1CH2              SI-14:CO-BBB-2:IN  # QFB, QDB1, QDB2
-AS-14:TI-AFC:FMC1CH3              SI-14:CO-BBB-3:IN  # Q1, ..., Q4
-AS-14:TI-AFC:FMC1CH4              SI-14:CO-BBB-4:IN  # Q1, ..., Q4
-AS-14:TI-AFC:FMC1CH5              SI-14:CO-BBB-5:IN  # correctors
-AS-14:TI-AFC:FMC2CH1              SI-14:CO-BBB-6:IN  # correctors
-AS-14:TI-AFC:FMC2CH2              SI-14:CO-BBB-7:IN  # correctors
-AS-14:TI-AFC:FMC2CH3              SI-14:CO-BBB-8:IN  # correctors
-AS-14:TI-AFC:FMC2CH4              SI-14:CO-BBB-9:IN  # skew quad
-AS-14:TI-AFC:FMC2CH5              SI-14:CO-BBB-10:IN # skew quad
-AS-14:TI-AFC:FMC3CH1              BO-14:CO-BBB:IN  # BO correctors
+AS-14:TI-AFC:FMC1CH1              SI-14:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+AS-14:TI-AFC:FMC1CH2              SI-14:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+AS-14:TI-AFC:FMC1CH3              SI-14:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-14:TI-AFC:FMC1CH4              SI-14:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-14:TI-AFC:FMC1CH5              SI-14:CO-PSCtrl-5:IN  # correctors
+AS-14:TI-AFC:FMC2CH1              SI-14:CO-PSCtrl-6:IN  # correctors
+AS-14:TI-AFC:FMC2CH2              SI-14:CO-PSCtrl-7:IN  # correctors
+AS-14:TI-AFC:FMC2CH3              SI-14:CO-PSCtrl-8:IN  # correctors
+AS-14:TI-AFC:FMC2CH4              SI-14:CO-PSCtrl-9:IN  # skew quad
+AS-14:TI-AFC:FMC2CH5              SI-14:CO-PSCtrl-10:IN # skew quad
+AS-14:TI-AFC:FMC3CH1              BO-14:CO-PSCtrl:IN  # BO correctors
 
 ##AFC from Sector 15
-AS-15:TI-AFC:FMC1CH1              SI-15:CO-BBB-1:IN  # QFP, QDP1, QDP2
-AS-15:TI-AFC:FMC1CH2              SI-15:CO-BBB-2:IN  # QFP, QDP1, QDP2
-AS-15:TI-AFC:FMC1CH3              SI-15:CO-BBB-3:IN  # Q1, ..., Q4
-AS-15:TI-AFC:FMC1CH4              SI-15:CO-BBB-4:IN  # Q1, ..., Q4
-AS-15:TI-AFC:FMC1CH5              SI-15:CO-BBB-5:IN  # correctors
-AS-15:TI-AFC:FMC2CH1              SI-15:CO-BBB-6:IN  # correctors
-AS-15:TI-AFC:FMC2CH2              SI-15:CO-BBB-7:IN  # correctors
-AS-15:TI-AFC:FMC2CH3              SI-15:CO-BBB-8:IN  # correctors
-AS-15:TI-AFC:FMC2CH4              SI-15:CO-BBB-9:IN  # skew quad
-AS-15:TI-AFC:FMC2CH5              SI-15:CO-BBB-10:IN # skew quad
+AS-15:TI-AFC:FMC1CH1              SI-15:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
+AS-15:TI-AFC:FMC1CH2              SI-15:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
+AS-15:TI-AFC:FMC1CH3              SI-15:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-15:TI-AFC:FMC1CH4              SI-15:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-15:TI-AFC:FMC1CH5              SI-15:CO-PSCtrl-5:IN  # correctors
+AS-15:TI-AFC:FMC2CH1              SI-15:CO-PSCtrl-6:IN  # correctors
+AS-15:TI-AFC:FMC2CH2              SI-15:CO-PSCtrl-7:IN  # correctors
+AS-15:TI-AFC:FMC2CH3              SI-15:CO-PSCtrl-8:IN  # correctors
+AS-15:TI-AFC:FMC2CH4              SI-15:CO-PSCtrl-9:IN  # skew quad
+AS-15:TI-AFC:FMC2CH5              SI-15:CO-PSCtrl-10:IN # skew quad
 
 ##AFC from Sector 16
-AS-16:TI-AFC:FMC1CH1              SI-16:CO-BBB-1:IN  # QFB, QDB1, QDB2
-AS-16:TI-AFC:FMC1CH2              SI-16:CO-BBB-2:IN  # QFB, QDB1, QDB2
-AS-16:TI-AFC:FMC1CH3              SI-16:CO-BBB-3:IN  # Q1, ..., Q4
-AS-16:TI-AFC:FMC1CH4              SI-16:CO-BBB-4:IN  # Q1, ..., Q4
-AS-16:TI-AFC:FMC1CH5              SI-16:CO-BBB-5:IN  # correctors
-AS-16:TI-AFC:FMC2CH1              SI-16:CO-BBB-6:IN  # correctors
-AS-16:TI-AFC:FMC2CH2              SI-16:CO-BBB-7:IN  # correctors
-AS-16:TI-AFC:FMC2CH3              SI-16:CO-BBB-8:IN  # correctors
-AS-16:TI-AFC:FMC2CH4              SI-16:CO-BBB-9:IN  # skew quad
-AS-16:TI-AFC:FMC2CH5              SI-16:CO-BBB-10:IN # skew quad
-AS-16:TI-AFC:FMC3CH1              BO-16:CO-BBB:IN  # BO correctors
+AS-16:TI-AFC:FMC1CH1              SI-16:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+AS-16:TI-AFC:FMC1CH2              SI-16:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+AS-16:TI-AFC:FMC1CH3              SI-16:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-16:TI-AFC:FMC1CH4              SI-16:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-16:TI-AFC:FMC1CH5              SI-16:CO-PSCtrl-5:IN  # correctors
+AS-16:TI-AFC:FMC2CH1              SI-16:CO-PSCtrl-6:IN  # correctors
+AS-16:TI-AFC:FMC2CH2              SI-16:CO-PSCtrl-7:IN  # correctors
+AS-16:TI-AFC:FMC2CH3              SI-16:CO-PSCtrl-8:IN  # correctors
+AS-16:TI-AFC:FMC2CH4              SI-16:CO-PSCtrl-9:IN  # skew quad
+AS-16:TI-AFC:FMC2CH5              SI-16:CO-PSCtrl-10:IN # skew quad
+AS-16:TI-AFC:FMC3CH1              BO-16:CO-PSCtrl:IN  # BO correctors
 
 ##AFC from Sector 17
-AS-17:TI-AFC:FMC1CH1              SI-17:CO-BBB-1:IN  # QFA ,QDA
-AS-17:TI-AFC:FMC1CH3              SI-17:CO-BBB-3:IN  # Q1, ..., Q4
-AS-17:TI-AFC:FMC1CH4              SI-17:CO-BBB-4:IN  # Q1, ..., Q4
-AS-17:TI-AFC:FMC1CH5              SI-17:CO-BBB-5:IN  # correctors
-AS-17:TI-AFC:FMC2CH1              SI-17:CO-BBB-6:IN  # correctors
-AS-17:TI-AFC:FMC2CH2              SI-17:CO-BBB-7:IN  # correctors
-AS-17:TI-AFC:FMC2CH3              SI-17:CO-BBB-8:IN  # correctors
-AS-17:TI-AFC:FMC2CH4              SI-17:CO-BBB-9:IN  # skew quad
-AS-17:TI-AFC:FMC2CH5              SI-17:CO-BBB-10:IN # skew quad
-AS-17:TI-AFC:FMC3CH1              BO-17:CO-BBB:IN    # BO correctors
+AS-17:TI-AFC:FMC1CH1              SI-17:CO-PSCtrl-1:IN  # QFA ,QDA
+AS-17:TI-AFC:FMC1CH3              SI-17:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-17:TI-AFC:FMC1CH4              SI-17:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-17:TI-AFC:FMC1CH5              SI-17:CO-PSCtrl-5:IN  # correctors
+AS-17:TI-AFC:FMC2CH1              SI-17:CO-PSCtrl-6:IN  # correctors
+AS-17:TI-AFC:FMC2CH2              SI-17:CO-PSCtrl-7:IN  # correctors
+AS-17:TI-AFC:FMC2CH3              SI-17:CO-PSCtrl-8:IN  # correctors
+AS-17:TI-AFC:FMC2CH4              SI-17:CO-PSCtrl-9:IN  # skew quad
+AS-17:TI-AFC:FMC2CH5              SI-17:CO-PSCtrl-10:IN # skew quad
+AS-17:TI-AFC:FMC3CH1              BO-17:CO-PSCtrl:IN    # BO correctors
 
 ##AFC from Sector 18
-AS-18:TI-AFC:FMC1CH1              SI-18:CO-BBB-1:IN  # QFB, QDB1, QDB2
-AS-18:TI-AFC:FMC1CH2              SI-18:CO-BBB-2:IN  # QFB, QDB1, QDB2
-AS-18:TI-AFC:FMC1CH3              SI-18:CO-BBB-3:IN  # Q1, ..., Q4
-AS-18:TI-AFC:FMC1CH4              SI-18:CO-BBB-4:IN  # Q1, ..., Q4
-AS-18:TI-AFC:FMC1CH5              SI-18:CO-BBB-5:IN  # correctors
-AS-18:TI-AFC:FMC2CH1              SI-18:CO-BBB-6:IN  # correctors
-AS-18:TI-AFC:FMC2CH2              SI-18:CO-BBB-7:IN  # correctors
-AS-18:TI-AFC:FMC2CH3              SI-18:CO-BBB-8:IN  # correctors
-AS-18:TI-AFC:FMC2CH4              SI-18:CO-BBB-9:IN  # skew quad
-AS-18:TI-AFC:FMC2CH5              SI-18:CO-BBB-10:IN # skew quad
+AS-18:TI-AFC:FMC1CH1              SI-18:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+AS-18:TI-AFC:FMC1CH2              SI-18:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+AS-18:TI-AFC:FMC1CH3              SI-18:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-18:TI-AFC:FMC1CH4              SI-18:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-18:TI-AFC:FMC1CH5              SI-18:CO-PSCtrl-5:IN  # correctors
+AS-18:TI-AFC:FMC2CH1              SI-18:CO-PSCtrl-6:IN  # correctors
+AS-18:TI-AFC:FMC2CH2              SI-18:CO-PSCtrl-7:IN  # correctors
+AS-18:TI-AFC:FMC2CH3              SI-18:CO-PSCtrl-8:IN  # correctors
+AS-18:TI-AFC:FMC2CH4              SI-18:CO-PSCtrl-9:IN  # skew quad
+AS-18:TI-AFC:FMC2CH5              SI-18:CO-PSCtrl-10:IN # skew quad
 
 ##AFC from Sector 19
-AS-19:TI-AFC:FMC1CH1              SI-19:CO-BBB-1:IN  # QFP, QDP1, QDP2
-AS-19:TI-AFC:FMC1CH2              SI-19:CO-BBB-2:IN  # QFP, QDP1, QDP2
-AS-19:TI-AFC:FMC1CH3              SI-19:CO-BBB-3:IN  # Q1, ..., Q4
-AS-19:TI-AFC:FMC1CH4              SI-19:CO-BBB-4:IN  # Q1, ..., Q4
-AS-19:TI-AFC:FMC1CH5              SI-19:CO-BBB-5:IN  # correctors
-AS-19:TI-AFC:FMC2CH1              SI-19:CO-BBB-6:IN  # correctors
-AS-19:TI-AFC:FMC2CH2              SI-19:CO-BBB-7:IN  # correctors
-AS-19:TI-AFC:FMC2CH3              SI-19:CO-BBB-8:IN  # correctors
-AS-19:TI-AFC:FMC2CH4              SI-19:CO-BBB-9:IN  # skew quad
-AS-19:TI-AFC:FMC2CH5              SI-19:CO-BBB-10:IN # skew quad
-AS-19:TI-AFC:FMC3CH1              BO-19:CO-BBB:IN  # BO correctors
+AS-19:TI-AFC:FMC1CH1              SI-19:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
+AS-19:TI-AFC:FMC1CH2              SI-19:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
+AS-19:TI-AFC:FMC1CH3              SI-19:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-19:TI-AFC:FMC1CH4              SI-19:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-19:TI-AFC:FMC1CH5              SI-19:CO-PSCtrl-5:IN  # correctors
+AS-19:TI-AFC:FMC2CH1              SI-19:CO-PSCtrl-6:IN  # correctors
+AS-19:TI-AFC:FMC2CH2              SI-19:CO-PSCtrl-7:IN  # correctors
+AS-19:TI-AFC:FMC2CH3              SI-19:CO-PSCtrl-8:IN  # correctors
+AS-19:TI-AFC:FMC2CH4              SI-19:CO-PSCtrl-9:IN  # skew quad
+AS-19:TI-AFC:FMC2CH5              SI-19:CO-PSCtrl-10:IN # skew quad
+AS-19:TI-AFC:FMC3CH1              BO-19:CO-PSCtrl:IN  # BO correctors
 
 ##AFC from Sector 20
-AS-20:TI-AFC:FMC1CH1              SI-20:CO-BBB-1:IN  # QFB, QDB1, QDB2
-AS-20:TI-AFC:FMC1CH2              SI-20:CO-BBB-2:IN  # QFB, QDB1, QDB2
-AS-20:TI-AFC:FMC1CH3              SI-20:CO-BBB-3:IN  # Q1, ..., Q4
-AS-20:TI-AFC:FMC1CH4              SI-20:CO-BBB-4:IN  # Q1, ..., Q4
-AS-20:TI-AFC:FMC1CH5              SI-20:CO-BBB-5:IN  # correctors
-AS-20:TI-AFC:FMC2CH1              SI-20:CO-BBB-6:IN  # correctors
-AS-20:TI-AFC:FMC2CH2              SI-20:CO-BBB-7:IN  # correctors
-AS-20:TI-AFC:FMC2CH3              SI-20:CO-BBB-8:IN  # correctors
-AS-20:TI-AFC:FMC2CH4              SI-20:CO-BBB-9:IN  # skew quad
-AS-20:TI-AFC:FMC2CH5              SI-20:CO-BBB-10:IN # skew quad
+AS-20:TI-AFC:FMC1CH1              SI-20:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+AS-20:TI-AFC:FMC1CH2              SI-20:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+AS-20:TI-AFC:FMC1CH3              SI-20:CO-PSCtrl-3:IN  # Q1, ..., Q4
+AS-20:TI-AFC:FMC1CH4              SI-20:CO-PSCtrl-4:IN  # Q1, ..., Q4
+AS-20:TI-AFC:FMC1CH5              SI-20:CO-PSCtrl-5:IN  # correctors
+AS-20:TI-AFC:FMC2CH1              SI-20:CO-PSCtrl-6:IN  # correctors
+AS-20:TI-AFC:FMC2CH2              SI-20:CO-PSCtrl-7:IN  # correctors
+AS-20:TI-AFC:FMC2CH3              SI-20:CO-PSCtrl-8:IN  # correctors
+AS-20:TI-AFC:FMC2CH4              SI-20:CO-PSCtrl-9:IN  # skew quad
+AS-20:TI-AFC:FMC2CH5              SI-20:CO-PSCtrl-10:IN # skew quad
 
 ##AFCs to BPMs
 AS-01:TI-AFC:CRT0                  AS-01:CO-Crate:CRT0
