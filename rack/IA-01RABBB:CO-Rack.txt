@@ -1,7 +1,0 @@
-# Rack
-# ====
-#
-# Each line corresponds to a device located in the rack.
-# [type TYPE1]
-
-SI-Glob:CO-BBB-2
