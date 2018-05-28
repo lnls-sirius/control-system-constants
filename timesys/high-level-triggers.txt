@@ -359,31 +359,6 @@ HL_TRIGGS = {
         'SI-Fam:PS-SDP3:RSIO',
         ),
     },
- 'BO-Glob:TI-Dip:': {
-    'database': {
-      'Src': {
-        'value': 0,
-        'enums': ('RmpBO', 'Study'),
-        },
-      'Delay': {
-        'value': 0.0,
-        'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-      'DelayType': {'value': 0, 'states': (0, 1)},
-      'NrPulses': {
-        'value': 4000,
-        'hilim': 4001, 'high': 4001, 'hihi': 4001},
-      'Duration': {
-        'value': 490,
-        'lolim': 485, 'low': 485, 'lolo': 480,
-        'hilim': 495, 'high': 495, 'hihi': 500},
-      'State': {'value': 0},
-      'ByPassIntlk': {'value': 0},
-      'Polarity': {'value': 1, 'states': (1, 0)},
-      },
-    'channels': (
-        'BO-Fam:PS-B-1:RSIO', 'BO-Fam:PS-B-2:RSIO',
-        ),
-    },
  'BO-Glob:TI-Mags:': {
     'database': {
       'Src': {
@@ -406,7 +381,7 @@ HL_TRIGGS = {
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
-        # 'BO-Fam:PS-B-1:RSIO', 'BO-Fam:PS-B-2:RSIO',
+        'BO-Fam:PS-B-1:RSIO', 'BO-Fam:PS-B-2:RSIO',
         'BO-Fam:PS-QF:RSIO', 'BO-Fam:PS-QD:RSIO',
         'BO-Fam:PS-SF:RSIO', 'BO-Fam:PS-SD:RSIO',
         'BO-01U:PS-CH:RSIO', 'BO-01U:PS-CV:RSIO', 'BO-03U:PS-CH:RSIO',
