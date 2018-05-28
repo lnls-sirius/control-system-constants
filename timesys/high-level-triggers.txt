@@ -16,7 +16,7 @@ HL_TRIGGS = {
         'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -137,7 +137,7 @@ HL_TRIGGS = {
         'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -261,7 +261,7 @@ HL_TRIGGS = {
         'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -322,7 +322,7 @@ HL_TRIGGS = {
         'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -344,7 +344,7 @@ HL_TRIGGS = {
         'hilim': 4001, 'high': 4001, 'hihi': 4001},
       'Duration': {'value': 2000},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -377,7 +377,7 @@ HL_TRIGGS = {
         'lolim': 485, 'low': 485, 'lolo': 480,
         'hilim': 495, 'high': 495, 'hihi': 500},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -402,7 +402,7 @@ HL_TRIGGS = {
         'lolim': 485, 'low': 485, 'lolo': 480,
         'hilim': 495, 'high': 495, 'hihi': 500},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -448,7 +448,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -471,7 +471,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -494,7 +494,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -517,7 +517,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -540,7 +540,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -563,7 +563,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -586,7 +586,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -609,7 +609,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -632,7 +632,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -655,7 +655,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -678,7 +678,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -701,7 +701,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -724,7 +724,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -747,7 +747,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -770,7 +770,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -793,7 +793,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -816,7 +816,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -839,7 +839,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -862,7 +862,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -885,7 +885,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -908,7 +908,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -931,7 +931,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -954,7 +954,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -979,7 +979,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1003,7 +1003,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1026,7 +1026,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1049,7 +1049,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1072,7 +1072,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1119,7 +1119,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1143,7 +1143,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1166,7 +1166,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1189,7 +1189,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1212,7 +1212,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1235,7 +1235,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1259,7 +1259,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1283,7 +1283,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1306,7 +1306,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1329,7 +1329,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1352,7 +1352,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1375,7 +1375,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1398,7 +1398,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1421,7 +1421,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1444,7 +1444,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1467,7 +1467,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1490,7 +1490,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1513,7 +1513,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1536,7 +1536,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1559,7 +1559,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1582,7 +1582,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
@@ -1605,7 +1605,7 @@ HL_TRIGGS = {
         'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
         'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
       'State': {'value': 0},
-      'Intlk': {'value': 0},
+      'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
       },
     'channels': (
