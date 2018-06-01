@@ -407,7 +407,7 @@ HL_TRIGGS = {
         'BO-02D:PS-QS:RSIO',
         ),
     },
- 'LI-01:TI-EGun:MultBun': {
+ 'LI-01:TI-EGunMultBun': {
     'database': {
       'Src': {
         'value': 0,
@@ -420,8 +420,8 @@ HL_TRIGGS = {
         'hilim': 2, 'high': 2, 'hihi': 2},
       'Duration': {
         'value': 0.15,
-        'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-        'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+        'lolim': 0.008, 'low': 0.008, 'lolo': 0.008,
+        'hilim': 0.3, 'high': 0.3, 'hihi': 0.4},
       'State': {'value': 0},
       'ByPassIntlk': {'value': 0},
       'Polarity': {'value': 1, 'states': (1, 0)},
@@ -430,7 +430,7 @@ HL_TRIGGS = {
         'LI-01:EGun-AmpMB:IN',
         ),
     },
- 'LI-01:TI-EGun:SglBun': {
+ 'LI-01:TI-EGunSglBun': {
     'database': {
       'Src': {
         'value': 0,
