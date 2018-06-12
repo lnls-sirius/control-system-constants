@@ -11,16 +11,8 @@
 #     the power supplies will be installed in the crate, from left to right.
 #     This is necessary due to how power supply controllers store BSMP
 #     "mirror variables" in the memory.
-#     (questions may be directed to ximenes @ xresende@gmail.com)
+#     (questions may be directed to xresende@gmail.com)
 
-
-# --- DC Links ---
-
-# Power supplies: BO-Fam:PS-SD BO-Fam:PS-SF BO-Fam:PS-QD
-BO-Glob:CO-PSCtrl-7    BO-Glob:PS-DCLinkFAC
-
-# Power supplies: BO-Fam:PS-QF
-BO-Glob:CO-PSCtrl-8    BO-Glob:PS-DCLinkFAC2S
 
 # Power supplies: BO-Fam:PS-B-1
 BO-Glob:CO-PSCtrl-9    BO-Glob:PS-DCLinkFAC2P4S-1
@@ -44,6 +36,15 @@ BO-Glob:CO-PSCtrl-3    BO-Fam:PS-QF
 BO-Glob:CO-PSCtrl-4    BO-Fam:PS-SD
 BO-Glob:CO-PSCtrl-5    BO-Fam:PS-SF
 BO-Glob:CO-PSCtrl-6    BO-Fam:PS-QD
+
+# <<< DCLinks >>>
+
+# Power supplies: BO-Fam:PS-SD BO-Fam:PS-SF BO-Fam:PS-QD
+BO-Glob:CO-PSCtrl-7    BO-Glob:PS-DCLinkFAC
+
+# Power supplies: BO-Fam:PS-QF
+BO-Glob:CO-PSCtrl-8    BO-Glob:PS-DCLinkFAC2S
+
 
 # --- Booster correctors
 
