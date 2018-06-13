@@ -8,15 +8,15 @@
 
 # --- Booster dipole, quandrupole and sextupole power supplies (FAC) (Slide 1)
 
-BO-Fam:PS-SD                  FAC
-BO-Fam:PS-SF                  FAC
-BO-Fam:PS-QD                  FAC
+BO-Fam:PS-SD                  FAC_DCDC
+BO-Fam:PS-SF                  FAC_DCDC
+BO-Fam:PS-QD                  FAC_DCDC
 BO-Glob:PS-DCLinkFAC          FAC_ACDC
 
-BO-Fam:PS-QF                  FAC_2S
+BO-Fam:PS-QF                  FAC_2S_DCDC
 BO-Glob:PS-DCLinkFAC2S        FAC_2S_ACDC
 
-BO-Fam:PS-B-1                 FAC_2P4S
+BO-Fam:PS-B-1                 FAC_2P4S_DCDC
 BO-Glob:PS-DCLinkFAC2P4S-1    FAC_2P4S_ACDC
 BO-Glob:PS-DCLinkFAC2P4S-2    FAC_2P4S_ACDC
 BO-Glob:PS-DCLinkFAC2P4S-3    FAC_2P4S_ACDC
@@ -26,7 +26,7 @@ BO-Glob:PS-DCLinkFAC2P4S-6    FAC_2P4S_ACDC
 BO-Glob:PS-DCLinkFAC2P4S-7    FAC_2P4S_ACDC
 BO-Glob:PS-DCLinkFAC2P4S-8    FAC_2P4S_ACDC
 
-BO-Fam:PS-B-2                 FAC_2P4S
+BO-Fam:PS-B-2                 FAC_2P4S_DCDC
 BO-Glob:PS-DCLinkFAC2P4S-9    FAC_2P4S_ACDC
 BO-Glob:PS-DCLinkFAC2P4S-10   FAC_2P4S_ACDC
 BO-Glob:PS-DCLinkFAC2P4S-11   FAC_2P4S_ACDC
@@ -41,8 +41,8 @@ BO-Glob:PS-DCLinkFAC2P4S-16   FAC_2P4S_ACDC
 
 TB-Fam:PS-B                   Commercial
 
-TS-Fam:PS-B                   FAP_4P
-TS-Fam:PS-B-Slave             FAP_4P_Slave
+TS-Fam:PS-B                   FAP_4P_MASTER
+TS-Fam:PS-B-Slave             FAP_4P_SLAVE
 
 TB-01:PS-QD1                  FBP
 TB-01:PS-QF1                  FBP
@@ -154,8 +154,8 @@ AS-Glob:PS-DCLinkFBP-2        FBP_DCLINK
 
 # --- Sirius Dipoles
 
-SI-Fam:PS-B1B2-1    FAP_2P2S
-SI-Fam:PS-B1B2-2    FAP_2P2S
+SI-Fam:PS-B1B2-1    FAP_2P2S_MASTER
+SI-Fam:PS-B1B2-2    FAP_2P2S_MASTER
 
 # --- Sirius Quadrupole Families
 
