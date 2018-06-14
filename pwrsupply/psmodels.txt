@@ -41,8 +41,8 @@ BO-Glob:PS-DCLinkFAC2P4S-16   FAC_2P4S_ACDC
 
 TB-Fam:PS-B                   Commercial
 
-TS-Fam:PS-B                   FAP_4P_MASTER
-TS-Fam:PS-B-Slave             FAP_4P_SLAVE
+TS-Fam:PS-B                   FAP_4P_Master
+TS-Fam:PS-B-Slave             FAP_4P_Slave
 
 TB-01:PS-QD1                  FBP
 TB-01:PS-QF1                  FBP
@@ -78,7 +78,7 @@ TS-04:PS-CH                   FBP
 TS-04:PS-CV-1                 FBP
 TS-04:PS-CV-2                 FBP
 
-AS-Glob:PS-DCLinkFBP-1        FBP_DCLINK
+AS-Glob:PS-DCLinkFBP-1        FBP_DCLink
 
 TS-01:PS-QF1A                 FAP
 TS-01:PS-QF1B                 FAP
@@ -146,7 +146,7 @@ BO-49U:PS-CV                  FBP
 
 BO-02D:PS-QS	                FBP
 
-AS-Glob:PS-DCLinkFBP-2        FBP_DCLINK
+AS-Glob:PS-DCLinkFBP-2        FBP_DCLink
 
 
 
