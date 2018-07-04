@@ -6,7 +6,7 @@ import os
 import numpy as np
 
 from siriuspy import envars
-
+from siriuspy.ramp import util as _rutil
 
 class RotCoilData:
     """Rotating coild data."""
@@ -95,7 +95,10 @@ class RotCoilData:
         self.intmpole_normal_avg = list()
         self.intmpole_skew_avg = list()
         n1 = lines.index('##### Reading Data #####') + 3
-        n2 = lines.index('##### Raw Data Stored(V.s) [1e-12] #####') - 5
+        try:
+            n2 = lines.index('##### Raw Data Stored(V.s) [1e-12] #####') - 5
+        except ValueError:
+            n2 = lines.index('##### Raw Data Stored(V.s) #####') - 5
         for i in range(n1, n2):
             words = lines[i].replace('\t', ' ').strip().split()
             n = int(words[0])
@@ -127,6 +130,11 @@ class RotCoilMeas:
     def data_sets(self):
         """Return list of data set."""
         return self._get_data_sets()
+
+    @property
+    def get_nominal_main_intmpole_values(self, energy):
+        """Nominal integrated main multipole."""
+        return self.nominal_KL_values
 
     def get_data_set_measurements(self, data_set):
         """."""
@@ -219,11 +227,19 @@ class RotCoilMeas:
             for file in files:
                 path = self._get_data_path()
                 path += '/' + data_set + '/' + file
-                meas = RotCoilData(path)
+                try:
+                    meas = RotCoilData(path)
+                except:
+                    print('Error while trying to read {}'.format(path))
+                    raise
                 tstamps.append(meas.hour)
                 mdata.append(meas)
-            # sort by timestamp
-            dataset_datum = [d for _, d in sorted(zip(tstamps, mdata))]
+            if self.magnet_type_label == 'Q14' and self.serial_number == '060':
+                dataset_datum = self._sort_Q14_060(mdata)
+            else:
+                # sort by timestamp
+                dataset_datum = [d for _, d in sorted(zip(tstamps, mdata))]
+            # dataset_datum = [d for _, d in sorted(zip(tstamps, mdata))]
             self._rotcoildata[data_set] = dataset_datum
         # check consistency of meas data
         self._check_measdata()
@@ -238,6 +254,42 @@ class RotCoilMeas:
                 else:
                     if d.harmonics != self.harmonics:
                         raise ValueError('Inconsistent parameter harmonics')
+
+    def _sort_Q14_060(self, mdata):
+        files = (
+            'Q14-060_Q_BOA_000.0A_180407_095148.dat',
+            'Q14-060_Q_BOA_002.0A_180407_095212.dat',
+            'Q14-060_Q_BOA_004.0A_180407_095236.dat',
+            'Q14-060_Q_BOA_006.0A_180407_095259.dat',
+            'Q14-060_Q_BOA_008.0A_180407_095323.dat',
+            'Q14-060_Q_BOA_010.0A_180407_095347.dat',
+            'Q14-060_Q_BOA_030.0A_180407_095412.dat',
+            'Q14-060_Q_BOA_050.0A_180407_095437.dat',
+            'Q14-060_Q_BOA_070.0A_180407_095502.dat',
+            'Q14-060_Q_BOA_090.0A_180407_095528.dat',
+            'Q14-060_Q_BOA_110.0A_180407_095553.dat',
+            'Q14-060_Q_BOA_130.0A_180407_095618.dat',
+            'Q14-060_Q_BOA_148.0A_180407_100443.dat',
+            'Q14-060_Q_BOA_130.0A_180407_095708.dat',
+            'Q14-060_Q_BOA_110.0A_180407_095734.dat',
+            'Q14-060_Q_BOA_090.0A_180407_095759.dat',
+            'Q14-060_Q_BOA_070.0A_180407_095824.dat',
+            'Q14-060_Q_BOA_050.0A_180407_095849.dat',
+            'Q14-060_Q_BOA_030.0A_180407_095914.dat',
+            'Q14-060_Q_BOA_010.0A_180407_095939.dat',
+            'Q14-060_Q_BOA_008.0A_180407_100003.dat',
+            'Q14-060_Q_BOA_006.0A_180407_100027.dat',
+            'Q14-060_Q_BOA_004.0A_180407_100050.dat',
+            'Q14-060_Q_BOA_002.0A_180407_100114.dat',
+            'Q14-060_Q_BOA_000.0A_180407_100137.dat',
+        )
+        dataset_datum = []
+        dfiles = [d.file for d in mdata]
+        for file in files:
+            idx = dfiles.index(file)
+            data = mdata[idx]
+            dataset_datum.append(data)
+        return dataset_datum
 
 
 class RotCoilMeas_SI(RotCoilMeas):
@@ -258,3 +310,12 @@ class RotCoilMeas_SIQuadQ14(RotCoilMeas_SI, RotCoilMeas_Quad):
 
     magnet_type_label = 'Q14'
     magnet_type_name = 'si-quadrupoles-q14'
+    magnet_hardedge_length = 0.14  # [m]
+    nominal_KL_values = {
+        'SI-Fam:MA-QDA': _rutil.NOMINAL_STRENGTHS['SI-Fam:MA-QDA'],
+        'SI-Fam:MA-QDB1': _rutil.NOMINAL_STRENGTHS['SI-Fam:MA-QDB1'],
+        'SI-Fam:MA-QDB2': _rutil.NOMINAL_STRENGTHS['SI-Fam:MA-QDB2'],
+        'SI-Fam:MA-QDP1': _rutil.NOMINAL_STRENGTHS['SI-Fam:MA-QDP1'],
+        'SI-Fam:MA-QDP2': _rutil.NOMINAL_STRENGTHS['SI-Fam:MA-QDP2'],
+    }
+    spec_main_intmpole_rms_error = 0.05  # [%]
