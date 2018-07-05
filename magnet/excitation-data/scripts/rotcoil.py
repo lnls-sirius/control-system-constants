@@ -6,7 +6,9 @@ import os
 import numpy as np
 
 from siriuspy import envars
+from siriuspy import util as _util
 from siriuspy.ramp import util as _rutil
+
 
 class RotCoilData:
     """Rotating coild data."""
@@ -66,8 +68,13 @@ class RotCoilData:
             text = f.read()
         lines = text.splitlines()
 
-        # print(lines)
+        # process header file
+        self._process_header(lines)
 
+        # process data
+        self._process_data(lines)
+
+    def _process_header(self, lines):
         # process header file
         for line in lines:
             param, *data = line.replace('\t', ' ').strip().split(' ')
@@ -90,7 +97,7 @@ class RotCoilData:
                     # finally create attribute
                     setattr(self, param, data)
 
-        # process data
+    def _process_data(self, lines):
         self.harmonics = list()
         self.intmpole_normal_avg = list()
         self.intmpole_skew_avg = list()
@@ -131,10 +138,13 @@ class RotCoilMeas:
         """Return list of data set."""
         return self._get_data_sets()
 
-    @property
     def get_nominal_main_intmpole_values(self, energy):
         """Nominal integrated main multipole."""
-        return self.nominal_KL_values
+        brho, *_ = _util.beam_rigidity(energy)
+        intmpole = dict()
+        for fam, strength in self.nominal_KL_values.items():
+            intmpole[fam] = strength * brho
+        return intmpole
 
     def get_data_set_measurements(self, data_set):
         """."""
@@ -169,9 +179,9 @@ class RotCoilMeas:
         gl_lin = gl[0:i_max+1]
         gl_int = np.interp(c, c_lin, gl_lin)
         gl_dif = [gl_int[i] - gl[i] for i in range(len(c))]
-        c, h = c[i_max:], gl_dif[i_max:]
+        gl, c, h = gl[i_max:], c[i_max:], gl_dif[i_max:]
         area = -np.trapz(h, c)
-        return c, h, area
+        return gl, c, h, area
 
     def get_currents(self, data_set):
         """Return currents of a data set."""
@@ -195,6 +205,24 @@ class RotCoilMeas:
         for datum in data:
             p.append(datum.intmpole_skew_avg[i])
         return p
+
+    def get_magnetic_center_x(self, data_set):
+        """List with horizontal position of magnetic center."""
+        data = self._rotcoildata[data_set]
+        x = [d.magnetic_center_x for d in data]
+        return x
+
+    def get_magnetic_center_y(self, data_set):
+        """List with vertical position of magnetic center."""
+        data = self._rotcoildata[data_set]
+        y = [d.magnetic_center_y for d in data]
+        return y
+
+    def rampup_interpolate(self, data_set, current):
+        """Interpolate."""
+        c, gl = self.get_rampup(data_set)
+        gl_interp = np.interp(current, c, gl)
+        return gl_interp
 
     def get_files(self, data_set):
         """Return list of data files in a data set."""
@@ -239,7 +267,6 @@ class RotCoilMeas:
             else:
                 # sort by timestamp
                 dataset_datum = [d for _, d in sorted(zip(tstamps, mdata))]
-            # dataset_datum = [d for _, d in sorted(zip(tstamps, mdata))]
             self._rotcoildata[data_set] = dataset_datum
         # check consistency of meas data
         self._check_measdata()
@@ -283,6 +310,9 @@ class RotCoilMeas:
             'Q14-060_Q_BOA_002.0A_180407_100114.dat',
             'Q14-060_Q_BOA_000.0A_180407_100137.dat',
         )
+        return self._sort(mdata, files)
+
+    def _sort(self, mdata, files):
         dataset_datum = []
         dfiles = [d.file for d in mdata]
         for file in files:
@@ -319,3 +349,6 @@ class RotCoilMeas_SIQuadQ14(RotCoilMeas_SI, RotCoilMeas_Quad):
         'SI-Fam:MA-QDP2': _rutil.NOMINAL_STRENGTHS['SI-Fam:MA-QDP2'],
     }
     spec_main_intmpole_rms_error = 0.05  # [%]
+    spec_main_intmpole_max_value = 5.2116053477732  # [T]
+    spec_magnetic_center_x = 40.0  # [um]
+    spec_magnetic_center_y = 40.0  # [um]
