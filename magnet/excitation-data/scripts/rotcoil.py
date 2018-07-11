@@ -1,6 +1,4 @@
-#!/usr/bin/env python-sirius
-
-"""Read rotation coil data."""
+"""library to read rotation coil data and create excitation data file."""
 
 import os
 import numpy as np
@@ -132,16 +130,26 @@ class RotCoilMeas:
         '# POLARITY TABLE',
         '# ==============',
         '#',
-        '# Magnet function         | IntStrength(1) | IntField(2) | ConvSign(3) | Current(4)',
-        '# ------------------------|----------------|-------------|-------------|-----------',
-        '# dipole                  | Angle > 0      | BYL  < 0    | -1.0        | I > 0',
-        '# corrector-horizontal    | HKick > 0      | BYL  > 0    | +1.0        | I > 0',
-        '# corrector-vertical      | VKick > 0      | BXL  < 0    | -1.0        | I > 0',
-        '# quadrupole (focusing)   | KL    > 0      | D1NL < 0    | -1.0        | I > 0',
-        '# quadrupole (defocusing) | KL    < 0      | D1NL > 0    | -1.0        | I > 0',
-        '# quadrupole (skew)       | KL    > 0      | D1SL > 0    | +1.0        | I > 0',
-        '# sextupole  (focusing)   | SL    > 0      | D2NL < 0    | -1.0        | I > 0',
-        '# sextupole  (defocusing) | SL    < 0      | D2NL > 0    | -1.0        | I > 0',
+        ('# Magnet function         | IntStrength(1) | IntField(2) |'
+         ' ConvSign(3) | Current(4)'),
+        ('# ------------------------|----------------|-------------|'
+         '-------------|-----------'),
+        ('# dipole                  | Angle > 0      | BYL  < 0    |'
+         ' -1.0        | I > 0'),
+        ('# corrector-horizontal    | HKick > 0      | BYL  > 0    |'
+         ' +1.0        | I > 0'),
+        ('# corrector-vertical      | VKick > 0      | BXL  < 0    |'
+         ' -1.0        | I > 0'),
+        ('# quadrupole (focusing)   | KL    > 0      | D1NL < 0    |'
+         ' -1.0        | I > 0'),
+        ('# quadrupole (defocusing) | KL    < 0      | D1NL > 0    |'
+         ' -1.0        | I > 0'),
+        ('# quadrupole (skew)       | KL    > 0      | D1SL > 0    |'
+         ' +1.0        | I > 0'),
+        ('# sextupole  (focusing)   | SL    > 0      | D2NL < 0    |'
+         ' -1.0        | I > 0'),
+        ('# sextupole  (defocusing) | SL    < 0      | D2NL > 0    |'
+         ' -1.0        | I > 0'),
         '#',
         '# Defs:',
         '# ----',
@@ -160,26 +168,32 @@ class RotCoilMeas:
         '# Obs:',
         '# ---',
         '# (1) Parameter definition.',
-        '#     IntStrength values correspond to integrated PolynomA and PolynomB parameters',
-        '#     of usual beam tracking codes, with the exception that VKick has its sign',
+        ('#     IntStrength values correspond to integrated PolynomA and '
+         'PolynomB parameters'),
+        ('#     of usual beam tracking codes, with the exception that VKick '
+         'has its sign'),
         '#     reversed with respecto to its corresponding value in PolynomA.',
         '# (2) Sirius coordinate system and Lorentz force.',
         '# (3) Conversion sign for IntField <-> IntStrength',
-        '# (4) Convention of magnet excitation polarity, so that when I > 0 the strength',
+        ('# (4) Convention of magnet excitation polarity, so that when'
+         ' I > 0 the strength'),
         '#     of the magnet has the expected conventional sign.',
         '',
         '# STATIC DATA FILE FORMAT',
         '# =======================',
         '#',
-        '# These static data files should comply with the following formatting rules:',
-        '# 1. If the first alphanumeric character of the line is not the pound sign',
+        ('# These static data files should comply with the following '
+         'formatting rules:'),
+        ('# 1. If the first alphanumeric character of the line is not the'
+         ' pound sign'),
         '#    then the lines is a comment.',
         '# 2. If the first alphanumeric character is "#" then if',
-        '#    a) it is followed by "[<parameter>] <value>" a parameter names <parameter>',
-        '#       is define with value <value>. if the string <value> has spaces in it',
+        ('#    a) it is followed by "[<parameter>] <value>" a parameter '
+         'names <parameter>'),
+        ('#       is define with value <value>. if the string <value> has '
+         'spaces in it'),
         '#       it is split as a list of strings.',
-        '#    b) otherwise the line is ignored as a comment line.',
-    )
+        '#    b) otherwise the line is ignored as a comment line.',)
 
     def __init__(self, serial_number):
         """Init."""
@@ -277,34 +291,36 @@ class RotCoilMeas:
         gl_interp = np.interp(current, c, gl)
         return gl_interp
 
-    def save_excitation_data(filename):
-        pass
+    def save_excdata(self, data_set):
+        """Save data."""
+        lines = self._excitation_text(data_set)
+        filename = self.magnet_type_name + '-' + self.serial_number
+        # save data to file
+        with open(filename + '.txt', 'w') as fp:
+            for line in lines:
+                fp.write(line + '\n')
 
-    def get_files(self, data_set):
-        """Return list of data files in a data set."""
-        return self._get_files(data_set)
-
-    def _excitation_text(self, data_set, filename=None):
-        if filename is None:
-            filename = self.magnet_type_name + '-' + self.serial_number
-        harmonics = ' '.join([str(h) for h in sorted(self.harmonics)])
-        main_harmonic = (self.main_harmonic-1, self.main_harmonic_type)
+    @staticmethod
+    def get_excdata_text(
+            magnet_type_label,
+            magnet_serial_number,
+            data_set,
+            main_harmonic,
+            main_harmonic_type,
+            harmonics,
+            currents,
+            mpoles_n,
+            mpoles_s,
+            filename):
+        """Return excitation data text."""
+        # harmonics = ' '.join([str(h) for h in sorted(harmonics)])
+        # main_harmonic = (main_harmonic-1, main_harmonic_type)
         units = ''
-        for h in self.harmonics:
+        for h in harmonics:
             unit = _util.get_intmpole_units(h-1)
             units += unit + ' ' + unit + '  '
         units = units.strip()
-        idx_max = self.get_max_current_index()
-        currents, _ = self.get_rampup(data_set)
-        shape = (len(currents), len(self.harmonics))
-        mpoles_n = np.zeros(shape)
-        mpoles_s = np.zeros(shape)
-        for j in range(len(self.harmonics)):
-            h = self.harmonics[j]
-            mpoles_n[:, j] = \
-                self.get_intmpole_normal_avg(data_set, h)[:idx_max+1]
-            mpoles_s[:, j] = \
-                self.get_intmpole_skew_avg(data_set, h)[:idx_max+1]
+        harms = ' '.join((str(h-1) for h in harmonics))
 
         lines = list()
         a = lines.append
@@ -312,8 +328,9 @@ class RotCoilMeas:
         a('# HEADER')
         a('# ======')
         a('# label           {}'.format(filename))
-        a('# harmonics       {}'.format(harmonics))
-        a('# main_harmonic   {} {}'.format(*main_harmonic))
+        a('# harmonics       {}'.format(harms))
+        a('# main_harmonic   {} {}'.format(main_harmonic-1,
+                                           main_harmonic_type))
         a('# units           Ampere  {}'.format(units))
         a('')
         # EXCITATION DATA
@@ -321,7 +338,7 @@ class RotCoilMeas:
         a('# ===============')
         for i in range(len(currents)):
             v = '{:+010.4f}  '.format(currents[i])
-            for j in range(len(self.harmonics)):
+            for j in range(len(harmonics)):
                 v += '{:+11.4e} {:+11.4e}  '.format(mpoles_n[i, j],
                                                     mpoles_s[i, j])
             a(v.strip())
@@ -329,8 +346,65 @@ class RotCoilMeas:
         # COMMENTS
         a('# COMMENTS')
         a('# ========')
-        a('# 1. file generated automatically from rotating coil measurement data')
+        a('# 1. file generated automatically from rotating coil '
+          'measurement data')
         a('# 2. timestamp: {}'.format(_util.get_timestamp()))
+        a('# 3. magnet_type_label: {}'.format(magnet_type_label))
+        if magnet_serial_number is not None:
+            a('# 4. magnet_serial_number: {}'.format(magnet_serial_number))
+        else:
+            a('# 4. magnet_serial_number: {}'.format('AVERAGE OF MAGNETS'))
+        if data_set is not None:
+            a('# 5. data_set: {}'.format(data_set))
+        else:
+            a('# 5. data_set: {}'.format('UNDEFINED'))
+        a('')
+        # OBS
+        for line in RotCoilMeas._excdata_obs:
+            a(line)
+        return lines
+
+    def get_files(self, data_set):
+        """Return list of data files in a data set."""
+        return self._get_files(data_set)
+
+    def _excitation_text(self, data_set):
+
+        main_harmonic = int(self.main_harmonic)
+        main_harmonic_type = self.main_harmonic_type
+        harmonics = sorted([int(h) for h in self.harmonics])
+        magnet_type_label = self.magnet_type_label
+        magnet_serial_number = self.serial_number
+        filename = self.magnet_type_name + '-' + magnet_serial_number
+        units = ''
+        for h in harmonics:
+            unit = _util.get_intmpole_units(h-1)
+            units += unit + ' ' + unit + '  '
+        units = units.strip()
+
+        idx_max = self.get_max_current_index()
+        currents, _ = self.get_rampup(data_set)
+        shape = (len(currents), len(harmonics))
+        mpoles_n = np.zeros(shape)
+        mpoles_s = np.zeros(shape)
+        for j in range(len(harmonics)):
+            h = harmonics[j]
+            mpoles_n[:, j] = \
+                self.get_intmpole_normal_avg(data_set, h)[:idx_max+1]
+            mpoles_s[:, j] = \
+                self.get_intmpole_skew_avg(data_set, h)[:idx_max+1]
+
+        lines = RotCoilMeas.get_excdata_text(
+            magnet_type_label,
+            magnet_serial_number,
+            data_set,
+            main_harmonic,
+            main_harmonic_type,
+            harmonics,
+            currents,
+            mpoles_n,
+            mpoles_s,
+            filename)
         return lines
 
     def _get_data_path(self):
@@ -362,7 +436,7 @@ class RotCoilMeas:
                 path += '/' + data_set + '/' + file
                 try:
                     meas = RotCoilData(path)
-                except:
+                except Exception:
                     print('Error while trying to read {}'.format(path))
                     raise
                 tstamps.append(meas.hour)
@@ -425,6 +499,93 @@ class RotCoilMeas:
             data = mdata[idx]
             dataset_datum.append(data)
         return dataset_datum
+
+
+class MagnetsMeas:
+    """Measurements of a magnet type magnets."""
+
+    def __init__(self, rotcoilmeas_cls, serial_numbers):
+        """Init."""
+        self._magnetsdata = dict()
+        for s in serial_numbers:
+            self._magnetsdata[s] = rotcoilmeas_cls(s)
+
+    def save_excdata_average(self, data_set):
+        """Save excitation data."""
+        snumbers = tuple(self._magnetsdata.keys())
+        tmpl = self._magnetsdata[snumbers[0]]
+
+        main_harmonic = int(tmpl.main_harmonic)
+        main_harmonic_type = tmpl.main_harmonic_type
+        harmonics = sorted([int(h) for h in tmpl.harmonics])
+        magnet_type_label = tmpl.magnet_type_label
+        magnet_serial_number = None
+        filename = tmpl.magnet_type_name + '-fam'
+        units = ''
+        for h in harmonics:
+            unit = _util.get_intmpole_units(h-1)
+            units += unit + ' ' + unit + '  '
+        units = units.strip()
+
+        # average current
+        currents = list()
+        for data in self._magnetsdata.values():
+            c, _ = data.get_rampup(data_set)
+            currents.append(c)
+        currents = np.mean(np.array(currents), axis=0)
+
+        # calc average integrated multipoles
+        idx_max = tmpl.get_max_current_index()
+        shape = (len(currents), len(harmonics))
+        mpoles_n = np.zeros(shape)
+        mpoles_s = np.zeros(shape)
+        for j in range(len(harmonics)):
+            h = harmonics[j]
+            for data in self._magnetsdata.values():
+                n = data.get_intmpole_normal_avg(data_set, h)[:idx_max+1]
+                s = data.get_intmpole_skew_avg(data_set, h)[:idx_max+1]
+                # if h == 2:
+                #     print(data.serial_number, n[-1])
+                mpoles_n[:, j] += n
+                mpoles_s[:, j] += s
+
+            mpoles_n[:, j] /= len(self._magnetsdata)
+            mpoles_s[:, j] /= len(self._magnetsdata)
+
+        # build text lines
+        lines = RotCoilMeas.get_excdata_text(
+            magnet_type_label,
+            magnet_serial_number,
+            data_set,
+            main_harmonic,
+            main_harmonic_type,
+            harmonics,
+            currents,
+            mpoles_n,
+            mpoles_s,
+            filename)
+
+        # save data to file
+        with open(filename + '.txt', 'w') as fp:
+            for line in lines:
+                fp.write(line + '\n')
+
+    def save_excdata_individuals(self, data_set):
+        """Save excdata of all individual magnets."""
+        for data in self._magnetsdata.values():
+            data.save_excdata(data_set)
+
+    def __getitem__(self, key):
+        """Return magnet data."""
+        return self._magnetsdata[key]
+
+    def __len__(self):
+        """Return number of magnets."""
+        return len(self._magnetsdata)
+
+    def __iter__(self):
+        """Iter."""
+        return iter(self._magnetsdata)
 
 
 class RotCoilMeas_SI(RotCoilMeas):
