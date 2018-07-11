@@ -1,6 +1,6 @@
 # HEADER
 # ======
-# label           si-quadrupole-q14-fam
+# label           si-quadrupoles-q14-fam
 # harmonics       0 1 2 3 4 5 6 7 8 9 10 11 12 13 14
 # main_harmonic   1 normal
 # units           Ampere  T.m T.m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3  T/m^4 T/m^4  T/m^5 T/m^5  T/m^6 T/m^6  T/m^7 T/m^7  T/m^8 T/m^8  T/m^9 T/m^9  T/m^10 T/m^10  T/m^11 T/m^11  T/m^12 T/m^12  T/m^13 T/m^13
@@ -24,7 +24,7 @@
 # COMMENTS
 # ========
 # 1. file generated automatically from rotating coil measurement data
-# 2. timestamp: 2018-07-11-12:33:07.816
+# 2. timestamp: 2018-07-11-12:06:06.655
 # 3. magnet_type_label: Q14
 # 4. magnet_serial_number: AVERAGE OF MAGNETS
 # 5. data_set: M1
@@ -47,9 +47,9 @@
 # ----
 # BYL   := \int{dz By|_{x=y=0}}.
 # BXL   := \int{dz Bx|_{x=y=0}}.
-# D1NL  := \int{dz \frac{dBy}{dx}_{x=y=0}}
-# D2NL  := (1/2!) \int{dz \frac{d^2By}{dx^2}_{x=y=0}}
-# D1SL  := \int{dz \frac{dBx}{dx}_{x=y=0}}
+# D1NL  := \int{dz rac{dBy}{dx}_{x=y=0}}
+# D2NL  := (1/2!) \int{dz rac{d^2By}{dx^2}_{x=y=0}}
+# D1SL  := \int{dz rac{dBx}{dx}_{x=y=0}}
 # Brho  := magnetic rigidity.
 # Angle := ConvSign * BYL / abs(Brho)
 # HKick := ConvSign * BYL / abs(Brho)
