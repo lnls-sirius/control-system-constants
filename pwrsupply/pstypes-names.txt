@@ -65,4 +65,6 @@ li-corrector-cv-short        bipolar        corrector-vertical
 # -------
 
 bo-dclink-fac                none            none
+bo-dclink-fac-2s             none            none
+bo-dclink-fac-2p4s           none            none
 as-dclink-fbp                none            none

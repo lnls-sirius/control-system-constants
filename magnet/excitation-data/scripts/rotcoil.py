@@ -412,7 +412,8 @@ class RotCoilMeas:
             self.magnet_type_name.replace('quadrupole', 'quadrupoles')
         data_path = \
             self.lnls_ima_path + '/' + magnet_type_name + '/' + \
-            self.rotcoil_folder + '/' + self.magnet_type_label + '-' + \
+            self.model_version + '/measurement/magnetic/rotcoil/' + \
+            self.magnet_type_label + '-' + \
             self.serial_number + '/main'
         return data_path
 
@@ -608,6 +609,7 @@ class RotCoilMeas_SIQuadQ14(RotCoilMeas_SI, RotCoilMeas_Quad):
 
     magnet_type_label = 'Q14'
     magnet_type_name = 'si-quadrupole-q14'
+    model_version = 'model-04'
     magnet_hardedge_length = 0.14  # [m]
     nominal_KL_values = {
         'SI-Fam:MA-QDA': _rutil.NOMINAL_STRENGTHS['SI-Fam:MA-QDA'],
