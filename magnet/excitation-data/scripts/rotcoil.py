@@ -1,7 +1,7 @@
 """library to read rotation coil data and create excitation data file."""
 
-import os
-import numpy as np
+import os as _os
+import numpy as _np
 
 from siriuspy import envars
 from siriuspy import util as _util
@@ -59,10 +59,12 @@ class RotCoilData:
         """Init."""
         self.path = path
         self._read_data(conv_mpoles_sign)
+        # if not hasattr(self, 'magnetic_center_x'):
+        self._calc_magnetic_center()
 
     def _read_data(self, conv_mpoles_sign):
         # read all text
-        with open(self.path, 'r') as f:
+        with open(self.path, 'r', encoding='utf-8') as f:
             text = f.read()
         lines = text.splitlines()
 
@@ -113,6 +115,25 @@ class RotCoilData:
             self.intmpole_skew_avg.append(multipoles[2])
             # print(n, multipoles)
 
+    def _calc_magnetic_center(self):
+        idx_dip = self.harmonics.index(1)
+        idx_quad = self.harmonics.index(2)
+        a0 = self.intmpole_skew_avg[idx_dip]
+        b0 = self.intmpole_normal_avg[idx_dip]
+        a1 = self.intmpole_skew_avg[idx_quad]
+        b1 = self.intmpole_normal_avg[idx_quad]
+        m11, m12 = a1, b1
+        m21, m22 = b1, -a1
+        detm = m11*m22 - m12*m21
+        x = - (m22 * a0 - m12 * b0) / detm
+        y = - (-m21 * a0 + m11 * b0) / detm
+        # print(self.path)
+        # print('{:+.3f} {:+.3f}'.format(self.magnetic_center_x, 1e6 * x))
+        # print('{:+.3f} {:+.3f}'.format(self.magnetic_center_y, 1e6 * y))
+        # print()
+        self.magnetic_center_x = 1e6 * x
+        self.magnetic_center_y = 1e6 * y
+
     @staticmethod
     def _del_unwanted(param):
         for r in RotCoilData._del:
@@ -124,7 +145,6 @@ class RotCoilMeas:
     """Rotation coil measurement of SI magnets."""
 
     lnls_ima_path = envars.folder_lnls_ima
-    rotcoil_folder = 'rotating coil measurements'
 
     _excdata_obs = (
         '# POLARITY TABLE',
@@ -231,7 +251,7 @@ class RotCoilMeas:
             currents = self.get_currents(data_set)
             max_c = max(currents)
             max_c_i.append(currents.index(max_c))
-        umaxci = np.unique(max_c_i)
+        umaxci = _np.unique(max_c_i)
         if len(umaxci) > 1:
             raise ValueError('Inconsistent current values in data sets')
         return umaxci[0]
@@ -253,13 +273,13 @@ class RotCoilMeas:
         # i_max = self.get_max_current_index()
         # c_lin = c[0:i_max+1]
         # gl_lin = gl[0:i_max+1]
-        gl_int = np.interp(c, c_lin, gl_lin)
+        gl_int = _np.interp(c, c_lin, gl_lin)
         gl_dif = [gl_int[i] - gl[i] for i in range(len(c))]
         # gl, c, h = gl[i_max:], c[i_max:], gl_dif[i_max:]
         ind = self.get_rampdown_indices()
         gl, c, h = zip(*[(gl[i], c[i], gl_dif[i]) for i in ind])
 
-        area = -np.trapz(h, c)
+        area = -_np.trapz(h, c)
         return gl, c, h, area
 
     def get_currents(self, data_set):
@@ -300,7 +320,7 @@ class RotCoilMeas:
     def rampup_interpolate(self, data_set, current):
         """Interpolate."""
         c, gl = self.get_rampup(data_set)
-        gl_interp = np.interp(current, c, gl)
+        gl_interp = _np.interp(current, c, gl)
         return gl_interp
 
     def save_excdata(self, data_set):
@@ -412,8 +432,8 @@ class RotCoilMeas:
 
         currents, _ = self.get_rampup(data_set)
         shape = (len(currents), len(harmonics))
-        mpoles_n = np.zeros(shape)
-        mpoles_s = np.zeros(shape)
+        mpoles_n = _np.zeros(shape)
+        mpoles_s = _np.zeros(shape)
         idx = self.get_rampup_indices()
         for j in range(len(harmonics)):
             h = harmonics[j]
@@ -449,13 +469,17 @@ class RotCoilMeas:
 
     def _get_data_sets(self):
         data_path = self._get_data_path()
-        files = os.listdir(data_path)
+        fs = _os.listdir(data_path)
+        files = []
+        for f in fs:
+            if _os.path.isdir(data_path + '/' + f):
+                files.append(f)
         return files
 
     def _get_files(self, data_set):
         data_path = self._get_data_path()
         data_path += '/' + data_set
-        files = os.listdir(data_path)
+        files = _os.listdir(data_path)
         return files
 
     def _read_rotcoil_data(self):
@@ -544,6 +568,13 @@ class RotCoilMeas_SI(RotCoilMeas):
     conv_mpoles_sign = +1.0
 
 
+class RotCoilMeas_BO(RotCoilMeas):
+    """Rotation coil measurement of BO magnets."""
+
+    # used in case meas was taken with opposite current polarity
+    conv_mpoles_sign = +1.0
+
+
 class RotCoilMeas_Quad:
     """Rotation coil measurement of quadrupole magnets."""
 
@@ -588,6 +619,23 @@ class RotCoilMeas_SIQuadQ30(RotCoilMeas_SI, RotCoilMeas_Quad):
     spec_main_intmpole_max_value = 13.62942873208  # [T] (spec in wiki-sirius)
     spec_magnetic_center_x = 40.0  # [um]
     spec_magnetic_center_y = 40.0  # [um]
+
+
+class RotCoilMeas_BOQuadQD(RotCoilMeas_BO, RotCoilMeas_Quad):
+    """Rotation coil measurement of BO quadrupole magnets QD."""
+
+    conv_mpoles_sign = +1.0  # meas with default current polarity!
+    magnet_type_label = 'BQD'
+    magnet_type_name = 'bo-quadrupole-qd'
+    model_version = 'model-02'
+    magnet_hardedge_length = 0.30  # [m]
+    nominal_KL_values = {
+        'BO-Fam:MA-QD': _rutil.NOMINAL_STRENGTHS['BO-Fam:MA-QD'],
+    }
+    spec_main_intmpole_rms_error = 0.3  # [%]
+    spec_main_intmpole_max_value = 0.52536344231582  # [T] (spec wiki-sirius)
+    spec_magnetic_center_x = 160.0  # [um]
+    spec_magnetic_center_y = 160.0  # [um]
 
 
 class MagnetsAnalysis:
@@ -673,7 +721,7 @@ class MagnetsAnalysis:
             idx = d.get_max_current_index()
             v.append(u[idx])
 
-        v = np.array(v)
+        v = _np.array(v)
         if direction in ('x', 'X', 'h', 'H'):
             dstr = 'Horizontal '
             specp = (+self.tmpl.spec_magnetic_center_x, ) * 2
@@ -684,7 +732,7 @@ class MagnetsAnalysis:
             specn = (-self.tmpl.spec_magnetic_center_y, ) * 2
 
         fmtstr = dstr + 'center at maximum current [um]: {:+.2f} ± {:.2f}'
-        print(fmtstr.format(np.mean(v), np.std(v)))
+        print(fmtstr.format(_np.mean(v), _np.std(v)))
 
         plt.plot([min(c), max(c)], specp, '--k')
         plt.plot([min(c), max(c)], specn, '--k')
@@ -769,21 +817,22 @@ class MagnetsAnalysis:
     def rampup_excitation_curve_dispersion_plot(self, data_set, plt):
         """."""
         shape = (len(self.serials), 1+self.tmpl.get_max_current_index())
-        c, g = np.zeros(shape), np.zeros(shape)
+        c, g = _np.zeros(shape), _np.zeros(shape)
         for i in range(len(self.serials)):
             d = self._magnetsdata[self.serials[i]]
             ct, gt = d.get_rampup(data_set)
             c[i, :] = ct
             g[i, :] = gt
 
-        c_avg = np.mean(c, axis=0)
-        g_avg = np.mean(g, axis=0)
-        g_std = np.std(g, axis=0)
+        c_avg = _np.mean(c, axis=0)
+        g_avg = _np.mean(g, axis=0)
+        g_std = _np.std(g, axis=0)
 
         for i in range(len(self.serials)):
             d = self._magnetsdata[self.serials[i]]
             gl_interp = d.rampup_interpolate(data_set, c_avg)
             g_dif = gl_interp - g_avg
+            # print(d.serial_number, max(abs(g_dif)))
             plt.plot(c_avg, g_dif)
         plt.plot(c_avg, +g_std, '--k', linewidth=4)
         plt.plot(c_avg, -g_std, '--k', linewidth=4)
@@ -805,8 +854,8 @@ class MagnetsAnalysis:
                 ct, gt = d.get_rampup(data_set)
                 c.append(ct[current_index])
                 g.append(gt[current_index])
-            g_avg = np.mean(g)
-            g_std = np.std(g)
+            g_avg = _np.mean(g)
+            g_std = _np.std(g)
             return g_avg, g_std, c, g
 
         currents, _ = self.tmpl.get_rampup(data_set)
@@ -816,8 +865,8 @@ class MagnetsAnalysis:
             error = [100*(gv - g_avg)/g_avg for gv in g]
             fmtstr = ('current: {:+8.3f} [A], rms_error: {:7.4f} [%], '
                       'max_error: {:7.4f} [%]')
-            print(fmtstr.format(np.mean(c),
-                                abs(100*g_std/g_avg), max(np.abs(error))))
+            print(fmtstr.format(_np.mean(c),
+                                abs(100*g_std/g_avg), max(_np.abs(error))))
             errors.append(error)
             cs.append(c)
             gs.append(g)
@@ -827,7 +876,7 @@ class MagnetsAnalysis:
         """."""
         dat = self.errors[-1]
         spec_rms = self.tmpl.spec_main_intmpole_rms_error
-        # avg, std = np.mean(dat), np.std(dat)
+        # avg, std = _np.mean(dat), _np.std(dat)
         plt.plot(dat, 'og')
         plt.plot((1, len(dat)), (spec_rms, spec_rms), '--k')
         plt.plot((1, len(dat)), (-spec_rms, -spec_rms), '--k')
@@ -886,12 +935,12 @@ class MagnetsAnalysis:
         for data in self._magnetsdata.values():
             c, _ = data.get_rampup(data_set)
             currents.append(c)
-        currents = np.mean(np.array(currents), axis=0)
+        currents = _np.mean(_np.array(currents), axis=0)
 
         # calc average integrated multipoles
         shape = (len(currents), len(harmonics))
-        mpoles_n = np.zeros(shape)
-        mpoles_s = np.zeros(shape)
+        mpoles_n = _np.zeros(shape)
+        mpoles_s = _np.zeros(shape)
         idx = self.tmpl.get_rampup_indices()
         for j in range(len(harmonics)):
             h = harmonics[j]
