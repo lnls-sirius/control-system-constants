@@ -469,7 +469,10 @@ class RotCoilMeas:
 
     def _get_data_sets(self):
         data_path = self._get_data_path()
-        fs = _os.listdir(data_path)
+        if self.magnet_type_label == 'BQF' and self.serial_number == '053':
+            fs = self._specialized_data_sets_BQF_053()
+        else:
+            fs = _os.listdir(data_path)
         files = []
         for f in fs:
             if _os.path.isdir(data_path + '/' + f):
@@ -517,6 +520,10 @@ class RotCoilMeas:
                 else:
                     if d.harmonics != self.harmonics:
                         raise ValueError('Inconsistent parameter harmonics')
+
+    def _specialized_data_sets_BQF_053(self):
+        # M4 and M5 are incomplete
+        return ['M1', 'M2', 'M3']
 
     def _specialized_sort_Q14_060(self, mdata):
         files = (
@@ -628,12 +635,29 @@ class RotCoilMeas_BOQuadQD(RotCoilMeas_BO, RotCoilMeas_Quad):
     magnet_type_label = 'BQD'
     magnet_type_name = 'bo-quadrupole-qd'
     model_version = 'model-02'
-    magnet_hardedge_length = 0.30  # [m]
+    magnet_hardedge_length = 0.10  # [m]
     nominal_KL_values = {
         'BO-Fam:MA-QD': _rutil.NOMINAL_STRENGTHS['BO-Fam:MA-QD'],
     }
     spec_main_intmpole_rms_error = 0.3  # [%]
     spec_main_intmpole_max_value = 0.52536344231582  # [T] (spec wiki-sirius)
+    spec_magnetic_center_x = 160.0  # [um]
+    spec_magnetic_center_y = 160.0  # [um]
+
+
+class RotCoilMeas_BOQuadQF(RotCoilMeas_BO, RotCoilMeas_Quad):
+    """Rotation coil measurement of BO quadrupole magnets QF."""
+
+    conv_mpoles_sign = -1.0  # meas with opposite current polarity!
+    magnet_type_label = 'BQF'
+    magnet_type_name = 'bo-quadrupole-qf'
+    model_version = 'model-06'
+    magnet_hardedge_length = 0.228  # [m]
+    nominal_KL_values = {
+        'BO-Fam:MA-QF': _rutil.NOMINAL_STRENGTHS['BO-Fam:MA-QF'],
+    }
+    spec_main_intmpole_rms_error = 0.3  # [%]
+    spec_main_intmpole_max_value = 4.2554438827581  # [T] (spec wiki-sirius)
     spec_magnetic_center_x = 160.0  # [um]
     spec_magnetic_center_y = 160.0  # [um]
 
