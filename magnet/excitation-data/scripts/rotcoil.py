@@ -116,6 +116,7 @@ class RotCoilData:
             # print(n, multipoles)
 
     def _calc_magnetic_center(self):
+        # by + ibx = (b0 + i a0) + (b1 + i a1) * (x + i y)
         idx_dip = self.harmonics.index(1)
         idx_quad = self.harmonics.index(2)
         a0 = self.intmpole_skew_avg[idx_dip]
@@ -323,9 +324,9 @@ class RotCoilMeas:
         gl_interp = _np.interp(current, c, gl)
         return gl_interp
 
-    def save_excdata(self, data_set):
+    def save_excdata(self, data_set, harmonics=None):
         """Save data."""
-        lines = self._excitation_text(data_set)
+        lines = self._excitation_text(data_set, harmonics)
         filename = self.magnet_type_name + '-' + self.serial_number
         # save data to file
         with open(filename + '.txt', 'w') as fp:
@@ -368,6 +369,7 @@ class RotCoilMeas:
         # EXCITATION DATA
         a('# EXCITATION DATA')
         a('# ===============')
+        if self.pwrsupply_type
         for i in range(len(currents)):
             v = '{:+010.4f}  '.format(currents[i])
             for j in range(len(harmonics)):
@@ -416,11 +418,12 @@ class RotCoilMeas:
             idx = self.get_max_current_index()
             return tuple(range(idx, self.size))
 
-    def _excitation_text(self, data_set):
+    def _excitation_text(self, data_set, harmonics):
 
         main_harmonic = int(self.main_harmonic)
         main_harmonic_type = self.main_harmonic_type
-        harmonics = sorted([int(h) for h in self.harmonics])
+        if harmonics is None:
+            harmonics = sorted([int(h) for h in self.harmonics])
         magnet_type_label = self.magnet_type_label
         magnet_serial_number = self.serial_number
         filename = self.magnet_type_name + '-' + magnet_serial_number
@@ -585,8 +588,9 @@ class RotCoilMeas_BO(RotCoilMeas):
 class RotCoilMeas_Quad:
     """Rotation coil measurement of quadrupole magnets."""
 
-    main_harmonic = 2
+    main_harmonic = 2  # 1: dipole, 2:quadrupole, etc...
     main_harmonic_type = 'normal'
+    pwrsupply_polarity = 'monopolar'
 
 
 class RotCoilMeas_SIQuadQ14(RotCoilMeas_SI, RotCoilMeas_Quad):
@@ -643,6 +647,7 @@ class RotCoilMeas_BOQuadQD(RotCoilMeas_BO, RotCoilMeas_Quad):
     spec_main_intmpole_max_value = 0.52536344231582  # [T] (spec wiki-sirius)
     spec_magnetic_center_x = 160.0  # [um]
     spec_magnetic_center_y = 160.0  # [um]
+    pwrsupply_polarity = 'bipolar'
 
 
 class RotCoilMeas_BOQuadQF(RotCoilMeas_BO, RotCoilMeas_Quad):
@@ -937,14 +942,15 @@ class MagnetsAnalysis:
                 raise NotImplementedError()
             plt.grid()
 
-    def save_excdata_average(self, data_set):
+    def save_excdata_average(self, data_set, harmonics=None):
         """Save excitation data."""
         snumbers = tuple(self._magnetsdata.keys())
         tmpl = self._magnetsdata[snumbers[0]]
 
         main_harmonic = int(tmpl.main_harmonic)
         main_harmonic_type = tmpl.main_harmonic_type
-        harmonics = sorted([int(h) for h in tmpl.harmonics])
+        if harmonics is None:
+            harmonics = sorted([int(h) for h in tmpl.harmonics])
         magnet_type_label = tmpl.magnet_type_label
         magnet_serial_number = None
         filename = tmpl.magnet_type_name + '-fam'
@@ -996,10 +1002,10 @@ class MagnetsAnalysis:
             for line in lines:
                 fp.write(line + '\n')
 
-    def save_excdata_individuals(self, data_set):
+    def save_excdata_individuals(self, data_set, harmonics=None):
         """Save excdata of all individual magnets."""
         for data in self._magnetsdata.values():
-            data.save_excdata(data_set)
+            data.save_excdata(data_set, harmonics)
 
     def __getitem__(self, key):
         """Return magnet data."""
