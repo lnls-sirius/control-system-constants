@@ -335,6 +335,7 @@ class RotCoilMeas:
 
     @staticmethod
     def get_excdata_text(
+            pwrsupply_polarity,
             magnet_type_label,
             magnet_serial_number,
             data_set,
@@ -369,7 +370,15 @@ class RotCoilMeas:
         # EXCITATION DATA
         a('# EXCITATION DATA')
         a('# ===============')
-        if self.pwrsupply_type
+        # excdata for bipolar pwrsupplies replicate data with
+        # negative currents and multipoles.
+        if pwrsupply_polarity == 'bipolar':
+            for i in reversed(range(len(currents))):
+                v = '{:+010.4f}  '.format(-currents[i])
+                for j in range(len(harmonics)):
+                    v += '{:+11.4e} {:+11.4e}  '.format(-mpoles_n[i, j],
+                                                        -mpoles_s[i, j])
+                a(v.strip())
         for i in range(len(currents)):
             v = '{:+010.4f}  '.format(currents[i])
             for j in range(len(harmonics)):
@@ -420,6 +429,7 @@ class RotCoilMeas:
 
     def _excitation_text(self, data_set, harmonics):
 
+        pwrsupply_polarity = self.pwrsupply_polarity
         main_harmonic = int(self.main_harmonic)
         main_harmonic_type = self.main_harmonic_type
         if harmonics is None:
@@ -448,6 +458,7 @@ class RotCoilMeas:
             mpoles_s[:, j] = s
 
         lines = RotCoilMeas.get_excdata_text(
+            pwrsupply_polarity,
             magnet_type_label,
             magnet_serial_number,
             data_set,
@@ -947,6 +958,7 @@ class MagnetsAnalysis:
         snumbers = tuple(self._magnetsdata.keys())
         tmpl = self._magnetsdata[snumbers[0]]
 
+        pwrsupply_polarity = tmpl.pwrsupply_polarity
         main_harmonic = int(tmpl.main_harmonic)
         main_harmonic_type = tmpl.main_harmonic_type
         if harmonics is None:
@@ -986,6 +998,7 @@ class MagnetsAnalysis:
 
         # build text lines
         lines = RotCoilMeas.get_excdata_text(
+            pwrsupply_polarity,
             magnet_type_label,
             magnet_serial_number,
             data_set,
