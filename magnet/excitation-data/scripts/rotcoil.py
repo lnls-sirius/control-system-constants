@@ -3,7 +3,7 @@
 import os as _os
 import numpy as _np
 
-from siriuspy import envars
+from siriuspy import envars as _envars
 from siriuspy import util as _util
 from siriuspy.ramp import util as _rutil
 
@@ -145,7 +145,7 @@ class RotCoilData:
 class RotCoilMeas:
     """Rotation coil measurement of SI magnets."""
 
-    lnls_ima_path = envars.folder_lnls_ima
+    lnls_ima_path = _envars.folder_lnls_ima
 
     _excdata_obs = (
         '# POLARITY TABLE',
@@ -297,6 +297,14 @@ class RotCoilMeas:
             p.append(datum.intmpole_normal_avg[i])
         return p
 
+    def get_intmpole_normal_avg_current(self, data_set, idx):
+        """."""
+        data = self._rotcoildata[data_set][idx]
+        p = []
+        for i in range(len(data.harmonics)):
+            p.append(data.intmpole_normal_avg[i])
+        return p
+
     def get_intmpole_skew_avg(self, data_set, n):
         """Return average integrated skew multipole."""
         i = self.harmonics.index(n)
@@ -332,6 +340,193 @@ class RotCoilMeas:
         with open(filename + '.txt', 'w') as fp:
             for line in lines:
                 fp.write(line + '\n')
+
+    def multipoles_kicks_spec_sys(self, data_set, current_index,
+                                  energy, nrpoints=301):
+        """."""
+        brho, *_ = _util.beam_rigidity(energy)
+        r0 = self.spec_r0 / 1000.0
+        main_harm = self.main_harmonic - 1
+        if self.main_harmonic_type == 'normal':
+            mpole = self.get_intmpole_normal_avg(data_set, self.main_harmonic)
+        else:
+            mpole = self.get_intmpole_skew_avg(data_set, self.main_harmonic)
+        main_mpole = mpole[current_index]
+        normal_harms = self.spec_normal_sys_harms - 1
+        normal_mpoles = self.spec_normal_sys_mpoles
+        skew_harms = self.spec_skew_sys_harms - 1
+        skew_mpoles = self.spec_skew_sys_mpoles
+        return RotCoilMeas._get_kick(brho, r0,
+                                     main_harm,
+                                     main_mpole,
+                                     normal_harms,
+                                     normal_mpoles,
+                                     skew_harms,
+                                     skew_mpoles,
+                                     nrpoints,
+                                     True)
+
+    def multipoles_kicks_spec_rms(self, data_set, current_index,
+                                  energy, nrpoints=101, nrmpoles=1000):
+        """."""
+        brho, *_ = _util.beam_rigidity(energy)
+        r0 = self.spec_r0 / 1000.0
+        main_harm = self.main_harmonic - 1
+        if self.main_harmonic_type == 'normal':
+            mpole = self.get_intmpole_normal_avg(data_set, self.main_harmonic)
+        else:
+            mpole = self.get_intmpole_skew_avg(data_set, self.main_harmonic)
+        main_mpole = mpole[current_index]
+
+        kickx_min, kickx_max = None, None
+        kicky_min, kicky_max = None, None
+        for j in range(500):
+
+            # --- normal multipoles
+            nharms = set()
+            nharms.update(self.spec_normal_sys_harms)
+            nharms.update(self.spec_normal_rms_harms)
+            nharms = _np.array(sorted(nharms))
+            normal_mpoles = _np.zeros(nharms.shape)
+            # add sys multipoles
+            for i in range(len(nharms)):
+                if nharms[i] in self.spec_normal_sys_harms:
+                    idx = _np.argwhere(self.spec_normal_sys_harms == nharms[i])
+                    idx = idx[0][0]
+                    normal_mpoles[i] += self.spec_normal_sys_mpoles[idx]
+            # add rms multipoles
+            for i in range(len(nharms)):
+                if nharms[i] in self.spec_normal_rms_harms:
+                    idx = _np.argwhere(self.spec_normal_rms_harms == nharms[i])
+                    idx = idx[0][0]
+                    normal_mpoles[i] += self.spec_normal_rms_mpoles[idx] * \
+                        2.0 * (_np.random.random() - 0.5)
+
+            # --- skew multipoles
+            sharms = set()
+            sharms.update(self.spec_skew_sys_harms)
+            sharms.update(self.spec_skew_rms_harms)
+            sharms = _np.array(sorted(nharms))
+            skew_mpoles = _np.zeros(sharms.shape)
+            # add sys multipoles
+            for i in range(len(sharms)):
+                if sharms[i] in self.spec_skew_sys_harms:
+                    idx = _np.argwhere(self.spec_skew_sys_harms == sharms[i])
+                    idx = idx[0][0]
+                    skew_mpoles[i] += self.spec_skew_sys_mpoles[idx]
+            # add rms multipoles
+            for i in range(len(sharms)):
+                if sharms[i] in self.spec_skew_rms_harms:
+                    idx = _np.argwhere(self.spec_skew_rms_harms == sharms[i])
+                    idx = idx[0][0]
+                    skew_mpoles[i] += self.spec_skew_rms_mpoles[idx] * \
+                        2.0 * (_np.random.random() - 0.5)
+
+            x, y, kickx, kicky = RotCoilMeas._get_kick(brho, r0,
+                                                       main_harm,
+                                                       main_mpole,
+                                                       nharms - 1,
+                                                       normal_mpoles,
+                                                       sharms - 1,
+                                                       skew_mpoles,
+                                                       nrpoints,
+                                                       True)
+            if kickx_min is None:
+                kickx_min, kickx_max = kickx, kickx
+                kicky_min, kicky_max = kicky, kicky
+            else:
+                kickx_min = _np.min([kickx_min, kickx], axis=0)
+                kickx_max = _np.max([kickx_max, kickx], axis=0)
+                kicky_min = _np.min([kicky_min, kicky], axis=0)
+                kicky_max = _np.max([kicky_max, kicky], axis=0)
+
+        return x, y, [kickx_min, kickx_max], [kicky_min, kicky_max]
+
+    def multipoles_kicks_residual(self, data_set, current_index,
+                                  energy, include_dipole=False, nrpoints=301):
+        """."""
+        brho, *_ = _util.beam_rigidity(energy)
+        r0 = self.spec_r0 / 1000.0
+        main_harm = self.main_harmonic - 1
+        if self.main_harmonic_type == 'normal':
+            mpole = self.get_intmpole_normal_avg(data_set, self.main_harmonic)
+        else:
+            mpole = self.get_intmpole_skew_avg(data_set, self.main_harmonic)
+        main_mpole = mpole[current_index]
+
+        normal_harms = _np.array(self.harmonics) - 1
+        skew_harms = _np.array(self.harmonics) - 1
+        normal_mpoles, skew_mpoles = [], []
+        for i in range(len(self.harmonics)):
+            h = self.harmonics[i]
+            if h != self.main_harmonic:
+                nmpole = self.get_intmpole_normal_avg(data_set, h)
+                smpole = self.get_intmpole_skew_avg(data_set, h)
+                if h == 1 and not include_dipole:
+                    # does not include dipolar error
+                    normal_mpoles.append(0.0)
+                    skew_mpoles.append(0.0)
+                else:
+                    normal_mpoles.append(nmpole[current_index])
+                    skew_mpoles.append(smpole[current_index])
+            else:
+                if self.main_harmonic_type == 'normal':
+                    smpole = self.get_intmpole_skew_avg(data_set, h)
+                    normal_mpoles.append(0.0)
+                    skew_mpoles.append(smpole[current_index])
+                else:
+                    nmpole = self.get_intmpole_normal_avg(data_set, h)
+                    normal_mpoles.append(nmpole[current_index])
+                    skew_mpoles.append(0.0)
+        return RotCoilMeas._get_kick(brho, r0,
+                                     main_harm,
+                                     main_mpole,
+                                     normal_harms,
+                                     normal_mpoles,
+                                     skew_harms,
+                                     skew_mpoles,
+                                     nrpoints,
+                                     False)
+
+    @staticmethod
+    def _get_kick(brho, r0,
+                  main_harm,
+                  main_mpole,
+                  normal_harms,
+                  normal_mpoles,
+                  skew_harms,
+                  skew_mpoles,
+                  nrpoints,
+                  denormalize=True):
+        """."""
+        # print('brho: {}'.format(brho))
+        # print('main_harm: {}'.format(brho))
+
+        x = _np.linspace(-r0, r0, nrpoints)
+        y = 0 * x
+        z = x + 1j * y
+        b = 0 * z
+
+        h = normal_harms
+        if denormalize:
+            m = (main_mpole * r0**main_harm / r0**h) * normal_mpoles
+        else:
+            m = _np.array(normal_mpoles)
+        for i in range(len(h)):
+            b += m[i] * (z**h[i])
+
+        h = skew_harms
+        if denormalize:
+            m = (main_mpole * r0**main_harm / r0**h) * skew_mpoles * 1j
+        else:
+            m = _np.array(skew_mpoles) * 1j
+        for i in range(len(h)):
+            b += m[i] * (z**h[i])
+
+        kickx = - (_np.real(b) / brho)
+        kicky = + (_np.imag(b) / brho)
+
+        return x, y, kickx, kicky
 
     @staticmethod
     def get_excdata_text(
@@ -623,6 +818,18 @@ class RotCoilMeas_SIQuadQ14(RotCoilMeas_SI, RotCoilMeas_Quad):
     spec_main_intmpole_max_value = 5.2116053477732  # [T] (spec in wiki-sirius)
     spec_magnetic_center_x = 40.0  # [um]
     spec_magnetic_center_y = 40.0  # [um]
+    spec_roll = 0.3  # [mrad]
+
+    spec_normal_sys_harms = _np.array([5, 9, 13, 17]) + 1
+    spec_normal_sys_mpoles = _np.array([-3.9e-4, 1.7e-3, -8.0e-4, +8.5e-5])
+    spec_normal_rms_harms = _np.array([2, 3, 4, 5]) + 1
+    spec_normal_rms_mpoles = _np.array([1.5, 1.5, 1.5, 1.5])*1e-4
+    spec_skew_sys_harms = _np.array([])
+    spec_skew_sys_mpoles = _np.array([])
+    spec_skew_rms_harms = _np.array([2, 3, 4, 5]) + 1
+    spec_skew_rms_mpoles = _np.array([0.5, 0.5, 0.5, 0.5])*1e-4
+
+    spec_r0 = 12.0  # [mm]
 
 
 class RotCoilMeas_SIQuadQ30(RotCoilMeas_SI, RotCoilMeas_Quad):
@@ -1019,6 +1226,46 @@ class MagnetsAnalysis:
         """Save excdata of all individual magnets."""
         for data in self._magnetsdata.values():
             data.save_excdata(data_set, harmonics)
+
+    def multipole_errors_kickx_plot(self, data_set, plt, energy=3.0):
+        """."""
+        idx = self.tmpl.get_max_current_index()
+        for s in self._magnetsdata:
+            mdata = self._magnetsdata[s]
+            x, y, kx, ky = mdata.multipoles_kicks_residual(
+                data_set, idx, energy)
+            plt.plot(1e3*x, 1e6*kx, color=[0, 0, 0.5])
+        x, y, kx, ky = self.tmpl.multipoles_kicks_spec_sys(
+            data_set, idx, energy)
+        plt.plot(1e3*x, 1e6*kx, 'r')
+        x, y, kx, ky = self.tmpl.multipoles_kicks_spec_rms(
+            data_set, idx, energy)
+        plt.plot(1e3*x, 1e6*kx[0], '--r')
+        plt.plot(1e3*x, 1e6*kx[1], '--r')
+        plt.xlabel('X [mm]')
+        plt.ylabel('Residual kick @ maximum current for 3GeV [urad]')
+        plt.title('Residual horizontal kick due to multipole errors')
+        plt.grid()
+
+    def multipole_errors_kicky_plot(self, data_set, plt, energy=3.0):
+        """."""
+        idx = self.tmpl.get_max_current_index()
+        for s in self._magnetsdata:
+            mdata = self._magnetsdata[s]
+            x, y, kx, ky = mdata.multipoles_kicks_residual(
+                data_set, idx, energy)
+            plt.plot(1e3*x, 1e6*ky, color=[0, 0, 0.5])
+        x, y, kx, ky = self.tmpl.multipoles_kicks_spec_sys(
+            data_set, idx, energy)
+        plt.plot(1e3*x, 1e6*ky, 'r')
+        x, y, kx, ky = self.tmpl.multipoles_kicks_spec_rms(
+            data_set, idx, energy)
+        plt.plot(1e3*x, 1e6*ky[0], '--r')
+        plt.plot(1e3*x, 1e6*ky[1], '--r')
+        plt.xlabel('X [mm]')
+        plt.ylabel('Residual kick @ maximum current for 3GeV [urad]')
+        plt.title('Residual vertical kick due to multipole errors')
+        plt.grid()
 
     def __getitem__(self, key):
         """Return magnet data."""
