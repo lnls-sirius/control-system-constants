@@ -820,6 +820,7 @@ class RotCoilMeas_SIQuadQ14(RotCoilMeas_SI, RotCoilMeas_Quad):
     spec_magnetic_center_y = 40.0  # [um]
     spec_roll = 0.3  # [mrad]
 
+    spec_r0 = 12.0  # [mm]
     spec_normal_sys_harms = _np.array([5, 9, 13, 17]) + 1
     spec_normal_sys_mpoles = _np.array([-3.9e-4, 1.7e-3, -8.0e-4, +8.5e-5])
     spec_normal_rms_harms = _np.array([2, 3, 4, 5]) + 1
@@ -828,8 +829,6 @@ class RotCoilMeas_SIQuadQ14(RotCoilMeas_SI, RotCoilMeas_Quad):
     spec_skew_sys_mpoles = _np.array([])
     spec_skew_rms_harms = _np.array([2, 3, 4, 5]) + 1
     spec_skew_rms_mpoles = _np.array([0.5, 0.5, 0.5, 0.5])*1e-4
-
-    spec_r0 = 12.0  # [mm]
 
 
 class RotCoilMeas_SIQuadQ30(RotCoilMeas_SI, RotCoilMeas_Quad):
@@ -871,7 +870,7 @@ class RotCoilMeas_BOQuadQD(RotCoilMeas_BO, RotCoilMeas_Quad):
 class RotCoilMeas_BOQuadQF(RotCoilMeas_BO, RotCoilMeas_Quad):
     """Rotation coil measurement of BO quadrupole magnets QF."""
 
-    conv_mpoles_sign = -1.0  # meas with opposite current polarity!
+    conv_mpoles_sign = +1.0  # meas with opposite current polarity!
     magnet_type_label = 'BQF'
     magnet_type_name = 'bo-quadrupole-qf'
     model_version = 'model-06'
@@ -883,6 +882,17 @@ class RotCoilMeas_BOQuadQF(RotCoilMeas_BO, RotCoilMeas_Quad):
     spec_main_intmpole_max_value = 4.2554438827581  # [T] (spec wiki-sirius)
     spec_magnetic_center_x = 160.0  # [um]
     spec_magnetic_center_y = 160.0  # [um]
+    spec_roll = 0.8  # [mrad]
+
+    spec_r0 = 17.5  # [mm]
+    spec_normal_sys_harms = _np.array([5, 9, 13]) + 1
+    spec_normal_sys_mpoles = _np.array([-1.0e-3, +1.1e-3, +8.0e-5])
+    spec_normal_rms_harms = _np.array([2, 3, 4, 5, 6, 7, 8]) + 1
+    spec_normal_rms_mpoles = _np.array([7, 4, 4, 4, 4, 4, 4])*1e-4
+    spec_skew_sys_harms = _np.array([])
+    spec_skew_sys_mpoles = _np.array([])
+    spec_skew_rms_harms = _np.array([2, 3, 4, 5, 6, 7, 8]) + 1
+    spec_skew_rms_mpoles = _np.array([10, 5, 1, 1, 1, 1, 1])*1e-4
 
 
 class MagnetsAnalysis:
