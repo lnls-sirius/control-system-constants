@@ -59,8 +59,6 @@ class RotCoilData:
         """Init."""
         self.path = path
         self._read_data(conv_mpoles_sign)
-        # if not hasattr(self, 'magnetic_center_x'):
-        self._calc_magnetic_center()
 
     def _read_data(self, conv_mpoles_sign):
         # read all text
@@ -115,31 +113,27 @@ class RotCoilData:
             self.intmpole_skew_avg.append(multipoles[2])
             # print(n, multipoles)
 
-    def _calc_magnetic_center(self):
-        # by + ibx = (b0 + i a0) + (b1 + i a1) * (x + i y)
-        idx_dip = self.harmonics.index(1)
-        idx_quad = self.harmonics.index(2)
-        a0 = self.intmpole_skew_avg[idx_dip]
-        b0 = self.intmpole_normal_avg[idx_dip]
-        a1 = self.intmpole_skew_avg[idx_quad]
-        b1 = self.intmpole_normal_avg[idx_quad]
-        m11, m12 = a1, b1
-        m21, m22 = b1, -a1
-        detm = m11*m22 - m12*m21
-        x = - (m22 * a0 - m12 * b0) / detm
-        y = - (-m21 * a0 + m11 * b0) / detm
-        # print(self.path)
-        # print('{:+.3f} {:+.3f}'.format(self.magnetic_center_x, 1e6 * x))
-        # print('{:+.3f} {:+.3f}'.format(self.magnetic_center_y, 1e6 * y))
-        # print()
-        self.magnetic_center_x = 1e6 * x
-        self.magnetic_center_y = 1e6 * y
-
     @staticmethod
     def _del_unwanted(param):
         for r in RotCoilData._del:
             param = param.replace(r, '')
         return param
+
+
+class RotCoilMeas_Quad:
+    """Rotation coil measurement of quadrupole magnets."""
+
+    main_harmonic = 2  # 1: dipole, 2:quadrupole, etc...
+    main_harmonic_type = 'normal'
+    pwrsupply_polarity = 'monopolar'
+
+
+class RotCoilMeas_Sext:
+    """Rotation coil measurement of sextupole magnets."""
+
+    main_harmonic = 3  # 1: dipole, 2:quadrupole, etc...
+    main_harmonic_type = 'normal'
+    pwrsupply_polarity = 'monopolar'
 
 
 class RotCoilMeas:
@@ -220,6 +214,7 @@ class RotCoilMeas:
         """Init."""
         self.serial_number = serial_number
         self._read_rotcoil_data()
+        self._calc_magnetic_center()
 
     @property
     def data_sets(self):
@@ -622,6 +617,44 @@ class RotCoilMeas:
             idx = self.get_max_current_index()
             return tuple(range(idx, self.size))
 
+    def _calc_magnetic_center(self):
+        # B = D + Q*z + S*z**2
+        #
+        # B = By + Bx * 1j
+        # z = x + y * 1j
+        #
+        # Dipolar root for quadrupoles:
+        # B(z0) = 0 => z0 = -D/Q
+        #
+        # Quadrupolar root for sextupoles:
+        # B = (D - S*z0**2) + S*(z - z0)**2
+        # z0 = -Q/(2S)
+        for data_set in self._rotcoildata:
+            for d in self._rotcoildata[data_set]:
+                idx_dip = d.harmonics.index(1)
+                idx_quad = d.harmonics.index(2)
+                a0 = d.intmpole_skew_avg[idx_dip]
+                b0 = d.intmpole_normal_avg[idx_dip]
+                a1 = d.intmpole_skew_avg[idx_quad]
+                b1 = d.intmpole_normal_avg[idx_quad]
+                D = b0 + a0 * 1j
+                Q = b1 + a1 * 1j
+                if isinstance(self, RotCoilMeas_Quad):
+                    z0 = -D/Q
+                elif isinstance(self, RotCoilMeas_Sext):
+                    idx_sext = d.harmonics.index(3)
+                    a2 = d.intmpole_skew_avg[idx_sext]
+                    b2 = d.intmpole_normal_avg[idx_sext]
+                    S = b2 + a2 * 1j
+                    z0 = -Q/S/2.0
+                    B = D - S*z0**2
+                    d.magnetic_center_intby = B.real
+                    d.magnetic_center_intbx = B.imag
+                else:
+                    raise NotImplementedError()
+                d.magnetic_center_x = 1e6 * z0.real
+                d.magnetic_center_y = 1e6 * z0.imag
+
     def _excitation_text(self, data_set, harmonics):
 
         pwrsupply_polarity = self.pwrsupply_polarity
@@ -789,14 +822,6 @@ class RotCoilMeas_BO(RotCoilMeas):
 
     # used in case meas was taken with opposite current polarity
     conv_mpoles_sign = +1.0
-
-
-class RotCoilMeas_Quad:
-    """Rotation coil measurement of quadrupole magnets."""
-
-    main_harmonic = 2  # 1: dipole, 2:quadrupole, etc...
-    main_harmonic_type = 'normal'
-    pwrsupply_polarity = 'monopolar'
 
 
 class RotCoilMeas_SIQuadQ14(RotCoilMeas_SI, RotCoilMeas_Quad):
