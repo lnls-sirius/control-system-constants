@@ -929,6 +929,7 @@ class MagnetsAnalysis:
         self._magnetsdata = dict()
         for s in serial_numbers:
             self._magnetsdata[s] = rotcoilmeas_cls(s)
+        self._average = dict()
 
     def init(self):
         """Init."""
@@ -1197,46 +1198,22 @@ class MagnetsAnalysis:
 
     def save_excdata_average(self, data_set, harmonics=None):
         """Save excitation data."""
-        snumbers = tuple(self._magnetsdata.keys())
-        tmpl = self._magnetsdata[snumbers[0]]
-
-        pwrsupply_polarity = tmpl.pwrsupply_polarity
-        main_harmonic = int(tmpl.main_harmonic)
-        main_harmonic_type = tmpl.main_harmonic_type
+        pwrsupply_polarity = self.tmpl.pwrsupply_polarity
+        main_harmonic = int(self.tmpl.main_harmonic)
+        main_harmonic_type = self.tmpl.main_harmonic_type
         if harmonics is None:
-            harmonics = sorted([int(h) for h in tmpl.harmonics])
-        magnet_type_label = tmpl.magnet_type_label
+            harmonics = sorted([int(h) for h in self.tmpl.harmonics])
+        magnet_type_label = self.tmpl.magnet_type_label
         magnet_serial_number = None
-        filename = tmpl.magnet_type_name + '-fam'
+        filename = self.tmpl.magnet_type_name + '-fam'
         units = ''
         for h in harmonics:
             unit = _util.get_intmpole_units(h-1)
             units += unit + ' ' + unit + '  '
         units = units.strip()
 
-        # average current
-        currents = list()
-        for data in self._magnetsdata.values():
-            c, _ = data.get_rampup(data_set)
-            currents.append(c)
-        currents = _np.mean(_np.array(currents), axis=0)
-
-        # calc average integrated multipoles
-        shape = (len(currents), len(harmonics))
-        mpoles_n = _np.zeros(shape)
-        mpoles_s = _np.zeros(shape)
-        idx = self.tmpl.get_rampup_indices()
-        for j in range(len(harmonics)):
-            h = harmonics[j]
-            for data in self._magnetsdata.values():
-                n = data.get_intmpole_normal_avg(data_set, h)
-                n = [n[i] for i in idx]
-                s = data.get_intmpole_skew_avg(data_set, h)
-                s = [s[i] for i in idx]
-                mpoles_n[:, j] += n
-                mpoles_s[:, j] += s
-            mpoles_n[:, j] /= len(self._magnetsdata)
-            mpoles_s[:, j] /= len(self._magnetsdata)
+        if data_set not in self._average:
+            self._create_average_mpoles(data_set)
 
         # build text lines
         lines = RotCoilMeas.get_excdata_text(
@@ -1247,15 +1224,26 @@ class MagnetsAnalysis:
             main_harmonic,
             main_harmonic_type,
             harmonics,
-            currents,
-            mpoles_n,
-            mpoles_s,
+            self._average[data_set]['currents'],
+            self._average[data_set]['mpoles_n'],
+            self._average[data_set]['mpoles_s'],
             filename)
 
         # save data to file
         with open(filename + '.txt', 'w') as fp:
             for line in lines:
                 fp.write(line + '\n')
+
+    def conv_current_2_mpoles(self, data_set, current):
+        """."""
+        if data_set not in self._average:
+            self._create_average_mpoles(data_set)
+        currents = self._average[data_set]['currents']
+        mpoles_n = self._average[data_set]['mpoles_n']
+        mpoles_s = self._average[data_set]['mpoles_s']
+        interp_mpoles_n = _np.zeros(mpoles_n.shape)
+        interp_mpoles_s = _np.zeros(mpoles_s.shape)
+        return None
 
     def save_excdata_individuals(self, data_set, harmonics=None):
         """Save excdata of all individual magnets."""
@@ -1301,6 +1289,35 @@ class MagnetsAnalysis:
         plt.ylabel('Residual kick @ maximum current for 3GeV [urad]')
         plt.title('Residual vertical kick due to multipole errors')
         plt.grid()
+
+    def _create_average_mpoles(self, data_set):
+        # average current
+        currents = list()
+        for data in self._magnetsdata.values():
+            c, _ = data.get_rampup(data_set)
+            currents.append(c)
+        currents = _np.mean(_np.array(currents), axis=0)
+
+        # calc average integrated multipoles
+        shape = (len(currents), len(self.tmpl.harmonics))
+        mpoles_n = _np.zeros(shape)
+        mpoles_s = _np.zeros(shape)
+        idx = self.tmpl.get_rampup_indices()
+        for j in range(len(self.tmpl.harmonics)):
+            h = self.tmpl.harmonics[j]
+            for data in self._magnetsdata.values():
+                n = data.get_intmpole_normal_avg(data_set, h)
+                n = [n[i] for i in idx]
+                s = data.get_intmpole_skew_avg(data_set, h)
+                s = [s[i] for i in idx]
+                mpoles_n[:, j] += n
+                mpoles_s[:, j] += s
+            mpoles_n[:, j] /= len(self._magnetsdata)
+            mpoles_s[:, j] /= len(self._magnetsdata)
+            self._average[data_set] = {
+                'currents': currents,
+                'mpoles_n': mpoles_n,
+                'mpoles_s': mpoles_s}
 
     def __getitem__(self, key):
         """Return magnet data."""
