@@ -23,7 +23,7 @@
 # COMMENTS
 # ========
 # 1. file generated automatically from rotating coil measurement data
-# 2. timestamp: 2018-07-23-16:22:24.343
+# 2. timestamp: 2018-08-02-15:08:15.519
 # 3. magnet_type_label: BQF
 # 4. magnet_serial_number: 041
 # 5. data_set: M1
