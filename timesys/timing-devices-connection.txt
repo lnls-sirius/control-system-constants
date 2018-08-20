@@ -1,48 +1,48 @@
-## First Layer: From EVG to FOUTs
-AS-Glob:TI-EVG:OUT0                AS-Glob:TI-FOUT-1:UPLINK
-AS-Glob:TI-EVG:OUT1                AS-Glob:TI-FOUT-2:UPLINK
-AS-Glob:TI-EVG:OUT2                AS-Glob:TI-FOUT-3:UPLINK
-AS-Glob:TI-EVG:OUT3                AS-Glob:TI-FOUT-4:UPLINK
-AS-Glob:TI-EVG:OUT4                AS-Glob:TI-FOUT-5:UPLINK
+## First Layer: From EVG to Fouts
+AS-Glob:TI-EVG:OUT0                AS-Glob:TI-Fout-1:UPLINK
+AS-Glob:TI-EVG:OUT1                AS-Glob:TI-Fout-2:UPLINK
+AS-Glob:TI-EVG:OUT2                AS-Glob:TI-Fout-3:UPLINK
+AS-Glob:TI-EVG:OUT3                AS-Glob:TI-Fout-4:UPLINK
+AS-Glob:TI-EVG:OUT4                AS-Glob:TI-Fout-5:UPLINK
 
 
-# Second Layer: From FOUTs to EVRS and AFCs
-AS-Glob:TI-FOUT-1:OUT0             AS-Glob:TI-EVR-1:UPLINK
-AS-Glob:TI-FOUT-1:OUT1             AS-Glob:TI-EVR-2:UPLINK
-AS-Glob:TI-FOUT-1:OUT2             AS-Glob:TI-EVR-3:UPLINK
-AS-Glob:TI-FOUT-1:OUT3             AS-Glob:TI-EVE-1:UPLINK
-AS-Glob:TI-FOUT-1:OUT4             AS-Glob:TI-EVE-2:UPLINK
-AS-Glob:TI-FOUT-1:OUT5             AS-Glob:TI-EVE-3:UPLINK
-AS-Glob:TI-FOUT-1:OUT6             AS-Glob:TI-EVR-5:UPLINK #FAKE
+# Second Layer: From Fouts to EVRS and AMCFPGAEVRs
+AS-Glob:TI-Fout-1:OUT0             AS-Glob:TI-EVR-1:UPLINK
+AS-Glob:TI-Fout-1:OUT1             AS-Glob:TI-EVR-2:UPLINK
+AS-Glob:TI-Fout-1:OUT2             AS-Glob:TI-EVR-3:UPLINK
+AS-Glob:TI-Fout-1:OUT3             AS-Glob:TI-EVE-1:UPLINK
+AS-Glob:TI-Fout-1:OUT4             AS-Glob:TI-EVE-2:UPLINK
+AS-Glob:TI-Fout-1:OUT5             AS-Glob:TI-EVE-3:UPLINK
+AS-Glob:TI-Fout-1:OUT6             AS-Glob:TI-EVR-5:UPLINK #FAKE
 
-AS-Glob:TI-FOUT-2:OUT0             AS-Glob:TI-EVR-4:UPLINK
-AS-Glob:TI-FOUT-2:OUT1             AS-Glob:TI-EVE-4:UPLINK
-AS-Glob:TI-FOUT-2:OUT2             AS-Glob:TI-EVE-5:UPLINK
-AS-Glob:TI-FOUT-2:OUT3             AS-Glob:TI-EVE-6:UPLINK
+AS-Glob:TI-Fout-2:OUT0             AS-Glob:TI-EVR-4:UPLINK
+AS-Glob:TI-Fout-2:OUT1             AS-Glob:TI-EVE-4:UPLINK
+AS-Glob:TI-Fout-2:OUT2             AS-Glob:TI-EVE-5:UPLINK
+AS-Glob:TI-Fout-2:OUT3             AS-Glob:TI-EVE-6:UPLINK
 
-AS-Glob:TI-FOUT-3:OUT0             AS-01:TI-AFC:SFP
-AS-Glob:TI-FOUT-3:OUT1             AS-02:TI-AFC:SFP
-AS-Glob:TI-FOUT-3:OUT2             AS-03:TI-AFC:SFP
-AS-Glob:TI-FOUT-3:OUT3             AS-04:TI-AFC:SFP
-AS-Glob:TI-FOUT-3:OUT4             AS-05:TI-AFC:SFP
-AS-Glob:TI-FOUT-3:OUT5             AS-06:TI-AFC:SFP
-AS-Glob:TI-FOUT-3:OUT6             AS-07:TI-AFC:SFP
+AS-Glob:TI-Fout-3:OUT0             IA-01RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-3:OUT1             IA-02RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-3:OUT2             IA-03RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-3:OUT3             IA-04RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-3:OUT4             IA-05RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-3:OUT5             IA-06RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-3:OUT6             IA-07RaBPM:TI-AMCFPGAEVR:SFP
 
-AS-Glob:TI-FOUT-4:OUT0             AS-08:TI-AFC:SFP
-AS-Glob:TI-FOUT-4:OUT1             AS-09:TI-AFC:SFP
-AS-Glob:TI-FOUT-4:OUT2             AS-10:TI-AFC:SFP
-AS-Glob:TI-FOUT-4:OUT3             AS-11:TI-AFC:SFP
-AS-Glob:TI-FOUT-4:OUT4             AS-12:TI-AFC:SFP
-AS-Glob:TI-FOUT-4:OUT5             AS-13:TI-AFC:SFP
-AS-Glob:TI-FOUT-4:OUT6             AS-14:TI-AFC:SFP
+AS-Glob:TI-Fout-4:OUT0             IA-08RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-4:OUT1             IA-09RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-4:OUT2             IA-10RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-4:OUT3             IA-11RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-4:OUT4             IA-12RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-4:OUT5             IA-13RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-4:OUT6             IA-14RaBPM:TI-AMCFPGAEVR:SFP
 
-AS-Glob:TI-FOUT-5:OUT0             AS-15:TI-AFC:SFP
-AS-Glob:TI-FOUT-5:OUT1             AS-16:TI-AFC:SFP
-AS-Glob:TI-FOUT-5:OUT2             AS-17:TI-AFC:SFP
-AS-Glob:TI-FOUT-5:OUT3             AS-18:TI-AFC:SFP
-AS-Glob:TI-FOUT-5:OUT4             AS-19:TI-AFC:SFP
-AS-Glob:TI-FOUT-5:OUT5             AS-20:TI-AFC:SFP
-AS-Glob:TI-FOUT-5:OUT6             AS-21:TI-AFC:SFP
+AS-Glob:TI-Fout-5:OUT0             IA-15RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-5:OUT1             IA-16RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-5:OUT2             IA-17RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-5:OUT3             IA-18RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-5:OUT4             IA-19RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-5:OUT5             IA-20RaBPM:TI-AMCFPGAEVR:SFP
+AS-Glob:TI-Fout-5:OUT6             IA-20RaBPMTL:TI-AMCFPGAEVR:SFP
 
 
 # Third Layer: From EVRs to STDMOE, STDSOE, SOE, MOE
@@ -110,18 +110,18 @@ AS-Glob:TI-EVR-4:OTP03             AS-Glob:TI-STDSOE-5:IN4
 
 
 # Third Layer: from EVEs to Equipments
-AS-Glob:TI-EVE-1:RFOUT             LI-01:EGun-EGun:RFIN
+AS-Glob:TI-EVE-1:RFout             LI-01:EGun-EGun:RFIN
 
 AS-Glob:TI-EVE-2:OUT0              LI-Fam:DI-BPM:IN
 AS-Glob:TI-EVE-2:OUT1              LI-Fam:DI-Scrn:IN
 AS-Glob:TI-EVE-2:OUT2              LI-01:DI-ICT-1:IN
 AS-Glob:TI-EVE-2:OUT3              LI-01:DI-ICT-2:IN
 
-AS-Glob:TI-EVE-3:RFOUT             SI-Glob:DI-StrkCam:RFIN
+AS-Glob:TI-EVE-3:RFout             SI-Glob:DI-StrkCam:RFIN
 AS-Glob:TI-EVE-3:OUT0              SI-Glob:DI-StrkCam:IN1
 AS-Glob:TI-EVE-3:OUT1              SI-Glob:DI-StrkCam:IN2
 
-AS-Glob:TI-EVE-4:RFOUT             SI-Glob:BbB-FBELT:RFIN
+AS-Glob:TI-EVE-4:RFout             SI-Glob:BbB-FBELT:RFIN
 AS-Glob:TI-EVE-4:OUT0              SI-Glob:BbB-iGp12H:FID
 AS-Glob:TI-EVE-4:OUT1              SI-Glob:BbB-iGp12V:FID
 AS-Glob:TI-EVE-4:OUT2              SI-Glob:BbB-iGp12L:FID
@@ -229,440 +229,262 @@ AS-Glob:TI-MOE-14:OUT              TS-04:DI-Scrn-2:IN
 AS-Glob:TI-MOE-15:OUT              TS-04:DI-Scrn-3:IN
 
 
-##AFC from Sector 01
-AS-01:TI-AFC:FMC1CH1              SI-01:CO-PSCtrl-1:IN  # QFA ,QDA
-AS-01:TI-AFC:FMC1CH3              SI-01:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-01:TI-AFC:FMC1CH4              SI-01:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-01:TI-AFC:FMC1CH5              SI-01:CO-PSCtrl-5:IN  # correctors
-AS-01:TI-AFC:FMC2CH1              SI-01:CO-PSCtrl-6:IN  # correctors
-AS-01:TI-AFC:FMC2CH2              SI-01:CO-PSCtrl-7:IN  # correctors
-AS-01:TI-AFC:FMC2CH3              SI-01:CO-PSCtrl-8:IN  # correctors
-AS-01:TI-AFC:FMC2CH4              SI-01:CO-PSCtrl-9:IN  # skew quad
-AS-01:TI-AFC:FMC2CH5              SI-01:CO-PSCtrl-10:IN # skew quad
-AS-01:TI-AFC:FMC3CH1              BO-01:CO-PSCtrl-1:IN  # BO correctors
-AS-01:TI-AFC:FMC3CH2              BO-01:CO-PSCtrl-2:IN  # BO correctors
+##AMCFPGAEVR from Sector 01
+IA-01RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-01:CO-PSCtrl-1:IN  # QFA ,QDA
+IA-01RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-01:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-01RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-01:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-01RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-01:CO-PSCtrl-5:IN  # correctors
+IA-01RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-01:CO-PSCtrl-6:IN  # correctors
+IA-01RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-01:CO-PSCtrl-7:IN  # correctors
+IA-01RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-01:CO-PSCtrl-8:IN  # correctors
+IA-01RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-01:CO-PSCtrl-9:IN  # skew quad
+IA-01RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-01:CO-PSCtrl-10:IN # skew quad
+IA-01RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-01:CO-PSCtrl-1:IN  # BO correctors
+IA-01RaBPM:TI-AMCFPGAEVR:FMC3CH2              BO-01:CO-PSCtrl-2:IN  # BO correctors
 
-##AFC from Sector 02
-AS-02:TI-AFC:FMC1CH1              SI-02:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
-AS-02:TI-AFC:FMC1CH2              SI-02:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
-AS-02:TI-AFC:FMC1CH3              SI-02:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-02:TI-AFC:FMC1CH4              SI-02:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-02:TI-AFC:FMC1CH5              SI-02:CO-PSCtrl-5:IN  # correctors
-AS-02:TI-AFC:FMC2CH1              SI-02:CO-PSCtrl-6:IN  # correctors
-AS-02:TI-AFC:FMC2CH2              SI-02:CO-PSCtrl-7:IN  # correctors
-AS-02:TI-AFC:FMC2CH3              SI-02:CO-PSCtrl-8:IN  # correctors
-AS-02:TI-AFC:FMC2CH4              SI-02:CO-PSCtrl-9:IN  # skew quad
-AS-02:TI-AFC:FMC2CH5              SI-02:CO-PSCtrl-10:IN # skew quad
+##AMCFPGAEVR from Sector 02
+IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-02:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-02:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-02:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-02:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-02:CO-PSCtrl-5:IN  # correctors
+IA-02RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-02:CO-PSCtrl-6:IN  # correctors
+IA-02RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-02:CO-PSCtrl-7:IN  # correctors
+IA-02RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-02:CO-PSCtrl-8:IN  # correctors
+IA-02RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-02:CO-PSCtrl-9:IN  # skew quad
+IA-02RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-02:CO-PSCtrl-10:IN # skew quad
 
-##AFC from Sector 03
-AS-03:TI-AFC:FMC1CH1              SI-03:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
-AS-03:TI-AFC:FMC1CH2              SI-03:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
-AS-03:TI-AFC:FMC1CH3              SI-03:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-03:TI-AFC:FMC1CH4              SI-03:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-03:TI-AFC:FMC1CH5              SI-03:CO-PSCtrl-5:IN  # correctors
-AS-03:TI-AFC:FMC2CH1              SI-03:CO-PSCtrl-6:IN  # correctors
-AS-03:TI-AFC:FMC2CH2              SI-03:CO-PSCtrl-7:IN  # correctors
-AS-03:TI-AFC:FMC2CH3              SI-03:CO-PSCtrl-8:IN  # correctors
-AS-03:TI-AFC:FMC2CH4              SI-03:CO-PSCtrl-9:IN  # skew quad
-AS-03:TI-AFC:FMC2CH5              SI-03:CO-PSCtrl-10:IN # skew quad
-AS-03:TI-AFC:FMC3CH1              BO-03:CO-PSCtrl:IN  # BO correctors
+##AMCFPGAEVR from Sector 03
+IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-03:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
+IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-03:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
+IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-03:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-03:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-03:CO-PSCtrl-5:IN  # correctors
+IA-03RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-03:CO-PSCtrl-6:IN  # correctors
+IA-03RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-03:CO-PSCtrl-7:IN  # correctors
+IA-03RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-03:CO-PSCtrl-8:IN  # correctors
+IA-03RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-03:CO-PSCtrl-9:IN  # skew quad
+IA-03RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-03:CO-PSCtrl-10:IN # skew quad
+IA-03RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-03:CO-PSCtrl:IN  # BO correctors
 
-##AFC from Sector 04
-AS-04:TI-AFC:FMC1CH1              SI-04:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
-AS-04:TI-AFC:FMC1CH2              SI-04:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
-AS-04:TI-AFC:FMC1CH3              SI-04:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-04:TI-AFC:FMC1CH4              SI-04:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-04:TI-AFC:FMC1CH5              SI-04:CO-PSCtrl-5:IN  # correctors
-AS-04:TI-AFC:FMC2CH1              SI-04:CO-PSCtrl-6:IN  # correctors
-AS-04:TI-AFC:FMC2CH2              SI-04:CO-PSCtrl-7:IN  # correctors
-AS-04:TI-AFC:FMC2CH3              SI-04:CO-PSCtrl-8:IN  # correctors
-AS-04:TI-AFC:FMC2CH4              SI-04:CO-PSCtrl-9:IN  # skew quad
-AS-04:TI-AFC:FMC2CH5              SI-04:CO-PSCtrl-10:IN # skew quad
+##AMCFPGAEVR from Sector 04
+IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-04:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-04:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-04:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-04:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-04:CO-PSCtrl-5:IN  # correctors
+IA-04RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-04:CO-PSCtrl-6:IN  # correctors
+IA-04RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-04:CO-PSCtrl-7:IN  # correctors
+IA-04RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-04:CO-PSCtrl-8:IN  # correctors
+IA-04RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-04:CO-PSCtrl-9:IN  # skew quad
+IA-04RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-04:CO-PSCtrl-10:IN # skew quad
 
-##AFC from Sector 05
-AS-05:TI-AFC:FMC1CH1              SI-05:CO-PSCtrl-1:IN  # QFA ,QDA
-AS-05:TI-AFC:FMC1CH3              SI-05:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-05:TI-AFC:FMC1CH4              SI-05:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-05:TI-AFC:FMC1CH5              SI-05:CO-PSCtrl-5:IN  # correctors
-AS-05:TI-AFC:FMC2CH1              SI-05:CO-PSCtrl-6:IN  # correctors
-AS-05:TI-AFC:FMC2CH2              SI-05:CO-PSCtrl-7:IN  # correctors
-AS-05:TI-AFC:FMC2CH3              SI-05:CO-PSCtrl-8:IN  # correctors
-AS-05:TI-AFC:FMC2CH4              SI-05:CO-PSCtrl-9:IN  # skew quad
-AS-05:TI-AFC:FMC2CH5              SI-05:CO-PSCtrl-10:IN # skew quad
-AS-05:TI-AFC:FMC3CH1              BO-05:CO-PSCtrl:IN  # BO correctors
+##AMCFPGAEVR from Sector 05
+IA-05RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-05:CO-PSCtrl-1:IN  # QFA ,QDA
+IA-05RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-05:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-05RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-05:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-05RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-05:CO-PSCtrl-5:IN  # correctors
+IA-05RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-05:CO-PSCtrl-6:IN  # correctors
+IA-05RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-05:CO-PSCtrl-7:IN  # correctors
+IA-05RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-05:CO-PSCtrl-8:IN  # correctors
+IA-05RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-05:CO-PSCtrl-9:IN  # skew quad
+IA-05RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-05:CO-PSCtrl-10:IN # skew quad
+IA-05RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-05:CO-PSCtrl:IN  # BO correctors
 
-##AFC from Sector 06
-AS-06:TI-AFC:FMC1CH1              SI-06:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
-AS-06:TI-AFC:FMC1CH2              SI-06:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
-AS-06:TI-AFC:FMC1CH3              SI-06:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-06:TI-AFC:FMC1CH4              SI-06:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-06:TI-AFC:FMC1CH5              SI-06:CO-PSCtrl-5:IN  # correctors
-AS-06:TI-AFC:FMC2CH1              SI-06:CO-PSCtrl-6:IN  # correctors
-AS-06:TI-AFC:FMC2CH2              SI-06:CO-PSCtrl-7:IN  # correctors
-AS-06:TI-AFC:FMC2CH3              SI-06:CO-PSCtrl-8:IN  # correctors
-AS-06:TI-AFC:FMC2CH4              SI-06:CO-PSCtrl-9:IN  # skew quad
-AS-06:TI-AFC:FMC2CH5              SI-06:CO-PSCtrl-10:IN # skew quad
+##AMCFPGAEVR from Sector 06
+IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-06:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-06:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-06:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-06:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-06:CO-PSCtrl-5:IN  # correctors
+IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-06:CO-PSCtrl-6:IN  # correctors
+IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-06:CO-PSCtrl-7:IN  # correctors
+IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-06:CO-PSCtrl-8:IN  # correctors
+IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-06:CO-PSCtrl-9:IN  # skew quad
+IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-06:CO-PSCtrl-10:IN # skew quad
 
-##AFC from Sector 07
-AS-07:TI-AFC:FMC1CH1              SI-07:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
-AS-07:TI-AFC:FMC1CH2              SI-07:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
-AS-07:TI-AFC:FMC1CH3              SI-07:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-07:TI-AFC:FMC1CH4              SI-07:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-07:TI-AFC:FMC1CH5              SI-07:CO-PSCtrl-5:IN  # correctors
-AS-07:TI-AFC:FMC2CH1              SI-07:CO-PSCtrl-6:IN  # correctors
-AS-07:TI-AFC:FMC2CH2              SI-07:CO-PSCtrl-7:IN  # correctors
-AS-07:TI-AFC:FMC2CH3              SI-07:CO-PSCtrl-8:IN  # correctors
-AS-07:TI-AFC:FMC2CH4              SI-07:CO-PSCtrl-9:IN  # skew quad
-AS-07:TI-AFC:FMC2CH5              SI-07:CO-PSCtrl-10:IN # skew quad
-AS-07:TI-AFC:FMC3CH1              BO-07:CO-PSCtrl:IN  # BO correctors
+##AMCFPGAEVR from Sector 07
+IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-07:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
+IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-07:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
+IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-07:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-07:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-07:CO-PSCtrl-5:IN  # correctors
+IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-07:CO-PSCtrl-6:IN  # correctors
+IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-07:CO-PSCtrl-7:IN  # correctors
+IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-07:CO-PSCtrl-8:IN  # correctors
+IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-07:CO-PSCtrl-9:IN  # skew quad
+IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-07:CO-PSCtrl-10:IN # skew quad
+IA-07RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-07:CO-PSCtrl:IN  # BO correctors
 
-##AFC from Sector 08
-AS-08:TI-AFC:FMC1CH1              SI-08:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
-AS-08:TI-AFC:FMC1CH2              SI-08:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
-AS-08:TI-AFC:FMC1CH3              SI-08:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-08:TI-AFC:FMC1CH4              SI-08:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-08:TI-AFC:FMC1CH5              SI-08:CO-PSCtrl-5:IN  # correctors
-AS-08:TI-AFC:FMC2CH1              SI-08:CO-PSCtrl-6:IN  # correctors
-AS-08:TI-AFC:FMC2CH2              SI-08:CO-PSCtrl-7:IN  # correctors
-AS-08:TI-AFC:FMC2CH3              SI-08:CO-PSCtrl-8:IN  # correctors
-AS-08:TI-AFC:FMC2CH4              SI-08:CO-PSCtrl-9:IN  # skew quad
-AS-08:TI-AFC:FMC2CH5              SI-08:CO-PSCtrl-10:IN # skew quad
-AS-08:TI-AFC:FMC3CH1              BO-08:CO-PSCtrl:IN  # BO correctors
+##AMCFPGAEVR from Sector 08
+IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-08:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-08:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-08:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-08:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-08:CO-PSCtrl-5:IN  # correctors
+IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-08:CO-PSCtrl-6:IN  # correctors
+IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-08:CO-PSCtrl-7:IN  # correctors
+IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-08:CO-PSCtrl-8:IN  # correctors
+IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-08:CO-PSCtrl-9:IN  # skew quad
+IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-08:CO-PSCtrl-10:IN # skew quad
+IA-08RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-08:CO-PSCtrl:IN  # BO correctors
 
-##AFC from Sector 09
-AS-09:TI-AFC:FMC1CH1              SI-09:CO-PSCtrl-1:IN  # QFA ,QDA
-AS-09:TI-AFC:FMC1CH3              SI-09:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-09:TI-AFC:FMC1CH4              SI-09:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-09:TI-AFC:FMC1CH5              SI-09:CO-PSCtrl-5:IN  # correctors
-AS-09:TI-AFC:FMC2CH1              SI-09:CO-PSCtrl-6:IN  # correctors
-AS-09:TI-AFC:FMC2CH2              SI-09:CO-PSCtrl-7:IN  # correctors
-AS-09:TI-AFC:FMC2CH3              SI-09:CO-PSCtrl-8:IN  # correctors
-AS-09:TI-AFC:FMC2CH4              SI-09:CO-PSCtrl-9:IN  # skew quad
-AS-09:TI-AFC:FMC2CH5              SI-09:CO-PSCtrl-10:IN # skew quad
-AS-09:TI-AFC:FMC3CH1              BO-09:CO-PSCtrl:IN    # BO correctors
+##AMCFPGAEVR from Sector 09
+IA-09RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-09:CO-PSCtrl-1:IN  # QFA ,QDA
+IA-09RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-09:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-09RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-09:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-09RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-09:CO-PSCtrl-5:IN  # correctors
+IA-09RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-09:CO-PSCtrl-6:IN  # correctors
+IA-09RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-09:CO-PSCtrl-7:IN  # correctors
+IA-09RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-09:CO-PSCtrl-8:IN  # correctors
+IA-09RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-09:CO-PSCtrl-9:IN  # skew quad
+IA-09RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-09:CO-PSCtrl-10:IN # skew quad
+IA-09RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-09:CO-PSCtrl:IN    # BO correctors
 
-##AFC from Sector 10
-AS-10:TI-AFC:FMC1CH1              SI-10:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
-AS-10:TI-AFC:FMC1CH2              SI-10:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
-AS-10:TI-AFC:FMC1CH3              SI-10:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-10:TI-AFC:FMC1CH4              SI-10:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-10:TI-AFC:FMC1CH5              SI-10:CO-PSCtrl-5:IN  # correctors
-AS-10:TI-AFC:FMC2CH1              SI-10:CO-PSCtrl-6:IN  # correctors
-AS-10:TI-AFC:FMC2CH2              SI-10:CO-PSCtrl-7:IN  # correctors
-AS-10:TI-AFC:FMC2CH3              SI-10:CO-PSCtrl-8:IN  # correctors
-AS-10:TI-AFC:FMC2CH4              SI-10:CO-PSCtrl-9:IN  # skew quad
-AS-10:TI-AFC:FMC2CH5              SI-10:CO-PSCtrl-10:IN # skew quad
+##AMCFPGAEVR from Sector 10
+IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-10:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-10:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-10:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-10:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-10:CO-PSCtrl-5:IN  # correctors
+IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-10:CO-PSCtrl-6:IN  # correctors
+IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-10:CO-PSCtrl-7:IN  # correctors
+IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-10:CO-PSCtrl-8:IN  # correctors
+IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-10:CO-PSCtrl-9:IN  # skew quad
+IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-10:CO-PSCtrl-10:IN # skew quad
 
-##AFC from Sector 11
-AS-11:TI-AFC:FMC1CH1              SI-11:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
-AS-11:TI-AFC:FMC1CH2              SI-11:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
-AS-11:TI-AFC:FMC1CH3              SI-11:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-11:TI-AFC:FMC1CH4              SI-11:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-11:TI-AFC:FMC1CH5              SI-11:CO-PSCtrl-5:IN  # correctors
-AS-11:TI-AFC:FMC2CH1              SI-11:CO-PSCtrl-6:IN  # correctors
-AS-11:TI-AFC:FMC2CH2              SI-11:CO-PSCtrl-7:IN  # correctors
-AS-11:TI-AFC:FMC2CH3              SI-11:CO-PSCtrl-8:IN  # correctors
-AS-11:TI-AFC:FMC2CH4              SI-11:CO-PSCtrl-9:IN  # skew quad
-AS-11:TI-AFC:FMC2CH5              SI-11:CO-PSCtrl-10:IN # skew quad
-AS-11:TI-AFC:FMC3CH1              BO-11:CO-PSCtrl:IN  # BO correctors
+##AMCFPGAEVR from Sector 11
+IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-11:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
+IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-11:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
+IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-11:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-11:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-11:CO-PSCtrl-5:IN  # correctors
+IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-11:CO-PSCtrl-6:IN  # correctors
+IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-11:CO-PSCtrl-7:IN  # correctors
+IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-11:CO-PSCtrl-8:IN  # correctors
+IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-11:CO-PSCtrl-9:IN  # skew quad
+IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-11:CO-PSCtrl-10:IN # skew quad
+IA-11RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-11:CO-PSCtrl:IN  # BO correctors
 
-##AFC from Sector 12
-AS-12:TI-AFC:FMC1CH1              SI-12:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
-AS-12:TI-AFC:FMC1CH2              SI-12:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
-AS-12:TI-AFC:FMC1CH3              SI-12:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-12:TI-AFC:FMC1CH4              SI-12:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-12:TI-AFC:FMC1CH5              SI-12:CO-PSCtrl-5:IN  # correctors
-AS-12:TI-AFC:FMC2CH1              SI-12:CO-PSCtrl-6:IN  # correctors
-AS-12:TI-AFC:FMC2CH2              SI-12:CO-PSCtrl-7:IN  # correctors
-AS-12:TI-AFC:FMC2CH3              SI-12:CO-PSCtrl-8:IN  # correctors
-AS-12:TI-AFC:FMC2CH4              SI-12:CO-PSCtrl-9:IN  # skew quad
-AS-12:TI-AFC:FMC2CH5              SI-12:CO-PSCtrl-10:IN # skew quad
+##AMCFPGAEVR from Sector 12
+IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-12:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-12:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-12:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-12:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-12:CO-PSCtrl-5:IN  # correctors
+IA-12RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-12:CO-PSCtrl-6:IN  # correctors
+IA-12RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-12:CO-PSCtrl-7:IN  # correctors
+IA-12RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-12:CO-PSCtrl-8:IN  # correctors
+IA-12RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-12:CO-PSCtrl-9:IN  # skew quad
+IA-12RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-12:CO-PSCtrl-10:IN # skew quad
 
-##AFC from Sector 13
-AS-13:TI-AFC:FMC1CH1              SI-13:CO-PSCtrl-1:IN  # QFA ,QDA
-AS-13:TI-AFC:FMC1CH3              SI-13:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-13:TI-AFC:FMC1CH4              SI-13:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-13:TI-AFC:FMC1CH5              SI-13:CO-PSCtrl-5:IN  # correctors
-AS-13:TI-AFC:FMC2CH1              SI-13:CO-PSCtrl-6:IN  # correctors
-AS-13:TI-AFC:FMC2CH2              SI-13:CO-PSCtrl-7:IN  # correctors
-AS-13:TI-AFC:FMC2CH3              SI-13:CO-PSCtrl-8:IN  # correctors
-AS-13:TI-AFC:FMC2CH4              SI-13:CO-PSCtrl-9:IN  # skew quad
-AS-13:TI-AFC:FMC2CH5              SI-13:CO-PSCtrl-10:IN # skew quad
-AS-13:TI-AFC:FMC3CH1              BO-13:CO-PSCtrl:IN    # BO correctors
+##AMCFPGAEVR from Sector 13
+IA-13RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-13:CO-PSCtrl-1:IN  # QFA ,QDA
+IA-13RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-13:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-13RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-13:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-13RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-13:CO-PSCtrl-5:IN  # correctors
+IA-13RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-13:CO-PSCtrl-6:IN  # correctors
+IA-13RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-13:CO-PSCtrl-7:IN  # correctors
+IA-13RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-13:CO-PSCtrl-8:IN  # correctors
+IA-13RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-13:CO-PSCtrl-9:IN  # skew quad
+IA-13RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-13:CO-PSCtrl-10:IN # skew quad
+IA-13RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-13:CO-PSCtrl:IN    # BO correctors
 
-##AFC from Sector 14
-AS-14:TI-AFC:FMC1CH1              SI-14:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
-AS-14:TI-AFC:FMC1CH2              SI-14:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
-AS-14:TI-AFC:FMC1CH3              SI-14:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-14:TI-AFC:FMC1CH4              SI-14:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-14:TI-AFC:FMC1CH5              SI-14:CO-PSCtrl-5:IN  # correctors
-AS-14:TI-AFC:FMC2CH1              SI-14:CO-PSCtrl-6:IN  # correctors
-AS-14:TI-AFC:FMC2CH2              SI-14:CO-PSCtrl-7:IN  # correctors
-AS-14:TI-AFC:FMC2CH3              SI-14:CO-PSCtrl-8:IN  # correctors
-AS-14:TI-AFC:FMC2CH4              SI-14:CO-PSCtrl-9:IN  # skew quad
-AS-14:TI-AFC:FMC2CH5              SI-14:CO-PSCtrl-10:IN # skew quad
-AS-14:TI-AFC:FMC3CH1              BO-14:CO-PSCtrl:IN  # BO correctors
+##AMCFPGAEVR from Sector 14
+IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-14:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-14:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-14:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-14:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-14:CO-PSCtrl-5:IN  # correctors
+IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-14:CO-PSCtrl-6:IN  # correctors
+IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-14:CO-PSCtrl-7:IN  # correctors
+IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-14:CO-PSCtrl-8:IN  # correctors
+IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-14:CO-PSCtrl-9:IN  # skew quad
+IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-14:CO-PSCtrl-10:IN # skew quad
+IA-14RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-14:CO-PSCtrl:IN  # BO correctors
 
-##AFC from Sector 15
-AS-15:TI-AFC:FMC1CH1              SI-15:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
-AS-15:TI-AFC:FMC1CH2              SI-15:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
-AS-15:TI-AFC:FMC1CH3              SI-15:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-15:TI-AFC:FMC1CH4              SI-15:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-15:TI-AFC:FMC1CH5              SI-15:CO-PSCtrl-5:IN  # correctors
-AS-15:TI-AFC:FMC2CH1              SI-15:CO-PSCtrl-6:IN  # correctors
-AS-15:TI-AFC:FMC2CH2              SI-15:CO-PSCtrl-7:IN  # correctors
-AS-15:TI-AFC:FMC2CH3              SI-15:CO-PSCtrl-8:IN  # correctors
-AS-15:TI-AFC:FMC2CH4              SI-15:CO-PSCtrl-9:IN  # skew quad
-AS-15:TI-AFC:FMC2CH5              SI-15:CO-PSCtrl-10:IN # skew quad
+##AMCFPGAEVR from Sector 15
+IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-15:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
+IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-15:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
+IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-15:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-15:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-15:CO-PSCtrl-5:IN  # correctors
+IA-15RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-15:CO-PSCtrl-6:IN  # correctors
+IA-15RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-15:CO-PSCtrl-7:IN  # correctors
+IA-15RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-15:CO-PSCtrl-8:IN  # correctors
+IA-15RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-15:CO-PSCtrl-9:IN  # skew quad
+IA-15RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-15:CO-PSCtrl-10:IN # skew quad
 
-##AFC from Sector 16
-AS-16:TI-AFC:FMC1CH1              SI-16:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
-AS-16:TI-AFC:FMC1CH2              SI-16:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
-AS-16:TI-AFC:FMC1CH3              SI-16:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-16:TI-AFC:FMC1CH4              SI-16:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-16:TI-AFC:FMC1CH5              SI-16:CO-PSCtrl-5:IN  # correctors
-AS-16:TI-AFC:FMC2CH1              SI-16:CO-PSCtrl-6:IN  # correctors
-AS-16:TI-AFC:FMC2CH2              SI-16:CO-PSCtrl-7:IN  # correctors
-AS-16:TI-AFC:FMC2CH3              SI-16:CO-PSCtrl-8:IN  # correctors
-AS-16:TI-AFC:FMC2CH4              SI-16:CO-PSCtrl-9:IN  # skew quad
-AS-16:TI-AFC:FMC2CH5              SI-16:CO-PSCtrl-10:IN # skew quad
-AS-16:TI-AFC:FMC3CH1              BO-16:CO-PSCtrl:IN  # BO correctors
+##AMCFPGAEVR from Sector 16
+IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-16:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-16:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-16:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-16:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-16:CO-PSCtrl-5:IN  # correctors
+IA-16RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-16:CO-PSCtrl-6:IN  # correctors
+IA-16RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-16:CO-PSCtrl-7:IN  # correctors
+IA-16RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-16:CO-PSCtrl-8:IN  # correctors
+IA-16RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-16:CO-PSCtrl-9:IN  # skew quad
+IA-16RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-16:CO-PSCtrl-10:IN # skew quad
+IA-16RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-16:CO-PSCtrl:IN  # BO correctors
 
-##AFC from Sector 17
-AS-17:TI-AFC:FMC1CH1              SI-17:CO-PSCtrl-1:IN  # QFA ,QDA
-AS-17:TI-AFC:FMC1CH3              SI-17:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-17:TI-AFC:FMC1CH4              SI-17:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-17:TI-AFC:FMC1CH5              SI-17:CO-PSCtrl-5:IN  # correctors
-AS-17:TI-AFC:FMC2CH1              SI-17:CO-PSCtrl-6:IN  # correctors
-AS-17:TI-AFC:FMC2CH2              SI-17:CO-PSCtrl-7:IN  # correctors
-AS-17:TI-AFC:FMC2CH3              SI-17:CO-PSCtrl-8:IN  # correctors
-AS-17:TI-AFC:FMC2CH4              SI-17:CO-PSCtrl-9:IN  # skew quad
-AS-17:TI-AFC:FMC2CH5              SI-17:CO-PSCtrl-10:IN # skew quad
-AS-17:TI-AFC:FMC3CH1              BO-17:CO-PSCtrl:IN    # BO correctors
+##AMCFPGAEVR from Sector 17
+IA-17RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-17:CO-PSCtrl-1:IN  # QFA ,QDA
+IA-17RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-17:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-17RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-17:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-17RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-17:CO-PSCtrl-5:IN  # correctors
+IA-17RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-17:CO-PSCtrl-6:IN  # correctors
+IA-17RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-17:CO-PSCtrl-7:IN  # correctors
+IA-17RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-17:CO-PSCtrl-8:IN  # correctors
+IA-17RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-17:CO-PSCtrl-9:IN  # skew quad
+IA-17RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-17:CO-PSCtrl-10:IN # skew quad
+IA-17RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-17:CO-PSCtrl:IN    # BO correctors
 
-##AFC from Sector 18
-AS-18:TI-AFC:FMC1CH1              SI-18:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
-AS-18:TI-AFC:FMC1CH2              SI-18:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
-AS-18:TI-AFC:FMC1CH3              SI-18:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-18:TI-AFC:FMC1CH4              SI-18:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-18:TI-AFC:FMC1CH5              SI-18:CO-PSCtrl-5:IN  # correctors
-AS-18:TI-AFC:FMC2CH1              SI-18:CO-PSCtrl-6:IN  # correctors
-AS-18:TI-AFC:FMC2CH2              SI-18:CO-PSCtrl-7:IN  # correctors
-AS-18:TI-AFC:FMC2CH3              SI-18:CO-PSCtrl-8:IN  # correctors
-AS-18:TI-AFC:FMC2CH4              SI-18:CO-PSCtrl-9:IN  # skew quad
-AS-18:TI-AFC:FMC2CH5              SI-18:CO-PSCtrl-10:IN # skew quad
+##AMCFPGAEVR from Sector 18
+IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-18:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-18:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-18:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-18:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-18:CO-PSCtrl-5:IN  # correctors
+IA-18RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-18:CO-PSCtrl-6:IN  # correctors
+IA-18RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-18:CO-PSCtrl-7:IN  # correctors
+IA-18RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-18:CO-PSCtrl-8:IN  # correctors
+IA-18RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-18:CO-PSCtrl-9:IN  # skew quad
+IA-18RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-18:CO-PSCtrl-10:IN # skew quad
 
-##AFC from Sector 19
-AS-19:TI-AFC:FMC1CH1              SI-19:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
-AS-19:TI-AFC:FMC1CH2              SI-19:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
-AS-19:TI-AFC:FMC1CH3              SI-19:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-19:TI-AFC:FMC1CH4              SI-19:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-19:TI-AFC:FMC1CH5              SI-19:CO-PSCtrl-5:IN  # correctors
-AS-19:TI-AFC:FMC2CH1              SI-19:CO-PSCtrl-6:IN  # correctors
-AS-19:TI-AFC:FMC2CH2              SI-19:CO-PSCtrl-7:IN  # correctors
-AS-19:TI-AFC:FMC2CH3              SI-19:CO-PSCtrl-8:IN  # correctors
-AS-19:TI-AFC:FMC2CH4              SI-19:CO-PSCtrl-9:IN  # skew quad
-AS-19:TI-AFC:FMC2CH5              SI-19:CO-PSCtrl-10:IN # skew quad
-AS-19:TI-AFC:FMC3CH1              BO-19:CO-PSCtrl:IN  # BO correctors
+##AMCFPGAEVR from Sector 19
+IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-19:CO-PSCtrl-1:IN  # QFP, QDP1, QDP2
+IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-19:CO-PSCtrl-2:IN  # QFP, QDP1, QDP2
+IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-19:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-19:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-19:CO-PSCtrl-5:IN  # correctors
+IA-19RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-19:CO-PSCtrl-6:IN  # correctors
+IA-19RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-19:CO-PSCtrl-7:IN  # correctors
+IA-19RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-19:CO-PSCtrl-8:IN  # correctors
+IA-19RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-19:CO-PSCtrl-9:IN  # skew quad
+IA-19RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-19:CO-PSCtrl-10:IN # skew quad
+IA-19RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-19:CO-PSCtrl:IN  # BO correctors
 
-##AFC from Sector 20
-AS-20:TI-AFC:FMC1CH1              SI-20:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
-AS-20:TI-AFC:FMC1CH2              SI-20:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
-AS-20:TI-AFC:FMC1CH3              SI-20:CO-PSCtrl-3:IN  # Q1, ..., Q4
-AS-20:TI-AFC:FMC1CH4              SI-20:CO-PSCtrl-4:IN  # Q1, ..., Q4
-AS-20:TI-AFC:FMC1CH5              SI-20:CO-PSCtrl-5:IN  # correctors
-AS-20:TI-AFC:FMC2CH1              SI-20:CO-PSCtrl-6:IN  # correctors
-AS-20:TI-AFC:FMC2CH2              SI-20:CO-PSCtrl-7:IN  # correctors
-AS-20:TI-AFC:FMC2CH3              SI-20:CO-PSCtrl-8:IN  # correctors
-AS-20:TI-AFC:FMC2CH4              SI-20:CO-PSCtrl-9:IN  # skew quad
-AS-20:TI-AFC:FMC2CH5              SI-20:CO-PSCtrl-10:IN # skew quad
+##AMCFPGAEVR from Sector 20
+IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-20:CO-PSCtrl-1:IN  # QFB, QDB1, QDB2
+IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-20:CO-PSCtrl-2:IN  # QFB, QDB1, QDB2
+IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-20:CO-PSCtrl-3:IN  # Q1, ..., Q4
+IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-20:CO-PSCtrl-4:IN  # Q1, ..., Q4
+IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-20:CO-PSCtrl-5:IN  # correctors
+IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-20:CO-PSCtrl-6:IN  # correctors
+IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-20:CO-PSCtrl-7:IN  # correctors
+IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-20:CO-PSCtrl-8:IN  # correctors
+IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-20:CO-PSCtrl-9:IN  # skew quad
+IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-20:CO-PSCtrl-10:IN # skew quad
 
-##AFCs to BPMs
-AS-01:TI-AFC:CRT0                  AS-01:CO-Crate:CRT0
-AS-01:TI-AFC:CRT1                  AS-01:CO-Crate:CRT1
-AS-01:TI-AFC:CRT2                  AS-01:CO-Crate:CRT2
-AS-01:TI-AFC:CRT3                  AS-01:CO-Crate:CRT3
-AS-01:TI-AFC:CRT4                  AS-01:CO-Crate:CRT4
-AS-01:TI-AFC:CRT5                  AS-01:CO-Crate:CRT5
-AS-01:TI-AFC:CRT6                  AS-01:CO-Crate:CRT6
-AS-01:TI-AFC:CRT7                  AS-01:CO-Crate:CRT7
-
-AS-02:TI-AFC:CRT0                  AS-02:CO-Crate:CRT0
-AS-02:TI-AFC:CRT1                  AS-02:CO-Crate:CRT1
-AS-02:TI-AFC:CRT2                  AS-02:CO-Crate:CRT2
-AS-02:TI-AFC:CRT3                  AS-02:CO-Crate:CRT3
-AS-02:TI-AFC:CRT4                  AS-02:CO-Crate:CRT4
-AS-02:TI-AFC:CRT5                  AS-02:CO-Crate:CRT5
-AS-02:TI-AFC:CRT6                  AS-02:CO-Crate:CRT6
-AS-02:TI-AFC:CRT7                  AS-02:CO-Crate:CRT7
-
-AS-03:TI-AFC:CRT0                  AS-03:CO-Crate:CRT0
-AS-03:TI-AFC:CRT1                  AS-03:CO-Crate:CRT1
-AS-03:TI-AFC:CRT2                  AS-03:CO-Crate:CRT2
-AS-03:TI-AFC:CRT3                  AS-03:CO-Crate:CRT3
-AS-03:TI-AFC:CRT4                  AS-03:CO-Crate:CRT4
-AS-03:TI-AFC:CRT5                  AS-03:CO-Crate:CRT5
-AS-03:TI-AFC:CRT6                  AS-03:CO-Crate:CRT6
-AS-03:TI-AFC:CRT7                  AS-03:CO-Crate:CRT7
-
-AS-04:TI-AFC:CRT0                  AS-04:CO-Crate:CRT0
-AS-04:TI-AFC:CRT1                  AS-04:CO-Crate:CRT1
-AS-04:TI-AFC:CRT2                  AS-04:CO-Crate:CRT2
-AS-04:TI-AFC:CRT3                  AS-04:CO-Crate:CRT3
-AS-04:TI-AFC:CRT4                  AS-04:CO-Crate:CRT4
-AS-04:TI-AFC:CRT5                  AS-04:CO-Crate:CRT5
-AS-04:TI-AFC:CRT6                  AS-04:CO-Crate:CRT6
-AS-04:TI-AFC:CRT7                  AS-04:CO-Crate:CRT7
-
-AS-05:TI-AFC:CRT0                  AS-05:CO-Crate:CRT0
-AS-05:TI-AFC:CRT1                  AS-05:CO-Crate:CRT1
-AS-05:TI-AFC:CRT2                  AS-05:CO-Crate:CRT2
-AS-05:TI-AFC:CRT3                  AS-05:CO-Crate:CRT3
-AS-05:TI-AFC:CRT4                  AS-05:CO-Crate:CRT4
-AS-05:TI-AFC:CRT5                  AS-05:CO-Crate:CRT5
-AS-05:TI-AFC:CRT6                  AS-05:CO-Crate:CRT6
-AS-05:TI-AFC:CRT7                  AS-05:CO-Crate:CRT7
-
-AS-06:TI-AFC:CRT0                  AS-06:CO-Crate:CRT0
-AS-06:TI-AFC:CRT1                  AS-06:CO-Crate:CRT1
-AS-06:TI-AFC:CRT2                  AS-06:CO-Crate:CRT2
-AS-06:TI-AFC:CRT3                  AS-06:CO-Crate:CRT3
-AS-06:TI-AFC:CRT4                  AS-06:CO-Crate:CRT4
-AS-06:TI-AFC:CRT5                  AS-06:CO-Crate:CRT5
-AS-06:TI-AFC:CRT6                  AS-06:CO-Crate:CRT6
-AS-06:TI-AFC:CRT7                  AS-06:CO-Crate:CRT7
-
-AS-07:TI-AFC:CRT0                  AS-07:CO-Crate:CRT0
-AS-07:TI-AFC:CRT1                  AS-07:CO-Crate:CRT1
-AS-07:TI-AFC:CRT2                  AS-07:CO-Crate:CRT2
-AS-07:TI-AFC:CRT3                  AS-07:CO-Crate:CRT3
-AS-07:TI-AFC:CRT4                  AS-07:CO-Crate:CRT4
-AS-07:TI-AFC:CRT5                  AS-07:CO-Crate:CRT5
-AS-07:TI-AFC:CRT6                  AS-07:CO-Crate:CRT6
-AS-07:TI-AFC:CRT7                  AS-07:CO-Crate:CRT7
-
-AS-08:TI-AFC:CRT0                  AS-08:CO-Crate:CRT0
-AS-08:TI-AFC:CRT1                  AS-08:CO-Crate:CRT1
-AS-08:TI-AFC:CRT2                  AS-08:CO-Crate:CRT2
-AS-08:TI-AFC:CRT3                  AS-08:CO-Crate:CRT3
-AS-08:TI-AFC:CRT4                  AS-08:CO-Crate:CRT4
-AS-08:TI-AFC:CRT5                  AS-08:CO-Crate:CRT5
-AS-08:TI-AFC:CRT6                  AS-08:CO-Crate:CRT6
-AS-08:TI-AFC:CRT7                  AS-08:CO-Crate:CRT7
-
-AS-09:TI-AFC:CRT0                  AS-09:CO-Crate:CRT0
-AS-09:TI-AFC:CRT1                  AS-09:CO-Crate:CRT1
-AS-09:TI-AFC:CRT2                  AS-09:CO-Crate:CRT2
-AS-09:TI-AFC:CRT3                  AS-09:CO-Crate:CRT3
-AS-09:TI-AFC:CRT4                  AS-09:CO-Crate:CRT4
-AS-09:TI-AFC:CRT5                  AS-09:CO-Crate:CRT5
-AS-09:TI-AFC:CRT6                  AS-09:CO-Crate:CRT6
-AS-09:TI-AFC:CRT7                  AS-09:CO-Crate:CRT7
-
-AS-10:TI-AFC:CRT0                  AS-10:CO-Crate:CRT0
-AS-10:TI-AFC:CRT1                  AS-10:CO-Crate:CRT1
-AS-10:TI-AFC:CRT2                  AS-10:CO-Crate:CRT2
-AS-10:TI-AFC:CRT3                  AS-10:CO-Crate:CRT3
-AS-10:TI-AFC:CRT4                  AS-10:CO-Crate:CRT4
-AS-10:TI-AFC:CRT5                  AS-10:CO-Crate:CRT5
-AS-10:TI-AFC:CRT6                  AS-10:CO-Crate:CRT6
-AS-10:TI-AFC:CRT7                  AS-10:CO-Crate:CRT7
-
-AS-11:TI-AFC:CRT0                  AS-11:CO-Crate:CRT0
-AS-11:TI-AFC:CRT1                  AS-11:CO-Crate:CRT1
-AS-11:TI-AFC:CRT2                  AS-11:CO-Crate:CRT2
-AS-11:TI-AFC:CRT3                  AS-11:CO-Crate:CRT3
-AS-11:TI-AFC:CRT4                  AS-11:CO-Crate:CRT4
-AS-11:TI-AFC:CRT5                  AS-11:CO-Crate:CRT5
-AS-11:TI-AFC:CRT6                  AS-11:CO-Crate:CRT6
-AS-11:TI-AFC:CRT7                  AS-11:CO-Crate:CRT7
-
-AS-12:TI-AFC:CRT0                  AS-12:CO-Crate:CRT0
-AS-12:TI-AFC:CRT1                  AS-12:CO-Crate:CRT1
-AS-12:TI-AFC:CRT2                  AS-12:CO-Crate:CRT2
-AS-12:TI-AFC:CRT3                  AS-12:CO-Crate:CRT3
-AS-12:TI-AFC:CRT4                  AS-12:CO-Crate:CRT4
-AS-12:TI-AFC:CRT5                  AS-12:CO-Crate:CRT5
-AS-12:TI-AFC:CRT6                  AS-12:CO-Crate:CRT6
-AS-12:TI-AFC:CRT7                  AS-12:CO-Crate:CRT7
-
-AS-13:TI-AFC:CRT0                  AS-13:CO-Crate:CRT0
-AS-13:TI-AFC:CRT1                  AS-13:CO-Crate:CRT1
-AS-13:TI-AFC:CRT2                  AS-13:CO-Crate:CRT2
-AS-13:TI-AFC:CRT3                  AS-13:CO-Crate:CRT3
-AS-13:TI-AFC:CRT4                  AS-13:CO-Crate:CRT4
-AS-13:TI-AFC:CRT5                  AS-13:CO-Crate:CRT5
-AS-13:TI-AFC:CRT6                  AS-13:CO-Crate:CRT6
-AS-13:TI-AFC:CRT7                  AS-13:CO-Crate:CRT7
-
-AS-14:TI-AFC:CRT0                  AS-14:CO-Crate:CRT0
-AS-14:TI-AFC:CRT1                  AS-14:CO-Crate:CRT1
-AS-14:TI-AFC:CRT2                  AS-14:CO-Crate:CRT2
-AS-14:TI-AFC:CRT3                  AS-14:CO-Crate:CRT3
-AS-14:TI-AFC:CRT4                  AS-14:CO-Crate:CRT4
-AS-14:TI-AFC:CRT5                  AS-14:CO-Crate:CRT5
-AS-14:TI-AFC:CRT6                  AS-14:CO-Crate:CRT6
-AS-14:TI-AFC:CRT7                  AS-14:CO-Crate:CRT7
-
-AS-15:TI-AFC:CRT0                  AS-15:CO-Crate:CRT0
-AS-15:TI-AFC:CRT1                  AS-15:CO-Crate:CRT1
-AS-15:TI-AFC:CRT2                  AS-15:CO-Crate:CRT2
-AS-15:TI-AFC:CRT3                  AS-15:CO-Crate:CRT3
-AS-15:TI-AFC:CRT4                  AS-15:CO-Crate:CRT4
-AS-15:TI-AFC:CRT5                  AS-15:CO-Crate:CRT5
-AS-15:TI-AFC:CRT6                  AS-15:CO-Crate:CRT6
-AS-15:TI-AFC:CRT7                  AS-15:CO-Crate:CRT7
-
-AS-16:TI-AFC:CRT0                  AS-16:CO-Crate:CRT0
-AS-16:TI-AFC:CRT1                  AS-16:CO-Crate:CRT1
-AS-16:TI-AFC:CRT2                  AS-16:CO-Crate:CRT2
-AS-16:TI-AFC:CRT3                  AS-16:CO-Crate:CRT3
-AS-16:TI-AFC:CRT4                  AS-16:CO-Crate:CRT4
-AS-16:TI-AFC:CRT5                  AS-16:CO-Crate:CRT5
-AS-16:TI-AFC:CRT6                  AS-16:CO-Crate:CRT6
-AS-16:TI-AFC:CRT7                  AS-16:CO-Crate:CRT7
-
-AS-17:TI-AFC:CRT0                  AS-17:CO-Crate:CRT0
-AS-17:TI-AFC:CRT1                  AS-17:CO-Crate:CRT1
-AS-17:TI-AFC:CRT2                  AS-17:CO-Crate:CRT2
-AS-17:TI-AFC:CRT3                  AS-17:CO-Crate:CRT3
-AS-17:TI-AFC:CRT4                  AS-17:CO-Crate:CRT4
-AS-17:TI-AFC:CRT5                  AS-17:CO-Crate:CRT5
-AS-17:TI-AFC:CRT6                  AS-17:CO-Crate:CRT6
-AS-17:TI-AFC:CRT7                  AS-17:CO-Crate:CRT7
-
-AS-18:TI-AFC:CRT0                  AS-18:CO-Crate:CRT0
-AS-18:TI-AFC:CRT1                  AS-18:CO-Crate:CRT1
-AS-18:TI-AFC:CRT2                  AS-18:CO-Crate:CRT2
-AS-18:TI-AFC:CRT3                  AS-18:CO-Crate:CRT3
-AS-18:TI-AFC:CRT4                  AS-18:CO-Crate:CRT4
-AS-18:TI-AFC:CRT5                  AS-18:CO-Crate:CRT5
-AS-18:TI-AFC:CRT6                  AS-18:CO-Crate:CRT6
-AS-18:TI-AFC:CRT7                  AS-18:CO-Crate:CRT7
-
-AS-19:TI-AFC:CRT0                  AS-19:CO-Crate:CRT0
-AS-19:TI-AFC:CRT1                  AS-19:CO-Crate:CRT1
-AS-19:TI-AFC:CRT2                  AS-19:CO-Crate:CRT2
-AS-19:TI-AFC:CRT3                  AS-19:CO-Crate:CRT3
-AS-19:TI-AFC:CRT4                  AS-19:CO-Crate:CRT4
-AS-19:TI-AFC:CRT5                  AS-19:CO-Crate:CRT5
-AS-19:TI-AFC:CRT6                  AS-19:CO-Crate:CRT6
-AS-19:TI-AFC:CRT7                  AS-19:CO-Crate:CRT7
-
-AS-20:TI-AFC:CRT0                  AS-20:CO-Crate:CRT0
-AS-20:TI-AFC:CRT1                  AS-20:CO-Crate:CRT1
-AS-20:TI-AFC:CRT2                  AS-20:CO-Crate:CRT2
-AS-20:TI-AFC:CRT3                  AS-20:CO-Crate:CRT3
-AS-20:TI-AFC:CRT4                  AS-20:CO-Crate:CRT4
-AS-20:TI-AFC:CRT5                  AS-20:CO-Crate:CRT5
-AS-20:TI-AFC:CRT6                  AS-20:CO-Crate:CRT6
-AS-20:TI-AFC:CRT7                  AS-20:CO-Crate:CRT7
-
-AS-21:TI-AFC:CRT0                  AS-21:CO-Crate:CRT0
-AS-21:TI-AFC:CRT1                  AS-21:CO-Crate:CRT1
-AS-21:TI-AFC:CRT2                  AS-21:CO-Crate:CRT2
-AS-21:TI-AFC:CRT3                  AS-21:CO-Crate:CRT3
-AS-21:TI-AFC:CRT4                  AS-21:CO-Crate:CRT4
-AS-21:TI-AFC:CRT5                  AS-21:CO-Crate:CRT5
-AS-21:TI-AFC:CRT6                  AS-21:CO-Crate:CRT6
-AS-21:TI-AFC:CRT7                  AS-21:CO-Crate:CRT7
+##AMCFPGAEVR from Sector 20 Transport Lines
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH1              TL-20:CO-PSCtrl-1:IN  # not sure yet
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH2              TL-20:CO-PSCtrl-2:IN  # not sure yet
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH3              TL-20:CO-PSCtrl-3:IN  # not sure yet
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH4              TL-20:CO-PSCtrl-4:IN  # not sure yet
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH5              TL-20:CO-PSCtrl-5:IN  # not sure yet
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC2CH1              TL-20:CO-PSCtrl-6:IN  # not sure yet
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC2CH2              TL-20:CO-PSCtrl-7:IN  # not sure yet
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC2CH3              TL-20:CO-PSCtrl-8:IN  # not sure yet
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC2CH4              TL-20:CO-PSCtrl-9:IN  # not sure yet
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC2CH5              TL-20:CO-PSCtrl-10:IN # not sure yet
