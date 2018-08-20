@@ -1,21 +1,28 @@
 # HEADER
 # ======
 # label           bo-quadrupole-qd-fam
-# harmonics       1 5 9 13
+# harmonics       0 1 2 3 4 5 6 7 8 9 10 11
 # main_harmonic   1 normal
-# units           Ampere  T T  T.m/m^4 T.m/m^4  T.m/m^8 T.m/m^8  T.m/m^12 T.m/m^12
+# units           Ampere  T.m T.m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3  T/m^4 T/m^4  T/m^5 T/m^5  T/m^6 T/m^6  T/m^7 T/m^7  T/m^8 T/m^8  T/m^9 T/m^9  T/m^10 T/m^10
 
 # EXCITATION DATA
 # ===============
-+000.000  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
-+005.700  +2.5066e-02 +0.0000e+00  -1.2462e+03 +0.0000e+00  +3.4484e+09 +0.0000e+00  +1.6271e+13 +0.0000e+00
-+113.700  +5.0002e-01 +0.0000e+00  -2.4858e+04 +0.0000e+00  +6.8784e+10 +0.0000e+00  +3.3044e+14 +0.0000e+00
+-0000.0324  +7.7052e-06 +3.3365e-06  -2.9211e-03 +2.9877e-06  -2.6601e-03 +5.4528e-04  -6.3689e-03 -1.6255e-03  +4.4663e-01 +6.2778e-02  +1.8636e+02 +6.7350e+00  +4.7390e+02 +4.3764e+02  -4.8927e+04 +6.8685e+04  +2.8455e+06 +3.5065e+06  -3.4944e+08 +1.2492e+08  +4.4935e+09 +1.2009e+10  -1.5698e+12 +5.4651e+11
++0001.9665  +7.6227e-06 +4.5221e-06  -3.5110e-02 -9.6623e-05  -2.6491e-03 +1.6581e-03  -7.5023e-03 -2.1632e-02  +9.1181e-01 -4.0622e-01  +1.7732e+03 +3.1435e+01  +5.0170e+02 -1.2170e+03  +4.0528e+04 -8.5813e+03  +5.3554e+06 +7.4232e+05  -4.4883e+09 -2.8682e+06  -2.8529e+09 -4.5758e+09  -5.0339e+11 -6.0455e+11
++0003.9660  +7.7056e-06 +5.6667e-06  -6.7561e-02 +6.7850e-05  -2.6778e-03 +3.0429e-03  -7.6309e-03 -2.6421e-02  +9.0334e-01 -9.6541e-01  +3.3779e+03 +1.0596e+00  -1.4652e+03 +8.0077e-02  +5.3700e+04 +1.1890e+04  +2.9766e+06 +3.6334e+05  -9.0652e+09 +1.8546e+08  -1.7486e+10 +1.5127e+10  +1.0661e+12 -3.0977e+11
++0005.9648  +7.6821e-06 +6.8462e-06  -1.0026e-01 +1.0480e-04  -2.5982e-03 +4.3875e-03  +2.0544e-03 -2.9040e-02  +1.2203e+00 -1.0423e+00  +4.9683e+03 +3.6379e+01  -2.7008e+03 +3.1876e+02  +8.0827e+04 +1.8437e+05  +2.5199e+06 +6.9066e+06  -1.2859e+10 +1.7437e+08  -6.7210e+09 +2.4270e+10  -3.4052e+11 -3.6556e+10
++0007.9653  +7.6606e-06 +7.7858e-06  -1.3307e-01 +1.2653e-04  -2.4647e-03 +5.2771e-03  -1.4712e-02 -6.9667e-02  +1.1977e+00 -2.7338e+00  +6.6412e+03 -3.1853e+01  -2.1128e+03 -4.6675e+03  +6.8444e+04 -7.9857e+03  +5.4525e+06 -4.6922e+06  -1.7476e+10 -3.4504e+08  -1.0758e+10 -2.5005e+10  -2.7080e+11 -1.8747e+12
++0009.9644  +7.6237e-06 +8.9138e-06  -1.6595e-01 +1.4741e-04  -2.4305e-03 +6.4487e-03  -1.0014e-02 -8.7132e-02  +1.5805e+00 -3.4906e+00  +8.2180e+03 -1.7739e+01  -3.5317e+03 -6.8100e+03  +1.8279e+05 -1.1645e+05  +9.2053e+06 -1.4812e+07  -2.1990e+10 -8.6595e+08  -2.4784e+09 -3.5890e+10  +7.7155e+11 -2.7340e+12
++0019.9657  +7.3400e-06 +1.5009e-05  -3.3120e-01 +2.5037e-04  -2.1217e-03 +1.3941e-02  -9.8040e-03 -9.9780e-02  +2.8227e+00 -3.1659e+00  +1.6349e+04 +1.4669e+02  -7.4381e+03 +2.2311e+03  +2.7283e+05 +4.5122e+05  +2.0040e+07 +9.2850e+06  -4.3940e+10 +1.0469e+09  -1.3352e+10 +4.9841e+10  +2.5803e+11 -9.7372e+11
++0031.9719  +7.1196e-06 +2.2037e-05  -5.2967e-01 +3.7727e-04  -1.8153e-03 +2.1820e-02  -1.3579e-02 -1.6336e-01  +4.2539e+00 -4.6854e+00  +2.6333e+04 +1.8123e+02  -1.4266e+04 -9.1249e+02  +4.1376e+05 +6.5807e+05  +3.8484e+07 +2.3086e+07  -6.9991e+10 +1.6240e+09  -1.2214e+10 +8.3963e+10  -1.1707e+12 -2.1934e+11
 
 # COMMENTS
 # ========
-# 1. data from @150MeV: https://github.com/lnls-ima/bo-quadrupoles-qd/blob/master/links-official-150mev/analysis.txt
-#              @3GeV:   https://github.com/lnls-ima/bo-quadrupoles-qd/blob/master/links-official-3gev/analysis.txt
-# 2. multipoles from the analysis files above are calculated for half model and thus had to be multiplied by a factor of 2.
+# 1. file generated automatically from rotating coil measurement data
+# 2. timestamp: 2018-07-16-15:23:16.516
+# 3. magnet_type_label: BQD
+# 4. magnet_serial_number: AVERAGE OF MAGNETS
+# 5. data_set: M1
 
 # POLARITY TABLE
 # ==============
@@ -62,8 +69,8 @@
 # These static data files should comply with the following formatting rules:
 # 1. If the first alphanumeric character of the line is not the pound sign
 #    then the lines is a comment.
-# 2. If the first alphanumeric character is '#' then if
-#    a) it is followed by '[<parameter>] <value>' a parameter names <parameter>
+# 2. If the first alphanumeric character is "#" then if
+#    a) it is followed by "[<parameter>] <value>" a parameter names <parameter>
 #       is define with value <value>. if the string <value> has spaces in it
 #       it is split as a list of strings.
 #    b) otherwise the line is ignored as a comment line.
