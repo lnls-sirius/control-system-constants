@@ -22,7 +22,7 @@ BO-Glob:CO-PSCtrl-7          BO-Fam:PS-B-2 1           BO-Glob:PS-DCLinkFAC2P4S-
 # --- Transport line power supplies (FAP & FBP) (Slide 2)
 
 TB-Glob:CO-PSCtrl-1          TB-Fam:PS-B 1
-TS-Glob:CO-PSCtrl-1          TS-Fam:PS-B 1             TS-Fam:PS-B-Slave
+TS-Glob:CO-PSCtrl-1          TS-Fam:PS-B 1             TS-Fam:PS-B-Slave 2
 
 TB-Glob:CO-PSCtrl-2          TB-01:PS-QD1 1            TB-01:PS-QF1 2                  TB-02:PS-QD2A 3    TB-02:PS-QF2A 4    TB-02:PS-QD2B 5    TB-02:PS-QF2B 6    TB-03:PS-QD3 7     TB-03:PS-QF3 8     TB-04:PS-QD4 9    TB-04:PS-QF4 10
 TB-Glob:CO-PSCtrl-3          TB-01:PS-CH-1 1           TB-01:PS-CV-1 2                 TB-01:PS-CH-2 3    TB-01:PS-CV-2 4    TB-02:PS-CH-1 5    TB-02:PS-CV-1 6    TB-02:PS-CH-2 7    TB-02:PS-CV-2 8    TB-03:PS-CH 9     TB-04:PS-CV-1 10    TB-04:PS-CV-2 11
@@ -31,7 +31,7 @@ TS-Glob:CO-PSCtrl-4          TS-01:PS-CH 1             TS-01:PS-CV-1 2          
 AS-Glob:CO-PSCtrl-1          AS-Glob:PS-DCLinkFBP-1 1
 
 TS-Glob:CO-PSCtrl-2          TS-01:PS-QF1A 1           TS-01:PS-QF1B 2                 TS-02:PS-QD2 3     TS-04:PS-QD4A 4    TS-04:PS-QD4B 5
-TS-Glob:CO-PSCtrl-3          TS-02:PS-QF2 1            TS-02:PS-QF3 2                  TS-02:PS-QF4 3
+TS-Glob:CO-PSCtrl-3          TS-02:PS-QF2 1            TS-03:PS-QF3 2                  TS-04:PS-QF4 3
 
 
 # --- Booster and Storage Ring power supplies (FBP) (Slide 3)
