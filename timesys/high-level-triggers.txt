@@ -5,7 +5,7 @@ HL_TRIGGS = {
     'database': {
       'Src': {
         'value': 0,
-        'enums': ('MigSI', 'Orbit', 'Study'),
+        'enums': ('MigSI', 'OrbSI', 'Study'),
         },
       'Delay': {
         'value': 0.0,
@@ -126,7 +126,7 @@ HL_TRIGGS = {
     'database': {
       'Src': {
         'value': 0,
-        'enums': ('MigSI', 'Tunes', 'Study'),
+        'enums': ('MigSI', 'TunSI', 'Study'),
         },
       'Delay': {
         'value': 0.0,
@@ -250,7 +250,7 @@ HL_TRIGGS = {
     'database': {
       'Src': {
         'value': 0,
-        'enums': ('MigSI', 'Coupl', 'Study'),
+        'enums': ('MigSI', 'CplSI', 'Study'),
         },
       'Delay': {
         'value': 0.0,
