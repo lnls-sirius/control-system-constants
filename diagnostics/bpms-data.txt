@@ -1,6 +1,6 @@
 
 # This file was generated automatically from the data of the files
-# in the subfolder Mapeamento_placas_MicroTCA_vs_BPMs and the models
+# in the subfolder microTCA-vs-BPMs-mapping and the models
 # of the accelerators in the pymodels repository by the function
 # siriuspy.search.bpms_search.generate_bpm_static_table.
 #
