@@ -280,8 +280,17 @@ class RotCoilMeas:
 
     def get_currents(self, data_set):
         """Return currents of a data set."""
+        return self.get_currents_avg(data_set)
+
+    def get_currents_avg(self, data_set):
+        """Return currents of a data set."""
         data = self._rotcoildata[data_set]
         return [d.main_coil_current_avg for d in data]
+
+    def get_currents_std(self, data_set):
+        """Return currents of a data set."""
+        data = self._rotcoildata[data_set]
+        return [d.main_coil_current_std for d in data]
 
     def get_intmpole_normal_avg(self, data_set, n):
         """Return average integrated normal multipole."""
