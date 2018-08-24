@@ -899,6 +899,17 @@ class RotCoilMeas_BOQuadQD(RotCoilMeas_BO, RotCoilMeas_Quad):
     spec_magnetic_center_x = 160.0  # [um]
     spec_magnetic_center_y = 160.0  # [um]
     pwrsupply_polarity = 'bipolar'
+    spec_roll = 0.8  # [mrad]
+
+    spec_r0 = 17.5  # [mm]
+    spec_normal_sys_harms = _np.array([5, 9, 13]) + 1
+    spec_normal_sys_mpoles = _np.array([-4.7e-3, +1.2e-3, +5.4e-7])
+    spec_normal_rms_harms = _np.array([2, 3, 4, 5, 6, 7, 8]) + 1
+    spec_normal_rms_mpoles = _np.array([7, 4, 4, 4, 4, 4, 4])*1e-4
+    spec_skew_sys_harms = _np.array([])
+    spec_skew_sys_mpoles = _np.array([])
+    spec_skew_rms_harms = _np.array([2, 3, 4, 5, 6, 7, 8]) + 1
+    spec_skew_rms_mpoles = _np.array([10, 5, 1, 1, 1, 1, 1])*1e-4
 
 
 class RotCoilMeas_BOQuadQF(RotCoilMeas_BO, RotCoilMeas_Quad):
