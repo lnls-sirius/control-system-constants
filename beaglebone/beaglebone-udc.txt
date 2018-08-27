@@ -32,7 +32,7 @@ TS-Glob:CO-PSCtrl-3     TS-Glob:FAP-UDC-2
 TS-Glob:CO-PSCtrl-4     TS-Glob:FBP-UDC-1   TS-Glob:FBP-UDC-2   TS-Glob:FBP-UDC-3
 
 # TB/TS DCLinks
-AS-Glob:CO-PSCtrl-1     AS-Glob:FBP-DCLink-1
+AS-Glob:CO-PSCtrl-1     AS-Glob:FBP-DCLink-1    TB-Glob:FBP-DCLink
 
 
 # --- Storage Ring and Booster power supplies (FBP)

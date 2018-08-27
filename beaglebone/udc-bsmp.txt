@@ -35,7 +35,8 @@ TS-Glob:FBP-UDC-1           TS-01:PS-CH 1                   TS-01:PS-CV-1 2     
 TS-Glob:FBP-UDC-2           TS-02:PS-CH 4                   TS-02:PS-CV 5       TS-03:PS-CH 6       TS-03:PS-CV 7
 TS-Glob:FBP-UDC-3           TS-04:PS-CH 8                   TS-04:PS-CV-1 9     TS-04:PS-CV-2 10
 
-AS-Glob:FBP-DCLink-1        AS-Glob:PS-DCLinkFBP-1 1
+TB-Glob:FBP-DCLink          TB-Glob:PS-DCLinkDBP 1
+AS-Glob:FBP-DCLink-1        AS-Glob:PS-DCLinkFBP-1 2
 
 BO-01:FBP-UDC-1             BO-01U:PS-CH 1                  BO-01U:PS-CV 2      BO-02D:PS-QS 3
 BO-01:FBP-UDC-2             BO-03U:PS-CH 1                  BO-03U:PS-CV 2      BO-05U:PS-CH 3      BO-05U:PS-CV 4
