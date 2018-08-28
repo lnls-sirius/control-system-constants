@@ -1,15 +1,15 @@
 # UDC Mapping to Power Supplies
 
-BO-Glob:FAC-DCDC-1          BO-Fam:PS-SD 1
-BO-Glob:FAC-DCDC-2          BO-Fam:PS-SF 1
-BO-Glob:FAC-DCDC-3          BO-Fam:PS-QD 1
-BO-Glob:FAC-ACDC            BO-Glob:PS-DCLinkFAC 1
+BO-Glob:PS-FACDCDC-1        BO-Fam:PS-SD 1
+BO-Glob:PS-FACDCDC-2        BO-Fam:PS-SF 1
+BO-Glob:PS-FACDCDC-3        BO-Fam:PS-QD 1
+BO-Glob:PS-FACACDC          BO-Glob:PS-DCLinkFAC 1
 
-BO-Glob:FAC-2SDCDC          BO-Fam:PS-QF 1
+BO-Glob:PS-FAC2SDCDC        BO-Fam:PS-QF 1
 BO-Glob:FAC-2SACDC          BO-Glob:PS-DCLinkFAC2S 2
 
-BO-Glob:FAC-2P4SDCDC-1      BO-Fam:PS-B-1 1   
-BO-Glob:FAC-2P4SDCDC-2      BO-Fam:PS-B-2 1   
+BO-Glob:PS-FAC2P4SDCDC-1    BO-Fam:PS-B-1 1   
+BO-Glob:PS-FAC2P4SDCDC-2    BO-Fam:PS-B-2 1   
 BO-Glob:FAC-2P4SACDC-1      BO-Glob:PS-DCLinkFAC2P4S-1 2    BO-Glob:PS-DCLinkFAC2P4S-2 3
 BO-Glob:FAC-2P4SACDC-2      BO-Glob:PS-DCLinkFAC2P4S-3 4    BO-Glob:PS-DCLinkFAC2P4S-4 5
 BO-Glob:FAC-2P4SACDC-3      BO-Glob:PS-DCLinkFAC2P4S-5 6    BO-Glob:PS-DCLinkFAC2P4S-6 7
@@ -19,37 +19,37 @@ BO-Glob:FAC-2P4SACDC-6      BO-Glob:PS-DCLinkFAC2P4S-11 4   BO-Glob:PS-DCLinkFAC
 BO-Glob:FAC-2P4SACDC-7      BO-Glob:PS-DCLinkFAC2P4S-13 6   BO-Glob:PS-DCLinkFAC2P4S-14 7
 BO-Glob:FAC-2P4SACDC-8      BO-Glob:PS-DCLinkFAC2P4S-15 8   BO-Glob:PS-DCLinkFAC2P4S-16 9
 
-TB-Glob:FAP-UDC             TB-Fam:PS-B 1
-TB-Glob:FBP-UDC-1           TB-01:PS-QD1 1                  TB-01:PS-QF1 2
-TB-Glob:FBP-UDC-2           TB-02:PS-QD2A 3                 TB-02:PS-QF2A 4     TB-02:PS-QD2B 5     TB-02:PS-QF2B 6
-TB-Glob:FBP-UDC-3           TB-03:PS-QD3 7                  TB-03:PS-QF3 8      TB-04:PS-QD4 9      TB-04:PS-QF4 10
-TB-Glob:FBP-UDC-4           TB-01:PS-CH-1 1                 TB-01:PS-CV-1 2     TB-01:PS-CH-2 3     TB-01:PS-CV-2 4           
-TB-Glob:FBP-UDC-5           TB-02:PS-CH-1 5                 TB-02:PS-CV-1 6     TB-02:PS-CH-2 7     TB-02:PS-CV-2 8
-TB-Glob:FBP-UDC-6           TB-03:PS-CH 9                   TB-04:PS-CV-1 10    TB-04:PS-CV-2 11
+TB-Glob:PS-FAP              TB-Fam:PS-B 1
+TB-Glob:PS-FBP-1            TB-01:PS-QD1 1                  TB-01:PS-QF1 2
+TB-Glob:PS-FBP-2            TB-02:PS-QD2A 3                 TB-02:PS-QF2A 4     TB-02:PS-QD2B 5     TB-02:PS-QF2B 6
+TB-Glob:PS-FBP-3            TB-03:PS-QD3 7                  TB-03:PS-QF3 8      TB-04:PS-QD4 9      TB-04:PS-QF4 10
+TB-Glob:PS-FBP-4            TB-01:PS-CH-1 1                 TB-01:PS-CV-1 2     TB-01:PS-CH-2 3     TB-01:PS-CV-2 4           
+TB-Glob:PS-FBP-5            TB-02:PS-CH-1 5                 TB-02:PS-CV-1 6     TB-02:PS-CH-2 7     TB-02:PS-CV-2 8
+TB-Glob:PS-FBP-6            TB-03:PS-CH 9                   TB-04:PS-CV-1 10    TB-04:PS-CV-2 11
 
-TS-Glob:FAP-4P-Master       TS-Fam:PS-B 1
-TS-Glob:Fap-4P-Slave        TS-Fam:PS-B-Slave 2
-TS-Glob:FAP-UDC-1           TS-01:PS-QF1A 1                 TS-01:PS-QF1B 2     TS-02:PS-QF2 3      TS-02:PS-QD2 3
-TS-Glob:FAP-UDC-2           TS-03:PS-QF3 1                  TS-04:PS-QF4 2      TS-04:PS-QD4A 3     TS-04:PS-QD4B 4
-TS-Glob:FBP-UDC-1           TS-01:PS-CH 1                   TS-01:PS-CV-1 2     TS-01:PS-CV-2 3
-TS-Glob:FBP-UDC-2           TS-02:PS-CH 4                   TS-02:PS-CV 5       TS-03:PS-CH 6       TS-03:PS-CV 7
-TS-Glob:FBP-UDC-3           TS-04:PS-CH 8                   TS-04:PS-CV-1 9     TS-04:PS-CV-2 10
+TS-Glob:PS-FAP4PMaster      TS-Fam:PS-B 1
+TS-Glob:PS-FAP4PSlave       TS-Fam:PS-B-Slave 2
+TS-Glob:PS-FAP-1            TS-01:PS-QF1A 1                 TS-01:PS-QF1B 2     TS-02:PS-QF2 3      TS-02:PS-QD2 3
+TS-Glob:PS-FAP-2            TS-03:PS-QF3 1                  TS-04:PS-QF4 2      TS-04:PS-QD4A 3     TS-04:PS-QD4B 4
+TS-Glob:PS-FBP-1            TS-01:PS-CH 1                   TS-01:PS-CV-1 2     TS-01:PS-CV-2 3
+TS-Glob:PS-FBP-2            TS-02:PS-CH 4                   TS-02:PS-CV 5       TS-03:PS-CH 6       TS-03:PS-CV 7
+TS-Glob:PS-FBP-3            TS-04:PS-CH 8                   TS-04:PS-CV-1 9     TS-04:PS-CV-2 10
 
-TB-Glob:FBP-DCLink          TB-Glob:PS-DCLinkDBP 1
-AS-Glob:FBP-DCLink-1        AS-Glob:PS-DCLinkFBP-1 2
+TB-Glob:PS-FBPDCLink        TB-Glob:PS-DCLinkDBP 1
+AS-Glob:PS-FBPDCLink-1      AS-Glob:PS-DCLinkFBP-1 2
 
-BO-01:FBP-UDC-1             BO-01U:PS-CH 1                  BO-01U:PS-CV 2      BO-02D:PS-QS 3
-BO-01:FBP-UDC-2             BO-03U:PS-CH 1                  BO-03U:PS-CV 2      BO-05U:PS-CH 3      BO-05U:PS-CV 4
-BO-03:FBP-UDC               BO-07U:PS-CH 1                  BO-07U:PS-CV 2      BO-09U:PS-CH 3      BO-09U:PS-CV 4
-BO-05:FBP-UDC               BO-11U:PS-CH 1                  BO-11U:PS-CV 2      BO-13U:PS-CH 3      BO-13U:PS-CV 4
-BO-07:FBP-UDC               BO-15U:PS-CH 1                  BO-15U:PS-CV 2      BO-17U:PS-CH 3      BO-17U:PS-CV 4
-BO-08:FBP-UDC               BO-19U:PS-CH 1                  BO-19U:PS-CV 2      BO-21U:PS-CH 3      BO-21U:PS-CV 4
-BO-09:FBP-UDC               BO-23U:PS-CH 1                  BO-23U:PS-CV 2      BO-25U:PS-CH 3      BO-25U:PS-CV 4
-BO-11:FBP-UDC               BO-27U:PS-CH 1                  BO-27U:PS-CV 2      BO-29U:PS-CH 3      BO-29U:PS-CV 4
-BO-13:FBP-UDC               BO-31U:PS-CH 1                  BO-31U:PS-CV 2      BO-33U:PS-CH 3      BO-33U:PS-CV 4
-BO-14:FBP-UDC               BO-35U:PS-CH 1                  BO-35U:PS-CV 2      BO-37U:PS-CH 3      BO-37U:PS-CV 4
-BO-16:FBP-UDC               BO-39U:PS-CH 1                  BO-39U:PS-CV 2      BO-41U:PS-CH 3      BO-41U:PS-CV 4
-BO-17:FBP-UDC               BO-43U:PS-CH 1                  BO-43U:PS-CV 2      BO-45U:PS-CH 3      BO-45U:PS-CV 4
-BO-19:FBP-UDC               BO-47U:PS-CH 1                  BO-47U:PS-CV 2      BO-49D:PS-CH 3      BO-49U:PS-CV 4
+BO-01:PS-FBP-1              BO-01U:PS-CH 1                  BO-01U:PS-CV 2      BO-02D:PS-QS 3
+BO-01:PS-FBP-2              BO-03U:PS-CH 1                  BO-03U:PS-CV 2      BO-05U:PS-CH 3      BO-05U:PS-CV 4
+BO-03:PS-FBP                BO-07U:PS-CH 1                  BO-07U:PS-CV 2      BO-09U:PS-CH 3      BO-09U:PS-CV 4
+BO-05:PS-FBP                BO-11U:PS-CH 1                  BO-11U:PS-CV 2      BO-13U:PS-CH 3      BO-13U:PS-CV 4
+BO-07:PS-FBP                BO-15U:PS-CH 1                  BO-15U:PS-CV 2      BO-17U:PS-CH 3      BO-17U:PS-CV 4
+BO-08:PS-FBP                BO-19U:PS-CH 1                  BO-19U:PS-CV 2      BO-21U:PS-CH 3      BO-21U:PS-CV 4
+BO-09:PS-FBP                BO-23U:PS-CH 1                  BO-23U:PS-CV 2      BO-25U:PS-CH 3      BO-25U:PS-CV 4
+BO-11:PS-FBP                BO-27U:PS-CH 1                  BO-27U:PS-CV 2      BO-29U:PS-CH 3      BO-29U:PS-CV 4
+BO-13:PS-FBP                BO-31U:PS-CH 1                  BO-31U:PS-CV 2      BO-33U:PS-CH 3      BO-33U:PS-CV 4
+BO-14:PS-FBP                BO-35U:PS-CH 1                  BO-35U:PS-CV 2      BO-37U:PS-CH 3      BO-37U:PS-CV 4
+BO-16:PS-FBP                BO-39U:PS-CH 1                  BO-39U:PS-CV 2      BO-41U:PS-CH 3      BO-41U:PS-CV 4
+BO-17:PS-FBP                BO-43U:PS-CH 1                  BO-43U:PS-CV 2      BO-45U:PS-CH 3      BO-45U:PS-CV 4
+BO-19:PS-FBP                BO-47U:PS-CH 1                  BO-47U:PS-CV 2      BO-49D:PS-CH 3      BO-49U:PS-CV 4
 
-AS-Glob:FBP-DCLink-2        AS-Glob:PS-DCLinkFBP-2 1        SI-Glob:PS-DCLinkFBP 2
+AS-Glob:PS-FBPDCLink-2      AS-Glob:PS-DCLinkFBP-2 1        SI-Glob:PS-DCLinkFBP 2

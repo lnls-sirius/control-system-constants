@@ -3,54 +3,54 @@
 
 # --- Booster dipoles, quadrupoles, sextupoles (FAC)
 
-BO-Glob:CO-PSCtrl-1     BO-Glob:FAC-DCDC-1
-BO-Glob:CO-PSCtrl-2     BO-Glob:FAC-DCDC-2
-BO-Glob:CO-PSCtrl-3     BO-Glob:FAC-DCDC-3
-BO-Glob:CO-PSCtrl-4     BO-Glob:FAC-ACDC
+BO-Glob:CO-PSCtrl-1     BO-Glob:PS-FACDCDC-1
+BO-Glob:CO-PSCtrl-2     BO-Glob:PS-FACDCDC-2
+BO-Glob:CO-PSCtrl-3     BO-Glob:PS-FACDCDC-3
+BO-Glob:CO-PSCtrl-4     BO-Glob:PS-FACACDC
 
-BO-Glob:CO-PSCtrl-5     BO-Glob:FAC-2SDCDC   BO-Glob:FAC-2SACDC
+BO-Glob:CO-PSCtrl-5     BO-Glob:PS-FAC2SDCDC   BO-Glob:FAC-2SACDC
 
-BO-Glob:CO-PSCtrl-6     BO-Glob:FAC-2P4SDCDC-1  BO-Glob:FAC-2P4SACDC-1  BO-Glob:FAC-2P4SACDC-2  BO-Glob:FAC-2P4SACDC-3  BO-Glob:FAC-2P4SACDC-4
-BO-Glob:CO-PSCtrl-7     BO-Glob:FAC-2P4SDCDC-2  BO-Glob:FAC-2P4SACDC-5  BO-Glob:FAC-2P4SACDC-6  BO-Glob:FAC-2P4SACDC-7  BO-Glob:FAC-2P4SACDC-8
+BO-Glob:CO-PSCtrl-6     BO-Glob:PS-FAC2P4SDCDC-1  BO-Glob:FAC-2P4SACDC-1  BO-Glob:FAC-2P4SACDC-2  BO-Glob:FAC-2P4SACDC-3  BO-Glob:FAC-2P4SACDC-4
+BO-Glob:CO-PSCtrl-7     BO-Glob:PS-FAC2P4SDCDC-2  BO-Glob:FAC-2P4SACDC-5  BO-Glob:FAC-2P4SACDC-6  BO-Glob:FAC-2P4SACDC-7  BO-Glob:FAC-2P4SACDC-8
 
 
 # --- Transport lines power supplies (FAP & FBP)
 
 # TB Dipole
-TB-Glob:CO-PSCtrl-1     TB-Glob:FAP-UDC
+TB-Glob:CO-PSCtrl-1     TB-Glob:PS-FAP
 # TB Quads
-TB-Glob:CO-PSCtrl-2     TB-Glob:FBP-UDC-1   TB-Glob:FBP-UDC-2   TB-Glob:FBP-UDC-3
+TB-Glob:CO-PSCtrl-2     TB-Glob:PS-FBP-1   TB-Glob:PS-FBP-2   TB-Glob:PS-FBP-3
 # TB Correctors
-TB-Glob:CO-PSCtrl-3     TB-Glob:FBP-UDC-4   TB-Glob:FBP-UDC-5   TB-Glob:FBP-UDC-6
+TB-Glob:CO-PSCtrl-3     TB-Glob:PS-FBP-4   TB-Glob:PS-FBP-5   TB-Glob:PS-FBP-6
 
 # TS Dipole
-TS-Glob:CO-PSCtrl-1     TS-Glob:FAP-4P-Master TS-Glob:Fap-4P-Slave
+TS-Glob:CO-PSCtrl-1     TS-Glob:PS-FAP4PMaster TS-Glob:PS-FAP4PSlave
 # TS Quads
-TS-Glob:CO-PSCtrl-2     TS-Glob:FAP-UDC-1
-TS-Glob:CO-PSCtrl-3     TS-Glob:FAP-UDC-2
+TS-Glob:CO-PSCtrl-2     TS-Glob:PS-FAP-1
+TS-Glob:CO-PSCtrl-3     TS-Glob:PS-FAP-2
 # TS Correctors
-TS-Glob:CO-PSCtrl-4     TS-Glob:FBP-UDC-1   TS-Glob:FBP-UDC-2   TS-Glob:FBP-UDC-3
+TS-Glob:CO-PSCtrl-4     TS-Glob:PS-FBP-1   TS-Glob:PS-FBP-2   TS-Glob:PS-FBP-3
 
 # TB/TS DCLinks
-AS-Glob:CO-PSCtrl-1     AS-Glob:FBP-DCLink-1    TB-Glob:FBP-DCLink
+AS-Glob:CO-PSCtrl-1     AS-Glob:PS-FBPDCLink-1    TB-Glob:PS-FBPDCLink
 
 
 # --- Storage Ring and Booster power supplies (FBP)
 
 # BO Correctores/Quad Skew
-BO-01:CO-PSCtrl-1       BO-01:FBP-UDC-1
-BO-01:CO-PSCtrl-2       BO-01:FBP-UDC-2
-BO-03:CO-PSCtrl         BO-03:FBP-UDC
-BO-05:CO-PSCtrl         BO-05:FBP-UDC
-BO-07:CO-PSCtrl         BO-07:FBP-UDC
-BO-08:CO-PSCtrl         BO-08:FBP-UDC
-BO-09:CO-PSCtrl         BO-09:FBP-UDC
-BO-11:CO-PSCtrl         BO-11:FBP-UDC
-BO-13:CO-PSCtrl         BO-13:FBP-UDC
-BO-14:CO-PSCtrl         BO-14:FBP-UDC
-BO-16:CO-PSCtrl         BO-16:FBP-UDC
-BO-17:CO-PSCtrl         BO-17:FBP-UDC
-BO-19:CO-PSCtrl         BO-19:FBP-UDC
+BO-01:CO-PSCtrl-1       BO-01:PS-FBP-1
+BO-01:CO-PSCtrl-2       BO-01:PS-FBP-2
+BO-03:CO-PSCtrl         BO-03:PS-FBP
+BO-05:CO-PSCtrl         BO-05:PS-FBP
+BO-07:CO-PSCtrl         BO-07:PS-FBP
+BO-08:CO-PSCtrl         BO-08:PS-FBP
+BO-09:CO-PSCtrl         BO-09:PS-FBP
+BO-11:CO-PSCtrl         BO-11:PS-FBP
+BO-13:CO-PSCtrl         BO-13:PS-FBP
+BO-14:CO-PSCtrl         BO-14:PS-FBP
+BO-16:CO-PSCtrl         BO-16:PS-FBP
+BO-17:CO-PSCtrl         BO-17:PS-FBP
+BO-19:CO-PSCtrl         BO-19:PS-FBP
 
 #SI/BO DCLink
-AS-Glob:CO-PSCtrl-2     AS-Glob:FBP-DCLink-2
+AS-Glob:CO-PSCtrl-2     AS-Glob:PS-FBPDCLink-2
