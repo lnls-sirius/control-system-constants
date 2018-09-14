@@ -37,7 +37,7 @@
 # COMMENTS
 # ========
 # 1. file generated automatically from rotating coil measurement data
-# 2. timestamp: 2018-09-11-12:46:01.396
+# 2. timestamp: 2018-09-13-16:34:28.194
 # 3. magnet_type_label: BC
 # 4. magnet_serial_number: 013
 # 5. data_set: M1
