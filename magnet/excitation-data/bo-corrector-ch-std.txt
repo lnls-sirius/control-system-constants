@@ -1,0 +1,83 @@
+# HEADER
+# ======
+# label           bo-correctors-ch
+# harmonics       0   1   2   3   4   5   6   7   8   9  10  11
+# main_harmonic   0 normal
+# units           Ampere  T*m T*m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3  T/m^4 T/m^4  T/m^5 T/m^5  T/m^6 T/m^6  T/m^7 T/m^7  T/m^8 T/m^8  T/m^9 T/m^9  T/m^10 T/m^10  
+
+# EXCITATION DATA
+# ===============
+-0010.00  +6.0019e-06 +2.8290e-06  +7.8565e-05 +8.4935e-05  +2.2322e-03 +1.9267e-03  +9.1780e-02 +9.7265e-02  +7.0640e+00 +8.0107e+00  +3.1488e+02 +3.2308e+02  +2.0223e+04 +3.8005e+04  +1.1315e+06 +1.4934e+06  +7.7272e+07 +5.2584e+07  +3.7210e+09 +4.8200e+09  +2.2233e+11 +2.4184e+11  +9.6976e+12 +1.3104e+13  
+-0009.00  +5.4691e-06 +2.6740e-06  +7.1335e-05 +7.3606e-05  +2.0335e-03 +1.9119e-03  +6.9224e-02 +1.0607e-01  +5.0691e+00 +7.8931e+00  +3.3369e+02 +2.9663e+02  +2.1718e+04 +2.8327e+04  +7.6823e+05 +1.1534e+06  +4.3591e+07 +4.5435e+07  +3.5129e+09 +3.0016e+09  +1.2221e+11 +1.1705e+11  +8.4336e+12 +1.1367e+13  
+-0007.00  +4.2231e-06 +2.0489e-06  +5.9693e-05 +5.8462e-05  +1.5541e-03 +2.2959e-03  +7.9136e-02 +5.3787e-02  +4.0004e+00 +6.3227e+00  +3.0369e+02 +2.8795e+02  +1.6849e+04 +1.8560e+04  +8.2013e+05 +8.5803e+05  +4.3325e+07 +5.0387e+07  +2.8052e+09 +2.7777e+09  +1.6661e+11 +1.1336e+11  +7.4884e+12 +6.4167e+12  
+-0005.00  +3.3319e-06 +1.4299e-06  +5.1313e-05 +4.0269e-05  +1.0542e-03 +7.1978e-04  +3.1662e-02 +3.1517e-02  +2.2163e+00 +4.2812e+00  +1.6984e+02 +1.7479e+02  +6.0485e+03 +1.3503e+04  +2.9235e+05 +4.0859e+05  +2.4140e+07 +1.7880e+07  +1.0734e+09 +1.0019e+09  +4.8913e+10 +5.0222e+10  +3.1368e+12 +3.9266e+12  
+-0003.00  +2.5741e-06 +9.7100e-07  +4.6155e-05 +2.5420e-05  +6.0412e-04 +6.2899e-04  +2.6953e-02 +3.0376e-02  +1.1084e+00 +1.7751e+00  +1.0830e+02 +8.2408e+01  +4.3307e+03 +8.7885e+03  +1.8994e+05 +2.9103e+05  +1.4778e+07 +1.2405e+07  +6.4133e+08 +6.9467e+08  +3.8188e+10 +3.7170e+10  +2.4686e+12 +2.1785e+12  
+-0001.00  +2.2078e-06 +5.9531e-07  +4.1528e-05 +1.5332e-05  +4.4827e-04 +5.9732e-04  +2.8209e-02 +1.8242e-02  +1.0268e+00 +1.4685e+00  +6.0667e+01 +5.4370e+01  +2.7627e+03 +3.9124e+03  +2.1555e+05 +2.1282e+05  +1.0078e+07 +8.7561e+06  +6.9022e+08 +6.7451e+08  +3.9407e+10 +4.0417e+10  +1.6613e+12 +1.6925e+12  
++0000.00  +2.0826e-06 +4.7133e-07  +4.1708e-05 +1.7137e-05  +5.4940e-04 +5.5172e-04  +1.9986e-02 +2.2011e-02  +1.2735e+00 +1.0356e+00  +6.4489e+01 +7.7392e+01  +4.5351e+03 +3.3459e+03  +1.7702e+05 +2.0799e+05  +9.2086e+06 +1.2001e+07  +6.6595e+08 +6.7690e+08  +3.2845e+10 +4.0561e+10  +1.6520e+12 +1.7775e+12  
++0001.00  +2.6511e-06 +6.7700e-07  +4.0037e-05 +2.0711e-05  +6.0419e-04 +6.6443e-04  +1.8579e-02 +1.9745e-02  +1.2598e+00 +1.5719e+00  +6.8235e+01 +8.5911e+01  +3.1933e+03 +4.2681e+03  +2.5344e+05 +1.9013e+05  +7.5017e+06 +8.1604e+06  +6.2376e+08 +6.4885e+08  +2.9775e+10 +3.5212e+10  +2.6719e+12 +1.0931e+12  
++0003.00  +2.9471e-06 +9.7429e-07  +5.0092e-05 +3.7515e-05  +6.7123e-04 +8.3822e-04  +4.0294e-02 +3.0819e-02  +1.6268e+00 +2.4763e+00  +1.5191e+02 +8.7865e+01  +3.2626e+03 +8.6689e+03  +2.4049e+05 +2.4251e+05  +1.6672e+07 +9.0518e+06  +6.1201e+08 +8.0430e+08  +3.8223e+10 +3.1749e+10  +2.8514e+12 +1.6913e+12  
++0005.00  +3.8435e-06 +1.4847e-06  +5.6405e-05 +5.1367e-05  +1.2428e-03 +9.9810e-04  +5.1258e-02 +4.0913e-02  +3.1906e+00 +2.7451e+00  +1.8992e+02 +1.8265e+02  +1.5773e+04 +1.8644e+04  +6.4282e+05 +4.2238e+05  +1.9951e+07 +2.1864e+07  +1.7764e+09 +1.0816e+09  +8.8712e+10 +7.0170e+10  +3.5006e+12 +6.9309e+12  
++0007.00  +4.9075e-06 +2.0454e-06  +6.5369e-05 +7.0224e-05  +1.3915e-03 +1.2306e-03  +5.8969e-02 +5.6278e-02  +3.4012e+00 +3.5921e+00  +2.2762e+02 +1.7786e+02  +8.3418e+03 +1.8174e+04  +4.7003e+05 +5.0059e+05  +2.7111e+07 +2.8410e+07  +1.6999e+09 +1.3409e+09  +1.2085e+11 +8.2025e+10  +5.0657e+12 +3.8275e+12  
++0009.00  +5.9518e-06 +2.5092e-06  +7.4235e-05 +8.0821e-05  +1.6908e-03 +1.5041e-03  +5.7367e-02 +6.3653e-02  +5.4869e+00 +5.1239e+00  +3.4100e+02 +2.6611e+02  +1.1559e+04 +3.1045e+04  +1.0691e+06 +8.1612e+05  +4.8686e+07 +4.0862e+07  +3.0530e+09 +3.3242e+09  +1.7174e+11 +1.7167e+11  +6.9331e+12 +9.4574e+12  
++0010.00  +6.9981e-06 +2.7891e-06  +8.0961e-05 +8.4338e-05  +1.9062e-03 +1.5004e-03  +8.8276e-02 +5.9646e-02  +4.2985e+00 +6.4348e+00  +3.4527e+02 +3.6475e+02  +1.9796e+04 +2.5681e+04  +1.0602e+06 +7.2584e+05  +5.7111e+07 +4.8940e+07  +2.6600e+09 +1.8484e+09  +1.7028e+11 +1.3319e+11  +7.6430e+12 +7.4508e+12  
+ 
+# COMMENTS
+# ========
+# 1. generated automatically with "sirius_bo_create_excitation_file.m"
+# 2. data taken from rotcoil measurements
+# 3. average excitation curves for magnets:
+#    BC-022 BC-021 BC-020 BC-037 BC-036 BC-040 BC-035 BC-034 BC-033 BC-039 
+#    BC-013 BC-010 BC-016 BC-009 BC-012 BC-053 BC-054 BC-055 BC-049 BC-050 
+#    BC-051 BC-056 BC-052 BC-017 BC-023 
+#    
+ 
+# POLARITY TABLE
+# ==============
+# 
+# Magnet function         | IntStrength(1) | IntField(2) | ConvSign(3) | Current(4)
+# ------------------------|----------------|-------------|-------------|-----------
+# dipole                  | Angle > 0      | BYL  < 0    | -1.0        | I > 0
+# corrector-horizontal    | HKick > 0      | BYL  > 0    | +1.0        | I > 0
+# corrector-vertical      | VKick > 0      | BXL  < 0    | -1.0        | I > 0
+# quadrupole (focusing)   | KL    > 0      | D1NL < 0    | -1.0        | I > 0
+# quadrupole (defocusing) | KL    < 0      | D1NL > 0    | -1.0        | I > 0
+# quadrupole (skew)       | KL    > 0      | D1SL > 0    | +1.0        | I > 0
+# sextupole  (focusing)   | SL    > 0      | D2NL < 0    | -1.0        | I > 0
+# sextupole  (defocusing) | SL    < 0      | D2NL > 0    | -1.0        | I > 0
+# 
+# Defs:
+# ----
+# BYL   := \int{dz By|_{x=y=0}}.
+# BXL   := \int{dz Bx|_{x=y=0}}.
+# D1NL  := \int{dz rac{dBy}{dx}_{x=y=0}}
+# D2NL  := (1/2!) \int{dz rac{d^2By}{dx^2}_{x=y=0}}
+# D1SL  := \int{dz rac{dBx}{dx}_{x=y=0}}
+# Brho  := magnetic rigidity.
+# Angle := ConvSign * BYL / abs(Brho)
+# HKick := ConvSign * BYL / abs(Brho)
+# VKick := ConvSign * BXL / abs(Brho)
+# KL    := ConvSign * D1NL / abs(Brho)
+# SL    := ConvSign * D2NL / abs(Brho)
+# 
+# Obs:
+# ---
+# (1) Parameter definition.
+#     IntStrength values correspond to integrated PolynomA and PolynomB parameters
+#     of usual beam tracking codes, with the exception that VKick has its sign
+#     reversed with respecto to its corresponding value in PolynomA.
+# (2) Sirius coordinate system and Lorentz force.
+# (3) Conversion sign for IntField <-> IntStrength
+# (4) Convention of magnet excitation polarity, so that when I > 0 the strength
+#     of the magnet has the expected conventional sign.
+ 
+# STATIC DATA FILE FORMAT
+# =======================
+# 
+# These static data files should comply with the following formatting rules:
+# 1. If the first alphanumeric character of the line is not the pound sign
+#    then the lines is a comment.
+# 2. If the first alphanumeric character is "#" then if
+#    a) it is followed by "[<parameter>] <value>" a parameter names <parameter>
+#       is define with value <value>. if the string <value> has spaces in it
+#       it is split as a list of strings.
+#    b) otherwise the line is ignored as a comment line.
