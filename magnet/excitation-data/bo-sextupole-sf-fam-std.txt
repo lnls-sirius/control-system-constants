@@ -51,7 +51,7 @@
 # BXL   := \int{dz Bx|_{x=y=0}}.
 # D1NL  := \int{dz \frac{dBy}{dx}_{x=y=0}}
 # D2NL  := (1/2!) \int{dz rac{d^2By}{dx^2}_{x=y=0}}
-# D1SL  := \int{dz rac{dBx}{dx}_{x=y=0}}
+# D1SL  := \int{dz  \frac{dBx}{dx}_{x=y=0}}
 # Brho  := magnetic rigidity.
 # Angle := ConvSign * BYL / abs(Brho)
 # HKick := ConvSign * BYL / abs(Brho)
