@@ -825,7 +825,7 @@
             },
         'channels': ('BO-01D:PU-InjKckr:IN', ),
         },
-    'BO-05D:TI-P5Cav:': {
+    'BO-Glob:TI-LLRF:': {
         'database': {
             'Src': {'value': 0, 'enums': ('InjBO', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
@@ -1425,7 +1425,7 @@
         },
     'AS-Glob:TI-BPM-SIBO:': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigBO', 'DigSI', 'Study')},
+            'Src': {'value': 0, 'enums': ('DigBO', 'DigSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
             'DelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
