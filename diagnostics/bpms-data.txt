@@ -1,20 +1,20 @@
 # This file was generated automatically from the data of the files
-# in the subfolder Mapeamento_placas_MicroTCA_vs_BPMs and the
+# in the subfolder microTCA-vs-BPMs-mapping and the
 # models of the accelerators in the pymodels repository by the
-# function: 
+# function:
 #      siriuspy.optics.lattice_survey.generate_bpm_static_table.
 #
 # If the data in the mentioned subfolder change, please, run the
 # script again and copy the generated file to replace this one.
 
 
-#BPMs data 
+#BPMs data
 #-----------
 
 
 # Storage Ring (SR)
 #---------------------------------------------------------
-#Name                  Position [m]   Timing              
+#Name                  Position [m]    Timing
 #---------------------------------------------------------
 SI-01M2:DI-BPM           3.5179      IA-01RaBPM:TI-AMCFPGAEVR
 SI-01C1:DI-BPM-1         7.1959      IA-01RaBPM:TI-AMCFPGAEVR
@@ -181,7 +181,7 @@ SI-01M1:DI-BPM          514.8781     IA-01RaBPM:TI-AMCFPGAEVR
 
 # Booster (BO)
 #---------------------------------------------------------
-#Name                  Position [m]   Timing              
+#Name                  Position [m]   Timing
 #---------------------------------------------------------
 BO-02U:DI-BPM            7.6900      IA-01RaBPM:TI-AMCFPGAEVR
 BO-03U:DI-BPM            17.6260     IA-02RaBPM:TI-AMCFPGAEVR
@@ -238,7 +238,7 @@ BO-01U:DI-BPM           494.5540     IA-01RaBPM:TI-AMCFPGAEVR
 
 # BO Transport Line
 #---------------------------------------------------------
-#Name                  Position [m]   Timing              
+#Name                  Position [m]   Timing
 #---------------------------------------------------------
 TB-01:DI-BPM-1           0.5250      IA-20RaBPMTL:TI-AMCFPGAEVR
 TB-01:DI-BPM-2           2.8000      IA-20RaBPMTL:TI-AMCFPGAEVR
@@ -251,7 +251,7 @@ TB-04:DI-BPM             18.6937     IA-20RaBPMTL:TI-AMCFPGAEVR
 
 # SR Transport Line
 #---------------------------------------------------------
-#Name                  Position [m]   Timing              
+#Name                  Position [m]   Timing
 #---------------------------------------------------------
 TS-01:DI-BPM             5.9278      IA-20RaBPMTL:TI-AMCFPGAEVR
 TS-02:DI-BPM             10.3444     IA-20RaBPMTL:TI-AMCFPGAEVR
