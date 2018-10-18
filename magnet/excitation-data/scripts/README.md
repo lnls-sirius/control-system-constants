@@ -1,5 +1,14 @@
-# Script to generate excitation data files from rotating coil measurements
+# Excitation Data Scripts
 
-* rotcoil.py: classes to read rotating coil data
-* si-quadrupoles-q14.ipynb: ipython notebook for SI quadrupoles Q14
-* si-quadrupoles-q30.ipynb: ipython notebook for SI quadrupoles Q30
+* Clone rotating coil data repositories:
+ 
+ git clone https://github.com/lnls-ima/si-quadrupoles-q14.git
+ 
+ git clone https://github.com/lnls-ima/si-quadrupoles-q20.git
+ 
+ git clone https://github.com/lnls-ima/si-quadrupoles-q30.git
+ 
+ git clone https://github.com/lnls-ima/bo-quadrupoles-qf.git
+ 
+ git clone https://github.com/lnls-ima/bo-quadrupoles-qd.git
+ 
