@@ -38,7 +38,7 @@ BO-Glob:PS-DCLinkFAC2P4S-16   FAC_2P4S_ACDC
 
 # --- Transport line power supplies (FAP & FBP) (Slide 2)
 
-TB-Fam:PS-B                   Commercial
+TB-Fam:PS-B                   FAP
 
 TS-Fam:PS-B                   FAP_4P_Master
 TS-Fam:PS-B-Slave             FAP_4P_Slave
