@@ -6,7 +6,6 @@
 BO-Glob:CO-PSCtrl-1     BO-Glob:PS-FACDCDC-1
 BO-Glob:CO-PSCtrl-2     BO-Glob:PS-FACDCDC-2
 BO-Glob:CO-PSCtrl-3     BO-Glob:PS-FACDCDC-3
-BO-Glob:CO-PSCtrl-4     BO-Glob:PS-FACACDC
 
 BO-Glob:CO-PSCtrl-5     BO-Glob:PS-FAC2SDCDC   BO-Glob:FAC-2SACDC
 
@@ -18,16 +17,19 @@ BO-Glob:CO-PSCtrl-7     BO-Glob:PS-FAC2P4SDCDC-2  BO-Glob:FAC-2P4SACDC-5  BO-Glo
 
 # TB Dipole
 TB-Glob:CO-PSCtrl-1     TB-Glob:PS-FAP
-# TB Quads
-TB-Glob:CO-PSCtrl-2     TB-Glob:PS-FBP-1   TB-Glob:PS-FBP-2   TB-Glob:PS-FBP-3
-# TB Correctors
-TB-Glob:CO-PSCtrl-3     TB-Glob:PS-FBP-4   TB-Glob:PS-FBP-5   TB-Glob:PS-FBP-6
 
-# TS Dipole
-TS-Glob:CO-PSCtrl-1     TS-Glob:PS-FAP4PMaster TS-Glob:PS-FAP4PSlave
 # TS Quads
 TS-Glob:CO-PSCtrl-2     TS-Glob:PS-FAP-1
 TS-Glob:CO-PSCtrl-3     TS-Glob:PS-FAP-2
+
+# TS Dipole
+TS-Glob:CO-PSCtrl-1     TS-Glob:PS-FAP4PMaster TS-Glob:PS-FAP4PSlave
+
+# TB Quads
+TB-Glob:CO-PSCtrl-2     TB-Glob:PS-FBP-1   TB-Glob:PS-FBP-2   TB-Glob:PS-FBP-3
+
+# TB Correctors
+TB-Glob:CO-PSCtrl-3     TB-Glob:PS-FBP-4   TB-Glob:PS-FBP-5   TB-Glob:PS-FBP-6
 # TS Correctors
 TS-Glob:CO-PSCtrl-4     TS-Glob:PS-FBP-1   TS-Glob:PS-FBP-2   TS-Glob:PS-FBP-3
 
