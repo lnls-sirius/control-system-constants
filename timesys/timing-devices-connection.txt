@@ -89,7 +89,6 @@ AS-Glob:TI-EVR-5:OTP04             SI-Glob:CO-PSCtrl-13:TIMIN  # SI arc sextupol
 AS-Glob:TI-EVR-5:OTP05             BO-Glob:CO-PSCtrl-1:TIMIN
 AS-Glob:TI-EVR-5:OTP06             BO-Glob:CO-PSCtrl-2:TIMIN
 AS-Glob:TI-EVR-5:OTP07             BO-Glob:CO-PSCtrl-3:TIMIN
-AS-Glob:TI-EVR-5:OTP08             BO-Glob:CO-PSCtrl-4:TIMIN
 AS-Glob:TI-EVR-5:OTP09             BO-Glob:CO-PSCtrl-5:TIMIN
 AS-Glob:TI-EVR-5:OTP10             BO-Glob:CO-PSCtrl-6:TIMIN
 AS-Glob:TI-EVR-5:OTP11             BO-Glob:CO-PSCtrl-7:TIMIN
