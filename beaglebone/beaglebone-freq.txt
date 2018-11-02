@@ -9,5 +9,8 @@
 
 # BBBNAME               SYNC_OFF[SCAN]_FREQUENCY[Hz]  SYNC_ON[RAMP]_FREQUENCY[Hz]
 
-LA-RaCtrl:CO-PSCtrl-TB1    6.0                           6.0
-LA-RaCtrl:CO-PSCtrl-TB2    6.0                           6.0
+LA-RaCtrl:CO-PSCtrl-TB3    5.0                           2.0
+LA-RaCtrl:CO-PSCtrl-TS4    5.0                           2.0
+LA-RaCtrl:CO-PSCtrl-TB2    5.0                           2.0
+
+LA-RaCtrl:CO-PSCtrl-TB1    5.0                           2.0
