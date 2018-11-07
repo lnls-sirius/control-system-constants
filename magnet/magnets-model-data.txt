@@ -1,7 +1,7 @@
-# This file was generated automatically from the data of the 
+# This file was generated automatically from the data of the
 # models of the accelerators in the pymodels repository by the
 # function:
-    siriuspy.optics.lattice_survey.generate_model_static_table.
+#    siriuspy.optics.lattice_survey.generate_model_static_table.
 #
 # If any model change, please, run the script
 # again and copy the generated file to replace this one.
