@@ -16,7 +16,8 @@ LA-RaCtrl:CO-PSCtrl-TB3    5.0                           2.0
 LA-RaCtrl:CO-PSCtrl-TS4    5.0                           2.0
 
 # --- TB quadrupoles pwrsupplies
-LA-RaCtrl:CO-PSCtrl-TB2    5.0                           2.0
+LA-RaCtrl:CO-PSCtrl-TB1    1.0                           1.0
+LA-RaCtrl:CO-PSCtrl-TB2    1.0                           1.0
 
 # --- TB quad and corrs and TS corr dclinks
 LA-RaCtrl:CO-PSCtrl-AS     5.0                           2.0
