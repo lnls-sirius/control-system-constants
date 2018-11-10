@@ -62,7 +62,7 @@ TB-02:PS-CH-1                 FBP
 TB-02:PS-CV-1                 FBP
 TB-02:PS-CH-2                 FBP
 TB-02:PS-CV-2                 FBP
-TB-03:PS-CH                   FBP
+TB-04:PS-CH                   FBP
 TB-04:PS-CV-1                 FBP
 TB-04:PS-CV-2                 FBP
 
@@ -146,8 +146,8 @@ BO-49U:PS-CV                  FBP
 
 BO-02D:PS-QS	                FBP
 
-AS-Glob:PS-DCLinkFBP-2        FBP_DCLink
-SI-Glob:PS-DCLinkFBP          FBP_DCLink
+LA-RaPS06:PS-DCLink-AS1       FBP_DCLink
+LA-RaPS06:PS-DCLink-AS2       FBP_DCLink
 
 
 

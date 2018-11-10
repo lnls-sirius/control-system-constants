@@ -1,5 +1,5 @@
 # List of power supplies of type ibo-dclink-fac
 # =============================================
 
-AS-Glob:PS-DCLinkFBP-1
-AS-Glob:PS-DCLinkFBP-2
+LA-RaPS06:PS-DCLink-AS1
+LA-RaPS06:PS-DCLink-AS2
