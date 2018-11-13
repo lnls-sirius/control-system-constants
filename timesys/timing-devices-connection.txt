@@ -1,493 +1,498 @@
-## First Layer: From EVG to Fouts
-AS-Glob:TI-EVG:OUT0                AS-Glob:TI-Fout-1:UPLINK
-AS-Glob:TI-EVG:OUT1                AS-Glob:TI-Fout-2:UPLINK
-AS-Glob:TI-EVG:OUT2                AS-Glob:TI-Fout-3:UPLINK
-AS-Glob:TI-EVG:OUT3                AS-Glob:TI-Fout-4:UPLINK
-AS-Glob:TI-EVG:OUT4                AS-Glob:TI-Fout-5:UPLINK
+
+# This file was generated automatically from the data of the
+# excel file Cabos_e_Fibras_Sirius.xlsx by the function
+# siriuspy.timesys.static_table.create_static_table.
+#
+# If the mentioned file change, please, run the script
+# again and copy the generated file to replace this one.
 
 
-# Second Layer: From Fouts to EVRS and AMCFPGAEVRs
-AS-Glob:TI-Fout-1:OUT0             AS-Glob:TI-EVR-1:UPLINK
-AS-Glob:TI-Fout-1:OUT1             AS-Glob:TI-EVR-2:UPLINK
-AS-Glob:TI-Fout-1:OUT2             AS-Glob:TI-EVR-3:UPLINK
-AS-Glob:TI-Fout-1:OUT3             AS-Glob:TI-EVE-1:UPLINK
-AS-Glob:TI-Fout-1:OUT4             AS-Glob:TI-EVE-2:UPLINK
-AS-Glob:TI-Fout-1:OUT5             AS-Glob:TI-EVE-3:UPLINK
-AS-Glob:TI-Fout-1:OUT6             AS-Glob:TI-EVR-5:UPLINK #FAKE
-
-AS-Glob:TI-Fout-2:OUT0             AS-Glob:TI-EVR-4:UPLINK
-AS-Glob:TI-Fout-2:OUT1             AS-Glob:TI-EVE-4:UPLINK
-AS-Glob:TI-Fout-2:OUT2             AS-Glob:TI-EVE-5:UPLINK
-AS-Glob:TI-Fout-2:OUT3             AS-Glob:TI-EVE-6:UPLINK
-
-AS-Glob:TI-Fout-3:OUT0             IA-01RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-3:OUT1             IA-02RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-3:OUT2             IA-03RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-3:OUT3             IA-04RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-3:OUT4             IA-05RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-3:OUT5             IA-06RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-3:OUT6             IA-07RaBPM:TI-AMCFPGAEVR:SFP8
-
-AS-Glob:TI-Fout-4:OUT0             IA-08RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-4:OUT1             IA-09RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-4:OUT2             IA-10RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-4:OUT3             IA-11RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-4:OUT4             IA-12RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-4:OUT5             IA-13RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-4:OUT6             IA-14RaBPM:TI-AMCFPGAEVR:SFP8
-
-AS-Glob:TI-Fout-5:OUT0             IA-15RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-5:OUT1             IA-16RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-5:OUT2             IA-17RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-5:OUT3             IA-18RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-5:OUT4             IA-19RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-5:OUT5             IA-20RaBPM:TI-AMCFPGAEVR:SFP8
-AS-Glob:TI-Fout-5:OUT6             IA-20RaBPMTL:TI-AMCFPGAEVR:SFP8
 
 
-# Third Layer: From EVRs to STDMOE, STDSOE, SOE, MOE
-AS-Glob:TI-EVR-1:OUT0              AS-Glob:TI-STDMOE-1:OE1
-AS-Glob:TI-EVR-1:OUT1              AS-Glob:TI-STDMOE-1:OE2
-AS-Glob:TI-EVR-1:OTP00             AS-Glob:TI-STDSOE-1:IN1
-AS-Glob:TI-EVR-1:OTP01             AS-Glob:TI-STDSOE-1:IN2
-AS-Glob:TI-EVR-1:OTP02             AS-Glob:TI-STDSOE-2:IN1
-AS-Glob:TI-EVR-1:OTP03             AS-Glob:TI-STDSOE-2:IN2
-AS-Glob:TI-EVR-1:OTP04             AS-Glob:TI-STDSOE-2:IN3
-AS-Glob:TI-EVR-1:OTP05             AS-Glob:TI-STDSOE-3:IN1
-AS-Glob:TI-EVR-1:OTP06             AS-Glob:TI-STDSOE-3:IN2
-AS-Glob:TI-EVR-1:OTP07             AS-Glob:TI-STDSOE-3:IN3
 
-AS-Glob:TI-EVR-2:OUT0              AS-Glob:TI-STDMOE-2:OE1
-AS-Glob:TI-EVR-2:OUT1              AS-Glob:TI-STDMOE-3:OE1
-AS-Glob:TI-EVR-2:OUT2              AS-Glob:TI-STDMOE-3:OE2
-AS-Glob:TI-EVR-2:OUT3              AS-Glob:TI-STDMOE-3:OE3
-AS-Glob:TI-EVR-2:OUT4              AS-Glob:TI-STDMOE-4:OE1
-AS-Glob:TI-EVR-2:OUT5              AS-Glob:TI-STDMOE-4:OE2
-AS-Glob:TI-EVR-2:OUT6              AS-Glob:TI-STDMOE-5:OE1
-AS-Glob:TI-EVR-2:OUT7              AS-Glob:TI-STDMOE-5:OE2
-AS-Glob:TI-EVR-2:OTP00             AS-Glob:TI-SOE-1:IN
-AS-Glob:TI-EVR-2:OTP01             AS-Glob:TI-SOE-2:IN
-AS-Glob:TI-EVR-2:OTP02             AS-Glob:TI-SOE-3:IN
-AS-Glob:TI-EVR-2:OTP03             AS-Glob:TI-SOE-4:IN
+# 425
+RA-RaMO:TI-EVG:OUT0                 RA-RaMO:CO-FibPatch:P074           
+RA-RaMO:TI-EVG:OUT1                 RA-RaMO:CO-FibPatch:P075           
+RA-RaMO:TI-EVG:OUT2                 RA-RaMO:CO-FibPatch:P076           
+RA-RaMO:TI-EVG:OUT3                 RA-RaMO:CO-FibPatch:P077           
+RA-RaMO:TI-EVG:OUT4                 RA-RaMO:CO-FibPatch:P078           
+RA-RaMO:TI-EVG:OUT5                 RA-RaMO:TI-Fout:UPLINK             
+RA-RaMO:CO-FibPatch:P074            CA-RaCtrl:CO-FibPatch:P074         
+RA-RaMO:CO-FibPatch:P075            CA-RaCtrl:CO-FibPatch:P075         
+RA-RaMO:CO-FibPatch:P076            CA-RaCtrl:CO-FibPatch:P076         
+RA-RaMO:CO-FibPatch:P077            CA-RaCtrl:CO-FibPatch:P077         
+RA-RaMO:CO-FibPatch:P078            CA-RaCtrl:CO-FibPatch:P078         
+RA-RaMO:TI-Fout:OUT0                RA-RaMO:CO-FibPatch:P071           
+RA-RaMO:TI-Fout:OUT1                RA-RaMO:CO-FibPatch:P044           
+RA-RaMO:TI-Fout:OUT2                RA-RaMO:CO-FibPatch:P045           
+CA-RaCtrl:CO-FibPatch:P074          CA-RaCtrl:TI-Fout-1:UPLINK         
+CA-RaCtrl:CO-FibPatch:P075          CA-RaCtrl:TI-Fout-2:UPLINK         
+CA-RaCtrl:CO-FibPatch:P076          CA-RaCtrl:TI-Fout-3:UPLINK         
+CA-RaCtrl:CO-FibPatch:P077          CA-RaCtrl:TI-Fout-4:UPLINK         
+CA-RaCtrl:CO-FibPatch:P078          CA-RaCtrl:TI-Fout-5:UPLINK         
+RA-RaMO:CO-FibPatch:P071            RA-RaBO01:TI-EVE:UPLINK            
+RA-RaMO:CO-FibPatch:P044            RA-RaSIA01:TI-EVE:UPLINK           
+RA-RaMO:CO-FibPatch:P045            RA-RaSIB01:TI-EVE:UPLINK           
+CA-RaCtrl:TI-Fout-1:OUT0            CA-RaCtrl:CO-FibPatch:P072         
+CA-RaCtrl:TI-Fout-1:OUT1            CA-RaCtrl:CO-FibPatch:P043         
+CA-RaCtrl:TI-Fout-1:OUT2            CA-RaCtrl:CO-FibPatch:P073         
+CA-RaCtrl:TI-Fout-2:OUT0            CA-RaCtrl:CO-FibPatch:P051         
+CA-RaCtrl:TI-Fout-2:OUT1            CA-RaCtrl:CO-FibPatch:P046         
+CA-RaCtrl:TI-Fout-2:OUT2            CA-RaCtrl:CO-FibPatch:P047         
+CA-RaCtrl:TI-Fout-2:OUT3            CA-RaCtrl:CO-FibPatch:P048         
+CA-RaCtrl:TI-Fout-2:OUT4            CA-RaCtrl:CO-FibPatch:P049         
+CA-RaCtrl:TI-Fout-2:OUT5            CA-RaCtrl:CO-FibPatch:P050         
+CA-RaCtrl:TI-Fout-2:OUT6            CA-RaCtrl:CO-FibPatch:P052         
+CA-RaCtrl:TI-Fout-3:OUT0            CA-RaCtrl:CO-FibPatch:P002         
+CA-RaCtrl:TI-Fout-3:OUT1            CA-RaCtrl:CO-FibPatch:P024         
+CA-RaCtrl:TI-Fout-3:OUT2            CA-RaCtrl:CO-FibPatch:P029         
+CA-RaCtrl:TI-Fout-3:OUT3            CA-RaCtrl:CO-FibPatch:P031         
+CA-RaCtrl:TI-Fout-3:OUT4            CA-RaCtrl:CO-FibPatch:P033         
+CA-RaCtrl:TI-Fout-3:OUT5            CA-RaCtrl:CO-FibPatch:P035         
+CA-RaCtrl:TI-Fout-3:OUT6            CA-RaCtrl:CO-FibPatch:P037         
+CA-RaCtrl:TI-Fout-4:OUT0            CA-RaCtrl:CO-FibPatch:P039         
+CA-RaCtrl:TI-Fout-4:OUT1            CA-RaCtrl:CO-FibPatch:P041         
+CA-RaCtrl:TI-Fout-4:OUT2            CA-RaCtrl:CO-FibPatch:P004         
+CA-RaCtrl:TI-Fout-4:OUT3            CA-RaCtrl:CO-FibPatch:P006         
+CA-RaCtrl:TI-Fout-4:OUT4            CA-RaCtrl:CO-FibPatch:P008         
+CA-RaCtrl:TI-Fout-4:OUT5            CA-RaCtrl:CO-FibPatch:P010         
+CA-RaCtrl:TI-Fout-4:OUT6            CA-RaCtrl:CO-FibPatch:P012         
+CA-RaCtrl:TI-Fout-5:OUT0            CA-RaCtrl:CO-FibPatch:P014         
+CA-RaCtrl:TI-Fout-5:OUT1            CA-RaCtrl:CO-FibPatch:P016         
+CA-RaCtrl:TI-Fout-5:OUT2            CA-RaCtrl:CO-FibPatch:P018         
+CA-RaCtrl:TI-Fout-5:OUT3            CA-RaCtrl:CO-FibPatch:P020         
+CA-RaCtrl:TI-Fout-5:OUT4            CA-RaCtrl:CO-FibPatch:P022         
+CA-RaCtrl:TI-Fout-5:OUT5            CA-RaCtrl:CO-FibPatch:P026         
+CA-RaCtrl:TI-Fout-5:OUT6            CA-RaCtrl:CO-FibPatch:P027         
+RA-RaBO01:TI-EVE:OUT0               RA-RaBO01:RF-DigPatch:RAMPA        
+RA-RaBO01:TI-EVE:OUT1               RA-RaBO01:RF-DigPatch:POSTMORTEN   
+RA-RaSIA01:TI-EVE:OUT0              RA-RaSIA01:RF-DigPatch:RAMPA       
+RA-RaSIA01:TI-EVE:OUT1              RA-RaSIA01:RF-DigPatch:POSTMORTEN  
+RA-RaSIB01:TI-EVE:OUT0              RA-RaSIB01:RF-DigPatch:RAMPA       
+RA-RaSIB01:TI-EVE:OUT1              RA-RaSIB01:RF-DigPatch:POSTMORTEN  
+CA-RaCtrl:CO-FibPatch:P072          LA-RaCtrl:CO-FibPatch:P072         
+CA-RaCtrl:CO-FibPatch:P043          IA-01RaCtrl:CO-FibPatch:P043       
+CA-RaCtrl:CO-FibPatch:P073          PA-RaCtrl:CO-FibPatch:P073         
+CA-RaCtrl:CO-FibPatch:P051          PA-RaCtrl:CO-FibPatch:P051         
+CA-RaCtrl:CO-FibPatch:P046          PA-RaCtrl:CO-FibPatch:P046         
+CA-RaCtrl:CO-FibPatch:P047          IA-20RaCtrl:CO-FibPatch:P047       
+CA-RaCtrl:CO-FibPatch:P048          IA-00RaCtrl:CO-FibPatch:P048       
+CA-RaCtrl:CO-FibPatch:P049          IA-16RaCtrl:CO-FibPatch:P049       
+CA-RaCtrl:CO-FibPatch:P050          IA-18RaCtrl:CO-FibPatch:P050       
+CA-RaCtrl:CO-FibPatch:P052          IA-14RaCtrl:CO-FibPatch:P052       
+CA-RaCtrl:CO-FibPatch:P002          IA-01RaCtrl:CO-FibPatch:P002       
+CA-RaCtrl:CO-FibPatch:P024          IA-02RaCtrl:CO-FibPatch:P024       
+CA-RaCtrl:CO-FibPatch:P029          IA-03RaCtrl:CO-FibPatch:P029       
+CA-RaCtrl:CO-FibPatch:P031          IA-04RaCtrl:CO-FibPatch:P031       
+CA-RaCtrl:CO-FibPatch:P033          IA-05RaCtrl:CO-FibPatch:P033       
+CA-RaCtrl:CO-FibPatch:P035          IA-06RaCtrl:CO-FibPatch:P035       
+CA-RaCtrl:CO-FibPatch:P037          IA-07RaCtrl:CO-FibPatch:P037       
+CA-RaCtrl:CO-FibPatch:P039          IA-08RaCtrl:CO-FibPatch:P039       
+CA-RaCtrl:CO-FibPatch:P041          IA-09RaCtrl:CO-FibPatch:P041       
+CA-RaCtrl:CO-FibPatch:P004          IA-10RaCtrl:CO-FibPatch:P004       
+CA-RaCtrl:CO-FibPatch:P006          IA-11RaCtrl:CO-FibPatch:P006       
+CA-RaCtrl:CO-FibPatch:P008          IA-12RaCtrl:CO-FibPatch:P008       
+CA-RaCtrl:CO-FibPatch:P010          IA-13RaCtrl:CO-FibPatch:P010       
+CA-RaCtrl:CO-FibPatch:P012          IA-14RaCtrl:CO-FibPatch:P012       
+CA-RaCtrl:CO-FibPatch:P014          IA-15RaCtrl:CO-FibPatch:P014       
+CA-RaCtrl:CO-FibPatch:P016          IA-16RaCtrl:CO-FibPatch:P016       
+CA-RaCtrl:CO-FibPatch:P018          IA-17RaCtrl:CO-FibPatch:P018       
+CA-RaCtrl:CO-FibPatch:P020          IA-18RaCtrl:CO-FibPatch:P020       
+CA-RaCtrl:CO-FibPatch:P022          IA-19RaCtrl:CO-FibPatch:P022       
+CA-RaCtrl:CO-FibPatch:P026          IA-20RaCtrl:CO-FibPatch:P026       
+CA-RaCtrl:CO-FibPatch:P027          IA-20RaCtrl:CO-FibPatch:P027       
+LA-RaCtrl:CO-FibPatch:P072          LA-RFH01RACK2:TI-EVR:UPLINK        
+IA-01RaCtrl:CO-FibPatch:P043        LA-BIH01RACK2:TI-EVE:UPLINK        
+PA-RaCtrl:CO-FibPatch:P073          IA-01RaInj05:TI-EVR:UPLINK         
+PA-RaCtrl:CO-FibPatch:P051          PA-RaCtrl:TI-EVR-1:UPLINK          
+PA-RaCtrl:CO-FibPatch:P046          PA-RaCtrl:TI-EVR-2:UPLINK          
+IA-20RaCtrl:CO-FibPatch:P047        IA-20RaDiag01:TI-EVR:UPLINK        
+IA-00RaCtrl:CO-FibPatch:P048        IA-00RaCtrl:TI-EVE:UPLINK          
+IA-16RaCtrl:CO-FibPatch:P049        IA-16RaBbB:TI-EVE:UPLINK           
+IA-18RaCtrl:CO-FibPatch:P050        IA-18RaDiag04:TI-EVE:UPLINK        
+IA-14RaCtrl:CO-FibPatch:P052        IA-14RaDiag03:TI-EVE:UPLINK        
+IA-01RaCtrl:CO-FibPatch:P002        IA-01RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-02RaCtrl:CO-FibPatch:P024        IA-02RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-03RaCtrl:CO-FibPatch:P029        IA-03RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-04RaCtrl:CO-FibPatch:P031        IA-04RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-05RaCtrl:CO-FibPatch:P033        IA-05RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-06RaCtrl:CO-FibPatch:P035        IA-06RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-07RaCtrl:CO-FibPatch:P037        IA-07RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-08RaCtrl:CO-FibPatch:P039        IA-08RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-09RaCtrl:CO-FibPatch:P041        IA-09RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-10RaCtrl:CO-FibPatch:P004        IA-10RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-11RaCtrl:CO-FibPatch:P006        IA-11RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-12RaCtrl:CO-FibPatch:P008        IA-12RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-13RaCtrl:CO-FibPatch:P010        IA-13RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-14RaCtrl:CO-FibPatch:P012        IA-14RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-15RaCtrl:CO-FibPatch:P014        IA-15RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-16RaCtrl:CO-FibPatch:P016        IA-16RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-17RaCtrl:CO-FibPatch:P018        IA-17RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-18RaCtrl:CO-FibPatch:P020        IA-18RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-19RaCtrl:CO-FibPatch:P022        IA-19RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-20RaCtrl:CO-FibPatch:P026        IA-20RaBPM:TI-AMCFPGAEVR:SFP8      
+IA-20RaCtrl:CO-FibPatch:P027        IA-20RaBPMTL:TI-AMCFPGAEVR:SFP8    
+LA-RFH01RACK2:TI-EVR:OTP0           LA-MDH01RACK1:TI-OEMultPOF:IN1     
+LA-RFH01RACK2:TI-EVR:OTP1           LA-MDH01RACK2:TI-OEMultPOF:IN1     
+LA-RFH01RACK2:TI-EVR:OTP2           LA-RFH01RACK1:TI-OEMultPOF:IN1     
+LA-RFH01RACK2:TI-EVR:OTP3           LA-RFH01RACK1:TI-OEMultPOF:IN2     
+LA-RFH01RACK2:TI-EVR:OTP4           LA-RFH01RACK1:TI-OEMultPOF:IN3     
+LA-RFH01RACK2:TI-EVR:OTP5           LA-RFH01RACK2:TI-OEMultPOF:IN1     
+LA-RFH01RACK2:TI-EVR:OTP6           LA-RFH01RACK2:TI-OEMultPOF:IN2     
+LA-RFH01RACK2:TI-EVR:OTP7           LA-RFH01RACK2:TI-OEMultPOF:IN3     
+LA-RFH01RACK2:TI-EVR:OUT0           LI-IET01RACK1:TI-OEMultSFP:OE1     
+LA-RFH01RACK2:TI-EVR:OUT1           LI-IET01RACK1:TI-OEMultSFP:OE2     
+LA-BIH01RACK2:TI-EVE:OUT0           LI-RaDiag02:TI-TrigFout:TRIGINI    
+LA-BIH01RACK2:TI-EVE:OUT1           LI-RaDiag02:TI-TrigFout:TRIGINIV   
+LA-BIH01RACK2:TI-EVE:OUT2           LA-BIH01RACK2:DI-Osc:TRIGIN        
+LA-BIH01RACK2:TI-EVE:OUT3           LA-BIH01RACK2:DI-Osc:TRIGIN        
+IA-01RaInj05:TI-EVR:OTP0            IA-01RaInj01:TI-OEMultPOF:IN1      
+IA-01RaInj05:TI-EVR:OTP1            IA-01RaInj01:TI-OEMultPOF:IN2      
+IA-01RaInj05:TI-EVR:OTP2            IA-01RaInj01:TI-OEMultPOF:IN3      
+IA-01RaInj05:TI-EVR:OTP3            IA-01RaInj04:TI-OEMultPOF:IN1      
+IA-01RaInj05:TI-EVR:OTP4            IA-01RaInj04:TI-OEMultPOF:IN2      
+IA-01RaInj05:TI-EVR:OTP5            IA-01RaInj04:TI-OEMultPOF:IN3      
+IA-01RaInj05:TI-EVR:OTP6            IA-01RaInj04:TI-OEMultPOF:IN4      
+IA-01RaInj05:TI-EVR:OTP7            IA-01RaInj05:TI-OEMultPOF:IN1      
+IA-01RaInj05:TI-EVR:OTP8            IA-01RaInj05:TI-OEMultPOF:IN2      
+IA-01RaInj05:TI-EVR:OTP9            IA-01RaInj05:TI-OEMultPOF:IN3      
+IA-01RaInj05:TI-EVR:OUT0            IA-20RaInj02:TI-OEMultSFP:OE1      
+IA-01RaInj05:TI-EVR:OUT1            IA-20RaInj02:TI-OEMultSFP:OE2      
+IA-01RaInj05:TI-EVR:OUT2            IA-20RaInj03:TI-OEMultSFP:OE1      
+IA-01RaInj05:TI-EVR:OUT3            IA-20RaInj03:TI-OEMultSFP:OE2      
+IA-01RaInj05:TI-EVR:OUT4            IA-20RaInj03:TI-OEMultSFP:OE3      
+PA-RaCtrl:TI-EVR-1:OTP0             PA-RaPSE05:CO-PSCtrl-BO:TIMIN      
+PA-RaCtrl:TI-EVR-1:OTP1             PA-RaPSF05:CO-PSCtrl-BO:TIMIN      
+PA-RaCtrl:TI-EVR-1:OTP2             PA-RaPSC03:CO-PSCtrl-BO1:TIMIN     
+PA-RaCtrl:TI-EVR-1:OTP3             PA-RaPSC03:CO-PSCtrl-BO2:TIMIN     
+PA-RaCtrl:TI-EVR-1:OTP4             PA-RaPSC03:CO-PSCtrl-BO3:TIMIN     
+PA-RaCtrl:TI-EVR-1:OTP5             PA-RaPSC03:CO-PSCtrl-BO4:TIMIN     
+PA-RaCtrl:TI-EVR-2:OTP0             PA-RaPSB02:CO-PSCtrl-SI1:TIMIN     
+PA-RaCtrl:TI-EVR-2:OTP1             PA-RaPSB02:CO-PSCtrl-SI2:TIMIN     
+PA-RaCtrl:TI-EVR-2:OTP2             PA-RaPSB06:CO-PSCtrl-SI1:TIMIN     
+PA-RaCtrl:TI-EVR-2:OTP3             PA-RaPSB06:CO-PSCtrl-SI2:TIMIN     
+PA-RaCtrl:TI-EVR-2:OTP4             PA-RaPSB09:CO-PSCtrl-SI1:TIMIN     
+PA-RaCtrl:TI-EVR-2:OTP5             PA-RaPSB09:CO-PSCtrl-SI2:TIMIN     
+PA-RaCtrl:TI-EVR-2:OTP6             PA-RaPSA02:CO-PSCtrl-SI1:TIMIN     
+PA-RaCtrl:TI-EVR-2:OTP7             PA-RaPSA02:CO-PSCtrl-SI2:TIMIN     
+PA-RaCtrl:TI-EVR-2:OTP8             PA-RaPSA05:CO-PSCtrl-SI1:TIMIN     
+PA-RaCtrl:TI-EVR-2:OTP9             PA-RaPSA05:CO-PSCtrl-SI2:TIMIN     
+PA-RaCtrl:TI-EVR-2:OTP10            PA-RaPSD04:CO-PSCtrl-SI1:TIMIN     
+PA-RaCtrl:TI-EVR-2:OTP11            PA-RaPSD04:CO-PSCtrl-SI2:TIMIN     
+IA-20RaDiag01:TI-EVR:OTP0           IA-20RaDiag01:TI-OEMultPOF-1:IN1   
+IA-20RaDiag01:TI-EVR:OTP1           IA-20RaDiag01:TI-OEMultPOF-1:IN2   
+IA-20RaDiag01:TI-EVR:OTP2           IA-20RaDiag01:TI-OEMultPOF-1:IN3   
+IA-20RaDiag01:TI-EVR:OTP3           IA-20RaDiag01:TI-OEMultPOF-1:IN4   
+IA-20RaDiag01:TI-EVR:OTP4           IA-20RaDiag01:TI-OEMultPOF-2:IN1   
+IA-20RaDiag01:TI-EVR:OTP5           IA-20RaDiag01:TI-OEMultPOF-2:IN2   
+IA-20RaDiag01:TI-EVR:OTP6           IA-20RaDiag01:TI-OEMultPOF-2:IN3   
+IA-20RaDiag01:TI-EVR:OTP7           IA-20RaDiag01:TI-OEMultPOF-2:IN4   
+IA-20RaDiag01:TI-EVR:OUT0           TB-01:TI-OESglSFP-1:INRX           
+IA-20RaDiag01:TI-EVR:OUT1           TB-02:TI-OESglSFP-2:INRX           
+IA-20RaDiag01:TI-EVR:OUT2           BO-01D:TI-OESglSFP-1:INRX          
+IA-20RaDiag01:TI-EVR:OUT3           TS-01:TI-OESglSFP:INRX             
+IA-20RaDiag01:TI-EVR:OUT4           TS-04:TI-OESglSFP-1:INRX           
+IA-20RaDiag01:TI-EVR:OUT5           IA-20RaDiag02:TI-OEMultSFP:OE1     
+IA-20RaDiag01:TI-EVR:OUT6           IA-20RaDiag02:TI-OEMultSFP:OE2     
+IA-00RaCtrl:TI-EVE:OUT0             SI-Glob:DI-StrkCam:TRIG1           
+IA-00RaCtrl:TI-EVE:OUT1             SI-Glob:DI-StrkCam:TRIG2           
+IA-00RaCtrl:TI-EVE:RFOUT            SI-Glob:DI-StrkCam:RFIN            
+IA-16RaBbB:TI-EVE:OTP0              SI-Glob:DI-BbBProc-H:TRIG1         
+IA-16RaBbB:TI-EVE:OTP1              SI-Glob:DI-BbBProc-H:TRIG2         
+IA-16RaBbB:TI-EVE:OTP2              SI-Glob:DI-BbBProc-V:TRIG1         
+IA-16RaBbB:TI-EVE:OTP3              SI-Glob:DI-BbBProc-V:TRIG2         
+IA-16RaBbB:TI-EVE:OTP4              SI-Glob:DI-BbBProc-L:TRIG1         
+IA-16RaBbB:TI-EVE:OTP5              SI-Glob:DI-BbBProc-L:TRIG2         
+IA-16RaBbB:TI-EVE:OTP6              SI-Glob:DI-BbBProc-H:FID           
+IA-16RaBbB:TI-EVE:OTP7              SI-Glob:DI-BbBProc-V:FID           
+IA-16RaBbB:TI-EVE:OTP8              SI-Glob:DI-BbBProc-L:FID           
+IA-16RaBbB:TI-EVE:RFOUT             SI-Glob:DI-BbBFBE:REFERENCEIN      
+IA-18RaDiag04:TI-EVE:OUT0           BO-Glob:DI-TuneProc-H:TRIGIN       
+IA-18RaDiag04:TI-EVE:OUT1           BO-Glob:DI-TuneProc-V:TRIGIN       
+IA-14RaDiag03:TI-EVE:OUT0           BO-35D:DI-DCCTDig:TRIGIN           
+IA-14RaDiag03:TI-EVE:OUT1           SI-13SA:DI-DCCTDig:TRIGIN          
+IA-14RaDiag03:TI-EVE:OUT2           SI-14SB:DI-DCCTDig:TRIGIN          
+IA-01RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-01RaCtrl:CO-PSCtrl-BO:TIMIN     
+IA-01RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-01RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-01RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-01RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-01RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-01RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-01RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-01RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-01RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-01RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-01RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-01RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-01RaBPM:TI-AMCFPGAEVR:FMC2CH3    IA-01RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-02RaCtrl:CO-PSCtrl-BO:TIMIN     
+IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-02RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-02RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-02RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-02RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-02RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-02RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-02RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-02RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-02RaBPM:TI-AMCFPGAEVR:FMC2CH3    IA-02RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-03RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-03RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-03RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-03RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-03RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-03RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-03RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-03RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-03RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-04RaCtrl:CO-PSCtrl-BO:TIMIN     
+IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-04RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-04RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-04RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-04RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-04RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-04RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-04RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-04RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-04RaBPM:TI-AMCFPGAEVR:FMC2CH3    IA-04RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-05RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-05RaCtrl:CO-PSCtrl-BO:TIMIN     
+IA-05RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-05RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-05RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-05RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-05RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-05RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-05RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-05RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-05RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-05RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-05RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-05RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-05RaBPM:TI-AMCFPGAEVR:FMC2CH3    IA-05RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-06RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-06RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-06RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-06RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-06RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-06RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-06RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-07RaCtrl:CO-PSCtrl-BO:TIMIN     
+IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-07RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-07RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-07RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-07RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-07RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-07RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH3    IA-07RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-08RaCtrl:CO-PSCtrl-BO:TIMIN     
+IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-08RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-08RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-08RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-08RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-08RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-08RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH3    IA-08RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-09RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-09RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-09RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-09RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-09RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-09RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-09RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-09RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-09RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-09RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-09RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-09RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-09RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-09RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-10RaCtrl:CO-PSCtrl-BO:TIMIN     
+IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-10RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-10RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-10RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-10RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-10RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-10RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH3    IA-10RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-11RaCtrl:CO-PSCtrl-BO:TIMIN     
+IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-11RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-11RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-11RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-11RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-11RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-11RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH3    IA-11RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-12RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-12RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-12RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-12RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-12RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-12RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-12RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-12RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-12RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-13RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-13RaCtrl:CO-PSCtrl-BO:TIMIN     
+IA-13RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-13RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-13RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-13RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-13RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-13RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-13RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-13RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-13RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-13RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-13RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-13RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-13RaBPM:TI-AMCFPGAEVR:FMC2CH3    IA-13RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-14RaCtrl:CO-PSCtrl-BO:TIMIN     
+IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-14RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-14RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-14RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-14RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-14RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-14RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH3    IA-14RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-15RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-15RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-15RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-15RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-15RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-15RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-15RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-15RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-15RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-16RaCtrl:CO-PSCtrl-BO:TIMIN     
+IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-16RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-16RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-16RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-16RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-16RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-16RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-16RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-16RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-16RaBPM:TI-AMCFPGAEVR:FMC2CH3    IA-16RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-17RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-17RaCtrl:CO-PSCtrl-BO:TIMIN     
+IA-17RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-17RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-17RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-17RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-17RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-17RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-17RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-17RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-17RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-17RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-17RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-17RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-17RaBPM:TI-AMCFPGAEVR:FMC2CH3    IA-17RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-18RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-18RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-18RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-18RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-18RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-18RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-18RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-18RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-18RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-19RaCtrl:CO-PSCtrl-BO:TIMIN     
+IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-19RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-19RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-19RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-19RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-19RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-19RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-19RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-19RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-19RaBPM:TI-AMCFPGAEVR:FMC2CH3    IA-19RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH1    IA-20RaCtrl:CO-PSCtrl-SI1:TIMIN    
+IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH2    IA-20RaCtrl:CO-PSCtrl-SI2:TIMIN    
+IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH3    IA-20RaCtrl:CO-PSCtrl-SI3:TIMIN    
+IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH4    IA-20RaCtrl:CO-PSCtrl-SI4:TIMIN    
+IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-20RaCtrl:CO-PSCtrl-SI5:TIMIN    
+IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-20RaCtrl:CO-PSCtrl-SI6:TIMIN    
+IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-20RaCtrl:CO-PSCtrl-SI7:TIMIN    
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH1  LA-RaCtrl:CO-PSCtrl-TB1:TIMIN      
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH2  LA-RaCtrl:CO-PSCtrl-TB2:TIMIN      
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH3  LA-RaCtrl:CO-PSCtrl-TB3:TIMIN      
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH4  LA-RaCtrl:CO-PSCtrl-TS1:TIMIN      
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH5  LA-RaCtrl:CO-PSCtrl-TS2:TIMIN      
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC2CH1  LA-RaCtrl:CO-PSCtrl-TS3:TIMIN      
+IA-20RaBPMTL:TI-AMCFPGAEVR:FMC2CH2  LA-RaCtrl:CO-PSCtrl-TS4:TIMIN      
+LA-MDH01RACK1:TI-OEMultPOF:OUT1     LI-RaMD01:MD-PPS:TRIGIN            
+LA-MDH01RACK2:TI-OEMultPOF:OUT1     LI-RaMD02:MD-PPS:TRIGIN            
+LA-RFH01RACK1:TI-OEMultPOF:OUT1     LI-RaRF01:RF-LLRFProc:TRIG1        
+LA-RFH01RACK1:TI-OEMultPOF:OUT2     LI-RaRF01:RF-LLRFProc:TRIG2        
+LA-RFH01RACK1:TI-OEMultPOF:OUT3     LI-RaRF01:RF-LLRFProc:TRIG3        
+LA-RFH01RACK2:TI-OEMultPOF:OUT1     LI-RaRF02:RF-SSAmp-1:TRIG500MHZ    
+LA-RFH01RACK2:TI-OEMultPOF:OUT2     LI-RaRF02:RF-SSAmp-2:TRIG3GHZ      
+LA-RFH01RACK2:TI-OEMultPOF:OUT3     LI-RaRF02:RF-SSAmp-3:TRIG3GHZ      
+LI-IET01RACK1:TI-OEMultSFP:OUT1     LI-01:EG-EGun:SINGLEPULSEAMPLIFIER 
+LI-IET01RACK1:TI-OEMultSFP:OUT2     LI-01:EG-EGun:MULTIPULSEAMPLIFIER  
+IA-01RaInj01:TI-OEMultPOF:OUT1      BO-01D:PU-InjKckrCtrl:TRIGIN       
+IA-01RaInj01:TI-OEMultPOF:OUT2      TB-04:PU-InjSeptCtrl:TRIGIN        
+IA-01RaInj01:TI-OEMultPOF:OUT3      IA-01RaInj01:PU-Osc:CH1            
+IA-01RaInj04:TI-OEMultPOF:OUT1      TS-04:PU-InjSeptGCtrl-1:TRIGIN     
+IA-01RaInj04:TI-OEMultPOF:OUT2      TS-04:PU-InjSeptGCtrl-2:TRIGIN     
+IA-01RaInj04:TI-OEMultPOF:OUT3      TS-04:PU-InjSeptFCtrl:TRIGIN       
+IA-01RaInj04:TI-OEMultPOF:OUT4      IA-01RaInj04:PU-Osc:CH1            
+IA-01RaInj05:TI-OEMultPOF:OUT1      SI-01SA:PU-InjNLKckrCtrl:TRIGIN    
+IA-01RaInj05:TI-OEMultPOF:OUT2      SI-01SA:PU-InjDpKckrCtrl:TRIGIN    
+IA-01RaInj05:TI-OEMultPOF:OUT3      SI-01SA:PU-PingHCtrl:TRIGIN        
+IA-20RaInj02:TI-OEMultSFP:OUT1      BO-48D:PU-EjeKckrCtrl:TRIGIN       
+IA-20RaInj02:TI-OEMultSFP:OUT2      SI-19C4:PU-PingVCtrl:TRIGIN        
+IA-20RaInj03:TI-OEMultSFP:OUT1      TS-01:PU-EjeSeptGCtrl-1:TRIGIN     
+IA-20RaInj03:TI-OEMultSFP:OUT2      TS-01:PU-EjeSeptGCtrl-2:TRIGIN     
+IA-20RaInj03:TI-OEMultSFP:OUT3      IA-20RaInj03:PU-Osc:CH1            
+IA-20RaDiag01:TI-OEMultPOF-1:OUT1   TB-02:DI-ICTSigCond:TRIGIN         
+IA-20RaDiag01:TI-OEMultPOF-1:OUT2   TB-04:DI-ICTSigCond:TRIGIN         
+IA-20RaDiag01:TI-OEMultPOF-1:OUT3   TS-01:DI-ICTSigCond:TRIGIN         
+IA-20RaDiag01:TI-OEMultPOF-1:OUT4   TS-04:DI-ICTSigCond:TRIGIN         
+IA-20RaDiag01:TI-OEMultPOF-2:OUT1   TB-02:DI-ICTDig:TRIGIN             
+IA-20RaDiag01:TI-OEMultPOF-2:OUT2   TB-04:DI-ICTDig:TRIGIN             
+IA-20RaDiag01:TI-OEMultPOF-2:OUT3   TS-01:DI-ICTDig:TRIGIN             
+IA-20RaDiag01:TI-OEMultPOF-2:OUT4   TS-04:DI-ICTDig:TRIGIN             
+TB-01:TI-OESglSFP-1:OUT             TB-01:DI-ScrnCam-1:TRIGIN          
+TB-01:TI-OESglSFP-1:INTX            TB-01:TI-OESglSFP-2:INRX           
+TB-02:TI-OESglSFP-2:OUT             TB-02:DI-ScrnCam-2:TRIGIN          
+TB-02:TI-OESglSFP-2:INTX            TB-03:TI-OESglSFP:INRX             
+BO-01D:TI-OESglSFP-1:OUT            BO-01D:DI-ScrnCtrl-1:TRIGIN        
+BO-01D:TI-OESglSFP-1:INTX           BO-01D:TI-OESglSFP-2:INRX          
+TS-01:TI-OESglSFP:OUT               TS-01:DI-ScrnCam:TRIGIN            
+TS-01:TI-OESglSFP:INTX              TS-02:TI-OESglSFP:INRX             
+TS-04:TI-OESglSFP-1:OUT             TS-04:DI-ScrnCam-1:TRIGIN          
+TS-04:TI-OESglSFP-1:INTX            TS-04:TI-OESglSFP-2:INRX           
+IA-20RaDiag02:TI-OEMultSFP:OUT1     AS-Glob:DI-FCTDig:CH4              
+IA-20RaDiag02:TI-OEMultSFP:OUT2     AS-Glob:DI-FPMDig:CH4              
+TB-01:TI-OESglSFP-2:OUT             TB-01:DI-ScrnCam-2:TRIGIN          
+TB-01:TI-OESglSFP-2:INTX            TB-02:TI-OESglSFP-1:INRX           
+TB-03:TI-OESglSFP:OUT               TB-03:DI-ScrnCam:TRIGIN            
+TB-03:TI-OESglSFP:INTX              TB-04:TI-OESglSFP:INRX             
+BO-01D:TI-OESglSFP-2:OUT            BO-01D:DI-ScrnCtrl-2:TRIGIN        
+BO-01D:TI-OESglSFP-2:INTX           BO-02U:TI-OESglSFP:INRX            
+TS-02:TI-OESglSFP:OUT               TS-02:DI-ScrnCam:TRIGIN            
+TS-02:TI-OESglSFP:INTX              TS-03:TI-OESglSFP:INRX             
+TS-04:TI-OESglSFP-2:OUT             TS-04:DI-ScrnCam-2:TRIGIN          
+TS-04:TI-OESglSFP-2:INTX            TS-04:TI-OESglSFP-3:INRX           
+TB-02:TI-OESglSFP-1:OUT             TB-02:DI-ScrnCam-1:TRIGIN          
+TB-02:TI-OESglSFP-1:INTX            IA-20RaDiag01:TI-EVR:INRX          
+TB-04:TI-OESglSFP:OUT               TB-04:DI-ScrnCam:TRIGIN            
+TB-04:TI-OESglSFP:INTX              IA-20RaDiag01:TI-EVR:INRX          
+BO-02U:TI-OESglSFP:OUT              BO-02U:DI-ScrnCtrl:TRIGIN          
+BO-02U:TI-OESglSFP:INTX             IA-20RaDiag01:TI-EVR:INRX          
+TS-03:TI-OESglSFP:OUT               TS-03:DI-ScrnCam:TRIGIN            
+TS-03:TI-OESglSFP:INTX              IA-20RaDiag01:TI-EVR:INRX          
+TS-04:TI-OESglSFP-3:INTX            IA-20RaDiag01:TI-EVR:INRX          
 
-#######
-# FAKE
-AS-Glob:TI-EVR-3:OTP00             SI-Glob:CO-PSCtrl-1:TIMIN  # SI Dipole families
-AS-Glob:TI-EVR-3:OTP01             SI-Glob:CO-PSCtrl-2:TIMIN  # SI straight section quadrupole families
-AS-Glob:TI-EVR-3:OTP02             SI-Glob:CO-PSCtrl-3:TIMIN  # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
-AS-Glob:TI-EVR-3:OTP03             SI-Glob:CO-PSCtrl-4:TIMIN  # SI straight section sextupole families
-AS-Glob:TI-EVR-3:OTP04             SI-Glob:CO-PSCtrl-5:TIMIN  # SI arc sextupole families
-AS-Glob:TI-EVR-3:OTP05             SI-Glob:CO-PSCtrl-6:TIMIN  # SI Dipole families
-AS-Glob:TI-EVR-3:OTP06             SI-Glob:CO-PSCtrl-7:TIMIN  # SI straight section quadrupole families
-AS-Glob:TI-EVR-3:OTP07             SI-Glob:CO-PSCtrl-8:TIMIN  # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
-
-AS-Glob:TI-EVR-5:OTP00             SI-Glob:CO-PSCtrl-9:TIMIN  # SI Dipole families
-AS-Glob:TI-EVR-5:OTP01             SI-Glob:CO-PSCtrl-10:TIMIN  # SI straight section quadrupole families
-AS-Glob:TI-EVR-5:OTP02             SI-Glob:CO-PSCtrl-11:TIMIN  # SI Q1, Q2, Q3, Q4, QB1 and QB2 Families
-AS-Glob:TI-EVR-5:OTP03             SI-Glob:CO-PSCtrl-12:TIMIN  # SI straight section sextupole families
-AS-Glob:TI-EVR-5:OTP04             SI-Glob:CO-PSCtrl-13:TIMIN  # SI arc sextupole families
-AS-Glob:TI-EVR-5:OTP05             BO-Glob:CO-PSCtrl-1:TIMIN
-AS-Glob:TI-EVR-5:OTP06             BO-Glob:CO-PSCtrl-2:TIMIN
-AS-Glob:TI-EVR-5:OTP07             BO-Glob:CO-PSCtrl-3:TIMIN
-AS-Glob:TI-EVR-5:OTP09             BO-Glob:CO-PSCtrl-5:TIMIN
-AS-Glob:TI-EVR-5:OTP10             BO-Glob:CO-PSCtrl-6:TIMIN
-AS-Glob:TI-EVR-5:OTP11             BO-Glob:CO-PSCtrl-7:TIMIN
-########
 
 
-AS-Glob:TI-EVR-4:OUT0              AS-Glob:TI-MOE-1:INRX
-AS-Glob:TI-EVR-4:OUT1              AS-Glob:TI-MOE-4:INRX
-AS-Glob:TI-EVR-4:OUT2              AS-Glob:TI-MOE-7:INRX
-AS-Glob:TI-EVR-4:OUT3              AS-Glob:TI-MOE-10:INRX
-AS-Glob:TI-EVR-4:OUT4              AS-Glob:TI-MOE-13:INRX
-AS-Glob:TI-EVR-4:OUT5              AS-Glob:TI-STDMOE-6:OE1
-AS-Glob:TI-EVR-4:OUT6              AS-Glob:TI-STDMOE-6:OE2
-AS-Glob:TI-EVR-4:OTP00             AS-Glob:TI-STDSOE-4:IN1
-AS-Glob:TI-EVR-4:OTP01             AS-Glob:TI-STDSOE-4:IN2
-AS-Glob:TI-EVR-4:OTP02             AS-Glob:TI-STDSOE-4:IN3
-AS-Glob:TI-EVR-4:OTP03             AS-Glob:TI-STDSOE-4:IN4
-AS-Glob:TI-EVR-4:OTP00             AS-Glob:TI-STDSOE-5:IN1
-AS-Glob:TI-EVR-4:OTP01             AS-Glob:TI-STDSOE-5:IN2
-AS-Glob:TI-EVR-4:OTP02             AS-Glob:TI-STDSOE-5:IN3
-AS-Glob:TI-EVR-4:OTP03             AS-Glob:TI-STDSOE-5:IN4
 
 
-# Third Layer: from EVEs to Equipments
-AS-Glob:TI-EVE-1:RFout             LI-01:EGun-EGun:RFIN
 
-AS-Glob:TI-EVE-2:OUT0              LI-Fam:DI-BPM:IN
-AS-Glob:TI-EVE-2:OUT1              LI-Fam:DI-Scrn:IN
-AS-Glob:TI-EVE-2:OUT2              LI-01:DI-ICT-1:IN
-AS-Glob:TI-EVE-2:OUT3              LI-01:DI-ICT-2:IN
-
-AS-Glob:TI-EVE-3:RFout             SI-Glob:DI-StrkCam:RFIN
-AS-Glob:TI-EVE-3:OUT0              SI-Glob:DI-StrkCam:IN1
-AS-Glob:TI-EVE-3:OUT1              SI-Glob:DI-StrkCam:IN2
-
-AS-Glob:TI-EVE-4:RFout             SI-Glob:BbB-FBELT:RFIN
-AS-Glob:TI-EVE-4:OUT0              SI-Glob:BbB-iGp12H:FID
-AS-Glob:TI-EVE-4:OUT1              SI-Glob:BbB-iGp12V:FID
-AS-Glob:TI-EVE-4:OUT2              SI-Glob:BbB-iGp12L:FID
-
-AS-Glob:TI-EVE-5:OUT0              SI-Glob:BbB-iGp12H:TRIG1
-AS-Glob:TI-EVE-5:OUT1              SI-Glob:BbB-iGp12H:TRIG2
-AS-Glob:TI-EVE-5:OUT2              SI-Glob:BbB-iGp12V:TRIG1
-AS-Glob:TI-EVE-5:OUT3              SI-Glob:BbB-iGp12V:TRIG2
-AS-Glob:TI-EVE-5:OUT4              SI-Glob:BbB-iGp12L:TRIG1
-AS-Glob:TI-EVE-5:OUT5              SI-Glob:BbB-iGp12L:TRIG2
-
-AS-Glob:TI-EVE-6:OUT0              BO-35D:DI-NPCT:IN
-AS-Glob:TI-EVE-6:OUT1              SI-13C4:DI-NPCT:IN
-AS-Glob:TI-EVE-6:OUT2              SI-14C4:DI-NPCT:IN
-
-######Missing in Excel spreadsheet:
-AS-Glob:TI-EVE-3:OUT3                BO-04U:DI-GSL:IN
-AS-Glob:TI-EVE-3:OUT4                BO-02D:DI-TuneShkr:IN
-AS-Glob:TI-EVE-3:OUT5                BO-04D:DI-TunePkup:IN
-AS-Glob:TI-EVE-3:OUT6                SI-19SP:DI-GSL15:IN
-AS-Glob:TI-EVE-6:OUT3                SI-20SB:DI-GSL07:IN
-AS-Glob:TI-EVE-6:OUT4                SI-01SA:DI-TuneShkrH:IN
-AS-Glob:TI-EVE-6:OUT5                SI-17SA:DI-TunePkupH:IN
-AS-Glob:TI-EVE-6:OUT6                SI-18C4:DI-TuneShkrV:IN
-AS-Glob:TI-EVE-6:OUT7                SI-17C4:DI-TunePkupV:IN
-######
-
-
-# Fourth Layer: from STDMOEs to equipment
-AS-Glob:TI-STDMOE-1:OUT1           LI-01:EGun-AmpSB:IN  #MultiBunch
-AS-Glob:TI-STDMOE-1:OUT2           LI-01:EGun-AmpMB:IN  #SingleBunch
-
-AS-Glob:TI-STDMOE-2:OUT1           BO-Glob:RF-LLRF:IN
-
-AS-Glob:TI-STDMOE-3:OUT1           TS-04:PU-InjSeptG-1:IN
-AS-Glob:TI-STDMOE-3:OUT2           TS-04:PU-InjSeptG-2:IN
-AS-Glob:TI-STDMOE-3:OUT3           TS-04:PU-InjSeptF:IN
-
-AS-Glob:TI-STDMOE-4:OUT1           BO-48D:PU-EjeKckr:IN
-AS-Glob:TI-STDMOE-4:OUT2           SI-19C4:PU-PingV:IN
-
-AS-Glob:TI-STDMOE-5:OUT1           TS-01:PU-EjeSeptF:IN
-AS-Glob:TI-STDMOE-5:OUT2           TS-01:PU-EjeSeptG:IN
-
-AS-Glob:TI-STDMOE-6:OUT1           TB-04:DI-FCT:IN
-AS-Glob:TI-STDMOE-6:OUT2           TS-04:DI-FCT:IN
-
-
-# Fourth Layer: from STDSOEs to equipment
-AS-Glob:TI-STDSOE-1:OUT1           LI-01:RF-Modltr-1:IN
-AS-Glob:TI-STDSOE-1:OUT2           LI-01:RF-Modltr-2:IN
-
-AS-Glob:TI-STDSOE-2:OUT1           LI-01:RF-AmpLF:IN
-AS-Glob:TI-STDSOE-2:OUT2           LI-01:RF-AmpHF-1:IN
-AS-Glob:TI-STDSOE-2:OUT3           LI-01:RF-AmpHF-2:IN
-
-AS-Glob:TI-STDSOE-3:OUT1           LI-01:RF-LLRF-1:IN
-AS-Glob:TI-STDSOE-3:OUT2           LI-01:RF-LLRF-2:IN
-AS-Glob:TI-STDSOE-3:OUT3           LI-01:RF-LLRF-3:IN
-
-
-AS-Glob:TI-STDSOE-4:OUT1           TB-02:DI-ICTBMC:IN
-AS-Glob:TI-STDSOE-4:OUT2           TB-04:DI-ICTBMC:IN
-AS-Glob:TI-STDSOE-4:OUT3           TS-01:DI-ICTBMC:IN
-AS-Glob:TI-STDSOE-4:OUT4           TS-04:DI-ICTBMC:IN
-
-AS-Glob:TI-STDSOE-5:OUT1           TB-02:DI-ICTMult:IN
-AS-Glob:TI-STDSOE-5:OUT2           TB-04:DI-ICTMult:IN
-AS-Glob:TI-STDSOE-5:OUT3           TS-01:DI-ICTMult:IN
-AS-Glob:TI-STDSOE-5:OUT4           TS-04:DI-ICTMult:IN
-
-
-# Fourth Layer: from SOEs to equipment
-AS-Glob:TI-SOE-1:OUT                 SI-01SA:PU-InjKckr:IN
-AS-Glob:TI-SOE-2:OUT                 SI-01SA:PU-PingH:IN
-AS-Glob:TI-SOE-3:OUT                 BO-01D:PU-InjKckr:IN
-AS-Glob:TI-SOE-4:OUT                 TB-04:PU-InjSept:IN
-
-
-# Fourth Layer: from MOEs to equipment
-AS-Glob:TI-MOE-1:INTX              AS-Glob:TI-MOE-2:INRX
-AS-Glob:TI-MOE-2:INTX              AS-Glob:TI-MOE-3:INRX
-AS-Glob:TI-MOE-4:INTX              AS-Glob:TI-MOE-5:INRX
-AS-Glob:TI-MOE-5:INTX              AS-Glob:TI-MOE-6:INRX
-AS-Glob:TI-MOE-7:INTX              AS-Glob:TI-MOE-8:INRX
-AS-Glob:TI-MOE-8:INTX              AS-Glob:TI-MOE-9:INRX
-AS-Glob:TI-MOE-10:INTX             AS-Glob:TI-MOE-11:INRX
-AS-Glob:TI-MOE-11:INTX             AS-Glob:TI-MOE-12:INRX
-AS-Glob:TI-MOE-13:INTX             AS-Glob:TI-MOE-14:INRX
-AS-Glob:TI-MOE-14:INTX             AS-Glob:TI-MOE-15:INRX
-AS-Glob:TI-MOE-1:OUT               TB-01:DI-Scrn-1:IN
-AS-Glob:TI-MOE-2:OUT               TB-01:DI-Scrn-2:IN
-AS-Glob:TI-MOE-3:OUT               TB-02:DI-Scrn-1:IN
-AS-Glob:TI-MOE-4:OUT               TB-02:DI-Scrn-2:IN
-AS-Glob:TI-MOE-5:OUT               TB-03:DI-Scrn:IN
-AS-Glob:TI-MOE-6:OUT               TB-04:DI-Scrn:IN
-AS-Glob:TI-MOE-7:OUT               BO-01D:DI-Scrn-1:IN
-AS-Glob:TI-MOE-8:OUT               BO-01D:DI-Scrn-2:IN
-AS-Glob:TI-MOE-9:OUT               BO-02U:DI-Scrn:IN
-AS-Glob:TI-MOE-10:OUT              TS-01:DI-Scrn:IN
-AS-Glob:TI-MOE-11:OUT              TS-02:DI-Scrn:IN
-AS-Glob:TI-MOE-12:OUT              TS-03:DI-Scrn:IN
-AS-Glob:TI-MOE-13:OUT              TS-04:DI-Scrn-1:IN
-AS-Glob:TI-MOE-14:OUT              TS-04:DI-Scrn-2:IN
-AS-Glob:TI-MOE-15:OUT              TS-04:DI-Scrn-3:IN
-
-
-##AMCFPGAEVR from Sector 01
-IA-01RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-01:CO-PSCtrl-1:TIMIN  # QFA ,QDA
-IA-01RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-01:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-01RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-01:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-01RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-01:CO-PSCtrl-5:TIMIN  # correctors
-IA-01RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-01:CO-PSCtrl-6:TIMIN  # correctors
-IA-01RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-01:CO-PSCtrl-7:TIMIN  # correctors
-IA-01RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-01:CO-PSCtrl-8:TIMIN  # correctors
-IA-01RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-01:CO-PSCtrl-9:TIMIN  # skew quad
-IA-01RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-01:CO-PSCtrl-10:TIMIN # skew quad
-IA-01RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-01:CO-PSCtrl-1:TIMIN  # BO correctors
-IA-01RaBPM:TI-AMCFPGAEVR:FMC3CH2              BO-01:CO-PSCtrl-2:TIMIN  # BO correctors
-
-##AMCFPGAEVR from Sector 02
-IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-02:CO-PSCtrl-1:TIMIN  # QFB, QDB1, QDB2
-IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-02:CO-PSCtrl-2:TIMIN  # QFB, QDB1, QDB2
-IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-02:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-02:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-02RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-02:CO-PSCtrl-5:TIMIN  # correctors
-IA-02RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-02:CO-PSCtrl-6:TIMIN  # correctors
-IA-02RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-02:CO-PSCtrl-7:TIMIN  # correctors
-IA-02RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-02:CO-PSCtrl-8:TIMIN  # correctors
-IA-02RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-02:CO-PSCtrl-9:TIMIN  # skew quad
-IA-02RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-02:CO-PSCtrl-10:TIMIN # skew quad
-
-##AMCFPGAEVR from Sector 03
-IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-03:CO-PSCtrl-1:TIMIN  # QFP, QDP1, QDP2
-IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-03:CO-PSCtrl-2:TIMIN  # QFP, QDP1, QDP2
-IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-03:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-03:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-03RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-03:CO-PSCtrl-5:TIMIN  # correctors
-IA-03RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-03:CO-PSCtrl-6:TIMIN  # correctors
-IA-03RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-03:CO-PSCtrl-7:TIMIN  # correctors
-IA-03RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-03:CO-PSCtrl-8:TIMIN  # correctors
-IA-03RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-03:CO-PSCtrl-9:TIMIN  # skew quad
-IA-03RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-03:CO-PSCtrl-10:TIMIN # skew quad
-IA-03RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-03:CO-PSCtrl:TIMIN  # BO correctors
-
-##AMCFPGAEVR from Sector 04
-IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-04:CO-PSCtrl-1:TIMIN  # QFB, QDB1, QDB2
-IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-04:CO-PSCtrl-2:TIMIN  # QFB, QDB1, QDB2
-IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-04:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-04:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-04RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-04:CO-PSCtrl-5:TIMIN  # correctors
-IA-04RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-04:CO-PSCtrl-6:TIMIN  # correctors
-IA-04RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-04:CO-PSCtrl-7:TIMIN  # correctors
-IA-04RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-04:CO-PSCtrl-8:TIMIN  # correctors
-IA-04RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-04:CO-PSCtrl-9:TIMIN  # skew quad
-IA-04RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-04:CO-PSCtrl-10:TIMIN # skew quad
-
-##AMCFPGAEVR from Sector 05
-IA-05RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-05:CO-PSCtrl-1:TIMIN  # QFA ,QDA
-IA-05RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-05:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-05RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-05:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-05RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-05:CO-PSCtrl-5:TIMIN  # correctors
-IA-05RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-05:CO-PSCtrl-6:TIMIN  # correctors
-IA-05RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-05:CO-PSCtrl-7:TIMIN  # correctors
-IA-05RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-05:CO-PSCtrl-8:TIMIN  # correctors
-IA-05RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-05:CO-PSCtrl-9:TIMIN  # skew quad
-IA-05RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-05:CO-PSCtrl-10:TIMIN # skew quad
-IA-05RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-05:CO-PSCtrl:TIMIN  # BO correctors
-
-##AMCFPGAEVR from Sector 06
-IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-06:CO-PSCtrl-1:TIMIN  # QFB, QDB1, QDB2
-IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-06:CO-PSCtrl-2:TIMIN  # QFB, QDB1, QDB2
-IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-06:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-06:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-06RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-06:CO-PSCtrl-5:TIMIN  # correctors
-IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-06:CO-PSCtrl-6:TIMIN  # correctors
-IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-06:CO-PSCtrl-7:TIMIN  # correctors
-IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-06:CO-PSCtrl-8:TIMIN  # correctors
-IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-06:CO-PSCtrl-9:TIMIN  # skew quad
-IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-06:CO-PSCtrl-10:TIMIN # skew quad
-
-##AMCFPGAEVR from Sector 07
-IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-07:CO-PSCtrl-1:TIMIN  # QFP, QDP1, QDP2
-IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-07:CO-PSCtrl-2:TIMIN  # QFP, QDP1, QDP2
-IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-07:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-07:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-07RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-07:CO-PSCtrl-5:TIMIN  # correctors
-IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-07:CO-PSCtrl-6:TIMIN  # correctors
-IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-07:CO-PSCtrl-7:TIMIN  # correctors
-IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-07:CO-PSCtrl-8:TIMIN  # correctors
-IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-07:CO-PSCtrl-9:TIMIN  # skew quad
-IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-07:CO-PSCtrl-10:TIMIN # skew quad
-IA-07RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-07:CO-PSCtrl:TIMIN  # BO correctors
-
-##AMCFPGAEVR from Sector 08
-IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-08:CO-PSCtrl-1:TIMIN  # QFB, QDB1, QDB2
-IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-08:CO-PSCtrl-2:TIMIN  # QFB, QDB1, QDB2
-IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-08:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-08:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-08RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-08:CO-PSCtrl-5:TIMIN  # correctors
-IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-08:CO-PSCtrl-6:TIMIN  # correctors
-IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-08:CO-PSCtrl-7:TIMIN  # correctors
-IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-08:CO-PSCtrl-8:TIMIN  # correctors
-IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-08:CO-PSCtrl-9:TIMIN  # skew quad
-IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-08:CO-PSCtrl-10:TIMIN # skew quad
-IA-08RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-08:CO-PSCtrl:TIMIN  # BO correctors
-
-##AMCFPGAEVR from Sector 09
-IA-09RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-09:CO-PSCtrl-1:TIMIN  # QFA ,QDA
-IA-09RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-09:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-09RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-09:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-09RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-09:CO-PSCtrl-5:TIMIN  # correctors
-IA-09RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-09:CO-PSCtrl-6:TIMIN  # correctors
-IA-09RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-09:CO-PSCtrl-7:TIMIN  # correctors
-IA-09RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-09:CO-PSCtrl-8:TIMIN  # correctors
-IA-09RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-09:CO-PSCtrl-9:TIMIN  # skew quad
-IA-09RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-09:CO-PSCtrl-10:TIMIN # skew quad
-IA-09RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-09:CO-PSCtrl:TIMIN    # BO correctors
-
-##AMCFPGAEVR from Sector 10
-IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-10:CO-PSCtrl-1:TIMIN  # QFB, QDB1, QDB2
-IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-10:CO-PSCtrl-2:TIMIN  # QFB, QDB1, QDB2
-IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-10:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-10:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-10RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-10:CO-PSCtrl-5:TIMIN  # correctors
-IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-10:CO-PSCtrl-6:TIMIN  # correctors
-IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-10:CO-PSCtrl-7:TIMIN  # correctors
-IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-10:CO-PSCtrl-8:TIMIN  # correctors
-IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-10:CO-PSCtrl-9:TIMIN  # skew quad
-IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-10:CO-PSCtrl-10:TIMIN # skew quad
-
-##AMCFPGAEVR from Sector 11
-IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-11:CO-PSCtrl-1:TIMIN  # QFP, QDP1, QDP2
-IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-11:CO-PSCtrl-2:TIMIN  # QFP, QDP1, QDP2
-IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-11:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-11:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-11RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-11:CO-PSCtrl-5:TIMIN  # correctors
-IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-11:CO-PSCtrl-6:TIMIN  # correctors
-IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-11:CO-PSCtrl-7:TIMIN  # correctors
-IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-11:CO-PSCtrl-8:TIMIN  # correctors
-IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-11:CO-PSCtrl-9:TIMIN  # skew quad
-IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-11:CO-PSCtrl-10:TIMIN # skew quad
-IA-11RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-11:CO-PSCtrl:TIMIN  # BO correctors
-
-##AMCFPGAEVR from Sector 12
-IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-12:CO-PSCtrl-1:TIMIN  # QFB, QDB1, QDB2
-IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-12:CO-PSCtrl-2:TIMIN  # QFB, QDB1, QDB2
-IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-12:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-12:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-12RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-12:CO-PSCtrl-5:TIMIN  # correctors
-IA-12RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-12:CO-PSCtrl-6:TIMIN  # correctors
-IA-12RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-12:CO-PSCtrl-7:TIMIN  # correctors
-IA-12RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-12:CO-PSCtrl-8:TIMIN  # correctors
-IA-12RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-12:CO-PSCtrl-9:TIMIN  # skew quad
-IA-12RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-12:CO-PSCtrl-10:TIMIN # skew quad
-
-##AMCFPGAEVR from Sector 13
-IA-13RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-13:CO-PSCtrl-1:TIMIN  # QFA ,QDA
-IA-13RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-13:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-13RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-13:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-13RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-13:CO-PSCtrl-5:TIMIN  # correctors
-IA-13RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-13:CO-PSCtrl-6:TIMIN  # correctors
-IA-13RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-13:CO-PSCtrl-7:TIMIN  # correctors
-IA-13RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-13:CO-PSCtrl-8:TIMIN  # correctors
-IA-13RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-13:CO-PSCtrl-9:TIMIN  # skew quad
-IA-13RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-13:CO-PSCtrl-10:TIMIN # skew quad
-IA-13RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-13:CO-PSCtrl:TIMIN    # BO correctors
-
-##AMCFPGAEVR from Sector 14
-IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-14:CO-PSCtrl-1:TIMIN  # QFB, QDB1, QDB2
-IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-14:CO-PSCtrl-2:TIMIN  # QFB, QDB1, QDB2
-IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-14:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-14:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-14RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-14:CO-PSCtrl-5:TIMIN  # correctors
-IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-14:CO-PSCtrl-6:TIMIN  # correctors
-IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-14:CO-PSCtrl-7:TIMIN  # correctors
-IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-14:CO-PSCtrl-8:TIMIN  # correctors
-IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-14:CO-PSCtrl-9:TIMIN  # skew quad
-IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-14:CO-PSCtrl-10:TIMIN # skew quad
-IA-14RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-14:CO-PSCtrl:TIMIN  # BO correctors
-
-##AMCFPGAEVR from Sector 15
-IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-15:CO-PSCtrl-1:TIMIN  # QFP, QDP1, QDP2
-IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-15:CO-PSCtrl-2:TIMIN  # QFP, QDP1, QDP2
-IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-15:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-15:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-15RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-15:CO-PSCtrl-5:TIMIN  # correctors
-IA-15RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-15:CO-PSCtrl-6:TIMIN  # correctors
-IA-15RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-15:CO-PSCtrl-7:TIMIN  # correctors
-IA-15RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-15:CO-PSCtrl-8:TIMIN  # correctors
-IA-15RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-15:CO-PSCtrl-9:TIMIN  # skew quad
-IA-15RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-15:CO-PSCtrl-10:TIMIN # skew quad
-
-##AMCFPGAEVR from Sector 16
-IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-16:CO-PSCtrl-1:TIMIN  # QFB, QDB1, QDB2
-IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-16:CO-PSCtrl-2:TIMIN  # QFB, QDB1, QDB2
-IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-16:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-16:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-16RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-16:CO-PSCtrl-5:TIMIN  # correctors
-IA-16RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-16:CO-PSCtrl-6:TIMIN  # correctors
-IA-16RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-16:CO-PSCtrl-7:TIMIN  # correctors
-IA-16RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-16:CO-PSCtrl-8:TIMIN  # correctors
-IA-16RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-16:CO-PSCtrl-9:TIMIN  # skew quad
-IA-16RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-16:CO-PSCtrl-10:TIMIN # skew quad
-IA-16RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-16:CO-PSCtrl:TIMIN  # BO correctors
-
-##AMCFPGAEVR from Sector 17
-IA-17RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-17:CO-PSCtrl-1:TIMIN  # QFA ,QDA
-IA-17RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-17:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-17RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-17:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-17RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-17:CO-PSCtrl-5:TIMIN  # correctors
-IA-17RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-17:CO-PSCtrl-6:TIMIN  # correctors
-IA-17RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-17:CO-PSCtrl-7:TIMIN  # correctors
-IA-17RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-17:CO-PSCtrl-8:TIMIN  # correctors
-IA-17RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-17:CO-PSCtrl-9:TIMIN  # skew quad
-IA-17RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-17:CO-PSCtrl-10:TIMIN # skew quad
-IA-17RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-17:CO-PSCtrl:TIMIN    # BO correctors
-
-##AMCFPGAEVR from Sector 18
-IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-18:CO-PSCtrl-1:TIMIN  # QFB, QDB1, QDB2
-IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-18:CO-PSCtrl-2:TIMIN  # QFB, QDB1, QDB2
-IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-18:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-18:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-18RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-18:CO-PSCtrl-5:TIMIN  # correctors
-IA-18RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-18:CO-PSCtrl-6:TIMIN  # correctors
-IA-18RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-18:CO-PSCtrl-7:TIMIN  # correctors
-IA-18RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-18:CO-PSCtrl-8:TIMIN  # correctors
-IA-18RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-18:CO-PSCtrl-9:TIMIN  # skew quad
-IA-18RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-18:CO-PSCtrl-10:TIMIN # skew quad
-
-##AMCFPGAEVR from Sector 19
-IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-19:CO-PSCtrl-1:TIMIN  # QFP, QDP1, QDP2
-IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-19:CO-PSCtrl-2:TIMIN  # QFP, QDP1, QDP2
-IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-19:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-19:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-19RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-19:CO-PSCtrl-5:TIMIN  # correctors
-IA-19RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-19:CO-PSCtrl-6:TIMIN  # correctors
-IA-19RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-19:CO-PSCtrl-7:TIMIN  # correctors
-IA-19RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-19:CO-PSCtrl-8:TIMIN  # correctors
-IA-19RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-19:CO-PSCtrl-9:TIMIN  # skew quad
-IA-19RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-19:CO-PSCtrl-10:TIMIN # skew quad
-IA-19RaBPM:TI-AMCFPGAEVR:FMC3CH1              BO-19:CO-PSCtrl:TIMIN  # BO correctors
-
-##AMCFPGAEVR from Sector 20
-IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH1              SI-20:CO-PSCtrl-1:TIMIN  # QFB, QDB1, QDB2
-IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH2              SI-20:CO-PSCtrl-2:TIMIN  # QFB, QDB1, QDB2
-IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH3              SI-20:CO-PSCtrl-3:TIMIN  # Q1, ..., Q4
-IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH4              SI-20:CO-PSCtrl-4:TIMIN  # Q1, ..., Q4
-IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH5              SI-20:CO-PSCtrl-5:TIMIN  # correctors
-IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH1              SI-20:CO-PSCtrl-6:TIMIN  # correctors
-IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH2              SI-20:CO-PSCtrl-7:TIMIN  # correctors
-IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH3              SI-20:CO-PSCtrl-8:TIMIN  # correctors
-IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH4              SI-20:CO-PSCtrl-9:TIMIN  # skew quad
-IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH5              SI-20:CO-PSCtrl-10:TIMIN # skew quad
-
-##AMCFPGAEVR from Sector 20 Transport Lines
-IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH1              TL-20:CO-PSCtrl-1:TIMIN  # not sure yet
-IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH2              TL-20:CO-PSCtrl-2:TIMIN  # not sure yet
-IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH3              TL-20:CO-PSCtrl-3:TIMIN  # not sure yet
-IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH4              TL-20:CO-PSCtrl-4:TIMIN  # not sure yet
-IA-20RaBPMTL:TI-AMCFPGAEVR:FMC1CH5              TL-20:CO-PSCtrl-5:TIMIN  # not sure yet
-IA-20RaBPMTL:TI-AMCFPGAEVR:FMC2CH1              TL-20:CO-PSCtrl-6:TIMIN  # not sure yet
-IA-20RaBPMTL:TI-AMCFPGAEVR:FMC2CH2              TL-20:CO-PSCtrl-7:TIMIN  # not sure yet
-IA-20RaBPMTL:TI-AMCFPGAEVR:FMC2CH3              TL-20:CO-PSCtrl-8:TIMIN  # not sure yet
-IA-20RaBPMTL:TI-AMCFPGAEVR:FMC2CH4              TL-20:CO-PSCtrl-9:TIMIN  # not sure yet
-IA-20RaBPMTL:TI-AMCFPGAEVR:FMC2CH5              TL-20:CO-PSCtrl-10:TIMIN # not sure yet
+# CONNECTIONS NOT USED
+# 52
+# IA-14RaDiag03:TI-EVE:IN2            SI-13SA:DI-DCCTDig:TRIGOUT         
+# IA-14RaDiag03:TI-EVE:IN1            SI-14SB:DI-DCCTDig:TRIGOUT         
+# RA-RaMO:TI-OERFTx:OPTICALACP        LI-IET01RACK1:TI-OERFRx:OPTICALACP 
+# CA-RaCtrl:CO-FibPatch:P042          IA-01RaCtrl:CO-FibPatch:P042       
+# CA-RaCtrl:CO-FibPatch:P044          RA-RaSIA01:CO-FibPatch:P044        
+# CA-RaCtrl:CO-FibPatch:P045          RA-RaSIB01:CO-FibPatch:P045        
+# CA-RaCtrl:CO-FibPatch:P052B         IA-10RaCtrl:CO-FibPatch:P052B      
+# CA-RaCtrl:CO-FibPatch:P053          IA-11RaCtrl:CO-FibPatch:P053       
+# CA-RaCtrl:CO-FibPatch:P054          IA-12RaCtrl:CO-FibPatch:P054       
+# CA-RaCtrl:CO-FibPatch:P055          IA-13RaCtrl:CO-FibPatch:P055       
+# CA-RaCtrl:CO-FibPatch:P056          IA-14RaCtrl:CO-FibPatch:P056       
+# CA-RaCtrl:CO-FibPatch:P057          IA-15RaCtrl:CO-FibPatch:P057       
+# CA-RaCtrl:CO-FibPatch:P058          IA-16RaCtrl:CO-FibPatch:P058       
+# CA-RaCtrl:CO-FibPatch:P059          IA-17RaCtrl:CO-FibPatch:P059       
+# CA-RaCtrl:CO-FibPatch:P060          IA-18RaCtrl:CO-FibPatch:P060       
+# CA-RaCtrl:CO-FibPatch:P061          IA-19RaCtrl:CO-FibPatch:P061       
+# CA-RaCtrl:CO-FibPatch:P062          IA-02RaCtrl:CO-FibPatch:P062       
+# CA-RaCtrl:CO-FibPatch:P063          IA-20RaCtrl:CO-FibPatch:P063       
+# CA-RaCtrl:CO-FibPatch:P064          IA-03RaCtrl:CO-FibPatch:P064       
+# CA-RaCtrl:CO-FibPatch:P065          IA-04RaCtrl:CO-FibPatch:P065       
+# CA-RaCtrl:CO-FibPatch:P066          IA-05RaCtrl:CO-FibPatch:P066       
+# CA-RaCtrl:CO-FibPatch:P067          IA-06RaCtrl:CO-FibPatch:P067       
+# CA-RaCtrl:CO-FibPatch:P068          IA-07RaCtrl:CO-FibPatch:P068       
+# CA-RaCtrl:CO-FibPatch:P069          IA-08RaCtrl:CO-FibPatch:P069       
+# CA-RaCtrl:CO-FibPatch:P070          IA-09RaCtrl:CO-FibPatch:P070       
+# CA-RaCtrl:CO-FibPatch:P071          RA-RaBO01:CO-FibPatch:P071         
+# IA-01RaCtrl:CO-FibPatch:P001        IA-02RaCtrl:CO-FibPatch:P001       
+# IA-02RaCtrl:CO-FibPatch:P023        IA-03RaCtrl:CO-FibPatch:P023       
+# IA-03RaCtrl:CO-FibPatch:P028        IA-04RaCtrl:CO-FibPatch:P028       
+# IA-04RaCtrl:CO-FibPatch:P030        IA-05RaCtrl:CO-FibPatch:P030       
+# IA-05RaCtrl:CO-FibPatch:P032        IA-06RaCtrl:CO-FibPatch:P032       
+# IA-06RaCtrl:CO-FibPatch:P034        IA-07RaCtrl:CO-FibPatch:P034       
+# IA-07RaCtrl:CO-FibPatch:P036        IA-08RaCtrl:CO-FibPatch:P036       
+# IA-08RaCtrl:CO-FibPatch:P038        IA-09RaCtrl:CO-FibPatch:P038       
+# IA-09RaCtrl:CO-FibPatch:P040        IA-10RaCtrl:CO-FibPatch:P040       
+# IA-10RaCtrl:CO-FibPatch:P003        IA-11RaCtrl:CO-FibPatch:P003       
+# IA-11RaCtrl:CO-FibPatch:P005        IA-12RaCtrl:CO-FibPatch:P005       
+# IA-12RaCtrl:CO-FibPatch:P007        IA-13RaCtrl:CO-FibPatch:P007       
+# IA-13RaCtrl:CO-FibPatch:P009        IA-14RaCtrl:CO-FibPatch:P009       
+# IA-14RaCtrl:CO-FibPatch:P011        IA-15RaCtrl:CO-FibPatch:P011       
+# IA-15RaCtrl:CO-FibPatch:P013        IA-16RaCtrl:CO-FibPatch:P013       
+# IA-16RaCtrl:CO-FibPatch:P015        IA-17RaCtrl:CO-FibPatch:P015       
+# IA-17RaCtrl:CO-FibPatch:P017        IA-18RaCtrl:CO-FibPatch:P017       
+# IA-18RaCtrl:CO-FibPatch:P019        IA-19RaCtrl:CO-FibPatch:P019       
+# IA-19RaCtrl:CO-FibPatch:P021        IA-20RaCtrl:CO-FibPatch:P021       
+# IA-20RaCtrl:CO-FibPatch:P025        IA-01RaCtrl:CO-FibPatch:P025       
+# LI-IET01RACK1:TI-OERFRx:SIGNAL      LI-01:EG-EGun:RFIN                 
+# RA-RaMO:RF-MODistrib:RFOUT          RA-RaMO:TI-OERFTx:SIGNAL           
+# RA-RaMO:RF-MODistrib:RFOUT          RA-RaMO:TI-EVG:RFIN                
+# RA-RaBO01:TI-EVE:IN0                RA-RaBO01:RF-DigPatch:FALHADERF    
+# RA-RaSIA01:TI-EVE:IN0               RA-RaSIA01:RF-DigPatch:FALHADERF   
+# RA-RaSIB01:TI-EVE:IN0               RA-RaSIB01:RF-DigPatch:FALHADERF   
