@@ -4,7 +4,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'OrbSI', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -198,7 +198,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'TunSI', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -398,7 +398,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'CplSI', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -532,7 +532,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -549,7 +549,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -576,7 +576,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('RmpBO', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {
@@ -596,7 +596,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('RmpBO', 'OrbBO', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {
@@ -638,7 +638,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 1, 'states': (1, 0)},
+            'RFDelayType': {'value': 1, 'states': (1, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15, 'lolim': 0.008, 'low': 0.008, 'lolo': 0.008,
@@ -653,7 +653,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 1, 'states': (1, 0)},
+            'RFDelayType': {'value': 1, 'states': (1, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -669,7 +669,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -685,7 +685,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -701,7 +701,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -717,7 +717,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -733,7 +733,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -749,7 +749,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -765,7 +765,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -781,7 +781,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -797,7 +797,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -813,7 +813,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -829,7 +829,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjBO', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -845,7 +845,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjBO', 'RmpBO', 'Study', 'PsMtm')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -861,7 +861,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -877,7 +877,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -896,7 +896,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -915,7 +915,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -931,7 +931,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -947,7 +947,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -963,7 +963,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
                 'value': 0.15,
@@ -979,7 +979,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
                 'value': 0.15,
@@ -995,7 +995,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1014,7 +1014,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'Study', 'PsMtm')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1034,7 +1034,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigLI', 'Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1053,7 +1053,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigLI', 'Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1069,7 +1069,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigLI', 'Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1085,7 +1085,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTB', 'InjBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1108,7 +1108,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTB', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1127,7 +1127,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTB', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1146,7 +1146,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1166,7 +1166,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
                 'value': 0.15,
@@ -1185,7 +1185,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1201,7 +1201,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTS', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1226,7 +1226,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTS', 'InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1245,7 +1245,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTS', 'InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1264,7 +1264,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1280,7 +1280,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1296,7 +1296,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1312,7 +1312,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1328,7 +1328,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1344,7 +1344,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1360,7 +1360,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1376,7 +1376,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1392,7 +1392,7 @@
         'database': {
             'Src': {'value': 7, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1408,7 +1408,7 @@
         'database': {
             'Src': {'value': 7, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1424,7 +1424,7 @@
         'database': {
             'Src': {'value': 7, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1440,7 +1440,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'PsMtm', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1456,7 +1456,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'PsMtm', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1477,7 +1477,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTB', 'DigTS', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 2, 'hilim': 3, 'high': 3, 'hihi': 3},
             'Duration': {
                 'value': 0.35,
@@ -1493,7 +1493,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTS', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1509,7 +1509,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTB', 'DigTS', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
                 'value': 0.15,
@@ -1533,7 +1533,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigBO', 'DigSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
                 'value': 0.15,
