@@ -77,8 +77,8 @@ TS-04:PS-CH                   FBP
 TS-04:PS-CV-1                 FBP
 TS-04:PS-CV-2                 FBP
 
-AS-Glob:PS-DCLinkFBP-1        FBP_DCLink
-TB-Glob:PS-DCLinkFBP          FBP_DCLink
+LA-RaPS06:PS-DCLink-AS1       FBP_DCLink
+LA-RaPS06:PS-DCLink-AS2       FBP_DCLink
 
 TS-01:PS-QF1A                 FAP
 TS-01:PS-QF1B                 FAP
@@ -146,11 +146,46 @@ BO-49U:PS-CV                  FBP
 
 BO-02D:PS-QS	                FBP
 
-LA-RaPS06:PS-DCLink-AS1       FBP_DCLink
-LA-RaPS06:PS-DCLink-AS2       FBP_DCLink
-
-
-
+IA-01RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-01RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-02RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-02RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-03RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-03RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-04RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-04RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-05RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-05RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-06RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-06RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-07RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-07RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-08RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-08RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-09RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-09RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-10RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-10RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-11RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-11RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-12RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-12RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-13RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-13RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-14RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-14RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-15RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-15RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-16RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-16RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-17RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-17RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-18RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-18RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-19RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-19RaCtrl:PS-DCLink-AS2     FBP_DCLink
+IA-20RaCtrl:PS-DCLink-AS1     FBP_DCLink
+IA-20RaCtrl:PS-DCLink-AS2     FBP_DCLink
 
 
 # --- Sirius Dipoles
