@@ -841,9 +841,9 @@
             },
         'channels': ('RA-RaBO01:RF-DigPatch:RAMPA', ),
         },
-    'BO-Glob:TI-LLRF-PsMtm': {
+    'BO-Glob:TI-LLRF-PsMtn': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', 'RmpBO', 'Study', 'PsMtm')},
+            'Src': {'value': 0, 'enums': ('InjBO', 'RmpBO', 'Study', 'PsMtn')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -855,7 +855,7 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('RA-RaBO01:RF-DigPatch:POSTMORTEM', ),
+        'channels': ('RA-RaBO01:RF-DigPatch:POSTMORTEN', ),
         },
     'BO-48D:TI-EjeKckr': {
         'database': {
@@ -1010,9 +1010,9 @@
             'RA-RaSIB01:RF-DigPatch:RAMPA',
             ),
         },
-    'SI-Glob:TI-LLRF-PsMtm': {
+    'SI-Glob:TI-LLRF-PsMtn': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', 'Study', 'PsMtm')},
+            'Src': {'value': 0, 'enums': ('InjSI', 'Study', 'PsMtn')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1025,8 +1025,8 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
-            'RA-RaSIA01:RF-DigPatch:POSTMORTEM',
-            'RA-RaSIB01:RF-DigPatch:POSTMORTEM',
+            'RA-RaSIA01:RF-DigPatch:POSTMORTEN',
+            'RA-RaSIB01:RF-DigPatch:POSTMORTEN',
             ),
         },
     # #### DIAGNOSTICS ######
@@ -1157,9 +1157,9 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
-            'BO-01D:DI-ScrnCtrl-1:TRIGIN',
-            'BO-01D:DI-ScrnCtrl-2:TRIGIN',
-            'BO-02U:DI-ScrnCtrl:TRIGIN',
+            'BO-01D:DI-ScrnCam-1:TRIGIN',
+            'BO-01D:DI-ScrnCam-2:TRIGIN',
+            'BO-02U:DI-ScrnCam:TRIGIN',
             ),
         },
     'BO-Glob:TI-TuneProc': {
@@ -1438,7 +1438,7 @@
         },
     'SI-13C4:TI-DCCT': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'PsMtm', 'Study')},
+            'Src': {'value': 0, 'enums': ('DigSI', 'PsMtn', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1454,7 +1454,7 @@
         },
     'SI-14C4:TI-DCCT': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'PsMtm', 'Study')},
+            'Src': {'value': 0, 'enums': ('DigSI', 'PsMtn', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
