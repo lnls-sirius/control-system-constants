@@ -1,10 +1,10 @@
 # This is a python3 file.
 {
-    'SI-Glob:TI-Corrs:': {
+    'SI-Glob:TI-Corrs': {
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'OrbSI', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -194,11 +194,11 @@
             'SI-20C4:PS-CH:RS485',    'SI-20C4:PS-CV:RS485',
             ),
         },
-    'SI-Glob:TI-Quads:': {
+    'SI-Glob:TI-Quads': {
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'TunSI', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -394,11 +394,11 @@
             'SI-20M2:PS-QDB2:RS485',
             ),
         },
-    'SI-Glob:TI-Skews:': {
+    'SI-Glob:TI-Skews': {
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'CplSI', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -528,11 +528,11 @@
             'SI-20C3:PS-QS:RS485',
             ),
         },
-    'SI-Glob:TI-Dips:': {
+    'SI-Glob:TI-Dips': {
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -545,11 +545,11 @@
             'SI-Fam:PS-B1B2-2:RS485',
             ),
         },
-    'SI-Glob:TI-Sexts:': {
+    'SI-Glob:TI-Sexts': {
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -572,11 +572,11 @@
             'SI-Fam:PS-SDP2:RS485',    'SI-Fam:PS-SDP3:RS485',
             ),
         },
-    'BO-Glob:TI-Mags:': {
+    'BO-Glob:TI-Mags': {
         'database': {
             'Src': {'value': 0, 'enums': ('RmpBO', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {
@@ -590,14 +590,13 @@
             'BO-Fam:PS-B-1:RS485',    'BO-Fam:PS-B-2:RS485',
             'BO-Fam:PS-QF:RS485',     'BO-Fam:PS-QD:RS485',
             'BO-Fam:PS-SF:RS485',     'BO-Fam:PS-SD:RS485',
-            'BO-02D:PS-QS:RS485',
             ),
         },
-    'BO-Glob:TI-Corrs:': {
+    'BO-Glob:TI-Corrs': {
         'database': {
             'Src': {'value': 0, 'enums': ('RmpBO', 'OrbBO', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {
@@ -608,6 +607,7 @@
             },
         'channels': (
             'BO-01U:PS-CH:RS485', 'BO-01U:PS-CV:RS485',
+            'BO-02D:PS-QS:RS485',
             'BO-03U:PS-CH:RS485', 'BO-03U:PS-CV:RS485',
             'BO-05U:PS-CH:RS485', 'BO-05U:PS-CV:RS485',
             'BO-07U:PS-CH:RS485', 'BO-07U:PS-CV:RS485',
@@ -634,11 +634,11 @@
             'BO-49D:PS-CH:RS485', 'BO-49U:PS-CV:RS485',
             ),
         },
-    'LI-01:TI-EGunMultBun': {
+    'LI-01:TI-EGun-MultBun': {
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 1, 'states': (1, 0)},
+            'RFDelayType': {'value': 1, 'states': (1, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15, 'lolim': 0.008, 'low': 0.008, 'lolo': 0.008,
@@ -647,13 +647,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-01:EGun-AmpMB:IN', ),
+        'channels': ('LI-01:EG-EGun:MULTIPULSEAMPLIFIER', ),
         },
-    'LI-01:TI-EGunSglBun': {
+    'LI-01:TI-EGun-SglBun': {
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 1, 'states': (1, 0)},
+            'RFDelayType': {'value': 1, 'states': (1, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -663,13 +663,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-01:EGun-AmpSB:IN', ),
+        'channels': ('LI-01:EG-EGun:SINGLEPULSEAMPLIFIER', ),
         },
-    'LI-01:TI-Modltr-1:': {
+    'LI-01:TI-Modltr-1': {
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -679,13 +679,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-01:RF-Modltr-1:IN', ),
+        'channels': ('LI-RaMD01:MD-PPS:TRIGIN', ),
         },
-    'LI-01:TI-Modltr-2:': {
+    'LI-01:TI-Modltr-2': {
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -695,13 +695,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-01:RF-Modltr-2:IN', ),
+        'channels': ('LI-RaMD02:MD-PPS:TRIGIN', ),
         },
-    'LI-Glob:TI-SHAmp:': {
+    'LI-Glob:TI-SSAmp-SHB': {
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -711,13 +711,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-01:RF-AmpLF:IN', ),
+        'channels': ('LI-RaRF02:RF-SSAmp-1:TRIG500MHZ', ),
         },
-    'LI-Glob:TI-RFAmp-1:': {
+    'LI-Glob:TI-SSAmp-Kly1': {
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -727,13 +727,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-01:RF-AmpHF-1:IN', ),
+        'channels': ('LI-RaRF02:RF-SSAmp-2:TRIG3GHZ', ),
         },
-    'LI-Glob:TI-RFAmp-2:': {
+    'LI-Glob:TI-SSAmp-Kly2': {
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -743,13 +743,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-01:RF-AmpHF-2:IN', ),
+        'channels': ('LI-RaRF02:RF-SSAmp-2:TRIG3GHZ', ),
         },
-    'LI-Glob:TI-LLRF-1:': {
+    'LI-Glob:TI-LLRF-SHB': {
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -759,13 +759,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-01:RF-LLRF-1:IN', ),
+        'channels': ('LI-RaRF01:RF-LLRFProc:TRIG1', ),
         },
-    'LI-Glob:TI-LLRF-2:': {
+    'LI-Glob:TI-LLRF-Kly1': {
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -775,13 +775,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-01:RF-LLRF-2:IN', ),
+        'channels': ('LI-RaRF01:RF-LLRFProc:TRIG2', ),
         },
-    'LI-Glob:TI-LLRF-3:': {
+    'LI-Glob:TI-LLRF-Kly2': {
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -791,13 +791,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-01:RF-LLRF-3:IN', ),
+        'channels': ('LI-RaRF01:RF-LLRFProc:TRIG3', ),
         },
-    'TB-04:TI-InjSept:': {
+    'TB-04:TI-InjSept': {
         'database': {
             'Src': {'value': 0, 'enums': ('InjBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -807,13 +807,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('TB-04:PU-InjSept:IN', ),
+        'channels': ('TB-04:PU-InjSeptCtrl:TRIGIN', ),
         },
-    'BO-01D:TI-InjKckr:': {
+    'BO-01D:TI-InjKckr': {
         'database': {
             'Src': {'value': 0, 'enums': ('InjBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -823,13 +823,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('BO-01D:PU-InjKckr:IN', ),
+        'channels': ('BO-01D:PU-InjKckrCtrl:TRIGIN', ),
         },
-    'BO-Glob:TI-LLRF:': {
+    'BO-Glob:TI-LLRF-Rmp': {
         'database': {
             'Src': {'value': 0, 'enums': ('InjBO', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -839,13 +839,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('BO-Glob:RF-LLRF:IN', ),
+        'channels': ('RA-RaBO01:RF-DigPatch:RAMPA', ),
         },
-    'BO-48D:TI-EjeKckr:': {
+    'BO-Glob:TI-LLRF-PsMtn': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSeptI', 'Study')},
+            'Src': {'value': 0, 'enums': ('InjBO', 'RmpBO', 'Study', 'PsMtn')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -855,13 +855,29 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('BO-48D:PU-EjeKckr:IN', ),
+        'channels': ('RA-RaBO01:RF-DigPatch:POSTMORTEN', ),
         },
-    'TS-Fam:TI-EjeSept:': {
+    'BO-48D:TI-EjeKckr': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSeptI', 'Study')},
+            'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('BO-48D:PU-EjeKckrCtrl:TRIGIN', ),
+        },
+    'TS-Fam:TI-EjeSept': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -872,15 +888,15 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
-            'TS-01:PU-EjeSeptF:IN',
-            'TS-01:PU-EjeSeptG:IN',
+            'TS-01:PU-EjeSeptGCtrl-1:TRIGIN',
+            'TS-01:PU-EjeSeptGCtrl-2:TRIGIN',
             ),
         },
-    'TS-Fam:TI-InjSeptG:': {
+    'TS-Fam:TI-InjSeptG': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSeptI', 'Study')},
+            'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -891,15 +907,15 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
-            'TS-04:PU-InjSeptG-1:IN',
-            'TS-04:PU-InjSeptG-1:IN',
+            'TS-04:PU-InjSeptGCtrl-1:TRIGIN',
+            'TS-04:PU-InjSeptGCtrl-2:TRIGIN',
             ),
         },
-    'TS-04:TI-InjSeptF:': {
+    'TS-04:TI-InjSeptF': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSeptI', 'Study')},
+            'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -909,13 +925,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('TS-04:PU-InjSeptF:IN', ),
+        'channels': ('TS-04:PU-InjSeptFCtrl:TRIGIN', ),
         },
-    'SI-01SA:TI-InjKckr:': {
+    'SI-01SA:TI-InjDpKckr': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSeptI', 'Study')},
+            'Src': {'value': 0, 'enums': ('InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -925,13 +941,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('SI-01SA:PU-InjKckr:IN', ),
+        'channels': ('SI-01SA:PU-InjDpKckrCtrl:TRIGIN', ),
         },
-    'LI-Fam:TI-BPM:': {
+    'SI-01SA:TI-InjNLKckr': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigLI', 'Study')},
+            'Src': {'value': 0, 'enums': ('InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -941,13 +957,45 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-Fam:DI-BPM:IN', ),
+        'channels': ('SI-01SA:PU-InjNLKckrCtrl:TRIGIN', ),
         },
-    'LI-Fam:TI-Scrn:': {
+    'SI-19C4:TI-PingV': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigLI', 'Study')},
+            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-19C4:PU-PingVCtrl:TRIGIN', ),
+        },
+    'SI-01SA:TI-PingH': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-01SA:PU-PingHCtrl:TRIGIN', ),
+        },
+    'SI-Glob:TI-LLRF-Rmp': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('InjSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -957,13 +1005,16 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-Fam:DI-Scrn:IN', ),
+        'channels': (
+            'RA-RaSIA01:RF-DigPatch:RAMPA',
+            'RA-RaSIB01:RF-DigPatch:RAMPA',
+            ),
         },
-    'LI-01:TI-ICT-1:': {
+    'SI-Glob:TI-LLRF-PsMtn': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigLI', 'Study')},
+            'Src': {'value': 0, 'enums': ('InjSI', 'Study', 'PsMtn')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -973,13 +1024,17 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-01:DI-ICT-1:IN', ),
+        'channels': (
+            'RA-RaSIA01:RF-DigPatch:POSTMORTEN',
+            'RA-RaSIB01:RF-DigPatch:POSTMORTEN',
+            ),
         },
-    'LI-01:TI-ICT-2:': {
+    # #### DIAGNOSTICS ######
+    'LI-Fam:TI-BPM': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigLI', 'Study')},
+            'Src': {'value': 0, 'enums': ('DigLI', 'Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -989,13 +1044,71 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-01:DI-ICT-2:IN', ),
+        'channels': (
+            'LI-RaDiag02:TI-TrigFout:TRIGINIV',
+            'LA-BIH01RACK2:DI-Osc-2:TRIGIN',
+            ),
         },
-    'TB-Fam:TI-Scrn:': {
+    'LI-Fam:TI-Scrn': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigLI', 'Linac', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('LI-RaDiag02:TI-TrigFout:TRIGINI', ),
+        },
+    'LI-Fam:TI-ICT': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigLI', 'Linac', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('LA-BIH01RACK2:DI-Osc-1:TRIGIN', ),
+        },
+    'TB-Fam:TI-Scrn': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigTB', 'InjBO', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': (
+            'TB-01:DI-ScrnCam-1:TRIGIN',
+            'TB-01:DI-ScrnCam-2:TRIGIN',
+            'TB-02:DI-ScrnCam-1:TRIGIN',
+            'TB-02:DI-ScrnCam-2:TRIGIN',
+            'TB-03:DI-ScrnCam:TRIGIN',
+            'TB-04:DI-ScrnCam:TRIGIN',
+            ),
+        },
+    'TB-Fam:TI-ICT-Integ': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigTB', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1006,17 +1119,15 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
-            'TB-01:DI-Scrn-1:IN', 'TB-01:DI-Scrn-2:IN',
-            'TB-02:DI-Scrn-1:IN', 'TB-02:DI-Scrn-2:IN',
-            'TB-03:DI-Scrn:IN',
-            'TB-04:DI-Scrn:IN',
+            'TB-02:DI-ICTSigCond:TRIGIN',
+            'TB-04:DI-ICTSigCond:TRIGIN',
             ),
         },
-    'TB-02:TI-ICT:': {
+    'TB-Fam:TI-ICT-Digit': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigTB', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1027,15 +1138,15 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
-            'TB-02:DI-ICTBMC:IN',
-            'TB-02:DI-ICTMult:IN',
+            'TB-02:DI-ICTDig:TRIGIN',
+            'TB-04:DI-ICTDig:TRIGIN',
             ),
         },
-    'TB-04:TI-ICT:': {
+    'BO-Fam:TI-Scrn': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigTB', 'Study')},
+            'Src': {'value': 0, 'enums': ('DigBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1046,32 +1157,17 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
-            'TB-04:DI-ICTBMC:IN',
-            'TB-04:DI-ICTMult:IN',
+            'BO-01D:DI-ScrnCam-1:TRIGIN',
+            'BO-01D:DI-ScrnCam-2:TRIGIN',
+            'BO-02U:DI-ScrnCam:TRIGIN',
             ),
         },
-    'TB-04:TI-FCT:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigTB', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('TB-04:DI-FCT:IN', ),
-        },
-    'BO-Fam:TI-Scrn:': {
+    'BO-Glob:TI-TuneProc': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
                 'value': 0.15,
                 'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
@@ -1081,63 +1177,15 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
-            'BO-01D:DI-Scrn-1:IN', 'BO-01D:DI-Scrn-2:IN',
-            'BO-02U:DI-Scrn:IN',
+            'BO-Glob:DI-TuneProc-H:TRIGIN',
+            'BO-Glob:DI-TuneProc-V:TRIGIN',
             ),
         },
-    'BO-04U:TI-GSL:': {
+    'BO-35D:TI-DCCT': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('BO-04U:DI-GSL:IN', ),
-        },
-    'BO-02D:TI-TuneShkr:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigBO', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('BO-02D:DI-TuneShkr:IN', ),
-        },
-    'BO-04D:TI-TunePkup:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigBO', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('BO-04D:DI-TunePkup:IN', ),
-        },
-    'BO-35D:TI-DCCT:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigBO', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1147,13 +1195,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('BO-35D:DI-NPCT:IN', ),
+        'channels': ('BO-35D:DI-DCCTDig:TRIGIN', ),
         },
-    'TS-Fam:TI-Scrn:': {
+    'TS-Fam:TI-Scrn': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigTS', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1164,18 +1212,21 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
-            'TS-01:DI-Scrn:IN',
-            'TS-02:DI-Scrn:IN',
-            'TS-03:DI-Scrn:IN',
-            'TS-04:DI-Scrn-1:IN', 'TS-04:DI-Scrn-2:IN',
-            'TS-04:DI-Scrn-3:IN',
+            'TS-01:DI-ScrnCam:TRIGIN',
+            'TS-02:DI-ScrnCam:TRIGIN',
+            'TS-03:DI-ScrnCam:TRIGIN',
+            'TS-04:DI-ScrnCam-1:TRIGIN',
+            'TS-04:DI-ScrnCam-2:TRIGIN',
+            # ## one screen left:
+            # According to João Leandro, no requirement has been made for a
+            # timing signal for the last camera
             ),
         },
-    'TS-01:TI-ICT:': {
+    'TS-Fam:TI-ICT-Integ': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigTS', 'Study')},
+            'Src': {'value': 0, 'enums': ('DigTS', 'InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1186,14 +1237,15 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
-            'TS-01:DI-ICTBMC:IN', 'TS-01:DI-ICTMult:IN',
+            'TS-01:DI-ICTSigCond:TRIGIN',
+            'TS-04:DI-ICTSigCond:TRIGIN',
             ),
         },
-    'TS-04:TI-ICT:': {
+    'TS-Fam:TI-ICT-Digit': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigTS', 'Study')},
+            'Src': {'value': 0, 'enums': ('DigTS', 'InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1204,14 +1256,244 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
-            'TS-04:DI-ICTBMC:IN', 'TS-04:DI-ICTMult:IN',
+            'TS-01:DI-ICTDig:TRIGIN',
+            'TS-04:DI-ICTDig:TRIGIN',
             ),
         },
-    'TS-04:TI-FCT:': {
+    'SI-Glob:TI-StrkCam-Trig1': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-Glob:DI-StrkCam:TRIG1', ),
+        },
+    'SI-Glob:TI-StrkCam-Trig2': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-Glob:DI-StrkCam:TRIG2', ),
+        },
+    'SI-Glob:DI-BbBProcH-Trig1': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-Glob:DI-BbBProc-H:TRIG1', ),
+        },
+    'SI-Glob:DI-BbBProcH-Trig2': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-Glob:DI-BbBProc-H:TRIG2', ),
+        },
+    'SI-Glob:DI-BbBProcV-Trig1': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-Glob:DI-BbBProc-V:TRIG1', ),
+        },
+    'SI-Glob:DI-BbBProcV-Trig2': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-Glob:DI-BbBProc-V:TRIG2', ),
+        },
+    'SI-Glob:DI-BbBProcL-Trig1': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-Glob:DI-BbBProc-L:TRIG1', ),
+        },
+    'SI-Glob:DI-BbBProcL-Trig2': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-Glob:DI-BbBProc-L:TRIG2', ),
+        },
+    'SI-Glob:DI-BbBProcH-Fid': {
+        'database': {
+            'Src': {'value': 7, 'enums': ('DigSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-Glob:DI-BbBProc-H:FID', ),
+        },
+    'SI-Glob:DI-BbBProcV-Fid': {
+        'database': {
+            'Src': {'value': 7, 'enums': ('DigSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-Glob:DI-BbBProc-V:FID', ),
+        },
+    'SI-Glob:DI-BbBProcL-Fid': {
+        'database': {
+            'Src': {'value': 7, 'enums': ('DigSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-Glob:DI-BbBProc-L:FID', ),
+        },
+    'SI-13C4:TI-DCCT': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigSI', 'PsMtn', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-13SA:DI-DCCTDig:TRIGIN', ),
+        },
+    'SI-14C4:TI-DCCT': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigSI', 'PsMtn', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 0.15,
+                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
+                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-14SB:DI-DCCTDig:TRIGIN', ),
+        },
+    'AS-Glob:TI-FCT': {
+        # This trigger will work for both FCTs, from TB and TS transpor lines.
+        # Two triggers must be sent for each injection pulse, the first will
+        # serve as trigger for the TB FCT and the other for the TS.
+        # The delay and duration must be adjusted accordingly to the time it
+        # takes for the beam to pass by them.
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigTB', 'DigTS', 'RmpBO', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 2, 'hilim': 3, 'high': 3, 'hihi': 3},
+            'Duration': {
+                'value': 0.35,
+                'lolim': 0.01, 'low': 0.01, 'lolo': 0.01,
+                'hilim': 0.5, 'high': 0.5, 'hihi': 0.5},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('AS-Glob:DI-FCTDig:CH4', ),
+        },
+    'AS-Glob:TI-ProfMon': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigTS', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 0.15,
@@ -1221,189 +1503,13 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('TS-04:DI-FCT:IN', ),
+        'channels': ('AS-Glob:DI-FPMDig:CH4', ),
         },
-    'SI-19SP:TI-GSL15:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('SI-19SP:DI-GSL15:IN', ),
-        },
-    'SI-20SB:TI-GSL07:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('SI-20SB:DI-GSL07:IN', ),
-        },
-    'SI-13C4:TI-DCCT:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('SI-13C4:DI-NPCT:IN', ),
-        },
-    'SI-14C4:TI-DCCT:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('SI-14C4:DI-NPCT:IN', ),
-        },
-    'SI-01SA:TI-TuneShkrH:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('SI-01SA:DI-TuneShkrH:IN', ),
-        },
-    'SI-17SA:TI-TunePkupH:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('SI-17SA:DI-TunePkupH:IN', ),
-        },
-    'SI-18C4:TI-TuneShkrV:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('SI-18C4:DI-TuneShkrV:IN', ),
-        },
-    'SI-17C4:TI-TunePkupV:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('SI-17C4:DI-TunePkupV:IN', ),
-        },
-    'SI-19C4:TI-PingV:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('SI-19C4:PU-PingV:IN', ),
-        },
-    'SI-01SA:TI-PingH:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('SI-01SA:PU-PingH:IN', ),
-        },
-    'SI-16C4:TI-GBPM:': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
-            'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
-            'Duration': {
-                'value': 0.15,
-                'lolim': 0.145, 'low': 0.145, 'lolo': 0.14,
-                'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('SI-16C4:DI-GBPM:CRT5', ),
-        },
-    'AS-Glob:TI-BPM-TBTS:': {
+    'AS-Glob:TI-BPM-TBTS': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigTB', 'DigTS', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
                 'value': 0.15,
@@ -1423,11 +1529,11 @@
             'TB-04:DI-BPM:CRT0',
             ),
         },
-    'AS-Glob:TI-BPM-SIBO:': {
+    'AS-Glob:TI-BPM-SIBO': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigBO', 'DigSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'DelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
                 'value': 0.15,
