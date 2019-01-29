@@ -809,6 +809,34 @@
             },
         'channels': ('TB-04:PU-InjSeptCtrl:TRIGIN', ),
         },
+    'TB-Glob:TI-Mags': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('Cycle', 'Study')},
+            'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {
+                'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
+            'Duration': {
+                'value': 490, 'hilim': 495, 'high': 495, 'hihi': 500},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': (
+            'TB-01:PS-CV-1:RS485',  'TB-01:PS-CH-1:RS485',
+            'TB-01:PS-CV-2:RS485',  'TB-01:PS-CH-2:RS485',
+            'TB-02:PS-CV-1:RS485',  'TB-02:PS-CH-1:RS485',
+            'TB-02:PS-CV-2:RS485',  'TB-02:PS-CH-2:RS485',
+            'TB-04:PS-CV-1:RS485',  'TB-04:PS-CH:RS485',
+            'TB-04:PS-CV-2:RS485',
+            'TB-01:PS-QD1:RS485',   'TB-01:PS-QF1:RS485',
+            'TB-02:PS-QD2A:RS485',  'TB-02:PS-QD2B:RS485',
+            'TB-02:PS-QF2A:RS485',  'TB-02:PS-QF2B:RS485',
+            'TB-03:PS-QD3:RS485',   'TB-03:PS-QF3:RS485',
+            'TB-04:PS-QD4:RS485',   'TB-04:PS-QF4:RS485',
+            'TB-Fam:PS-B:RS485',
+            ),
+        },
     'BO-01D:TI-InjKckr': {
         'database': {
             'Src': {'value': 0, 'enums': ('InjBO', 'Study')},
@@ -926,6 +954,34 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('TS-04:PU-InjSeptFCtrl:TRIGIN', ),
+        },
+    'TS-Glob:TI-Mags': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('Cycle', 'Study')},
+            'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {
+                'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
+            'Duration': {
+                'value': 490, 'hilim': 495, 'high': 495, 'hihi': 500},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': (
+             'TS-01:PS-CV-1:RS485',   'TS-01:PS-CH:RS485',
+             'TS-01:PS-CV-2:RS485',
+             'TS-02:PS-CV:RS485',     'TS-02:PS-CH:RS485',
+             'TS-03:PS-CV:RS485',     'TS-03:PS-CH:RS485',
+             'TS-04:PS-CV-1:RS485',   'TS-04:PS-CH:RS485',
+             'TS-04:PS-CV-2:RS485',
+             'TS-01:PS-QF1A:RS485',   'TS-01:PS-QF1B:RS485',
+             'TS-02:PS-QD2:RS485',    'TS-02:PS-QF2:RS485',
+             'TS-03:PS-QF3:RS485',
+             'TS-04:PS-QD4A:RS485',   'TS-04:PS-QD4B:RS485',
+             'TS-04:PS-QF4:RS485',
+             'TS-Fam:PS-B:RS485',
+            ),
         },
     'SI-01SA:TI-InjDpKckr': {
         'database': {
