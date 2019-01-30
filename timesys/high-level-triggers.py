@@ -2,7 +2,7 @@
 {
     'SI-Glob:TI-Corrs': {
         'database': {
-            'Src': {'value': 0, 'enums': ('MigSI', 'OrbSI', 'Study')},
+            'Src': {'value': 0, 'enums': ('MigSI', 'OrbSI', 'Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
@@ -196,7 +196,7 @@
         },
     'SI-Glob:TI-Quads': {
         'database': {
-            'Src': {'value': 0, 'enums': ('MigSI', 'TunSI', 'Study')},
+            'Src': {'value': 0, 'enums': ('MigSI', 'TunSI', 'Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
@@ -396,7 +396,7 @@
         },
     'SI-Glob:TI-Skews': {
         'database': {
-            'Src': {'value': 0, 'enums': ('MigSI', 'CplSI', 'Study')},
+            'Src': {'value': 0, 'enums': ('MigSI', 'CplSI', 'Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
@@ -530,7 +530,7 @@
         },
     'SI-Glob:TI-Dips': {
         'database': {
-            'Src': {'value': 0, 'enums': ('MigSI', 'Study')},
+            'Src': {'value': 0, 'enums': ('MigSI', 'Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
@@ -547,7 +547,7 @@
         },
     'SI-Glob:TI-Sexts': {
         'database': {
-            'Src': {'value': 0, 'enums': ('MigSI', 'Study')},
+            'Src': {'value': 0, 'enums': ('MigSI', 'Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
@@ -574,7 +574,7 @@
         },
     'BO-Glob:TI-Mags': {
         'database': {
-            'Src': {'value': 0, 'enums': ('RmpBO', 'Study')},
+            'Src': {'value': 0, 'enums': ('RmpBO', 'Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
@@ -594,7 +594,7 @@
         },
     'BO-Glob:TI-Corrs': {
         'database': {
-            'Src': {'value': 0, 'enums': ('RmpBO', 'OrbBO', 'Study')},
+            'Src': {'value': 0, 'enums': ('RmpBO', 'OrbBO', 'Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {
