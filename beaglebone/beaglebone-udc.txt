@@ -26,7 +26,7 @@ IA-13RaCtrl:CO-PSCtrl-BO        IA-13RaPS01:PS-UDC-BO
 IA-14RaCtrl:CO-PSCtrl-BO        IA-14RaPS01:PS-UDC-BO
 IA-16RaCtrl:CO-PSCtrl-BO        IA-16RaPS01:PS-UDC-BO
 IA-17RaCtrl:CO-PSCtrl-BO        IA-17RaPS01:PS-UDC-BO
-IA-20RaCtrl:CO-PSCtrl-BO        IA-19RaPS01:PS-UDC-BO
+IA-20RaCtrl:CO-PSCtrl-BO        IA-20RaPS01:PS-UDC-BO
 
 
 ################################################################################
