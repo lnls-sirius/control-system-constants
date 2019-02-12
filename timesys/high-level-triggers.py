@@ -795,7 +795,7 @@
         },
     'TB-04:TI-InjSept': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', 'Study')},
+            'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -839,7 +839,7 @@
         },
     'BO-01D:TI-InjKckr': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', 'Study')},
+            'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -855,7 +855,7 @@
         },
     'BO-Glob:TI-LLRF-Rmp': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', 'RmpBO', 'Study')},
+            'Src': {'value': 0, 'enums': ('Linac', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -871,7 +871,7 @@
         },
     'BO-Glob:TI-LLRF-PsMtn': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', 'RmpBO', 'Study', 'PsMtn')},
+            'Src': {'value': 0, 'enums': ('Linac', 'RmpBO', 'Study', 'PsMtn')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1139,7 +1139,7 @@
         },
     'TB-Fam:TI-Scrn': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigTB', 'InjBO', 'Study')},
+            'Src': {'value': 0, 'enums': ('DigTB', 'Linac', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
