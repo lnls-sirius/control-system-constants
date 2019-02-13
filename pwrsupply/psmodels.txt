@@ -182,8 +182,8 @@ IA-17RaCtrl:PS-DCLink-AS1     FBP_DCLink
 IA-17RaCtrl:PS-DCLink-AS2     FBP_DCLink
 IA-18RaCtrl:PS-DCLink-AS1     FBP_DCLink
 IA-18RaCtrl:PS-DCLink-AS2     FBP_DCLink
-IA-19RaCtrl:PS-DCLink-AS1     FBP_DCLink
-IA-19RaCtrl:PS-DCLink-AS2     FBP_DCLink
+#IA-19RaCtrl:PS-DCLink-AS1     FBP_DCLink
+#IA-19RaCtrl:PS-DCLink-AS2     FBP_DCLink
 IA-20RaCtrl:PS-DCLink-AS1     FBP_DCLink
 IA-20RaCtrl:PS-DCLink-AS2     FBP_DCLink
 
