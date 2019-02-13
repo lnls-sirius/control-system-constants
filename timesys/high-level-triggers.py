@@ -580,7 +580,8 @@
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {
-                'value': 490, 'hilim': 495, 'high': 495, 'hihi': 500},
+                'value': 490000,
+                'hilim': 495000, 'high': 495000, 'hihi': 500000},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -599,7 +600,8 @@
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {
-                'value': 490, 'hilim': 495, 'high': 495, 'hihi': 500},
+                'value': 490000,
+                'hilim': 495000, 'high': 495000, 'hihi': 500000},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -640,7 +642,7 @@
             'RFDelayType': {'value': 1, 'states': (1, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.3, 'high': 0.3, 'hihi': 0.4},
+                'value': 150, 'hilim': 300, 'high': 300, 'hihi': 400},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -654,7 +656,7 @@
             'RFDelayType': {'value': 1, 'states': (1, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 300, 'high': 300, 'hihi': 400},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -668,7 +670,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -682,7 +684,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -696,7 +698,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -710,7 +712,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -724,7 +726,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -738,7 +740,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -752,7 +754,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -766,7 +768,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -780,10 +782,10 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
             },
         'channels': ('TB-04:PU-InjSeptCtrl:TRIGIN', ),
         },
@@ -795,7 +797,8 @@
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {
-                'value': 490, 'hilim': 495, 'high': 495, 'hihi': 500},
+                'value': 490000,
+                'hilim': 495000, 'high': 495000, 'hihi': 500000},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -822,10 +825,10 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
             },
         'channels': ('BO-01D:PU-InjKckrCtrl:TRIGIN', ),
         },
@@ -836,7 +839,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -850,7 +853,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -864,10 +867,10 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 1, 'states': (0, 1)},  # EVR-OUT port
             },
         'channels': ('BO-48D:PU-EjeKckrCtrl:TRIGIN', ),
         },
@@ -878,10 +881,10 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 1, 'states': (0, 1)},  # EVR-OUT port
             },
         'channels': (
             'TS-01:PU-EjeSeptGCtrl-1:TRIGIN',
@@ -895,10 +898,10 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
             },
         'channels': (
             'TS-04:PU-InjSeptGCtrl-1:TRIGIN',
@@ -912,10 +915,10 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
             },
         'channels': ('TS-04:PU-InjSeptFCtrl:TRIGIN', ),
         },
@@ -927,7 +930,8 @@
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {
-                'value': 490, 'hilim': 495, 'high': 495, 'hihi': 500},
+                'value': 490000,
+                'hilim': 495000, 'high': 495000, 'hihi': 500000},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -954,10 +958,10 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
             },
         'channels': ('SI-01SA:PU-InjDpKckrCtrl:TRIGIN', ),
         },
@@ -968,10 +972,10 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
             },
         'channels': ('SI-01SA:PU-InjNLKckrCtrl:TRIGIN', ),
         },
@@ -982,10 +986,10 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 1, 'states': (0, 1)},  # EVR-OUT port
             },
         'channels': ('SI-19C4:PU-PingVCtrl:TRIGIN', ),
         },
@@ -996,10 +1000,10 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
             },
         'channels': ('SI-01SA:PU-PingHCtrl:TRIGIN', ),
         },
@@ -1010,7 +1014,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1027,7 +1031,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1045,7 +1049,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1062,7 +1066,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1076,7 +1080,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1090,7 +1094,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1111,7 +1115,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1128,7 +1132,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1146,7 +1150,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1164,7 +1168,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1181,7 +1185,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1195,7 +1199,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1218,7 +1222,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1235,7 +1239,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1252,7 +1256,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1266,7 +1270,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1280,7 +1284,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1294,7 +1298,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1308,7 +1312,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1322,7 +1326,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1336,7 +1340,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1350,7 +1354,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1364,7 +1368,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1378,7 +1382,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1392,7 +1396,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1406,7 +1410,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1420,7 +1424,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1439,7 +1443,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 2, 'hilim': 3, 'high': 3, 'hihi': 3},
             'Duration': {
-                'value': 0.35, 'hilim': 0.5, 'high': 0.5, 'hihi': 0.5},
+                'value': 350, 'hilim': 500, 'high': 500, 'hihi': 500},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1453,7 +1457,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1467,7 +1471,7 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
@@ -1489,7 +1493,8 @@
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
-                'value': 0.15, 'hilim': 0.155, 'high': 0.155, 'hihi': 0.16},
+                'value': 150,
+                'hilim': 500000, 'high': 500000, 'hihi': 500000},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
