@@ -731,7 +731,7 @@
             'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('LI-RaRF02:RF-SSAmp-2:TRIG3GHZ', ),
+        'channels': ('LI-RaRF02:RF-SSAmp-3:TRIG3GHZ', ),
         },
     'LI-Glob:TI-LLRF-SHB': {
         'database': {
