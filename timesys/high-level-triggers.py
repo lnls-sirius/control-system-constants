@@ -1087,9 +1087,10 @@
             },
         'channels': ('LA-BIH01RACK2:DI-Osc-1:TRIGIN', ),
         },
-    'TB-Fam:TI-Scrn': {
+    'AS-Fam:TI-Scrn-TBBO': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigTB', 'Linac', 'InjBO', 'Study')},
+            'Src': {'value': 1, 'enums': (
+                                'Linac', 'InjBO', 'DigTB', 'DigBO', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 0, 'states': (0, 1)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1106,6 +1107,9 @@
             'TB-02:DI-ScrnCam-2:TRIGIN',
             'TB-03:DI-ScrnCam:TRIGIN',
             'TB-04:DI-ScrnCam:TRIGIN',
+            'BO-01D:DI-ScrnCam-1:TRIGIN',
+            'BO-01D:DI-ScrnCam-2:TRIGIN',
+            'BO-02U:DI-ScrnCam:TRIGIN',
             ),
         },
     'TB-Fam:TI-ICT-Integ': {
@@ -1140,25 +1144,6 @@
         'channels': (
             'TB-02:DI-ICTDig:TRIGIN',
             'TB-04:DI-ICTDig:TRIGIN',
-            ),
-        },
-    'BO-Fam:TI-Scrn': {
-        'database': {
-            'Src': {'value': 0, 'enums': (
-                            'DigBO', 'Linac', 'InjBO', 'DigTB', 'Study')},
-            'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
-            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
-            'Duration': {
-                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
-            'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': (
-            'BO-01D:DI-ScrnCam-1:TRIGIN',
-            'BO-01D:DI-ScrnCam-2:TRIGIN',
-            'BO-02U:DI-ScrnCam:TRIGIN',
             ),
         },
     'BO-Glob:TI-TuneProc': {
