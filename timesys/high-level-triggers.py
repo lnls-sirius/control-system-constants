@@ -832,6 +832,51 @@
             },
         'channels': ('BO-01D:PU-InjKckrCtrl:TRIGIN', ),
         },
+    'AS-Glob:TI-Osc-InjBO': {  # 10.0.38.74
+        'database': {
+            'Src': {'value': 0, 'enums': (
+                    'DigLI', 'DigTB', 'DigBO', 'Linac', 'InjBO', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
+            },
+        'channels': ('IA-01RaInj01:PU-Osc:CH1', ),
+        },
+    'AS-Glob:TI-Osc-EjeBO': {
+        'database': {
+            'Src': {'value': 0, 'enums': (
+                    'DigTS', 'DigSI', 'DigBO', 'InjSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
+            },
+        'channels': ('IA-20RaInj03:PU-Osc:CH1', ),
+        },
+    'AS-Glob:TI-Osc-InjSI': {
+        'database': {
+            'Src': {'value': 0, 'enums': (
+                    'DigTS', 'DigSI', 'DigBO', 'InjSI', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
+            },
+        'channels': ('IA-01RaInj04:PU-Osc:CH1', ),
+        },
     'BO-Glob:TI-LLRF-Rmp': {
         'database': {
             'Src': {'value': 0, 'enums': ('InjBO', 'RmpBO', 'Study')},
