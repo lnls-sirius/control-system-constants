@@ -4,7 +4,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'OrbSI', 'Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -198,7 +198,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'TunSI', 'Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -398,7 +398,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'CplSI', 'Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -532,7 +532,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -549,7 +549,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
@@ -576,7 +576,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('RmpBO', 'Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {
@@ -596,7 +596,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('RmpBO', 'OrbBO', 'Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {
@@ -639,13 +639,13 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 1, 'states': (1, 0)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 300, 'high': 300, 'hihi': 400},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
+            'Polarity': {'value': 1, 'states': (0, 2)},
             },
         'channels': ('LI-01:EG-EGun:MULTIPULSEAMPLIFIER', ),
         },
@@ -653,13 +653,13 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 1, 'states': (1, 0)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 300, 'high': 300, 'hihi': 400},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
+            'Polarity': {'value': 1, 'states': (0, 2)},
             },
         'channels': ('LI-01:EG-EGun:SINGLEPULSEAMPLIFIER', ),
         },
@@ -667,12 +667,12 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 0, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
+            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaMD01:MD-PPS:TRIGIN', ),
@@ -681,12 +681,12 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
+            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaMD02:MD-PPS:TRIGIN', ),
@@ -695,12 +695,12 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
+            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaRF02:RF-SSAmp-1:TRIG500MHZ', ),
@@ -709,12 +709,12 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
+            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaRF02:RF-SSAmp-2:TRIG3GHZ', ),
@@ -723,12 +723,12 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
+            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaRF02:RF-SSAmp-3:TRIG3GHZ', ),
@@ -737,12 +737,12 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
+            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaRF01:RF-LLRFProc:TRIG1', ),
@@ -751,12 +751,12 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
+            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaRF01:RF-LLRFProc:TRIG2', ),
@@ -765,12 +765,12 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
+            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaRF01:RF-LLRFProc:TRIG3', ),
@@ -779,13 +779,13 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
+            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
+            'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': ('TB-04:PU-InjSeptCtrl:TRIGIN', ),
         },
@@ -793,7 +793,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {
@@ -822,13 +822,13 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
+            'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': ('BO-01D:PU-InjKckrCtrl:TRIGIN', ),
         },
@@ -837,13 +837,13 @@
             'Src': {'value': 0, 'enums': (
                     'DigLI', 'DigTB', 'DigBO', 'Linac', 'InjBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
+            'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': ('IA-01RaInj01:PU-Osc:CH1', ),
         },
@@ -852,13 +852,13 @@
             'Src': {'value': 0, 'enums': (
                     'DigTS', 'DigSI', 'DigBO', 'InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
+            'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': ('IA-20RaInj03:PU-Osc:CH1', ),
         },
@@ -867,13 +867,13 @@
             'Src': {'value': 0, 'enums': (
                     'DigTS', 'DigSI', 'DigBO', 'InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
+            'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': ('IA-01RaInj04:PU-Osc:CH1', ),
         },
@@ -881,7 +881,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjBO', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -895,7 +895,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjBO', 'RmpBO', 'Study', 'PsMtn')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -909,13 +909,13 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (0, 1)},  # EVR-OUT port
+            'Polarity': {'value': 0, 'states': (0, 2)},  # EVR-OUT port
             },
         'channels': ('BO-48D:PU-EjeKckrCtrl:TRIGIN', ),
         },
@@ -923,13 +923,13 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (0, 1)},  # EVR-OUT port
+            'Polarity': {'value': 0, 'states': (0, 2)},  # EVR-OUT port
             },
         'channels': (
             'TS-01:PU-EjeSeptGCtrl-1:TRIGIN',
@@ -940,13 +940,13 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
+            'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': (
             'TS-04:PU-InjSeptGCtrl-1:TRIGIN',
@@ -957,13 +957,13 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
             'ByPassIntlk': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
+            'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': ('TS-04:PU-InjSeptFCtrl:TRIGIN', ),
         },
@@ -971,7 +971,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('Cycle', 'Study')},
             'Delay': {'value': 0.0, 'hilim': 1.0, 'high': 1.0, 'hihi': 1.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {
@@ -1000,7 +1000,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1014,7 +1014,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1028,7 +1028,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1042,7 +1042,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1056,7 +1056,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1073,7 +1073,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'Study', 'PsMtn')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1091,7 +1091,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigLI', 'Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1108,7 +1108,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigLI', 'Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1122,7 +1122,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigLI', 'Linac', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1137,7 +1137,7 @@
             'Src': {'value': 1, 'enums': (
                                 'Linac', 'InjBO', 'DigTB', 'DigBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1161,7 +1161,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTB', 'Linac', 'InjBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1178,7 +1178,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTB', 'Linac', 'InjBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1195,7 +1195,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1212,7 +1212,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1226,7 +1226,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTS', 'InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1249,7 +1249,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTS', 'InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1266,7 +1266,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTS', 'InjSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1283,7 +1283,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1297,7 +1297,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1311,7 +1311,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1325,7 +1325,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1339,7 +1339,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1353,7 +1353,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1367,7 +1367,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1381,7 +1381,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1395,7 +1395,7 @@
         'database': {
             'Src': {'value': 7, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1409,7 +1409,7 @@
         'database': {
             'Src': {'value': 7, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1423,7 +1423,7 @@
         'database': {
             'Src': {'value': 7, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1437,7 +1437,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'PsMtn', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1451,7 +1451,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'PsMtn', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1470,7 +1470,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTB', 'DigTS', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 2, 'hilim': 3, 'high': 3, 'hihi': 3},
             'Duration': {
                 'value': 350, 'hilim': 500, 'high': 500, 'hihi': 500},
@@ -1484,7 +1484,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTS', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1498,7 +1498,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigTB', 'DigTS', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
@@ -1520,7 +1520,7 @@
         'database': {
             'Src': {'value': 0, 'enums': ('DigBO', 'DigSI', 'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 0, 'states': (0, 1)},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {
                 'value': 150,
