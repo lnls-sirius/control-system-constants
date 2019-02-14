@@ -1435,7 +1435,7 @@
             },
         'channels': ('AS-Glob:DI-FCTDig:CH4', ),
         },
-    'AS-Glob:TI-ProfMon': {
+    'AS-Glob:TI-FillPtrnMon': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigTS', 'Study')},
             'Delay': {'value': 0.0},
