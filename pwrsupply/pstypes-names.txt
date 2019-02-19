@@ -30,7 +30,7 @@ li-solenoid-fam              monopolar        solenoid
 li-solenoid                  monopolar        solenoid
 
 li-spect-45deg               bipolar          dipole
-li-spect-15deg               bipolar          dipole
+#li-spect-15deg               bipolar          dipole
 si-quadrupole-q14-trim       bipolar          quadrupole
 si-quadrupole-q20-trim       bipolar          quadrupole
 si-quadrupole-q30-trim       bipolar          quadrupole
