@@ -23,4 +23,5 @@
 
 # COMMENTS
 # ========
-# 1. Measurements from SINAP - Leff = 112 mm
+# 1. Gradient x current taken from SINAP file 'magnets measurement data from Li Xuan.xlsx'
+# 2. GL constructed using data above and effetive length of 112 mm
