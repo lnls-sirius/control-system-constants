@@ -24,7 +24,7 @@ ts-injseptum-thick           monopolar        corrector-horizontal
 ts-injseptum-thin            monopolar        corrector-horizontal
 ts-ejeseptum-thick           monopolar        corrector-horizontal
 ts-ejeseptum-thin            monopolar        corrector-horizontal
-tb-dipole-b-fam              monopolar        dipole
+tb-dipole-b-fam              bipolar          dipole
 tb-injseptum                 monopolar        corrector-horizontal
 li-solenoid-fam              monopolar        solenoid
 li-solenoid                  monopolar        solenoid
