@@ -1,16 +1,10 @@
-# Current setpoint limits of power supplies
-# =========================================
+# Current setpoint limits of power supplies (MA interface)
+# ========================================================
 
-#  DRVL  driver low level limit
-#  LOLO  IOC low-low level limit (ALARM)
-#  LOW   IOC low level limit (ALARM)
-#  LOPR  Low operating range
-#  HOPR  High operating range
-#  HIGH  IOC high level limit (ALARM)
-#  HIHI  IOC high-high level limit (ALARM)
-#  DRVH  driver high level limit
-#  TSTV  Test value for setpoint load current.
-#  TSTR  Range for load current variation in tests.
+# for a description of the various limit values see 'conv_splims_labels' function in:
+# https://github.com/lnls-sirius/dev-packages/blob/master/siriuspy/siriuspy/util.py
+# check compatibility with power supply limits, in:
+# https://github.com/lnls-sirius/control-system-constants/blob/master/pwrsupply/pstypes-setpoint-limits.txt
 
 # Test
 # ----
@@ -41,7 +35,7 @@ LI-01:MA-QF3                 -0005.0   -0005.0   -0005.0   -0005.0   +0005.0   +
 # === TB ===
 
 # --- tb-dipole-b-fam ---
-TB-Fam:MA-B                  +0000.0   +0000.0   +0000.0   +0000.0   +0330.0   +0330.0   +0330.0   +0330.0   +0300.0   +0000.5
+TB-Fam:MA-B                  +0000.0   +0000.0   +0000.0   +0000.0   +0300.0   +0300.0   +0300.0   +0300.0   +0250.0   +0000.5
 # --- tb-quadrupole ---
 TB-01:MA-QD1                 -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +0010.0   +0010.0   +0010.0   +0004.5   +0000.5
 TB-01:MA-QF1                 -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +0010.0   +0010.0   +0010.0   +0004.5   +0000.5
@@ -256,7 +250,6 @@ SI-18M1:MA-QDB2              -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +
 SI-18M2:MA-QDB2              -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +0010.0   +0010.0   +0010.0   +0005.0   +0000.5
 SI-20M1:MA-QDB2              -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +0010.0   +0010.0   +0010.0   +0005.0   +0000.5
 SI-20M2:MA-QDB2              -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +0010.0   +0010.0   +0010.0   +0005.0   +0000.5
-
 SI-03M1:MA-QDP1              -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +0010.0   +0010.0   +0010.0   +0005.0   +0000.5
 SI-03M2:MA-QDP1              -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +0010.0   +0010.0   +0010.0   +0005.0   +0000.5
 SI-07M1:MA-QDP1              -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +0010.0   +0010.0   +0010.0   +0005.0   +0000.5
@@ -267,7 +260,6 @@ SI-15M1:MA-QDP1              -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +
 SI-15M2:MA-QDP1              -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +0010.0   +0010.0   +0010.0   +0005.0   +0000.5
 SI-19M1:MA-QDP1              -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +0010.0   +0010.0   +0010.0   +0005.0   +0000.5
 SI-19M2:MA-QDP1              -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +0010.0   +0010.0   +0010.0   +0005.0   +0000.5
-
 SI-03M1:MA-QDP2              -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +0010.0   +0010.0   +0010.0   +0005.0   +0000.5
 SI-03M2:MA-QDP2              -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +0010.0   +0010.0   +0010.0   +0005.0   +0000.5
 SI-07M1:MA-QDP2              -0010.0   -0010.0   -0010.0   -0010.0   +0010.0   +0010.0   +0010.0   +0010.0   +0005.0   +0000.5
