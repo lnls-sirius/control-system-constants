@@ -3,6 +3,10 @@
 
 # should we include here polarity columns?
 
+# --- linac Spect ---
+
+LI-01:MA-Spect               LI-01:PS-Spect
+
 # --- linac long quadrupoles ---
 
 LI-01:MA-QD1                 LI-01:PS-QD1
