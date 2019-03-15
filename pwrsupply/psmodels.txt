@@ -8,6 +8,7 @@
 
 # --- Linac quadrupoles ---
 
+LI-01:PS-Spect               LINAC_PS
 LI-01:PS-QD1                 LINAC_PS
 LI-01:PS-QD2                 LINAC_PS
 LI-Fam:PS-QF1                LINAC_PS

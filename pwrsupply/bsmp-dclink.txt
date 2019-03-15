@@ -70,12 +70,12 @@ BO-Fam:PS-B-1   PA-RaPSE01:PS-DCLink-BO PA-RaPSE02:PS-DCLink-BO PA-RaPSE03:PS-DC
 BO-Fam:PS-B-2   PA-RaPSF01:PS-DCLink-BO PA-RaPSF02:PS-DCLink-BO PA-RaPSF03:PS-DCLink-BO PA-RaPSF04:PS-DCLink-BO PA-RaPSF06:PS-DCLink-BO PA-RaPSF07:PS-DCLink-BO PA-RaPSF08:PS-DCLink-BO PA-RaPSF09:PS-DCLink-BO
 
 # --- Quadrupoles ---
-BO-Fam:PS-QD    BO-Glob:PS-DCLinkFAC
+BO-Fam:PS-QD    None
 BO-Fam:PS-QF    PA-RaPSC03:PS-DCLink-BO1
 
 # --- Sextupoles ---
-BO-Fam:PS-SD    BO-Glob:PS-DCLinkFAC
-BO-Fam:PS-SF    BO-Glob:PS-DCLinkFAC
+BO-Fam:PS-SD    None
+BO-Fam:PS-SF    None
 
 
 # --- Correctors and skew quadrupole ---
