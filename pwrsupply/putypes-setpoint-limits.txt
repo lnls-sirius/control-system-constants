@@ -3,7 +3,7 @@
 
 # [unit]  V  Voltage
 
-# [power_supply_type]        DRVL      LOLO      LOW       LOPR      HOPR      HIGH      HIHI      DRVH      DIAG
+# [power_supply_type]        DRVL      LOLO      LOW       LOPR      HOPR      HIGH      HIHI      DRVH      DTOL
 #---------------------------|---------|---------|---------|---------|---------|---------|---------|---------|---------
 
 # --- monopolar individual ---
