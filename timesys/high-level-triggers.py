@@ -1307,7 +1307,7 @@
             },
         'channels': ('SI-Glob:DI-StrkCam:TRIG2', ),
         },
-    'SI-Glob:DI-BbBProcH-Trig1': {
+    'SI-Glob:TI-BbBProcH-Trig1': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
@@ -1321,7 +1321,7 @@
             },
         'channels': ('SI-Glob:DI-BbBProc-H:TRIG1', ),
         },
-    'SI-Glob:DI-BbBProcH-Trig2': {
+    'SI-Glob:TI-BbBProcH-Trig2': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
@@ -1335,7 +1335,7 @@
             },
         'channels': ('SI-Glob:DI-BbBProc-H:TRIG2', ),
         },
-    'SI-Glob:DI-BbBProcV-Trig1': {
+    'SI-Glob:TI-BbBProcV-Trig1': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
@@ -1349,7 +1349,7 @@
             },
         'channels': ('SI-Glob:DI-BbBProc-V:TRIG1', ),
         },
-    'SI-Glob:DI-BbBProcV-Trig2': {
+    'SI-Glob:TI-BbBProcV-Trig2': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
@@ -1363,7 +1363,7 @@
             },
         'channels': ('SI-Glob:DI-BbBProc-V:TRIG2', ),
         },
-    'SI-Glob:DI-BbBProcL-Trig1': {
+    'SI-Glob:TI-BbBProcL-Trig1': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
@@ -1377,7 +1377,7 @@
             },
         'channels': ('SI-Glob:DI-BbBProc-L:TRIG1', ),
         },
-    'SI-Glob:DI-BbBProcL-Trig2': {
+    'SI-Glob:TI-BbBProcL-Trig2': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
@@ -1391,7 +1391,7 @@
             },
         'channels': ('SI-Glob:DI-BbBProc-L:TRIG2', ),
         },
-    'SI-Glob:DI-BbBProcH-Fid': {
+    'SI-Glob:TI-BbBProcH-Fid': {
         'database': {
             'Src': {'value': 7, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
@@ -1405,7 +1405,7 @@
             },
         'channels': ('SI-Glob:DI-BbBProc-H:FID', ),
         },
-    'SI-Glob:DI-BbBProcV-Fid': {
+    'SI-Glob:TI-BbBProcV-Fid': {
         'database': {
             'Src': {'value': 7, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
@@ -1419,7 +1419,7 @@
             },
         'channels': ('SI-Glob:DI-BbBProc-V:FID', ),
         },
-    'SI-Glob:DI-BbBProcL-Fid': {
+    'SI-Glob:TI-BbBProcL-Fid': {
         'database': {
             'Src': {'value': 7, 'enums': ('DigSI', 'Study')},
             'Delay': {'value': 0.0},
