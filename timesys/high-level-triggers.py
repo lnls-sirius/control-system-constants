@@ -1193,7 +1193,7 @@
         },
     'BO-50U:TI-VLightCam': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigBO', 'Study')},
+            'Src': {'value': 0, 'enums': ('DigBO', 'DigTB', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
