@@ -1191,6 +1191,22 @@
             'TB-04:DI-ICTDig:TRIGIN',
             ),
         },
+    'BO-50U:TI-VLightCam': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigBO', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
+            'Duration': {
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
+            'State': {'value': 0},
+            'ByPassIntlk': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': (
+            'BO-50U:DI-VLightCam:INRX',
+            ),
+        },
     'BO-Glob:TI-TuneProc': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigBO', 'Study')},
