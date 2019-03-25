@@ -33,7 +33,7 @@ si-vping                     -0010.0   -0010.0   -0010.0   -0009.9   +0009.9   +
 #  HIGH  IOC high level limit (ALARM)
 #  HIHI  IOC high-high level limit (ALARM)
 #  DRVH  driver high level limit
-#  DIAG  max difference between SP and Mon current values (Diagnostics)
+#  DTOL  max difference between SP and Mon current values (Diagnostics)
 
 # Rules
 # -----
