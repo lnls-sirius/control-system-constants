@@ -22,8 +22,8 @@ BO-Fam:PS-SD                  FAC_DCDC
 BO-Fam:PS-SF                  FAC_DCDC
 BO-Fam:PS-QD                  FAC_DCDC
 
-BO-Fam:PS-QF                  FAC_DCDC
-PA-RaPSC03:PS-DCLink-BO1      FAC_ACDC
+BO-Fam:PS-QF                  FAC_2S_DCDC
+PA-RaPSC03:PS-DCLink-BO1      FAC_2S_ACDC
 
 BO-Fam:PS-B-1                 FAC_2P4S_DCDC
 PA-RaPSE01:PS-DCLink-BO       FAC_2P4S_ACDC
