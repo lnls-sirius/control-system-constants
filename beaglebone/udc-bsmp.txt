@@ -6,7 +6,7 @@
 ################################################################################
 # ---QF, QD, SF, SD (FAC)
 
-PA-RaPSC03:PS-UDC-BO1       PA-RaPSC03:PS-DCLink-BO1 2
+PA-RaPSC03:PS-UDC-BO1       PA-RaPSC03:PS-DCLink-BO1 2   PA-RaPSC03:PS-DCLink-BO2 3
 PA-RaPSC03:PS-UDC-BO2       BO-Fam:PS-QF 1
 PA-RaPSC03:PS-UDC-BO3       BO-Fam:PS-SF 1
 PA-RaPSC03:PS-UDC-BO4       BO-Fam:PS-SD 1
