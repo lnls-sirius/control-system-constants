@@ -1204,7 +1204,7 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
-            'BO-50U:DI-VLightCam:INRX',
+            'BO-50U:DI-VLightCam:TRIGIN',
             ),
         },
     'BO-Glob:TI-TuneProc': {
