@@ -15,6 +15,61 @@ LI-Fam:PS-QF1                LINAC_PS
 LI-Fam:PS-QF2                LINAC_PS
 LI-01:PS-QF3                 LINAC_PS
 
+# --- Linac original SINAP names ---
+
+LA-CN:H1DPPS-1               LINAC_PS
+
+LA-CN:H1DQPS-1               LINAC_PS
+LA-CN:H1DQPS-2               LINAC_PS
+LA-CN:H1FQPS-1               LINAC_PS
+LA-CN:H1FQPS-2               LINAC_PS
+LA-CN:H1FQPS-3               LINAC_PS
+
+LA-CN:H1SCPS-1               LINAC_PS
+LA-CN:H1SCPS-2               LINAC_PS
+LA-CN:H1SCPS-3               LINAC_PS
+LA-CN:H1SCPS-4               LINAC_PS
+
+LA-CN:H1LCPS-1               LINAC_PS
+LA-CN:H1LCPS-2               LINAC_PS
+LA-CN:H1LCPS-3               LINAC_PS
+LA-CN:H1LCPS-4               LINAC_PS
+LA-CN:H1LCPS-5               LINAC_PS
+LA-CN:H1LCPS-6               LINAC_PS
+LA-CN:H1LCPS-7               LINAC_PS
+LA-CN:H1LCPS-8               LINAC_PS
+LA-CN:H1LCPS-9               LINAC_PS
+LA-CN:H1LCPS-10              LINAC_PS
+
+LA-CN:H1MLPS-1               LINAC_PS
+LA-CN:H1MLPS-2               LINAC_PS
+LA-CN:H1MLPS-3               LINAC_PS
+LA-CN:H1MLPS-4               LINAC_PS
+
+LA-CN:H1RCPS-1               LINAC_PS
+
+LA-CN:H1SLPS-1               LINAC_PS
+LA-CN:H1SLPS-2               LINAC_PS
+LA-CN:H1SLPS-3               LINAC_PS
+LA-CN:H1SLPS-8               LINAC_PS
+LA-CN:H1SLPS-4               LINAC_PS
+LA-CN:H1SLPS-5               LINAC_PS
+LA-CN:H1SLPS-6               LINAC_PS
+LA-CN:H1SLPS-7               LINAC_PS
+LA-CN:H1SLPS-9               LINAC_PS
+LA-CN:H1SLPS-10              LINAC_PS
+LA-CN:H1SLPS-11              LINAC_PS
+LA-CN:H1SLPS-12              LINAC_PS
+LA-CN:H1SLPS-13              LINAC_PS
+LA-CN:H1SLPS-14              LINAC_PS
+LA-CN:H1SLPS-15              LINAC_PS
+LA-CN:H1SLPS-16              LINAC_PS
+LA-CN:H1SLPS-17              LINAC_PS
+LA-CN:H1SLPS-18              LINAC_PS
+LA-CN:H1SLPS-19              LINAC_PS
+LA-CN:H1SLPS-20              LINAC_PS
+LA-CN:H1SLPS-21              LINAC_PS
+
 
 # --- Booster dipole, quandrupole and sextupole power supplies (FAC) (Slide 1)
 
