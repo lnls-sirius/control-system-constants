@@ -1,4 +1,11 @@
-# This is a python3 file.
+# This is a python3 file:
+#     - The object defined here is a python3 dictionary.
+#     - It can be imported into python3 code with the code:
+#         `return_dict = ast.literal_eval('/pathto/high-level-triggers.py')`
+#     where `ast` is a python3 module available in `pip3`
+#
+# This file define the triggers used in Sirius operation system and
+# maps them with several important properties.
 {
     'SI-Glob:TI-Corrs': {
         'database': {
@@ -1204,7 +1211,7 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
-            'BO-50U:DI-VLightCam:INRX',
+            'BO-50U:DI-VLightCam:TRIGIN',
             ),
         },
     'BO-Glob:TI-TuneProc': {

@@ -10,7 +10,7 @@
 
 
 
-# 429
+# 430
 RA-RaMO:TI-EVG:OUT0                 RA-RaMO:CO-FibPatch:P074
 RA-RaMO:TI-EVG:OUT1                 RA-RaMO:CO-FibPatch:P075
 RA-RaMO:TI-EVG:OUT2                 RA-RaMO:CO-FibPatch:P076
@@ -196,7 +196,7 @@ IA-20RaDiag01:TI-EVR:OUT2           TS-01:TI-OESglSFP:INRX
 IA-20RaDiag01:TI-EVR:OUT3           TS-04:TI-OESglSFP-1:INRX
 IA-20RaDiag01:TI-EVR:OUT4           IA-20RaDiag02:TI-OEMultSFP:OE1
 IA-20RaDiag01:TI-EVR:OUT5           IA-20RaDiag02:TI-OEMultSFP:OE2
-IA-20RaDiag01:TI-EVR:OUT6           BO-50U:DI-VLightCam:INRX
+IA-20RaDiag01:TI-EVR:OUT6           BO-50U:TI-OESglSFP:INRX
 IA-00RaCtrl:TI-EVE:OUT0             SI-Glob:DI-StrkCam:TRIG1
 IA-00RaCtrl:TI-EVE:OUT1             SI-Glob:DI-StrkCam:TRIG2
 IA-00RaCtrl:TI-EVE:RFOUT            SI-Glob:DI-StrkCam:RFIN
@@ -418,6 +418,7 @@ TS-04:TI-OESglSFP-1:OUT             TS-04:DI-ScrnCam-1:TRIGIN
 TS-04:TI-OESglSFP-1:INTX            TS-04:TI-OESglSFP-2:INRX
 IA-20RaDiag02:TI-OEMultSFP:OUT1     AS-Glob:DI-FCTDig:CH4
 IA-20RaDiag02:TI-OEMultSFP:OUT2     AS-Glob:DI-FPMDig:CH4
+BO-50U:TI-OESglSFP:OUT              BO-50U:DI-VLightCam:TRIGIN
 TB-01:TI-OESglSFP-2:OUT             TB-01:DI-ScrnCam-2:TRIGIN
 TB-01:TI-OESglSFP-2:INTX            TB-02:TI-OESglSFP-1:INRX
 TB-03:TI-OESglSFP:OUT               TB-03:DI-ScrnCam:TRIGIN
@@ -447,7 +448,7 @@ BO-02U:TI-OESglSFP:INTX             IA-20RaDiag01:TI-EVR:INRX1
 
 
 # CONNECTIONS NOT USED
-# 52
+# 53
 # IA-01RaCtrl:CO-FibPatch:P001        IA-02RaCtrl:CO-FibPatch:P001
 # CA-RaCtrl:CO-FibPatch:P042          IA-01RaCtrl:CO-FibPatch:P042
 # CA-RaCtrl:CO-FibPatch:P044          RA-RaSIA01:CO-FibPatch:P044
@@ -491,6 +492,7 @@ BO-02U:TI-OESglSFP:INTX             IA-20RaDiag01:TI-EVR:INRX1
 # IA-18RaCtrl:CO-FibPatch:P019        IA-19RaCtrl:CO-FibPatch:P019
 # IA-19RaCtrl:CO-FibPatch:P021        IA-20RaCtrl:CO-FibPatch:P021
 # IA-20RaCtrl:CO-FibPatch:P025        IA-01RaCtrl:CO-FibPatch:P025
+# RA-RaMO:TI-Main60Hz:OUT             RA-RaMO:TI-EVG:ACIN
 # RA-RaMO:RF-MODistrib:RFOUT          RA-RaMO:TI-EVG:RFIN
 # IA-14RaDiag03:TI-EVE:IN2            SI-13SA:DI-DCCTDig:TRIGOUT
 # IA-14RaDiag03:TI-EVE:IN1            SI-14SB:DI-DCCTDig:TRIGOUT
