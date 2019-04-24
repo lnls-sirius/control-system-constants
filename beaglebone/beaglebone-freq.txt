@@ -12,12 +12,28 @@
 # --- TB corrector pwrsupplies
 LA-RaCtrl:CO-PSCtrl-TB3    5.0                           2.0
 
-# --- TS corrector pwrsupplies
-LA-RaCtrl:CO-PSCtrl-TS4    5.0                           2.0
-
 # --- TB quadrupoles pwrsupplies
 LA-RaCtrl:CO-PSCtrl-TB1    1.0                           1.0
 LA-RaCtrl:CO-PSCtrl-TB2    1.0                           1.0
 
 # --- TB quad and corrs and TS corr dclinks
 LA-RaCtrl:CO-PSCtrl-AS     5.0                           2.0
+
+# --- BO correctors ---
+IA-01RaCtrl:CO-PSCtrl-BO   5.0                           2.0
+IA-02RaCtrl:CO-PSCtrl-BO   5.0                           2.0
+IA-04RaCtrl:CO-PSCtrl-BO   5.0                           2.0
+IA-05RaCtrl:CO-PSCtrl-BO   5.0                           2.0
+IA-07RaCtrl:CO-PSCtrl-BO   5.0                           2.0
+IA-08RaCtrl:CO-PSCtrl-BO   5.0                           2.0
+IA-10RaCtrl:CO-PSCtrl-BO   5.0                           2.0
+IA-11RaCtrl:CO-PSCtrl-BO   5.0                           2.0
+IA-13RaCtrl:CO-PSCtrl-BO   5.0                           2.0
+IA-14RaCtrl:CO-PSCtrl-BO   5.0                           2.0
+IA-16RaCtrl:CO-PSCtrl-BO   5.0                           2.0
+IA-17RaCtrl:CO-PSCtrl-BO   5.0                           2.0
+IA-20RaCtrl:CO-PSCtrl-BO   5.0                           2.0
+
+
+# --- TS corrector pwrsupplies
+LA-RaCtrl:CO-PSCtrl-TS4    5.0                           2.0
