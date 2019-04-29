@@ -36,10 +36,10 @@ IA-20RaCtrl:CO-PSCtrl-BO   5.0                           2.0
 
 
 # --- BO-1 pwrsupply
-PA-RaPSE05:PS-UDC-BO1      2.0                           2.0
+PA-RaPSE05:PS-UDC-BO1     10.0                           2.0
 
 # --- BO-2 pwrsupply
-PA-RaPSF05:PS-UDC-BO1      2.0                           2.0
+PA-RaPSF05:PS-UDC-BO1     10.0                           2.0
 
 # --- BO-1 DCLinks
 PA-RaPSE05:PS-UDC-BO2      2.0                           2.0
