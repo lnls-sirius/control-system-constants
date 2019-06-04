@@ -5,7 +5,7 @@
 
 # PSNAME                TYPE                 NR_CYCLES   FREQ[Hz]    AMPLITUDE[A]    OFFSET[A]     PARAM0:Beg[deg]  PARAM1:End[deg]  PARAM2:Tau[s]     PARAM3:<NOT_USED>
 
-TB-Fam:PS-B             DampedSquaredSine    100         2.0         300.0           0.0           0.0              0.0              2.0               0.0
+TB-Fam:PS-B             DampedSquaredSine    32         0.25         300.0           0.0           0.0              0.0              16.0               0.0
 
 TB-01:PS-QD1            DampedSine           100         2.0         10.0            0.0           0.0              0.0              2.0               0.0
 TB-01:PS-QF1            DampedSine           100         2.0         10.0            0.0           0.0              0.0              2.0               0.0
