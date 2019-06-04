@@ -16,7 +16,6 @@
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -210,7 +209,6 @@
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -410,7 +408,6 @@
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -544,7 +541,6 @@
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -561,7 +557,6 @@
                 'value': 3920, 'hilim': 4001, 'high': 4001, 'hihi': 4001},
             'Duration': {'value': 2000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -590,7 +585,6 @@
                 'value': 490000,
                 'hilim': 495000, 'high': 495000, 'hihi': 500000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -610,7 +604,6 @@
                 'value': 490000,
                 'hilim': 495000, 'high': 495000, 'hihi': 500000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -651,7 +644,6 @@
             'Duration': {
                 'value': 150, 'hilim': 300, 'high': 300, 'hihi': 400},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (0, 2)},
             },
         'channels': ('LI-01:EG-EGun:MULTIPULSEAMPLIFIER', ),
@@ -665,7 +657,6 @@
             'Duration': {
                 'value': 150, 'hilim': 300, 'high': 300, 'hihi': 400},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (0, 2)},
             },
         'channels': ('LI-01:EG-EGun:SINGLEPULSEAMPLIFIER', ),
@@ -679,7 +670,6 @@
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaMD01:MD-PPS:TRIGIN', ),
@@ -693,7 +683,6 @@
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaMD02:MD-PPS:TRIGIN', ),
@@ -707,7 +696,6 @@
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaRF02:RF-SSAmp-1:TRIG500MHZ', ),
@@ -721,7 +709,6 @@
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaRF02:RF-SSAmp-2:TRIG3GHZ', ),
@@ -735,7 +722,6 @@
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaRF02:RF-SSAmp-3:TRIG3GHZ', ),
@@ -749,7 +735,6 @@
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaRF01:RF-LLRFProc:TRIG1', ),
@@ -763,7 +748,6 @@
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaRF01:RF-LLRFProc:TRIG2', ),
@@ -777,7 +761,6 @@
             'Duration': {
                 'value': 150, 'hilim': 5000, 'high': 5000, 'hihi': 6000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaRF01:RF-LLRFProc:TRIG3', ),
@@ -791,7 +774,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 1, 'states': (2, 0)},
             'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': ('TB-04:PU-InjSeptCtrl:TRIGIN', ),
@@ -807,7 +789,6 @@
                 'value': 490000,
                 'hilim': 495000, 'high': 495000, 'hihi': 500000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -834,7 +815,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': ('BO-01D:PU-InjKckrCtrl:TRIGIN', ),
@@ -849,7 +829,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': ('IA-01RaInj01:PU-Osc:CH1', ),
@@ -864,7 +843,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': ('IA-20RaInj03:PU-Osc:CH1', ),
@@ -879,7 +857,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': ('IA-01RaInj04:PU-Osc:CH1', ),
@@ -893,7 +870,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('RA-RaBO01:RF-DigPatch:RAMPA', ),
@@ -907,7 +883,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('RA-RaBO01:RF-DigPatch:POSTMORTEN', ),
@@ -921,7 +896,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 2)},  # EVR-OUT port
             },
         'channels': ('BO-48D:PU-EjeKckrCtrl:TRIGIN', ),
@@ -935,7 +909,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 2)},  # EVR-OUT port
             },
         'channels': (
@@ -952,7 +925,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': (
@@ -969,7 +941,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': ('TS-04:PU-InjSeptFCtrl:TRIGIN', ),
@@ -985,7 +956,6 @@
                 'value': 490000,
                 'hilim': 495000, 'high': 495000, 'hihi': 500000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -1012,7 +982,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
             },
         'channels': ('SI-01SA:PU-InjDpKckrCtrl:TRIGIN', ),
@@ -1026,7 +995,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
             },
         'channels': ('SI-01SA:PU-InjNLKckrCtrl:TRIGIN', ),
@@ -1040,7 +1008,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (0, 1)},  # EVR-OUT port
             },
         'channels': ('SI-19C4:PU-PingVCtrl:TRIGIN', ),
@@ -1054,7 +1021,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
             },
         'channels': ('SI-01SA:PU-PingHCtrl:TRIGIN', ),
@@ -1068,7 +1034,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -1085,7 +1050,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -1103,7 +1067,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -1120,7 +1083,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LI-RaDiag02:TI-TrigFout:TRIGINI', ),
@@ -1134,10 +1096,22 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('LA-BIH01RACK2:DI-Osc-1:TRIGIN', ),
+        },
+    'LI-01:DI-Osc-Modltr': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigLI', 'Linac', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {
+                'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
+            'State': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('LA-MD:DI-Osc:TRIGIN', ),
         },
     'AS-Fam:TI-Scrn-TBBO': {
         'database': {
@@ -1149,7 +1123,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -1173,7 +1146,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -1190,7 +1162,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -1207,7 +1178,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -1223,7 +1193,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -1240,7 +1209,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('BO-35D:DI-DCCTDig:TRIGIN', ),
@@ -1254,7 +1222,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -1277,7 +1244,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -1294,7 +1260,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -1311,7 +1276,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('SI-Glob:DI-StrkCam:TRIG1', ),
@@ -1325,7 +1289,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('SI-Glob:DI-StrkCam:TRIG2', ),
@@ -1339,7 +1302,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('SI-Glob:DI-BbBProc-H:TRIG1', ),
@@ -1353,7 +1315,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('SI-Glob:DI-BbBProc-H:TRIG2', ),
@@ -1367,7 +1328,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('SI-Glob:DI-BbBProc-V:TRIG1', ),
@@ -1381,7 +1341,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('SI-Glob:DI-BbBProc-V:TRIG2', ),
@@ -1395,7 +1354,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('SI-Glob:DI-BbBProc-L:TRIG1', ),
@@ -1409,7 +1367,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('SI-Glob:DI-BbBProc-L:TRIG2', ),
@@ -1423,7 +1380,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('SI-Glob:DI-BbBProc-H:FID', ),
@@ -1437,7 +1393,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('SI-Glob:DI-BbBProc-V:FID', ),
@@ -1451,7 +1406,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('SI-Glob:DI-BbBProc-L:FID', ),
@@ -1465,7 +1419,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('SI-13SA:DI-DCCTDig:TRIGIN', ),
@@ -1479,7 +1432,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('SI-14SB:DI-DCCTDig:TRIGIN', ),
@@ -1498,7 +1450,6 @@
             'Duration': {
                 'value': 350, 'hilim': 500, 'high': 500, 'hihi': 500},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('AS-Glob:DI-FCTDig:CH4', ),
@@ -1512,7 +1463,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': ('AS-Glob:DI-FPMDig:CH4', ),
@@ -1526,7 +1476,6 @@
             'Duration': {
                 'value': 150, 'hilim': 1550, 'high': 1550, 'hihi': 1600},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
@@ -1549,7 +1498,6 @@
                 'value': 150,
                 'hilim': 500000, 'high': 500000, 'hihi': 500000},
             'State': {'value': 0},
-            'ByPassIntlk': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
