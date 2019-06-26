@@ -10,7 +10,7 @@
 
 
 
-# 432
+# 433
 RA-RaMO:TI-EVG:OUT0                 RA-RaMO:CO-FibPatch:P074
 RA-RaMO:TI-EVG:OUT1                 RA-RaMO:CO-FibPatch:P075
 RA-RaMO:TI-EVG:OUT2                 RA-RaMO:CO-FibPatch:P076
@@ -171,6 +171,7 @@ PA-RaCtrl:TI-EVR-1:OTP2             PA-RaPSC03:CO-PSCtrl-BO1:TIMIN
 PA-RaCtrl:TI-EVR-1:OTP3             PA-RaPSC03:CO-PSCtrl-BO2:TIMIN
 PA-RaCtrl:TI-EVR-1:OTP4             PA-RaPSC03:CO-PSCtrl-BO3:TIMIN
 PA-RaCtrl:TI-EVR-1:OTP5             PA-RaPSC03:CO-PSCtrl-BO4:TIMIN
+PA-RaCtrl:TI-EVR-1:OTP6             PA-RaPSE05:DI-Osc-BO:TIMIN
 PA-RaCtrl:TI-EVR-2:OTP0             PA-RaPSB02:CO-PSCtrl-SI1:TIMIN
 PA-RaCtrl:TI-EVR-2:OTP1             PA-RaPSB02:CO-PSCtrl-SI2:TIMIN
 PA-RaCtrl:TI-EVR-2:OTP2             PA-RaPSB06:CO-PSCtrl-SI1:TIMIN
