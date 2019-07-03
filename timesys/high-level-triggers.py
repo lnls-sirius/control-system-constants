@@ -1161,7 +1161,8 @@
         },
     'BO-RaPSE05:TI-Osc': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigBO', 'InjBO', 'RmpBO', 'Study')},
+            'Src': {'value': 0, 'enums': (
+                'DigBO', 'InjBO', 'RmpBO', 'Cycle', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
