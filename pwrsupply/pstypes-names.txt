@@ -6,12 +6,12 @@
 
 li-spect-45deg               bipolar          dipole
 #li-spect-15deg               bipolar          dipole
-li-quadrupole-long           bipolar          quadrupole
 li-quadrupole-short          bipolar          quadrupole
-li-corrector-ch-long         bipolar          corrector-horizontal
-li-corrector-cv-long         bipolar          corrector-vertical
+li-quadrupole-long           bipolar          quadrupole
 li-corrector-ch-short        bipolar          corrector-horizontal
 li-corrector-cv-short        bipolar          corrector-vertical
+li-corrector-ch-long         bipolar          corrector-horizontal
+li-corrector-cv-long         bipolar          corrector-vertical
 li-solenoid-fam              monopolar        solenoid
 li-solenoid                  monopolar        solenoid
 li-lens                      bipolar          lens
