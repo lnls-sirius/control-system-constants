@@ -1,6 +1,14 @@
 # UDC Mapping to Power Supplies
 # =============================
 
+# --- SI Dipoles ---
+# NOTE: FAKE NAMES!!!
+PA-RaPSE10:PS-UDC-BMaster SI-Fam:PS-B1B2-1
+PA-RaPSE10:PS-UDC-BSlave  SI-Fam:PS-B1B2-1
+PA-RaPSE11:PS-UDC-BMaster SI-Fam:PS-B1B2-2
+PA-RaPSE11:PS-UDC-BSlave  SI-Fam:PS-B1B2-2
+
+
 # --- TB Dipole ---
 LA-RaPS02:PS-UDC-TB     TB-Fam:PS-B 1
 
