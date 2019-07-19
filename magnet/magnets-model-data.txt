@@ -1455,12 +1455,12 @@ TB-02:MA-QD2B              11.6812
 TB-02:MA-QF2A               5.3474
 TB-02:MA-QF2B              11.3112
 TB-03:MA-B                 16.3216
-TB-04:MA-CH                15.9712
+TB-04:MA-CH-1              15.9712
 TB-03:MA-QD3               15.5912
 TB-03:MA-QF3               15.2712
 TB-04:MA-CV-1              16.6721
 TB-04:MA-CV-2              18.5087
-TB-04:MA-CV-3              18.8437
+TB-04:MA-CH-2              18.5087
 TB-04:PM-InjSept           19.1937
 TB-04:MA-QD4               18.4237
 TB-04:MA-QF4               18.1077
