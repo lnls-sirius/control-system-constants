@@ -9,12 +9,14 @@
 
 # BBBNAME               SYNC_OFF[SCAN]_FREQUENCY[Hz]  SYNC_ON[RAMP]_FREQUENCY[Hz]
 
-# --- TB corrector pwrsupplies
+# --- TS corrector pwrsupplies
 LA-RaCtrl:CO-PSCtrl-TB3    5.0                           2.0
 
 # --- TB quadrupoles pwrsupplies
-LA-RaCtrl:CO-PSCtrl-TB1    1.0                           1.0
-LA-RaCtrl:CO-PSCtrl-TB2    1.0                           1.0
+LA-RaCtrl:CO-PSCtrl-TB1    2.0                           2.0
+
+# --- TB corrector pwrsupplies
+LA-RaCtrl:CO-PSCtrl-TB2    2.0                           2.0
 
 # --- TB quad and corrs and TS corr dclinks
 LA-RaCtrl:CO-PSCtrl-AS     5.0                           2.0
@@ -35,19 +37,17 @@ IA-17RaCtrl:CO-PSCtrl-BO   5.0                           2.0
 IA-20RaCtrl:CO-PSCtrl-BO   5.0                           2.0
 
 
-# --- BO-1 pwrsupply
+# --- BO-B-1 pwrsupply
 PA-RaPSE05:PS-UDC-BO1     10.0                           2.0
-
-# --- BO-2 pwrsupply
-PA-RaPSF05:PS-UDC-BO1     10.0                           2.0
-
-# --- BO-1 DCLinks
+# --- BO-B-1 pwrsupply DCLinks
 PA-RaPSE05:PS-UDC-BO2      2.0                           2.0
 PA-RaPSE05:PS-UDC-BO3      2.0                           2.0
 PA-RaPSE05:PS-UDC-BO4      2.0                           2.0
 PA-RaPSE05:PS-UDC-BO5      2.0                           2.0
 
-# --- BO-2 DCLinks
+# --- BO-B-2 pwrsupply
+PA-RaPSF05:PS-UDC-BO1     10.0                           2.0
+# --- BO-B-2 pwrsupply DCLinks
 PA-RaPSF05:PS-UDC-BO2      2.0                           2.0
 PA-RaPSF05:PS-UDC-BO3      2.0                           2.0
 PA-RaPSF05:PS-UDC-BO4      2.0                           2.0
