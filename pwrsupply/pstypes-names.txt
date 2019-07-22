@@ -21,6 +21,8 @@ tb-dipole-b-fam              bipolar          dipole
 tb-quadrupole                bipolar          quadrupole
 tb-corrector-ch              bipolar          corrector-horizontal
 tb-corrector-cv              bipolar          corrector-vertical
+tb-corrector-strong-ch       bipolar          corrector-horizontal
+tb-corrector-strong-cv       bipolar          corrector-vertical
 tb-injseptum                 monopolar        corrector-horizontal
 
 bo-dipole-b-fam              bipolar          dipole

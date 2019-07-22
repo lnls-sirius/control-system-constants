@@ -181,7 +181,8 @@ TB-02:PS-CH-1                 FBP
 TB-02:PS-CV-1                 FBP
 TB-02:PS-CH-2                 FBP
 TB-02:PS-CV-2                 FBP
-TB-04:PS-CH                   FBP
+TB-04:PS-CH-1                 FBP
+TB-04:PS-CH-2                 FBP
 TB-04:PS-CV-1                 FBP
 TB-04:PS-CV-2                 FBP
 
