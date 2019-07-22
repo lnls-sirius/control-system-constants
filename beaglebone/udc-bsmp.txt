@@ -20,7 +20,7 @@ LA-RaPS06:PS-UDC-TB3        TB-03:PS-QD3  7      TB-03:PS-QF3  8     TB-04:PS-QD
 # --- TB correctors ---
 LA-RaPS06:PS-UDC-TB4        TB-01:PS-CH-1 1     TB-01:PS-CV-1 2     TB-01:PS-CH-2 3     TB-01:PS-CV-2 4
 LA-RaPS06:PS-UDC-TB5        TB-02:PS-CH-1 5     TB-02:PS-CV-1 6     TB-02:PS-CH-2 7     TB-02:PS-CV-2 8
-LA-RaPS06:PS-UDC-TB6        TB-04:PS-CH 9       TB-04:PS-CV-1 10    TB-04:PS-CV-2 11
+LA-RaPS06:PS-UDC-TB6        TB-04:PS-CH-1 9     TB-04:PS-CV-1 10    TB-04:PS-CH-2 11    TB-04:PS-CV-2 12
 
 
 # --- BO QF, QD, SF, SD ---
