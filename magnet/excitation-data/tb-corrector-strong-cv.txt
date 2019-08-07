@@ -38,7 +38,7 @@
 # 2. data taken from rotcoil measurements
 # 3. average excitation curves for magnets:
 #    TBC-04 TBC-01 TBC-02 TBC-03 TBC-05 TBC-06
-# 4. Additional coil were implemented and excdata multiplied by (80/60)
+# 4. Additional coil were implemented and excdata multiplied by (80/50)
 #
 # NOTE: !!! needs updating !!!
 
