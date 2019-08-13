@@ -10,7 +10,7 @@
 
 
 
-# 433
+# 432
 RA-RaMO:TI-EVG:OUT0                 RA-RaMO:CO-FibPatch:P074
 RA-RaMO:TI-EVG:OUT1                 RA-RaMO:CO-FibPatch:P075
 RA-RaMO:TI-EVG:OUT2                 RA-RaMO:CO-FibPatch:P076
@@ -36,8 +36,9 @@ RA-RaMO:CO-FibPatch:P045            RA-RaSIB01:TI-EVE:UPLINK
 CA-RaCtrl:TI-Fout-1:OUT0            CA-RaCtrl:CO-FibPatch:P072
 CA-RaCtrl:TI-Fout-1:OUT1            CA-RaCtrl:CO-FibPatch:P043
 CA-RaCtrl:TI-Fout-1:OUT2            CA-RaCtrl:CO-FibPatch:P073
-CA-RaCtrl:TI-Fout-2:OUT0            CA-RaCtrl:CO-FibPatch:P051
-CA-RaCtrl:TI-Fout-2:OUT1            CA-RaCtrl:CO-FibPatch:P046
+CA-RaCtrl:TI-Fout-1:OUT3            CA-RaCtrl:CO-FibPatch:P027B
+CA-RaCtrl:TI-Fout-1:OUT4            CA-RaCtrl:CO-FibPatch:P051
+CA-RaCtrl:TI-Fout-1:OUT5            CA-RaCtrl:CO-FibPatch:P046
 CA-RaCtrl:TI-Fout-2:OUT2            CA-RaCtrl:CO-FibPatch:P047
 CA-RaCtrl:TI-Fout-2:OUT3            CA-RaCtrl:CO-FibPatch:P048
 CA-RaCtrl:TI-Fout-2:OUT4            CA-RaCtrl:CO-FibPatch:P049
@@ -64,7 +65,6 @@ CA-RaCtrl:TI-Fout-5:OUT3            CA-RaCtrl:CO-FibPatch:P020
 CA-RaCtrl:TI-Fout-5:OUT4            CA-RaCtrl:CO-FibPatch:P022
 CA-RaCtrl:TI-Fout-5:OUT5            CA-RaCtrl:CO-FibPatch:P026
 CA-RaCtrl:TI-Fout-5:OUT6            CA-RaCtrl:CO-FibPatch:P027
-CA-RaCtrl:TI-Fout-5:OUT7            CA-RaCtrl:CO-FibPatch:P027B
 RA-RaBO01:TI-EVE:OUT0               RA-RaBO01:RF-DigPatch:RAMPA
 RA-RaBO01:TI-EVE:OUT1               RA-RaBO01:RF-DigPatch:POSTMORTEN
 RA-RaSIA01:TI-EVE:OUT0              RA-RaSIA01:RF-DigPatch:RAMPA
@@ -74,6 +74,7 @@ RA-RaSIB01:TI-EVE:OUT1              RA-RaSIB01:RF-DigPatch:POSTMORTEN
 CA-RaCtrl:CO-FibPatch:P072          LA-RFH01RACK2:CO-FibPatch:P072
 CA-RaCtrl:CO-FibPatch:P043          LA-BIH01RACK2:CO-FibPatch:P043
 CA-RaCtrl:CO-FibPatch:P073          IA-01RaCtrl:CO-FibPatch:P073
+CA-RaCtrl:CO-FibPatch:P027B         LA-RaCtrl:CO-FibPatch:P027B
 CA-RaCtrl:CO-FibPatch:P051          PA-RaCtrl:CO-FibPatch:P051
 CA-RaCtrl:CO-FibPatch:P046          PA-RaCtrl:CO-FibPatch:P046
 CA-RaCtrl:CO-FibPatch:P047          IA-20RaCtrl:CO-FibPatch:P047
@@ -102,10 +103,10 @@ CA-RaCtrl:CO-FibPatch:P020          IA-18RaCtrl:CO-FibPatch:P020
 CA-RaCtrl:CO-FibPatch:P022          IA-19RaCtrl:CO-FibPatch:P022
 CA-RaCtrl:CO-FibPatch:P026          IA-20RaCtrl:CO-FibPatch:P026
 CA-RaCtrl:CO-FibPatch:P027          IA-20RaCtrl:CO-FibPatch:P027
-CA-RaCtrl:CO-FibPatch:P027B         LA-RaCtrl:CO-FibPatch:P027B
 LA-RFH01RACK2:CO-FibPatch:P072      LA-RFH01RACK2:TI-EVR:UPLINK
 LA-BIH01RACK2:CO-FibPatch:P043      LA-BIH01RACK2:TI-EVE:UPLINK
 IA-01RaCtrl:CO-FibPatch:P073        IA-01RaInj05:TI-EVR:UPLINK
+LA-RaCtrl:CO-FibPatch:P027B         LA-RaCtrl:TI-EVR:UPLINK
 PA-RaCtrl:CO-FibPatch:P051          PA-RaCtrl:TI-EVR-1:UPLINK
 PA-RaCtrl:CO-FibPatch:P046          PA-RaCtrl:TI-EVR-2:UPLINK
 IA-20RaCtrl:CO-FibPatch:P047        IA-20RaDiag01:TI-EVR:UPLINK
@@ -134,7 +135,6 @@ IA-18RaCtrl:CO-FibPatch:P020        IA-18RaBPM:TI-AMCFPGAEVR:SFP8
 IA-19RaCtrl:CO-FibPatch:P022        IA-19RaBPM:TI-AMCFPGAEVR:SFP8
 IA-20RaCtrl:CO-FibPatch:P026        IA-20RaBPM:TI-AMCFPGAEVR:SFP8
 IA-20RaCtrl:CO-FibPatch:P027        IA-20RaBPMTL:TI-AMCFPGAEVR:SFP8
-LA-RaCtrl:CO-FibPatch:P027B         LA-RaCtrl:TI-EVR:UPLINK
 LA-RFH01RACK2:TI-EVR:OTP0           LA-MDH01RACK1:TI-OEMultPOF:IN1
 LA-RFH01RACK2:TI-EVR:OTP1           LA-MDH01RACK2:TI-OEMultPOF:IN1
 LA-RFH01RACK2:TI-EVR:OTP2           LA-RFH01RACK1:TI-OEMultPOF:IN1
@@ -165,6 +165,13 @@ IA-01RaInj05:TI-EVR:OUT1            IA-20RaInj02:TI-OEMultSFP:OE2
 IA-01RaInj05:TI-EVR:OUT2            IA-20RaInj03:TI-OEMultSFP:OE1
 IA-01RaInj05:TI-EVR:OUT3            IA-20RaInj03:TI-OEMultSFP:OE2
 IA-01RaInj05:TI-EVR:OUT4            IA-20RaInj03:TI-OEMultSFP:OE3
+LA-RaCtrl:TI-EVR:OTP0               LA-RaPS02:CO-PSCtrl-TB:TIMIN
+LA-RaCtrl:TI-EVR:OTP1               LA-RaCtrl:CO-PSCtrl-TB1:TIMIN
+LA-RaCtrl:TI-EVR:OTP2               LA-RaCtrl:CO-PSCtrl-TB2:TIMIN
+LA-RaCtrl:TI-EVR:OTP3               LA-RaPS02:CO-PSCtrl-TS:TIMIN
+LA-RaCtrl:TI-EVR:OTP4               LA-RaPS04:CO-PSCtrl-TS1:TIMIN
+LA-RaCtrl:TI-EVR:OTP5               LA-RaPS04:CO-PSCtrl-TS2:TIMIN
+LA-RaCtrl:TI-EVR:OTP6               LA-RaCtrl:CO-PSCtrl-TS:TIMIN
 PA-RaCtrl:TI-EVR-1:OTP0             PA-RaPSE05:CO-PSCtrl-BO:TIMIN
 PA-RaCtrl:TI-EVR-1:OTP1             PA-RaPSF05:CO-PSCtrl-BO:TIMIN
 PA-RaCtrl:TI-EVR-1:OTP2             PA-RaPSC03:CO-PSCtrl-BO1:TIMIN
@@ -182,8 +189,7 @@ PA-RaCtrl:TI-EVR-2:OTP6             PA-RaPSA02:CO-PSCtrl-SI1:TIMIN
 PA-RaCtrl:TI-EVR-2:OTP7             PA-RaPSA02:CO-PSCtrl-SI2:TIMIN
 PA-RaCtrl:TI-EVR-2:OTP8             PA-RaPSA05:CO-PSCtrl-SI1:TIMIN
 PA-RaCtrl:TI-EVR-2:OTP9             PA-RaPSA05:CO-PSCtrl-SI2:TIMIN
-PA-RaCtrl:TI-EVR-2:OTP10            PA-RaPSD04:CO-PSCtrl-SI1:TIMIN
-PA-RaCtrl:TI-EVR-2:OTP11            PA-RaPSD04:CO-PSCtrl-SI2:TIMIN
+PA-RaCtrl:TI-EVR-2:OTP10            PA-RaPSD04:CO-PSCtrl-SI:TIMIN
 IA-20RaDiag01:TI-EVR:OTP0           IA-20RaDiag01:TI-OEMultPOF-1:IN1
 IA-20RaDiag01:TI-EVR:OTP1           IA-20RaDiag01:TI-OEMultPOF-1:IN2
 IA-20RaDiag01:TI-EVR:OTP2           IA-20RaDiag01:TI-OEMultPOF-1:IN3
@@ -370,13 +376,6 @@ IA-20RaBPM:TI-AMCFPGAEVR:FMC1CH5    IA-20RaCtrl:CO-PSCtrl-SI4:TIMIN
 IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH1    IA-20RaCtrl:CO-PSCtrl-SI5:TIMIN
 IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH2    IA-20RaCtrl:CO-PSCtrl-SI6:TIMIN
 IA-20RaBPM:TI-AMCFPGAEVR:FMC2CH3    IA-20RaCtrl:CO-PSCtrl-SI7:TIMIN
-LA-RaCtrl:TI-EVR:OTP0               LA-RaPS02:CO-PSCtrl-TB:TIMIN
-LA-RaCtrl:TI-EVR:OTP1               LA-RaCtrl:CO-PSCtrl-TB1:TIMIN
-LA-RaCtrl:TI-EVR:OTP2               LA-RaCtrl:CO-PSCtrl-TB2:TIMIN
-LA-RaCtrl:TI-EVR:OTP3               LA-RaPS02:CO-PSCtrl-TS:TIMIN
-LA-RaCtrl:TI-EVR:OTP4               LA-RaPS04:CO-PSCtrl-TS1:TIMIN
-LA-RaCtrl:TI-EVR:OTP5               LA-RaPS04:CO-PSCtrl-TS2:TIMIN
-LA-RaCtrl:TI-EVR:OTP6               LA-RaCtrl:CO-PSCtrl-TS:TIMIN
 LA-MDH01RACK1:TI-OEMultPOF:OUT1     LI-RaMD01:MD-PPS:TRIGIN
 LA-MDH01RACK2:TI-OEMultPOF:OUT1     LI-RaMD02:MD-PPS:TRIGIN
 LA-RFH01RACK1:TI-OEMultPOF:OUT1     LI-RaRF02:RF-SSAmp-1:TRIG500MHZ
@@ -452,7 +451,6 @@ BO-02U:TI-OESglSFP:INTX             IA-20RaDiag01:TI-EVR:INRX1
 
 # CONNECTIONS NOT USED
 # 50
-# IA-01RaCtrl:CO-FibPatch:P001        IA-02RaCtrl:CO-FibPatch:P001
 # CA-RaCtrl:CO-FibPatch:P042          IA-01RaCtrl:CO-FibPatch:P042
 # CA-RaCtrl:CO-FibPatch:P044          RA-RaSIA01:CO-FibPatch:P044
 # CA-RaCtrl:CO-FibPatch:P045          RA-RaSIB01:CO-FibPatch:P045
@@ -476,6 +474,7 @@ BO-02U:TI-OESglSFP:INTX             IA-20RaDiag01:TI-EVR:INRX1
 # CA-RaCtrl:CO-FibPatch:P069          IA-08RaCtrl:CO-FibPatch:P069
 # CA-RaCtrl:CO-FibPatch:P070          IA-09RaCtrl:CO-FibPatch:P070
 # CA-RaCtrl:CO-FibPatch:P071          RA-RaBO01:CO-FibPatch:P071
+# IA-01RaCtrl:CO-FibPatch:P001        IA-02RaCtrl:CO-FibPatch:P001
 # IA-02RaCtrl:CO-FibPatch:P023        IA-03RaCtrl:CO-FibPatch:P023
 # IA-03RaCtrl:CO-FibPatch:P028        IA-04RaCtrl:CO-FibPatch:P028
 # IA-04RaCtrl:CO-FibPatch:P030        IA-05RaCtrl:CO-FibPatch:P030
@@ -489,16 +488,16 @@ BO-02U:TI-OESglSFP:INTX             IA-20RaDiag01:TI-EVR:INRX1
 # IA-12RaCtrl:CO-FibPatch:P007        IA-13RaCtrl:CO-FibPatch:P007
 # IA-13RaCtrl:CO-FibPatch:P009        IA-14RaCtrl:CO-FibPatch:P009
 # IA-14RaCtrl:CO-FibPatch:P011        IA-15RaCtrl:CO-FibPatch:P011
+# IA-14RaDiag03:TI-EVE:IN2            SI-13SA:DI-DCCTDig:TRIGOUT
+# IA-14RaDiag03:TI-EVE:IN1            SI-14SB:DI-DCCTDig:TRIGOUT
 # IA-15RaCtrl:CO-FibPatch:P013        IA-16RaCtrl:CO-FibPatch:P013
 # IA-16RaCtrl:CO-FibPatch:P015        IA-17RaCtrl:CO-FibPatch:P015
 # IA-17RaCtrl:CO-FibPatch:P017        IA-18RaCtrl:CO-FibPatch:P017
 # IA-18RaCtrl:CO-FibPatch:P019        IA-19RaCtrl:CO-FibPatch:P019
 # IA-19RaCtrl:CO-FibPatch:P021        IA-20RaCtrl:CO-FibPatch:P021
 # IA-20RaCtrl:CO-FibPatch:P025        IA-01RaCtrl:CO-FibPatch:P025
+# LI-IET01RACK1:TI-OERFRx:SIGNAL      LI-01:EG-EGun:RFIN
 # RA-RaMO:TI-Main60Hz:OUT             RA-RaMO:TI-EVG:ACIN
 # RA-RaMO:RF-MODistrib:RFOUT          RA-RaMO:TI-EVG:RFIN
-# IA-14RaDiag03:TI-EVE:IN2            SI-13SA:DI-DCCTDig:TRIGOUT
-# IA-14RaDiag03:TI-EVE:IN1            SI-14SB:DI-DCCTDig:TRIGOUT
 # RA-RaMO:TI-OERFTx:OPTICALACP        LI-IET01RACK1:TI-OERFRx:OPTICALACP
-# LI-IET01RACK1:TI-OERFRx:SIGNAL      LI-01:EG-EGun:RFIN
 # RA-RaMO:RF-MODistrib:RFOUT          RA-RaMO:TI-OERFTx:SIGNAL
