@@ -102,7 +102,7 @@ IA-20RaPS02:PS-UDC-AS       IA-20RaCtrl:PS-DCLink-AS2 2
 # ______ TS ______
 
 # --- TS Dipole ---
-LA-RaPS02:PS-UDC-TS         TS-Fam:PS-B 1
+LA-RaPS02:PS-UDC-TS1        TS-Fam:PS-B 1
 
 # --- TS Quadrupoles ---
 LA-RaPS02:PS-UDC-TS2        TS-01:PS-QF1B 1
