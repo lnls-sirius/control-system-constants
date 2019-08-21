@@ -864,7 +864,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 0, 'states': (0, 2)},  # EVR-OUT port
+            'Polarity': {'value': 0, 'states': (2, 0)},  # EVR-OUT port
             },
         'channels': ('BO-48D:PU-EjeKckrCtrl:TRIGIN', ),
         },
@@ -876,7 +876,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 0, 'states': (0, 2)},  # EVR-OUT port
+            'Polarity': {'value': 0, 'states': (2, 0)},  # EVR-OUT port
             },
         'channels': (
             'TS-01:PU-EjeSeptGCtrl-1:TRIGIN',
@@ -943,7 +943,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
+            'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': ('SI-01SA:PU-InjDpKckrCtrl:TRIGIN', ),
         },
@@ -955,7 +955,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
+            'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
         'channels': ('SI-01SA:PU-InjNLKckrCtrl:TRIGIN', ),
         },
