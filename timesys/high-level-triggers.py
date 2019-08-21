@@ -1053,7 +1053,7 @@
             },
         'channels': ('LA-BIH01RACK2:DI-Osc-1:TRIGIN', ),
         },
-    'LI-01:DI-Osc-Modltr': {
+    'LI-01:TI-Osc-Modltr': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigLI', 'Linac', 'Study')},
             'Delay': {'value': 0.0},
