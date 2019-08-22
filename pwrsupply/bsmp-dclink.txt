@@ -2,20 +2,12 @@
 # ==============================
 
 
+# ______ TB ______
 
-# SI families
-# -----------
-SI-Fam:PS-B1B2-1   None
-SI-Fam:PS-B1B2-2   None
-
-
-# TB transport Line
-# ------------------
-
-# --- Dipole ---
+# --- TB Dipoles ---
 TB-Fam:PS-B     None
 
-# --- Quadrupoles ---
+# --- TB Quadrupoles ---
 TB-01:PS-QD1    LA-RaPS06:PS-DCLink-AS1
 TB-01:PS-QF1    LA-RaPS06:PS-DCLink-AS1
 TB-02:PS-QD2A   LA-RaPS06:PS-DCLink-AS1
@@ -27,7 +19,7 @@ TB-03:PS-QF3    LA-RaPS06:PS-DCLink-AS1
 TB-04:PS-QD4    LA-RaPS06:PS-DCLink-AS1
 TB-04:PS-QF4    LA-RaPS06:PS-DCLink-AS1
 
-# --- Correctors ---
+# --- TB Correctors ---
 TB-01:PS-CH-1   LA-RaPS06:PS-DCLink-AS2
 TB-01:PS-CV-1   LA-RaPS06:PS-DCLink-AS2
 TB-01:PS-CH-2   LA-RaPS06:PS-DCLink-AS2
@@ -42,13 +34,92 @@ TB-04:PS-CV-1   LA-RaPS06:PS-DCLink-AS2
 TB-04:PS-CV-2   LA-RaPS06:PS-DCLink-AS2
 
 
-# TS transport line
-# -----------------
+# ______ BO ______
 
-# --- Dipole ---
+# --- BO Dipoles ---
+BO-Fam:PS-B-1   PA-RaPSE01:PS-DCLink-BO PA-RaPSE02:PS-DCLink-BO PA-RaPSE03:PS-DCLink-BO PA-RaPSE04:PS-DCLink-BO PA-RaPSE06:PS-DCLink-BO PA-RaPSE07:PS-DCLink-BO PA-RaPSE08:PS-DCLink-BO PA-RaPSE09:PS-DCLink-BO
+BO-Fam:PS-B-2   PA-RaPSF01:PS-DCLink-BO PA-RaPSF02:PS-DCLink-BO PA-RaPSF03:PS-DCLink-BO PA-RaPSF04:PS-DCLink-BO PA-RaPSF06:PS-DCLink-BO PA-RaPSF07:PS-DCLink-BO PA-RaPSF08:PS-DCLink-BO PA-RaPSF09:PS-DCLink-BO
+
+# --- BO Quadrupoles ---
+BO-Fam:PS-QD    None
+BO-Fam:PS-QF    PA-RaPSC03:PS-DCLink-BO1 PA-RaPSC03:PS-DCLink-BO2
+
+# --- BO Sextupoles ---
+BO-Fam:PS-SD    None
+BO-Fam:PS-SF    None
+
+# --- BO Correctors and skew quadrupole ---
+BO-01U:PS-CH    IA-01RaPS01:PS-DCLink-AS
+BO-01U:PS-CV    IA-01RaPS01:PS-DCLink-AS
+BO-02D:PS-QS    IA-01RaPS01:PS-DCLink-AS
+
+BO-03U:PS-CH    IA-02RaPS01:PS-DCLink-AS
+BO-03U:PS-CV    IA-02RaPS01:PS-DCLink-AS
+BO-05U:PS-CH    IA-02RaPS01:PS-DCLink-AS
+BO-05U:PS-CV    IA-02RaPS01:PS-DCLink-AS
+
+BO-07U:PS-CH    IA-04RaPS01:PS-DCLink-AS
+BO-07U:PS-CV    IA-04RaPS01:PS-DCLink-AS
+BO-09U:PS-CH    IA-04RaPS01:PS-DCLink-AS
+BO-09U:PS-CV    IA-04RaPS01:PS-DCLink-AS
+
+BO-11U:PS-CH    IA-05RaPS01:PS-DCLink-AS
+BO-11U:PS-CV    IA-05RaPS01:PS-DCLink-AS
+BO-13U:PS-CH    IA-05RaPS01:PS-DCLink-AS
+BO-13U:PS-CV    IA-05RaPS01:PS-DCLink-AS
+
+BO-15U:PS-CH    IA-07RaPS01:PS-DCLink-AS
+BO-15U:PS-CV    IA-07RaPS01:PS-DCLink-AS
+BO-17U:PS-CH    IA-07RaPS01:PS-DCLink-AS
+BO-17U:PS-CV    IA-07RaPS01:PS-DCLink-AS
+
+BO-19U:PS-CH    IA-08RaPS01:PS-DCLink-AS
+BO-19U:PS-CV    IA-08RaPS01:PS-DCLink-AS
+BO-21U:PS-CH    IA-08RaPS01:PS-DCLink-AS
+BO-21U:PS-CV    IA-08RaPS01:PS-DCLink-AS
+
+BO-23U:PS-CH    IA-10RaPS01:PS-DCLink-AS
+BO-23U:PS-CV    IA-10RaPS01:PS-DCLink-AS
+BO-25U:PS-CH    IA-10RaPS01:PS-DCLink-AS
+BO-25U:PS-CV    IA-10RaPS01:PS-DCLink-AS
+
+BO-27U:PS-CH    IA-11RaPS01:PS-DCLink-AS
+BO-27U:PS-CV    IA-11RaPS01:PS-DCLink-AS
+BO-29U:PS-CH    IA-11RaPS01:PS-DCLink-AS
+BO-29U:PS-CV    IA-11RaPS01:PS-DCLink-AS
+
+BO-31U:PS-CH    IA-13RaPS01:PS-DCLink-AS
+BO-31U:PS-CV    IA-13RaPS01:PS-DCLink-AS
+BO-33U:PS-CH    IA-13RaPS01:PS-DCLink-AS
+BO-33U:PS-CV    IA-13RaPS01:PS-DCLink-AS
+
+BO-35U:PS-CH    IA-14RaPS01:PS-DCLink-AS
+BO-35U:PS-CV    IA-14RaPS01:PS-DCLink-AS
+BO-37U:PS-CH    IA-14RaPS01:PS-DCLink-AS
+BO-37U:PS-CV    IA-14RaPS01:PS-DCLink-AS
+
+BO-39U:PS-CH    IA-16RaPS01:PS-DCLink-AS
+BO-39U:PS-CV    IA-16RaPS01:PS-DCLink-AS
+BO-41U:PS-CH    IA-16RaPS01:PS-DCLink-AS
+BO-41U:PS-CV    IA-16RaPS01:PS-DCLink-AS
+
+BO-43U:PS-CH    IA-17RaPS01:PS-DCLink-AS
+BO-43U:PS-CV    IA-17RaPS01:PS-DCLink-AS
+BO-45U:PS-CH    IA-17RaPS01:PS-DCLink-AS
+BO-45U:PS-CV    IA-17RaPS01:PS-DCLink-AS
+
+BO-47U:PS-CH    IA-20RaPS01:PS-DCLink-AS
+BO-47U:PS-CV    IA-20RaPS01:PS-DCLink-AS
+BO-49D:PS-CH    IA-20RaPS01:PS-DCLink-AS
+BO-49U:PS-CV    IA-20RaPS01:PS-DCLink-AS
+
+
+# ______ TS ______
+
+# --- TS Dipole ---
 TS-Fam:PS-B     None
 
-# --- Quadrupoles ---
+# --- TS Quadrupoles ---
 TS-01:PS-QF1A   None
 TS-01:PS-QF1B   None
 TS-02:PS-QF2    None
@@ -58,7 +129,7 @@ TS-04:PS-QF4    None
 TS-04:PS-QD4A   None
 TS-04:PS-QD4B   None
 
-# --- Correctors ---
+# --- TS Correctors ---
 TS-01:PS-CH     AS-Glob:PS-DCLinkFBP-1
 TS-01:PS-CV-1   AS-Glob:PS-DCLinkFBP-1
 TS-01:PS-CV-2   AS-Glob:PS-DCLinkFBP-1
@@ -70,84 +141,46 @@ TS-04:PS-CH     AS-Glob:PS-DCLinkFBP-1
 TS-04:PS-CV-1   AS-Glob:PS-DCLinkFBP-1
 TS-04:PS-CV-2   AS-Glob:PS-DCLinkFBP-1
 
-# BO accelerator
-# --------------
 
-# --- Dipoles ---
-BO-Fam:PS-B-1   PA-RaPSE01:PS-DCLink-BO PA-RaPSE02:PS-DCLink-BO PA-RaPSE03:PS-DCLink-BO PA-RaPSE04:PS-DCLink-BO PA-RaPSE06:PS-DCLink-BO PA-RaPSE07:PS-DCLink-BO PA-RaPSE08:PS-DCLink-BO PA-RaPSE09:PS-DCLink-BO
-BO-Fam:PS-B-2   PA-RaPSF01:PS-DCLink-BO PA-RaPSF02:PS-DCLink-BO PA-RaPSF03:PS-DCLink-BO PA-RaPSF04:PS-DCLink-BO PA-RaPSF06:PS-DCLink-BO PA-RaPSF07:PS-DCLink-BO PA-RaPSF08:PS-DCLink-BO PA-RaPSF09:PS-DCLink-BO
+# ______ SI ______
 
-# --- Quadrupoles ---
-BO-Fam:PS-QD    None
-BO-Fam:PS-QF    PA-RaPSC03:PS-DCLink-BO1 PA-RaPSC03:PS-DCLink-BO2
+# --- SI Dipoles ---
+SI-Fam:PS-B1B2-1   None
+SI-Fam:PS-B1B2-2   None
 
-# --- Sextupoles ---
-BO-Fam:PS-SD    None
-BO-Fam:PS-SF    None
+# --- SI Quadrupoles ---
+SI-Fam:PS-Q1       None
+SI-Fam:PS-Q2       None
+SI-Fam:PS-Q3       None
+SI-Fam:PS-Q4       None
+SI-Fam:PS-QDA      None
+SI-Fam:PS-QDB1     None
+SI-Fam:PS-QDB2     None
+SI-Fam:PS-QDP1     None
+SI-Fam:PS-QDP2     None
+SI-Fam:PS-QFA      None
+SI-Fam:PS-QFB      None
+SI-Fam:PS-QFP      None
 
-
-# --- Correctors and skew quadrupole ---
-
-BO-01U:PS-CH    IA-01RaCtrl:PS-DCLink-AS1
-BO-01U:PS-CV    IA-01RaCtrl:PS-DCLink-AS1
-BO-02D:PS-QS    IA-01RaCtrl:PS-DCLink-AS1
-
-BO-03U:PS-CH    IA-02RaCtrl:PS-DCLink-AS1
-BO-03U:PS-CV    IA-02RaCtrl:PS-DCLink-AS1
-BO-05U:PS-CH    IA-02RaCtrl:PS-DCLink-AS1
-BO-05U:PS-CV    IA-02RaCtrl:PS-DCLink-AS1
-
-BO-07U:PS-CH    IA-04RaCtrl:PS-DCLink-AS1
-BO-07U:PS-CV    IA-04RaCtrl:PS-DCLink-AS1
-BO-09U:PS-CH    IA-04RaCtrl:PS-DCLink-AS1
-BO-09U:PS-CV    IA-04RaCtrl:PS-DCLink-AS1
-
-BO-11U:PS-CH    IA-05RaCtrl:PS-DCLink-AS1
-BO-11U:PS-CV    IA-05RaCtrl:PS-DCLink-AS1
-BO-13U:PS-CH    IA-05RaCtrl:PS-DCLink-AS1
-BO-13U:PS-CV    IA-05RaCtrl:PS-DCLink-AS1
-
-BO-15U:PS-CH    IA-07RaCtrl:PS-DCLink-AS1
-BO-15U:PS-CV    IA-07RaCtrl:PS-DCLink-AS1
-BO-17U:PS-CH    IA-07RaCtrl:PS-DCLink-AS1
-BO-17U:PS-CV    IA-07RaCtrl:PS-DCLink-AS1
-
-BO-19U:PS-CH    IA-08RaCtrl:PS-DCLink-AS1
-BO-19U:PS-CV    IA-08RaCtrl:PS-DCLink-AS1
-BO-21U:PS-CH    IA-08RaCtrl:PS-DCLink-AS1
-BO-21U:PS-CV    IA-08RaCtrl:PS-DCLink-AS1
-
-BO-23U:PS-CH    IA-10RaCtrl:PS-DCLink-AS1
-BO-23U:PS-CV    IA-10RaCtrl:PS-DCLink-AS1
-BO-25U:PS-CH    IA-10RaCtrl:PS-DCLink-AS1
-BO-25U:PS-CV    IA-10RaCtrl:PS-DCLink-AS1
-
-BO-27U:PS-CH    IA-11RaCtrl:PS-DCLink-AS1
-BO-27U:PS-CV    IA-11RaCtrl:PS-DCLink-AS1
-BO-29U:PS-CH    IA-11RaCtrl:PS-DCLink-AS1
-BO-29U:PS-CV    IA-11RaCtrl:PS-DCLink-AS1
-
-BO-31U:PS-CH    IA-13RaCtrl:PS-DCLink-AS1
-BO-31U:PS-CV    IA-13RaCtrl:PS-DCLink-AS1
-BO-33U:PS-CH    IA-13RaCtrl:PS-DCLink-AS1
-BO-33U:PS-CV    IA-13RaCtrl:PS-DCLink-AS1
-
-BO-35U:PS-CH    IA-14RaCtrl:PS-DCLink-AS1
-BO-35U:PS-CV    IA-14RaCtrl:PS-DCLink-AS1
-BO-37U:PS-CH    IA-14RaCtrl:PS-DCLink-AS1
-BO-37U:PS-CV    IA-14RaCtrl:PS-DCLink-AS1
-
-BO-39U:PS-CH    IA-16RaCtrl:PS-DCLink-AS1
-BO-39U:PS-CV    IA-16RaCtrl:PS-DCLink-AS1
-BO-41U:PS-CH    IA-16RaCtrl:PS-DCLink-AS1
-BO-41U:PS-CV    IA-16RaCtrl:PS-DCLink-AS1
-
-BO-43U:PS-CH    IA-17RaCtrl:PS-DCLink-AS1
-BO-43U:PS-CV    IA-17RaCtrl:PS-DCLink-AS1
-BO-45U:PS-CH    IA-17RaCtrl:PS-DCLink-AS1
-BO-45U:PS-CV    IA-17RaCtrl:PS-DCLink-AS1
-
-BO-47U:PS-CH    IA-20RaCtrl:PS-DCLink-AS1
-BO-47U:PS-CV    IA-20RaCtrl:PS-DCLink-AS1
-BO-49D:PS-CH    IA-20RaCtrl:PS-DCLink-AS1
-BO-49U:PS-CV    IA-20RaCtrl:PS-DCLink-AS1
+# --- SI Sextupoles ---
+SI-Fam:PS-SDA0     None
+SI-Fam:PS-SDA1     None
+SI-Fam:PS-SDA2     None
+SI-Fam:PS-SDA3     None
+SI-Fam:PS-SDB0     None
+SI-Fam:PS-SDB1     None
+SI-Fam:PS-SDB2     None
+SI-Fam:PS-SDB3     None
+SI-Fam:PS-SDP0     None
+SI-Fam:PS-SDP1     None
+SI-Fam:PS-SDP2     None
+SI-Fam:PS-SDP3     None
+SI-Fam:PS-SFA0     None
+SI-Fam:PS-SFA1     None
+SI-Fam:PS-SFA2     None
+SI-Fam:PS-SFB0     None
+SI-Fam:PS-SFB1     None
+SI-Fam:PS-SFB2     None
+SI-Fam:PS-SFP0     None
+SI-Fam:PS-SFP1     None
+SI-Fam:PS-SFP2     None
