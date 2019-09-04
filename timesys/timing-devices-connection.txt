@@ -168,9 +168,9 @@ IA-01RaInj05:TI-EVR:OUT4            IA-20RaInj03:TI-OEMultSFP:OE3
 LA-RaCtrl:TI-EVR:OTP0               LA-RaPS02:CO-PSCtrl-TB:TIMIN
 LA-RaCtrl:TI-EVR:OTP1               LA-RaCtrl:CO-PSCtrl-TB1:TIMIN
 LA-RaCtrl:TI-EVR:OTP2               LA-RaCtrl:CO-PSCtrl-TB2:TIMIN
-LA-RaCtrl:TI-EVR:OTP3               LA-RaPS02:CO-PSCtrl-TS:TIMIN
-LA-RaCtrl:TI-EVR:OTP4               LA-RaPS04:CO-PSCtrl-TS1:TIMIN
-LA-RaCtrl:TI-EVR:OTP5               LA-RaPS04:CO-PSCtrl-TS2:TIMIN
+LA-RaCtrl:TI-EVR:OTP3               LA-RaPS02:CO-PSCtrl-TS1:TIMIN
+LA-RaCtrl:TI-EVR:OTP4               LA-RaPS02:CO-PSCtrl-TS2:TIMIN
+LA-RaCtrl:TI-EVR:OTP5               LA-RaPS04:CO-PSCtrl-TS:TIMIN
 LA-RaCtrl:TI-EVR:OTP6               LA-RaCtrl:CO-PSCtrl-TS:TIMIN
 PA-RaCtrl:TI-EVR-1:OTP0             PA-RaPSE05:CO-PSCtrl-BO:TIMIN
 PA-RaCtrl:TI-EVR-1:OTP1             PA-RaPSF05:CO-PSCtrl-BO:TIMIN

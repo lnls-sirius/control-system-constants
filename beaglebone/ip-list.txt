@@ -45,11 +45,11 @@ IA-20RaCtrl:CO-PSCtrl-BO    10.128.120.105
 # ______ TS ______
 
 # --- TS Dipole ---
-LA-RaPS02:CO-PSCtrl-TS      10.128.121.106
+LA-RaPS02:CO-PSCtrl-TS1      10.128.121.106
 
 # --- TS Quads ---
-LA-RaPS04:CO-PSCtrl-TS1     10.128.121.107
-LA-RaPS04:CO-PSCtrl-TS2     10.128.121.108
+LA-RaPS02:CO-PSCtrl-TS2     10.128.121.107
+LA-RaPS04:CO-PSCtrl-TS      10.128.121.108
 
 # --- TS Correctors ---
 LA-RaCtrl:CO-PSCtrl-TS      10.128.121.105
