@@ -1410,7 +1410,8 @@
         },
     'AS-Glob:TI-BPM-TBTS': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigTB', 'DigTS', 'Study')},
+            'Src': {'value': 0, 'enums': (
+                'InjBO', 'InjSI', 'DigTB', 'DigTS', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1430,7 +1431,8 @@
         },
     'AS-Glob:TI-BPM-SIBO': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigBO', 'DigSI', 'RmpBO', 'Study')},
+            'Src': {'value': 0, 'enums': (
+                'DigBO', 'DigSI', 'InjBO', 'InjSI',  'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
