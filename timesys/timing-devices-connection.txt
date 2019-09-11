@@ -10,131 +10,131 @@
 
 
 
-# 432
-RA-RaMO:TI-EVG:OUT0                 RA-RaMO:CO-FibPatch:P074
-RA-RaMO:TI-EVG:OUT1                 RA-RaMO:CO-FibPatch:P075
-RA-RaMO:TI-EVG:OUT2                 RA-RaMO:CO-FibPatch:P076
-RA-RaMO:TI-EVG:OUT3                 RA-RaMO:CO-FibPatch:P077
-RA-RaMO:TI-EVG:OUT4                 RA-RaMO:CO-FibPatch:P078
-RA-RaMO:TI-EVG:OUT5                 RA-RaMO:TI-Fout:UPLINK
-RA-RaMO:CO-FibPatch:P074            CA-RaCtrl:CO-FibPatch:P074
-RA-RaMO:CO-FibPatch:P075            CA-RaCtrl:CO-FibPatch:P075
-RA-RaMO:CO-FibPatch:P076            CA-RaCtrl:CO-FibPatch:P076
-RA-RaMO:CO-FibPatch:P077            CA-RaCtrl:CO-FibPatch:P077
-RA-RaMO:CO-FibPatch:P078            CA-RaCtrl:CO-FibPatch:P078
-RA-RaMO:TI-Fout:OUT0                RA-RaMO:CO-FibPatch:P071
-RA-RaMO:TI-Fout:OUT1                RA-RaMO:CO-FibPatch:P044
-RA-RaMO:TI-Fout:OUT2                RA-RaMO:CO-FibPatch:P045
-CA-RaCtrl:CO-FibPatch:P074          CA-RaCtrl:TI-Fout-1:UPLINK
-CA-RaCtrl:CO-FibPatch:P075          CA-RaCtrl:TI-Fout-2:UPLINK
-CA-RaCtrl:CO-FibPatch:P076          CA-RaCtrl:TI-Fout-3:UPLINK
-CA-RaCtrl:CO-FibPatch:P077          CA-RaCtrl:TI-Fout-4:UPLINK
-CA-RaCtrl:CO-FibPatch:P078          CA-RaCtrl:TI-Fout-5:UPLINK
-RA-RaMO:CO-FibPatch:P071            RA-RaBO01:TI-EVE:UPLINK
-RA-RaMO:CO-FibPatch:P044            RA-RaSIA01:TI-EVE:UPLINK
-RA-RaMO:CO-FibPatch:P045            RA-RaSIB01:TI-EVE:UPLINK
-CA-RaCtrl:TI-Fout-1:OUT0            CA-RaCtrl:CO-FibPatch:P072
-CA-RaCtrl:TI-Fout-1:OUT1            CA-RaCtrl:CO-FibPatch:P043
-CA-RaCtrl:TI-Fout-1:OUT2            CA-RaCtrl:CO-FibPatch:P073
-CA-RaCtrl:TI-Fout-1:OUT3            CA-RaCtrl:CO-FibPatch:P027B
-CA-RaCtrl:TI-Fout-1:OUT4            CA-RaCtrl:CO-FibPatch:P051
-CA-RaCtrl:TI-Fout-1:OUT5            CA-RaCtrl:CO-FibPatch:P046
-CA-RaCtrl:TI-Fout-2:OUT2            CA-RaCtrl:CO-FibPatch:P047
-CA-RaCtrl:TI-Fout-2:OUT3            CA-RaCtrl:CO-FibPatch:P048
-CA-RaCtrl:TI-Fout-2:OUT4            CA-RaCtrl:CO-FibPatch:P049
-CA-RaCtrl:TI-Fout-2:OUT5            CA-RaCtrl:CO-FibPatch:P050
-CA-RaCtrl:TI-Fout-2:OUT6            CA-RaCtrl:CO-FibPatch:P052
-CA-RaCtrl:TI-Fout-3:OUT0            CA-RaCtrl:CO-FibPatch:P002
-CA-RaCtrl:TI-Fout-3:OUT1            CA-RaCtrl:CO-FibPatch:P024
-CA-RaCtrl:TI-Fout-3:OUT2            CA-RaCtrl:CO-FibPatch:P029
-CA-RaCtrl:TI-Fout-3:OUT3            CA-RaCtrl:CO-FibPatch:P031
-CA-RaCtrl:TI-Fout-3:OUT4            CA-RaCtrl:CO-FibPatch:P033
-CA-RaCtrl:TI-Fout-3:OUT5            CA-RaCtrl:CO-FibPatch:P035
-CA-RaCtrl:TI-Fout-3:OUT6            CA-RaCtrl:CO-FibPatch:P037
-CA-RaCtrl:TI-Fout-4:OUT0            CA-RaCtrl:CO-FibPatch:P039
-CA-RaCtrl:TI-Fout-4:OUT1            CA-RaCtrl:CO-FibPatch:P041
-CA-RaCtrl:TI-Fout-4:OUT2            CA-RaCtrl:CO-FibPatch:P004
-CA-RaCtrl:TI-Fout-4:OUT3            CA-RaCtrl:CO-FibPatch:P006
-CA-RaCtrl:TI-Fout-4:OUT4            CA-RaCtrl:CO-FibPatch:P008
-CA-RaCtrl:TI-Fout-4:OUT5            CA-RaCtrl:CO-FibPatch:P010
-CA-RaCtrl:TI-Fout-4:OUT6            CA-RaCtrl:CO-FibPatch:P012
-CA-RaCtrl:TI-Fout-5:OUT0            CA-RaCtrl:CO-FibPatch:P014
-CA-RaCtrl:TI-Fout-5:OUT1            CA-RaCtrl:CO-FibPatch:P016
-CA-RaCtrl:TI-Fout-5:OUT2            CA-RaCtrl:CO-FibPatch:P018
-CA-RaCtrl:TI-Fout-5:OUT3            CA-RaCtrl:CO-FibPatch:P020
-CA-RaCtrl:TI-Fout-5:OUT4            CA-RaCtrl:CO-FibPatch:P022
-CA-RaCtrl:TI-Fout-5:OUT5            CA-RaCtrl:CO-FibPatch:P026
-CA-RaCtrl:TI-Fout-5:OUT6            CA-RaCtrl:CO-FibPatch:P027
+# 442
+AS-RaMO:TI-EVG:OUT0                 RA-RaMO:CO-DIO:P074
+AS-RaMO:TI-EVG:OUT1                 RA-RaMO:CO-DIO:P075
+AS-RaMO:TI-EVG:OUT2                 RA-RaMO:CO-DIO:P076
+AS-RaMO:TI-EVG:OUT3                 RA-RaMO:CO-DIO:P077
+AS-RaMO:TI-EVG:OUT4                 RA-RaMO:CO-DIO:P078
+AS-RaMO:TI-EVG:OUT5                 RA-RaMO:TI-Fout:UPLINK
+RA-RaMO:CO-DIO:P074                 CA-RaCtrl:CO-DIO:P074
+RA-RaMO:CO-DIO:P075                 CA-RaCtrl:CO-DIO:P075
+RA-RaMO:CO-DIO:P076                 CA-RaCtrl:CO-DIO:P076
+RA-RaMO:CO-DIO:P077                 CA-RaCtrl:CO-DIO:P077
+RA-RaMO:CO-DIO:P078                 CA-RaCtrl:CO-DIO:P078
+RA-RaMO:TI-Fout:OUT0                RA-RaMO:CO-DIO:P071
+RA-RaMO:TI-Fout:OUT1                RA-RaMO:CO-DIO:P044
+RA-RaMO:TI-Fout:OUT2                RA-RaMO:CO-DIO:P045
+CA-RaCtrl:CO-DIO:P074               CA-RaTim:TI-Fout-1:UPLINK
+CA-RaCtrl:CO-DIO:P075               CA-RaTim:TI-Fout-2:UPLINK
+CA-RaCtrl:CO-DIO:P076               CA-RaTim:TI-Fout-3:UPLINK
+CA-RaCtrl:CO-DIO:P077               CA-RaTim:TI-Fout-4:UPLINK
+CA-RaCtrl:CO-DIO:P078               CA-RaTim:TI-Fout-5:UPLINK
+RA-RaMO:CO-DIO:P071                 RA-RaBO01:TI-EVE:UPLINK
+RA-RaMO:CO-DIO:P044                 RA-RaSIA01:TI-EVE:UPLINK
+RA-RaMO:CO-DIO:P045                 RA-RaSIB01:TI-EVE:UPLINK
+CA-RaTim:TI-Fout-1:OUT0             CA-RaCtrl:CO-DIO:P072
+CA-RaTim:TI-Fout-1:OUT1             CA-RaCtrl:CO-DIO:P043
+CA-RaTim:TI-Fout-1:OUT2             CA-RaCtrl:CO-DIO:P073
+CA-RaTim:TI-Fout-1:OUT3             CA-RaCtrl:CO-DIO:P027B
+CA-RaTim:TI-Fout-1:OUT4             CA-RaCtrl:CO-DIO:P051
+CA-RaTim:TI-Fout-1:OUT5             CA-RaCtrl:CO-DIO:P046
+CA-RaTim:TI-Fout-2:OUT2             CA-RaCtrl:CO-DIO:P047
+CA-RaTim:TI-Fout-2:OUT3             CA-RaCtrl:CO-DIO:P048
+CA-RaTim:TI-Fout-2:OUT4             CA-RaCtrl:CO-DIO:P049
+CA-RaTim:TI-Fout-2:OUT5             CA-RaCtrl:CO-DIO:P050
+CA-RaTim:TI-Fout-2:OUT6             CA-RaCtrl:CO-DIO:P052
+CA-RaTim:TI-Fout-3:OUT0             CA-RaCtrl:CO-DIO:P002
+CA-RaTim:TI-Fout-3:OUT1             CA-RaCtrl:CO-DIO:P024
+CA-RaTim:TI-Fout-3:OUT2             CA-RaCtrl:CO-DIO:P029
+CA-RaTim:TI-Fout-3:OUT3             CA-RaCtrl:CO-DIO:P031
+CA-RaTim:TI-Fout-3:OUT4             CA-RaCtrl:CO-DIO:P033
+CA-RaTim:TI-Fout-3:OUT5             CA-RaCtrl:CO-DIO:P035
+CA-RaTim:TI-Fout-3:OUT6             CA-RaCtrl:CO-DIO:P037
+CA-RaTim:TI-Fout-4:OUT0             CA-RaCtrl:CO-DIO:P039
+CA-RaTim:TI-Fout-4:OUT1             CA-RaCtrl:CO-DIO:P041
+CA-RaTim:TI-Fout-4:OUT2             CA-RaCtrl:CO-DIO:P004
+CA-RaTim:TI-Fout-4:OUT3             CA-RaCtrl:CO-DIO:P006
+CA-RaTim:TI-Fout-4:OUT4             CA-RaCtrl:CO-DIO:P008
+CA-RaTim:TI-Fout-4:OUT5             CA-RaCtrl:CO-DIO:P010
+CA-RaTim:TI-Fout-4:OUT6             CA-RaCtrl:CO-DIO:P012
+CA-RaTim:TI-Fout-5:OUT0             CA-RaCtrl:CO-DIO:P014
+CA-RaTim:TI-Fout-5:OUT1             CA-RaCtrl:CO-DIO:P016
+CA-RaTim:TI-Fout-5:OUT2             CA-RaCtrl:CO-DIO:P018
+CA-RaTim:TI-Fout-5:OUT3             CA-RaCtrl:CO-DIO:P020
+CA-RaTim:TI-Fout-5:OUT4             CA-RaCtrl:CO-DIO:P022
+CA-RaTim:TI-Fout-5:OUT5             CA-RaCtrl:CO-DIO:P026
+CA-RaTim:TI-Fout-5:OUT6             CA-RaCtrl:CO-DIO:P027
 RA-RaBO01:TI-EVE:OUT0               RA-RaBO01:RF-DigPatch:RAMPA
 RA-RaBO01:TI-EVE:OUT1               RA-RaBO01:RF-DigPatch:POSTMORTEN
 RA-RaSIA01:TI-EVE:OUT0              RA-RaSIA01:RF-DigPatch:RAMPA
 RA-RaSIA01:TI-EVE:OUT1              RA-RaSIA01:RF-DigPatch:POSTMORTEN
 RA-RaSIB01:TI-EVE:OUT0              RA-RaSIB01:RF-DigPatch:RAMPA
 RA-RaSIB01:TI-EVE:OUT1              RA-RaSIB01:RF-DigPatch:POSTMORTEN
-CA-RaCtrl:CO-FibPatch:P072          LA-RFH01RACK2:CO-FibPatch:P072
-CA-RaCtrl:CO-FibPatch:P043          LA-BIH01RACK2:CO-FibPatch:P043
-CA-RaCtrl:CO-FibPatch:P073          IA-01RaCtrl:CO-FibPatch:P073
-CA-RaCtrl:CO-FibPatch:P027B         LA-RaCtrl:CO-FibPatch:P027B
-CA-RaCtrl:CO-FibPatch:P051          PA-RaCtrl:CO-FibPatch:P051
-CA-RaCtrl:CO-FibPatch:P046          PA-RaCtrl:CO-FibPatch:P046
-CA-RaCtrl:CO-FibPatch:P047          IA-20RaCtrl:CO-FibPatch:P047
-CA-RaCtrl:CO-FibPatch:P048          IA-00RaCtrl:CO-FibPatch:P048
-CA-RaCtrl:CO-FibPatch:P049          IA-16RaCtrl:CO-FibPatch:P049
-CA-RaCtrl:CO-FibPatch:P050          IA-18RaCtrl:CO-FibPatch:P050
-CA-RaCtrl:CO-FibPatch:P052          IA-14RaCtrl:CO-FibPatch:P052
-CA-RaCtrl:CO-FibPatch:P002          IA-01RaCtrl:CO-FibPatch:P002
-CA-RaCtrl:CO-FibPatch:P024          IA-02RaCtrl:CO-FibPatch:P024
-CA-RaCtrl:CO-FibPatch:P029          IA-03RaCtrl:CO-FibPatch:P029
-CA-RaCtrl:CO-FibPatch:P031          IA-04RaCtrl:CO-FibPatch:P031
-CA-RaCtrl:CO-FibPatch:P033          IA-05RaCtrl:CO-FibPatch:P033
-CA-RaCtrl:CO-FibPatch:P035          IA-06RaCtrl:CO-FibPatch:P035
-CA-RaCtrl:CO-FibPatch:P037          IA-07RaCtrl:CO-FibPatch:P037
-CA-RaCtrl:CO-FibPatch:P039          IA-08RaCtrl:CO-FibPatch:P039
-CA-RaCtrl:CO-FibPatch:P041          IA-09RaCtrl:CO-FibPatch:P041
-CA-RaCtrl:CO-FibPatch:P004          IA-10RaCtrl:CO-FibPatch:P004
-CA-RaCtrl:CO-FibPatch:P006          IA-11RaCtrl:CO-FibPatch:P006
-CA-RaCtrl:CO-FibPatch:P008          IA-12RaCtrl:CO-FibPatch:P008
-CA-RaCtrl:CO-FibPatch:P010          IA-13RaCtrl:CO-FibPatch:P010
-CA-RaCtrl:CO-FibPatch:P012          IA-14RaCtrl:CO-FibPatch:P012
-CA-RaCtrl:CO-FibPatch:P014          IA-15RaCtrl:CO-FibPatch:P014
-CA-RaCtrl:CO-FibPatch:P016          IA-16RaCtrl:CO-FibPatch:P016
-CA-RaCtrl:CO-FibPatch:P018          IA-17RaCtrl:CO-FibPatch:P018
-CA-RaCtrl:CO-FibPatch:P020          IA-18RaCtrl:CO-FibPatch:P020
-CA-RaCtrl:CO-FibPatch:P022          IA-19RaCtrl:CO-FibPatch:P022
-CA-RaCtrl:CO-FibPatch:P026          IA-20RaCtrl:CO-FibPatch:P026
-CA-RaCtrl:CO-FibPatch:P027          IA-20RaCtrl:CO-FibPatch:P027
-LA-RFH01RACK2:CO-FibPatch:P072      LA-RFH01RACK2:TI-EVR:UPLINK
-LA-BIH01RACK2:CO-FibPatch:P043      LA-BIH01RACK2:TI-EVE:UPLINK
-IA-01RaCtrl:CO-FibPatch:P073        IA-01RaInj05:TI-EVR:UPLINK
-LA-RaCtrl:CO-FibPatch:P027B         LA-RaCtrl:TI-EVR:UPLINK
-PA-RaCtrl:CO-FibPatch:P051          PA-RaCtrl:TI-EVR-1:UPLINK
-PA-RaCtrl:CO-FibPatch:P046          PA-RaCtrl:TI-EVR-2:UPLINK
-IA-20RaCtrl:CO-FibPatch:P047        IA-20RaDiag01:TI-EVR:UPLINK
-IA-00RaCtrl:CO-FibPatch:P048        IA-00RaCtrl:TI-EVE:UPLINK
-IA-16RaCtrl:CO-FibPatch:P049        IA-16RaBbB:TI-EVE:UPLINK
-IA-18RaCtrl:CO-FibPatch:P050        IA-18RaDiag04:TI-EVE:UPLINK
-IA-14RaCtrl:CO-FibPatch:P052        IA-14RaDiag03:TI-EVE:UPLINK
-IA-01RaCtrl:CO-FibPatch:P002        IA-01RaBPM:TI-AMCFPGAEVR:SFP8
-IA-02RaCtrl:CO-FibPatch:P024        IA-02RaBPM:TI-AMCFPGAEVR:SFP8
-IA-03RaCtrl:CO-FibPatch:P029        IA-03RaBPM:TI-AMCFPGAEVR:SFP8
-IA-04RaCtrl:CO-FibPatch:P031        IA-04RaBPM:TI-AMCFPGAEVR:SFP8
-IA-05RaCtrl:CO-FibPatch:P033        IA-05RaBPM:TI-AMCFPGAEVR:SFP8
-IA-06RaCtrl:CO-FibPatch:P035        IA-06RaBPM:TI-AMCFPGAEVR:SFP8
-IA-07RaCtrl:CO-FibPatch:P037        IA-07RaBPM:TI-AMCFPGAEVR:SFP8
-IA-08RaCtrl:CO-FibPatch:P039        IA-08RaBPM:TI-AMCFPGAEVR:SFP8
-IA-09RaCtrl:CO-FibPatch:P041        IA-09RaBPM:TI-AMCFPGAEVR:SFP8
-IA-10RaCtrl:CO-FibPatch:P004        IA-10RaBPM:TI-AMCFPGAEVR:SFP8
-IA-11RaCtrl:CO-FibPatch:P006        IA-11RaBPM:TI-AMCFPGAEVR:SFP8
-IA-12RaCtrl:CO-FibPatch:P008        IA-12RaBPM:TI-AMCFPGAEVR:SFP8
-IA-13RaCtrl:CO-FibPatch:P010        IA-13RaBPM:TI-AMCFPGAEVR:SFP8
-IA-14RaCtrl:CO-FibPatch:P012        IA-14RaBPM:TI-AMCFPGAEVR:SFP8
-IA-15RaCtrl:CO-FibPatch:P014        IA-15RaBPM:TI-AMCFPGAEVR:SFP8
-IA-16RaCtrl:CO-FibPatch:P016        IA-16RaBPM:TI-AMCFPGAEVR:SFP8
-IA-17RaCtrl:CO-FibPatch:P018        IA-17RaBPM:TI-AMCFPGAEVR:SFP8
-IA-18RaCtrl:CO-FibPatch:P020        IA-18RaBPM:TI-AMCFPGAEVR:SFP8
-IA-19RaCtrl:CO-FibPatch:P022        IA-19RaBPM:TI-AMCFPGAEVR:SFP8
-IA-20RaCtrl:CO-FibPatch:P026        IA-20RaBPM:TI-AMCFPGAEVR:SFP8
-IA-20RaCtrl:CO-FibPatch:P027        IA-20RaBPMTL:TI-AMCFPGAEVR:SFP8
+CA-RaCtrl:CO-DIO:P072               LA-RFH01RACK2:CO-DIO:P072
+CA-RaCtrl:CO-DIO:P043               LA-BIH01RACK2:CO-DIO:P043
+CA-RaCtrl:CO-DIO:P073               IA-01RaCtrl:CO-DIO:P073
+CA-RaCtrl:CO-DIO:P027B              LA-RaCtrl:CO-DIO:P027B
+CA-RaCtrl:CO-DIO:P051               PA-RaCtrl:CO-DIO:P051
+CA-RaCtrl:CO-DIO:P046               PA-RaCtrl:CO-DIO:P046
+CA-RaCtrl:CO-DIO:P047               IA-20RaCtrl:CO-DIO:P047
+CA-RaCtrl:CO-DIO:P048               BA-01B1RaCtrl:CO-DIO:P048
+CA-RaCtrl:CO-DIO:P049               IA-16RaCtrl:CO-DIO:P049
+CA-RaCtrl:CO-DIO:P050               IA-18RaCtrl:CO-DIO:P050
+CA-RaCtrl:CO-DIO:P052               IA-14RaCtrl:CO-DIO:P052
+CA-RaCtrl:CO-DIO:P002               IA-01RaCtrl:CO-DIO:P002
+CA-RaCtrl:CO-DIO:P024               IA-02RaCtrl:CO-DIO:P024
+CA-RaCtrl:CO-DIO:P029               IA-03RaCtrl:CO-DIO:P029
+CA-RaCtrl:CO-DIO:P031               IA-04RaCtrl:CO-DIO:P031
+CA-RaCtrl:CO-DIO:P033               IA-05RaCtrl:CO-DIO:P033
+CA-RaCtrl:CO-DIO:P035               IA-06RaCtrl:CO-DIO:P035
+CA-RaCtrl:CO-DIO:P037               IA-07RaCtrl:CO-DIO:P037
+CA-RaCtrl:CO-DIO:P039               IA-08RaCtrl:CO-DIO:P039
+CA-RaCtrl:CO-DIO:P041               IA-09RaCtrl:CO-DIO:P041
+CA-RaCtrl:CO-DIO:P004               IA-10RaCtrl:CO-DIO:P004
+CA-RaCtrl:CO-DIO:P006               IA-11RaCtrl:CO-DIO:P006
+CA-RaCtrl:CO-DIO:P008               IA-12RaCtrl:CO-DIO:P008
+CA-RaCtrl:CO-DIO:P010               IA-13RaCtrl:CO-DIO:P010
+CA-RaCtrl:CO-DIO:P012               IA-14RaCtrl:CO-DIO:P012
+CA-RaCtrl:CO-DIO:P014               IA-15RaCtrl:CO-DIO:P014
+CA-RaCtrl:CO-DIO:P016               IA-16RaCtrl:CO-DIO:P016
+CA-RaCtrl:CO-DIO:P018               IA-17RaCtrl:CO-DIO:P018
+CA-RaCtrl:CO-DIO:P020               IA-18RaCtrl:CO-DIO:P020
+CA-RaCtrl:CO-DIO:P022               IA-19RaCtrl:CO-DIO:P022
+CA-RaCtrl:CO-DIO:P026               IA-20RaCtrl:CO-DIO:P026
+CA-RaCtrl:CO-DIO:P027               IA-20RaCtrl:CO-DIO:P027
+LA-RFH01RACK2:CO-DIO:P072           LA-RFH01RACK2:TI-EVR:UPLINK
+LA-BIH01RACK2:CO-DIO:P043           LA-BIH01RACK2:TI-EVE:UPLINK
+IA-01RaCtrl:CO-DIO:P073             IA-01RaInj05:TI-EVR:UPLINK
+LA-RaCtrl:CO-DIO:P027B              LA-RaCtrl:TI-EVR:UPLINK
+PA-RaCtrl:CO-DIO:P051               PA-RaCtrl:TI-EVR-1:UPLINK
+PA-RaCtrl:CO-DIO:P046               PA-RaCtrl:TI-EVR-2:UPLINK
+IA-20RaCtrl:CO-DIO:P047             IA-20RaDiag01:TI-EVR:UPLINK
+BA-01B1RaCtrl:CO-DIO:P048           BA-01B1RaCtrl:TI-EVE:UPLINK
+IA-16RaCtrl:CO-DIO:P049             IA-16RaBbB:TI-EVE:UPLINK
+IA-18RaCtrl:CO-DIO:P050             IA-18RaDiag04:TI-EVE:UPLINK
+IA-14RaCtrl:CO-DIO:P052             IA-14RaDiag03:TI-EVE:UPLINK
+IA-01RaCtrl:CO-DIO:P002             IA-01RaBPM:TI-AMCFPGAEVR:SFP8
+IA-02RaCtrl:CO-DIO:P024             IA-02RaBPM:TI-AMCFPGAEVR:SFP8
+IA-03RaCtrl:CO-DIO:P029             IA-03RaBPM:TI-AMCFPGAEVR:SFP8
+IA-04RaCtrl:CO-DIO:P031             IA-04RaBPM:TI-AMCFPGAEVR:SFP8
+IA-05RaCtrl:CO-DIO:P033             IA-05RaBPM:TI-AMCFPGAEVR:SFP8
+IA-06RaCtrl:CO-DIO:P035             IA-06RaBPM:TI-AMCFPGAEVR:SFP8
+IA-07RaCtrl:CO-DIO:P037             IA-07RaBPM:TI-AMCFPGAEVR:SFP8
+IA-08RaCtrl:CO-DIO:P039             IA-08RaBPM:TI-AMCFPGAEVR:SFP8
+IA-09RaCtrl:CO-DIO:P041             IA-09RaBPM:TI-AMCFPGAEVR:SFP8
+IA-10RaCtrl:CO-DIO:P004             IA-10RaBPM:TI-AMCFPGAEVR:SFP8
+IA-11RaCtrl:CO-DIO:P006             IA-11RaBPM:TI-AMCFPGAEVR:SFP8
+IA-12RaCtrl:CO-DIO:P008             IA-12RaBPM:TI-AMCFPGAEVR:SFP8
+IA-13RaCtrl:CO-DIO:P010             IA-13RaBPM:TI-AMCFPGAEVR:SFP8
+IA-14RaCtrl:CO-DIO:P012             IA-14RaBPM:TI-AMCFPGAEVR:SFP8
+IA-15RaCtrl:CO-DIO:P014             IA-15RaBPM:TI-AMCFPGAEVR:SFP8
+IA-16RaCtrl:CO-DIO:P016             IA-16RaBPM:TI-AMCFPGAEVR:SFP8
+IA-17RaCtrl:CO-DIO:P018             IA-17RaBPM:TI-AMCFPGAEVR:SFP8
+IA-18RaCtrl:CO-DIO:P020             IA-18RaBPM:TI-AMCFPGAEVR:SFP8
+IA-19RaCtrl:CO-DIO:P022             IA-19RaBPM:TI-AMCFPGAEVR:SFP8
+IA-20RaCtrl:CO-DIO:P026             IA-20RaBPM:TI-AMCFPGAEVR:SFP8
+IA-20RaCtrl:CO-DIO:P027             IA-20RaBPMTL:TI-AMCFPGAEVR:SFP8
 LA-RFH01RACK2:TI-EVR:OTP0           LA-MDH01RACK1:TI-OEMultPOF:IN1
 LA-RFH01RACK2:TI-EVR:OTP1           LA-MDH01RACK2:TI-OEMultPOF:IN1
 LA-RFH01RACK2:TI-EVR:OTP2           LA-RFH01RACK1:TI-OEMultPOF:IN1
@@ -160,11 +160,11 @@ IA-01RaInj05:TI-EVR:OTP6            IA-01RaInj04:TI-OEMultPOF:IN4
 IA-01RaInj05:TI-EVR:OTP7            IA-01RaInj05:TI-OEMultPOF:IN1
 IA-01RaInj05:TI-EVR:OTP8            IA-01RaInj05:TI-OEMultPOF:IN2
 IA-01RaInj05:TI-EVR:OTP9            IA-01RaInj05:TI-OEMultPOF:IN3
-IA-01RaInj05:TI-EVR:OUT0            IA-20RaInj02:TI-OEMultSFP:OE1
-IA-01RaInj05:TI-EVR:OUT1            IA-20RaInj02:TI-OEMultSFP:OE2
-IA-01RaInj05:TI-EVR:OUT2            IA-20RaInj03:TI-OEMultSFP:OE1
-IA-01RaInj05:TI-EVR:OUT3            IA-20RaInj03:TI-OEMultSFP:OE2
-IA-01RaInj05:TI-EVR:OUT4            IA-20RaInj03:TI-OEMultSFP:OE3
+IA-01RaInj05:TI-EVR:OUT0            IA-01RaCtrl:CO-DIO:P101
+IA-01RaInj05:TI-EVR:OUT1            IA-01RaCtrl:CO-DIO:P102
+IA-01RaInj05:TI-EVR:OUT2            IA-01RaCtrl:CO-DIO:P103
+IA-01RaInj05:TI-EVR:OUT3            IA-01RaCtrl:CO-DIO:P104
+IA-01RaInj05:TI-EVR:OUT4            IA-01RaCtrl:CO-DIO:P105
 LA-RaCtrl:TI-EVR:OTP0               LA-RaPS02:CO-PSCtrl-TB:TIMIN
 LA-RaCtrl:TI-EVR:OTP1               LA-RaCtrl:CO-PSCtrl-TB1:TIMIN
 LA-RaCtrl:TI-EVR:OTP2               LA-RaCtrl:CO-PSCtrl-TB2:TIMIN
@@ -205,9 +205,9 @@ IA-20RaDiag01:TI-EVR:OUT3           TS-04:TI-OESglSFP-1:INRX
 IA-20RaDiag01:TI-EVR:OUT4           IA-20RaDiag02:TI-OEMultSFP:OE1
 IA-20RaDiag01:TI-EVR:OUT5           IA-20RaDiag02:TI-OEMultSFP:OE2
 IA-20RaDiag01:TI-EVR:OUT6           BO-50U:TI-OESglSFP:INRX
-IA-00RaCtrl:TI-EVE:OUT0             SI-Glob:DI-StrkCam:TRIG1
-IA-00RaCtrl:TI-EVE:OUT1             SI-Glob:DI-StrkCam:TRIG2
-IA-00RaCtrl:TI-EVE:RFOUT            SI-Glob:DI-StrkCam:RFIN
+BA-01B1RaCtrl:TI-EVE:OUT0           BA-01B1RaCtrl:DI-StrkCam:TRIG1
+BA-01B1RaCtrl:TI-EVE:OUT1           BA-01B1RaCtrl:DI-StrkCam:TRIG2
+BA-01B1RaCtrl:TI-EVE:RFOUT          BA-01B1RaCtrl:DI-StrkCam:RFIN
 IA-16RaBbB:TI-EVE:OTP0              SI-Glob:DI-BbBProc-H:TRIG1
 IA-16RaBbB:TI-EVE:OTP1              SI-Glob:DI-BbBProc-H:TRIG2
 IA-16RaBbB:TI-EVE:OTP2              SI-Glob:DI-BbBProc-V:TRIG1
@@ -389,7 +389,7 @@ LI-IET01RACK1:TI-OEMultSFP:OUT1     LI-01:EG-EGun:SINGLEPULSEAMPLIFIER
 LI-IET01RACK1:TI-OEMultSFP:OUT2     LI-01:EG-EGun:MULTIPULSEAMPLIFIER
 IA-01RaInj01:TI-OEMultPOF:OUT1      BO-01D:PU-InjKckrCtrl:TRIGIN
 IA-01RaInj01:TI-OEMultPOF:OUT2      TB-04:PU-InjSeptCtrl:TRIGIN
-IA-01RaInj01:TI-OEMultPOF:OUT3      IA-01RaInj01:PU-Osc:CH1
+IA-01RaInj01:TI-OEMultPOF:OUT3      IA-01RaInj01:PU-Osc:CH4
 IA-01RaInj04:TI-OEMultPOF:OUT1      TS-04:PU-InjSeptGCtrl-1:TRIGIN
 IA-01RaInj04:TI-OEMultPOF:OUT2      TS-04:PU-InjSeptGCtrl-2:TRIGIN
 IA-01RaInj04:TI-OEMultPOF:OUT3      TS-04:PU-InjSeptFCtrl:TRIGIN
@@ -397,11 +397,11 @@ IA-01RaInj04:TI-OEMultPOF:OUT4      IA-01RaInj04:PU-Osc:CH1
 IA-01RaInj05:TI-OEMultPOF:OUT1      SI-01SA:PU-InjNLKckrCtrl:TRIGIN
 IA-01RaInj05:TI-OEMultPOF:OUT2      SI-01SA:PU-InjDpKckrCtrl:TRIGIN
 IA-01RaInj05:TI-OEMultPOF:OUT3      SI-01SA:PU-PingHCtrl:TRIGIN
-IA-20RaInj02:TI-OEMultSFP:OUT1      BO-48D:PU-EjeKckrCtrl:TRIGIN
-IA-20RaInj02:TI-OEMultSFP:OUT2      SI-19C4:PU-PingVCtrl:TRIGIN
-IA-20RaInj03:TI-OEMultSFP:OUT1      TS-01:PU-EjeSeptGCtrl-1:TRIGIN
-IA-20RaInj03:TI-OEMultSFP:OUT2      TS-01:PU-EjeSeptGCtrl-2:TRIGIN
-IA-20RaInj03:TI-OEMultSFP:OUT3      IA-20RaInj03:PU-Osc:CH1
+IA-01RaCtrl:CO-DIO:P101             IA-20RaCtrl:CO-DIO:P101
+IA-01RaCtrl:CO-DIO:P102             IA-20RaCtrl:CO-DIO:P102
+IA-01RaCtrl:CO-DIO:P103             IA-20RaCtrl:CO-DIO:P103
+IA-01RaCtrl:CO-DIO:P104             IA-20RaCtrl:CO-DIO:P104
+IA-01RaCtrl:CO-DIO:P105             IA-20RaCtrl:CO-DIO:P105
 IA-20RaDiag01:TI-OEMultPOF-1:OUT1   TB-02:DI-ICTSigCond:TRIGIN
 IA-20RaDiag01:TI-OEMultPOF-1:OUT2   TB-04:DI-ICTSigCond:TRIGIN
 IA-20RaDiag01:TI-OEMultPOF-1:OUT3   TS-01:DI-ICTSigCond:TRIGIN
@@ -421,6 +421,11 @@ TS-04:TI-OESglSFP-1:INTX            TS-04:TI-OESglSFP-2:INRX
 IA-20RaDiag02:TI-OEMultSFP:OUT1     AS-Glob:DI-FCTDig:CH4
 IA-20RaDiag02:TI-OEMultSFP:OUT2     AS-Glob:DI-FPMDig:CH4
 BO-50U:TI-OESglSFP:OUT              BO-50U:DI-VLightCam:TRIGIN
+IA-20RaCtrl:CO-DIO:P101             IA-20RaInj02:TI-OEMultSFP:OE1
+IA-20RaCtrl:CO-DIO:P102             IA-20RaInj02:TI-OEMultSFP:OE2
+IA-20RaCtrl:CO-DIO:P103             IA-20RaInj03:TI-OEMultSFP:OE1
+IA-20RaCtrl:CO-DIO:P104             IA-20RaInj03:TI-OEMultSFP:OE2
+IA-20RaCtrl:CO-DIO:P105             IA-20RaInj03:TI-OEMultSFP:OE3
 TB-01:TI-OESglSFP-2:OUT             TB-01:DI-ScrnCam-2:TRIGIN
 TB-01:TI-OESglSFP-2:INTX            TB-02:TI-OESglSFP-1:INRX
 TB-03:TI-OESglSFP:OUT               TB-03:DI-ScrnCam:TRIGIN
@@ -429,6 +434,11 @@ TS-02:TI-OESglSFP:OUT               TS-02:DI-ScrnCam:TRIGIN
 TS-02:TI-OESglSFP:INTX              TS-03:TI-OESglSFP:INRX
 TS-04:TI-OESglSFP-2:OUT             TS-04:DI-ScrnCam-2:TRIGIN
 TS-04:TI-OESglSFP-2:INTX            TS-04:TI-OESglSFP-3:INRX
+IA-20RaInj02:TI-OEMultSFP:OUT1      BO-48D:PU-EjeKckrCtrl:TRIGIN
+IA-20RaInj02:TI-OEMultSFP:OUT2      SI-19C4:PU-PingVCtrl:TRIGIN
+IA-20RaInj03:TI-OEMultSFP:OUT1      TS-01:PU-EjeSeptGCtrl-1:TRIGIN
+IA-20RaInj03:TI-OEMultSFP:OUT2      TS-01:PU-EjeSeptGCtrl-2:TRIGIN
+IA-20RaInj03:TI-OEMultSFP:OUT3      IA-20RaInj03:PU-Osc:CH4
 TB-02:TI-OESglSFP-1:OUT             TB-02:DI-ScrnCam-1:TRIGIN
 TB-02:TI-OESglSFP-1:INTX            IA-20RaDiag01:TI-EVR:INRX0
 TB-04:TI-OESglSFP:OUT               TB-04:DI-ScrnCam:TRIGIN
@@ -451,53 +461,53 @@ BO-02U:TI-OESglSFP:INTX             IA-20RaDiag01:TI-EVR:INRX1
 
 # CONNECTIONS NOT USED
 # 50
-# CA-RaCtrl:CO-FibPatch:P042          IA-01RaCtrl:CO-FibPatch:P042
-# CA-RaCtrl:CO-FibPatch:P044          RA-RaSIA01:CO-FibPatch:P044
-# CA-RaCtrl:CO-FibPatch:P045          RA-RaSIB01:CO-FibPatch:P045
-# CA-RaCtrl:CO-FibPatch:P052B         IA-10RaCtrl:CO-FibPatch:P052B
-# CA-RaCtrl:CO-FibPatch:P053          IA-11RaCtrl:CO-FibPatch:P053
-# CA-RaCtrl:CO-FibPatch:P054          IA-12RaCtrl:CO-FibPatch:P054
-# CA-RaCtrl:CO-FibPatch:P055          IA-13RaCtrl:CO-FibPatch:P055
-# CA-RaCtrl:CO-FibPatch:P056          IA-14RaCtrl:CO-FibPatch:P056
-# CA-RaCtrl:CO-FibPatch:P057          IA-15RaCtrl:CO-FibPatch:P057
-# CA-RaCtrl:CO-FibPatch:P058          IA-16RaCtrl:CO-FibPatch:P058
-# CA-RaCtrl:CO-FibPatch:P059          IA-17RaCtrl:CO-FibPatch:P059
-# CA-RaCtrl:CO-FibPatch:P060          IA-18RaCtrl:CO-FibPatch:P060
-# CA-RaCtrl:CO-FibPatch:P061          IA-19RaCtrl:CO-FibPatch:P061
-# CA-RaCtrl:CO-FibPatch:P062          IA-02RaCtrl:CO-FibPatch:P062
-# CA-RaCtrl:CO-FibPatch:P063          IA-20RaCtrl:CO-FibPatch:P063
-# CA-RaCtrl:CO-FibPatch:P064          IA-03RaCtrl:CO-FibPatch:P064
-# CA-RaCtrl:CO-FibPatch:P065          IA-04RaCtrl:CO-FibPatch:P065
-# CA-RaCtrl:CO-FibPatch:P066          IA-05RaCtrl:CO-FibPatch:P066
-# CA-RaCtrl:CO-FibPatch:P067          IA-06RaCtrl:CO-FibPatch:P067
-# CA-RaCtrl:CO-FibPatch:P068          IA-07RaCtrl:CO-FibPatch:P068
-# CA-RaCtrl:CO-FibPatch:P069          IA-08RaCtrl:CO-FibPatch:P069
-# CA-RaCtrl:CO-FibPatch:P070          IA-09RaCtrl:CO-FibPatch:P070
-# CA-RaCtrl:CO-FibPatch:P071          RA-RaBO01:CO-FibPatch:P071
-# IA-01RaCtrl:CO-FibPatch:P001        IA-02RaCtrl:CO-FibPatch:P001
-# IA-02RaCtrl:CO-FibPatch:P023        IA-03RaCtrl:CO-FibPatch:P023
-# IA-03RaCtrl:CO-FibPatch:P028        IA-04RaCtrl:CO-FibPatch:P028
-# IA-04RaCtrl:CO-FibPatch:P030        IA-05RaCtrl:CO-FibPatch:P030
-# IA-05RaCtrl:CO-FibPatch:P032        IA-06RaCtrl:CO-FibPatch:P032
-# IA-06RaCtrl:CO-FibPatch:P034        IA-07RaCtrl:CO-FibPatch:P034
-# IA-07RaCtrl:CO-FibPatch:P036        IA-08RaCtrl:CO-FibPatch:P036
-# IA-08RaCtrl:CO-FibPatch:P038        IA-09RaCtrl:CO-FibPatch:P038
-# IA-09RaCtrl:CO-FibPatch:P040        IA-10RaCtrl:CO-FibPatch:P040
-# IA-10RaCtrl:CO-FibPatch:P003        IA-11RaCtrl:CO-FibPatch:P003
-# IA-11RaCtrl:CO-FibPatch:P005        IA-12RaCtrl:CO-FibPatch:P005
-# IA-12RaCtrl:CO-FibPatch:P007        IA-13RaCtrl:CO-FibPatch:P007
-# IA-13RaCtrl:CO-FibPatch:P009        IA-14RaCtrl:CO-FibPatch:P009
-# IA-14RaCtrl:CO-FibPatch:P011        IA-15RaCtrl:CO-FibPatch:P011
+# CA-RaCtrl:CO-DIO:P042               IA-01RaCtrl:CO-DIO:P042
+# CA-RaCtrl:CO-DIO:P044               RA-RaSIA01:CO-DIO:P044
+# CA-RaCtrl:CO-DIO:P045               RA-RaSIB01:CO-DIO:P045
+# CA-RaCtrl:CO-DIO:P052B              IA-10RaCtrl:CO-DIO:P052B
+# CA-RaCtrl:CO-DIO:P053               IA-11RaCtrl:CO-DIO:P053
+# CA-RaCtrl:CO-DIO:P054               IA-12RaCtrl:CO-DIO:P054
+# CA-RaCtrl:CO-DIO:P055               IA-13RaCtrl:CO-DIO:P055
+# CA-RaCtrl:CO-DIO:P056               IA-14RaCtrl:CO-DIO:P056
+# CA-RaCtrl:CO-DIO:P057               IA-15RaCtrl:CO-DIO:P057
+# CA-RaCtrl:CO-DIO:P058               IA-16RaCtrl:CO-DIO:P058
+# CA-RaCtrl:CO-DIO:P059               IA-17RaCtrl:CO-DIO:P059
+# CA-RaCtrl:CO-DIO:P060               IA-18RaCtrl:CO-DIO:P060
+# CA-RaCtrl:CO-DIO:P061               IA-19RaCtrl:CO-DIO:P061
+# CA-RaCtrl:CO-DIO:P062               IA-02RaCtrl:CO-DIO:P062
+# CA-RaCtrl:CO-DIO:P063               IA-20RaCtrl:CO-DIO:P063
+# CA-RaCtrl:CO-DIO:P064               IA-03RaCtrl:CO-DIO:P064
+# CA-RaCtrl:CO-DIO:P065               IA-04RaCtrl:CO-DIO:P065
+# CA-RaCtrl:CO-DIO:P066               IA-05RaCtrl:CO-DIO:P066
+# CA-RaCtrl:CO-DIO:P067               IA-06RaCtrl:CO-DIO:P067
+# CA-RaCtrl:CO-DIO:P068               IA-07RaCtrl:CO-DIO:P068
+# CA-RaCtrl:CO-DIO:P069               IA-08RaCtrl:CO-DIO:P069
+# CA-RaCtrl:CO-DIO:P070               IA-09RaCtrl:CO-DIO:P070
+# CA-RaCtrl:CO-DIO:P071               RA-RaBO01:CO-DIO:P071
+# IA-01RaCtrl:CO-DIO:P001             IA-02RaCtrl:CO-DIO:P001
+# IA-02RaCtrl:CO-DIO:P023             IA-03RaCtrl:CO-DIO:P023
+# IA-03RaCtrl:CO-DIO:P028             IA-04RaCtrl:CO-DIO:P028
+# IA-04RaCtrl:CO-DIO:P030             IA-05RaCtrl:CO-DIO:P030
+# IA-05RaCtrl:CO-DIO:P032             IA-06RaCtrl:CO-DIO:P032
+# IA-06RaCtrl:CO-DIO:P034             IA-07RaCtrl:CO-DIO:P034
+# IA-07RaCtrl:CO-DIO:P036             IA-08RaCtrl:CO-DIO:P036
+# IA-08RaCtrl:CO-DIO:P038             IA-09RaCtrl:CO-DIO:P038
+# IA-09RaCtrl:CO-DIO:P040             IA-10RaCtrl:CO-DIO:P040
+# IA-10RaCtrl:CO-DIO:P003             IA-11RaCtrl:CO-DIO:P003
+# IA-11RaCtrl:CO-DIO:P005             IA-12RaCtrl:CO-DIO:P005
+# IA-12RaCtrl:CO-DIO:P007             IA-13RaCtrl:CO-DIO:P007
+# IA-13RaCtrl:CO-DIO:P009             IA-14RaCtrl:CO-DIO:P009
+# RA-RaMO:TI-Main60Hz:OUT             AS-RaMO:TI-EVG:ACIN
+# IA-14RaCtrl:CO-DIO:P011             IA-15RaCtrl:CO-DIO:P011
+# RA-RaMO:RF-MODistrib:RFOUT          AS-RaMO:TI-EVG:RFIN
 # IA-14RaDiag03:TI-EVE:IN2            SI-13SA:DI-DCCTDig:TRIGOUT
 # IA-14RaDiag03:TI-EVE:IN1            SI-14SB:DI-DCCTDig:TRIGOUT
-# IA-15RaCtrl:CO-FibPatch:P013        IA-16RaCtrl:CO-FibPatch:P013
-# IA-16RaCtrl:CO-FibPatch:P015        IA-17RaCtrl:CO-FibPatch:P015
-# IA-17RaCtrl:CO-FibPatch:P017        IA-18RaCtrl:CO-FibPatch:P017
-# IA-18RaCtrl:CO-FibPatch:P019        IA-19RaCtrl:CO-FibPatch:P019
-# IA-19RaCtrl:CO-FibPatch:P021        IA-20RaCtrl:CO-FibPatch:P021
-# IA-20RaCtrl:CO-FibPatch:P025        IA-01RaCtrl:CO-FibPatch:P025
+# IA-15RaCtrl:CO-DIO:P013             IA-16RaCtrl:CO-DIO:P013
+# IA-16RaCtrl:CO-DIO:P015             IA-17RaCtrl:CO-DIO:P015
+# IA-17RaCtrl:CO-DIO:P017             IA-18RaCtrl:CO-DIO:P017
+# IA-18RaCtrl:CO-DIO:P019             IA-19RaCtrl:CO-DIO:P019
+# IA-19RaCtrl:CO-DIO:P021             IA-20RaCtrl:CO-DIO:P021
+# IA-20RaCtrl:CO-DIO:P025             IA-01RaCtrl:CO-DIO:P025
 # LI-IET01RACK1:TI-OERFRx:SIGNAL      LI-01:EG-EGun:RFIN
-# RA-RaMO:TI-Main60Hz:OUT             RA-RaMO:TI-EVG:ACIN
-# RA-RaMO:RF-MODistrib:RFOUT          RA-RaMO:TI-EVG:RFIN
-# RA-RaMO:TI-OERFTx:OPTICALACP        LI-IET01RACK1:TI-OERFRx:OPTICALACP
 # RA-RaMO:RF-MODistrib:RFOUT          RA-RaMO:TI-OERFTx:SIGNAL
+# RA-RaMO:TI-OERFTx:OPTICALACP        LI-IET01RACK1:TI-OERFRx:OPTICALACP
