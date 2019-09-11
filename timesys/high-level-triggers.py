@@ -1245,7 +1245,7 @@
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('BA-01B1RaCtrl:DI-StrkCam:TRIG1', ),
+        'channels': ('BA-01B1RaCtrl:DI-StrkCam:TRIG2', ),
         },
     'SI-Glob:TI-BbBProcH-Trig1': {
         'database': {
