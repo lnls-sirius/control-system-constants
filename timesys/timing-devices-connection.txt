@@ -11,12 +11,12 @@
 
 
 # 442
-RA-RaMO:TI-EVG:OUT0                 RA-RaMO:CO-DIO:P074
-RA-RaMO:TI-EVG:OUT1                 RA-RaMO:CO-DIO:P075
-RA-RaMO:TI-EVG:OUT2                 RA-RaMO:CO-DIO:P076
-RA-RaMO:TI-EVG:OUT3                 RA-RaMO:CO-DIO:P077
-RA-RaMO:TI-EVG:OUT4                 RA-RaMO:CO-DIO:P078
-RA-RaMO:TI-EVG:OUT5                 RA-RaMO:TI-Fout:UPLINK
+AS-RaMO:TI-EVG:OUT0                 RA-RaMO:CO-DIO:P074
+AS-RaMO:TI-EVG:OUT1                 RA-RaMO:CO-DIO:P075
+AS-RaMO:TI-EVG:OUT2                 RA-RaMO:CO-DIO:P076
+AS-RaMO:TI-EVG:OUT3                 RA-RaMO:CO-DIO:P077
+AS-RaMO:TI-EVG:OUT4                 RA-RaMO:CO-DIO:P078
+AS-RaMO:TI-EVG:OUT5                 RA-RaMO:TI-Fout:UPLINK
 RA-RaMO:CO-DIO:P074                 CA-RaCtrl:CO-DIO:P074
 RA-RaMO:CO-DIO:P075                 CA-RaCtrl:CO-DIO:P075
 RA-RaMO:CO-DIO:P076                 CA-RaCtrl:CO-DIO:P076
@@ -497,9 +497,9 @@ BO-02U:TI-OESglSFP:INTX             IA-20RaDiag01:TI-EVR:INRX1
 # IA-11RaCtrl:CO-DIO:P005             IA-12RaCtrl:CO-DIO:P005
 # IA-12RaCtrl:CO-DIO:P007             IA-13RaCtrl:CO-DIO:P007
 # IA-13RaCtrl:CO-DIO:P009             IA-14RaCtrl:CO-DIO:P009
-# RA-RaMO:TI-Main60Hz:OUT             RA-RaMO:TI-EVG:ACIN
+# RA-RaMO:TI-Main60Hz:OUT             AS-RaMO:TI-EVG:ACIN
 # IA-14RaCtrl:CO-DIO:P011             IA-15RaCtrl:CO-DIO:P011
-# RA-RaMO:RF-MODistrib:RFOUT          RA-RaMO:TI-EVG:RFIN
+# RA-RaMO:RF-MODistrib:RFOUT          AS-RaMO:TI-EVG:RFIN
 # IA-14RaDiag03:TI-EVE:IN2            SI-13SA:DI-DCCTDig:TRIGOUT
 # IA-14RaDiag03:TI-EVE:IN1            SI-14SB:DI-DCCTDig:TRIGOUT
 # IA-15RaCtrl:CO-DIO:P013             IA-16RaCtrl:CO-DIO:P013
