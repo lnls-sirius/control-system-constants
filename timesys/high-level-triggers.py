@@ -804,7 +804,7 @@
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
-        'channels': ('IA-01RaInj01:PU-Osc:CH1', ),
+        'channels': ('IA-01RaInj01:PU-Osc:CH4', ),
         },
     'AS-Glob:TI-Osc-EjeBO': {
         'database': {
@@ -817,7 +817,7 @@
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
-        'channels': ('IA-20RaInj03:PU-Osc:CH1', ),
+        'channels': ('IA-20RaInj03:PU-Osc:CH4', ),
         },
     'AS-Glob:TI-Osc-InjSI': {
         'database': {
@@ -1233,7 +1233,7 @@
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('SI-Glob:DI-StrkCam:TRIG1', ),
+        'channels': ('BA-01B1RaCtrl:DI-StrkCam:TRIG1', ),
         },
     'SI-Glob:TI-StrkCam-Trig2': {
         'database': {
@@ -1245,7 +1245,7 @@
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('SI-Glob:DI-StrkCam:TRIG2', ),
+        'channels': ('BA-01B1RaCtrl:DI-StrkCam:TRIG2', ),
         },
     'SI-Glob:TI-BbBProcH-Trig1': {
         'database': {
@@ -1410,7 +1410,8 @@
         },
     'AS-Glob:TI-BPM-TBTS': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigTB', 'DigTS', 'Study')},
+            'Src': {'value': 0, 'enums': (
+                'InjBO', 'InjSI', 'DigTB', 'DigTS', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1430,7 +1431,8 @@
         },
     'AS-Glob:TI-BPM-SIBO': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigBO', 'DigSI', 'RmpBO', 'Study')},
+            'Src': {'value': 0, 'enums': (
+                'DigBO', 'DigSI', 'InjBO', 'InjSI',  'RmpBO', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
