@@ -15,7 +15,7 @@
             'NrPulses': {'value': 3920},
             'Duration': {'value': 2000},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'SI-01M1:PS-CH:RS485',    'SI-01M1:PS-CV:RS485',
@@ -207,7 +207,7 @@
             'NrPulses': {'value': 3920},
             'Duration': {'value': 2000},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'SI-Fam:PS-QDA:RS485',
@@ -405,7 +405,7 @@
             'NrPulses': {'value': 3920},
             'Duration': {'value': 2000},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'SI-01M1:PS-QS:RS485',
@@ -552,7 +552,7 @@
             'NrPulses': {'value': 3920},
             'Duration': {'value': 2000},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'SI-Fam:PS-SFA0:RS485',    'SI-Fam:PS-SFA1:RS485',
@@ -577,7 +577,7 @@
             'NrPulses': {'value': 3920},
             'Duration': {'value': 490000},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'BO-Fam:PS-B-1:RS485',    'BO-Fam:PS-B-2:RS485',
@@ -593,7 +593,7 @@
             'NrPulses': {'value': 3920},
             'Duration': {'value': 490000},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'BO-01U:PS-CH:RS485', 'BO-01U:PS-CV:RS485',
@@ -815,7 +815,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
+            'Polarity': {'value': 0, 'states': (0, 2)},  # EVR-OUT port
             },
         'channels': ('IA-20RaInj03:PU-Osc:CH4', ),
         },
@@ -864,7 +864,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 0, 'states': (2, 0)},  # EVR-OUT port
+            'Polarity': {'value': 0, 'states': (0, 2)},  # EVR-OUT port
             },
         'channels': ('BO-48D:PU-EjeKckrCtrl:TRIGIN', ),
         },
@@ -876,7 +876,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 0, 'states': (2, 0)},  # EVR-OUT port
+            'Polarity': {'value': 0, 'states': (0, 2)},  # EVR-OUT port
             },
         'channels': (
             'TS-01:PU-EjeSeptGCtrl-1:TRIGIN',
@@ -1022,7 +1022,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'LI-RaDiag02:TI-TrigFout:TRIGINIV',
@@ -1037,7 +1037,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': ('LI-RaDiag02:TI-TrigFout:TRIGINI', ),
         },
@@ -1049,7 +1049,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': ('LA-BIH01RACK2:DI-Osc-1:TRIGIN', ),
         },
@@ -1074,7 +1074,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'TB-01:DI-ScrnCam-1:TRIGIN',
@@ -1096,7 +1096,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'TB-02:DI-ICTSigCond:TRIGIN',
@@ -1111,7 +1111,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'TB-02:DI-ICTDig:TRIGIN',
@@ -1155,7 +1155,7 @@
             'NrPulses': {'value': 1},
             'Duration': {'value': 150},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': ('BO-35D:DI-DCCTDig:TRIGIN', ),
         },
@@ -1180,7 +1180,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'TS-01:DI-ScrnCam:TRIGIN',
@@ -1201,7 +1201,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'TS-01:DI-ICTSigCond:TRIGIN',
@@ -1216,7 +1216,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'TS-01:DI-ICTDig:TRIGIN',
@@ -1417,7 +1417,7 @@
             'NrPulses': {'value': 1},
             'Duration': {'value': 150},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'TS-01:DI-BPM:CRT0',    'TS-02:DI-BPM:CRT0',
@@ -1438,7 +1438,7 @@
             'NrPulses': {'value': 1},
             'Duration': {'value': 150},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'SI-01M1:DI-BPM:CRT0',     'SI-01M2:DI-BPM:CRT0',
