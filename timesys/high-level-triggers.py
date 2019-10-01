@@ -624,6 +624,32 @@
             'BO-49D:PS-CH:RS485', 'BO-49U:PS-CV:RS485',
             ),
         },
+    'BO-Glob:TI-Corrs-WfmRef': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('RmpBO', 'OrbBO', 'Cycle', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 3920},
+            'Duration': {'value': 490000},
+            'State': {'value': 0},
+            'Polarity': {'value': 0, 'states': (0, 1)},
+            },
+        'channels': (
+            'IA-01RaPS01:PS-UDC-BO:TIMIN',
+            'IA-02RaPS01:PS-UDC-BO:TIMIN',
+            'IA-04RaPS01:PS-UDC-BO:TIMIN',
+            'IA-05RaPS01:PS-UDC-BO:TIMIN',
+            'IA-07RaPS01:PS-UDC-BO:TIMIN',
+            'IA-08RaPS01:PS-UDC-BO:TIMIN',
+            'IA-10RaPS01:PS-UDC-BO:TIMIN',
+            'IA-11RaPS01:PS-UDC-BO:TIMIN',
+            'IA-13RaPS01:PS-UDC-BO:TIMIN',
+            'IA-14RaPS01:PS-UDC-BO:TIMIN',
+            'IA-16RaPS01:PS-UDC-BO:TIMIN',
+            'IA-17RaPS01:PS-UDC-BO:TIMIN',
+            'IA-20RaPS01:PS-UDC-BO:TIMIN',
+            ),
+        },
     'LI-01:TI-EGun-MultBun': {
         'database': {
             'Src': {'value': 0, 'enums': ('Linac', 'Study')},
