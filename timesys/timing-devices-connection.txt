@@ -17,92 +17,92 @@ AS-RaMO:TI-EVG:OUT2                 RA-RaMO:CO-DIO:P076
 AS-RaMO:TI-EVG:OUT3                 RA-RaMO:CO-DIO:P077
 AS-RaMO:TI-EVG:OUT4                 RA-RaMO:CO-DIO:P078
 AS-RaMO:TI-EVG:OUT5                 RA-RaMO:TI-Fout:UPLINK
-RA-RaMO:CO-DIO:P074                 CA-RaCtrl:CO-DIO:P074
-RA-RaMO:CO-DIO:P075                 CA-RaCtrl:CO-DIO:P075
-RA-RaMO:CO-DIO:P076                 CA-RaCtrl:CO-DIO:P076
-RA-RaMO:CO-DIO:P077                 CA-RaCtrl:CO-DIO:P077
-RA-RaMO:CO-DIO:P078                 CA-RaCtrl:CO-DIO:P078
+RA-RaMO:CO-DIO:P074                 CA-RaCtrl:CO-DIO-10:P13
+RA-RaMO:CO-DIO:P075                 CA-RaCtrl:CO-DIO-10:P14
+RA-RaMO:CO-DIO:P076                 CA-RaCtrl:CO-DIO-10:P15
+RA-RaMO:CO-DIO:P077                 CA-RaCtrl:CO-DIO-10:P16
+RA-RaMO:CO-DIO:P078                 CA-RaCtrl:CO-DIO-10:P17
 RA-RaMO:TI-Fout:OUT0                RA-RaMO:CO-DIO:P071
 RA-RaMO:TI-Fout:OUT1                RA-RaMO:CO-DIO:P044
 RA-RaMO:TI-Fout:OUT2                RA-RaMO:CO-DIO:P045
-CA-RaCtrl:CO-DIO:P074               CA-RaTim:TI-Fout-1:UPLINK
-CA-RaCtrl:CO-DIO:P075               CA-RaTim:TI-Fout-2:UPLINK
-CA-RaCtrl:CO-DIO:P076               CA-RaTim:TI-Fout-3:UPLINK
-CA-RaCtrl:CO-DIO:P077               CA-RaTim:TI-Fout-4:UPLINK
-CA-RaCtrl:CO-DIO:P078               CA-RaTim:TI-Fout-5:UPLINK
+CA-RaCtrl:CO-DIO-10:P13             CA-RaTim:TI-Fout-1:UPLINK
+CA-RaCtrl:CO-DIO-10:P14             CA-RaTim:TI-Fout-2:UPLINK
+CA-RaCtrl:CO-DIO-10:P15             CA-RaTim:TI-Fout-3:UPLINK
+CA-RaCtrl:CO-DIO-10:P16             CA-RaTim:TI-Fout-4:UPLINK
+CA-RaCtrl:CO-DIO-10:P17             CA-RaTim:TI-Fout-5:UPLINK
 RA-RaMO:CO-DIO:P071                 RA-RaBO01:TI-EVE:UPLINK
 RA-RaMO:CO-DIO:P044                 RA-RaSIA01:TI-EVE:UPLINK
 RA-RaMO:CO-DIO:P045                 RA-RaSIB01:TI-EVE:UPLINK
-CA-RaTim:TI-Fout-1:OUT0             CA-RaCtrl:CO-DIO:P072
-CA-RaTim:TI-Fout-1:OUT1             CA-RaCtrl:CO-DIO:P043
-CA-RaTim:TI-Fout-1:OUT2             CA-RaCtrl:CO-DIO:P073
-CA-RaTim:TI-Fout-1:OUT3             CA-RaCtrl:CO-DIO:P027B
-CA-RaTim:TI-Fout-1:OUT4             CA-RaCtrl:CO-DIO:P051
-CA-RaTim:TI-Fout-1:OUT5             CA-RaCtrl:CO-DIO:P046
-CA-RaTim:TI-Fout-2:OUT2             CA-RaCtrl:CO-DIO:P047
-CA-RaTim:TI-Fout-2:OUT3             CA-RaCtrl:CO-DIO:P048
-CA-RaTim:TI-Fout-2:OUT4             CA-RaCtrl:CO-DIO:P049
-CA-RaTim:TI-Fout-2:OUT5             CA-RaCtrl:CO-DIO:P050
-CA-RaTim:TI-Fout-2:OUT6             CA-RaCtrl:CO-DIO:P052
-CA-RaTim:TI-Fout-3:OUT0             CA-RaCtrl:CO-DIO:P002
-CA-RaTim:TI-Fout-3:OUT1             CA-RaCtrl:CO-DIO:P024
-CA-RaTim:TI-Fout-3:OUT2             CA-RaCtrl:CO-DIO:P029
-CA-RaTim:TI-Fout-3:OUT3             CA-RaCtrl:CO-DIO:P031
-CA-RaTim:TI-Fout-3:OUT4             CA-RaCtrl:CO-DIO:P033
-CA-RaTim:TI-Fout-3:OUT5             CA-RaCtrl:CO-DIO:P035
-CA-RaTim:TI-Fout-3:OUT6             CA-RaCtrl:CO-DIO:P037
-CA-RaTim:TI-Fout-4:OUT0             CA-RaCtrl:CO-DIO:P039
-CA-RaTim:TI-Fout-4:OUT1             CA-RaCtrl:CO-DIO:P041
-CA-RaTim:TI-Fout-4:OUT2             CA-RaCtrl:CO-DIO:P004
-CA-RaTim:TI-Fout-4:OUT3             CA-RaCtrl:CO-DIO:P006
-CA-RaTim:TI-Fout-4:OUT4             CA-RaCtrl:CO-DIO:P008
-CA-RaTim:TI-Fout-4:OUT5             CA-RaCtrl:CO-DIO:P010
-CA-RaTim:TI-Fout-4:OUT6             CA-RaCtrl:CO-DIO:P012
-CA-RaTim:TI-Fout-5:OUT0             CA-RaCtrl:CO-DIO:P014
-CA-RaTim:TI-Fout-5:OUT1             CA-RaCtrl:CO-DIO:P016
-CA-RaTim:TI-Fout-5:OUT2             CA-RaCtrl:CO-DIO:P018
-CA-RaTim:TI-Fout-5:OUT3             CA-RaCtrl:CO-DIO:P020
-CA-RaTim:TI-Fout-5:OUT4             CA-RaCtrl:CO-DIO:P022
-CA-RaTim:TI-Fout-5:OUT5             CA-RaCtrl:CO-DIO:P026
-CA-RaTim:TI-Fout-5:OUT6             CA-RaCtrl:CO-DIO:P027
+CA-RaTim:TI-Fout-1:OUT0             CA-RaCtrl:CO-DIO-8:P19
+CA-RaTim:TI-Fout-1:OUT1             CA-RaCtrl:CO-DIO-9:P02
+CA-RaTim:TI-Fout-1:OUT2             CA-RaCtrl:CO-DIO-2:P02
+CA-RaTim:TI-Fout-1:OUT3             CA-RaCtrl:CO-DIO-11:P05
+CA-RaTim:TI-Fout-1:OUT4             CA-RaCtrl:CO-DIO-9:P09
+CA-RaTim:TI-Fout-1:OUT5             CA-RaCtrl:CO-DIO-9:P10
+CA-RaTim:TI-Fout-2:OUT2             CA-RaCtrl:CO-DIO-8:P03
+CA-RaTim:TI-Fout-2:OUT3             CA-RaCtrl:CO-DIO-1:P048
+CA-RaTim:TI-Fout-2:OUT4             CA-RaCtrl:CO-DIO-6:P12
+CA-RaTim:TI-Fout-2:OUT5             CA-RaCtrl:CO-DIO-7:P06
+CA-RaTim:TI-Fout-2:OUT6             CA-RaCtrl:CO-DIO-5:P18
+CA-RaTim:TI-Fout-3:OUT0             CA-RaCtrl:CO-DIO-2:P05
+CA-RaTim:TI-Fout-3:OUT1             CA-RaCtrl:CO-DIO-2:P17
+CA-RaTim:TI-Fout-3:OUT2             CA-RaCtrl:CO-DIO-2:P23
+CA-RaTim:TI-Fout-3:OUT3             CA-RaCtrl:CO-DIO-3:P05
+CA-RaTim:TI-Fout-3:OUT4             CA-RaCtrl:CO-DIO-3:P11
+CA-RaTim:TI-Fout-3:OUT5             CA-RaCtrl:CO-DIO-3:P17
+CA-RaTim:TI-Fout-3:OUT6             CA-RaCtrl:CO-DIO-3:P23
+CA-RaTim:TI-Fout-4:OUT0             CA-RaCtrl:CO-DIO-4:P05
+CA-RaTim:TI-Fout-4:OUT1             CA-RaCtrl:CO-DIO-4:P11
+CA-RaTim:TI-Fout-4:OUT2             CA-RaCtrl:CO-DIO-4:P18
+CA-RaTim:TI-Fout-4:OUT3             CA-RaCtrl:CO-DIO-4:P23
+CA-RaTim:TI-Fout-4:OUT4             CA-RaCtrl:CO-DIO-5:P05
+CA-RaTim:TI-Fout-4:OUT5             CA-RaCtrl:CO-DIO-5:P11
+CA-RaTim:TI-Fout-4:OUT6             CA-RaCtrl:CO-DIO-5:P17
+CA-RaTim:TI-Fout-5:OUT0             CA-RaCtrl:CO-DIO-6:P05
+CA-RaTim:TI-Fout-5:OUT1             CA-RaCtrl:CO-DIO-6:P11
+CA-RaTim:TI-Fout-5:OUT2             CA-RaCtrl:CO-DIO-6:P23
+CA-RaTim:TI-Fout-5:OUT3             CA-RaCtrl:CO-DIO-7:P05
+CA-RaTim:TI-Fout-5:OUT4             CA-RaCtrl:CO-DIO-7:P17
+CA-RaTim:TI-Fout-5:OUT5             CA-RaCtrl:CO-DIO-8:P05
+CA-RaTim:TI-Fout-5:OUT6             CA-RaCtrl:CO-DIO-8:P06
 RA-RaBO01:TI-EVE:OTP0               RA-RaBO01:RF-DigPatch:RAMPA
 RA-RaBO01:TI-EVE:OTP1               RA-RaBO01:RF-DigPatch:POSTMORTEN
 RA-RaSIA01:TI-EVE:OTP0              RA-RaSIA01:RF-DigPatch:RAMPA
 RA-RaSIA01:TI-EVE:OTP1              RA-RaSIA01:RF-DigPatch:POSTMORTEN
 RA-RaSIB01:TI-EVE:OTP0              RA-RaSIB01:RF-DigPatch:RAMPA
 RA-RaSIB01:TI-EVE:OTP1              RA-RaSIB01:RF-DigPatch:POSTMORTEN
-CA-RaCtrl:CO-DIO:P072               LA-RFH01RACK2:CO-DIO:P072
-CA-RaCtrl:CO-DIO:P043               LA-BIH01RACK2:CO-DIO:P043
-CA-RaCtrl:CO-DIO:P073               IA-01RaCtrl:CO-DIO:P073
-CA-RaCtrl:CO-DIO:P027B              LA-RaCtrl:CO-DIO:P027B
-CA-RaCtrl:CO-DIO:P051               PA-RaCtrl:CO-DIO:P051
-CA-RaCtrl:CO-DIO:P046               PA-RaCtrl:CO-DIO:P046
-CA-RaCtrl:CO-DIO:P047               IA-20RaCtrl:CO-DIO:P047
-CA-RaCtrl:CO-DIO:P048               BA-01B1RaCtrl:CO-DIO:P048
-CA-RaCtrl:CO-DIO:P049               IA-16RaCtrl:CO-DIO:P049
-CA-RaCtrl:CO-DIO:P050               IA-18RaCtrl:CO-DIO:P050
-CA-RaCtrl:CO-DIO:P052               IA-14RaCtrl:CO-DIO:P052
-CA-RaCtrl:CO-DIO:P002               IA-01RaCtrl:CO-DIO:P002
-CA-RaCtrl:CO-DIO:P024               IA-02RaCtrl:CO-DIO:P024
-CA-RaCtrl:CO-DIO:P029               IA-03RaCtrl:CO-DIO:P029
-CA-RaCtrl:CO-DIO:P031               IA-04RaCtrl:CO-DIO:P031
-CA-RaCtrl:CO-DIO:P033               IA-05RaCtrl:CO-DIO:P033
-CA-RaCtrl:CO-DIO:P035               IA-06RaCtrl:CO-DIO:P035
-CA-RaCtrl:CO-DIO:P037               IA-07RaCtrl:CO-DIO:P037
-CA-RaCtrl:CO-DIO:P039               IA-08RaCtrl:CO-DIO:P039
-CA-RaCtrl:CO-DIO:P041               IA-09RaCtrl:CO-DIO:P041
-CA-RaCtrl:CO-DIO:P004               IA-10RaCtrl:CO-DIO:P004
-CA-RaCtrl:CO-DIO:P006               IA-11RaCtrl:CO-DIO:P006
-CA-RaCtrl:CO-DIO:P008               IA-12RaCtrl:CO-DIO:P008
-CA-RaCtrl:CO-DIO:P010               IA-13RaCtrl:CO-DIO:P010
-CA-RaCtrl:CO-DIO:P012               IA-14RaCtrl:CO-DIO:P012
-CA-RaCtrl:CO-DIO:P014               IA-15RaCtrl:CO-DIO:P014
-CA-RaCtrl:CO-DIO:P016               IA-16RaCtrl:CO-DIO:P016
-CA-RaCtrl:CO-DIO:P018               IA-17RaCtrl:CO-DIO:P018
-CA-RaCtrl:CO-DIO:P020               IA-18RaCtrl:CO-DIO:P020
-CA-RaCtrl:CO-DIO:P022               IA-19RaCtrl:CO-DIO:P022
-CA-RaCtrl:CO-DIO:P026               IA-20RaCtrl:CO-DIO:P026
-CA-RaCtrl:CO-DIO:P027               IA-20RaCtrl:CO-DIO:P027
+CA-RaCtrl:CO-DIO-8:P19              LA-RFH01RACK2:CO-DIO:P072
+CA-RaCtrl:CO-DIO-9:P02              LA-BIH01RACK2:CO-DIO:P043
+CA-RaCtrl:CO-DIO-2:P02              IA-01RaCtrl:CO-DIO:P073
+CA-RaCtrl:CO-DIO-11:P05             LA-RaCtrl:CO-DIO:P027B
+CA-RaCtrl:CO-DIO-9:P09              PA-RaCtrl:CO-DIO:P051
+CA-RaCtrl:CO-DIO-9:P10              PA-RaCtrl:CO-DIO:P046
+CA-RaCtrl:CO-DIO-8:P03              IA-20RaCtrl:CO-DIO:P047
+CA-RaCtrl:CO-DIO-1:P048             BA-01B1RaCtrl:CO-DIO:P048
+CA-RaCtrl:CO-DIO-6:P12              IA-16RaCtrl:CO-DIO:P049
+CA-RaCtrl:CO-DIO-7:P06              IA-18RaCtrl:CO-DIO:P050
+CA-RaCtrl:CO-DIO-5:P18              IA-14RaCtrl:CO-DIO:P052
+CA-RaCtrl:CO-DIO-2:P05              IA-01RaCtrl:CO-DIO:P002
+CA-RaCtrl:CO-DIO-2:P17              IA-02RaCtrl:CO-DIO:P024
+CA-RaCtrl:CO-DIO-2:P23              IA-03RaCtrl:CO-DIO:P029
+CA-RaCtrl:CO-DIO-3:P05              IA-04RaCtrl:CO-DIO:P031
+CA-RaCtrl:CO-DIO-3:P11              IA-05RaCtrl:CO-DIO:P033
+CA-RaCtrl:CO-DIO-3:P17              IA-06RaCtrl:CO-DIO:P035
+CA-RaCtrl:CO-DIO-3:P23              IA-07RaCtrl:CO-DIO:P037
+CA-RaCtrl:CO-DIO-4:P05              IA-08RaCtrl:CO-DIO:P039
+CA-RaCtrl:CO-DIO-4:P11              IA-09RaCtrl:CO-DIO:P041
+CA-RaCtrl:CO-DIO-4:P18              IA-10RaCtrl:CO-DIO:P004
+CA-RaCtrl:CO-DIO-4:P23              IA-11RaCtrl:CO-DIO:P006
+CA-RaCtrl:CO-DIO-5:P05              IA-12RaCtrl:CO-DIO:P008
+CA-RaCtrl:CO-DIO-5:P11              IA-13RaCtrl:CO-DIO:P010
+CA-RaCtrl:CO-DIO-5:P17              IA-14RaCtrl:CO-DIO:P012
+CA-RaCtrl:CO-DIO-6:P05              IA-15RaCtrl:CO-DIO:P014
+CA-RaCtrl:CO-DIO-6:P11              IA-16RaCtrl:CO-DIO:P016
+CA-RaCtrl:CO-DIO-6:P23              IA-17RaCtrl:CO-DIO:P018
+CA-RaCtrl:CO-DIO-7:P05              IA-18RaCtrl:CO-DIO:P020
+CA-RaCtrl:CO-DIO-7:P17              IA-19RaCtrl:CO-DIO:P022
+CA-RaCtrl:CO-DIO-8:P05              IA-20RaCtrl:CO-DIO:P026
+CA-RaCtrl:CO-DIO-8:P06              IA-20RaCtrl:CO-DIO:P027
 LA-RFH01RACK2:CO-DIO:P072           LA-RFH01RACK2:TI-EVR:UPLINK
 LA-BIH01RACK2:CO-DIO:P043           LA-BIH01RACK2:TI-EVE:UPLINK
 IA-01RaCtrl:CO-DIO:P073             IA-01RaInj05:TI-EVR:UPLINK
@@ -474,29 +474,29 @@ BO-02U:TI-OESglSFP:INTX             IA-20RaDiag01:TI-EVR:INRX1
 
 # CONNECTIONS NOT USED
 # 50
-# CA-RaCtrl:CO-DIO:P042               IA-01RaCtrl:CO-DIO:P042
-# CA-RaCtrl:CO-DIO:P044               RA-RaSIA01:CO-DIO:P044
-# CA-RaCtrl:CO-DIO:P045               RA-RaSIB01:CO-DIO:P045
-# CA-RaCtrl:CO-DIO:P052B              IA-10RaCtrl:CO-DIO:P052B
-# CA-RaCtrl:CO-DIO:P053               IA-11RaCtrl:CO-DIO:P053
-# CA-RaCtrl:CO-DIO:P054               IA-12RaCtrl:CO-DIO:P054
-# CA-RaCtrl:CO-DIO:P055               IA-13RaCtrl:CO-DIO:P055
-# CA-RaCtrl:CO-DIO:P056               IA-14RaCtrl:CO-DIO:P056
-# CA-RaCtrl:CO-DIO:P057               IA-15RaCtrl:CO-DIO:P057
-# CA-RaCtrl:CO-DIO:P058               IA-16RaCtrl:CO-DIO:P058
-# CA-RaCtrl:CO-DIO:P059               IA-17RaCtrl:CO-DIO:P059
-# CA-RaCtrl:CO-DIO:P060               IA-18RaCtrl:CO-DIO:P060
-# CA-RaCtrl:CO-DIO:P061               IA-19RaCtrl:CO-DIO:P061
-# CA-RaCtrl:CO-DIO:P062               IA-02RaCtrl:CO-DIO:P062
-# CA-RaCtrl:CO-DIO:P063               IA-20RaCtrl:CO-DIO:P063
-# CA-RaCtrl:CO-DIO:P064               IA-03RaCtrl:CO-DIO:P064
-# CA-RaCtrl:CO-DIO:P065               IA-04RaCtrl:CO-DIO:P065
-# CA-RaCtrl:CO-DIO:P066               IA-05RaCtrl:CO-DIO:P066
-# CA-RaCtrl:CO-DIO:P067               IA-06RaCtrl:CO-DIO:P067
-# CA-RaCtrl:CO-DIO:P068               IA-07RaCtrl:CO-DIO:P068
-# CA-RaCtrl:CO-DIO:P069               IA-08RaCtrl:CO-DIO:P069
-# CA-RaCtrl:CO-DIO:P070               IA-09RaCtrl:CO-DIO:P070
-# CA-RaCtrl:CO-DIO:P071               RA-RaBO01:CO-DIO:P071
+# CA-RaCtrl:CO-DIO-2:P042             IA-01RaCtrl:CO-DIO:P042
+# CA-RaCtrl:CO-DIO-1:P044             RA-RaSIA01:CO-DIO:P044
+# CA-RaCtrl:CO-DIO-1:P045             RA-RaSIB01:CO-DIO:P045
+# CA-RaCtrl:CO-DIO-1:P052B            IA-10RaCtrl:CO-DIO:P052B
+# CA-RaCtrl:CO-DIO-1:P053             IA-11RaCtrl:CO-DIO:P053
+# CA-RaCtrl:CO-DIO-1:P054             IA-12RaCtrl:CO-DIO:P054
+# CA-RaCtrl:CO-DIO-1:P055             IA-13RaCtrl:CO-DIO:P055
+# CA-RaCtrl:CO-DIO-1:P056             IA-14RaCtrl:CO-DIO:P056
+# CA-RaCtrl:CO-DIO-1:P057             IA-15RaCtrl:CO-DIO:P057
+# CA-RaCtrl:CO-DIO-1:P058             IA-16RaCtrl:CO-DIO:P058
+# CA-RaCtrl:CO-DIO-1:P059             IA-17RaCtrl:CO-DIO:P059
+# CA-RaCtrl:CO-DIO-1:P060             IA-18RaCtrl:CO-DIO:P060
+# CA-RaCtrl:CO-DIO-1:P061             IA-19RaCtrl:CO-DIO:P061
+# CA-RaCtrl:CO-DIO-1:P062             IA-02RaCtrl:CO-DIO:P062
+# CA-RaCtrl:CO-DIO-1:P063             IA-20RaCtrl:CO-DIO:P063
+# CA-RaCtrl:CO-DIO-1:P064             IA-03RaCtrl:CO-DIO:P064
+# CA-RaCtrl:CO-DIO-1:P065             IA-04RaCtrl:CO-DIO:P065
+# CA-RaCtrl:CO-DIO-1:P066             IA-05RaCtrl:CO-DIO:P066
+# CA-RaCtrl:CO-DIO-1:P067             IA-06RaCtrl:CO-DIO:P067
+# CA-RaCtrl:CO-DIO-1:P068             IA-07RaCtrl:CO-DIO:P068
+# CA-RaCtrl:CO-DIO-1:P069             IA-08RaCtrl:CO-DIO:P069
+# CA-RaCtrl:CO-DIO-1:P070             IA-09RaCtrl:CO-DIO:P070
+# CA-RaCtrl:CO-DIO-1:P071             RA-RaBO01:CO-DIO:P071
 # IA-01RaCtrl:CO-DIO:P001             IA-02RaCtrl:CO-DIO:P001
 # IA-02RaCtrl:CO-DIO:P023             IA-03RaCtrl:CO-DIO:P023
 # IA-03RaCtrl:CO-DIO:P028             IA-04RaCtrl:CO-DIO:P028
