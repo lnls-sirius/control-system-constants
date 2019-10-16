@@ -591,8 +591,8 @@
             'Src': {'value': 0, 'enums': ('RmpBO', 'OrbBO', 'Cycle', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 3920},
-            'Duration': {'value': 490000},
+            'NrPulses': {'value': 1},
+            'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
@@ -623,19 +623,7 @@
             'BO-45U:PS-CH:RS485', 'BO-45U:PS-CV:RS485',
             'BO-47U:PS-CH:RS485', 'BO-47U:PS-CV:RS485',
             'BO-49D:PS-CH:RS485', 'BO-49U:PS-CV:RS485',
-            ),
-        },
-    'BO-Glob:TI-Corrs-WfmRef': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('RmpBO', 'OrbBO', 'Cycle', 'Study')},
-            'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 3920},
-            'Duration': {'value': 490000},
-            'State': {'value': 0},
-            'Polarity': {'value': 0, 'states': (0, 1)},
-            },
-        'channels': (
+            # these will be removed soon:
             'IA-01RaPS01:PS-UDC-BO:TIMIN',
             'IA-02RaPS01:PS-UDC-BO:TIMIN',
             'IA-04RaPS01:PS-UDC-BO:TIMIN',
