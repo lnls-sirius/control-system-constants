@@ -1065,8 +1065,10 @@
             'Src': {'value': 0, 'enums': ('DigLI', 'Linac', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
-            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+            'NrPulses': {
+                'value': 1, 'hilim': 1000, 'high': 1000, 'hihi': 1000},
+            'Duration': {
+                'value': 150, 'hilim': 500000, 'high': 500000, 'hihi': 600000},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
@@ -1102,8 +1104,10 @@
                                 'Linac', 'InjBO', 'DigTB', 'DigBO', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
-            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+            'NrPulses': {
+                'value': 1, 'hilim': 1000, 'high': 1000, 'hihi': 1000},
+            'Duration': {
+                'value': 150, 'hilim': 500000, 'high': 500000, 'hihi': 600000},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
@@ -1154,8 +1158,10 @@
             'Src': {'value': 0, 'enums': ('DigBO', 'DigTB', 'Study', 'Linac')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
-            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+            'NrPulses': {
+                'value': 1, 'hilim': 1000, 'high': 1000, 'hihi': 1000},
+            'Duration': {
+                'value': 150, 'hilim': 500000, 'high': 500000, 'hihi': 600000},
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
@@ -1208,8 +1214,10 @@
             'Src': {'value': 0, 'enums': ('DigTS', 'InjSI', 'Study', 'Linac')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
-            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+            'NrPulses': {
+                'value': 1, 'hilim': 1000, 'high': 1000, 'hihi': 1000},
+            'Duration': {
+                'value': 150, 'hilim': 500000, 'high': 500000, 'hihi': 600000},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
