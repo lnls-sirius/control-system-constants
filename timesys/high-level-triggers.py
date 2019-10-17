@@ -591,8 +591,8 @@
             'Src': {'value': 0, 'enums': ('RmpBO', 'OrbBO', 'Cycle', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 3920},
-            'Duration': {'value': 490000},
+            'NrPulses': {'value': 1},
+            'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
@@ -623,19 +623,7 @@
             'BO-45U:PS-CH:RS485', 'BO-45U:PS-CV:RS485',
             'BO-47U:PS-CH:RS485', 'BO-47U:PS-CV:RS485',
             'BO-49D:PS-CH:RS485', 'BO-49U:PS-CV:RS485',
-            ),
-        },
-    'BO-Glob:TI-Corrs-WfmRef': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('RmpBO', 'OrbBO', 'Cycle', 'Study')},
-            'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 3920},
-            'Duration': {'value': 490000},
-            'State': {'value': 0},
-            'Polarity': {'value': 0, 'states': (0, 1)},
-            },
-        'channels': (
+            # these will be removed soon:
             'IA-01RaPS01:PS-UDC-BO:TIMIN',
             'IA-02RaPS01:PS-UDC-BO:TIMIN',
             'IA-04RaPS01:PS-UDC-BO:TIMIN',
@@ -1065,8 +1053,10 @@
             'Src': {'value': 0, 'enums': ('DigLI', 'Linac', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
-            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+            'NrPulses': {
+                'value': 1, 'hilim': 1000, 'high': 1000, 'hihi': 1000},
+            'Duration': {
+                'value': 150, 'hilim': 500000, 'high': 500000, 'hihi': 600000},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
@@ -1102,8 +1092,10 @@
                                 'Linac', 'InjBO', 'DigTB', 'DigBO', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
-            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+            'NrPulses': {
+                'value': 1, 'hilim': 1000, 'high': 1000, 'hihi': 1000},
+            'Duration': {
+                'value': 150, 'hilim': 500000, 'high': 500000, 'hihi': 600000},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
@@ -1154,8 +1146,10 @@
             'Src': {'value': 0, 'enums': ('DigBO', 'DigTB', 'Study', 'Linac')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
-            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+            'NrPulses': {
+                'value': 1, 'hilim': 1000, 'high': 1000, 'hihi': 1000},
+            'Duration': {
+                'value': 150, 'hilim': 500000, 'high': 500000, 'hihi': 600000},
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
@@ -1208,8 +1202,10 @@
             'Src': {'value': 0, 'enums': ('DigTS', 'InjSI', 'Study', 'Linac')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
-            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+            'NrPulses': {
+                'value': 1, 'hilim': 1000, 'high': 1000, 'hihi': 1000},
+            'Duration': {
+                'value': 150, 'hilim': 500000, 'high': 500000, 'hihi': 600000},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
