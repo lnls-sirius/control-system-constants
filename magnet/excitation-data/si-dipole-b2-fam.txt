@@ -1,6 +1,6 @@
 # HEADER
 # ======
-# label           si-dipole-b1b2-fam
+# label           si-dipole-b2-fam
 # harmonics       0  1  2  3  4  5  6
 # main_harmonic   0 normal
 # units           Ampere  T*m T*m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3  T/m^4 T/m^4  T/m^5 T/m^5  
@@ -8,17 +8,20 @@
 # EXCITATION DATA
 # ===============
 +00.0000  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  
-+381.7000  -1.1341e+00 +0.0000e+00  +1.5223e+01 +0.0000e+00  +3.3963e+00 +0.0000e+00  -1.1757e+02 +0.0000e+00  +5.6595e+02 +0.0000e+00  -7.5555e+04 +0.0000e+00  -9.7944e+06 +0.0000e+00  
-+401.8000  -1.1929e+00 +0.0000e+00  +1.6005e+01 +0.0000e+00  +3.7596e+00 +0.0000e+00  -1.1258e+02 +0.0000e+00  +7.2842e+02 +0.0000e+00  -1.4214e+05 +0.0000e+00  -1.0559e+07 +0.0000e+00  
-+403.6000  -1.1982e+00 +0.0000e+00  +1.6075e+01 +0.0000e+00  +3.8589e+00 +0.0000e+00  -1.2020e+02 +0.0000e+00  -4.0042e+02 +0.0000e+00  -1.0274e+05 +0.0000e+00  -4.6649e+06 +0.0000e+00  
-+421.9000  -1.2516e+00 +0.0000e+00  +1.6781e+01 +0.0000e+00  +4.2366e+00 +0.0000e+00  -1.2117e+02 +0.0000e+00  -5.5349e+02 +0.0000e+00  -1.4814e+05 +0.0000e+00  -5.1825e+06 +0.0000e+00  
++381.7000  -6.7804e-01 +0.0000e+00  +9.0970e+00 +0.0000e+00  +1.6930e+00 +0.0000e+00  -5.8685e+01 +0.0000e+00  +1.4982e+03 +0.0000e+00  -7.1748e+04 +0.0000e+00  -1.1284e+07 +0.0000e+00  
++401.8000  -7.1321e-01 +0.0000e+00  +9.5650e+00 +0.0000e+00  +1.9217e+00 +0.0000e+00  -6.0588e+01 +0.0000e+00  +1.1648e+03 +0.0000e+00  -7.2741e+04 +0.0000e+00  -1.0211e+07 +0.0000e+00  
++421.9000  -7.4831e-01 +0.0000e+00  +1.0030e+01 +0.0000e+00  +2.1525e+00 +0.0000e+00  -6.4508e+01 +0.0000e+00  +2.8683e+02 +0.0000e+00  -8.5855e+04 +0.0000e+00  -6.1669e+06 +0.0000e+00  
  
 # COMMENTS
 # ========
 # 1. generated automatically with "sirius_si_create_excitation_files.m"
-# 2. the excitation data above is the sum of combined B1 and B2 dipoles.
-# 3. see files 'si-dipole-b1-fam.txt' and 'si-dipole-b2-fam.txt' for original data
-# 
+# 2. data taken from rotcoil measurements
+# 3. average excitation curves for magnets:
+#    B2-002 B2-001 B2-010 B2-011 B2-017 B2-014 B2-032 B2-043 B2-022 B2-045 
+#    B2-004 B2-015 B2-023 B2-037 B2-008 B2-013 B2-019 B2-030 B2-033 B2-007 
+#    B2-042 B2-016 B2-034 B2-018 B2-036 B2-038 B2-021 B2-005 B2-006 B2-029 
+#    B2-003 B2-027 B2-040 B2-044 B2-031 B2-028 B2-026 B2-025 B2-046 B2-009 
+#    
  
 # POLARITY TABLE
 # ==============
@@ -30,7 +33,7 @@
 # corrector-vertical      | VKick > 0      | BXL  < 0    | -1.0        | I > 0
 # quadrupole (focusing)   | KL    > 0      | D1NL < 0    | -1.0        | I > 0
 # quadrupole (defocusing) | KL    < 0      | D1NL > 0    | -1.0        | I > 0
-# quadrupole (skew)       | KL    < 0      | D1SL > 0    | -1.0        | I > 0
+# quadrupole (skew)       | KL    > 0      | D1SL > 0    | +1.0        | I > 0
 # sextupole  (focusing)   | SL    > 0      | D2NL < 0    | -1.0        | I > 0
 # sextupole  (defocusing) | SL    < 0      | D2NL > 0    | -1.0        | I > 0
 # 
@@ -46,7 +49,6 @@
 # HKick := ConvSign * BYL / abs(Brho)
 # VKick := ConvSign * BXL / abs(Brho)
 # KL    := ConvSign * D1NL / abs(Brho)
-# KL    := ConvSign * D1SL / abs(Brho)
 # SL    := ConvSign * D2NL / abs(Brho)
 # 
 # Obs:
