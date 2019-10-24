@@ -46,6 +46,9 @@ si-injdpk                    monopolar        corrector-horizontal
 si-injnlk                    monopolar        corrector-horizontal
 
 ts-dipole-b-fam              monopolar        dipole
+ts-quadrupole-q14-qf         monopolar        quadrupole
+ts-quadrupole-q14-qd         monopolar        quadrupole
+ts-quadrupole-q20-qf         monopolar        quadrupole
 ts-injseptum-thick           monopolar        corrector-horizontal
 ts-injseptum-thin            monopolar        corrector-horizontal
 ts-ejeseptum-thick           monopolar        corrector-horizontal
