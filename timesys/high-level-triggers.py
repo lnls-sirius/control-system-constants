@@ -530,7 +530,7 @@
             'SI-20C3:PS-QS:RS485',
             ),
         },
-    'SI-Glob:TI-Dips': {
+    'SI-Glob:TI-Mags-Bends': {
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'Cycle', 'Study')},
             'Delay': {'value': 0.0},
