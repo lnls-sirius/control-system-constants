@@ -872,7 +872,7 @@
             },
         'channels': ('BO-48D:PU-EjeKckrCtrl:TRIGIN', ),
         },
-    'TS-Fam:TI-EjeSept': {
+    'TS-01:TI-EjeSeptF': {
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study', 'Linac')},
             'Delay': {'value': 0.0},
@@ -884,6 +884,19 @@
             },
         'channels': (
             'TS-01:PU-EjeSeptGCtrl-1:TRIGIN',
+            ),
+        },
+    'TS-01:TI-EjeSeptG': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study', 'Linac')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+            'State': {'value': 0},
+            'Polarity': {'value': 0, 'states': (0, 2)},  # EVR-OUT port
+            },
+        'channels': (
             'TS-01:PU-EjeSeptGCtrl-2:TRIGIN',
             ),
         },
