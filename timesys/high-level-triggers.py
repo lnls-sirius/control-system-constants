@@ -900,7 +900,7 @@
             'TS-01:PU-EjeSeptGCtrl-2:TRIGIN',
             ),
         },
-    'TS-Fam:TI-InjSeptG': {
+    'TS-04:TI-InjSeptG-1': {
         'database': {
             'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study', 'Linac')},
             'Delay': {'value': 0.0},
@@ -912,6 +912,19 @@
             },
         'channels': (
             'TS-04:PU-InjSeptGCtrl-1:TRIGIN',
+            ),
+        },
+    'TS-04:TI-InjSeptG-2': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('InjSI', 'RmpBO', 'Study', 'Linac')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+            'State': {'value': 0},
+            'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
+            },
+        'channels': (
             'TS-04:PU-InjSeptGCtrl-2:TRIGIN',
             ),
         },
