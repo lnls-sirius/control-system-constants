@@ -586,7 +586,7 @@
             'BO-Fam:PS-SF:RS485', 'BO-Fam:PS-SD:RS485',
             ),
         },
-    'BO-Glob:TI-Corrs': {
+    'BO-Glob:TI-Mags-Corrs': {
         'database': {
             'Src': {'value': 0, 'enums': ('RmpBO', 'OrbBO', 'Cycle', 'Study')},
             'Delay': {'value': 0.0},
