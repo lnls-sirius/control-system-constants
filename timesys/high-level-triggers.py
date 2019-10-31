@@ -398,7 +398,7 @@
             'SI-20M2:PS-QDB2:RS485',
             ),
         },
-    'SI-Glob:TI-Skews': {
+    'SI-Glob:TI-Mags-Skews': {
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'CplSI', 'Cycle', 'Study')},
             'Delay': {'value': 0.0},
