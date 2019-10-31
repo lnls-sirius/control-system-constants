@@ -545,7 +545,7 @@
             'SI-Fam:PS-B1B2-2:RS485',
             ),
         },
-    'SI-Glob:TI-Sexts': {
+    'SI-Glob:TI-Mags-Sexts': {
         'database': {
             'Src': {'value': 0, 'enums': ('MigSI', 'Cycle', 'Study')},
             'Delay': {'value': 0.0},
@@ -556,18 +556,18 @@
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
-            'SI-Fam:PS-SFA0:RS485',    'SI-Fam:PS-SFA1:RS485',
+            'SI-Fam:PS-SFA0:RS485', 'SI-Fam:PS-SFA1:RS485',
             'SI-Fam:PS-SFA2:RS485',
-            'SI-Fam:PS-SDA0:RS485',    'SI-Fam:PS-SDA1:RS485',
-            'SI-Fam:PS-SDA2:RS485',    'SI-Fam:PS-SDA3:RS485',
-            'SI-Fam:PS-SFB0:RS485',    'SI-Fam:PS-SFB1:RS485',
+            'SI-Fam:PS-SDA0:RS485', 'SI-Fam:PS-SDA1:RS485',
+            'SI-Fam:PS-SDA2:RS485', 'SI-Fam:PS-SDA3:RS485',
+            'SI-Fam:PS-SFB0:RS485', 'SI-Fam:PS-SFB1:RS485',
             'SI-Fam:PS-SFB2:RS485',
-            'SI-Fam:PS-SDB0:RS485',    'SI-Fam:PS-SDB1:RS485',
-            'SI-Fam:PS-SDB2:RS485',    'SI-Fam:PS-SDB3:RS485',
-            'SI-Fam:PS-SFP0:RS485',    'SI-Fam:PS-SFP1:RS485',
+            'SI-Fam:PS-SDB0:RS485', 'SI-Fam:PS-SDB1:RS485',
+            'SI-Fam:PS-SDB2:RS485', 'SI-Fam:PS-SDB3:RS485',
+            'SI-Fam:PS-SFP0:RS485', 'SI-Fam:PS-SFP1:RS485',
             'SI-Fam:PS-SFP2:RS485',
-            'SI-Fam:PS-SDP0:RS485',    'SI-Fam:PS-SDP1:RS485',
-            'SI-Fam:PS-SDP2:RS485',    'SI-Fam:PS-SDP3:RS485',
+            'SI-Fam:PS-SDP0:RS485', 'SI-Fam:PS-SDP1:RS485',
+            'SI-Fam:PS-SDP2:RS485', 'SI-Fam:PS-SDP3:RS485',
             ),
         },
     'BO-Glob:TI-Mags': {
