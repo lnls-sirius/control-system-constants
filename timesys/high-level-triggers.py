@@ -1449,10 +1449,10 @@
             },
         'channels': ('AS-Glob:DI-FPMDig:CH4', ),
         },
-    'AS-Glob:TI-BPM-TBTS': {
+    'TB-Fam:TI-BPM': {
         'database': {
             'Src': {'value': 0, 'enums': (
-                'DigTB', 'DigTS', 'DigBO', 'DigSI', 'Linac', 'Study')},
+                'DigTB', 'DigLI', 'DigBO', 'Linac', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1461,18 +1461,29 @@
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
-            'TS-01:DI-BPM:CRT0',    'TS-02:DI-BPM:CRT0',
-            'TS-03:DI-BPM:CRT0',
-            'TS-04:DI-BPM-1:CRT0',  'TS-04:DI-BPM-2:CRT0',
-            'TB-01:DI-BPM-1:CRT0',  'TB-01:DI-BPM-2:CRT0',
-            'TB-02:DI-BPM-1:CRT0',  'TB-02:DI-BPM-2:CRT0',
+            'TB-01:DI-BPM-1:CRT0', 'TB-01:DI-BPM-2:CRT0',
+            'TB-02:DI-BPM-1:CRT0', 'TB-02:DI-BPM-2:CRT0',
             'TB-03:DI-BPM:CRT0',
             'TB-04:DI-BPM:CRT0',
             ),
         },
-    'AS-Glob:TI-BPM-SIBO': {
+    'TS-Fam:TI-BPM': {
         'database': {
             'Src': {'value': 0, 'enums': (
+                'DigTS', 'DigBO', 'DigSI', 'Linac', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1},
+            'Duration': {'value': 150},
+            'State': {'value': 0},
+            'Polarity': {'value': 0, 'states': (0, 1)},
+            },
+        'channels': (
+            'TS-01:DI-BPM:CRT1', 'TS-02:DI-BPM:CRT1',
+            'TS-03:DI-BPM:CRT1',
+            'TS-04:DI-BPM-1:CRT1', 'TS-04:DI-BPM-2:CRT1',
+            ),
+        },
                 'DigTB', 'DigTS', 'DigBO', 'DigSI', 'Linac', 'Study')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
