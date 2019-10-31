@@ -570,7 +570,7 @@
             'SI-Fam:PS-SDP2:RS485', 'SI-Fam:PS-SDP3:RS485',
             ),
         },
-    'BO-Glob:TI-Mags': {
+    'BO-Glob:TI-Mags-Fams': {
         'database': {
             'Src': {'value': 0, 'enums': ('RmpBO', 'Cycle', 'Study')},
             'Delay': {'value': 0.0},
@@ -581,9 +581,9 @@
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
-            'BO-Fam:PS-B-1:RS485',    'BO-Fam:PS-B-2:RS485',
-            'BO-Fam:PS-QF:RS485',     'BO-Fam:PS-QD:RS485',
-            'BO-Fam:PS-SF:RS485',     'BO-Fam:PS-SD:RS485',
+            'BO-Fam:PS-B-1:RS485', 'BO-Fam:PS-B-2:RS485',
+            'BO-Fam:PS-QF:RS485', 'BO-Fam:PS-QD:RS485',
+            'BO-Fam:PS-SF:RS485', 'BO-Fam:PS-SD:RS485',
             ),
         },
     'BO-Glob:TI-Corrs': {
