@@ -468,7 +468,6 @@ SI-01C2:PS-FCH          DampedSine    15          1.0                   10.0    
 SI-01C2:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-01C2:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-01C2:PS-Q4           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
-SI-01C2:PS-QS           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-01C3:PS-FCH          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-01C3:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-01C3:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
@@ -522,7 +521,6 @@ SI-03C2:PS-FCH          DampedSine    15          1.0                   10.0    
 SI-03C2:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-03C2:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-03C2:PS-Q4           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
-SI-03C2:PS-QS           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-03C3:PS-FCH          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-03C3:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-03C3:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
@@ -574,7 +572,6 @@ SI-05C2:PS-FCH          DampedSine    15          1.0                   10.0    
 SI-05C2:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-05C2:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-05C2:PS-Q4           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
-SI-05C2:PS-QS           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-05C3:PS-FCH          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-05C3:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-05C3:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
@@ -631,7 +628,6 @@ SI-07C2:PS-FCH          DampedSine    15          1.0                   10.0    
 SI-07C2:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-07C2:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-07C2:PS-Q4           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
-SI-07C2:PS-QS           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-07C3:PS-FCH          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-07C3:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-07C3:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
@@ -684,7 +680,6 @@ SI-09C2:PS-FCH          DampedSine    15          1.0                   10.0    
 SI-09C2:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-09C2:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-09C2:PS-Q4           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
-SI-09C2:PS-QS           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-09C3:PS-FCH          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-09C3:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-09C3:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
@@ -738,7 +733,6 @@ SI-11C2:PS-FCH          DampedSine    15          1.0                   10.0    
 SI-11C2:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-11C2:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-11C2:PS-Q4           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
-SI-11C2:PS-QS           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-11C3:PS-FCH          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-11C3:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-11C3:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
@@ -791,7 +785,6 @@ SI-13C2:PS-FCH          DampedSine    15          1.0                   10.0    
 SI-13C2:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-13C2:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-13C2:PS-Q4           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
-SI-13C2:PS-QS           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-13C3:PS-FCH          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-13C3:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-13C3:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
@@ -845,7 +838,6 @@ SI-15C2:PS-FCH          DampedSine    15          1.0                   10.0    
 SI-15C2:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-15C2:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-15C2:PS-Q4           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
-SI-15C2:PS-QS           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-15C3:PS-FCH          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-15C3:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-15C3:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
@@ -897,7 +889,6 @@ SI-17C2:PS-FCH          DampedSine    15          1.0                   10.0    
 SI-17C2:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-17C2:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-17C2:PS-Q4           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
-SI-17C2:PS-QS           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-17C3:PS-FCH          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-17C3:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-17C3:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
@@ -951,7 +942,6 @@ SI-19C2:PS-FCH          DampedSine    15          1.0                   10.0    
 SI-19C2:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-19C2:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-19C2:PS-Q4           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
-SI-19C2:PS-QS           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-19C3:PS-FCH          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-19C3:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-19C3:PS-Q3           DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0

@@ -412,7 +412,6 @@
             'SI-01M1:PS-QS:RS485',
             'SI-01M2:PS-QS:RS485',
             'SI-01C1:PS-QS:RS485',
-            'SI-01C2:PS-QS:RS485',
             'SI-01C3:PS-QS:RS485',
 
             'SI-02M1:PS-QS:RS485',
@@ -424,7 +423,6 @@
             'SI-03M1:PS-QS:RS485',
             'SI-03M2:PS-QS:RS485',
             'SI-03C1:PS-QS:RS485',
-            'SI-03C2:PS-QS:RS485',
             'SI-03C3:PS-QS:RS485',
 
             'SI-04M1:PS-QS:RS485',
@@ -436,7 +434,6 @@
             'SI-05M1:PS-QS:RS485',
             'SI-05M2:PS-QS:RS485',
             'SI-05C1:PS-QS:RS485',
-            'SI-05C2:PS-QS:RS485',
             'SI-05C3:PS-QS:RS485',
 
             'SI-06M1:PS-QS:RS485',
@@ -448,7 +445,6 @@
             'SI-07M1:PS-QS:RS485',
             'SI-07M2:PS-QS:RS485',
             'SI-07C1:PS-QS:RS485',
-            'SI-07C2:PS-QS:RS485',
             'SI-07C3:PS-QS:RS485',
 
             'SI-08M1:PS-QS:RS485',
@@ -460,7 +456,6 @@
             'SI-09M1:PS-QS:RS485',
             'SI-09M2:PS-QS:RS485',
             'SI-09C1:PS-QS:RS485',
-            'SI-09C2:PS-QS:RS485',
             'SI-09C3:PS-QS:RS485',
 
             'SI-10M1:PS-QS:RS485',
@@ -472,7 +467,6 @@
             'SI-11M1:PS-QS:RS485',
             'SI-11M2:PS-QS:RS485',
             'SI-11C1:PS-QS:RS485',
-            'SI-11C2:PS-QS:RS485',
             'SI-11C3:PS-QS:RS485',
 
             'SI-12M1:PS-QS:RS485',
@@ -484,7 +478,6 @@
             'SI-13M1:PS-QS:RS485',
             'SI-13M2:PS-QS:RS485',
             'SI-13C1:PS-QS:RS485',
-            'SI-13C2:PS-QS:RS485',
             'SI-13C3:PS-QS:RS485',
 
             'SI-14M1:PS-QS:RS485',
@@ -496,7 +489,6 @@
             'SI-15M1:PS-QS:RS485',
             'SI-15M2:PS-QS:RS485',
             'SI-15C1:PS-QS:RS485',
-            'SI-15C2:PS-QS:RS485',
             'SI-15C3:PS-QS:RS485',
 
             'SI-16M1:PS-QS:RS485',
@@ -508,7 +500,6 @@
             'SI-17M1:PS-QS:RS485',
             'SI-17M2:PS-QS:RS485',
             'SI-17C1:PS-QS:RS485',
-            'SI-17C2:PS-QS:RS485',
             'SI-17C3:PS-QS:RS485',
 
             'SI-18M1:PS-QS:RS485',
@@ -520,7 +511,6 @@
             'SI-19M1:PS-QS:RS485',
             'SI-19M2:PS-QS:RS485',
             'SI-19C1:PS-QS:RS485',
-            'SI-19C2:PS-QS:RS485',
             'SI-19C3:PS-QS:RS485',
 
             'SI-20M1:PS-QS:RS485',
