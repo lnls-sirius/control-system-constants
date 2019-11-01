@@ -65,3 +65,26 @@ LA-RaCtrl:CO-PSCtrl-TS4    5.0
 
 # --- TB quad and corrs and TS corr dclinks
 LA-RaCtrl:CO-PSCtrl-AS     5.0
+
+
+# --- BO and SI correctors dclinks ---
+IA-01RaCtrl:CO-DCLinkCtrl  10.0
+IA-02RaCtrl:CO-DCLinkCtrl  10.0
+IA-03RaCtrl:CO-DCLinkCtrl  10.0
+IA-04RaCtrl:CO-DCLinkCtrl  10.0
+IA-05RaCtrl:CO-DCLinkCtrl  10.0
+IA-06RaCtrl:CO-DCLinkCtrl  10.0
+IA-07RaCtrl:CO-DCLinkCtrl  10.0
+IA-08RaCtrl:CO-DCLinkCtrl  10.0
+IA-09RaCtrl:CO-DCLinkCtrl  10.0
+IA-10RaCtrl:CO-DCLinkCtrl  10.0
+IA-11RaCtrl:CO-DCLinkCtrl  10.0
+IA-12RaCtrl:CO-DCLinkCtrl  10.0
+IA-13RaCtrl:CO-DCLinkCtrl  10.0
+IA-14RaCtrl:CO-DCLinkCtrl  10.0
+IA-15RaCtrl:CO-DCLinkCtrl  10.0
+IA-16RaCtrl:CO-DCLinkCtrl  10.0
+IA-17RaCtrl:CO-DCLinkCtrl  10.0
+IA-18RaCtrl:CO-DCLinkCtrl  10.0
+IA-19RaCtrl:CO-DCLinkCtrl  10.0
+IA-20RaCtrl:CO-DCLinkCtrl  10.0
