@@ -229,7 +229,19 @@
 
             # 'SI-Fam:PS-QB1:RS485',
             # 'SI-Fam:PS-QB2:RS485',
-
+            ),
+        },
+    'SI-Glob:TI-Mags-QTrims': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('MigSI', 'TunSI', 'Cycle', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 3920},
+            'Duration': {'value': 2000},
+            'State': {'value': 0},
+            'Polarity': {'value': 0, 'states': (0, 1)},
+            },
+        'channels': (
             'SI-01C1:PS-Q1:RS485', 'SI-01C1:PS-Q2:RS485',
             'SI-01C2:PS-Q3:RS485', 'SI-01C2:PS-Q4:RS485',
             'SI-01C3:PS-Q4:RS485', 'SI-01C3:PS-Q3:RS485',
