@@ -1239,9 +1239,7 @@
             'TS-03:DI-ScrnCam:TRIGIN',
             'TS-04:DI-ScrnCam-1:TRIGIN',
             'TS-04:DI-ScrnCam-2:TRIGIN',
-            # ## one screen left:
-            # According to João Leandro, no requirement has been made for a
-            # timing signal for the last camera
+            'TS-04:DI-ScrnCam-3:TRIGIN',
             ),
         },
     'TS-Fam:TI-ICT-Integ': {
