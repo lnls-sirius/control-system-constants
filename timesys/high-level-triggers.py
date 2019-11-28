@@ -1404,6 +1404,23 @@
             },
         'channels': ('SI-Glob:DI-BbBProc-L:FID', ),
         },
+    'SI-01C2FE:DI-VLightCam': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigSI', 'DigTS', 'DigBO', 'Study')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {
+                'value': 1, 'hilim': 1000, 'high': 1000, 'hihi': 1000},
+            'Duration': {
+                'value': 150,
+                'hilim': 50000000, 'high': 50000000, 'hihi': 60000000},
+            'State': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': (
+            'SI-01C2FE:DI-VLightCam:TRIGIN',
+            ),
+        },
     'SI-13C4:TI-DCCT': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'PsMtn', 'Study', 'Linac')},
