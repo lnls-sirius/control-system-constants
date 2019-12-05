@@ -10,7 +10,7 @@
 
 
 
-# 540
+# 543
 AS-RaMO:TI-EVG:OUT0                 RA-RaMO:CO-DIO:P074
 AS-RaMO:TI-EVG:OUT1                 RA-RaMO:CO-DIO:P075
 AS-RaMO:TI-EVG:OUT2                 RA-RaMO:CO-DIO:P076
@@ -65,12 +65,15 @@ CA-RaTim:TI-Fout-5:OUT3             CA-RaCtrl:CO-DIO-7:P05
 CA-RaTim:TI-Fout-5:OUT4             CA-RaCtrl:CO-DIO-7:P17
 CA-RaTim:TI-Fout-5:OUT5             CA-RaCtrl:CO-DIO-8:P05
 CA-RaTim:TI-Fout-5:OUT6             CA-RaCtrl:CO-DIO-8:P06
-RA-RaBO01:TI-EVE:OTP0               RA-RaBO01:RF-DigPatch:RAMPA
+RA-RaBO01:TI-EVE:OTP0               RA-RaBO01:RF-DigPatch:RAMP
 RA-RaBO01:TI-EVE:OTP1               RA-RaBO01:RF-DigPatch:POSTMORTEN
-RA-RaSIA01:TI-EVE:OTP0              RA-RaSIA01:RF-DigPatch:RAMPA
+RA-RaBO01:TI-EVE:OTP2               RA-RaBO01:RF-DigPatch:GENERIC
+RA-RaSIA01:TI-EVE:OTP0              RA-RaSIA01:RF-DigPatch:RAMP
 RA-RaSIA01:TI-EVE:OTP1              RA-RaSIA01:RF-DigPatch:POSTMORTEN
-RA-RaSIB01:TI-EVE:OTP0              RA-RaSIB01:RF-DigPatch:RAMPA
+RA-RaSIA01:TI-EVE:OTP2              RA-RaSIA01:RF-DigPatch:GENERIC
+RA-RaSIB01:TI-EVE:OTP0              RA-RaSIB01:RF-DigPatch:RAMP
 RA-RaSIB01:TI-EVE:OTP1              RA-RaSIB01:RF-DigPatch:POSTMORTEN
+RA-RaSIB01:TI-EVE:OTP2              RA-RaSIB01:RF-DigPatch:GENERIC
 CA-RaCtrl:CO-DIO-8:P19              LA-RFH01RACK2:CO-DIO:P072
 CA-RaCtrl:CO-DIO-9:P02              LA-BIH01RACK2:CO-DIO:P043
 CA-RaCtrl:CO-DIO-2:P02              IA-01RaCtrl:CO-DIO:P073
