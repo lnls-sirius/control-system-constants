@@ -1011,7 +1011,19 @@
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('RA-RaBO01:RF-DigPatch:RAMPA', ),
+        'channels': ('RA-RaBO01:RF-DigPatch:RAMP', ),
+        },
+    'BO-Glob:TI-LLRF-Gen': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('InjBO', 'RmpBO', 'Study', 'Linac')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+            'State': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('RA-RaBO01:RF-DigPatch:GENERIC', ),
         },
     'BO-Glob:TI-LLRF-PsMtn': {
         'database': {
@@ -1037,8 +1049,23 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
-            'RA-RaSIA01:RF-DigPatch:RAMPA',
-            'RA-RaSIB01:RF-DigPatch:RAMPA',
+            'RA-RaSIA01:RF-DigPatch:RAMP',
+            'RA-RaSIB01:RF-DigPatch:RAMP',
+            ),
+        },
+    'SI-Glob:TI-LLRF-Gen': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('InjSI', 'Study', 'Linac')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+            'State': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': (
+            'RA-RaSIA01:RF-DigPatch:GENERIC',
+            'RA-RaSIB01:RF-DigPatch:GENERIC',
             ),
         },
     'SI-Glob:TI-LLRF-PsMtn': {
