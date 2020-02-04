@@ -1,7 +1,66 @@
 # Power Supply to DCLink Mapping
 # ==============================
-
 # TODO: file to be renamed to "ps-dclink.txt"
+
+
+# ______ LI ______
+
+# --- LI Spectrometer ---
+LI-01:PS-Spect               None
+
+# --- LI Quadrupoles ---
+LI-01:PS-QD1                 None
+LI-01:PS-QD2                 None
+LI-Fam:PS-QF1                None
+LI-Fam:PS-QF2                None
+LI-01:PS-QF3                 None
+
+# --- LI Correctors ---
+LI-01:PS-CH-1                None
+LI-01:PS-CH-2                None
+LI-01:PS-CH-3                None
+LI-01:PS-CH-4                None
+LI-01:PS-CH-5                None
+LI-01:PS-CH-6                None
+LI-01:PS-CH-7                None
+LI-01:PS-CV-1                None
+LI-01:PS-CV-2                None
+LI-01:PS-CV-3                None
+LI-01:PS-CV-4                None
+LI-01:PS-CV-5                None
+LI-01:PS-CV-6                None
+LI-01:PS-CV-7                None
+
+# --- LI Lenses ---
+LI-01:PS-Lens-1              None
+LI-01:PS-Lens-2              None
+LI-01:PS-Lens-3              None
+LI-01:PS-Lens-4              None
+LI-01:PS-LensRev             None
+
+# --- LI Solenoids ---
+LI-01:PS-Slnd-1              None
+LI-01:PS-Slnd-10             None
+LI-01:PS-Slnd-11             None
+LI-01:PS-Slnd-12             None
+LI-01:PS-Slnd-13             None
+LI-01:PS-Slnd-2              None
+LI-01:PS-Slnd-3              None
+LI-01:PS-Slnd-4              None
+LI-01:PS-Slnd-5              None
+LI-01:PS-Slnd-6              None
+LI-01:PS-Slnd-7              None
+LI-01:PS-Slnd-8              None
+LI-01:PS-Slnd-9              None
+LI-Fam:PS-Slnd-14            None
+LI-Fam:PS-Slnd-15            None
+LI-Fam:PS-Slnd-16            None
+LI-Fam:PS-Slnd-17            None
+LI-Fam:PS-Slnd-18            None
+LI-Fam:PS-Slnd-19            None
+LI-Fam:PS-Slnd-20            None
+LI-Fam:PS-Slnd-21            None
+
 
 # ______ TB ______
 
