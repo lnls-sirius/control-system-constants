@@ -19,19 +19,21 @@ LI-Fam:PS-QF2                LINAC_PS
 LI-01:PS-QF3                 LINAC_PS
 
 # --- LI Correctors ---
+# --- short
 LI-01:PS-CH-1                LINAC_PS
-LI-01:PS-CH-2                LINAC_PS
-LI-01:PS-CH-3                LINAC_PS
-LI-01:PS-CH-4                LINAC_PS
-LI-01:PS-CH-5                LINAC_PS
-LI-01:PS-CH-6                LINAC_PS
-LI-01:PS-CH-7                LINAC_PS
 LI-01:PS-CV-1                LINAC_PS
+LI-01:PS-CH-2                LINAC_PS
 LI-01:PS-CV-2                LINAC_PS
+# --- long
+LI-01:PS-CH-3                LINAC_PS
 LI-01:PS-CV-3                LINAC_PS
+LI-01:PS-CH-4                LINAC_PS
 LI-01:PS-CV-4                LINAC_PS
+LI-01:PS-CH-5                LINAC_PS
 LI-01:PS-CV-5                LINAC_PS
+LI-01:PS-CH-6                LINAC_PS
 LI-01:PS-CV-6                LINAC_PS
+LI-01:PS-CH-7                LINAC_PS
 LI-01:PS-CV-7                LINAC_PS
 
 # --- LI Lenses ---

@@ -3,20 +3,66 @@
 
 # should we include here polarity columns?
 
-# --- linac Spect ---
-
+# --- LI Spectrometer ---
 LI-01:MA-Spect               LI-01:PS-Spect
 
-# --- linac long quadrupoles ---
-
-LI-01:MA-QD1                 LI-01:PS-QD1
-LI-01:MA-QD2                 LI-01:PS-QD2
-
-# --- linac short quadrupoles ---
-
+# --- LI Quadrupoles (short) ---
 LI-Fam:MA-QF1                LI-Fam:PS-QF1
 LI-Fam:MA-QF2                LI-Fam:PS-QF2
 LI-01:MA-QF3                 LI-01:PS-QF3
+
+# --- LI Quadrupoles (long) ---
+LI-01:MA-QD1                 LI-01:PS-QD1
+LI-01:MA-QD2                 LI-01:PS-QD2
+
+# --- LI Correctors (short) ---
+LI-01:MA-CH-1                LI-01:PS-CH-1
+LI-01:MA-CV-1                LI-01:PS-CV-1
+LI-01:MA-CH-2                LI-01:PS-CH-2
+LI-01:MA-CV-2                LI-01:PS-CV-2
+
+# --- LI Correctors (long) ---
+LI-01:MA-CH-3                LI-01:PS-CH-3
+LI-01:MA-CV-3                LI-01:PS-CV-3
+LI-01:MA-CH-4                LI-01:PS-CH-4
+LI-01:MA-CV-4                LI-01:PS-CV-4
+LI-01:MA-CH-5                LI-01:PS-CH-5
+LI-01:MA-CV-5                LI-01:PS-CV-5
+LI-01:MA-CH-6                LI-01:PS-CH-6
+LI-01:MA-CV-6                LI-01:PS-CV-6
+LI-01:MA-CH-7                LI-01:PS-CH-7
+LI-01:MA-CV-7                LI-01:PS-CV-7
+
+# --- LI Lenses ---
+LI-01:MA-Lens-1              LI-01:PS-Lens-1
+LI-01:MA-Lens-2              LI-01:PS-Lens-2
+LI-01:MA-Lens-3              LI-01:PS-Lens-3
+LI-01:MA-Lens-4              LI-01:PS-Lens-4
+LI-01:MA-LensRev             LI-01:PS-LensRev
+
+# --- LI Solenoids ---
+LI-01:MA-Slnd-1              LI-01:PS-Slnd-1
+LI-01:MA-Slnd-10             LI-01:PS-Slnd-10
+LI-01:MA-Slnd-11             LI-01:PS-Slnd-11
+LI-01:MA-Slnd-12             LI-01:PS-Slnd-12
+LI-01:MA-Slnd-13             LI-01:PS-Slnd-13
+LI-01:MA-Slnd-2              LI-01:PS-Slnd-2
+LI-01:MA-Slnd-3              LI-01:PS-Slnd-3
+LI-01:MA-Slnd-4              LI-01:PS-Slnd-4
+LI-01:MA-Slnd-5              LI-01:PS-Slnd-5
+LI-01:MA-Slnd-6              LI-01:PS-Slnd-6
+LI-01:MA-Slnd-7              LI-01:PS-Slnd-7
+LI-01:MA-Slnd-8              LI-01:PS-Slnd-8
+LI-01:MA-Slnd-9              LI-01:PS-Slnd-9
+LI-Fam:MA-Slnd-14            LI-Fam:PS-Slnd-14
+LI-Fam:MA-Slnd-15            LI-Fam:PS-Slnd-15
+LI-Fam:MA-Slnd-16            LI-Fam:PS-Slnd-16
+LI-Fam:MA-Slnd-17            LI-Fam:PS-Slnd-17
+LI-Fam:MA-Slnd-18            LI-Fam:PS-Slnd-18
+LI-Fam:MA-Slnd-19            LI-Fam:PS-Slnd-19
+LI-Fam:MA-Slnd-20            LI-Fam:PS-Slnd-20
+LI-Fam:MA-Slnd-21            LI-Fam:PS-Slnd-21
+
 
 # --- dipole families ---
 
