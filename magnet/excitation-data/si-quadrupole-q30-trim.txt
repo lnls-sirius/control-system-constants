@@ -1,20 +1,20 @@
 # HEADER
 # ======
 # label           si-quadrupole-q30-trim
-# harmonics       1 5 9 13
+# harmonics       1   2   3   4   5   6   7   8   9  10  11  12  13  14
 # main_harmonic   1 normal
-# units           Ampere  T T  T/m^4 T/m^4  T/m^8 T/m^8  T/m^12 T/m^12
+# units           Ampere  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3  T/m^4 T/m^4  T/m^5 T/m^5  T/m^6 T/m^6  T/m^7 T/m^7  T/m^8 T/m^8  T/m^9 T/m^9  T/m^10 T/m^10  T/m^11 T/m^11  T/m^12 T/m^12  T/m^13 T/m^13
 
 # EXCITATION DATA
 # ===============
-+000.000  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
-+163.800  -1.4274e+01 +0.0000e+00  +3.1848e+05 +0.0000e+00  -5.8638e+13 +0.0000e+00  +1.0678e+21 +0.0000e+00
+-009.9962  +9.1274e-01 -4.4705e-04  +1.4021e-02 +1.4709e-02  +6.7318e-01 -3.3201e-01  +6.5883e+00 -1.6027e+01  -4.9657e+04 +4.4719e+03  +1.5255e+04 -1.9045e+04  -1.8395e+06 +1.4779e+06  -3.7968e+07 +2.7442e+07  +3.7667e+12 -1.2946e+11  -7.8615e+11 +7.1006e+11  -7.3497e+12 +1.0981e+14  +3.4641e+15 +1.3409e+14  -7.4038e+19 +2.2176e+18  +1.0692e+19 -2.4841e+19
++009.9962  -9.1274e-01 +4.4705e-04  -1.4021e-02 -1.4709e-02  -6.7318e-01 +3.3201e-01  -6.5883e+00 +1.6027e+01  +4.9657e+04 -4.4719e+03  -1.5255e+04 +1.9045e+04  +1.8395e+06 -1.4779e+06  +3.7968e+07 -2.7442e+07  -3.7667e+12 +1.2946e+11  +7.8615e+11 -7.1006e+11  +7.3497e+12 -1.0981e+14  -3.4641e+15 -1.3409e+14  +7.4038e+19 -2.2176e+18  -1.0692e+19 +2.4841e+19
 
 # COMMENTS
 # ========
-# 1. data is a copy of si-quadrupole-q30-fam
-# 2. individual (I_trim)  -> (KL_quad): KL_quad = KL_fam(I_fam) + KL_trim(I_trim)
-#    individual (KL_quad) -> (I_trim) : I_trim = KL_trim^(-1)(KL_quad - KL_fam(I_fam))
+# 1. data is a copy of si-quadrupole-q30-fam, limited to +/-10A, mirrored in negative currents, dropped dipolar term
+# 2. individual (I_trim)  -> (KL_quad): KL_quad = KL_fam + KL_trim(I_trim)
+#    individual (KL_quad) -> (I_trim) : I_trim = KL_trim^(-1)(KL_quad - KL_fam)
 
 # POLARITY TABLE
 # ==============
