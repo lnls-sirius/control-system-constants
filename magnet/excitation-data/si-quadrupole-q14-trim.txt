@@ -1,20 +1,20 @@
 # HEADER
 # ======
 # label           si-quadrupole-q14-trim
-# harmonics       1 5 9 13
+# harmonics       1   2   3   4   5   6   7   8   9  10  11  12  13  14
 # main_harmonic   1 normal
-# units           Ampere  T T  T/m^4 T/m^4  T/m^8 T/m^8  T/m^12 T/m^12
+# units           Ampere  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3  T/m^4 T/m^4  T/m^5 T/m^5  T/m^6 T/m^6  T/m^7 T/m^7  T/m^8 T/m^8  T/m^9 T/m^9  T/m^10 T/m^10  T/m^11 T/m^11  T/m^12 T/m^12  T/m^13 T/m^13
 
 # EXCITATION DATA
 # ===============
-+000.000  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
-+156.600  +5.6900e-00 +0.0000e+00  -8.9392e+04 +0.0000e+00  +2.0328e+13 +0.0000e+00  -4.0596e+20 +0.0000e+00
+-009.9958  -3.6961e-01 +2.8439e-04  -4.9595e-03 -2.1122e-03  -7.9750e-02 +7.3919e-02  -1.7843e+00 +1.3210e+00  +6.1428e+03 -4.4722e+02  -6.1515e+03 +7.7518e+03  +3.9129e+05 +9.9553e+05  +9.0423e+06 -3.1694e+07  -1.3148e+12 +1.0399e+10  +4.3100e+11 +2.1144e+11  +4.9616e+11 +5.2100e+12  +9.0228e+14 -3.9273e+15  +2.7730e+19 +1.3963e+17  +2.7821e+19 +1.1955e+19
++009.9958  +3.6961e-01 -2.8439e-04  +4.9595e-03 +2.1122e-03  +7.9750e-02 -7.3919e-02  +1.7843e+00 -1.3210e+00  -6.1428e+03 +4.4722e+02  +6.1515e+03 -7.7518e+03  -3.9129e+05 -9.9553e+05  -9.0423e+06 +3.1694e+07  +1.3148e+12 -1.0399e+10  -4.3100e+11 -2.1144e+11  -4.9616e+11 -5.2100e+12  -9.0228e+14 +3.9273e+15  -2.7730e+19 -1.3963e+17  -2.7821e+19 -1.1955e+19
 
 # COMMENTS
 # ========
-# 1. data is a copy of si-quadrupole-q14-fam
-# 2. individual (I_trim)  -> (KL_quad): KL_quad = KL_fam(I_fam) + KL_trim(I_trim)
-#    individual (KL_quad) -> (I_trim) : I_trim = KL_trim^(-1)(KL_quad - KL_fam(I_fam))
+# 1. data is a copy of si-quadrupole-q14-fam, limited to +/-10A, mirrored in negative currents, dropped dipolar term
+# 2. individual (I_trim)  -> (KL_quad): KL_quad = KL_fam + KL_trim(I_trim)
+#    individual (KL_quad) -> (I_trim) : I_trim = KL_trim^(-1)(KL_quad - KL_fam)
 
 # POLARITY TABLE
 # ==============
@@ -62,8 +62,8 @@
 # These static data files should comply with the following formatting rules:
 # 1. If the first alphanumeric character of the line is not the pound sign
 #    then the lines is a comment.
-# 2. If the first alphanumeric character is '#' then if
-#    a) it is followed by '[<parameter>] <value>' a parameter names <parameter>
+# 2. If the first alphanumeric character is "#" then if
+#    a) it is followed by "[<parameter>] <value>" a parameter names <parameter>
 #       is define with value <value>. if the string <value> has spaces in it
 #       it is split as a list of strings.
 #    b) otherwise the line is ignored as a comment line.
