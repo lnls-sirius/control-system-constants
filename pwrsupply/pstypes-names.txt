@@ -4,8 +4,8 @@
 # pstype                     polarity         magnetic_function
 # -------------------------------------------------------------
 
-li-spect-45deg               bipolar          dipole
-#li-spect-15deg               bipolar          dipole
+li-spect-45deg               bipolar          corrector-horizontal
+#li-spect-15deg               bipolar          corrector-horizontal
 li-quadrupole-short          bipolar          quadrupole
 li-quadrupole-long           bipolar          quadrupole
 li-corrector-ch-short        bipolar          corrector-horizontal
