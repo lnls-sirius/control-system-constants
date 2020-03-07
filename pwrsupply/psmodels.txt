@@ -400,31 +400,31 @@ PA-RaPSB10:PS-DCLink-SFB2     REGATRON_DCLink
 
 SI-Fam:PS-SDA1                FAP
 SI-Fam:PS-SDA2                FAP
-PA-RaPSB04:SI-DCLink-SDA12    REGATRON_DCLink
+PA-RaPSB04:PS-DCLink-SDA12    REGATRON_DCLink
 
 SI-Fam:PS-SDA0                FAP
 SI-Fam:PS-SDP0                FAP
-PA-RaPSB01:SI-DCLink-SDAP0    REGATRON_DCLink
+PA-RaPSB01:PS-DCLink-SDAP0    REGATRON_DCLink
 
 SI-Fam:PS-SFA0                FAP
 SI-Fam:PS-SFP0                FAP
-PA-RaPSB03:SI-DCLink-SFAP0    REGATRON_DCLink
+PA-RaPSB03:PS-DCLink-SFAP0    REGATRON_DCLink
 
 SI-Fam:PS-SFP1                FAP
 SI-Fam:PS-SFP2                FAP
-PA-RaPSB10:SI-DCLink-SFP12    REGATRON_DCLink
+PA-RaPSB10:PS-DCLink-SFP12    REGATRON_DCLink
 
 SI-Fam:PS-SDP2                FAP
 SI-Fam:PS-SDP3                FAP
-PA-RaPSB08:SI-DCLink-SDP23    REGATRON_DCLink
+PA-RaPSB08:PS-DCLink-SDP23    REGATRON_DCLink
 
 SI-Fam:PS-SDA3                FAP
 SI-Fam:PS-SFA1                FAP
-PA-RaPSB05:SI-DCLink-SDA3SFA1 REGATRON_DCLink
+PA-RaPSB05:PS-DCLink-SDA3SFA1 REGATRON_DCLink
 
 SI-Fam:PS-SFA2                FAP
 SI-Fam:PS-SDP1                FAP
-PA-RaPSB07:SI-DCLink-SFA2SDP1 REGATRON_DCLink
+PA-RaPSB07:PS-DCLink-SFA2SDP1 REGATRON_DCLink
 
 # --- SI Quadrupole trims ---
 SI-02M2:PS-QFB                FBP
