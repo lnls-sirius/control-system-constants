@@ -64,8 +64,8 @@
 # These static data files should comply with the following formatting rules:
 # 1. If the first alphanumeric character of the line is not the pound sign
 #    then the lines is a comment.
-# 2. If the first alphanumeric character is '#' then if
-#    a) it is followed by '[<parameter>] <value>' a parameter names <parameter>
+# 2. If the first alphanumeric character is "#" then if
+#    a) it is followed by "[<parameter>] <value>" a parameter names <parameter>
 #       is define with value <value>. if the string <value> has spaces in it
 #       it is split as a list of strings.
 #    b) otherwise the line is ignored as a comment line.
