@@ -1,10 +1,10 @@
 # HEADER
 # ======
-# label           si-dipole-b1-fam
-# harmonics       0  1  2  3  4  5  6
-# main_harmonic   0 normal
+# label             si-dipole-b1-fam
+# harmonics         0  1  2  3  4  5  6
+# main_harmonic     0 normal
 # rescaling_factor  1.0
-# units           Ampere  T*m T*m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3  T/m^4 T/m^4  T/m^5 T/m^5
+# units             Ampere  T*m T*m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3  T/m^4 T/m^4  T/m^5 T/m^5
 
 # EXCITATION DATA
 # ===============
