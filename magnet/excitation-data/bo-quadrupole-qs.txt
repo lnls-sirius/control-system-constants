@@ -3,6 +3,7 @@
 # label           bo-quadrupole-qs
 # harmonics       1 3 5 7 9
 # main_harmonic   1 skew
+# rescaling_factor  1.0
 # units           Ampere  T T  T.m/m^2 T.m/m^2  T.m/m^4 T.m/m^4  T.m/m^6 T.m/m^6  T.m/m^8 T.m/m^8
 
 # EXCITATION DATA

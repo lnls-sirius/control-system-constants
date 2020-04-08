@@ -3,6 +3,7 @@
 # label           si-injdpk
 # harmonics       0
 # main_harmonic   0 normal
+# rescaling_factor  1.0
 # units           Volt T*m T*m
 
 # EXCITATION DATA
