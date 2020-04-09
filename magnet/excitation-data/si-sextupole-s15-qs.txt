@@ -3,7 +3,7 @@
 # label             si-sextupole-s15-qs
 # harmonics         0 1 2 3 4 6 7 8 9 10 13 14
 # main_harmonic     1 skew
-# rescaling_factor  1.0
+# rescaling_factor  1.005
 # units             Ampere  T*m T*m  T T  T.m/m^1 T.m/m^1  T.m/m^2 T.m/m^2  T.m/m^3 T.m/m^3  T.m/m^5 T.m/m^5  T.m/m^6 T.m/m^6  T.m/m^7 T.m/m^7  T.m/m^8 T.m/m^8  T.m/m^9 T.m/m^9  T.m/m^12 T.m/m^12  T.m/m^13 T.m/m^13
 
 # EXCITATION DATA
