@@ -1,9 +1,10 @@
 # HEADER
 # ======
-# label           ts-corrector-ch
-# harmonics       0
-# main_harmonic   0 normal
-# units           Ampere T*m T*m
+# label             ts-corrector-ch
+# harmonics         0
+# main_harmonic     0 normal
+# rescaling_factor  1.0
+# units             Ampere T*m T*m
 
 # EXCITATION DATA
 # ===============

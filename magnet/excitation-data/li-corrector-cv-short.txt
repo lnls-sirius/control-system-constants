@@ -1,9 +1,10 @@
 # HEADER
 # ======
-# label           li-corrector-cv-short
-# harmonics       0
-# main_harmonic   0 skew
-# units           Ampere  T*m T*m
+# label             li-corrector-cv-short
+# harmonics         0
+# main_harmonic     0 skew
+# rescaling_factor  1.0
+# units             Ampere  T*m T*m
 
 # EXCITATION DATA
 # ===============

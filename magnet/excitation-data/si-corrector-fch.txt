@@ -1,9 +1,10 @@
 # HEADER
 # ======
-# label           si-corrector-fch
-# harmonics       0 2 8
-# main_harmonic   0 normal
-# units           Ampere  T*m T*m  T.m/m^1 T.m/m^1  T.m/m^7 T.m/m^7
+# label             si-corrector-fch
+# harmonics         0 2 8
+# main_harmonic     0 normal
+# rescaling_factor  1.0
+# units             Ampere  T*m T*m  T.m/m^1 T.m/m^1  T.m/m^7 T.m/m^7
 
 # EXCITATION DATA
 # ===============

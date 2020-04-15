@@ -1,9 +1,10 @@
 # HEADER
 # ======
-# label           li-lens-reversed
-# harmonics       1
-# main_harmonic   1 normal
-# units           Ampere  T T
+# label             li-lens-reversed
+# harmonics         1
+# main_harmonic     1 normal
+# rescaling_factor  1.0
+# units             Ampere  T T
 
 # EXCITATION DATA
 # ===============
