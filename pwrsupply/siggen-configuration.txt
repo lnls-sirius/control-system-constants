@@ -142,8 +142,8 @@ TS-04:PS-CV-2           DampedSine           32         0.167        10.0       
 
 SI-Fam:PS-B1B2-1        DampedSquaredSine    22         0.167       405.0           0.0           0.0              0.0              24.0              0.0
 SI-Fam:PS-B1B2-2        DampedSquaredSine    22         0.167       405.0           0.0           0.0              0.0              24.0              0.0
-SI-Fam:PS-QFA           DampedSquaredSine    22         0.167       160.0           0.0           0.0              0.0              24.0              0.0
-SI-Fam:PS-QDA           DampedSquaredSine    22         0.167       160.0           0.0           0.0              0.0              24.0              0.0
+SI-Fam:PS-QFA           Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
+SI-Fam:PS-QDA           Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
 SI-Fam:PS-QFB           DampedSquaredSine    22         0.167       160.0           0.0           0.0              0.0              24.0              0.0
 SI-Fam:PS-QDB1          DampedSquaredSine    22         0.167       160.0           0.0           0.0              0.0              24.0              0.0
 SI-Fam:PS-QDB2          DampedSquaredSine    22         0.167       160.0           0.0           0.0              0.0              24.0              0.0
@@ -466,8 +466,8 @@ SI-20C4:PS-CV           DampedSine           7          0.1         9.0         
 
 # PSNAME                TYPE                 NR_CYCLES  FREQ[Hz]    AMPLITUDE[A]    OFFSET[A]     PARAM0:Beg[deg]  PARAM1:End[deg]  PARAM2:Tau[s]     PARAM3:<NOT_USED>
 
-SI-01M2:PS-QDA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-01M2:PS-QFA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
+SI-01M2:PS-QDA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+SI-01M2:PS-QFA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-01C1:PS-Q1           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-01C1:PS-Q2           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-01C2:PS-Q3           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
@@ -518,10 +518,10 @@ SI-04C3:PS-Q3           DampedSine           7          0.1         9.0         
 SI-04C3:PS-Q4           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-04C4:PS-Q1           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-04C4:PS-Q2           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
-SI-05M1:PS-QDA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-05M1:PS-QFA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-05M2:PS-QDA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-05M2:PS-QFA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
+SI-05M1:PS-QDA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+SI-05M1:PS-QFA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+SI-05M2:PS-QDA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+SI-05M2:PS-QFA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-05C1:PS-Q1           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-05C1:PS-Q2           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-05C2:PS-Q3           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
@@ -572,10 +572,10 @@ SI-08C3:PS-Q3           DampedSine           7          0.1         9.0         
 SI-08C3:PS-Q4           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-08C4:PS-Q1           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-08C4:PS-Q2           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
-SI-09M1:PS-QDA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-09M1:PS-QFA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-09M2:PS-QDA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-09M2:PS-QFA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
+SI-09M1:PS-QDA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+SI-09M1:PS-QFA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+SI-09M2:PS-QDA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+SI-09M2:PS-QFA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-09C1:PS-Q1           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-09C1:PS-Q2           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-09C2:PS-Q3           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
@@ -626,10 +626,10 @@ SI-12C3:PS-Q3           DampedSine           7          0.1         9.0         
 SI-12C3:PS-Q4           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-12C4:PS-Q1           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-12C4:PS-Q2           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
-SI-13M1:PS-QDA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-13M1:PS-QFA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-13M2:PS-QDA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-13M2:PS-QFA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
+SI-13M1:PS-QDA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+SI-13M1:PS-QFA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+SI-13M2:PS-QDA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+SI-13M2:PS-QFA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-13C1:PS-Q1           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-13C1:PS-Q2           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-13C2:PS-Q3           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
@@ -680,10 +680,10 @@ SI-16C3:PS-Q3           DampedSine           7          0.1         9.0         
 SI-16C3:PS-Q4           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-16C4:PS-Q1           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-16C4:PS-Q2           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
-SI-17M1:PS-QDA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-17M1:PS-QFA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-17M2:PS-QDA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-17M2:PS-QFA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
+SI-17M1:PS-QDA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+SI-17M1:PS-QFA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+SI-17M2:PS-QDA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+SI-17M2:PS-QFA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-17C1:PS-Q1           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-17C1:PS-Q2           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-17C2:PS-Q3           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
@@ -734,8 +734,8 @@ SI-20C3:PS-Q3           DampedSine           7          0.1         9.0         
 SI-20C3:PS-Q4           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-20C4:PS-Q1           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-20C4:PS-Q2           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
-SI-01M1:PS-QDA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-01M1:PS-QFA          DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
+SI-01M1:PS-QDA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+SI-01M1:PS-QFA          DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 
 # --- individual power supplies (skew quadrupoles in sextupoles) ---
 
