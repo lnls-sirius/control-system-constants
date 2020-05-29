@@ -7,7 +7,9 @@
 # again and copy the generated file to replace this one.
 #
 # Obs.: Pulsed magnet names were manually fixed from discipline MA to PM.
-
+#
+# NOTE: This version in particular was manually edited for ID correctors
+#       to be inserted. These magnets should be added in out pyaccel model.
 
 #Magnets data
 #-----------
@@ -1211,6 +1213,19 @@ SI-01M1:MA-QFA             514.3431
 SI-01M1:MA-QS              514.6681
 SI-01M1:MA-SDA0            513.9281
 SI-01M1:MA-SFA0            514.6681
+
+# Sirius ID correctors
+#---------------------------------------------------------
+#Name                 Position @ center [m]
+#---------------------------------------------------------
+SI-09SA:MA-CH-1            205.1217
+SI-09SA:MA-CH-2            206.6128
+SI-09SA:MA-CH-3            208.1040
+SI-09SA:MA-CH-4            209.5951
+SI-09SA:MA-CV-1            205.1217
+SI-09SA:MA-CV-2            206.6128
+SI-09SA:MA-CV-3            208.1040
+SI-09SA:MA-CV-4            209.5951
 
 
 
