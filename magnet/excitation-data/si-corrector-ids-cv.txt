@@ -8,13 +8,14 @@
 
 # EXCITATION DATA
 # ===============
--005.000  +0.0000e+00 +3.0000e-04
-+005.000  +0.0000e+00 -3.0000e-04
+-001.000  +0.0000e+00 +1.6384e-04
++001.000  +0.0000e+00 -1.6384e-04
 
 # COMMENTS
 # ========
-# !!! THIS EXCDATA IS COMPLETELY ARBITRARY !!! Ximenes - 2020-05-28
-# !!! MESUREMENT DATA IS NEEDED !!!
+# Data taken from model (2020-05-30):
+# https://github.com/lnls-ima/si-fast-correctors/blob/master/links-official-FC1-fcv/analysis.txt
+# !!! MEASUREMENT DATA IS NEEDED !!!
 
 # POLARITY TABLE
 # ==============
