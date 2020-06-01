@@ -1258,7 +1258,12 @@ SI-01SA:PM-InjDpKckr            SI-01SA:PU-InjDpKckr
 SI-01SA:PM-InjNLKckr            SI-01SA:PU-InjNLKckr
 
 # --- si-hping ---
-SI-01SA:PM-PingH             SI-01SA:PU-PingH
+SI-01SA:PM-PingH                SI-01SA:PU-PingH
 
 # --- si-vping ---
-SI-19C4:PM-PingV             SI-19C4:PU-PingV
+SI-19C4:PM-PingV                SI-19C4:PU-PingV
+
+
+# --- SI Insertion Devices ---
+
+SI-09SA:ID-APU22                SI-09SA:ID-APU22
