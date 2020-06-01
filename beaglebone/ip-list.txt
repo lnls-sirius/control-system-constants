@@ -192,6 +192,11 @@ IA-19RaCtrl:CO-PSCtrl-SI4   10.128.119.132
 IA-20RaCtrl:CO-PSCtrl-SI4   10.128.120.132
 
 
+# --- SI IDs Individual PSs (FBP) ---
+IA-09RaID:CO-PSCtrl-SI1     10.128.109.141
+IA-09RaID:CO-PSCtrl-SI2     10.128.109.142
+
+
 # Regatron DCLink IP Mapping
 # --------------------------
 

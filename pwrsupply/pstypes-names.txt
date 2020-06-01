@@ -72,6 +72,8 @@ si-sextupole-s15-qs          bipolar          quadrupole-skew
 si-corrector-cv              bipolar          corrector-vertical
 si-corrector-fch             bipolar          corrector-horizontal
 si-corrector-fcv             bipolar          corrector-vertical
+si-corrector-ids-ch          bipolar          corrector-horizontal
+si-corrector-ids-cv          bipolar          corrector-vertical
 si-hping                     bipolar          corrector-horizontal
 si-vping                     bipolar          corrector-vertical
 
