@@ -78,10 +78,15 @@ si-hping                     bipolar          corrector-horizontal
 si-vping                     bipolar          corrector-vertical
 
 
-
 # DCLinks
 # -------
 
 bo-dclink-fac-2s             none            none
 bo-dclink-fac-2p4s           none            none
 as-dclink-fbp                none            none
+
+
+# Insertion devices
+# -----------------
+
+si-id-apu22                  bipolar         id-apu
