@@ -45,6 +45,6 @@
 #       lambda * B == 2 * pi * Brho * x'_max
 #       where x'_max is taken from fitting RK trajectory within 36 central periods
 #
-#  3. Polynomial of order 5 is fitted to data in order to filder data fluctuations out and increase grid points.
+#  3. Polynomial of order 5 is fitted to data in order to filter out data fluctuations and to increase grid points.
 #
 #  4. Excdata is generated with script 'insertion_devices/analysis/calc_excdata.py'
