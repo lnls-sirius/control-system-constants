@@ -10,6 +10,7 @@
 #
 # NOTE: This version in particular was manually edited for ID correctors
 #       to be inserted. These magnets should be added in our python models.
+#       The data was taken from a drawing of the straight section.
 
 #Magnets data
 #-----------
