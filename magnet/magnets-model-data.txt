@@ -9,7 +9,7 @@
 # Obs.: Pulsed magnet names were manually fixed from discipline MA to PM.
 #
 # NOTE: This version in particular was manually edited for ID correctors
-#       to be inserted. These magnets should be added in out pyaccel model.
+#       to be inserted. These magnets should be added in our python models.
 
 #Magnets data
 #-----------
@@ -1218,16 +1218,14 @@ SI-01M1:MA-SFA0            514.6681
 #---------------------------------------------------------
 #Name                 Position @ center [m]
 #---------------------------------------------------------
-SI-09SA:MA-CH-1            205.1217
-SI-09SA:MA-CH-2            206.6128
-SI-09SA:MA-CH-3            208.1040
-SI-09SA:MA-CH-4            209.5951
-SI-09SA:MA-CV-1            205.1217
-SI-09SA:MA-CV-2            206.6128
-SI-09SA:MA-CV-3            208.1040
-SI-09SA:MA-CV-4            209.5951
-
-
+SI-09SA:MA-CH-1            204.18915
+SI-09SA:MA-CH-2            204.82315
+SI-09SA:MA-CH-3            209.89365
+SI-09SA:MA-CH-4            210.52765
+SI-09SA:MA-CV-1            204.18915
+SI-09SA:MA-CV-2            204.82315
+SI-09SA:MA-CV-3            209.89365
+SI-09SA:MA-CV-4            210.52765
 
 # Booster
 #---------------------------------------------------------
