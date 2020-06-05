@@ -11,6 +11,7 @@
 # NOTE: This version in particular was manually edited for ID correctors
 #       to be inserted. These magnets should be added in our python models.
 #       The data was taken from a drawing of the straight section.
+#       see http://10.0.38.42/control-system-constants/documentation/drawing/SI-09SA-FC-01062020.pdf
 
 #Magnets data
 #-----------
