@@ -364,16 +364,16 @@ SI-Fam:PS-QDB2                FAP
 PA-RaPSA04:PS-DCLink-QDB      REGATRON_DCLink
 
 SI-Fam:PS-Q1                  FAP
-SI-Fam:PS-Q2                  FAP
-PA-RaPSA06:PS-DCLink-Q12A     REGATRON_DCLink
-PA-RaPSA06:PS-DCLink-Q12B     REGATRON_DCLink
-PA-RaPSA06:PS-DCLink-Q12C     REGATRON_DCLink
-
 SI-Fam:PS-Q3                  FAP
+PA-RaPSA06:PS-DCLink-Q13A     REGATRON_DCLink
+PA-RaPSA06:PS-DCLink-Q13B     REGATRON_DCLink
+PA-RaPSA06:PS-DCLink-Q13C     REGATRON_DCLink
+
+SI-Fam:PS-Q2                  FAP
 SI-Fam:PS-Q4                  FAP
-PA-RaPSA07:PS-DCLink-Q34A     REGATRON_DCLink
-PA-RaPSA07:PS-DCLink-Q34B     REGATRON_DCLink
-PA-RaPSA07:PS-DCLink-Q34C     REGATRON_DCLink
+PA-RaPSA07:PS-DCLink-Q24A     REGATRON_DCLink
+PA-RaPSA07:PS-DCLink-Q24B     REGATRON_DCLink
+PA-RaPSA07:PS-DCLink-Q24C     REGATRON_DCLink
 
 # TODO: will quadrupole power supply in SI bend magnets exist?!
 # SI-Fam:PS-QB1               FBP
