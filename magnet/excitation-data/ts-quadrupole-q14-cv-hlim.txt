@@ -8,13 +8,16 @@
 
 # EXCITATION DATA
 # ===============
+-012.0000  +0.0000e+00 +3.6000e-03
 -010.0000  +0.0000e+00 +3.0000e-03
 +010.0000  +0.0000e+00 -3.0000e-03
++012.0000  +0.0000e+00 -3.6000e-03
 
 # COMMENTS
 # ========
-# 1. arbitrary excitation curve. pending model results.
+# 1. arbitrary excitation curve. pending model results. Points -12A and 12A were added by linearly extrapolating data using nearest two points.
 # 2. copied from ts-quadrupole-q14-cv.txt
+# 3. !!! THIS FILE MUST BE UPDATED WITH MEASUREMENTS !!!
 
 # POLARITY TABLE
 # ==============
