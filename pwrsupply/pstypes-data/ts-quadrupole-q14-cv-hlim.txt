@@ -1,0 +1,6 @@
+# List of power supplies of type ts-quadrupole-q14-cv-hlim
+# ========================================================
+
+# number of power supplies: 1
+
+TS-04:PS-CV-1E2
