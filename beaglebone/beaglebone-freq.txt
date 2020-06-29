@@ -1,14 +1,13 @@
 # BeagleBone BSMP update frequencies
-
-# PSMODEL               FREQUENCY[Hz]
-# FBP                     10.0
-# FBP_DCLink               2.0
-# FAC                     10.0
+#
+# Default values of are located in
+# https://github.com/lnls-sirius/dev-packages/blob/master/siriuspy/siriuspy/pwrsupply/pructrl/prucparms.py
 
 # BBBNAME|UDC           FREQUENCY[Hz]
 
 # --- BO B-1 pwrsupply
 #PA-RaPSE05:PS-UDC-BO1     10.0
+
 # --- BO B-1 pwrsupply dclinks
 PA-RaPSE05:PS-UDC-BO2      1.0
 PA-RaPSE05:PS-UDC-BO3      1.0
@@ -51,20 +50,13 @@ PA-RaPSC03:PS-UDC-BO1      1.0
 #IA-20RaCtrl:CO-PSCtrl-BO   10.0
 
 # --- TS corrector pwrsupplies
-# NOTE: request CON to change BBB name from "-TB3" to "-AS"
-LA-RaCtrl:CO-PSCtrl-TB3    5.0
+LA-RaCtrl:CO-PSCtrl-TS      10.0
 
 # --- TB quadrupoles pwrsupplies
 LA-RaCtrl:CO-PSCtrl-TB1    5.0
 
 # --- TB corrector pwrsupplies
 LA-RaCtrl:CO-PSCtrl-TB2    5.0
-
-# --- TS corrector pwrsupplies
-LA-RaCtrl:CO-PSCtrl-TS4    5.0
-
-# --- TB quad and corrs and TS corr dclinks
-LA-RaCtrl:CO-PSCtrl-AS     5.0
 
 
 # --- BO and SI correctors dclinks ---
