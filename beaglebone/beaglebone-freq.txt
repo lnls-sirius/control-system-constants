@@ -49,9 +49,8 @@ PA-RaPSC03:PS-UDC-BO1      1.0
 #IA-17RaCtrl:CO-PSCtrl-BO   10.0
 #IA-20RaCtrl:CO-PSCtrl-BO   10.0
 
-# --- TS-04 vertical corrector pwrsupplies
-LA-RaPS06:PS-UDC-TS1        10.0
-LA-RaPS06:PS-UDC-TS3        10.0
+# --- TS corrector pwrsupplies
+LA-RaCtrl:CO-PSCtrl-TS      10.0
 
 # --- TB quadrupoles pwrsupplies
 LA-RaCtrl:CO-PSCtrl-TB1    5.0
