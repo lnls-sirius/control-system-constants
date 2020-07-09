@@ -125,6 +125,8 @@ si-id-apu22                  +0000.0   +0000.0   +0000.0   +0000.0   +0011.0   +
 #  DRVH  driver high level limit
 #  DTOL_CUR  max difference between SP and Mon current values in SlowRef (diag)
 #  DTOL_WFM  max difference between Ref-Mon and Mon waveform values in RmpWfm (diag)
+#  TSTV  Test value
+#  TSTR  Test acceptable range
 
 # Rules
 # -----
