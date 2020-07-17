@@ -92,4 +92,5 @@ as-dclink-fbp                none            none
 # Insertion devices
 # -----------------
 
-si-id-apu22                  bipolar         id-apu
+si-id-apu22-1991a            bipolar         id-apu
+si-id-apu22-1991b            bipolar         id-apu

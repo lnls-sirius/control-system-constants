@@ -1,0 +1,50 @@
+# HEADER
+# ======
+# label             si-id-apu22-1991b
+# harmonics         0
+# main_harmonic     0 normal
+# rescaling_factor  1.0
+# units             mm  T.m T.m
+
+# B.LAMBDA DATA
+# =============
++0000.00  +1.540885e-02 +0.000000e+00
++0000.50  +1.527133e-02 +0.000000e+00
++0001.00  +1.515087e-02 +0.000000e+00
++0001.50  +1.497548e-02 +0.000000e+00
++0002.00  +1.470837e-02 +0.000000e+00
++0002.50  +1.433774e-02 +0.000000e+00
++0003.00  +1.386794e-02 +0.000000e+00
++0003.50  +1.331215e-02 +0.000000e+00
++0004.00  +1.268644e-02 +0.000000e+00
++0004.50  +1.200532e-02 +0.000000e+00
++0005.00  +1.127867e-02 +0.000000e+00
++0005.50  +1.051018e-02 +0.000000e+00
++0006.00  +9.697129e-03 +0.000000e+00
++0006.50  +8.831722e-03 +0.000000e+00
++0007.00  +7.903777e-03 +0.000000e+00
++0007.50  +6.904887e-03 +0.000000e+00
++0008.00  +5.834013e-03 +0.000000e+00
++0008.50  +4.704520e-03 +0.000000e+00
++0009.00  +3.552650e-03 +0.000000e+00
++0009.50  +2.447429e-03 +0.000000e+00
++0010.00  +1.502023e-03 +0.000000e+00
++0010.50  +8.865227e-04 +0.000000e+00
++0011.00  +8.421742e-04 +0.000000e+00
+
+# COMMENTS
+# ========
+#
+# 1. Measurement data and analysis scripts in lnls350-linux bare repo, /home/fac_files/repos-bares/insertion_devices.git
+#    These measurements correspond to the first delivered Kyma APU, whose data files are in:
+#    insertion_devices/kyma_p22mm_w200mm_g08mm_1991b/fieldmaps
+#
+# 2. K ~ 93.3729/(T.m) * (lambda * B)
+#    This table contains lambda * B as a function of APU phase.
+#    In terms of maximum deflection angle,
+#       lambda * B == 2 * pi * Brho * x'_max
+#       where x'_max is taken from fitting RK trajectory within 36 central periods
+#
+#  3. Polynomial of order 5 is fitted to data in order to filter out data fluctuations and to increase grid points.
+#
+#  4. Excdata is generated with script 'insertion_devices/analysis/calc_excdata.py'
