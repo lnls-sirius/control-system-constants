@@ -45,6 +45,6 @@
 #       lambda * B == 2 * pi * Brho * x'_max
 #       where x'_max is taken from fitting RK trajectory within 40 central periods (20 before and 20 after the ID center)
 #
-#  3. Polynomial of order 6 is fitted to data in order to filter out data fluctuations. In this case the number of data points were not increased in the fitting process.
+#  3. Polynomial of order 6 is fitted to data in order to filter out data fluctuations. In this case the number of data points was not increased in the fitting process.
 #
 #  4. Excdata is generated with script 'insertion_devices/kyma_p22mm_w200mm_g08mm/1991a/analysis/excdata.py'
