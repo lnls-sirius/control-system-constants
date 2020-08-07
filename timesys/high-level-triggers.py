@@ -1299,30 +1299,32 @@
             'TS-04:DI-ICTDig:TRIGIN',
             ),
         },
-    'SI-Glob:TI-StrkCam-Trig1': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study', 'Linac')},
-            'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
-            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
-            'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('BA-01B1RaCtrl:DI-StrkCam:TRIG1', ),
-        },
-    'SI-Glob:TI-StrkCam-Trig2': {
-        'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study', 'Linac')},
-            'Delay': {'value': 0.0},
-            'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
-            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
-            'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
-            },
-        'channels': ('BA-01B1RaCtrl:DI-StrkCam:TRIG2', ),
-        },
+    # 'SI-Glob:TI-StrkCam-Trig1': {
+    #     'database': {
+    #         'Src': {'value': 0, 'enums': ('DigSI', 'Study', 'Linac')},
+    #         'Delay': {'value': 0.0},
+    #         'RFDelayType': {'value': 1, 'states': (2, 0)},
+    #         'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+    #         'Duration': {
+    #               'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+    #         'State': {'value': 0},
+    #         'Polarity': {'value': 1, 'states': (1, 0)},
+    #         },
+    #     'channels': ('BA-01B1RaCtrl:DI-StrkCam:TRIG1', ),
+    #     },
+    # 'SI-Glob:TI-StrkCam-Trig2': {
+    #     'database': {
+    #         'Src': {'value': 0, 'enums': ('DigSI', 'Study', 'Linac')},
+    #         'Delay': {'value': 0.0},
+    #         'RFDelayType': {'value': 1, 'states': (2, 0)},
+    #         'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+    #         'Duration': {
+    #               'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+    #         'State': {'value': 0},
+    #         'Polarity': {'value': 1, 'states': (1, 0)},
+    #         },
+    #     'channels': ('BA-01B1RaCtrl:DI-StrkCam:TRIG2', ),
+    #     },
     'SI-Glob:TI-BbBProcH-Trig1': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'Study', 'Linac')},
@@ -1431,7 +1433,7 @@
             },
         'channels': ('SI-Glob:DI-BbBProc-L:FID', ),
         },
-    'SI-01C2FE:DI-VLightCam': {
+    'SI-01C2FE:TI-VLightCam': {
         'database': {
             'Src': {'value': 0, 'enums': ('DigSI', 'DigTS', 'DigBO', 'Study')},
             'Delay': {'value': 0.0},
