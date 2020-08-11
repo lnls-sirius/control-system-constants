@@ -1034,4 +1034,5 @@ SI-09SA:PS-CV-4    IA-09RaID:PS-DCLink-SI
 
 # --- SI Devices ---
 SI-07SP:ID-APU22   None
+SI-08SB:ID-APU22   None
 SI-09SA:ID-APU22   None
