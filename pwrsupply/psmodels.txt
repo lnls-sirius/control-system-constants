@@ -1276,6 +1276,7 @@ SI-20C3:PS-FCV                FBP_FOFB
 
 # --- Sirius Insetion Devices
 
+SI-06SB:ID-APU22              APU
 SI-07SP:ID-APU22              APU
 SI-08SB:ID-APU22              APU
 SI-09SA:ID-APU22              APU
