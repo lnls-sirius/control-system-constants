@@ -68,7 +68,7 @@ LI-Fam:MA-Slnd-21            LI-Fam:PS-Slnd-21
 
 SI-Fam:MA-B1B2               SI-Fam:PS-B1B2-1    SI-Fam:PS-B1B2-2
 TS-Fam:MA-B                  TS-Fam:PS-B
-BO-Fam:MA-B                  BO-Fam:PS-B-1       BO-Fam:PS-B-2
+BO-Fam:MA-B                  BO-Fam:PS-B-1 BO-Fam:PS-B-1a BO-Fam:PS-B-1b BO-Fam:PS-B-1c BO-Fam:PS-B-2 BO-Fam:PS-B-2a BO-Fam:PS-B-2b BO-Fam:PS-B-2c
 TB-Fam:MA-B                  TB-Fam:PS-B
 
 # --- quadrupole families ---

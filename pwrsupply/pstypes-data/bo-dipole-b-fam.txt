@@ -1,7 +1,13 @@
 # List of power supplies of type bo-dipole-b-fam
 # ==============================================
 
-# number of power supplies: 2
+# number of power supplies: 8
 
 BO-Fam:PS-B-1
+BO-Fam:PS-B-1a
+BO-Fam:PS-B-1b
+BO-Fam:PS-B-1c
 BO-Fam:PS-B-2
+BO-Fam:PS-B-2a
+BO-Fam:PS-B-2b
+BO-Fam:PS-B-2c

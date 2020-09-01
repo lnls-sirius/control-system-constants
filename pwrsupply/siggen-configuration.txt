@@ -42,11 +42,23 @@ BO-Fam:PS-QD            DampedSine           100         2.0           30.0     
 # --- OPERATION ---
 BO-Fam:PS-QF            DampedSine           100         2.0          120.0          0.0           0.0              0.0              2.0               0.0
 #BO-Fam:PS-B-1          DampedSine           100         2.0         1100.0          0.0           0.0              0.0              2.0               0.0
+#BO-Fam:PS-B-1a         DampedSine           100         2.0         1100.0          0.0           0.0              0.0              2.0               0.0
+#BO-Fam:PS-B-1b         DampedSine           100         2.0         1100.0          0.0           0.0              0.0              2.0               0.0
+#BO-Fam:PS-B-1c         DampedSine           100         2.0         1100.0          0.0           0.0              0.0              2.0               0.0
 #BO-Fam:PS-B-2          DampedSine           100         2.0         1100.0          0.0           0.0              0.0              2.0               0.0
+#BO-Fam:PS-B-2a         DampedSine           100         2.0         1100.0          0.0           0.0              0.0              2.0               0.0
+#BO-Fam:PS-B-2b         DampedSine           100         2.0         1100.0          0.0           0.0              0.0              2.0               0.0
+#BO-Fam:PS-B-2c         DampedSine           100         2.0         1100.0          0.0           0.0              0.0              2.0               0.0
 # --- COMMISSIONING ---
 #BO-Fam:PS-QF           DampedSine           100         2.0           20.0          0.0           0.0              0.0              2.0               0.0
 BO-Fam:PS-B-1           DampedSine           100         2.0           60.0          0.0           0.0              0.0              2.0               0.0
+BO-Fam:PS-B-1a          DampedSine           100         2.0           60.0          0.0           0.0              0.0              2.0               0.0
+BO-Fam:PS-B-1b          DampedSine           100         2.0           60.0          0.0           0.0              0.0              2.0               0.0
+BO-Fam:PS-B-1c          DampedSine           100         2.0           60.0          0.0           0.0              0.0              2.0               0.0
 BO-Fam:PS-B-2           DampedSine           100         2.0           60.0          0.0           0.0              0.0              2.0               0.0
+BO-Fam:PS-B-2a          DampedSine           100         2.0           60.0          0.0           0.0              0.0              2.0               0.0
+BO-Fam:PS-B-2b          DampedSine           100         2.0           60.0          0.0           0.0              0.0              2.0               0.0
+BO-Fam:PS-B-2c          DampedSine           100         2.0           60.0          0.0           0.0              0.0              2.0               0.0
 
 BO-02D:PS-QS            DampedSine           100         2.0           10.0          0.0           0.0              0.0              2.0               0.0
 
