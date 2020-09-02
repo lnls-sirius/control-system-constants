@@ -22,11 +22,13 @@ LA-RaCtrl:CO-PSCtrl-TB2     10.128.121.104
 # ______ BO ______
 
 # --- BO Dipoles ---
-PA-RaPSE05:CO-PSCtrl-BO1    10.128.123.105
-PA-RaPSE05:CO-PSCtrl-BO2    10.128.123.106
+# B-1 input/output stages
+PA-RaPSE05:CO-PSCtrl-BO1    10.128.123.118
+PA-RaPSE05:CO-PSCtrl-BO2    10.128.123.105
 
-PA-RaPSF05:CO-PSCtrl-BO1    10.128.123.118
-PA-RaPSF05:CO-PSCtrl-BO2    10.128.123.119
+# B-2 input/output stages
+PA-RaPSF05:CO-PSCtrl-BO1    10.128.123.119
+PA-RaPSF05:CO-PSCtrl-BO2    10.128.123.106
 
 # --- BO QF, QD, SF, SD (FAC) ---
 PA-RaPSC03:CO-PSCtrl-BO1    10.128.123.101
