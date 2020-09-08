@@ -94,4 +94,5 @@ as-dclink-fbp                none            none
 
 si-id-apu22-1991a            bipolar         id-apu
 si-id-apu22-1991b            bipolar         id-apu
+si-id-apu22-1991c            bipolar         id-apu
 si-id-apu22-1991d            bipolar         id-apu
