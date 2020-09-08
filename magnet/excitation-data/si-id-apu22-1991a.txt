@@ -37,7 +37,7 @@
 #
 # 1. Measurement data and analysis scripts in lnls350-linux bare repo, /home/fac_files/repos-bares/insertion_devices.git
 #    These measurements correspond to the data files in:
-#    insertion_devices/kyma_p22mm_w200mm_g08mm/1991a/fieldmaps
+#    insertion_devices/kyma_p22mm_w36mm_g08mm/1991a/fieldmaps
 #
 # 2. K ~ 93.3729/(T.m) * (lambda * B)
 #    This table contains lambda * B as a function of APU phase.
@@ -47,4 +47,4 @@
 #
 #  3. Polynomial of order 6 is fitted to data in order to filter out data fluctuations. In this case the number of data points was not increased in the fitting process.
 #
-#  4. Excdata is generated with script 'insertion_devices/kyma_p22mm_w200mm_g08mm/1991a/analysis/excdata.py'
+#  4. Excdata is generated with script 'insertion_devices/kyma_p22mm_w36mm_g08mm/1991a/analysis/excdata.py'
