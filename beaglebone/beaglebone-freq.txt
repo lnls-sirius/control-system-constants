@@ -23,9 +23,9 @@ PA-RaPSF05:PS-UDC-BO4      1.0
 PA-RaPSF05:PS-UDC-BO5      1.0
 
 # --- BO QF pwrsupply
-#PA-RaPSC03:PS-UDC-BO2     10.0
+PA-RaPSC03:PS-UDC-BO1      5.0
 # --- BO QF pwrsupply dclinks
-PA-RaPSC03:PS-UDC-BO1      1.0
+PA-RaPSC03:PS-UDC-BO2      2.0
 
 # --- BO QD pwrsupply
 #PA-RaPSC03:PS-UDC-BO5     10.0
