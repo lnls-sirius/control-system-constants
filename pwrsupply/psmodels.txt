@@ -152,6 +152,9 @@ TB-04:PS-CV-2               FBP
 # --- BO Dipoles ---
 
 BO-Fam:PS-B-1                 FAC_2P4S_DCDC
+BO-Fam:PS-B-1a                FAC_2P4S_DCDC
+BO-Fam:PS-B-1b                FAC_2P4S_DCDC
+BO-Fam:PS-B-1c                FAC_2P4S_DCDC
 PA-RaPSE01:PS-DCLink-BO       FAC_2P4S_ACDC
 PA-RaPSE02:PS-DCLink-BO       FAC_2P4S_ACDC
 PA-RaPSE03:PS-DCLink-BO       FAC_2P4S_ACDC
@@ -162,6 +165,9 @@ PA-RaPSE08:PS-DCLink-BO       FAC_2P4S_ACDC
 PA-RaPSE09:PS-DCLink-BO       FAC_2P4S_ACDC
 
 BO-Fam:PS-B-2                 FAC_2P4S_DCDC
+BO-Fam:PS-B-2a                FAC_2P4S_DCDC
+BO-Fam:PS-B-2b                FAC_2P4S_DCDC
+BO-Fam:PS-B-2c                FAC_2P4S_DCDC
 PA-RaPSF01:PS-DCLink-BO       FAC_2P4S_ACDC
 PA-RaPSF02:PS-DCLink-BO       FAC_2P4S_ACDC
 PA-RaPSF03:PS-DCLink-BO       FAC_2P4S_ACDC
