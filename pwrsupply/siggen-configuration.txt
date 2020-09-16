@@ -838,26 +838,26 @@ SI-01M1:PS-QS           DampedSine           7          0.1         5.0         
 
 # PSNAME                TYPE                 NR_CYCLES  FREQ[Hz]    AMPLITUDE[A]    OFFSET[A]     PARAM0:Beg[deg]  PARAM1:End[deg]  PARAM2:Tau[s]     PARAM3:<NOT_USED>
 
-SI-01C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-02C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-03C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-04C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-05C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-06C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-07C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-08C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-09C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-10C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-11C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-12C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-13C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-14C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-15C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-16C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-17C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-18C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-19C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
-SI-20C2:PS-QS           DampedSine           7          0.1         0.0             0.0           0.0              0.0              10.0              0.0
+SI-01C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-02C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-03C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-04C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-05C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-06C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-07C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-08C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-09C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-10C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-11C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-12C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-13C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-14C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-15C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-16C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-17C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-18C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-19C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
+SI-20C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
 
 # --- individual power supplies (ID correctors) ---
 
