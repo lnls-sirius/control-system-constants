@@ -1,32 +1,20 @@
-# List of power supplies of type as-dclink-regatron
-# =================================================
+# List of power supplies of type as-dclink-regatron-master
+# ========================================================
 
 PA-RaPSD01:PS-DCLink-1A
-PA-RaPSD01:PS-DCLink-1B
 PA-RaPSD03:PS-DCLink-2A
-PA-RaPSD03:PS-DCLink-2B
 PA-RaPSD01:PS-DCLink-3A
-PA-RaPSD01:PS-DCLink-3B
 PA-RaPSD03:PS-DCLink-4A
-PA-RaPSD03:PS-DCLink-4B
 PA-RaPSD05:PS-DCLink-1A
-PA-RaPSD05:PS-DCLink-1B
 PA-RaPSD07:PS-DCLink-2A
-PA-RaPSD07:PS-DCLink-2B
 PA-RaPSD05:PS-DCLink-3A
-PA-RaPSD05:PS-DCLink-3B
 PA-RaPSD07:PS-DCLink-4A
-PA-RaPSD07:PS-DCLink-4B
 PA-RaPSA01:PS-DCLink-QFAP
 PA-RaPSA01:PS-DCLink-QFB
 PA-RaPSA03:PS-DCLink-QDAP
 PA-RaPSA04:PS-DCLink-QDB
 PA-RaPSA06:PS-DCLink-Q13A
-PA-RaPSA06:PS-DCLink-Q13B
-PA-RaPSA06:PS-DCLink-Q13C
 PA-RaPSA07:PS-DCLink-Q24A
-PA-RaPSA07:PS-DCLink-Q24B
-PA-RaPSA07:PS-DCLink-Q24C
 PA-RaPSB01:PS-DCLink-SDB0
 PA-RaPSB04:PS-DCLink-SDB1
 PA-RaPSB05:PS-DCLink-SDB2

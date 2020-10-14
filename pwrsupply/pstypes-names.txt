@@ -87,7 +87,8 @@ si-vping                     bipolar          corrector-vertical
 bo-dclink-fac-2s             none            none
 bo-dclink-fac-2p4s           none            none
 as-dclink-fbp                none            none
-as-dclink-regatron           none            none
+as-dclink-regatron-master    none            none
+as-dclink-regatron-slave     none            none
 
 
 # Insertion devices
