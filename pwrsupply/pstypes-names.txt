@@ -43,7 +43,9 @@ si-quadrupole-q20-160A-fam   monopolar        quadrupole
 si-quadrupole-q20-150A-fam   monopolar        quadrupole
 si-quadrupole-q20-140A-fam   monopolar        quadrupole
 si-quadrupole-q20-120A-fam   monopolar        quadrupole
-si-quadrupole-q30-150A-fam   monopolar        quadrupole
+#si-quadrupole-q30-150A-fam   monopolar        quadrupole
+si-quadrupole-q30-qfb-150A-fam   monopolar        quadrupole
+si-quadrupole-q30-qfp-150A-fam   monopolar        quadrupole
 si-sextupole-s15-sf-fam      monopolar        sextupole
 si-sextupole-s15-sd-fam      monopolar        sextupole
 si-injdpk                    monopolar        corrector-horizontal

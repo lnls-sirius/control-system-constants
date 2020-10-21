@@ -1,0 +1,6 @@
+# List of power supplies of type si-quadrupole-q30-qfp-150A-fam
+# =============================================================
+
+# number of power supplies: 1
+
+SI-Fam:PS-QFP
