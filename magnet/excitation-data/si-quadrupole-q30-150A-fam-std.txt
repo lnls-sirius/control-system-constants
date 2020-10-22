@@ -1,1 +1,0 @@
-si-quadrupole-q30-fam-std.txt
