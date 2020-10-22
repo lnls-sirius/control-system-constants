@@ -37,8 +37,14 @@ bo-injkicker                 monopolar        corrector-horizontal
 bo-ejekicker                 monopolar        corrector-horizontal
 
 si-dipole-b1b2-fam           monopolar        dipole
-si-quadrupole-q14-150A-fam   monopolar        quadrupole
-si-quadrupole-q14-100A-fam   monopolar        quadrupole
+#si-quadrupole-q14-150A-fam   monopolar        quadrupole
+#si-quadrupole-q14-100A-fam   monopolar        quadrupole
+si-quadrupole-q14-qdb2-fam   monopolar        quadrupole
+si-quadrupole-q14-qdp2-fam   monopolar        quadrupole
+si-quadrupole-q14-qda-fam    monopolar        quadrupole
+si-quadrupole-q14-qdb1-fam   monopolar        quadrupole
+si-quadrupole-q14-qdp1-fam   monopolar        quadrupole
+
 si-quadrupole-q20-160A-fam   monopolar        quadrupole
 si-quadrupole-q20-150A-fam   monopolar        quadrupole
 si-quadrupole-q20-140A-fam   monopolar        quadrupole
