@@ -1,0 +1,15 @@
+# List of power supplies of type as-dclink-regatron-slave
+# =======================================================
+
+PA-RaPSD01:PS-DCLink-1B
+PA-RaPSD03:PS-DCLink-2B
+PA-RaPSD01:PS-DCLink-3B
+PA-RaPSD03:PS-DCLink-4B
+PA-RaPSD05:PS-DCLink-1B
+PA-RaPSD07:PS-DCLink-2B
+PA-RaPSD05:PS-DCLink-3B
+PA-RaPSD07:PS-DCLink-4B
+PA-RaPSA06:PS-DCLink-Q13B
+PA-RaPSA06:PS-DCLink-Q13C
+PA-RaPSA07:PS-DCLink-Q24B
+PA-RaPSA07:PS-DCLink-Q24C
