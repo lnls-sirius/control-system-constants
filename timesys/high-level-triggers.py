@@ -696,9 +696,21 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 0.3, 'hilim': 1.6, 'high': 1.6, 'hihi': 1.6},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (0, 2)},
+            'Polarity': {'value': 0, 'states': (0, 2)},
             },
         'channels': ('LI-01:EG-EGun:MULTIPULSEAMPLIFIER', ),
+        },
+    'LI-01:TI-EGun-MultBunPre': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('Linac', 'Study', 'InjBO')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {'value': 0.3, 'hilim': 1.6, 'high': 1.6, 'hihi': 1.6},
+            'State': {'value': 0},
+            'Polarity': {'value': 0, 'states': (0, 2)},
+            },
+        'channels': ('LI-01:EG-EGun:MULTIPRETRIGGERAMPLIFIER', ),
         },
     'LI-01:TI-EGun-SglBun': {
         'database': {
