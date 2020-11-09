@@ -1100,22 +1100,6 @@ SI-19M2:PS-QS                 FBP
 SI-20M1:PS-QS                 FBP
 SI-20M2:PS-QS                 FBP
 
-# --- SI ID Correctors
-
-SI-09SA:PS-CH-1               FBP
-SI-09SA:PS-CH-2               FBP
-SI-09SA:PS-CH-3               FBP
-SI-09SA:PS-CH-4               FBP
-
-SI-09SA:PS-CV-1               FBP
-SI-09SA:PS-CV-2               FBP
-SI-09SA:PS-CV-3               FBP
-SI-09SA:PS-CV-4               FBP
-
-# --- SI ID Correctors DCLink ---
-
-IA-09RaID:PS-DCLink-SI        FBP_DCLink
-
 # --- SI Fast Correctors
 
 SI-01M2:PS-FCH                FBP_FOFB

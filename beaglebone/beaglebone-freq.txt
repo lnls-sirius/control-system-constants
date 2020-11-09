@@ -122,7 +122,3 @@ LA-RaCtrl:CO-PSCtrl-TB2    5.0
 #IA-18RaCtrl:CO-PSCtrl-SI3  5.0
 #IA-19RaCtrl:CO-PSCtrl-SI3  5.0
 #IA-20RaCtrl:CO-PSCtrl-SI3  5.0
-
-# --- SI IDs Individual PSs (FBP) ---
-#IA-09RaID:CO-PSCtrl-SI1    10.0
-#IA-09RaID:CO-PSCtrl-SI2    10.0
