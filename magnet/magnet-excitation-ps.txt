@@ -779,17 +779,6 @@ SI-20C3:MA-CV-1              SI-20C3:PS-CV-1
 SI-20C3:MA-CV-2              SI-20C3:PS-CV-2
 SI-20C4:MA-CV                SI-20C4:PS-CV
 
-# --- slow corrector magnets for IDs ---
-
-SI-09SA:MA-CH-1              SI-09SA:PS-CH-1
-SI-09SA:MA-CH-2              SI-09SA:PS-CH-2
-SI-09SA:MA-CH-3              SI-09SA:PS-CH-3
-SI-09SA:MA-CH-4              SI-09SA:PS-CH-4
-SI-09SA:MA-CV-1              SI-09SA:PS-CV-1
-SI-09SA:MA-CV-2              SI-09SA:PS-CV-2
-SI-09SA:MA-CV-3              SI-09SA:PS-CV-3
-SI-09SA:MA-CV-4              SI-09SA:PS-CV-4
-
 # --- fast corrector magnets ---
 
 SI-01M1:MA-FC                SI-01M1:PS-FCH      SI-01M1:PS-FCV
