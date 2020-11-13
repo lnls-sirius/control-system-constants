@@ -859,19 +859,6 @@ SI-18C2:PS-QS           DampedSine           7          0.1         3.0         
 SI-19C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
 SI-20C2:PS-QS           DampedSine           7          0.1         3.0             0.0           0.0              0.0              10.0              0.0
 
-# --- individual power supplies (ID correctors) ---
-
-# PSNAME                TYPE                 NR_CYCLES  FREQ[Hz]    AMPLITUDE[A]    OFFSET[A]     PARAM0:Beg[deg]  PARAM1:End[deg]  PARAM2:Tau[s]     PARAM3:<NOT_USED>
-
-SI-09SA:PS-CH-1         DampedSine           7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
-SI-09SA:PS-CH-2         DampedSine           7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
-SI-09SA:PS-CH-3         DampedSine           7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
-SI-09SA:PS-CH-4         DampedSine           7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
-SI-09SA:PS-CV-1         DampedSine           7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
-SI-09SA:PS-CV-2         DampedSine           7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
-SI-09SA:PS-CV-3         DampedSine           7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
-SI-09SA:PS-CV-4         DampedSine           7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
-
 # --- individual power supplies (fast correctors) ---
 
 # PSNAME                TYPE          NR_CYCLES   FREQ[Hz]              AMPLITUDE[A]    OFFSET[A]     PARAM0:ThetaBeg[deg]   PARAM1:ThetaEnd[deg]     PARAM2:DecayTime[s]     PARAM3:<NOT_USED>
