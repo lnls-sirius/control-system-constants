@@ -50,8 +50,19 @@ si-quadrupole-q20-q4-fam     monopolar        quadrupole
 si-quadrupole-q20-qfa-fam    monopolar        quadrupole
 si-quadrupole-q30-qfb-fam    monopolar        quadrupole
 si-quadrupole-q30-qfp-fam    monopolar        quadrupole
-si-sextupole-s15-sf-fam      monopolar        sextupole
+
+si-sextupole-s15-sfa0-fam    monopolar        sextupole
+si-sextupole-s15-sfa1-fam    monopolar        sextupole
+si-sextupole-s15-sfa2-fam    monopolar        sextupole
+si-sextupole-s15-sfb0-fam    monopolar        sextupole
+si-sextupole-s15-sfb1-fam    monopolar        sextupole
+si-sextupole-s15-sfb2-fam    monopolar        sextupole
+si-sextupole-s15-sfp0-fam    monopolar        sextupole
+si-sextupole-s15-sfp1-fam    monopolar        sextupole
+si-sextupole-s15-sfp2-fam    monopolar        sextupole
+
 si-sextupole-s15-sd-fam      monopolar        sextupole
+
 si-injdpk                    monopolar        corrector-horizontal
 si-injnlk                    monopolar        corrector-horizontal
 
