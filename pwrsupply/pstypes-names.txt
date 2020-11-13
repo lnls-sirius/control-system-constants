@@ -82,9 +82,18 @@ ts-injseptum-thin            monopolar        corrector-horizontal
 ts-ejeseptum-thick           monopolar        corrector-horizontal
 ts-ejeseptum-thin            monopolar        corrector-horizontal
 
-si-quadrupole-q14-trim       bipolar          quadrupole
-si-quadrupole-q20-trim       bipolar          quadrupole
-si-quadrupole-q30-trim       bipolar          quadrupole
+si-quadrupole-q14-qda-trim   bipolar          quadrupole
+si-quadrupole-q14-qdb1-trim  bipolar          quadrupole
+si-quadrupole-q14-qdb2-trim  bipolar          quadrupole
+si-quadrupole-q14-qdp1-trim  bipolar          quadrupole
+si-quadrupole-q14-qdp2-trim  bipolar          quadrupole
+si-quadrupole-q20-q1-trim    bipolar          quadrupole
+si-quadrupole-q20-q2-trim    bipolar          quadrupole
+si-quadrupole-q20-q3-trim    bipolar          quadrupole
+si-quadrupole-q20-q4-trim    bipolar          quadrupole
+si-quadrupole-q20-qfa-trim   bipolar          quadrupole
+si-quadrupole-q30-qfb-trim   bipolar          quadrupole
+si-quadrupole-q30-qfp-trim   bipolar          quadrupole
 si-quadrupole-qs             bipolar          quadrupole-skew
 si-sextupole-s15-ch          bipolar          corrector-horizontal
 si-sextupole-s15-cv          bipolar          corrector-vertical

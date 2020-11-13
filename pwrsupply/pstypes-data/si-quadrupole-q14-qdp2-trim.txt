@@ -1,0 +1,16 @@
+# List of power supplies of type si-quadrupole-q14-qdp2-trim
+# ==========================================================
+
+# number of power supplies: 10
+
+# nr_QDP2_power_supplies 10
+SI-03M1:PS-QDP2
+SI-03M2:PS-QDP2
+SI-07M1:PS-QDP2
+SI-07M2:PS-QDP2
+SI-11M1:PS-QDP2
+SI-11M2:PS-QDP2
+SI-15M1:PS-QDP2
+SI-15M2:PS-QDP2
+SI-19M1:PS-QDP2
+SI-19M2:PS-QDP2
