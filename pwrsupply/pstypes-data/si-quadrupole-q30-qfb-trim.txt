@@ -1,7 +1,7 @@
-# List of power supplies of type si-quadrupole-q30-trim
-# =====================================================
+# List of power supplies of type si-quadrupole-q30-qfb-trim
+# =========================================================
 
-# number of power supplies: 30
+# number of power supplies: 20
 
 # nr_QFB_power_supplies 20
 SI-02M1:PS-QFB
@@ -24,15 +24,3 @@ SI-18M1:PS-QFB
 SI-18M2:PS-QFB
 SI-20M1:PS-QFB
 SI-20M2:PS-QFB
-
-# nr_QFP_power_supplies 10
-SI-03M1:PS-QFP
-SI-03M2:PS-QFP
-SI-07M1:PS-QFP
-SI-07M2:PS-QFP
-SI-11M1:PS-QFP
-SI-11M2:PS-QFP
-SI-15M1:PS-QFP
-SI-15M2:PS-QFP
-SI-19M1:PS-QFP
-SI-19M2:PS-QFP

@@ -1,0 +1,16 @@
+# List of power supplies of type si-quadrupole-q20-qfa-trim
+# =========================================================
+
+# number of power supplies: 10
+
+# nr_QFA_power_supplies 10
+SI-01M1:PS-QFA
+SI-01M2:PS-QFA
+SI-05M1:PS-QFA
+SI-05M2:PS-QFA
+SI-09M1:PS-QFA
+SI-09M2:PS-QFA
+SI-13M1:PS-QFA
+SI-13M2:PS-QFA
+SI-17M1:PS-QFA
+SI-17M2:PS-QFA
