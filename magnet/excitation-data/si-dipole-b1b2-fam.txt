@@ -3,7 +3,7 @@
 # label             si-dipole-b1b2-fam
 # harmonics         0  1  2  3  4  5  6
 # main_harmonic     0 normal
-# rescaling_factor  1.022714
+# rescaling_factor  1.01516
 # units             Ampere  T*m T*m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3  T/m^4 T/m^4  T/m^5 T/m^5
 
 # EXCITATION DATA
@@ -19,7 +19,8 @@
 # 1. generated automatically with "sirius_si_create_excitation_files.m"
 # 2. the excitation data above is the sum of combined B1 and B2 dipoles.
 # 3. see files 'si-dipole-b1-fam.txt' and 'si-dipole-b2-fam.txt' for original data
-#
+# 4. rescaling_factor manually calculated from average of B1 and B2 rescaling factors
+#    weighted by their nominal deflection angles.
 
 # POLARITY TABLE
 # ==============
