@@ -31,7 +31,7 @@
 #    Q30-033 Q30-027 Q30-017 Q30-006 Q30-026 Q30-034 Q30-015 Q30-031 Q30-007 Q30-004
 # 5. rescaling factor based on new measurements compared to previous ones
 #    the weighted average between Diff for 012 and 018 magnets were taken!
-#    ( weight is the distance between new measurement of either magnet 012 or 018 and
+#    ( weight is the inverse distance between new measurement of either magnet 012 or 018 and
 #      previous measuremento for the set)
 #    === Q30 (012) ===
 #        Family      Current[A] GL2020[T] GL2018[T] Diff[%]
