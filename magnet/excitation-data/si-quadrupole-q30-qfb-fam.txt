@@ -3,7 +3,7 @@
 # label             si-quadrupole-q30-qfb-fam
 # harmonics         0 1 2 3 4 5 6 7 8 9 10 11 12 13 14
 # main_harmonic     1 normal
-# rescaling factor  0.99839
+# rescaling factor  0.99971
 # units             Ampere  T*m T*m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3  T/m^4 T/m^4  T/m^5 T/m^5  T/m^6 T/m^6  T/m^7 T/m^7  T/m^8 T/m^8  T/m^9 T/m^9  T/m^10 T/m^10  T/m^11 T/m^11  T/m^12 T/m^12  T/m^13 T/m^13
 
 # EXCITATION DATA
@@ -31,7 +31,9 @@
 #    Q30-016 Q30-032 Q30-010 Q30-019 Q30-008 Q30-036 Q30-011 Q30-035 Q30-009 Q30-020
 #    Q30-029 Q30-014 Q30-013 Q30-024 Q30-005 Q30-021 Q30-025 Q30-030 Q30-023 Q30-022
 # 5. rescaling factor based on new measurements compared to previous ones
-#    the average between Diff for 012 and 018 magnets were taken!
+#    the weighted average between Diff for 012 and 018 magnets were taken!
+#    ( weight is the distance between new measurement of either magnet 012 or 018 and
+#      previous measuremento for the set)
 #    === Q30 (012) ===
 #        Family      Current[A] GL2020[T] GL2018[T] Diff[%]
 #    SI-Fam:PS-QFB    139.05    -12.30590  -12.29908  +0.056
