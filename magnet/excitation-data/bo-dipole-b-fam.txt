@@ -43,7 +43,7 @@
 # 2. data taken from rotcoil measurements
 # 3. average excitation curves for magnets:
 #    BD-006
-# 4. excdata was recalibrated using new db-006 measurements.
+# 4. excdata was recalibrated using new bd-006 measurements.
 #    relative difference between data sets:
 #    curr = [40.31, 50.39, 60.46, 165.27,
 #            330.54, 500, 640, 680,
