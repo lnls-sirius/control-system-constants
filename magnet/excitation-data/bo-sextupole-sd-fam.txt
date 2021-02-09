@@ -40,7 +40,7 @@
 # 3. average excitation curves for magnets:
 #    BS-035 BS-034 BS-039 BS-043 BS-037 BS-036 BS-042 BS-040 BS-041 BS-038
 # 4. corrected excdata with new recalibrated measurements compared to previous 2016
-#    data. the 2021-2016 difference was calculed point by point, using current and
+#    data. the 2021-2016 BS-011 difference was calculed point by point, using current and
 #    integrated sextupole averages of M1, M2 and M3 measurements.
 #    currents = [  2.   4.   6.   8.  10.  30.  50.  70.  90. 110. 130. 150.] [A]
 #    diff     = [-5.61985988 -2.00093502 -0.33013306  0.5787037   1.19666228
