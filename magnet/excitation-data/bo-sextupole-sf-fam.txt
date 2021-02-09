@@ -43,7 +43,7 @@
 #    BS-025 BS-026 BS-029 BS-031 BS-023 BS-027 BS-024 BS-015 BS-033 BS-030
 #    BS-028 BS-008 BS-010 BS-012 BS-032
 # 4. corrected excdata with new recalibrated measurements compared to previous 2016
-#    data. the 2021-2016 difference was calculed point by point, using current and
+#    data. the 2021-2016 BS-011 difference was calculed point by point, using current and
 #    integrated sextupole averages of M1, M2 and M3 measurements.
 #    currents = [  2.   4.   6.   8.  10.  30.  50.  70.  90. 110. 130. 150.] [A]
 #    diff     = [-5.61985988 -2.00093502 -0.33013306  0.5787037   1.19666228
