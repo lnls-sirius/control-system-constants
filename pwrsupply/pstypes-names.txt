@@ -61,6 +61,7 @@ si-sextupole-s15-sfp0-fam    monopolar        sextupole
 si-sextupole-s15-sfp1-fam    monopolar        sextupole
 si-sextupole-s15-sfp2-fam    monopolar        sextupole
 
+si-sextupole-s15-sda0-fam    monopolar        sextupole
 si-sextupole-s15-sda1-fam    monopolar        sextupole
 si-sextupole-s15-sda2-fam    monopolar        sextupole
 si-sextupole-s15-sda3-fam    monopolar        sextupole
