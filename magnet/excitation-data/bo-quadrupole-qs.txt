@@ -20,8 +20,8 @@
 # COMMENTS
 # ========
 # 1. measurement taken after recalibration. only the ramp up of hysteresis was used.
-# 2. excitation polarity used in measurement was inverted w.r.t. convention and, thus,
-#    multipoles had signs inverted for positive
+# 2. excitation polarity used in measurement was inverted w.r.t. control system convention and, thus,
+#    multipoles had signs inverted for positive currents
 # 3. multipoles for negative currents have been generated from corresponding positive currents, with sign reversed.
 
 # POLARITY TABLE
