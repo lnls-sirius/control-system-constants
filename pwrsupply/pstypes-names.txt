@@ -61,7 +61,19 @@ si-sextupole-s15-sfp0-fam    monopolar        sextupole
 si-sextupole-s15-sfp1-fam    monopolar        sextupole
 si-sextupole-s15-sfp2-fam    monopolar        sextupole
 
-si-sextupole-s15-sd-fam      monopolar        sextupole
+si-sextupole-s15-sda0-fam    monopolar        sextupole
+si-sextupole-s15-sda1-fam    monopolar        sextupole
+si-sextupole-s15-sda2-fam    monopolar        sextupole
+si-sextupole-s15-sda3-fam    monopolar        sextupole
+si-sextupole-s15-sdb0-fam    monopolar        sextupole
+si-sextupole-s15-sdb1-fam    monopolar        sextupole
+si-sextupole-s15-sdb2-fam    monopolar        sextupole
+si-sextupole-s15-sdb3-fam    monopolar        sextupole
+si-sextupole-s15-sdp0-fam    monopolar        sextupole
+si-sextupole-s15-sdp1-fam    monopolar        sextupole
+si-sextupole-s15-sdp2-fam    monopolar        sextupole
+si-sextupole-s15-sdp3-fam    monopolar        sextupole
+
 
 si-injdpk                    monopolar        corrector-horizontal
 si-injnlk                    monopolar        corrector-horizontal
