@@ -706,7 +706,8 @@
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
-            'Duration': {'value': 6.8, 'hilim': 20.0, 'high': 20.0, 'hihi': 20.0},
+            'Duration': {
+                'value': 6.8, 'hilim': 20.0, 'high': 20.0, 'hihi': 20.0},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 2)},
             },
