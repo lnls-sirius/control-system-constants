@@ -1108,7 +1108,7 @@
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
-            'LI-RaDiag02:TI-TrigFout:TRIGINIV',
+            'LI-RaDiag02:TI-TrigFout:TRIGINI',
             'LA-BIH01RACK2:DI-Osc-2:TRIGIN',
             ),
         },
@@ -1124,7 +1124,7 @@
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
-        'channels': ('LI-RaDiag02:TI-TrigFout:TRIGINI', ),
+        'channels': ('LI-RaDiag02:TI-TrigFout:TRIGINIV', ),
         },
     'LI-Fam:TI-ICT': {
         'database': {
