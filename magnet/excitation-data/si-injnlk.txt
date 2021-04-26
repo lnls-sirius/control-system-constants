@@ -4,13 +4,13 @@
 # harmonics         0
 # main_harmonic     0 normal
 # rescaling_factor  1.0
-# units             Voltage T*m T*m T/m T/m T/m^2 T/m^2 T/m^3 T/m^3 T/m^4 T/m^4 T/m^5 T/m^5 T/m^6 T/m^6
+# units             Voltage T*m T*m
 # [r0 -0.008]
 
 # EXCITATION DATA
 # ===============
-+000.000  +0.0000e+00 +0.0000e+00
--9000.000  -3.29e-02 +0.0000e+00
++0000.000  +0.0000e+00 +0.0000e+00
++9000.000  -3.2900e-02 +0.0000e+00
 
 # COMMENTS
 # ========
