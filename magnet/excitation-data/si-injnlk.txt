@@ -1,7 +1,7 @@
 # HEADER
 # ======
 # label             si-injnlk
-# harmonics         0 1 2 3 4 5 6 7 8 9 10 11
+# harmonics         0
 # main_harmonic     0 normal
 # rescaling_factor  1.0
 # units             Voltage T*m T*m T/m T/m T/m^2 T/m^2 T/m^3 T/m^3 T/m^4 T/m^4 T/m^5 T/m^5 T/m^6 T/m^6
@@ -9,14 +9,13 @@
 
 # EXCITATION DATA
 # ===============
-+000.000  +0.0000e+00 +0.0000e+00  -0.0000e+00 +0.0000e+00  -0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  -0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  -0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  -0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
-+100.000  +2.4994e-02 +0.0000e+00  -3.9835e+00 +0.0000e+00  -1.6108e+03 +0.0000e+00  +3.1191e+05 +0.0000e+00  +4.2296e+07 +0.0000e+00  -1.2890e+10 +0.0000e+00  +1.5650e+11 +0.0000e+00  +2.2913e+14 +0.0000e+00  -3.0545e+16 +0.0000e+00  +1.7904e+18 +0.0000e+00  -5.1233e+19 +0.0000e+00  +5.8219e+20 +0.0000e+00
++000.000  +0.0000e+00 +0.0000e+00
+-9000.000  -3.29e-02 +0.0000e+00
 
 # COMMENTS
 # ========
-# 1. multipole were obtained running https://github.com/lnls-fac/MatlabMiddleLayer/blob/master/Release/machine/SIRIUS/SI.V22.02/sirius_si_nlk_kick.m
-#    with r0 = -0.008 mm and strength = 0.565976805957669
-# 2. voltage value is arbitrary. it should be updated! (previous: +7670 V)
+# 1. Voltage value obtained from excel file in R:\LNLS\Projetos\Projetos_Ativos\Sirius\EPP\NLK caracterizacao.xlsx
+# 2. Integrated field corresponds to horizontal position of x=-8mm (Line 24 of the excel file).
 
 # POLARITY TABLE
 # ==============
