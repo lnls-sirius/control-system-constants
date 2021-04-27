@@ -991,19 +991,19 @@
         },
     'SI-19C4:TI-PingV': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study', 'Linac')},
+            'Src': {'value': 0, 'enums': ('InjSI', 'Study', 'Linac', 'DigSI')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (0, 1)},  # EVR-OUT port
+            'Polarity': {'value': 0, 'states': (0, 1)},  # EVR-OUT port
             },
         'channels': ('SI-19C4:PU-PingVCtrl:TRIGIN', ),
         },
     'SI-01SA:TI-PingH': {
         'database': {
-            'Src': {'value': 0, 'enums': ('DigSI', 'Study', 'Linac')},
+            'Src': {'value': 0, 'enums': ('InjSI', 'Study', 'Linac', 'DigSI')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
@@ -1047,7 +1047,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 1, 'states': (0, 1)},
             },
         'channels': ('RA-RaBO01:RF-DigPatch:POSTMORTEN', ),
         },
