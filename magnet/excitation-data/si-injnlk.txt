@@ -14,7 +14,7 @@
 
 # COMMENTS
 # ========
-# 1. Voltage value obtained from excel file in R:\LNLS\Projetos\Projetos_Ativos\Sirius\EPP\NLK caracterizacao.xlsx
+# 1. Voltage value obtained from excel file in R:\LNLS\Projetos\Projetos_Ativos\Sirius\EPP\NLK\NLK caracterizacao.xlsx
 # 2. Integrated field corresponds to horizontal position of x=-8mm (Line 24 of the excel file).
 
 # POLARITY TABLE
