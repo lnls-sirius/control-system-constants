@@ -1047,7 +1047,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (0, 1)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': ('RA-RaBO01:RF-DigPatch:POSTMORTEN', ),
         },
@@ -1074,7 +1074,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'RA-RaSIA01:RF-DigPatch:GENERIC',
@@ -1089,7 +1089,7 @@
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
             'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},
+            'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
             'RA-RaSIA01:RF-DigPatch:POSTMORTEN',
