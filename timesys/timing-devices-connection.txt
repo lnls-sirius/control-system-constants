@@ -14,7 +14,7 @@
 AS-RaMO:TI-EVG:OUT0                 RA-RaMO:CO-DIO:P074
 AS-RaMO:TI-EVG:OUT1                 RA-RaMO:CO-DIO:P075
 AS-RaMO:TI-EVG:OUT2                 RA-RaMO:CO-DIO:P076
-AS-RaMO:TI-EVG:OUT3                 RA-RaMO:CO-DIO:P077
+AS-RaMO:TI-EVG:OUT6                 RA-RaMO:CO-DIO:P077
 AS-RaMO:TI-EVG:OUT4                 RA-RaMO:CO-DIO:P078
 AS-RaMO:TI-EVG:OUT5                 RA-RaMO:TI-Fout:UPLINK
 RA-RaMO:CO-DIO:P074                 CA-RaCtrl:CO-DIO-10:P13
