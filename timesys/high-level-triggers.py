@@ -554,7 +554,8 @@
             },
         'channels': (
             'SI-Fam:PS-B1B2-1:BCKPLN',
-            'SI-Fam:PS-B1B2-2:BCKPLN',
+            # trigger reaches this PS by cascating:
+            # 'SI-Fam:PS-B1B2-2:BCKPLN',
             ),
         },
     'SI-Glob:TI-Mags-Sexts': {
@@ -1049,7 +1050,7 @@
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
-        'channels': ('RA-RaBO01:RF-DigPatch:POSTMORTEN', ),
+        'channels': ('RA-RaBO01:RF-DigPatch:ET', ),
         },
     'SI-Glob:TI-LLRF-Rmp': {
         'database': {
@@ -1092,8 +1093,8 @@
             'Polarity': {'value': 0, 'states': (0, 1)},
             },
         'channels': (
-            'RA-RaSIA01:RF-DigPatch:POSTMORTEN',
-            # 'RA-RaSIB01:RF-DigPatch:POSTMORTEN',
+            'RA-RaSIA01:RF-DigPatch:ET',
+            # 'RA-RaSIB01:RF-DigPatch:ET',
             ),
         },
     # #### DIAGNOSTICS ######
