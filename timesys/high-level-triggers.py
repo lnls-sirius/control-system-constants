@@ -1151,6 +1151,18 @@
             },
         'channels': ('LA-MD:DI-Osc:TRIGIN', ),
         },
+    'LI-01:TI-GDev': {
+        'database': {
+            'Src': {'value': 0, 'enums': ('DigLI', 'Linac', 'Study', 'InjBO')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
+            'Duration': {'value': 150, 'hilim': 550, 'high': 550, 'hihi': 600},
+            'State': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('LI-IET01RACK1:DI-GDev:IN', ),
+        },
     'AS-Fam:TI-Scrn-TBBO': {
         'database': {
             'Src': {'value': 1, 'enums': (
