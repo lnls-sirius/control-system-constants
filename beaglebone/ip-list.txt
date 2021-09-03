@@ -249,3 +249,10 @@ PA-RaPSB08:PS-DCLink-SDP23     10.128.147.137
 PA-RaPSB08:PS-DCLink-SFB1      10.128.147.138
 PA-RaPSB10:PS-DCLink-SFP12     10.128.147.139
 PA-RaPSB10:PS-DCLink-SFB2      10.128.147.140
+
+
+# Test Area BeagleBone IP Mapping
+# -------------------------------
+
+# ______ IT ______
+IT-Ra:CO-PSCtrl                10.128.999.999
