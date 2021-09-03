@@ -8,13 +8,13 @@
 
 # EXCITATION DATA
 # ===============
--0125.00  -2.000000e+01 +0.000000e+00
+-0010.00  -2.000000e+01 +0.000000e+00
 +0000.00  +0.000000e+00 +0.000000e+00
-+0125.00  +2.000000e+01 +0.000000e+00
++0010.00  +2.000000e+01 +0.000000e+00
 
 # COMMENTS
 # ========
-# 1. data copied from li-lens. (TODO: update with IT Lens values)
+# 1. template. (TODO: update with IT Lens values)
 
 # POLARITY TABLE
 # ==============
