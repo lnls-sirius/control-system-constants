@@ -116,6 +116,8 @@ si-corrector-fcv             bipolar          corrector-vertical
 si-hping                     bipolar          corrector-horizontal
 si-vping                     bipolar          corrector-vertical
 
+it-lens                      bipolar          lens
+
 
 # DCLinks
 # -------
