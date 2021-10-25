@@ -108,7 +108,7 @@ BO-Fam:PS-B-2c  PA-RaPSF01:PS-DCLink-BO PA-RaPSF02:PS-DCLink-BO PA-RaPSF03:PS-DC
 
 # --- BO Quadrupoles ---
 BO-Fam:PS-QD    None
-BO-Fam:PS-QF    PA-RaPSC03:PS-DCLink-BO1 PA-RaPSC03:PS-DCLink-BO2
+BO-Fam:PS-QF    PA-RaPSC01:PS-DCLink-BO PA-RaPSC02:PS-DCLink-BO
 
 # --- BO Sextupoles ---
 BO-Fam:PS-SD    None
