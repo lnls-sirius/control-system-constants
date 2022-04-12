@@ -55,7 +55,7 @@ CA-RaTim:TI-Fout-4:OUT2             CA-RaCtrl:CO-DIO-4:P17
 CA-RaTim:TI-Fout-4:OUT3             CA-RaCtrl:CO-DIO-4:P23
 CA-RaTim:TI-Fout-4:OUT4             CA-RaCtrl:CO-DIO-5:P05
 CA-RaTim:TI-Fout-4:OUT5             CA-RaCtrl:CO-DIO-5:P11
-CA-RaTim:TI-Fout-4:OUT6             CA-RaCtrl:CO-DIO-5:P17
+CA-RaTim:TI-Fout-4:OUT7             CA-RaCtrl:CO-DIO-5:P17
 CA-RaTim:TI-Fout-5:OUT0             CA-RaCtrl:CO-DIO-6:P05
 CA-RaTim:TI-Fout-5:OUT1             CA-RaCtrl:CO-DIO-6:P11
 CA-RaTim:TI-Fout-5:OUT2             CA-RaCtrl:CO-DIO-6:P23
