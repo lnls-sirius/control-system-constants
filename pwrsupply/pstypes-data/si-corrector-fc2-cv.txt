@@ -1,4 +1,4 @@
-# List of power supplies of type si-corrector-fc2-ch
+# List of power supplies of type si-corrector-fc2-cv
 # ==================================================
 
 # number of power supplies: 20
