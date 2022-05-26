@@ -1,11 +1,12 @@
 DEPLOY SOFWARE IN DESKTOPS AND DOCKER IOC IMAGES
 ================================================
 
-Document update date: 2022-05-25
+Document update: 2022-05-25
 Main contributers:
     1. Ana Clara (FAC) - ana.clara@lnls.br
     2. Ximenes Resende (FAC) - ximenes.resende@lnls.br
     3. Rafael Lyra (FAC) - rafael.lyra@lnls.br
+
 
 Steps of a standard deploy in the main folder in lnls-ansible repo:
 
