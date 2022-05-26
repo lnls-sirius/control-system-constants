@@ -2,7 +2,7 @@ DEPLOY ARCHIVER VIEWER SERVICE
 ==============================
 
 Document update date: 2022-05-25
-Main conributers:
+Main contributers:
     1. Rafael Lyra (FAC) - rafael.lyra@lnls.br
     2. Ana Clara (FAC) - ana.clara@lnls.br
     3. Ximenes Resende (FAC) - ximenes.resende@lnls.br
