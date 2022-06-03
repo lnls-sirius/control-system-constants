@@ -1280,3 +1280,8 @@ SI-11SP:ID-APU58              APU
 IT-Ra:PS-Lens-1               FBP
 IT-Ra:PS-Lens-2               FBP
 IT-Ra:PS-Lens-3               FBP
+
+ET-RaCtrl:PS-CH-1             FBP
+ET-RaCtrl:PS-CH-2             FBP
+ET-RaCtrl:PS-CH-3             FBP
+ET-RaCtrl:PS-CH-4             FBP

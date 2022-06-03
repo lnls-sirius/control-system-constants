@@ -256,3 +256,6 @@ PA-RaPSB10:PS-DCLink-SFB2      10.128.147.140
 
 # ______ IT ______
 IT-Ra:CO-PSCtrl                10.0.38.103
+
+# ______ ET ______
+ET-RaCtrl:CO-PSCtrl            10.0.6.64

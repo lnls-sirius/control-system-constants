@@ -386,3 +386,9 @@ IA-20RaPS02:PS-UDC-SI5      SI-20C3:PS-CH 5     SI-20C3:PS-CV-1 6   SI-20C3:PS-C
 
 # --- Lens ---
 IT-Ra:PS-UDC                IT-Ra:PS-Lens-1 1    IT-Ra:PS-Lens-2 2    IT-Ra:PS-Lens-3 3
+
+
+# ______ ET ______
+
+# --- FBPs ---
+ET-RaCtrl:PS-UDC            ET-RaCtrl:PS-CH-1 1    ET-RaCtrl:PS-CH-2 2    ET-RaCtrl:PS-CH-3 3    ET-RaCtrl:PS-CH-4 4

@@ -1222,3 +1222,8 @@ SI-11SP:ID-APU58   None
 IT-Ra:PS-Lens-1    None
 IT-Ra:PS-Lens-2    None
 IT-Ra:PS-Lens-3    None
+
+ET-RaCtrl:PS-CH-1  None
+ET-RaCtrl:PS-CH-2  None
+ET-RaCtrl:PS-CH-3  None
+ET-RaCtrl:PS-CH-4  None

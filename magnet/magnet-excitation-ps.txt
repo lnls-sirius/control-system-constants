@@ -1277,3 +1277,8 @@ SI-11SP:ID-APU58                SI-11SP:ID-APU58
 IT-Ra:MA-Lens-1                 IT-Ra:PS-Lens-1
 IT-Ra:MA-Lens-2                 IT-Ra:PS-Lens-2
 IT-Ra:MA-Lens-3                 IT-Ra:PS-Lens-3
+
+ET-RaCtrl:MA-CH-1               ET-RaCtrl:CH-1
+ET-RaCtrl:MA-CH-2               ET-RaCtrl:CH-2
+ET-RaCtrl:MA-CH-3               ET-RaCtrl:CH-3
+ET-RaCtrl:MA-CH-4               ET-RaCtrl:CH-4

@@ -1101,3 +1101,15 @@ TS-04:PU-InjSeptG-2     Sine          1           0.0                   0.0     
 IT-Ra:PS-Lens-1         DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 IT-Ra:PS-Lens-2         DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 IT-Ra:PS-Lens-3         DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+
+
+# === ET ===
+
+# --- individual power supplies ---
+
+# PSNAME                TYPE                 NR_CYCLES  FREQ[Hz]    AMPLITUDE[A]    OFFSET[A]     PARAM0:Beg[deg]  PARAM1:End[deg]  PARAM2:Tau[s]     PARAM3:<NOT_USED>
+
+ET-RaCtrl:PS-CH-1       DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+ET-RaCtrl:PS-CH-2       DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+ET-RaCtrl:PS-CH-3       DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+ET-RaCtrl:PS-CH-4       DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0

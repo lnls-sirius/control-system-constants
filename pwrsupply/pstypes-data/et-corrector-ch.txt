@@ -1,0 +1,9 @@
+# List of power supplies of type et-corrector-ch
+# ==============================================
+
+# number of power supplies: 4
+
+ET-RaCtrl:PS-CH-1
+ET-RaCtrl:PS-CH-2
+ET-RaCtrl:PS-CH-3
+ET-RaCtrl:PS-CH-4

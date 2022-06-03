@@ -198,3 +198,7 @@ IA-20RaCtrl:CO-PSCtrl-SI4       IA-20RaPS02:PS-UDC-SI4      IA-20RaPS02:PS-UDC-S
 
 # --- Lens ---
 IT-Ra:CO-PSCtrl         IT-Ra:PS-UDC
+
+# ______ ET ______
+
+ET-RaCtrl:CO-PSCtrl     ET-RaCtrl:PS-UDC
