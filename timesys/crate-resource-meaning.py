@@ -28,7 +28,7 @@
     'Source': [
         'Timing Receiver', 'Timing Receiver', 'Timing Receiver', 'All BPMs',
         'All BPMs', 'Timing Receiver', 'Timing Receiver', 'Timing Receiver',
-        'Timing Receiver (TCLKB)', '(reserved)',
+        'Timing Receiver (TCLKA)', '(reserved)',
     ],
     'Details': [
         '', '', '', '', '', '', '', 'Freq. RF/19872000', 'Freq. 5/36*RF',
