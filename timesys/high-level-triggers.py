@@ -1215,7 +1215,7 @@
         },
     'BO-50U:TI-VLightCam': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
@@ -1231,7 +1231,7 @@
         },
     'BO-Glob:TI-TuneProc': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1246,7 +1246,7 @@
         },
     'BO-35D:TI-DCCT': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1321,7 +1321,7 @@
         },
     # 'SI-Glob:TI-StrkCam-Trig1': {
     #     'database': {
-    #         'Src': {'enums': tuple()},
+    #         'Src': {'enums': ()},
     #         'Delay': {'value': 0.0},
     #         'RFDelayType': {'value': 1, 'states': (2, 0)},
     #         'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1334,7 +1334,7 @@
     #     },
     # 'SI-Glob:TI-StrkCam-Trig2': {
     #     'database': {
-    #         'Src': {'enums': tuple()},
+    #         'Src': {'enums': ()},
     #         'Delay': {'value': 0.0},
     #         'RFDelayType': {'value': 1, 'states': (2, 0)},
     #         'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1347,7 +1347,7 @@
     #     },
     'SI-Glob:TI-BbBProcH-Trig1': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1359,7 +1359,7 @@
         },
     'SI-Glob:TI-BbBProcH-Trig2': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1371,7 +1371,7 @@
         },
     'SI-Glob:TI-BbBProcV-Trig1': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1383,7 +1383,7 @@
         },
     'SI-Glob:TI-BbBProcV-Trig2': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1395,7 +1395,7 @@
         },
     'SI-Glob:TI-BbBProcL-Trig1': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1407,7 +1407,7 @@
         },
     'SI-Glob:TI-BbBProcL-Trig2': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1419,7 +1419,7 @@
         },
     'SI-Glob:TI-BbBProcH-Fid': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1431,7 +1431,7 @@
         },
     'SI-Glob:TI-BbBProcV-Fid': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1443,7 +1443,7 @@
         },
     'SI-Glob:TI-BbBProcL-Fid': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1455,7 +1455,7 @@
         },
     'SI-01C2FE:TI-VLightCam': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
@@ -1501,7 +1501,7 @@
         # The delay and duration must be adjusted accordingly to the time it
         # takes for the beam to pass by them.
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 2},
@@ -1513,7 +1513,7 @@
         },
     'AS-Glob:TI-FillPtrnMon': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1525,7 +1525,7 @@
         },
     'TB-Fam:TI-BPM': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1542,7 +1542,7 @@
         },
     'TS-Fam:TI-BPM': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1558,7 +1558,7 @@
         },
     'BO-Fam:TI-BPM': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
