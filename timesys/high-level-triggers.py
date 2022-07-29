@@ -10,7 +10,7 @@
     # ### Magnets ###
     'SI-Glob:TI-Mags-Corrs': {
         'database': {
-            'Src': {'value': 0, 'enums': ('OrbSI', 'Cycle')},
+            'Src': {'enums': ('OrbSI', 'Cycle')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 3920},
@@ -202,7 +202,7 @@
         },
     'SI-Glob:TI-Mags-Quads': {
         'database': {
-            'Src': {'value': 0, 'enums': ('TunSI', 'Cycle')},
+            'Src': {'enums': ('TunSI', 'Cycle')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 3920},
@@ -233,7 +233,7 @@
         },
     'SI-Glob:TI-Mags-QTrims': {
         'database': {
-            'Src': {'value': 0, 'enums': ('TunSI', 'Cycle')},
+            'Src': {'enums': ('TunSI', 'Cycle')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 3920},
@@ -412,7 +412,7 @@
         },
     'SI-Glob:TI-Mags-Skews': {
         'database': {
-            'Src': {'value': 0, 'enums': ('CplSI', 'Cycle')},
+            'Src': {'enums': ('CplSI', 'Cycle')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 3920},
@@ -544,7 +544,7 @@
         },
     'SI-Glob:TI-Mags-Bends': {
         'database': {
-            'Src': {'value': 0, 'enums': ('Cycle', )},
+            'Src': {'enums': ('Cycle', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 3920},
@@ -560,7 +560,7 @@
         },
     'SI-Glob:TI-Mags-Sexts': {
         'database': {
-            'Src': {'value': 0, 'enums': ('Cycle', )},
+            'Src': {'enums': ('Cycle', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 3920},
@@ -585,7 +585,7 @@
         },
     'BO-Glob:TI-Mags-Fams': {
         'database': {
-            'Src': {'value': 0, 'enums': ('Cycle', )},
+            'Src': {'enums': ('Cycle', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 3920},
@@ -601,7 +601,7 @@
         },
     'BO-Glob:TI-Mags-Corrs': {
         'database': {
-            'Src': {'value': 0, 'enums': ('Cycle', )},
+            'Src': {'enums': ('Cycle', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -640,7 +640,7 @@
         },
     'TB-Glob:TI-Mags': {
         'database': {
-            'Src': {'value': 0, 'enums': ('Cycle', )},
+            'Src': {'enums': ('Cycle', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 3920},
@@ -665,7 +665,7 @@
         },
     'TS-Glob:TI-Mags': {
         'database': {
-            'Src': {'value': 0, 'enums': ('Cycle', )},
+            'Src': {'enums': ('Cycle', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 3920},
@@ -691,7 +691,7 @@
     # ### Linac ###
     'LI-01:TI-EGun-MultBun': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -703,7 +703,7 @@
         },
     'LI-01:TI-EGun-MultBunPre': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -716,7 +716,7 @@
         },
     'LI-01:TI-EGun-SglBun': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -728,7 +728,7 @@
         },
     'LI-01:TI-Modltr-1': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 0, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -740,7 +740,7 @@
         },
     'LI-01:TI-Modltr-2': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -752,7 +752,7 @@
         },
     'LI-Glob:TI-SSAmp-SHB': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -764,7 +764,7 @@
         },
     'LI-Glob:TI-SSAmp-Kly1': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -776,7 +776,7 @@
         },
     'LI-Glob:TI-SSAmp-Kly2': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -788,7 +788,7 @@
         },
     'LI-Glob:TI-LLRF-SHB': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -800,7 +800,7 @@
         },
     'LI-Glob:TI-LLRF-Kly1': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -812,7 +812,7 @@
         },
     'LI-Glob:TI-LLRF-Kly2': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -825,7 +825,7 @@
     # Pulsed Magnets
     'TB-04:TI-InjSept': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -837,7 +837,7 @@
         },
     'BO-01D:TI-InjKckr': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -849,7 +849,7 @@
         },
     'AS-Glob:TI-Osc-InjBO': {  # 10.0.38.74
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -861,7 +861,7 @@
         },
     'AS-Glob:TI-Osc-EjeBO': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -873,7 +873,7 @@
         },
     'AS-Glob:TI-Osc-InjSI': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -885,7 +885,7 @@
         },
     'BO-48D:TI-EjeKckr': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -897,7 +897,7 @@
         },
     'TS-01:TI-EjeSeptF': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -911,7 +911,7 @@
         },
     'TS-01:TI-EjeSeptG': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -925,7 +925,7 @@
         },
     'TS-04:TI-InjSeptG-1': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -939,7 +939,7 @@
         },
     'TS-04:TI-InjSeptG-2': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -953,7 +953,7 @@
         },
     'TS-04:TI-InjSeptF': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -965,7 +965,7 @@
         },
     'SI-01SA:TI-InjDpKckr': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -977,7 +977,7 @@
         },
     'SI-01SA:TI-InjNLKckr': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -989,7 +989,7 @@
         },
     'SI-19C4:TI-PingV': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
@@ -1001,7 +1001,7 @@
         },
     'SI-01SA:TI-PingH': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 30, 'high': 30, 'hihi': 30},
@@ -1014,7 +1014,7 @@
     # ### LLRF ###
     'BO-Glob:TI-LLRF-Rmp': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1026,7 +1026,7 @@
         },
     'BO-Glob:TI-LLRF-Gen': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1038,7 +1038,7 @@
         },
     'BO-Glob:TI-LLRF-PsMtn': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', 'PsMtn', )},
+            'Src': {'enums': ('InjBO', 'PsMtn', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1050,7 +1050,7 @@
         },
     'SI-Glob:TI-LLRF-Rmp': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1065,7 +1065,7 @@
         },
     'SI-Glob:TI-LLRF-Gen': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1080,7 +1080,7 @@
         },
     'SI-Glob:TI-LLRF-PsMtn': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', 'PsMtn')},
+            'Src': {'enums': ('InjSI', 'PsMtn')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1096,7 +1096,7 @@
     # #### DIAGNOSTICS ######
     'LI-Fam:TI-BPM': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1111,7 +1111,7 @@
         },
     'LI-Fam:TI-Scrn': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
@@ -1125,7 +1125,7 @@
         },
     'LI-Fam:TI-ICT': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1137,7 +1137,7 @@
         },
     'LI-01:TI-Osc-Modltr': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1149,7 +1149,7 @@
         },
     'LI-01:TI-GDev': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1161,7 +1161,7 @@
         },
     'AS-Fam:TI-Scrn-TBBO': {
         'database': {
-            'Src': {'value': 1, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
@@ -1185,7 +1185,7 @@
         },
     'TB-Fam:TI-ICT-Integ': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1200,7 +1200,7 @@
         },
     'TB-Fam:TI-ICT-Digit': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', )},
+            'Src': {'enums': ('InjBO', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1215,7 +1215,7 @@
         },
     'BO-50U:TI-VLightCam': {
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
@@ -1231,7 +1231,7 @@
         },
     'BO-Glob:TI-TuneProc': {
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1246,7 +1246,7 @@
         },
     'BO-35D:TI-DCCT': {
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1258,7 +1258,7 @@
         },
     'BO-RaPSE05:TI-Osc': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjBO', 'Cycle')},
+            'Src': {'enums': ('InjBO', 'Cycle')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1270,7 +1270,7 @@
         },
     'TS-Fam:TI-Scrn': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
@@ -1291,7 +1291,7 @@
         },
     'TS-Fam:TI-ICT-Integ': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1306,7 +1306,7 @@
         },
     'TS-Fam:TI-ICT-Digit': {
         'database': {
-            'Src': {'value': 0, 'enums': ('InjSI', )},
+            'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1321,7 +1321,7 @@
         },
     # 'SI-Glob:TI-StrkCam-Trig1': {
     #     'database': {
-    #         'Src': {'value': 0, 'enums': tuple()},
+    #         'Src': {'enums': tuple()},
     #         'Delay': {'value': 0.0},
     #         'RFDelayType': {'value': 1, 'states': (2, 0)},
     #         'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1334,7 +1334,7 @@
     #     },
     # 'SI-Glob:TI-StrkCam-Trig2': {
     #     'database': {
-    #         'Src': {'value': 0, 'enums': tuple()},
+    #         'Src': {'enums': tuple()},
     #         'Delay': {'value': 0.0},
     #         'RFDelayType': {'value': 1, 'states': (2, 0)},
     #         'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1347,7 +1347,7 @@
     #     },
     'SI-Glob:TI-BbBProcH-Trig1': {
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1359,7 +1359,7 @@
         },
     'SI-Glob:TI-BbBProcH-Trig2': {
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1371,7 +1371,7 @@
         },
     'SI-Glob:TI-BbBProcV-Trig1': {
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1383,7 +1383,7 @@
         },
     'SI-Glob:TI-BbBProcV-Trig2': {
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1395,7 +1395,7 @@
         },
     'SI-Glob:TI-BbBProcL-Trig1': {
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1407,7 +1407,7 @@
         },
     'SI-Glob:TI-BbBProcL-Trig2': {
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1419,7 +1419,7 @@
         },
     'SI-Glob:TI-BbBProcH-Fid': {
         'database': {
-            'Src': {'value': 7, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1431,7 +1431,7 @@
         },
     'SI-Glob:TI-BbBProcV-Fid': {
         'database': {
-            'Src': {'value': 7, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1443,7 +1443,7 @@
         },
     'SI-Glob:TI-BbBProcL-Fid': {
         'database': {
-            'Src': {'value': 7, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2, 'high': 2, 'hihi': 2},
@@ -1455,7 +1455,7 @@
         },
     'SI-01C2FE:TI-VLightCam': {
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {
@@ -1472,7 +1472,7 @@
         },
     'SI-13C4:TI-DCCT': {
         'database': {
-            'Src': {'value': 0, 'enums': ('PsMtn', )},
+            'Src': {'enums': ('PsMtn', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1484,7 +1484,7 @@
         },
     'SI-14C4:TI-DCCT': {
         'database': {
-            'Src': {'value': 0, 'enums': ('PsMtn', )},
+            'Src': {'enums': ('PsMtn', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1501,7 +1501,7 @@
         # The delay and duration must be adjusted accordingly to the time it
         # takes for the beam to pass by them.
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 2},
@@ -1513,7 +1513,7 @@
         },
     'AS-Glob:TI-FillPtrnMon': {
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1525,7 +1525,7 @@
         },
     'TB-Fam:TI-BPM': {
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1542,7 +1542,7 @@
         },
     'TS-Fam:TI-BPM': {
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1558,7 +1558,7 @@
         },
     'BO-Fam:TI-BPM': {
         'database': {
-            'Src': {'value': 0, 'enums': tuple()},
+            'Src': {'enums': tuple()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1596,7 +1596,7 @@
         },
     'SI-Fam:TI-BPM': {
         'database': {
-            'Src': {'value': 0, 'enums': ('FOFBS', )},
+            'Src': {'enums': ('FOFBS', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1708,7 +1708,7 @@
         },
     'SI-Fam:TI-FOFB': {
         'database': {
-            'Src': {'value': 0, 'enums': ('FOFBS', )},
+            'Src': {'enums': ('FOFBS', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
