@@ -1,4 +1,4 @@
-# UDC Mapping to Power Supplies / DCLinks
+# UDC Mapping to Power Supplies / DCLink
 # =======================================
 
 
@@ -392,3 +392,4 @@ IT-Ra:PS-UDC                IT-Ra:PS-Lens-1 1    IT-Ra:PS-Lens-2 2    IT-Ra:PS-L
 
 # --- FBPs ---
 ET-RaCtrl:PS-UDC            ET-RaCtrl:PS-CH-1 1    ET-RaCtrl:PS-CH-2 2    ET-RaCtrl:PS-CH-3 3    ET-RaCtrl:PS-CH-4 4
+ET-RaCtrl:PS-UDC-DCLink     ET-RaCtrl:PS-DCLink 5

@@ -1285,3 +1285,4 @@ ET-RaCtrl:PS-CH-1             FBP
 ET-RaCtrl:PS-CH-2             FBP
 ET-RaCtrl:PS-CH-3             FBP
 ET-RaCtrl:PS-CH-4             FBP
+ET-RaCtrl:PS-DCLink           FBP_DCLink

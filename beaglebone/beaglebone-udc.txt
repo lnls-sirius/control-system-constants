@@ -201,4 +201,4 @@ IT-Ra:CO-PSCtrl         IT-Ra:PS-UDC
 
 # ______ ET ______
 
-ET-RaCtrl:CO-PSCtrl     ET-RaCtrl:PS-UDC
+ET-RaCtrl:CO-PSCtrl     ET-RaCtrl:PS-UDC ET-RaCtrl:PS-UDC-DCLink
