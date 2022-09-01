@@ -1008,6 +1008,10 @@ SI-20M2:MA-FCV               SI-20M2:PS-FCV
 SI-20C2:MA-FCV               SI-20C2:PS-FCV
 SI-20C3:MA-FCV               SI-20C3:PS-FCV
 
+# --- ID correctors ---
+SI-14SB:MA-CH-1              SI-14SB:PS-CH-1
+SI-14SB:MA-CH-2              SI-14SB:PS-CH-2
+
 # --- si-sextupole-s15-qs ---
 SI-01M1:MA-QS                SI-01M1:PS-QS
 SI-01M2:MA-QS                SI-01M2:PS-QS
