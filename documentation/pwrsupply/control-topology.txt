@@ -1,7 +1,7 @@
 # The file is generated with script
 # https://github.com/lnls-sirius/scripts/blob/master/bin/sirius-script-ps-devices.py
 # using argument "--ascii"
-# last update: 2022-09-01
+# last update: 2022-09-02
 
 BeagleBones
 |-- IA-01RaCtrl:CO-DCLinkCtrl  [10.128.101.104]
@@ -1215,11 +1215,12 @@ BeagleBones
 |   |   |   +-- IA-14RaPS01:PS-DCLink-AS1
 |   |   +-- SI-15M1:PS-QDP2  (6)
 |   |       +-- IA-14RaPS01:PS-DCLink-AS1
-|   +-- IA-14RaPS01:PS-UDC-SI3  (FBP)
-|       |-- SI-14M1:PS-QS  (7)
-|       |   +-- IA-14RaPS01:PS-DCLink-AS1
-|       |-- SI-14M2:PS-QS  (8)
-|       |   +-- IA-14RaPS01:PS-DCLink-AS1
+|   |-- IA-14RaPS01:PS-UDC-SI3  (FBP)
+|   |   |-- SI-14M1:PS-QS  (7)
+|   |   |   +-- IA-14RaPS01:PS-DCLink-AS1
+|   |   +-- SI-14M2:PS-QS  (8)
+|   |       +-- IA-14RaPS01:PS-DCLink-AS1
+|   +-- IA-14RaPS01:PS-UDC-SI6  (FBP)
 |       |-- SI-14SB:PS-CH-1  (9)
 |       |   +-- IA-14RaPS01:PS-DCLink-AS2
 |       +-- SI-14SB:PS-CH-2  (10)
