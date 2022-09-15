@@ -125,7 +125,12 @@ def generate_html(csp):
         text_link = ClientSharePoint._html_link(file_link, file_name)
         strt += text_link.translate(ClientSharePoint._TABLE)
 
-    print(strt)
+    filepath = 'documentation/procedures/gop-procedures.html'
+    open(filepath, 'w').close()
+    f = open(filepath, 'a')
+    f.write(strt)
+    f.close
+    # print(strt)
 
 
 if __name__ == "__main__":
