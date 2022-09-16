@@ -8,12 +8,15 @@
 
 # EXCITATION DATA
 # ===============
--005.000  -1.8111e-03 +0.0000e+00
-+005.000  +1.8522e-03 +0.0000e+00
+# for gap 59.60 mm
+-005.000   -1.8316e-03 +0.0000e+00
++005.000   +1.8316e-03 +0.0000e+00
 
 # COMMENTS
 # ========
-# 1. tables needs to be updated with measurement!
+# 1. data from 
+#    # https://github.com/lnls-ima/wiggler-2T-STI/blob/main/measurement/magnetic/hallprobe/gap%20059.60mm/current_test/gap59.60mm_curent_test.xlsx
+# 2. linear fitting done with "idanalysis/scripts/wiggler/correctors_excdata.py"
 
 # POLARITY TABLE
 # ==============
