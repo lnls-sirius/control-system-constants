@@ -21,7 +21,7 @@
 # COMMENTS
 # ========
 # 1. data from https://github.com/lnls-ima/si-fast-correctors/model-06/measurement/magnetic/rotcoil
-# 2. excitation table generated with https://github.com/lnls-fac/lnls/tree/master/lnls/scripts/excdata.py
+# 2. excitation table generated with https://github.com/lnls-fac/lnls/tree/master/lnls/scripts/excdata-fc.py
 # 3. the excitation curve is the average of measured rotcoil data for all serials of type FC2 and CH coil excitations
 
 # POLARITY TABLE
