@@ -1,21 +1,28 @@
 # HEADER
 # ======
-# label             si-corrector-fch
+# label             si-corrector-fc1-cv
 # harmonics         0 2 8
-# main_harmonic     0 normal
+# main_harmonic     0 skew
 # rescaling_factor  1.0
 # units             Ampere  T*m T*m  T.m/m^1 T.m/m^1  T.m/m^7 T.m/m^7
 
 # EXCITATION DATA
 # ===============
--001.000  -3.1028e-04 +0.0000e+00  +9.6170e-01 +0.0000e+00  +3.0490e+10 +0.0000e+00
-+001.000  +3.1028e-04 +0.0000e+00  -9.6170e-01 +0.0000e+00  -3.0490e+10 +0.0000e+00
+-01.0000  -1.0929e-06 +3.1724e-04 +2.3292e-03 +9.8358e-01 -1.1385e+08 -7.1422e+09 
+-00.7500  -8.2827e-07 +2.3796e-04 +1.9253e-03 +7.3774e-01 -7.9682e+07 -5.2796e+09 
+-00.5000  -6.1183e-07 +1.5835e-04 +1.1637e-03 +4.9090e-01 -6.2970e+07 -3.5474e+09 
+-00.2500  -2.9623e-07 +7.8889e-05 +3.6640e-04 +2.4484e-01 -2.5150e+07 -1.7672e+09 
++00.0000  +0.0000e+00 +0.0000e+00 +0.0000e+00 +0.0000e+00 +0.0000e+00 +0.0000e+00 
++00.2500  +2.9623e-07 -7.8889e-05 -3.6640e-04 -2.4484e-01 +2.5150e+07 +1.7672e+09 
++00.5000  +6.1183e-07 -1.5835e-04 -1.1637e-03 -4.9090e-01 +6.2970e+07 +3.5474e+09 
++00.7500  +8.2827e-07 -2.3796e-04 -1.9253e-03 -7.3774e-01 +7.9682e+07 +5.2796e+09 
++01.0000  +1.0929e-06 -3.1724e-04 -2.3292e-03 -9.8358e-01 +1.1385e+08 +7.1422e+09 
 
 # COMMENTS
 # ========
-# 1. data from https://github.com/lnls-ima/si-fast-correctors/blob/master/links-official-fch/analysis.txt
-# 2. multipoles from the analysis files above are calculated for half model and thus had to be multiplied by a factor of 2.
-# 3. myltipoles from file had to be inverted since model has opposite polarity.
+# 1. data from https://github.com/lnls-ima/si-fast-correctors/model-06/measurement/magnetic/rotcoil
+# 2. excitation table generated with https://github.com/lnls-fac/lnls/tree/master/lnls/scripts/excdata-fc.py
+# 3. the excitation curve is the average of measured rotcoil data for all serials of type FC1 and CV coil excitations
 
 # POLARITY TABLE
 # ==============

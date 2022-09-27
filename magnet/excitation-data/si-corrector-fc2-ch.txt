@@ -1,0 +1,77 @@
+# HEADER
+# ======
+# label             si-corrector-fc2-ch
+# harmonics         0 2 8
+# main_harmonic     0 normal
+# rescaling_factor  1.0
+# units             Ampere  T*m T*m  T.m/m^1 T.m/m^1  T.m/m^7 T.m/m^7
+
+# EXCITATION DATA
+# ===============
+-01.0000  -4.4800e-04 -6.8761e-07 -1.3905e+00 -2.6857e-03 +9.3861e+09 +5.0949e+08
+-00.7500  -3.3744e-04 -1.1021e-06 -1.0464e+00 +4.4362e-03 +7.5527e+09 -1.2025e+08
+-00.5000  -2.2524e-04 -7.4803e-07 -6.9852e-01 +2.9059e-03 +5.0962e+09 -1.3020e+08
+-00.2500  -1.1219e-04 -3.7779e-07 -3.4797e-01 +1.0444e-03 +2.5346e+09 -5.0108e+07
++00.0000  +0.0000e+00 +0.0000e+00 +0.0000e+00 +0.0000e+00 +0.0000e+00 +0.0000e+00
++00.2500  +1.1219e-04 +3.7779e-07 +3.4797e-01 -1.0444e-03 -2.5346e+09 +5.0108e+07
++00.5000  +2.2524e-04 +7.4803e-07 +6.9852e-01 -2.9059e-03 -5.0962e+09 +1.3020e+08
++00.7500  +3.3744e-04 +1.1021e-06 +1.0464e+00 -4.4362e-03 -7.5527e+09 +1.2025e+08
++01.0000  +4.4800e-04 +6.8761e-07 +1.3905e+00 +2.6857e-03 -9.3861e+09 -5.0949e+08
+
+# COMMENTS
+# ========
+# 1. data from https://github.com/lnls-ima/si-fast-correctors/model-06/measurement/magnetic/rotcoil
+# 2. excitation table generated with https://github.com/lnls-fac/lnls/tree/master/lnls/scripts/excdata-fc.py
+# 3. the excitation curve is the average of measured rotcoil data for all serials of type FC2 and CH coil excitations
+
+# POLARITY TABLE
+# ==============
+#
+# Magnet function         | IntStrength(1) | IntField(2) | ConvSign(3) | Current(4)
+# ------------------------|----------------|-------------|-------------|-----------
+# dipole                  | Angle > 0      | BYL  < 0    | -1.0        | I > 0
+# corrector-horizontal    | HKick > 0      | BYL  > 0    | +1.0        | I > 0
+# corrector-vertical      | VKick > 0      | BXL  < 0    | -1.0        | I > 0
+# quadrupole (focusing)   | KL    > 0      | D1NL < 0    | -1.0        | I > 0
+# quadrupole (defocusing) | KL    < 0      | D1NL > 0    | -1.0        | I > 0
+# quadrupole (skew)       | KL    < 0      | D1SL > 0    | -1.0        | I > 0
+# sextupole  (focusing)   | SL    > 0      | D2NL < 0    | -1.0        | I > 0
+# sextupole  (defocusing) | SL    < 0      | D2NL > 0    | -1.0        | I > 0
+#
+# Defs:
+# ----
+# BYL   := \int{dz By|_{x=y=0}}.
+# BXL   := \int{dz Bx|_{x=y=0}}.
+# D1NL  := \int{dz \frac{dBy}{dx}_{x=y=0}}
+# D2NL  := (1/2!) \int{dz \frac{d^2By}{dx^2}_{x=y=0}}
+# D1SL  := \int{dz \frac{dBx}{dx}_{x=y=0}}
+# Brho  := magnetic rigidity.
+# Angle := ConvSign * BYL / abs(Brho)
+# HKick := ConvSign * BYL / abs(Brho)
+# VKick := ConvSign * BXL / abs(Brho)
+# KL    := ConvSign * D1NL / abs(Brho)
+# KL    := ConvSign * D1SL / abs(Brho)
+# SL    := ConvSign * D2NL / abs(Brho)
+#
+# Obs:
+# ---
+# (1) Parameter definition.
+#     IntStrength values correspond to integrated PolynomA and PolynomB parameters
+#     of usual beam tracking codes, with the exception that VKick has its sign
+#     reversed with respecto to its corresponding value in PolynomA.
+# (2) Sirius coordinate system and Lorentz force.
+# (3) Conversion sign for IntField <-> IntStrength
+# (4) Convention of magnet excitation polarity, so that when I > 0 the strength
+#     of the magnet has the expected conventional sign.
+
+# STATIC DATA FILE FORMAT
+# =======================
+#
+# These static data files should comply with the following formatting rules:
+# 1. If the first alphanumeric character of the line is not the pound sign
+#    then the lines is a comment.
+# 2. If the first alphanumeric character is "#" then if
+#    a) it is followed by "[<parameter>] <value>" a parameter names <parameter>
+#       is define with value <value>. if the string <value> has spaces in it
+#       it is split as a list of strings.
+#    b) otherwise the line is ignored as a comment line.
