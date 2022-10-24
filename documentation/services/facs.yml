@@ -27,12 +27,12 @@ facs-as-ap-currinfo:
   bo-ap-currinfo:
   - BO-Glob:AP-CurrInfo
   li-ap-currinfo:
-  - TB-Glob:AP-CurrInfo
+  - LI-01:DI-ICT-1
+  - LI-01:DI-ICT-2
   - LI-Glob:AP-CurrInfo
   - TB-02:DI-ICT
   - TB-04:DI-ICT
-  - LI-01:DI-ICT-2
-  - LI-01:DI-ICT-1
+  - TB-Glob:AP-CurrInfo
   si-ap-currinfo:
   - AS-Glob:AP-CurrInfo
   - SI-Glob:AP-CurrInfo
@@ -49,27 +49,27 @@ facs-as-ap-machshift:
 
 facs-as-ap-diag:
   as-pu-diag:
-  - BO-01D:PU-InjKckr:Diag*
-  - BO-48D:PU-EjeKckr:Diag*
-  - SI-01SA:PU-InjDpKckr:Diag*
-  - SI-01SA:PU-InjNLKckr:Diag*
-  - TB-04:PU-InjSept:Diag*
-  - TS-01:PU-EjeSeptF:Diag*
-  - TS-01:PU-EjeSeptG:Diag*
-  - TS-04:PU-InjSeptF:Diag*
-  - TS-04:PU-InjSeptG-1:Diag*
-  - TS-04:PU-InjSeptG-2:Diag*
+  - BO-01D:PU-InjKckr:Diag
+  - BO-48D:PU-EjeKckr:Diag
+  - SI-01SA:PU-InjDpKckr:Diag
+  - SI-01SA:PU-InjNLKckr:Diag
+  - TB-04:PU-InjSept:Diag
+  - TS-01:PU-EjeSeptF:Diag
+  - TS-01:PU-EjeSeptG:Diag
+  - TS-04:PU-InjSeptF:Diag
+  - TS-04:PU-InjSeptG-1:Diag
+  - TS-04:PU-InjSeptG-2:Diag
   as-rf-diag:
-  - BO-05D:RF-P5Cav:Diag*
-  - SI-02SB:RF-P7Cav:Diag*
+  - BO-05D:RF-P5Cav:Diag
+  - SI-02SB:RF-P7Cav:Diag
   li-ap-diag:
-  - LI-01:EG-HVPS:Diag*
-  - LI-01:EG-FilaPS:Diag*
-  - LI-01:RF-SHB:Diag*
-  - LI-01:RF-Kly-1:Diag*
-  - LI-01:RF-Kly-2:Diag*
-  - LI-01:PU-Modltr-1:Diag*
-  - LI-01:PU-Modltr-2:Diag*
+  - LI-01:EG-HVPS:Diag
+  - LI-01:EG-FilaPS:Diag
+  - LI-01:RF-SHB:Diag
+  - LI-01:RF-Kly-1:Diag
+  - LI-01:RF-Kly-2:Diag
+  - LI-01:PU-Modltr-1:Diag
+  - LI-01:PU-Modltr-2:Diag
 
 facs-as-ap-opticscorr:
   bo-ap-chromcorr:
@@ -225,16 +225,18 @@ facs-as-ps-dclinks_ia20:
 
 facs-as-pu-conv:
   as-pu-conv:
-  - BO-01D:PU-InjKckr:Kick*
-  - BO-48D:PU-EjeKckr:Kick*
-  - SI-01SA:PU-InjDpKckr:Kick*
-  - SI-01SA:PU-InjNLKckr:Kick*
-  - TB-04:PU-InjSept:Kick*
-  - TS-01:PU-EjeSeptF:Kick*
-  - TS-01:PU-EjeSeptG:Kick*
-  - TS-04:PU-InjSeptF:Kick*
-  - TS-04:PU-InjSeptG-1:Kick*
-  - TS-04:PU-InjSeptG-2:Kick*
+  - BO-01D:PU-InjKckr:Kick
+  - BO-48D:PU-EjeKckr:Kick
+  - SI-01SA:PU-InjDpKckr:Kick
+  - SI-01SA:PU-InjNLKckr:Kick
+  - SI-01SA:PU-PingH:Kick
+  - SI-19C4:PU-PingV:Kick
+  - TB-04:PU-InjSept:Kick
+  - TS-01:PU-EjeSeptF:Kick
+  - TS-01:PU-EjeSeptG:Kick
+  - TS-04:PU-InjSeptF:Kick
+  - TS-04:PU-InjSeptG-1:Kick
+  - TS-04:PU-InjSeptG-2:Kick
 
 facs-as-ti_general:
   as-ti-trig:
@@ -407,81 +409,81 @@ facs-li-ps_slnds:
 
 facs-li-ps_conv:
   li-ps-conv:
-  - LI-01:PS-CH-1:Kick*
-  - LI-01:PS-CH-2:Kick*
-  - LI-01:PS-CH-3:Kick*
-  - LI-01:PS-CH-4:Kick*
-  - LI-01:PS-CH-5:Kick*
-  - LI-01:PS-CH-6:Kick*
-  - LI-01:PS-CH-7:Kick*
-  - LI-01:PS-CV-1:Kick*
-  - LI-01:PS-CV-2:Kick*
-  - LI-01:PS-CV-3:Kick*
-  - LI-01:PS-CV-4:Kick*
-  - LI-01:PS-CV-5:Kick*
-  - LI-01:PS-CV-6:Kick*
-  - LI-01:PS-CV-7:Kick*
-  - LI-01:PS-QD1:KL*
-  - LI-01:PS-QD2:KL*
-  - LI-01:PS-QF3:KL*
-  - LI-01:PS-Spect:Kick*
-  - LI-Fam:PS-QF1:KL*
-  - LI-Fam:PS-QF2:KL*
+  - LI-01:PS-CH-1:Kick
+  - LI-01:PS-CH-2:Kick
+  - LI-01:PS-CH-3:Kick
+  - LI-01:PS-CH-4:Kick
+  - LI-01:PS-CH-5:Kick
+  - LI-01:PS-CH-6:Kick
+  - LI-01:PS-CH-7:Kick
+  - LI-01:PS-CV-1:Kick
+  - LI-01:PS-CV-2:Kick
+  - LI-01:PS-CV-3:Kick
+  - LI-01:PS-CV-4:Kick
+  - LI-01:PS-CV-5:Kick
+  - LI-01:PS-CV-6:Kick
+  - LI-01:PS-CV-7:Kick
+  - LI-01:PS-QD1:KL
+  - LI-01:PS-QD2:KL
+  - LI-01:PS-QF3:KL
+  - LI-01:PS-Spect:Kick
+  - LI-Fam:PS-QF1:KL
+  - LI-Fam:PS-QF2:KL
 
 facs-li-ps_diag:
   as-ps-diag LI ".*" ".*":
-  - LI-01:PS-CH-1:Diag*
-  - LI-01:PS-CH-2:Diag*
-  - LI-01:PS-CH-3:Diag*
-  - LI-01:PS-CH-4:Diag*
-  - LI-01:PS-CH-5:Diag*
-  - LI-01:PS-CH-6:Diag*
-  - LI-01:PS-CH-7:Diag*
-  - LI-01:PS-CV-1:Diag*
-  - LI-01:PS-CV-2:Diag*
-  - LI-01:PS-CV-3:Diag*
-  - LI-01:PS-CV-4:Diag*
-  - LI-01:PS-CV-5:Diag*
-  - LI-01:PS-CV-6:Diag*
-  - LI-01:PS-CV-7:Diag*
-  - LI-01:PS-Lens-1:Diag*
-  - LI-01:PS-Lens-2:Diag*
-  - LI-01:PS-Lens-3:Diag*
-  - LI-01:PS-Lens-4:Diag*
-  - LI-01:PS-LensRev:Diag*
-  - LI-01:PS-QD1:Diag*
-  - LI-01:PS-QD2:Diag*
-  - LI-01:PS-QF3:Diag*
-  - LI-01:PS-Slnd-1:Diag*
-  - LI-01:PS-Slnd-10:Diag*
-  - LI-01:PS-Slnd-11:Diag*
-  - LI-01:PS-Slnd-12:Diag*
-  - LI-01:PS-Slnd-13:Diag*
-  - LI-01:PS-Slnd-2:Diag*
-  - LI-01:PS-Slnd-3:Diag*
-  - LI-01:PS-Slnd-4:Diag*
-  - LI-01:PS-Slnd-5:Diag*
-  - LI-01:PS-Slnd-6:Diag*
-  - LI-01:PS-Slnd-7:Diag*
-  - LI-01:PS-Slnd-8:Diag*
-  - LI-01:PS-Slnd-9:Diag*
-  - LI-01:PS-Spect:Diag*
-  - LI-Fam:PS-QF1:Diag*
-  - LI-Fam:PS-QF2:Diag*
-  - LI-Fam:PS-Slnd-14:Diag*
-  - LI-Fam:PS-Slnd-15:Diag*
-  - LI-Fam:PS-Slnd-16:Diag*
-  - LI-Fam:PS-Slnd-17:Diag*
-  - LI-Fam:PS-Slnd-18:Diag*
-  - LI-Fam:PS-Slnd-19:Diag*
-  - LI-Fam:PS-Slnd-20:Diag*
-  - LI-Fam:PS-Slnd-21:Diag*
+  - LI-01:PS-CH-1:Diag
+  - LI-01:PS-CH-2:Diag
+  - LI-01:PS-CH-3:Diag
+  - LI-01:PS-CH-4:Diag
+  - LI-01:PS-CH-5:Diag
+  - LI-01:PS-CH-6:Diag
+  - LI-01:PS-CH-7:Diag
+  - LI-01:PS-CV-1:Diag
+  - LI-01:PS-CV-2:Diag
+  - LI-01:PS-CV-3:Diag
+  - LI-01:PS-CV-4:Diag
+  - LI-01:PS-CV-5:Diag
+  - LI-01:PS-CV-6:Diag
+  - LI-01:PS-CV-7:Diag
+  - LI-01:PS-Lens-1:Diag
+  - LI-01:PS-Lens-2:Diag
+  - LI-01:PS-Lens-3:Diag
+  - LI-01:PS-Lens-4:Diag
+  - LI-01:PS-LensRev:Diag
+  - LI-01:PS-QD1:Diag
+  - LI-01:PS-QD2:Diag
+  - LI-01:PS-QF3:Diag
+  - LI-01:PS-Slnd-1:Diag
+  - LI-01:PS-Slnd-10:Diag
+  - LI-01:PS-Slnd-11:Diag
+  - LI-01:PS-Slnd-12:Diag
+  - LI-01:PS-Slnd-13:Diag
+  - LI-01:PS-Slnd-2:Diag
+  - LI-01:PS-Slnd-3:Diag
+  - LI-01:PS-Slnd-4:Diag
+  - LI-01:PS-Slnd-5:Diag
+  - LI-01:PS-Slnd-6:Diag
+  - LI-01:PS-Slnd-7:Diag
+  - LI-01:PS-Slnd-8:Diag
+  - LI-01:PS-Slnd-9:Diag
+  - LI-01:PS-Spect:Diag
+  - LI-Fam:PS-QF1:Diag
+  - LI-Fam:PS-QF2:Diag
+  - LI-Fam:PS-Slnd-14:Diag
+  - LI-Fam:PS-Slnd-15:Diag
+  - LI-Fam:PS-Slnd-16:Diag
+  - LI-Fam:PS-Slnd-17:Diag
+  - LI-Fam:PS-Slnd-18:Diag
+  - LI-Fam:PS-Slnd-19:Diag
+  - LI-Fam:PS-Slnd-20:Diag
+  - LI-Fam:PS-Slnd-21:Diag
 
 facs-tb-ps_dips:
   as-ps LA-RaPS02:CO-PSCtrl-TB:
   - TB-Fam:PS-B
   as-ps-diag TB Fam B:
-  - TB-Fam:PS-B:Diag*
+  - TB-Fam:PS-B:Diag
 
 facs-tb-ps_quads:
   as-ps LA-RaCtrl:CO-PSCtrl-TB1:
@@ -498,16 +500,16 @@ facs-tb-ps_quads:
   - TB-04:PS-QD4
   - TB-04:PS-QF4
   as-ps-diag TB ".*" "Q.*":
-  - TB-01:PS-QD1:Diag*
-  - TB-01:PS-QF1:Diag*
-  - TB-02:PS-QD2A:Diag*
-  - TB-02:PS-QD2B:Diag*
-  - TB-02:PS-QF2A:Diag*
-  - TB-02:PS-QF2B:Diag*
-  - TB-03:PS-QD3:Diag*
-  - TB-03:PS-QF3:Diag*
-  - TB-04:PS-QD4:Diag*
-  - TB-04:PS-QF4:Diag*
+  - TB-01:PS-QD1:Diag
+  - TB-01:PS-QF1:Diag
+  - TB-02:PS-QD2A:Diag
+  - TB-02:PS-QD2B:Diag
+  - TB-02:PS-QF2A:Diag
+  - TB-02:PS-QF2B:Diag
+  - TB-03:PS-QD3:Diag
+  - TB-03:PS-QF3:Diag
+  - TB-04:PS-QD4:Diag
+  - TB-04:PS-QF4:Diag
 
 facs-tb-ps_corrs:
   as-ps LA-RaCtrl:CO-PSCtrl-TB2:
@@ -524,18 +526,18 @@ facs-tb-ps_corrs:
   - TB-04:PS-CH-2
   - TB-04:PS-CV-2
   as-ps-diag TB ".*" "C.*":
-  - TB-01:PS-CH-1:Diag*
-  - TB-01:PS-CH-2:Diag*
-  - TB-01:PS-CV-1:Diag*
-  - TB-01:PS-CV-2:Diag*
-  - TB-02:PS-CH-1:Diag*
-  - TB-02:PS-CH-2:Diag*
-  - TB-02:PS-CV-1:Diag*
-  - TB-02:PS-CV-2:Diag*
-  - TB-04:PS-CH-1:Diag*
-  - TB-04:PS-CH-2:Diag*
-  - TB-04:PS-CV-1:Diag*
-  - TB-04:PS-CV-2:Diag*
+  - TB-01:PS-CH-1:Diag
+  - TB-01:PS-CH-2:Diag
+  - TB-01:PS-CV-1:Diag
+  - TB-01:PS-CV-2:Diag
+  - TB-02:PS-CH-1:Diag
+  - TB-02:PS-CH-2:Diag
+  - TB-02:PS-CV-1:Diag
+  - TB-02:PS-CV-2:Diag
+  - TB-04:PS-CH-1:Diag
+  - TB-04:PS-CH-2:Diag
+  - TB-04:PS-CV-1:Diag
+  - TB-04:PS-CV-2:Diag
 
 facs-bo-ps_dips:
   as-ps PA-RaPSE05:CO-PSCtrl-BO1:
@@ -549,8 +551,8 @@ facs-bo-ps_dips:
   - BO-Fam:PS-B-2b
   - BO-Fam:PS-B-2c
   as-ps-diag BO ".*" "B-(1|2)":
-  - BO-Fam:PS-B-1:Diag*
-  - BO-Fam:PS-B-2:Diag*
+  - BO-Fam:PS-B-1:Diag
+  - BO-Fam:PS-B-2:Diag
 
 facs-bo-ps_quads:
   as-ps PA-RaPSC03:CO-PSCtrl-BO1:
@@ -560,8 +562,8 @@ facs-bo-ps_quads:
   as-ps PA-RaPSC03:CO-PSCtrl-BO4:
   - BO-Fam:PS-QD
   as-ps-diag BO ".*" "Q(F|D)":
-  - BO-Fam:PS-QD:Diag*
-  - BO-Fam:PS-QF:Diag*
+  - BO-Fam:PS-QD:Diag
+  - BO-Fam:PS-QF:Diag
 
 facs-bo-ps_sexts:
   as-ps PA-RaPSC03:CO-PSCtrl-BO2:
@@ -569,8 +571,8 @@ facs-bo-ps_sexts:
   as-ps PA-RaPSC03:CO-PSCtrl-BO3:
   - BO-Fam:PS-SD
   as-ps-diag BO ".*" "S(F|D)":
-  - BO-Fam:PS-SD:Diag*
-  - BO-Fam:PS-SF:Diag*
+  - BO-Fam:PS-SD:Diag
+  - BO-Fam:PS-SF:Diag
 
 facs-bo-ps_corrs-ia01:
   as-ps IA-01RaCtrl:CO-PSCtrl-BO:
@@ -578,9 +580,9 @@ facs-bo-ps_corrs-ia01:
   - BO-01U:PS-CV
   - BO-02D:PS-QS
   as-ps-diag BO "0(1|2)(U|D)" "(CH|CV|QS)":
-  - BO-01U:PS-CH:Diag*
-  - BO-02D:PS-QS:Diag*
-  - BO-01U:PS-CV:Diag*
+  - BO-01U:PS-CH:Diag
+  - BO-02D:PS-QS:Diag
+  - BO-01U:PS-CV:Diag
 
 facs-bo-ps_corrs-ia02:
   as-ps IA-02RaCtrl:CO-PSCtrl-BO:
@@ -589,10 +591,10 @@ facs-bo-ps_corrs-ia02:
   - BO-05U:PS-CH
   - BO-05U:PS-CV
   as-ps-diag BO "0(3|5)U" "(CH|CV)":
-  - BO-03U:PS-CH:Diag*
-  - BO-03U:PS-CV:Diag*
-  - BO-05U:PS-CH:Diag*
-  - BO-05U:PS-CV:Diag*
+  - BO-03U:PS-CH:Diag
+  - BO-03U:PS-CV:Diag
+  - BO-05U:PS-CH:Diag
+  - BO-05U:PS-CV:Diag
 
 facs-bo-ps_corrs-ia04:
   as-ps IA-04RaCtrl:CO-PSCtrl-BO:
@@ -601,10 +603,10 @@ facs-bo-ps_corrs-ia04:
   - BO-09U:PS-CH
   - BO-09U:PS-CV
   as-ps-diag BO "0(7|9)U" "(CH|CV)":
-  - BO-07U:PS-CH:Diag*
-  - BO-07U:PS-CV:Diag*
-  - BO-09U:PS-CH:Diag*
-  - BO-09U:PS-CV:Diag*
+  - BO-07U:PS-CH:Diag
+  - BO-07U:PS-CV:Diag
+  - BO-09U:PS-CH:Diag
+  - BO-09U:PS-CV:Diag
 
 facs-bo-ps_corrs-ia05:
   as-ps IA-05RaCtrl:CO-PSCtrl-BO:
@@ -613,10 +615,10 @@ facs-bo-ps_corrs-ia05:
   - BO-13U:PS-CH
   - BO-13U:PS-CV
   as-ps-diag BO "1(1|3)U" "(CH|CV)":
-  - BO-11U:PS-CH:Diag*
-  - BO-11U:PS-CV:Diag*
-  - BO-13U:PS-CH:Diag*
-  - BO-13U:PS-CV:Diag*
+  - BO-11U:PS-CH:Diag
+  - BO-11U:PS-CV:Diag
+  - BO-13U:PS-CH:Diag
+  - BO-13U:PS-CV:Diag
 
 facs-bo-ps_corrs-ia07:
   as-ps IA-07RaCtrl:CO-PSCtrl-BO:
@@ -625,10 +627,10 @@ facs-bo-ps_corrs-ia07:
   - BO-17U:PS-CH
   - BO-17U:PS-CV
   as-ps-diag BO "1(5|7)U" "(CH|CV)":
-  - BO-15U:PS-CH:Diag*
-  - BO-15U:PS-CV:Diag*
-  - BO-17U:PS-CH:Diag*
-  - BO-17U:PS-CV:Diag*
+  - BO-15U:PS-CH:Diag
+  - BO-15U:PS-CV:Diag
+  - BO-17U:PS-CH:Diag
+  - BO-17U:PS-CV:Diag
 
 facs-bo-ps_corrs-ia08:
   as-ps IA-08RaCtrl:CO-PSCtrl-BO:
@@ -637,10 +639,10 @@ facs-bo-ps_corrs-ia08:
   - BO-21U:PS-CH
   - BO-21U:PS-CV
   as-ps-diag BO "(19|21)U" "(CH|CV)":
-  - BO-19U:PS-CH:Diag*
-  - BO-19U:PS-CV:Diag*
-  - BO-21U:PS-CH:Diag*
-  - BO-21U:PS-CV:Diag*
+  - BO-19U:PS-CH:Diag
+  - BO-19U:PS-CV:Diag
+  - BO-21U:PS-CH:Diag
+  - BO-21U:PS-CV:Diag
 
 facs-bo-ps_corrs-ia10:
   as-ps IA-10RaCtrl:CO-PSCtrl-BO:
@@ -649,10 +651,10 @@ facs-bo-ps_corrs-ia10:
   - BO-25U:PS-CH
   - BO-25U:PS-CV
   as-ps-diag BO "2(3|5)U" "(CH|CV)":
-  - BO-23U:PS-CH:Diag*
-  - BO-23U:PS-CV:Diag*
-  - BO-25U:PS-CH:Diag*
-  - BO-25U:PS-CV:Diag*
+  - BO-23U:PS-CH:Diag
+  - BO-23U:PS-CV:Diag
+  - BO-25U:PS-CH:Diag
+  - BO-25U:PS-CV:Diag
 
 facs-bo-ps_corrs-ia11:
   as-ps IA-11RaCtrl:CO-PSCtrl-BO:
@@ -661,10 +663,10 @@ facs-bo-ps_corrs-ia11:
   - BO-29U:PS-CH
   - BO-29U:PS-CV
   as-ps-diag BO "2(7|9)U" "(CH|CV)":
-  - BO-27U:PS-CH:Diag*
-  - BO-27U:PS-CV:Diag*
-  - BO-29U:PS-CH:Diag*
-  - BO-29U:PS-CV:Diag*
+  - BO-27U:PS-CH:Diag
+  - BO-27U:PS-CV:Diag
+  - BO-29U:PS-CH:Diag
+  - BO-29U:PS-CV:Diag
 
 facs-bo-ps_corrs-ia13:
   as-ps IA-13RaCtrl:CO-PSCtrl-BO:
@@ -673,10 +675,10 @@ facs-bo-ps_corrs-ia13:
   - BO-33U:PS-CH
   - BO-33U:PS-CV
   as-ps-diag BO "3(1|3)U" "(CH|CV)":
-  - BO-31U:PS-CH:Diag*
-  - BO-31U:PS-CV:Diag*
-  - BO-33U:PS-CH:Diag*
-  - BO-33U:PS-CV:Diag*
+  - BO-31U:PS-CH:Diag
+  - BO-31U:PS-CV:Diag
+  - BO-33U:PS-CH:Diag
+  - BO-33U:PS-CV:Diag
 
 facs-bo-ps_corrs-ia14:
   as-ps IA-14RaCtrl:CO-PSCtrl-BO:
@@ -685,10 +687,10 @@ facs-bo-ps_corrs-ia14:
   - BO-37U:PS-CH
   - BO-37U:PS-CV
   as-ps-diag BO "3(5|7)U" "(CH|CV)":
-  - BO-35U:PS-CH:Diag*
-  - BO-35U:PS-CV:Diag*
-  - BO-37U:PS-CH:Diag*
-  - BO-37U:PS-CV:Diag*
+  - BO-35U:PS-CH:Diag
+  - BO-35U:PS-CV:Diag
+  - BO-37U:PS-CH:Diag
+  - BO-37U:PS-CV:Diag
 
 facs-bo-ps_corrs-ia16:
   as-ps IA-16RaCtrl:CO-PSCtrl-BO:
@@ -697,10 +699,10 @@ facs-bo-ps_corrs-ia16:
   - BO-41U:PS-CH
   - BO-41U:PS-CV
   as-ps-diag BO "(39|41)U" "(CH|CV)":
-  - BO-39U:PS-CH:Diag*
-  - BO-39U:PS-CV:Diag*
-  - BO-41U:PS-CH:Diag*
-  - BO-41U:PS-CV:Diag*
+  - BO-39U:PS-CH:Diag
+  - BO-39U:PS-CV:Diag
+  - BO-41U:PS-CH:Diag
+  - BO-41U:PS-CV:Diag
 
 facs-bo-ps_corrs-ia17:
   as-ps IA-17RaCtrl:CO-PSCtrl-BO:
@@ -709,10 +711,10 @@ facs-bo-ps_corrs-ia17:
   - BO-45U:PS-CH
   - BO-45U:PS-CV
   as-ps-diag BO "4(3|5)U" "(CH|CV)":
-  - BO-43U:PS-CH:Diag*
-  - BO-43U:PS-CV:Diag*
-  - BO-45U:PS-CH:Diag*
-  - BO-45U:PS-CV:Diag*
+  - BO-43U:PS-CH:Diag
+  - BO-43U:PS-CV:Diag
+  - BO-45U:PS-CH:Diag
+  - BO-45U:PS-CV:Diag
 
 facs-bo-ps_corrs-ia20:
   as-ps IA-20RaCtrl:CO-PSCtrl-BO:
@@ -721,16 +723,16 @@ facs-bo-ps_corrs-ia20:
   - BO-49D:PS-CH
   - BO-49U:PS-CV
   as-ps-diag BO "4(7|9)(U|D)" "(CH|CV)":
-  - BO-47U:PS-CH:Diag*
-  - BO-47U:PS-CV:Diag*
-  - BO-49D:PS-CH:Diag*
-  - BO-49U:PS-CV:Diag*
+  - BO-47U:PS-CH:Diag
+  - BO-47U:PS-CV:Diag
+  - BO-49D:PS-CH:Diag
+  - BO-49U:PS-CV:Diag
 
 facs-ts-ps_dips:
   as-ps LA-RaPS02:CO-PSCtrl-TS1:
   - TS-Fam:PS-B
   as-ps-diag TS Fam B:
-  - TS-Fam:PS-B:Diag*
+  - TS-Fam:PS-B:Diag
 
 facs-ts-ps_quads:
   as-ps LA-RaPS02:CO-PSCtrl-TS2:
@@ -744,14 +746,14 @@ facs-ts-ps_quads:
   - TS-04:PS-QF4
   - TS-03:PS-QF3
   as-ps-diag TS ".*" "Q.*":
-  - TS-01:PS-QF1A:Diag*
-  - TS-01:PS-QF1B:Diag*
-  - TS-02:PS-QD2:Diag*
-  - TS-02:PS-QF2:Diag*
-  - TS-03:PS-QF3:Diag*
-  - TS-04:PS-QD4A:Diag*
-  - TS-04:PS-QD4B:Diag*
-  - TS-04:PS-QF4:Diag*
+  - TS-01:PS-QF1A:Diag
+  - TS-01:PS-QF1B:Diag
+  - TS-02:PS-QD2:Diag
+  - TS-02:PS-QF2:Diag
+  - TS-03:PS-QF3:Diag
+  - TS-04:PS-QD4A:Diag
+  - TS-04:PS-QD4B:Diag
+  - TS-04:PS-QF4:Diag
 
 facs-ts-ps_corrs:
   as-ps LA-RaCtrl:CO-PSCtrl-TS:
@@ -768,20 +770,20 @@ facs-ts-ps_corrs:
   - TS-04:PS-CV-2
   - TS-04:PS-CV-1E2
   as-ps-diag TS ".*" "C.*":
-  - TS-01:PS-CH:Diag*
-  - TS-01:PS-CV-1:Diag*
-  - TS-01:PS-CV-1E2:Diag*
-  - TS-01:PS-CV-2:Diag*
-  - TS-02:PS-CH:Diag*
-  - TS-02:PS-CV:Diag*
-  - TS-02:PS-CV-0:Diag*
-  - TS-03:PS-CH:Diag*
-  - TS-03:PS-CV:Diag*
-  - TS-04:PS-CH:Diag*
-  - TS-04:PS-CV-0:Diag*
-  - TS-04:PS-CV-1:Diag*
-  - TS-04:PS-CV-1E2:Diag*
-  - TS-04:PS-CV-2:Diag*
+  - TS-01:PS-CH:Diag
+  - TS-01:PS-CV-1:Diag
+  - TS-01:PS-CV-1E2:Diag
+  - TS-01:PS-CV-2:Diag
+  - TS-02:PS-CH:Diag
+  - TS-02:PS-CV:Diag
+  - TS-02:PS-CV-0:Diag
+  - TS-03:PS-CH:Diag
+  - TS-03:PS-CV:Diag
+  - TS-04:PS-CH:Diag
+  - TS-04:PS-CV-0:Diag
+  - TS-04:PS-CV-1:Diag
+  - TS-04:PS-CV-1E2:Diag
+  - TS-04:PS-CV-2:Diag
 
 facs-si-ap-bl:
   si-ap-manaca:
@@ -793,11 +795,11 @@ facs-si-ap-fofb:
 
 facs-si-id-conv:
   si-id-conv:
-  - SI-06SB:ID-APU22:Kx*
-  - SI-07SP:ID-APU22:Kx*
-  - SI-08SB:ID-APU22:Kx*
-  - SI-09SA:ID-APU22:Kx*
-  - SI-11SP:ID-APU58:Kx*
+  - SI-06SB:ID-APU22:Kx
+  - SI-07SP:ID-APU22:Kx
+  - SI-08SB:ID-APU22:Kx
+  - SI-09SA:ID-APU22:Kx
+  - SI-11SP:ID-APU58:Kx
 
 facs-si-ap-sofb:
   si-ap-sofb:
@@ -808,8 +810,8 @@ facs-si-ps_dips:
   - SI-Fam:PS-B1B2-1
   - SI-Fam:PS-B1B2-2
   as-ps-diag SI Fam "B1B2-(1|2)":
-  - SI-Fam:PS-B1B2-1:Diag*
-  - SI-Fam:PS-B1B2-2:Diag*
+  - SI-Fam:PS-B1B2-1:Diag
+  - SI-Fam:PS-B1B2-2:Diag
 
 facs-si-ps_quads-qfq:
   as-ps PA-RaPSA02:CO-PSCtrl-SI1:
@@ -822,13 +824,13 @@ facs-si-ps_quads-qfq:
   - SI-Fam:PS-Q2
   - SI-Fam:PS-Q1
   as-ps-diag SI Fam "Q(F|[1-4]).*":
-  - SI-Fam:PS-Q1:Diag*
-  - SI-Fam:PS-Q2:Diag*
-  - SI-Fam:PS-Q3:Diag*
-  - SI-Fam:PS-Q4:Diag*
-  - SI-Fam:PS-QFA:Diag*
-  - SI-Fam:PS-QFB:Diag*
-  - SI-Fam:PS-QFP:Diag*
+  - SI-Fam:PS-Q1:Diag
+  - SI-Fam:PS-Q2:Diag
+  - SI-Fam:PS-Q3:Diag
+  - SI-Fam:PS-Q4:Diag
+  - SI-Fam:PS-QFA:Diag
+  - SI-Fam:PS-QFB:Diag
+  - SI-Fam:PS-QFP:Diag
 
 facs-si-ps_quads-qd:
   as-ps PA-RaPSA02:CO-PSCtrl-SI2:
@@ -839,11 +841,11 @@ facs-si-ps_quads-qd:
   - SI-Fam:PS-QDB2
   - SI-Fam:PS-QDB1
   as-ps-diag SI Fam "QD.*":
-  - SI-Fam:PS-QDA:Diag*
-  - SI-Fam:PS-QDB1:Diag*
-  - SI-Fam:PS-QDB2:Diag*
-  - SI-Fam:PS-QDP1:Diag*
-  - SI-Fam:PS-QDP2:Diag*
+  - SI-Fam:PS-QDA:Diag
+  - SI-Fam:PS-QDB1:Diag
+  - SI-Fam:PS-QDB2:Diag
+  - SI-Fam:PS-QDP1:Diag
+  - SI-Fam:PS-QDP2:Diag
 
 facs-si-ps_sexts-sda12b2-sfa0p0-sda0p0:
   as-ps PA-RaPSB02:CO-PSCtrl-SI2:
@@ -856,13 +858,13 @@ facs-si-ps_sexts-sda12b2-sfa0p0-sda0p0:
   - SI-Fam:PS-SDA2
   - SI-Fam:PS-SDA1
   as-ps-diag SI Fam "S(DB2|DA2|DA1|FP0|FA0|DP0|DA0)":
-  - SI-Fam:PS-SDA0:Diag*
-  - SI-Fam:PS-SDA1:Diag*
-  - SI-Fam:PS-SDA2:Diag*
-  - SI-Fam:PS-SDB2:Diag*
-  - SI-Fam:PS-SDP0:Diag*
-  - SI-Fam:PS-SFA0:Diag*
-  - SI-Fam:PS-SFP0:Diag*
+  - SI-Fam:PS-SDA0:Diag
+  - SI-Fam:PS-SDA1:Diag
+  - SI-Fam:PS-SDA2:Diag
+  - SI-Fam:PS-SDB2:Diag
+  - SI-Fam:PS-SDP0:Diag
+  - SI-Fam:PS-SFA0:Diag
+  - SI-Fam:PS-SFP0:Diag
 
 facs-si-ps_sexts-sfa12-sda3p1-sfb0-sdb01:
   as-ps PA-RaPSB02:CO-PSCtrl-SI1:
@@ -875,13 +877,13 @@ facs-si-ps_sexts-sfa12-sda3p1-sfb0-sdb01:
   - SI-Fam:PS-SDP1
   - SI-Fam:PS-SFA2
   as-ps-diag SI Fam "S(FA1|DA3|DP1|FA2|DB1|FB0|DB0)":
-  - SI-Fam:PS-SDA3:Diag*
-  - SI-Fam:PS-SDB0:Diag*
-  - SI-Fam:PS-SDB1:Diag*
-  - SI-Fam:PS-SDP1:Diag*
-  - SI-Fam:PS-SFA1:Diag*
-  - SI-Fam:PS-SFA2:Diag*
-  - SI-Fam:PS-SFB0:Diag*
+  - SI-Fam:PS-SDA3:Diag
+  - SI-Fam:PS-SDB0:Diag
+  - SI-Fam:PS-SDB1:Diag
+  - SI-Fam:PS-SDP1:Diag
+  - SI-Fam:PS-SFA1:Diag
+  - SI-Fam:PS-SFA2:Diag
+  - SI-Fam:PS-SFB0:Diag
 
 facs-si-ps_sexts-sfb12-sdb3-sfp12-sdp23:
   as-ps PA-RaPSB09:CO-PSCtrl-SI1:
@@ -894,13 +896,13 @@ facs-si-ps_sexts-sfb12-sdb3-sfp12-sdp23:
   - SI-Fam:PS-SDP3
   - SI-Fam:PS-SDP2
   as-ps-diag SI Fam "S(DB3|FB1|FB2|FP2|FP1|DP3|DP2)":
-  - SI-Fam:PS-SDB3:Diag*
-  - SI-Fam:PS-SDP2:Diag*
-  - SI-Fam:PS-SDP3:Diag*
-  - SI-Fam:PS-SFB1:Diag*
-  - SI-Fam:PS-SFB2:Diag*
-  - SI-Fam:PS-SFP1:Diag*
-  - SI-Fam:PS-SFP2:Diag*
+  - SI-Fam:PS-SDB3:Diag
+  - SI-Fam:PS-SDP2:Diag
+  - SI-Fam:PS-SDP3:Diag
+  - SI-Fam:PS-SFB1:Diag
+  - SI-Fam:PS-SFB2:Diag
+  - SI-Fam:PS-SFP1:Diag
+  - SI-Fam:PS-SFP2:Diag
 
 facs-si-ps_corrs-c2m12-ia01:
   as-ps IA-01RaCtrl:CO-PSCtrl-SI2:
@@ -912,13 +914,13 @@ facs-si-ps_corrs-c2m12-ia01:
   - SI-01C2:PS-CV-1
   - SI-01C2:PS-CV-2
   as-ps-diag SI "01(C2|M1|M2)" "C(H|V).*":
-  - SI-01M2:PS-CH:Diag*
-  - SI-01M2:PS-CV:Diag*
-  - SI-01C2:PS-CH:Diag*
-  - SI-01C2:PS-CV-1:Diag*
-  - SI-01C2:PS-CV-2:Diag*
-  - SI-01M1:PS-CH:Diag*
-  - SI-01M1:PS-CV:Diag*
+  - SI-01M2:PS-CH:Diag
+  - SI-01M2:PS-CV:Diag
+  - SI-01C2:PS-CH:Diag
+  - SI-01C2:PS-CV-1:Diag
+  - SI-01C2:PS-CV-2:Diag
+  - SI-01M1:PS-CH:Diag
+  - SI-01M1:PS-CV:Diag
 
 facs-si-ps_corrs-c2m12-ia02:
   as-ps IA-02RaCtrl:CO-PSCtrl-SI2:
@@ -930,13 +932,13 @@ facs-si-ps_corrs-c2m12-ia02:
   - SI-02C2:PS-CV-1
   - SI-02C2:PS-CV-2
   as-ps-diag SI "02(C2|M1|M2)" "C(H|V).*":
-  - SI-02M1:PS-CH:Diag*
-  - SI-02M1:PS-CV:Diag*
-  - SI-02M2:PS-CH:Diag*
-  - SI-02M2:PS-CV:Diag*
-  - SI-02C2:PS-CH:Diag*
-  - SI-02C2:PS-CV-1:Diag*
-  - SI-02C2:PS-CV-2:Diag*
+  - SI-02M1:PS-CH:Diag
+  - SI-02M1:PS-CV:Diag
+  - SI-02M2:PS-CH:Diag
+  - SI-02M2:PS-CV:Diag
+  - SI-02C2:PS-CH:Diag
+  - SI-02C2:PS-CV-1:Diag
+  - SI-02C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia03:
   as-ps IA-03RaCtrl:CO-PSCtrl-SI2:
@@ -948,13 +950,13 @@ facs-si-ps_corrs-c2m12-ia03:
   - SI-03C2:PS-CV-1
   - SI-03C2:PS-CV-2
   as-ps-diag SI "03(C2|M1|M2)" "C(H|V).*":
-  - SI-03M1:PS-CH:Diag*
-  - SI-03M1:PS-CV:Diag*
-  - SI-03M2:PS-CH:Diag*
-  - SI-03M2:PS-CV:Diag*
-  - SI-03C2:PS-CH:Diag*
-  - SI-03C2:PS-CV-1:Diag*
-  - SI-03C2:PS-CV-2:Diag*
+  - SI-03M1:PS-CH:Diag
+  - SI-03M1:PS-CV:Diag
+  - SI-03M2:PS-CH:Diag
+  - SI-03M2:PS-CV:Diag
+  - SI-03C2:PS-CH:Diag
+  - SI-03C2:PS-CV-1:Diag
+  - SI-03C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia04:
   as-ps IA-04RaCtrl:CO-PSCtrl-SI2:
@@ -966,13 +968,13 @@ facs-si-ps_corrs-c2m12-ia04:
   - SI-04C2:PS-CV-1
   - SI-04C2:PS-CV-2
   as-ps-diag SI "04(C2|M1|M2)" "C(H|V).*":
-  - SI-04M1:PS-CH:Diag*
-  - SI-04M1:PS-CV:Diag*
-  - SI-04M2:PS-CH:Diag*
-  - SI-04M2:PS-CV:Diag*
-  - SI-04C2:PS-CH:Diag*
-  - SI-04C2:PS-CV-1:Diag*
-  - SI-04C2:PS-CV-2:Diag*
+  - SI-04M1:PS-CH:Diag
+  - SI-04M1:PS-CV:Diag
+  - SI-04M2:PS-CH:Diag
+  - SI-04M2:PS-CV:Diag
+  - SI-04C2:PS-CH:Diag
+  - SI-04C2:PS-CV-1:Diag
+  - SI-04C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia05:
   as-ps IA-05RaCtrl:CO-PSCtrl-SI2:
@@ -984,13 +986,13 @@ facs-si-ps_corrs-c2m12-ia05:
   - SI-05C2:PS-CV-1
   - SI-05C2:PS-CV-2
   as-ps-diag SI "05(C2|M1|M2)" "C(H|V).*":
-  - SI-05M1:PS-CH:Diag*
-  - SI-05M1:PS-CV:Diag*
-  - SI-05M2:PS-CH:Diag*
-  - SI-05M2:PS-CV:Diag*
-  - SI-05C2:PS-CH:Diag*
-  - SI-05C2:PS-CV-1:Diag*
-  - SI-05C2:PS-CV-2:Diag*
+  - SI-05M1:PS-CH:Diag
+  - SI-05M1:PS-CV:Diag
+  - SI-05M2:PS-CH:Diag
+  - SI-05M2:PS-CV:Diag
+  - SI-05C2:PS-CH:Diag
+  - SI-05C2:PS-CV-1:Diag
+  - SI-05C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia06:
   as-ps IA-06RaCtrl:CO-PSCtrl-SI2:
@@ -1002,13 +1004,13 @@ facs-si-ps_corrs-c2m12-ia06:
   - SI-06C2:PS-CV-1
   - SI-06C2:PS-CV-2
   as-ps-diag SI "06(C2|M1|M2)" "C(H|V).*":
-  - SI-06M1:PS-CH:Diag*
-  - SI-06M1:PS-CV:Diag*
-  - SI-06M2:PS-CH:Diag*
-  - SI-06M2:PS-CV:Diag*
-  - SI-06C2:PS-CH:Diag*
-  - SI-06C2:PS-CV-1:Diag*
-  - SI-06C2:PS-CV-2:Diag*
+  - SI-06M1:PS-CH:Diag
+  - SI-06M1:PS-CV:Diag
+  - SI-06M2:PS-CH:Diag
+  - SI-06M2:PS-CV:Diag
+  - SI-06C2:PS-CH:Diag
+  - SI-06C2:PS-CV-1:Diag
+  - SI-06C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia07:
   as-ps IA-07RaCtrl:CO-PSCtrl-SI2:
@@ -1020,13 +1022,13 @@ facs-si-ps_corrs-c2m12-ia07:
   - SI-07C2:PS-CV-1
   - SI-07C2:PS-CV-2
   as-ps-diag SI "07(C2|M1|M2)" "C(H|V).*":
-  - SI-07M1:PS-CH:Diag*
-  - SI-07M1:PS-CV:Diag*
-  - SI-07M2:PS-CH:Diag*
-  - SI-07M2:PS-CV:Diag*
-  - SI-07C2:PS-CH:Diag*
-  - SI-07C2:PS-CV-1:Diag*
-  - SI-07C2:PS-CV-2:Diag*
+  - SI-07M1:PS-CH:Diag
+  - SI-07M1:PS-CV:Diag
+  - SI-07M2:PS-CH:Diag
+  - SI-07M2:PS-CV:Diag
+  - SI-07C2:PS-CH:Diag
+  - SI-07C2:PS-CV-1:Diag
+  - SI-07C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia08:
   as-ps IA-08RaCtrl:CO-PSCtrl-SI2:
@@ -1038,13 +1040,13 @@ facs-si-ps_corrs-c2m12-ia08:
   - SI-08C2:PS-CV-1
   - SI-08C2:PS-CV-2
   as-ps-diag SI "08(C2|M1|M2)" "C(H|V).*":
-  - SI-08M1:PS-CH:Diag*
-  - SI-08M1:PS-CV:Diag*
-  - SI-08M2:PS-CH:Diag*
-  - SI-08M2:PS-CV:Diag*
-  - SI-08C2:PS-CH:Diag*
-  - SI-08C2:PS-CV-1:Diag*
-  - SI-08C2:PS-CV-2:Diag*
+  - SI-08M1:PS-CH:Diag
+  - SI-08M1:PS-CV:Diag
+  - SI-08M2:PS-CH:Diag
+  - SI-08M2:PS-CV:Diag
+  - SI-08C2:PS-CH:Diag
+  - SI-08C2:PS-CV-1:Diag
+  - SI-08C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia09:
   as-ps IA-09RaCtrl:CO-PSCtrl-SI2:
@@ -1056,13 +1058,13 @@ facs-si-ps_corrs-c2m12-ia09:
   - SI-09C2:PS-CV-1
   - SI-09C2:PS-CV-2
   as-ps-diag SI "09(C2|M1|M2)" "C(H|V).*":
-  - SI-09M1:PS-CH:Diag*
-  - SI-09M1:PS-CV:Diag*
-  - SI-09M2:PS-CH:Diag*
-  - SI-09M2:PS-CV:Diag*
-  - SI-09C2:PS-CH:Diag*
-  - SI-09C2:PS-CV-1:Diag*
-  - SI-09C2:PS-CV-2:Diag*
+  - SI-09M1:PS-CH:Diag
+  - SI-09M1:PS-CV:Diag
+  - SI-09M2:PS-CH:Diag
+  - SI-09M2:PS-CV:Diag
+  - SI-09C2:PS-CH:Diag
+  - SI-09C2:PS-CV-1:Diag
+  - SI-09C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia10:
   as-ps IA-10RaCtrl:CO-PSCtrl-SI2:
@@ -1074,13 +1076,13 @@ facs-si-ps_corrs-c2m12-ia10:
   - SI-10C2:PS-CV-1
   - SI-10C2:PS-CV-2
   as-ps-diag SI "10(C2|M1|M2)" "C(H|V).*":
-  - SI-10M1:PS-CH:Diag*
-  - SI-10M1:PS-CV:Diag*
-  - SI-10M2:PS-CH:Diag*
-  - SI-10M2:PS-CV:Diag*
-  - SI-10C2:PS-CH:Diag*
-  - SI-10C2:PS-CV-1:Diag*
-  - SI-10C2:PS-CV-2:Diag*
+  - SI-10M1:PS-CH:Diag
+  - SI-10M1:PS-CV:Diag
+  - SI-10M2:PS-CH:Diag
+  - SI-10M2:PS-CV:Diag
+  - SI-10C2:PS-CH:Diag
+  - SI-10C2:PS-CV-1:Diag
+  - SI-10C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia11:
   as-ps IA-11RaCtrl:CO-PSCtrl-SI2:
@@ -1092,13 +1094,13 @@ facs-si-ps_corrs-c2m12-ia11:
   - SI-11C2:PS-CV-1
   - SI-11C2:PS-CV-2
   as-ps-diag SI "11(C2|M1|M2)" "C(H|V).*":
-  - SI-11M1:PS-CH:Diag*
-  - SI-11M1:PS-CV:Diag*
-  - SI-11M2:PS-CH:Diag*
-  - SI-11M2:PS-CV:Diag*
-  - SI-11C2:PS-CH:Diag*
-  - SI-11C2:PS-CV-1:Diag*
-  - SI-11C2:PS-CV-2:Diag*
+  - SI-11M1:PS-CH:Diag
+  - SI-11M1:PS-CV:Diag
+  - SI-11M2:PS-CH:Diag
+  - SI-11M2:PS-CV:Diag
+  - SI-11C2:PS-CH:Diag
+  - SI-11C2:PS-CV-1:Diag
+  - SI-11C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia12:
   as-ps IA-12RaCtrl:CO-PSCtrl-SI2:
@@ -1110,13 +1112,13 @@ facs-si-ps_corrs-c2m12-ia12:
   - SI-12C2:PS-CV-1
   - SI-12C2:PS-CV-2
   as-ps-diag SI "12(C2|M1|M2)" "C(H|V).*":
-  - SI-12M1:PS-CH:Diag*
-  - SI-12M1:PS-CV:Diag*
-  - SI-12M2:PS-CH:Diag*
-  - SI-12M2:PS-CV:Diag*
-  - SI-12C2:PS-CH:Diag*
-  - SI-12C2:PS-CV-1:Diag*
-  - SI-12C2:PS-CV-2:Diag*
+  - SI-12M1:PS-CH:Diag
+  - SI-12M1:PS-CV:Diag
+  - SI-12M2:PS-CH:Diag
+  - SI-12M2:PS-CV:Diag
+  - SI-12C2:PS-CH:Diag
+  - SI-12C2:PS-CV-1:Diag
+  - SI-12C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia13:
   as-ps IA-13RaCtrl:CO-PSCtrl-SI2:
@@ -1128,13 +1130,13 @@ facs-si-ps_corrs-c2m12-ia13:
   - SI-13C2:PS-CV-1
   - SI-13C2:PS-CV-2
   as-ps-diag SI "13(C2|M1|M2)" "C(H|V).*":
-  - SI-13M1:PS-CH:Diag*
-  - SI-13M1:PS-CV:Diag*
-  - SI-13M2:PS-CH:Diag*
-  - SI-13M2:PS-CV:Diag*
-  - SI-13C2:PS-CH:Diag*
-  - SI-13C2:PS-CV-1:Diag*
-  - SI-13C2:PS-CV-2:Diag*
+  - SI-13M1:PS-CH:Diag
+  - SI-13M1:PS-CV:Diag
+  - SI-13M2:PS-CH:Diag
+  - SI-13M2:PS-CV:Diag
+  - SI-13C2:PS-CH:Diag
+  - SI-13C2:PS-CV-1:Diag
+  - SI-13C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia14:
   as-ps IA-14RaCtrl:CO-PSCtrl-SI2:
@@ -1146,13 +1148,13 @@ facs-si-ps_corrs-c2m12-ia14:
   - SI-14C2:PS-CV-1
   - SI-14C2:PS-CV-2
   as-ps-diag SI "14(C2|M1|M2)" "C(H|V).*":
-  - SI-14M1:PS-CH:Diag*
-  - SI-14M1:PS-CV:Diag*
-  - SI-14M2:PS-CH:Diag*
-  - SI-14M2:PS-CV:Diag*
-  - SI-14C2:PS-CH:Diag*
-  - SI-14C2:PS-CV-1:Diag*
-  - SI-14C2:PS-CV-2:Diag*
+  - SI-14M1:PS-CH:Diag
+  - SI-14M1:PS-CV:Diag
+  - SI-14M2:PS-CH:Diag
+  - SI-14M2:PS-CV:Diag
+  - SI-14C2:PS-CH:Diag
+  - SI-14C2:PS-CV-1:Diag
+  - SI-14C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia15:
   as-ps IA-15RaCtrl:CO-PSCtrl-SI2:
@@ -1164,13 +1166,13 @@ facs-si-ps_corrs-c2m12-ia15:
   - SI-15C2:PS-CV-1
   - SI-15C2:PS-CV-2
   as-ps-diag SI "15(C2|M1|M2)" "C(H|V).*":
-  - SI-15M1:PS-CH:Diag*
-  - SI-15M1:PS-CV:Diag*
-  - SI-15M2:PS-CH:Diag*
-  - SI-15M2:PS-CV:Diag*
-  - SI-15C2:PS-CH:Diag*
-  - SI-15C2:PS-CV-1:Diag*
-  - SI-15C2:PS-CV-2:Diag*
+  - SI-15M1:PS-CH:Diag
+  - SI-15M1:PS-CV:Diag
+  - SI-15M2:PS-CH:Diag
+  - SI-15M2:PS-CV:Diag
+  - SI-15C2:PS-CH:Diag
+  - SI-15C2:PS-CV-1:Diag
+  - SI-15C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia16:
   as-ps IA-16RaCtrl:CO-PSCtrl-SI2:
@@ -1182,13 +1184,13 @@ facs-si-ps_corrs-c2m12-ia16:
   - SI-16C2:PS-CV-1
   - SI-16C2:PS-CV-2
   as-ps-diag SI "16(C2|M1|M2)" "C(H|V).*":
-  - SI-16M1:PS-CH:Diag*
-  - SI-16M1:PS-CV:Diag*
-  - SI-16M2:PS-CH:Diag*
-  - SI-16M2:PS-CV:Diag*
-  - SI-16C2:PS-CH:Diag*
-  - SI-16C2:PS-CV-1:Diag*
-  - SI-16C2:PS-CV-2:Diag*
+  - SI-16M1:PS-CH:Diag
+  - SI-16M1:PS-CV:Diag
+  - SI-16M2:PS-CH:Diag
+  - SI-16M2:PS-CV:Diag
+  - SI-16C2:PS-CH:Diag
+  - SI-16C2:PS-CV-1:Diag
+  - SI-16C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia17:
   as-ps IA-17RaCtrl:CO-PSCtrl-SI2:
@@ -1200,13 +1202,13 @@ facs-si-ps_corrs-c2m12-ia17:
   - SI-17C2:PS-CV-1
   - SI-17C2:PS-CV-2
   as-ps-diag SI "17(C2|M1|M2)" "C(H|V).*":
-  - SI-17M1:PS-CH:Diag*
-  - SI-17M1:PS-CV:Diag*
-  - SI-17M2:PS-CH:Diag*
-  - SI-17M2:PS-CV:Diag*
-  - SI-17C2:PS-CH:Diag*
-  - SI-17C2:PS-CV-1:Diag*
-  - SI-17C2:PS-CV-2:Diag*
+  - SI-17M1:PS-CH:Diag
+  - SI-17M1:PS-CV:Diag
+  - SI-17M2:PS-CH:Diag
+  - SI-17M2:PS-CV:Diag
+  - SI-17C2:PS-CH:Diag
+  - SI-17C2:PS-CV-1:Diag
+  - SI-17C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia18:
   as-ps IA-18RaCtrl:CO-PSCtrl-SI2:
@@ -1218,13 +1220,13 @@ facs-si-ps_corrs-c2m12-ia18:
   - SI-18C2:PS-CV-1
   - SI-18C2:PS-CV-2
   as-ps-diag SI "18(C2|M1|M2)" "C(H|V).*":
-  - SI-18M1:PS-CH:Diag*
-  - SI-18M1:PS-CV:Diag*
-  - SI-18M2:PS-CH:Diag*
-  - SI-18M2:PS-CV:Diag*
-  - SI-18C2:PS-CH:Diag*
-  - SI-18C2:PS-CV-1:Diag*
-  - SI-18C2:PS-CV-2:Diag*
+  - SI-18M1:PS-CH:Diag
+  - SI-18M1:PS-CV:Diag
+  - SI-18M2:PS-CH:Diag
+  - SI-18M2:PS-CV:Diag
+  - SI-18C2:PS-CH:Diag
+  - SI-18C2:PS-CV-1:Diag
+  - SI-18C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia19:
   as-ps IA-19RaCtrl:CO-PSCtrl-SI2:
@@ -1236,13 +1238,13 @@ facs-si-ps_corrs-c2m12-ia19:
   - SI-19C2:PS-CV-1
   - SI-19C2:PS-CV-2
   as-ps-diag SI "19(C2|M1|M2)" "C(H|V).*":
-  - SI-19M1:PS-CH:Diag*
-  - SI-19M1:PS-CV:Diag*
-  - SI-19M2:PS-CH:Diag*
-  - SI-19M2:PS-CV:Diag*
-  - SI-19C2:PS-CH:Diag*
-  - SI-19C2:PS-CV-1:Diag*
-  - SI-19C2:PS-CV-2:Diag*
+  - SI-19M1:PS-CH:Diag
+  - SI-19M1:PS-CV:Diag
+  - SI-19M2:PS-CH:Diag
+  - SI-19M2:PS-CV:Diag
+  - SI-19C2:PS-CH:Diag
+  - SI-19C2:PS-CV-1:Diag
+  - SI-19C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c2m12-ia20:
   as-ps IA-20RaCtrl:CO-PSCtrl-SI2:
@@ -1254,13 +1256,13 @@ facs-si-ps_corrs-c2m12-ia20:
   - SI-20C2:PS-CV-1
   - SI-20C2:PS-CV-2
   as-ps-diag SI "20(C2|M1|M2)" "C(H|V).*":
-  - SI-20M1:PS-CH:Diag*
-  - SI-20M1:PS-CV:Diag*
-  - SI-20M2:PS-CH:Diag*
-  - SI-20M2:PS-CV:Diag*
-  - SI-20C2:PS-CH:Diag*
-  - SI-20C2:PS-CV-1:Diag*
-  - SI-20C2:PS-CV-2:Diag*
+  - SI-20M1:PS-CH:Diag
+  - SI-20M1:PS-CV:Diag
+  - SI-20M2:PS-CH:Diag
+  - SI-20M2:PS-CV:Diag
+  - SI-20C2:PS-CH:Diag
+  - SI-20C2:PS-CV-1:Diag
+  - SI-20C2:PS-CV-2:Diag
 
 facs-si-ps_corrs-c134-ia01:
   as-ps IA-01RaCtrl:CO-PSCtrl-SI4:
@@ -1272,13 +1274,13 @@ facs-si-ps_corrs-c134-ia01:
   - SI-01C3:PS-CV-1
   - SI-01C3:PS-CV-2
   as-ps-diag SI "01C(1|3|4)" "C(H|V).*":
-  - SI-01C1:PS-CH:Diag*
-  - SI-01C1:PS-CV:Diag*
-  - SI-01C3:PS-CH:Diag*
-  - SI-01C3:PS-CV-1:Diag*
-  - SI-01C3:PS-CV-2:Diag*
-  - SI-01C4:PS-CH:Diag*
-  - SI-01C4:PS-CV:Diag*
+  - SI-01C1:PS-CH:Diag
+  - SI-01C1:PS-CV:Diag
+  - SI-01C3:PS-CH:Diag
+  - SI-01C3:PS-CV-1:Diag
+  - SI-01C3:PS-CV-2:Diag
+  - SI-01C4:PS-CH:Diag
+  - SI-01C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia02:
   as-ps IA-02RaCtrl:CO-PSCtrl-SI4:
@@ -1290,13 +1292,13 @@ facs-si-ps_corrs-c134-ia02:
   - SI-02C3:PS-CV-1
   - SI-02C3:PS-CV-2
   as-ps-diag SI "02C(1|3|4)" "C(H|V).*":
-  - SI-02C1:PS-CH:Diag*
-  - SI-02C1:PS-CV:Diag*
-  - SI-02C3:PS-CH:Diag*
-  - SI-02C3:PS-CV-1:Diag*
-  - SI-02C3:PS-CV-2:Diag*
-  - SI-02C4:PS-CH:Diag*
-  - SI-02C4:PS-CV:Diag*
+  - SI-02C1:PS-CH:Diag
+  - SI-02C1:PS-CV:Diag
+  - SI-02C3:PS-CH:Diag
+  - SI-02C3:PS-CV-1:Diag
+  - SI-02C3:PS-CV-2:Diag
+  - SI-02C4:PS-CH:Diag
+  - SI-02C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia03:
   as-ps IA-03RaCtrl:CO-PSCtrl-SI4:
@@ -1308,13 +1310,13 @@ facs-si-ps_corrs-c134-ia03:
   - SI-03C3:PS-CV-1
   - SI-03C3:PS-CV-2
   as-ps-diag SI "03C(1|3|4)" "C(H|V).*":
-  - SI-03C1:PS-CH:Diag*
-  - SI-03C1:PS-CV:Diag*
-  - SI-03C3:PS-CH:Diag*
-  - SI-03C3:PS-CV-1:Diag*
-  - SI-03C3:PS-CV-2:Diag*
-  - SI-03C4:PS-CH:Diag*
-  - SI-03C4:PS-CV:Diag*
+  - SI-03C1:PS-CH:Diag
+  - SI-03C1:PS-CV:Diag
+  - SI-03C3:PS-CH:Diag
+  - SI-03C3:PS-CV-1:Diag
+  - SI-03C3:PS-CV-2:Diag
+  - SI-03C4:PS-CH:Diag
+  - SI-03C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia04:
   as-ps IA-04RaCtrl:CO-PSCtrl-SI4:
@@ -1326,13 +1328,13 @@ facs-si-ps_corrs-c134-ia04:
   - SI-04C3:PS-CV-1
   - SI-04C3:PS-CV-2
   as-ps-diag SI "04C(1|3|4)" "C(H|V).*":
-  - SI-04C1:PS-CH:Diag*
-  - SI-04C1:PS-CV:Diag*
-  - SI-04C3:PS-CH:Diag*
-  - SI-04C3:PS-CV-1:Diag*
-  - SI-04C3:PS-CV-2:Diag*
-  - SI-04C4:PS-CH:Diag*
-  - SI-04C4:PS-CV:Diag*
+  - SI-04C1:PS-CH:Diag
+  - SI-04C1:PS-CV:Diag
+  - SI-04C3:PS-CH:Diag
+  - SI-04C3:PS-CV-1:Diag
+  - SI-04C3:PS-CV-2:Diag
+  - SI-04C4:PS-CH:Diag
+  - SI-04C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia05:
   as-ps IA-05RaCtrl:CO-PSCtrl-SI4:
@@ -1344,13 +1346,13 @@ facs-si-ps_corrs-c134-ia05:
   - SI-05C3:PS-CV-1
   - SI-05C3:PS-CV-2
   as-ps-diag SI "05C(1|3|4)" "C(H|V).*":
-  - SI-05C1:PS-CH:Diag*
-  - SI-05C1:PS-CV:Diag*
-  - SI-05C3:PS-CH:Diag*
-  - SI-05C3:PS-CV-1:Diag*
-  - SI-05C3:PS-CV-2:Diag*
-  - SI-05C4:PS-CH:Diag*
-  - SI-05C4:PS-CV:Diag*
+  - SI-05C1:PS-CH:Diag
+  - SI-05C1:PS-CV:Diag
+  - SI-05C3:PS-CH:Diag
+  - SI-05C3:PS-CV-1:Diag
+  - SI-05C3:PS-CV-2:Diag
+  - SI-05C4:PS-CH:Diag
+  - SI-05C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia06:
   as-ps IA-06RaCtrl:CO-PSCtrl-SI4:
@@ -1362,13 +1364,13 @@ facs-si-ps_corrs-c134-ia06:
   - SI-06C3:PS-CV-1
   - SI-06C3:PS-CV-2
   as-ps-diag SI "06C(1|3|4)" "C(H|V).*":
-  - SI-06C1:PS-CH:Diag*
-  - SI-06C1:PS-CV:Diag*
-  - SI-06C3:PS-CH:Diag*
-  - SI-06C3:PS-CV-1:Diag*
-  - SI-06C3:PS-CV-2:Diag*
-  - SI-06C4:PS-CH:Diag*
-  - SI-06C4:PS-CV:Diag*
+  - SI-06C1:PS-CH:Diag
+  - SI-06C1:PS-CV:Diag
+  - SI-06C3:PS-CH:Diag
+  - SI-06C3:PS-CV-1:Diag
+  - SI-06C3:PS-CV-2:Diag
+  - SI-06C4:PS-CH:Diag
+  - SI-06C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia07:
   as-ps IA-07RaCtrl:CO-PSCtrl-SI4:
@@ -1380,13 +1382,13 @@ facs-si-ps_corrs-c134-ia07:
   - SI-07C3:PS-CV-1
   - SI-07C3:PS-CV-2
   as-ps-diag SI "07C(1|3|4)" "C(H|V).*":
-  - SI-07C1:PS-CH:Diag*
-  - SI-07C1:PS-CV:Diag*
-  - SI-07C3:PS-CH:Diag*
-  - SI-07C3:PS-CV-1:Diag*
-  - SI-07C3:PS-CV-2:Diag*
-  - SI-07C4:PS-CH:Diag*
-  - SI-07C4:PS-CV:Diag*
+  - SI-07C1:PS-CH:Diag
+  - SI-07C1:PS-CV:Diag
+  - SI-07C3:PS-CH:Diag
+  - SI-07C3:PS-CV-1:Diag
+  - SI-07C3:PS-CV-2:Diag
+  - SI-07C4:PS-CH:Diag
+  - SI-07C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia08:
   as-ps IA-08RaCtrl:CO-PSCtrl-SI4:
@@ -1398,13 +1400,13 @@ facs-si-ps_corrs-c134-ia08:
   - SI-08C3:PS-CV-1
   - SI-08C3:PS-CV-2
   as-ps-diag SI "08C(1|3|4)" "C(H|V).*":
-  - SI-08C1:PS-CH:Diag*
-  - SI-08C1:PS-CV:Diag*
-  - SI-08C3:PS-CH:Diag*
-  - SI-08C3:PS-CV-1:Diag*
-  - SI-08C3:PS-CV-2:Diag*
-  - SI-08C4:PS-CH:Diag*
-  - SI-08C4:PS-CV:Diag*
+  - SI-08C1:PS-CH:Diag
+  - SI-08C1:PS-CV:Diag
+  - SI-08C3:PS-CH:Diag
+  - SI-08C3:PS-CV-1:Diag
+  - SI-08C3:PS-CV-2:Diag
+  - SI-08C4:PS-CH:Diag
+  - SI-08C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia09:
   as-ps IA-09RaCtrl:CO-PSCtrl-SI4:
@@ -1416,13 +1418,13 @@ facs-si-ps_corrs-c134-ia09:
   - SI-09C3:PS-CV-1
   - SI-09C3:PS-CV-2
   as-ps-diag SI "09C(1|3|4)" "C(H|V).*":
-  - SI-09C1:PS-CH:Diag*
-  - SI-09C1:PS-CV:Diag*
-  - SI-09C3:PS-CH:Diag*
-  - SI-09C3:PS-CV-1:Diag*
-  - SI-09C3:PS-CV-2:Diag*
-  - SI-09C4:PS-CH:Diag*
-  - SI-09C4:PS-CV:Diag*
+  - SI-09C1:PS-CH:Diag
+  - SI-09C1:PS-CV:Diag
+  - SI-09C3:PS-CH:Diag
+  - SI-09C3:PS-CV-1:Diag
+  - SI-09C3:PS-CV-2:Diag
+  - SI-09C4:PS-CH:Diag
+  - SI-09C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia10:
   as-ps IA-10RaCtrl:CO-PSCtrl-SI4:
@@ -1434,13 +1436,13 @@ facs-si-ps_corrs-c134-ia10:
   - SI-10C3:PS-CV-1
   - SI-10C3:PS-CV-2
   as-ps-diag SI "10C(1|3|4)" "C(H|V).*":
-  - SI-10C1:PS-CH:Diag*
-  - SI-10C1:PS-CV:Diag*
-  - SI-10C3:PS-CH:Diag*
-  - SI-10C3:PS-CV-1:Diag*
-  - SI-10C3:PS-CV-2:Diag*
-  - SI-10C4:PS-CH:Diag*
-  - SI-10C4:PS-CV:Diag*
+  - SI-10C1:PS-CH:Diag
+  - SI-10C1:PS-CV:Diag
+  - SI-10C3:PS-CH:Diag
+  - SI-10C3:PS-CV-1:Diag
+  - SI-10C3:PS-CV-2:Diag
+  - SI-10C4:PS-CH:Diag
+  - SI-10C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia11:
   as-ps IA-11RaCtrl:CO-PSCtrl-SI4:
@@ -1452,13 +1454,13 @@ facs-si-ps_corrs-c134-ia11:
   - SI-11C3:PS-CV-1
   - SI-11C3:PS-CV-2
   as-ps-diag SI "11C(1|3|4)" "C(H|V).*":
-  - SI-11C1:PS-CH:Diag*
-  - SI-11C1:PS-CV:Diag*
-  - SI-11C3:PS-CH:Diag*
-  - SI-11C3:PS-CV-1:Diag*
-  - SI-11C3:PS-CV-2:Diag*
-  - SI-11C4:PS-CH:Diag*
-  - SI-11C4:PS-CV:Diag*
+  - SI-11C1:PS-CH:Diag
+  - SI-11C1:PS-CV:Diag
+  - SI-11C3:PS-CH:Diag
+  - SI-11C3:PS-CV-1:Diag
+  - SI-11C3:PS-CV-2:Diag
+  - SI-11C4:PS-CH:Diag
+  - SI-11C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia12:
   as-ps IA-12RaCtrl:CO-PSCtrl-SI4:
@@ -1470,13 +1472,13 @@ facs-si-ps_corrs-c134-ia12:
   - SI-12C3:PS-CV-1
   - SI-12C3:PS-CV-2
   as-ps-diag SI "12C(1|3|4)" "C(H|V).*":
-  - SI-12C1:PS-CH:Diag*
-  - SI-12C1:PS-CV:Diag*
-  - SI-12C3:PS-CH:Diag*
-  - SI-12C3:PS-CV-1:Diag*
-  - SI-12C3:PS-CV-2:Diag*
-  - SI-12C4:PS-CH:Diag*
-  - SI-12C4:PS-CV:Diag*
+  - SI-12C1:PS-CH:Diag
+  - SI-12C1:PS-CV:Diag
+  - SI-12C3:PS-CH:Diag
+  - SI-12C3:PS-CV-1:Diag
+  - SI-12C3:PS-CV-2:Diag
+  - SI-12C4:PS-CH:Diag
+  - SI-12C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia13:
   as-ps IA-13RaCtrl:CO-PSCtrl-SI4:
@@ -1488,13 +1490,13 @@ facs-si-ps_corrs-c134-ia13:
   - SI-13C3:PS-CV-1
   - SI-13C3:PS-CV-2
   as-ps-diag SI "13C(1|3|4)" "C(H|V).*":
-  - SI-13C1:PS-CH:Diag*
-  - SI-13C1:PS-CV:Diag*
-  - SI-13C3:PS-CH:Diag*
-  - SI-13C3:PS-CV-1:Diag*
-  - SI-13C3:PS-CV-2:Diag*
-  - SI-13C4:PS-CH:Diag*
-  - SI-13C4:PS-CV:Diag*
+  - SI-13C1:PS-CH:Diag
+  - SI-13C1:PS-CV:Diag
+  - SI-13C3:PS-CH:Diag
+  - SI-13C3:PS-CV-1:Diag
+  - SI-13C3:PS-CV-2:Diag
+  - SI-13C4:PS-CH:Diag
+  - SI-13C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia14:
   as-ps IA-14RaCtrl:CO-PSCtrl-SI4:
@@ -1506,13 +1508,13 @@ facs-si-ps_corrs-c134-ia14:
   - SI-14C3:PS-CV-1
   - SI-14C3:PS-CV-2
   as-ps-diag SI "14C(1|3|4)" "C(H|V).*":
-  - SI-14C1:PS-CH:Diag*
-  - SI-14C1:PS-CV:Diag*
-  - SI-14C3:PS-CH:Diag*
-  - SI-14C3:PS-CV-1:Diag*
-  - SI-14C3:PS-CV-2:Diag*
-  - SI-14C4:PS-CH:Diag*
-  - SI-14C4:PS-CV:Diag*
+  - SI-14C1:PS-CH:Diag
+  - SI-14C1:PS-CV:Diag
+  - SI-14C3:PS-CH:Diag
+  - SI-14C3:PS-CV-1:Diag
+  - SI-14C3:PS-CV-2:Diag
+  - SI-14C4:PS-CH:Diag
+  - SI-14C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia15:
   as-ps IA-15RaCtrl:CO-PSCtrl-SI4:
@@ -1524,13 +1526,13 @@ facs-si-ps_corrs-c134-ia15:
   - SI-15C3:PS-CV-1
   - SI-15C3:PS-CV-2
   as-ps-diag SI "15C(1|3|4)" "C(H|V).*":
-  - SI-15C1:PS-CH:Diag*
-  - SI-15C1:PS-CV:Diag*
-  - SI-15C3:PS-CH:Diag*
-  - SI-15C3:PS-CV-1:Diag*
-  - SI-15C3:PS-CV-2:Diag*
-  - SI-15C4:PS-CH:Diag*
-  - SI-15C4:PS-CV:Diag*
+  - SI-15C1:PS-CH:Diag
+  - SI-15C1:PS-CV:Diag
+  - SI-15C3:PS-CH:Diag
+  - SI-15C3:PS-CV-1:Diag
+  - SI-15C3:PS-CV-2:Diag
+  - SI-15C4:PS-CH:Diag
+  - SI-15C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia16:
   as-ps IA-16RaCtrl:CO-PSCtrl-SI4:
@@ -1542,13 +1544,13 @@ facs-si-ps_corrs-c134-ia16:
   - SI-16C3:PS-CV-1
   - SI-16C3:PS-CV-2
   as-ps-diag SI "16C(1|3|4)" "C(H|V).*":
-  - SI-16C1:PS-CH:Diag*
-  - SI-16C1:PS-CV:Diag*
-  - SI-16C3:PS-CH:Diag*
-  - SI-16C3:PS-CV-1:Diag*
-  - SI-16C3:PS-CV-2:Diag*
-  - SI-16C4:PS-CH:Diag*
-  - SI-16C4:PS-CV:Diag*
+  - SI-16C1:PS-CH:Diag
+  - SI-16C1:PS-CV:Diag
+  - SI-16C3:PS-CH:Diag
+  - SI-16C3:PS-CV-1:Diag
+  - SI-16C3:PS-CV-2:Diag
+  - SI-16C4:PS-CH:Diag
+  - SI-16C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia17:
   as-ps IA-17RaCtrl:CO-PSCtrl-SI4:
@@ -1560,13 +1562,13 @@ facs-si-ps_corrs-c134-ia17:
   - SI-17C3:PS-CV-1
   - SI-17C3:PS-CV-2
   as-ps-diag SI "17C(1|3|4)" "C(H|V).*":
-  - SI-17C1:PS-CH:Diag*
-  - SI-17C1:PS-CV:Diag*
-  - SI-17C3:PS-CH:Diag*
-  - SI-17C3:PS-CV-1:Diag*
-  - SI-17C3:PS-CV-2:Diag*
-  - SI-17C4:PS-CH:Diag*
-  - SI-17C4:PS-CV:Diag*
+  - SI-17C1:PS-CH:Diag
+  - SI-17C1:PS-CV:Diag
+  - SI-17C3:PS-CH:Diag
+  - SI-17C3:PS-CV-1:Diag
+  - SI-17C3:PS-CV-2:Diag
+  - SI-17C4:PS-CH:Diag
+  - SI-17C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia18:
   as-ps IA-18RaCtrl:CO-PSCtrl-SI4:
@@ -1578,13 +1580,13 @@ facs-si-ps_corrs-c134-ia18:
   - SI-18C3:PS-CV-1
   - SI-18C3:PS-CV-2
   as-ps-diag SI "18C(1|3|4)" "C(H|V).*":
-  - SI-18C1:PS-CH:Diag*
-  - SI-18C1:PS-CV:Diag*
-  - SI-18C3:PS-CH:Diag*
-  - SI-18C3:PS-CV-1:Diag*
-  - SI-18C3:PS-CV-2:Diag*
-  - SI-18C4:PS-CH:Diag*
-  - SI-18C4:PS-CV:Diag*
+  - SI-18C1:PS-CH:Diag
+  - SI-18C1:PS-CV:Diag
+  - SI-18C3:PS-CH:Diag
+  - SI-18C3:PS-CV-1:Diag
+  - SI-18C3:PS-CV-2:Diag
+  - SI-18C4:PS-CH:Diag
+  - SI-18C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia19:
   as-ps IA-19RaCtrl:CO-PSCtrl-SI4:
@@ -1596,13 +1598,13 @@ facs-si-ps_corrs-c134-ia19:
   - SI-19C3:PS-CV-1
   - SI-19C3:PS-CV-2
   as-ps-diag SI "19C(1|3|4)" "C(H|V).*":
-  - SI-19C1:PS-CH:Diag*
-  - SI-19C1:PS-CV:Diag*
-  - SI-19C3:PS-CH:Diag*
-  - SI-19C3:PS-CV-1:Diag*
-  - SI-19C3:PS-CV-2:Diag*
-  - SI-19C4:PS-CH:Diag*
-  - SI-19C4:PS-CV:Diag*
+  - SI-19C1:PS-CH:Diag
+  - SI-19C1:PS-CV:Diag
+  - SI-19C3:PS-CH:Diag
+  - SI-19C3:PS-CV-1:Diag
+  - SI-19C3:PS-CV-2:Diag
+  - SI-19C4:PS-CH:Diag
+  - SI-19C4:PS-CV:Diag
 
 facs-si-ps_corrs-c134-ia20:
   as-ps IA-20RaCtrl:CO-PSCtrl-SI4:
@@ -1614,13 +1616,13 @@ facs-si-ps_corrs-c134-ia20:
   - SI-20C3:PS-CV-1
   - SI-20C3:PS-CV-2
   as-ps-diag SI "20C(1|3|4)" "C(H|V).*":
-  - SI-20C1:PS-CH:Diag*
-  - SI-20C1:PS-CV:Diag*
-  - SI-20C3:PS-CH:Diag*
-  - SI-20C3:PS-CV-1:Diag*
-  - SI-20C3:PS-CV-2:Diag*
-  - SI-20C4:PS-CH:Diag*
-  - SI-20C4:PS-CV:Diag*
+  - SI-20C1:PS-CH:Diag
+  - SI-20C1:PS-CV:Diag
+  - SI-20C3:PS-CH:Diag
+  - SI-20C3:PS-CV-1:Diag
+  - SI-20C3:PS-CV-2:Diag
+  - SI-20C4:PS-CH:Diag
+  - SI-20C4:PS-CV:Diag
 
 facs-si-ps_trims-qs-m12-ia01:
   as-ps IA-01RaCtrl:CO-PSCtrl-SI1:
@@ -1632,14 +1634,14 @@ facs-si-ps_trims-qs-m12-ia01:
   - SI-01M1:PS-QS
   - SI-01M2:PS-QS
   as-ps-diag SI "(01M1|01M2)" "QS":
-  - SI-01M2:PS-QS:Diag*
-  - SI-01M1:PS-QS:Diag*
+  - SI-01M2:PS-QS:Diag
+  - SI-01M1:PS-QS:Diag
   as-ps-diag SI "(01M2|02M1)" "Q(F|D)":
-  - SI-01M2:PS-QDA:Diag*
-  - SI-01M2:PS-QFA:Diag*
-  - SI-02M1:PS-QDB1:Diag*
-  - SI-02M1:PS-QDB2:Diag*
-  - SI-02M1:PS-QFB:Diag*
+  - SI-01M2:PS-QDA:Diag
+  - SI-01M2:PS-QFA:Diag
+  - SI-02M1:PS-QDB1:Diag
+  - SI-02M1:PS-QDB2:Diag
+  - SI-02M1:PS-QFB:Diag
 
 facs-si-ps_trims-qs-m12-ia02:
   as-ps IA-02RaCtrl:CO-PSCtrl-SI1:
@@ -1652,15 +1654,15 @@ facs-si-ps_trims-qs-m12-ia02:
   - SI-02M1:PS-QS
   - SI-02M2:PS-QS
   as-ps-diag SI "(02M1|02M2)" "QS":
-  - SI-02M1:PS-QS:Diag*
-  - SI-02M2:PS-QS:Diag*
+  - SI-02M1:PS-QS:Diag
+  - SI-02M2:PS-QS:Diag
   as-ps-diag SI "(02M2|03M1)" "Q(F|D)":
-  - SI-02M2:PS-QDB1:Diag*
-  - SI-02M2:PS-QDB2:Diag*
-  - SI-02M2:PS-QFB:Diag*
-  - SI-03M1:PS-QDP1:Diag*
-  - SI-03M1:PS-QDP2:Diag*
-  - SI-03M1:PS-QFP:Diag*
+  - SI-02M2:PS-QDB1:Diag
+  - SI-02M2:PS-QDB2:Diag
+  - SI-02M2:PS-QFB:Diag
+  - SI-03M1:PS-QDP1:Diag
+  - SI-03M1:PS-QDP2:Diag
+  - SI-03M1:PS-QFP:Diag
 
 facs-si-ps_trims-qs-m12-ia03:
   as-ps IA-03RaCtrl:CO-PSCtrl-SI1:
@@ -1673,15 +1675,15 @@ facs-si-ps_trims-qs-m12-ia03:
   - SI-03M1:PS-QS
   - SI-03M2:PS-QS
   as-ps-diag SI "(03M1|03M2)" "QS":
-  - SI-03M1:PS-QS:Diag*
-  - SI-03M2:PS-QS:Diag*
+  - SI-03M1:PS-QS:Diag
+  - SI-03M2:PS-QS:Diag
   as-ps-diag SI "(03M2|04M1)" "Q(F|D)":
-  - SI-03M2:PS-QDP1:Diag*
-  - SI-03M2:PS-QDP2:Diag*
-  - SI-03M2:PS-QFP:Diag*
-  - SI-04M1:PS-QDB1:Diag*
-  - SI-04M1:PS-QDB2:Diag*
-  - SI-04M1:PS-QFB:Diag*
+  - SI-03M2:PS-QDP1:Diag
+  - SI-03M2:PS-QDP2:Diag
+  - SI-03M2:PS-QFP:Diag
+  - SI-04M1:PS-QDB1:Diag
+  - SI-04M1:PS-QDB2:Diag
+  - SI-04M1:PS-QFB:Diag
 
 facs-si-ps_trims-qs-m12-ia04:
   as-ps IA-04RaCtrl:CO-PSCtrl-SI1:
@@ -1693,14 +1695,14 @@ facs-si-ps_trims-qs-m12-ia04:
   - SI-04M1:PS-QS
   - SI-04M2:PS-QS
   as-ps-diag SI "(04M1|04M2)" "QS":
-  - SI-04M1:PS-QS:Diag*
-  - SI-04M2:PS-QS:Diag*
+  - SI-04M1:PS-QS:Diag
+  - SI-04M2:PS-QS:Diag
   as-ps-diag SI "(04M2|05M1)" "Q(F|D)":
-  - SI-04M2:PS-QDB1:Diag*
-  - SI-04M2:PS-QDB2:Diag*
-  - SI-04M2:PS-QFB:Diag*
-  - SI-05M1:PS-QDA:Diag*
-  - SI-05M1:PS-QFA:Diag*
+  - SI-04M2:PS-QDB1:Diag
+  - SI-04M2:PS-QDB2:Diag
+  - SI-04M2:PS-QFB:Diag
+  - SI-05M1:PS-QDA:Diag
+  - SI-05M1:PS-QFA:Diag
 
 facs-si-ps_trims-qs-m12-ia05:
   as-ps IA-05RaCtrl:CO-PSCtrl-SI1:
@@ -1712,14 +1714,14 @@ facs-si-ps_trims-qs-m12-ia05:
   - SI-05M1:PS-QS
   - SI-05M2:PS-QS
   as-ps-diag SI "(05M1|05M2)" "QS":
-  - SI-05M1:PS-QS:Diag*
-  - SI-05M2:PS-QS:Diag*
+  - SI-05M1:PS-QS:Diag
+  - SI-05M2:PS-QS:Diag
   as-ps-diag SI "(05M2|06M1)" "Q(F|D)":
-  - SI-05M2:PS-QDA:Diag*
-  - SI-05M2:PS-QFA:Diag*
-  - SI-06M1:PS-QDB1:Diag*
-  - SI-06M1:PS-QDB2:Diag*
-  - SI-06M1:PS-QFB:Diag*
+  - SI-05M2:PS-QDA:Diag
+  - SI-05M2:PS-QFA:Diag
+  - SI-06M1:PS-QDB1:Diag
+  - SI-06M1:PS-QDB2:Diag
+  - SI-06M1:PS-QFB:Diag
 
 facs-si-ps_trims-qs-m12-ia06:
   as-ps IA-06RaCtrl:CO-PSCtrl-SI1:
@@ -1732,15 +1734,15 @@ facs-si-ps_trims-qs-m12-ia06:
   - SI-06M1:PS-QS
   - SI-06M2:PS-QS
   as-ps-diag SI "(06M1|06M2)" "QS":
-  - SI-06M1:PS-QS:Diag*
-  - SI-06M2:PS-QS:Diag*
+  - SI-06M1:PS-QS:Diag
+  - SI-06M2:PS-QS:Diag
   as-ps-diag SI "(06M2|07M1)" "Q(F|D)":
-  - SI-06M2:PS-QDB1:Diag*
-  - SI-06M2:PS-QDB2:Diag*
-  - SI-06M2:PS-QFB:Diag*
-  - SI-07M1:PS-QDP1:Diag*
-  - SI-07M1:PS-QDP2:Diag*
-  - SI-07M1:PS-QFP:Diag*
+  - SI-06M2:PS-QDB1:Diag
+  - SI-06M2:PS-QDB2:Diag
+  - SI-06M2:PS-QFB:Diag
+  - SI-07M1:PS-QDP1:Diag
+  - SI-07M1:PS-QDP2:Diag
+  - SI-07M1:PS-QFP:Diag
 
 facs-si-ps_trims-qs-m12-ia07:
   as-ps IA-07RaCtrl:CO-PSCtrl-SI1:
@@ -1753,15 +1755,15 @@ facs-si-ps_trims-qs-m12-ia07:
   - SI-07M1:PS-QS
   - SI-07M2:PS-QS
   as-ps-diag SI "(07M1|07M2)" "QS":
-  - SI-07M1:PS-QS:Diag*
-  - SI-07M2:PS-QS:Diag*
+  - SI-07M1:PS-QS:Diag
+  - SI-07M2:PS-QS:Diag
   as-ps-diag SI "(07M2|08M1)" "Q(F|D)":
-  - SI-07M2:PS-QDP1:Diag*
-  - SI-07M2:PS-QDP2:Diag*
-  - SI-07M2:PS-QFP:Diag*
-  - SI-08M1:PS-QDB1:Diag*
-  - SI-08M1:PS-QDB2:Diag*
-  - SI-08M1:PS-QFB:Diag*
+  - SI-07M2:PS-QDP1:Diag
+  - SI-07M2:PS-QDP2:Diag
+  - SI-07M2:PS-QFP:Diag
+  - SI-08M1:PS-QDB1:Diag
+  - SI-08M1:PS-QDB2:Diag
+  - SI-08M1:PS-QFB:Diag
 
 facs-si-ps_trims-qs-m12-ia08:
   as-ps IA-08RaCtrl:CO-PSCtrl-SI1:
@@ -1773,14 +1775,14 @@ facs-si-ps_trims-qs-m12-ia08:
   - SI-08M1:PS-QS
   - SI-08M2:PS-QS
   as-ps-diag SI "(08M1|08M2)" "QS":
-  - SI-08M1:PS-QS:Diag*
-  - SI-08M2:PS-QS:Diag*
+  - SI-08M1:PS-QS:Diag
+  - SI-08M2:PS-QS:Diag
   as-ps-diag SI "(08M2|09M1)" "Q(F|D)":
-  - SI-08M2:PS-QDB1:Diag*
-  - SI-08M2:PS-QDB2:Diag*
-  - SI-08M2:PS-QFB:Diag*
-  - SI-09M1:PS-QDA:Diag*
-  - SI-09M1:PS-QFA:Diag*
+  - SI-08M2:PS-QDB1:Diag
+  - SI-08M2:PS-QDB2:Diag
+  - SI-08M2:PS-QFB:Diag
+  - SI-09M1:PS-QDA:Diag
+  - SI-09M1:PS-QFA:Diag
 
 facs-si-ps_trims-qs-m12-ia09:
   as-ps IA-09RaCtrl:CO-PSCtrl-SI1:
@@ -1792,14 +1794,14 @@ facs-si-ps_trims-qs-m12-ia09:
   - SI-09M1:PS-QS
   - SI-09M2:PS-QS
   as-ps-diag SI "(09M1|09M2)" "QS":
-  - SI-09M1:PS-QS:Diag*
-  - SI-09M2:PS-QS:Diag*
+  - SI-09M1:PS-QS:Diag
+  - SI-09M2:PS-QS:Diag
   as-ps-diag SI "(09M2|10M1)" "Q(F|D)":
-  - SI-09M2:PS-QDA:Diag*
-  - SI-09M2:PS-QFA:Diag*
-  - SI-10M1:PS-QDB1:Diag*
-  - SI-10M1:PS-QDB2:Diag*
-  - SI-10M1:PS-QFB:Diag*
+  - SI-09M2:PS-QDA:Diag
+  - SI-09M2:PS-QFA:Diag
+  - SI-10M1:PS-QDB1:Diag
+  - SI-10M1:PS-QDB2:Diag
+  - SI-10M1:PS-QFB:Diag
 
 facs-si-ps_trims-qs-m12-ia10:
   as-ps IA-10RaCtrl:CO-PSCtrl-SI1:
@@ -1812,15 +1814,15 @@ facs-si-ps_trims-qs-m12-ia10:
   - SI-10M1:PS-QS
   - SI-10M2:PS-QS
   as-ps-diag SI "(10M1|10M2)" "QS":
-  - SI-10M1:PS-QS:Diag*
-  - SI-10M2:PS-QS:Diag*
+  - SI-10M1:PS-QS:Diag
+  - SI-10M2:PS-QS:Diag
   as-ps-diag SI "(10M2|11M1)" "Q(F|D)":
-  - SI-10M2:PS-QDB1:Diag*
-  - SI-10M2:PS-QDB2:Diag*
-  - SI-10M2:PS-QFB:Diag*
-  - SI-11M1:PS-QDP1:Diag*
-  - SI-11M1:PS-QDP2:Diag*
-  - SI-11M1:PS-QFP:Diag*
+  - SI-10M2:PS-QDB1:Diag
+  - SI-10M2:PS-QDB2:Diag
+  - SI-10M2:PS-QFB:Diag
+  - SI-11M1:PS-QDP1:Diag
+  - SI-11M1:PS-QDP2:Diag
+  - SI-11M1:PS-QFP:Diag
 
 facs-si-ps_trims-qs-m12-ia11:
   as-ps IA-11RaCtrl:CO-PSCtrl-SI1:
@@ -1833,15 +1835,15 @@ facs-si-ps_trims-qs-m12-ia11:
   - SI-11M1:PS-QS
   - SI-11M2:PS-QS
   as-ps-diag SI "(11M1|11M2)" "QS":
-  - SI-11M1:PS-QS:Diag*
-  - SI-11M2:PS-QS:Diag*
+  - SI-11M1:PS-QS:Diag
+  - SI-11M2:PS-QS:Diag
   as-ps-diag SI "(11M2|12M1)" "Q(F|D)":
-  - SI-11M2:PS-QDP1:Diag*
-  - SI-11M2:PS-QDP2:Diag*
-  - SI-11M2:PS-QFP:Diag*
-  - SI-12M1:PS-QDB1:Diag*
-  - SI-12M1:PS-QDB2:Diag*
-  - SI-12M1:PS-QFB:Diag*
+  - SI-11M2:PS-QDP1:Diag
+  - SI-11M2:PS-QDP2:Diag
+  - SI-11M2:PS-QFP:Diag
+  - SI-12M1:PS-QDB1:Diag
+  - SI-12M1:PS-QDB2:Diag
+  - SI-12M1:PS-QFB:Diag
 
 facs-si-ps_trims-qs-m12-ia12:
   as-ps IA-12RaCtrl:CO-PSCtrl-SI1:
@@ -1853,14 +1855,14 @@ facs-si-ps_trims-qs-m12-ia12:
   - SI-12M1:PS-QS
   - SI-12M2:PS-QS
   as-ps-diag SI "(12M1|12M2)" "QS":
-  - SI-12M1:PS-QS:Diag*
-  - SI-12M2:PS-QS:Diag*
+  - SI-12M1:PS-QS:Diag
+  - SI-12M2:PS-QS:Diag
   as-ps-diag SI "(12M2|13M1)" "Q(F|D)":
-  - SI-12M2:PS-QDB1:Diag*
-  - SI-12M2:PS-QDB2:Diag*
-  - SI-12M2:PS-QFB:Diag*
-  - SI-13M1:PS-QDA:Diag*
-  - SI-13M1:PS-QFA:Diag*
+  - SI-12M2:PS-QDB1:Diag
+  - SI-12M2:PS-QDB2:Diag
+  - SI-12M2:PS-QFB:Diag
+  - SI-13M1:PS-QDA:Diag
+  - SI-13M1:PS-QFA:Diag
 
 facs-si-ps_trims-qs-m12-ia13:
   as-ps IA-13RaCtrl:CO-PSCtrl-SI1:
@@ -1872,14 +1874,14 @@ facs-si-ps_trims-qs-m12-ia13:
   - SI-13M1:PS-QS
   - SI-13M2:PS-QS
   as-ps-diag SI "(13M1|13M2)" "QS":
-  - SI-13M1:PS-QS:Diag*
-  - SI-13M2:PS-QS:Diag*
+  - SI-13M1:PS-QS:Diag
+  - SI-13M2:PS-QS:Diag
   as-ps-diag SI "(13M2|14M1)" "Q(F|D)":
-  - SI-13M2:PS-QDA:Diag*
-  - SI-13M2:PS-QFA:Diag*
-  - SI-14M1:PS-QDB1:Diag*
-  - SI-14M1:PS-QDB2:Diag*
-  - SI-14M1:PS-QFB:Diag*
+  - SI-13M2:PS-QDA:Diag
+  - SI-13M2:PS-QFA:Diag
+  - SI-14M1:PS-QDB1:Diag
+  - SI-14M1:PS-QDB2:Diag
+  - SI-14M1:PS-QFB:Diag
 
 facs-si-ps_trims-qs-m12-ia14:
   as-ps IA-14RaCtrl:CO-PSCtrl-SI1:
@@ -1894,18 +1896,18 @@ facs-si-ps_trims-qs-m12-ia14:
   - SI-14SB:PS-CH-1
   - SI-14SB:PS-CH-2
   as-ps-diag SI "(14M1|14M2)" "QS":
-  - SI-14M1:PS-QS:Diag*
-  - SI-14M2:PS-QS:Diag*
+  - SI-14M1:PS-QS:Diag
+  - SI-14M2:PS-QS:Diag
   as-ps-diag SI "(14M2|15M1)" "Q(F|D)":
-  - SI-14M2:PS-QDB1:Diag*
-  - SI-14M2:PS-QDB2:Diag*
-  - SI-14M2:PS-QFB:Diag*
-  - SI-15M1:PS-QDP1:Diag*
-  - SI-15M1:PS-QDP2:Diag*
-  - SI-15M1:PS-QFP:Diag*
+  - SI-14M2:PS-QDB1:Diag
+  - SI-14M2:PS-QDB2:Diag
+  - SI-14M2:PS-QFB:Diag
+  - SI-15M1:PS-QDP1:Diag
+  - SI-15M1:PS-QDP2:Diag
+  - SI-15M1:PS-QFP:Diag
   as-ps-diag SI "14SB" "C(H|V)":
-  - SI-14SB:PS-CH-1:Diag*
-  - SI-14SB:PS-CH-2:Diag*
+  - SI-14SB:PS-CH-1:Diag
+  - SI-14SB:PS-CH-2:Diag
 
 facs-si-ps_trims-qs-m12-ia15:
   as-ps IA-15RaCtrl:CO-PSCtrl-SI1:
@@ -1918,15 +1920,15 @@ facs-si-ps_trims-qs-m12-ia15:
   - SI-15M1:PS-QS
   - SI-15M2:PS-QS
   as-ps-diag SI "(15M1|15M2)" "QS":
-  - SI-15M1:PS-QS:Diag*
-  - SI-15M2:PS-QS:Diag*
+  - SI-15M1:PS-QS:Diag
+  - SI-15M2:PS-QS:Diag
   as-ps-diag SI "(15M2|16M1)" "Q(F|D)":
-  - SI-15M2:PS-QDP1:Diag*
-  - SI-15M2:PS-QDP2:Diag*
-  - SI-15M2:PS-QFP:Diag*
-  - SI-16M1:PS-QDB1:Diag*
-  - SI-16M1:PS-QDB2:Diag*
-  - SI-16M1:PS-QFB:Diag*
+  - SI-15M2:PS-QDP1:Diag
+  - SI-15M2:PS-QDP2:Diag
+  - SI-15M2:PS-QFP:Diag
+  - SI-16M1:PS-QDB1:Diag
+  - SI-16M1:PS-QDB2:Diag
+  - SI-16M1:PS-QFB:Diag
 
 facs-si-ps_trims-qs-m12-ia16:
   as-ps IA-16RaCtrl:CO-PSCtrl-SI1:
@@ -1938,14 +1940,14 @@ facs-si-ps_trims-qs-m12-ia16:
   - SI-16M1:PS-QS
   - SI-16M2:PS-QS
   as-ps-diag SI "(16M1|16M2)" "QS":
-  - SI-16M1:PS-QS:Diag*
-  - SI-16M2:PS-QS:Diag*
+  - SI-16M1:PS-QS:Diag
+  - SI-16M2:PS-QS:Diag
   as-ps-diag SI "(16M2|17M1)" "Q(F|D)":
-  - SI-16M2:PS-QDB1:Diag*
-  - SI-16M2:PS-QDB2:Diag*
-  - SI-16M2:PS-QFB:Diag*
-  - SI-17M1:PS-QDA:Diag*
-  - SI-17M1:PS-QFA:Diag*
+  - SI-16M2:PS-QDB1:Diag
+  - SI-16M2:PS-QDB2:Diag
+  - SI-16M2:PS-QFB:Diag
+  - SI-17M1:PS-QDA:Diag
+  - SI-17M1:PS-QFA:Diag
 
 facs-si-ps_trims-qs-m12-ia17:
   as-ps IA-17RaCtrl:CO-PSCtrl-SI1:
@@ -1957,14 +1959,14 @@ facs-si-ps_trims-qs-m12-ia17:
   - SI-17M1:PS-QS
   - SI-17M2:PS-QS
   as-ps-diag SI "(17M1|17M2)" "QS":
-  - SI-17M1:PS-QS:Diag*
-  - SI-17M2:PS-QS:Diag*
+  - SI-17M1:PS-QS:Diag
+  - SI-17M2:PS-QS:Diag
   as-ps-diag SI "(17M2|18M1)" "Q(F|D)":
-  - SI-17M2:PS-QDA:Diag*
-  - SI-17M2:PS-QFA:Diag*
-  - SI-18M1:PS-QDB1:Diag*
-  - SI-18M1:PS-QDB2:Diag*
-  - SI-18M1:PS-QFB:Diag*
+  - SI-17M2:PS-QDA:Diag
+  - SI-17M2:PS-QFA:Diag
+  - SI-18M1:PS-QDB1:Diag
+  - SI-18M1:PS-QDB2:Diag
+  - SI-18M1:PS-QFB:Diag
 
 facs-si-ps_trims-qs-m12-ia18:
   as-ps IA-18RaCtrl:CO-PSCtrl-SI1:
@@ -1977,15 +1979,15 @@ facs-si-ps_trims-qs-m12-ia18:
   - SI-18M1:PS-QS
   - SI-18M2:PS-QS
   as-ps-diag SI "(18M1|18M2)" "QS":
-  - SI-18M1:PS-QS:Diag*
-  - SI-18M2:PS-QS:Diag*
+  - SI-18M1:PS-QS:Diag
+  - SI-18M2:PS-QS:Diag
   as-ps-diag SI "(18M2|19M1)" "Q(F|D)":
-  - SI-18M2:PS-QDB1:Diag*
-  - SI-18M2:PS-QDB2:Diag*
-  - SI-18M2:PS-QFB:Diag*
-  - SI-19M1:PS-QDP1:Diag*
-  - SI-19M1:PS-QDP2:Diag*
-  - SI-19M1:PS-QFP:Diag*
+  - SI-18M2:PS-QDB1:Diag
+  - SI-18M2:PS-QDB2:Diag
+  - SI-18M2:PS-QFB:Diag
+  - SI-19M1:PS-QDP1:Diag
+  - SI-19M1:PS-QDP2:Diag
+  - SI-19M1:PS-QFP:Diag
 
 facs-si-ps_trims-qs-m12-ia19:
   as-ps IA-19RaCtrl:CO-PSCtrl-SI1:
@@ -1998,15 +2000,15 @@ facs-si-ps_trims-qs-m12-ia19:
   - SI-19M1:PS-QS
   - SI-19M2:PS-QS
   as-ps-diag SI "(19M1|19M2)" "QS":
-  - SI-19M1:PS-QS:Diag*
-  - SI-19M2:PS-QS:Diag*
+  - SI-19M1:PS-QS:Diag
+  - SI-19M2:PS-QS:Diag
   as-ps-diag SI "(19M2|20M1)" "Q(F|D)":
-  - SI-19M2:PS-QDP1:Diag*
-  - SI-19M2:PS-QDP2:Diag*
-  - SI-19M2:PS-QFP:Diag*
-  - SI-20M1:PS-QDB1:Diag*
-  - SI-20M1:PS-QDB2:Diag*
-  - SI-20M1:PS-QFB:Diag*
+  - SI-19M2:PS-QDP1:Diag
+  - SI-19M2:PS-QDP2:Diag
+  - SI-19M2:PS-QFP:Diag
+  - SI-20M1:PS-QDB1:Diag
+  - SI-20M1:PS-QDB2:Diag
+  - SI-20M1:PS-QFB:Diag
 
 facs-si-ps_trims-qs-m12-ia20:
   as-ps IA-20RaCtrl:CO-PSCtrl-SI1:
@@ -2018,14 +2020,14 @@ facs-si-ps_trims-qs-m12-ia20:
   - SI-20M1:PS-QS
   - SI-20M2:PS-QS
   as-ps-diag SI "(20M1|20M2)" "QS":
-  - SI-20M1:PS-QS:Diag*
-  - SI-20M2:PS-QS:Diag*
+  - SI-20M1:PS-QS:Diag
+  - SI-20M2:PS-QS:Diag
   as-ps-diag SI "(20M2|01M1)" "Q(F|D)":
-  - SI-20M2:PS-QDB1:Diag*
-  - SI-20M2:PS-QDB2:Diag*
-  - SI-20M2:PS-QFB:Diag*
-  - SI-01M1:PS-QDA:Diag*
-  - SI-01M1:PS-QFA:Diag*
+  - SI-20M2:PS-QDB1:Diag
+  - SI-20M2:PS-QDB2:Diag
+  - SI-20M2:PS-QFB:Diag
+  - SI-01M1:PS-QDA:Diag
+  - SI-01M1:PS-QFA:Diag
 
 facs-si-ps_trims-qs-c1234-ia01:
   as-ps IA-01RaCtrl:CO-PSCtrl-SI3:
@@ -2041,17 +2043,17 @@ facs-si-ps_trims-qs-c1234-ia01:
   - SI-01C2:PS-QS
   - SI-01C3:PS-QS
   as-ps-diag SI "01C[1-4]" "Q.*":
-  - SI-01C1:PS-Q1:Diag*
-  - SI-01C1:PS-Q2:Diag*
-  - SI-01C1:PS-QS:Diag*
-  - SI-01C2:PS-Q3:Diag*
-  - SI-01C2:PS-Q4:Diag*
-  - SI-01C2:PS-QS:Diag*
-  - SI-01C3:PS-Q3:Diag*
-  - SI-01C3:PS-Q4:Diag*
-  - SI-01C3:PS-QS:Diag*
-  - SI-01C4:PS-Q1:Diag*
-  - SI-01C4:PS-Q2:Diag*
+  - SI-01C1:PS-Q1:Diag
+  - SI-01C1:PS-Q2:Diag
+  - SI-01C1:PS-QS:Diag
+  - SI-01C2:PS-Q3:Diag
+  - SI-01C2:PS-Q4:Diag
+  - SI-01C2:PS-QS:Diag
+  - SI-01C3:PS-Q3:Diag
+  - SI-01C3:PS-Q4:Diag
+  - SI-01C3:PS-QS:Diag
+  - SI-01C4:PS-Q1:Diag
+  - SI-01C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia02:
   as-ps IA-02RaCtrl:CO-PSCtrl-SI3:
@@ -2067,17 +2069,17 @@ facs-si-ps_trims-qs-c1234-ia02:
   - SI-02C2:PS-QS
   - SI-02C3:PS-QS
   as-ps-diag SI "02C[1-4]" "Q.*":
-  - SI-02C1:PS-Q1:Diag*
-  - SI-02C1:PS-Q2:Diag*
-  - SI-02C1:PS-QS:Diag*
-  - SI-02C2:PS-Q3:Diag*
-  - SI-02C2:PS-Q4:Diag*
-  - SI-02C2:PS-QS:Diag*
-  - SI-02C3:PS-Q3:Diag*
-  - SI-02C3:PS-Q4:Diag*
-  - SI-02C3:PS-QS:Diag*
-  - SI-02C4:PS-Q1:Diag*
-  - SI-02C4:PS-Q2:Diag*
+  - SI-02C1:PS-Q1:Diag
+  - SI-02C1:PS-Q2:Diag
+  - SI-02C1:PS-QS:Diag
+  - SI-02C2:PS-Q3:Diag
+  - SI-02C2:PS-Q4:Diag
+  - SI-02C2:PS-QS:Diag
+  - SI-02C3:PS-Q3:Diag
+  - SI-02C3:PS-Q4:Diag
+  - SI-02C3:PS-QS:Diag
+  - SI-02C4:PS-Q1:Diag
+  - SI-02C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia03:
   as-ps IA-03RaCtrl:CO-PSCtrl-SI3:
@@ -2093,17 +2095,17 @@ facs-si-ps_trims-qs-c1234-ia03:
   - SI-03C2:PS-QS
   - SI-03C3:PS-QS
   as-ps-diag SI "03C[1-4]" "Q.*":
-  - SI-03C1:PS-Q1:Diag*
-  - SI-03C1:PS-Q2:Diag*
-  - SI-03C1:PS-QS:Diag*
-  - SI-03C2:PS-Q3:Diag*
-  - SI-03C2:PS-Q4:Diag*
-  - SI-03C2:PS-QS:Diag*
-  - SI-03C3:PS-Q3:Diag*
-  - SI-03C3:PS-Q4:Diag*
-  - SI-03C3:PS-QS:Diag*
-  - SI-03C4:PS-Q1:Diag*
-  - SI-03C4:PS-Q2:Diag*
+  - SI-03C1:PS-Q1:Diag
+  - SI-03C1:PS-Q2:Diag
+  - SI-03C1:PS-QS:Diag
+  - SI-03C2:PS-Q3:Diag
+  - SI-03C2:PS-Q4:Diag
+  - SI-03C2:PS-QS:Diag
+  - SI-03C3:PS-Q3:Diag
+  - SI-03C3:PS-Q4:Diag
+  - SI-03C3:PS-QS:Diag
+  - SI-03C4:PS-Q1:Diag
+  - SI-03C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia04:
   as-ps IA-04RaCtrl:CO-PSCtrl-SI3:
@@ -2119,17 +2121,17 @@ facs-si-ps_trims-qs-c1234-ia04:
   - SI-04C2:PS-QS
   - SI-04C3:PS-QS
   as-ps-diag SI "04C[1-4]" "Q.*":
-  - SI-04C1:PS-Q1:Diag*
-  - SI-04C1:PS-Q2:Diag*
-  - SI-04C1:PS-QS:Diag*
-  - SI-04C2:PS-Q3:Diag*
-  - SI-04C2:PS-Q4:Diag*
-  - SI-04C2:PS-QS:Diag*
-  - SI-04C3:PS-Q3:Diag*
-  - SI-04C3:PS-Q4:Diag*
-  - SI-04C3:PS-QS:Diag*
-  - SI-04C4:PS-Q1:Diag*
-  - SI-04C4:PS-Q2:Diag*
+  - SI-04C1:PS-Q1:Diag
+  - SI-04C1:PS-Q2:Diag
+  - SI-04C1:PS-QS:Diag
+  - SI-04C2:PS-Q3:Diag
+  - SI-04C2:PS-Q4:Diag
+  - SI-04C2:PS-QS:Diag
+  - SI-04C3:PS-Q3:Diag
+  - SI-04C3:PS-Q4:Diag
+  - SI-04C3:PS-QS:Diag
+  - SI-04C4:PS-Q1:Diag
+  - SI-04C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia05:
   as-ps IA-05RaCtrl:CO-PSCtrl-SI3:
@@ -2145,17 +2147,17 @@ facs-si-ps_trims-qs-c1234-ia05:
   - SI-05C2:PS-QS
   - SI-05C3:PS-QS
   as-ps-diag SI "05C[1-4]" "Q.*":
-  - SI-05C1:PS-Q1:Diag*
-  - SI-05C1:PS-Q2:Diag*
-  - SI-05C1:PS-QS:Diag*
-  - SI-05C2:PS-Q3:Diag*
-  - SI-05C2:PS-Q4:Diag*
-  - SI-05C2:PS-QS:Diag*
-  - SI-05C3:PS-Q3:Diag*
-  - SI-05C3:PS-Q4:Diag*
-  - SI-05C3:PS-QS:Diag*
-  - SI-05C4:PS-Q1:Diag*
-  - SI-05C4:PS-Q2:Diag*
+  - SI-05C1:PS-Q1:Diag
+  - SI-05C1:PS-Q2:Diag
+  - SI-05C1:PS-QS:Diag
+  - SI-05C2:PS-Q3:Diag
+  - SI-05C2:PS-Q4:Diag
+  - SI-05C2:PS-QS:Diag
+  - SI-05C3:PS-Q3:Diag
+  - SI-05C3:PS-Q4:Diag
+  - SI-05C3:PS-QS:Diag
+  - SI-05C4:PS-Q1:Diag
+  - SI-05C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia06:
   as-ps IA-06RaCtrl:CO-PSCtrl-SI3:
@@ -2171,17 +2173,17 @@ facs-si-ps_trims-qs-c1234-ia06:
   - SI-06C2:PS-QS
   - SI-06C3:PS-QS
   as-ps-diag SI "06C[1-4]" "Q.*":
-  - SI-06C1:PS-Q1:Diag*
-  - SI-06C1:PS-Q2:Diag*
-  - SI-06C1:PS-QS:Diag*
-  - SI-06C2:PS-Q3:Diag*
-  - SI-06C2:PS-Q4:Diag*
-  - SI-06C2:PS-QS:Diag*
-  - SI-06C3:PS-Q3:Diag*
-  - SI-06C3:PS-Q4:Diag*
-  - SI-06C3:PS-QS:Diag*
-  - SI-06C4:PS-Q1:Diag*
-  - SI-06C4:PS-Q2:Diag*
+  - SI-06C1:PS-Q1:Diag
+  - SI-06C1:PS-Q2:Diag
+  - SI-06C1:PS-QS:Diag
+  - SI-06C2:PS-Q3:Diag
+  - SI-06C2:PS-Q4:Diag
+  - SI-06C2:PS-QS:Diag
+  - SI-06C3:PS-Q3:Diag
+  - SI-06C3:PS-Q4:Diag
+  - SI-06C3:PS-QS:Diag
+  - SI-06C4:PS-Q1:Diag
+  - SI-06C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia07:
   as-ps IA-07RaCtrl:CO-PSCtrl-SI3:
@@ -2197,17 +2199,17 @@ facs-si-ps_trims-qs-c1234-ia07:
   - SI-07C2:PS-QS
   - SI-07C3:PS-QS
   as-ps-diag SI "07C[1-4]" "Q.*":
-  - SI-07C1:PS-Q1:Diag*
-  - SI-07C1:PS-Q2:Diag*
-  - SI-07C1:PS-QS:Diag*
-  - SI-07C2:PS-Q3:Diag*
-  - SI-07C2:PS-Q4:Diag*
-  - SI-07C2:PS-QS:Diag*
-  - SI-07C3:PS-Q3:Diag*
-  - SI-07C3:PS-Q4:Diag*
-  - SI-07C3:PS-QS:Diag*
-  - SI-07C4:PS-Q1:Diag*
-  - SI-07C4:PS-Q2:Diag*
+  - SI-07C1:PS-Q1:Diag
+  - SI-07C1:PS-Q2:Diag
+  - SI-07C1:PS-QS:Diag
+  - SI-07C2:PS-Q3:Diag
+  - SI-07C2:PS-Q4:Diag
+  - SI-07C2:PS-QS:Diag
+  - SI-07C3:PS-Q3:Diag
+  - SI-07C3:PS-Q4:Diag
+  - SI-07C3:PS-QS:Diag
+  - SI-07C4:PS-Q1:Diag
+  - SI-07C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia08:
   as-ps IA-08RaCtrl:CO-PSCtrl-SI3:
@@ -2223,17 +2225,17 @@ facs-si-ps_trims-qs-c1234-ia08:
   - SI-08C2:PS-QS
   - SI-08C3:PS-QS
   as-ps-diag SI "08C[1-4]" "Q.*":
-  - SI-08C1:PS-Q1:Diag*
-  - SI-08C1:PS-Q2:Diag*
-  - SI-08C1:PS-QS:Diag*
-  - SI-08C2:PS-Q3:Diag*
-  - SI-08C2:PS-Q4:Diag*
-  - SI-08C2:PS-QS:Diag*
-  - SI-08C3:PS-Q3:Diag*
-  - SI-08C3:PS-Q4:Diag*
-  - SI-08C3:PS-QS:Diag*
-  - SI-08C4:PS-Q1:Diag*
-  - SI-08C4:PS-Q2:Diag*
+  - SI-08C1:PS-Q1:Diag
+  - SI-08C1:PS-Q2:Diag
+  - SI-08C1:PS-QS:Diag
+  - SI-08C2:PS-Q3:Diag
+  - SI-08C2:PS-Q4:Diag
+  - SI-08C2:PS-QS:Diag
+  - SI-08C3:PS-Q3:Diag
+  - SI-08C3:PS-Q4:Diag
+  - SI-08C3:PS-QS:Diag
+  - SI-08C4:PS-Q1:Diag
+  - SI-08C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia09:
   as-ps IA-09RaCtrl:CO-PSCtrl-SI3:
@@ -2249,17 +2251,17 @@ facs-si-ps_trims-qs-c1234-ia09:
   - SI-09C2:PS-QS
   - SI-09C3:PS-QS
   as-ps-diag SI "09C[1-4]" "Q.*":
-  - SI-09C1:PS-Q1:Diag*
-  - SI-09C1:PS-Q2:Diag*
-  - SI-09C1:PS-QS:Diag*
-  - SI-09C2:PS-Q3:Diag*
-  - SI-09C2:PS-Q4:Diag*
-  - SI-09C2:PS-QS:Diag*
-  - SI-09C3:PS-Q3:Diag*
-  - SI-09C3:PS-Q4:Diag*
-  - SI-09C3:PS-QS:Diag*
-  - SI-09C4:PS-Q1:Diag*
-  - SI-09C4:PS-Q2:Diag*
+  - SI-09C1:PS-Q1:Diag
+  - SI-09C1:PS-Q2:Diag
+  - SI-09C1:PS-QS:Diag
+  - SI-09C2:PS-Q3:Diag
+  - SI-09C2:PS-Q4:Diag
+  - SI-09C2:PS-QS:Diag
+  - SI-09C3:PS-Q3:Diag
+  - SI-09C3:PS-Q4:Diag
+  - SI-09C3:PS-QS:Diag
+  - SI-09C4:PS-Q1:Diag
+  - SI-09C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia10:
   as-ps IA-10RaCtrl:CO-PSCtrl-SI3:
@@ -2275,17 +2277,17 @@ facs-si-ps_trims-qs-c1234-ia10:
   - SI-10C2:PS-QS
   - SI-10C3:PS-QS
   as-ps-diag SI "10C[1-4]" "Q.*":
-  - SI-10C1:PS-Q1:Diag*
-  - SI-10C1:PS-Q2:Diag*
-  - SI-10C1:PS-QS:Diag*
-  - SI-10C2:PS-Q3:Diag*
-  - SI-10C2:PS-Q4:Diag*
-  - SI-10C2:PS-QS:Diag*
-  - SI-10C3:PS-Q3:Diag*
-  - SI-10C3:PS-Q4:Diag*
-  - SI-10C3:PS-QS:Diag*
-  - SI-10C4:PS-Q1:Diag*
-  - SI-10C4:PS-Q2:Diag*
+  - SI-10C1:PS-Q1:Diag
+  - SI-10C1:PS-Q2:Diag
+  - SI-10C1:PS-QS:Diag
+  - SI-10C2:PS-Q3:Diag
+  - SI-10C2:PS-Q4:Diag
+  - SI-10C2:PS-QS:Diag
+  - SI-10C3:PS-Q3:Diag
+  - SI-10C3:PS-Q4:Diag
+  - SI-10C3:PS-QS:Diag
+  - SI-10C4:PS-Q1:Diag
+  - SI-10C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia11:
   as-ps IA-11RaCtrl:CO-PSCtrl-SI3:
@@ -2301,17 +2303,17 @@ facs-si-ps_trims-qs-c1234-ia11:
   - SI-11C2:PS-QS
   - SI-11C3:PS-QS
   as-ps-diag SI "11C[1-4]" "Q.*":
-  - SI-11C1:PS-Q1:Diag*
-  - SI-11C1:PS-Q2:Diag*
-  - SI-11C1:PS-QS:Diag*
-  - SI-11C2:PS-Q3:Diag*
-  - SI-11C2:PS-Q4:Diag*
-  - SI-11C2:PS-QS:Diag*
-  - SI-11C3:PS-Q3:Diag*
-  - SI-11C3:PS-Q4:Diag*
-  - SI-11C3:PS-QS:Diag*
-  - SI-11C4:PS-Q1:Diag*
-  - SI-11C4:PS-Q2:Diag*
+  - SI-11C1:PS-Q1:Diag
+  - SI-11C1:PS-Q2:Diag
+  - SI-11C1:PS-QS:Diag
+  - SI-11C2:PS-Q3:Diag
+  - SI-11C2:PS-Q4:Diag
+  - SI-11C2:PS-QS:Diag
+  - SI-11C3:PS-Q3:Diag
+  - SI-11C3:PS-Q4:Diag
+  - SI-11C3:PS-QS:Diag
+  - SI-11C4:PS-Q1:Diag
+  - SI-11C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia12:
   as-ps IA-12RaCtrl:CO-PSCtrl-SI3:
@@ -2327,17 +2329,17 @@ facs-si-ps_trims-qs-c1234-ia12:
   - SI-12C2:PS-QS
   - SI-12C3:PS-QS
   as-ps-diag SI "12C[1-4]" "Q.*":
-  - SI-12C1:PS-Q1:Diag*
-  - SI-12C1:PS-Q2:Diag*
-  - SI-12C1:PS-QS:Diag*
-  - SI-12C2:PS-Q3:Diag*
-  - SI-12C2:PS-Q4:Diag*
-  - SI-12C2:PS-QS:Diag*
-  - SI-12C3:PS-Q3:Diag*
-  - SI-12C3:PS-Q4:Diag*
-  - SI-12C3:PS-QS:Diag*
-  - SI-12C4:PS-Q1:Diag*
-  - SI-12C4:PS-Q2:Diag*
+  - SI-12C1:PS-Q1:Diag
+  - SI-12C1:PS-Q2:Diag
+  - SI-12C1:PS-QS:Diag
+  - SI-12C2:PS-Q3:Diag
+  - SI-12C2:PS-Q4:Diag
+  - SI-12C2:PS-QS:Diag
+  - SI-12C3:PS-Q3:Diag
+  - SI-12C3:PS-Q4:Diag
+  - SI-12C3:PS-QS:Diag
+  - SI-12C4:PS-Q1:Diag
+  - SI-12C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia13:
   as-ps IA-13RaCtrl:CO-PSCtrl-SI3:
@@ -2353,17 +2355,17 @@ facs-si-ps_trims-qs-c1234-ia13:
   - SI-13C2:PS-QS
   - SI-13C3:PS-QS
   as-ps-diag SI "13C[1-4]" "Q.*":
-  - SI-13C1:PS-Q1:Diag*
-  - SI-13C1:PS-Q2:Diag*
-  - SI-13C1:PS-QS:Diag*
-  - SI-13C2:PS-Q3:Diag*
-  - SI-13C2:PS-Q4:Diag*
-  - SI-13C2:PS-QS:Diag*
-  - SI-13C3:PS-Q3:Diag*
-  - SI-13C3:PS-Q4:Diag*
-  - SI-13C3:PS-QS:Diag*
-  - SI-13C4:PS-Q1:Diag*
-  - SI-13C4:PS-Q2:Diag*
+  - SI-13C1:PS-Q1:Diag
+  - SI-13C1:PS-Q2:Diag
+  - SI-13C1:PS-QS:Diag
+  - SI-13C2:PS-Q3:Diag
+  - SI-13C2:PS-Q4:Diag
+  - SI-13C2:PS-QS:Diag
+  - SI-13C3:PS-Q3:Diag
+  - SI-13C3:PS-Q4:Diag
+  - SI-13C3:PS-QS:Diag
+  - SI-13C4:PS-Q1:Diag
+  - SI-13C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia14:
   as-ps IA-14RaCtrl:CO-PSCtrl-SI3:
@@ -2379,17 +2381,17 @@ facs-si-ps_trims-qs-c1234-ia14:
   - SI-14C2:PS-QS
   - SI-14C3:PS-QS
   as-ps-diag SI "14C[1-4]" "Q.*":
-  - SI-14C1:PS-Q1:Diag*
-  - SI-14C1:PS-Q2:Diag*
-  - SI-14C1:PS-QS:Diag*
-  - SI-14C2:PS-Q3:Diag*
-  - SI-14C2:PS-Q4:Diag*
-  - SI-14C2:PS-QS:Diag*
-  - SI-14C3:PS-Q3:Diag*
-  - SI-14C3:PS-Q4:Diag*
-  - SI-14C3:PS-QS:Diag*
-  - SI-14C4:PS-Q1:Diag*
-  - SI-14C4:PS-Q2:Diag*
+  - SI-14C1:PS-Q1:Diag
+  - SI-14C1:PS-Q2:Diag
+  - SI-14C1:PS-QS:Diag
+  - SI-14C2:PS-Q3:Diag
+  - SI-14C2:PS-Q4:Diag
+  - SI-14C2:PS-QS:Diag
+  - SI-14C3:PS-Q3:Diag
+  - SI-14C3:PS-Q4:Diag
+  - SI-14C3:PS-QS:Diag
+  - SI-14C4:PS-Q1:Diag
+  - SI-14C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia15:
   as-ps IA-15RaCtrl:CO-PSCtrl-SI3:
@@ -2405,17 +2407,17 @@ facs-si-ps_trims-qs-c1234-ia15:
   - SI-15C2:PS-QS
   - SI-15C3:PS-QS
   as-ps-diag SI "15C[1-4]" "Q.*":
-  - SI-15C1:PS-Q1:Diag*
-  - SI-15C1:PS-Q2:Diag*
-  - SI-15C1:PS-QS:Diag*
-  - SI-15C2:PS-Q3:Diag*
-  - SI-15C2:PS-Q4:Diag*
-  - SI-15C2:PS-QS:Diag*
-  - SI-15C3:PS-Q3:Diag*
-  - SI-15C3:PS-Q4:Diag*
-  - SI-15C3:PS-QS:Diag*
-  - SI-15C4:PS-Q1:Diag*
-  - SI-15C4:PS-Q2:Diag*
+  - SI-15C1:PS-Q1:Diag
+  - SI-15C1:PS-Q2:Diag
+  - SI-15C1:PS-QS:Diag
+  - SI-15C2:PS-Q3:Diag
+  - SI-15C2:PS-Q4:Diag
+  - SI-15C2:PS-QS:Diag
+  - SI-15C3:PS-Q3:Diag
+  - SI-15C3:PS-Q4:Diag
+  - SI-15C3:PS-QS:Diag
+  - SI-15C4:PS-Q1:Diag
+  - SI-15C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia16:
   as-ps IA-16RaCtrl:CO-PSCtrl-SI3:
@@ -2431,17 +2433,17 @@ facs-si-ps_trims-qs-c1234-ia16:
   - SI-16C2:PS-QS
   - SI-16C3:PS-QS
   as-ps-diag SI "16C[1-4]" "Q.*":
-  - SI-16C1:PS-Q1:Diag*
-  - SI-16C1:PS-Q2:Diag*
-  - SI-16C1:PS-QS:Diag*
-  - SI-16C2:PS-Q3:Diag*
-  - SI-16C2:PS-Q4:Diag*
-  - SI-16C2:PS-QS:Diag*
-  - SI-16C3:PS-Q3:Diag*
-  - SI-16C3:PS-Q4:Diag*
-  - SI-16C3:PS-QS:Diag*
-  - SI-16C4:PS-Q1:Diag*
-  - SI-16C4:PS-Q2:Diag*
+  - SI-16C1:PS-Q1:Diag
+  - SI-16C1:PS-Q2:Diag
+  - SI-16C1:PS-QS:Diag
+  - SI-16C2:PS-Q3:Diag
+  - SI-16C2:PS-Q4:Diag
+  - SI-16C2:PS-QS:Diag
+  - SI-16C3:PS-Q3:Diag
+  - SI-16C3:PS-Q4:Diag
+  - SI-16C3:PS-QS:Diag
+  - SI-16C4:PS-Q1:Diag
+  - SI-16C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia17:
   as-ps IA-17RaCtrl:CO-PSCtrl-SI3:
@@ -2457,17 +2459,17 @@ facs-si-ps_trims-qs-c1234-ia17:
   - SI-17C2:PS-QS
   - SI-17C3:PS-QS
   as-ps-diag SI "17C[1-4]" "Q.*":
-  - SI-17C1:PS-Q1:Diag*
-  - SI-17C1:PS-Q2:Diag*
-  - SI-17C1:PS-QS:Diag*
-  - SI-17C2:PS-Q3:Diag*
-  - SI-17C2:PS-Q4:Diag*
-  - SI-17C2:PS-QS:Diag*
-  - SI-17C3:PS-Q3:Diag*
-  - SI-17C3:PS-Q4:Diag*
-  - SI-17C3:PS-QS:Diag*
-  - SI-17C4:PS-Q1:Diag*
-  - SI-17C4:PS-Q2:Diag*
+  - SI-17C1:PS-Q1:Diag
+  - SI-17C1:PS-Q2:Diag
+  - SI-17C1:PS-QS:Diag
+  - SI-17C2:PS-Q3:Diag
+  - SI-17C2:PS-Q4:Diag
+  - SI-17C2:PS-QS:Diag
+  - SI-17C3:PS-Q3:Diag
+  - SI-17C3:PS-Q4:Diag
+  - SI-17C3:PS-QS:Diag
+  - SI-17C4:PS-Q1:Diag
+  - SI-17C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia18:
   as-ps IA-18RaCtrl:CO-PSCtrl-SI3:
@@ -2483,17 +2485,17 @@ facs-si-ps_trims-qs-c1234-ia18:
   - SI-18C2:PS-QS
   - SI-18C3:PS-QS
   as-ps-diag SI "18C[1-4]" "Q.*":
-  - SI-18C1:PS-Q1:Diag*
-  - SI-18C1:PS-Q2:Diag*
-  - SI-18C1:PS-QS:Diag*
-  - SI-18C2:PS-Q3:Diag*
-  - SI-18C2:PS-Q4:Diag*
-  - SI-18C2:PS-QS:Diag*
-  - SI-18C3:PS-Q3:Diag*
-  - SI-18C3:PS-Q4:Diag*
-  - SI-18C3:PS-QS:Diag*
-  - SI-18C4:PS-Q1:Diag*
-  - SI-18C4:PS-Q2:Diag*
+  - SI-18C1:PS-Q1:Diag
+  - SI-18C1:PS-Q2:Diag
+  - SI-18C1:PS-QS:Diag
+  - SI-18C2:PS-Q3:Diag
+  - SI-18C2:PS-Q4:Diag
+  - SI-18C2:PS-QS:Diag
+  - SI-18C3:PS-Q3:Diag
+  - SI-18C3:PS-Q4:Diag
+  - SI-18C3:PS-QS:Diag
+  - SI-18C4:PS-Q1:Diag
+  - SI-18C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia19:
   as-ps IA-19RaCtrl:CO-PSCtrl-SI3:
@@ -2509,17 +2511,17 @@ facs-si-ps_trims-qs-c1234-ia19:
   - SI-19C2:PS-QS
   - SI-19C3:PS-QS
   as-ps-diag SI "19C[1-4]" "Q.*":
-  - SI-19C1:PS-Q1:Diag*
-  - SI-19C1:PS-Q2:Diag*
-  - SI-19C1:PS-QS:Diag*
-  - SI-19C2:PS-Q3:Diag*
-  - SI-19C2:PS-Q4:Diag*
-  - SI-19C2:PS-QS:Diag*
-  - SI-19C3:PS-Q3:Diag*
-  - SI-19C3:PS-Q4:Diag*
-  - SI-19C3:PS-QS:Diag*
-  - SI-19C4:PS-Q1:Diag*
-  - SI-19C4:PS-Q2:Diag*
+  - SI-19C1:PS-Q1:Diag
+  - SI-19C1:PS-Q2:Diag
+  - SI-19C1:PS-QS:Diag
+  - SI-19C2:PS-Q3:Diag
+  - SI-19C2:PS-Q4:Diag
+  - SI-19C2:PS-QS:Diag
+  - SI-19C3:PS-Q3:Diag
+  - SI-19C3:PS-Q4:Diag
+  - SI-19C3:PS-QS:Diag
+  - SI-19C4:PS-Q1:Diag
+  - SI-19C4:PS-Q2:Diag
 
 facs-si-ps_trims-qs-c1234-ia20:
   as-ps IA-20RaCtrl:CO-PSCtrl-SI3:
@@ -2535,375 +2537,375 @@ facs-si-ps_trims-qs-c1234-ia20:
   - SI-20C2:PS-QS
   - SI-20C3:PS-QS
   as-ps-diag SI "20C[1-4]" "Q.*":
-  - SI-20C1:PS-Q1:Diag*
-  - SI-20C1:PS-Q2:Diag*
-  - SI-20C1:PS-QS:Diag*
-  - SI-20C2:PS-Q3:Diag*
-  - SI-20C2:PS-Q4:Diag*
-  - SI-20C2:PS-QS:Diag*
-  - SI-20C3:PS-Q3:Diag*
-  - SI-20C3:PS-Q4:Diag*
-  - SI-20C3:PS-QS:Diag*
-  - SI-20C4:PS-Q1:Diag*
-  - SI-20C4:PS-Q2:Diag*
+  - SI-20C1:PS-Q1:Diag
+  - SI-20C1:PS-Q2:Diag
+  - SI-20C1:PS-QS:Diag
+  - SI-20C2:PS-Q3:Diag
+  - SI-20C2:PS-Q4:Diag
+  - SI-20C2:PS-QS:Diag
+  - SI-20C3:PS-Q3:Diag
+  - SI-20C3:PS-Q4:Diag
+  - SI-20C3:PS-QS:Diag
+  - SI-20C4:PS-Q1:Diag
+  - SI-20C4:PS-Q2:Diag
 
 facs-si-ps-fastcorrs_conv:
   si-ps-conv-fastcorrs:
-  - SI-01M2:PS-FCH:Kick*
-  - SI-01M2:PS-FCV:Kick*
-  - SI-01C2:PS-FCH:Kick*
-  - SI-01C2:PS-FCV:Kick*
-  - SI-01C3:PS-FCH:Kick*
-  - SI-01C3:PS-FCV:Kick*
-  - SI-02M1:PS-FCH:Kick*
-  - SI-02M1:PS-FCV:Kick*
-  - SI-02M2:PS-FCH:Kick*
-  - SI-02M2:PS-FCV:Kick*
-  - SI-02C2:PS-FCH:Kick*
-  - SI-02C2:PS-FCV:Kick*
-  - SI-02C3:PS-FCH:Kick*
-  - SI-02C3:PS-FCV:Kick*
-  - SI-03M1:PS-FCH:Kick*
-  - SI-03M1:PS-FCV:Kick*
-  - SI-03M2:PS-FCH:Kick*
-  - SI-03M2:PS-FCV:Kick*
-  - SI-03C2:PS-FCH:Kick*
-  - SI-03C2:PS-FCV:Kick*
-  - SI-03C3:PS-FCH:Kick*
-  - SI-03C3:PS-FCV:Kick*
-  - SI-04M1:PS-FCH:Kick*
-  - SI-04M1:PS-FCV:Kick*
-  - SI-04M2:PS-FCH:Kick*
-  - SI-04M2:PS-FCV:Kick*
-  - SI-04C2:PS-FCH:Kick*
-  - SI-04C2:PS-FCV:Kick*
-  - SI-04C3:PS-FCH:Kick*
-  - SI-04C3:PS-FCV:Kick*
-  - SI-05M1:PS-FCH:Kick*
-  - SI-05M1:PS-FCV:Kick*
-  - SI-05M2:PS-FCH:Kick*
-  - SI-05M2:PS-FCV:Kick*
-  - SI-05C2:PS-FCH:Kick*
-  - SI-05C2:PS-FCV:Kick*
-  - SI-05C3:PS-FCH:Kick*
-  - SI-05C3:PS-FCV:Kick*
-  - SI-06M1:PS-FCH:Kick*
-  - SI-06M1:PS-FCV:Kick*
-  - SI-06M2:PS-FCH:Kick*
-  - SI-06M2:PS-FCV:Kick*
-  - SI-06C2:PS-FCH:Kick*
-  - SI-06C2:PS-FCV:Kick*
-  - SI-06C3:PS-FCH:Kick*
-  - SI-06C3:PS-FCV:Kick*
-  - SI-07M1:PS-FCH:Kick*
-  - SI-07M1:PS-FCV:Kick*
-  - SI-07M2:PS-FCH:Kick*
-  - SI-07M2:PS-FCV:Kick*
-  - SI-07C2:PS-FCH:Kick*
-  - SI-07C2:PS-FCV:Kick*
-  - SI-07C3:PS-FCH:Kick*
-  - SI-07C3:PS-FCV:Kick*
-  - SI-08M1:PS-FCH:Kick*
-  - SI-08M1:PS-FCV:Kick*
-  - SI-08M2:PS-FCH:Kick*
-  - SI-08M2:PS-FCV:Kick*
-  - SI-08C2:PS-FCH:Kick*
-  - SI-08C2:PS-FCV:Kick*
-  - SI-08C3:PS-FCH:Kick*
-  - SI-08C3:PS-FCV:Kick*
-  - SI-09M1:PS-FCH:Kick*
-  - SI-09M1:PS-FCV:Kick*
-  - SI-09M2:PS-FCH:Kick*
-  - SI-09M2:PS-FCV:Kick*
-  - SI-09C2:PS-FCH:Kick*
-  - SI-09C2:PS-FCV:Kick*
-  - SI-09C3:PS-FCH:Kick*
-  - SI-09C3:PS-FCV:Kick*
-  - SI-10M1:PS-FCH:Kick*
-  - SI-10M1:PS-FCV:Kick*
-  - SI-10M2:PS-FCH:Kick*
-  - SI-10M2:PS-FCV:Kick*
-  - SI-10C2:PS-FCH:Kick*
-  - SI-10C2:PS-FCV:Kick*
-  - SI-10C3:PS-FCH:Kick*
-  - SI-10C3:PS-FCV:Kick*
-  - SI-11M1:PS-FCH:Kick*
-  - SI-11M1:PS-FCV:Kick*
-  - SI-11M2:PS-FCH:Kick*
-  - SI-11M2:PS-FCV:Kick*
-  - SI-11C2:PS-FCH:Kick*
-  - SI-11C2:PS-FCV:Kick*
-  - SI-11C3:PS-FCH:Kick*
-  - SI-11C3:PS-FCV:Kick*
-  - SI-12M1:PS-FCH:Kick*
-  - SI-12M1:PS-FCV:Kick*
-  - SI-12M2:PS-FCH:Kick*
-  - SI-12M2:PS-FCV:Kick*
-  - SI-12C2:PS-FCH:Kick*
-  - SI-12C2:PS-FCV:Kick*
-  - SI-12C3:PS-FCH:Kick*
-  - SI-12C3:PS-FCV:Kick*
-  - SI-13M1:PS-FCH:Kick*
-  - SI-13M1:PS-FCV:Kick*
-  - SI-13M2:PS-FCH:Kick*
-  - SI-13M2:PS-FCV:Kick*
-  - SI-13C2:PS-FCH:Kick*
-  - SI-13C2:PS-FCV:Kick*
-  - SI-13C3:PS-FCH:Kick*
-  - SI-13C3:PS-FCV:Kick*
-  - SI-14M1:PS-FCH:Kick*
-  - SI-14M1:PS-FCV:Kick*
-  - SI-14M2:PS-FCH:Kick*
-  - SI-14M2:PS-FCV:Kick*
-  - SI-14C2:PS-FCH:Kick*
-  - SI-14C2:PS-FCV:Kick*
-  - SI-14C3:PS-FCH:Kick*
-  - SI-14C3:PS-FCV:Kick*
-  - SI-15M1:PS-FCH:Kick*
-  - SI-15M1:PS-FCV:Kick*
-  - SI-15M2:PS-FCH:Kick*
-  - SI-15M2:PS-FCV:Kick*
-  - SI-15C2:PS-FCH:Kick*
-  - SI-15C2:PS-FCV:Kick*
-  - SI-15C3:PS-FCH:Kick*
-  - SI-15C3:PS-FCV:Kick*
-  - SI-16M1:PS-FCH:Kick*
-  - SI-16M1:PS-FCV:Kick*
-  - SI-16M2:PS-FCH:Kick*
-  - SI-16M2:PS-FCV:Kick*
-  - SI-16C2:PS-FCH:Kick*
-  - SI-16C2:PS-FCV:Kick*
-  - SI-16C3:PS-FCH:Kick*
-  - SI-16C3:PS-FCV:Kick*
-  - SI-17M1:PS-FCH:Kick*
-  - SI-17M1:PS-FCV:Kick*
-  - SI-17M2:PS-FCH:Kick*
-  - SI-17M2:PS-FCV:Kick*
-  - SI-17C2:PS-FCH:Kick*
-  - SI-17C2:PS-FCV:Kick*
-  - SI-17C3:PS-FCH:Kick*
-  - SI-17C3:PS-FCV:Kick*
-  - SI-18M1:PS-FCH:Kick*
-  - SI-18M1:PS-FCV:Kick*
-  - SI-18M2:PS-FCH:Kick*
-  - SI-18M2:PS-FCV:Kick*
-  - SI-18C2:PS-FCH:Kick*
-  - SI-18C2:PS-FCV:Kick*
-  - SI-18C3:PS-FCH:Kick*
-  - SI-18C3:PS-FCV:Kick*
-  - SI-19M1:PS-FCH:Kick*
-  - SI-19M1:PS-FCV:Kick*
-  - SI-19M2:PS-FCH:Kick*
-  - SI-19M2:PS-FCV:Kick*
-  - SI-19C2:PS-FCH:Kick*
-  - SI-19C2:PS-FCV:Kick*
-  - SI-19C3:PS-FCH:Kick*
-  - SI-19C3:PS-FCV:Kick*
-  - SI-20M1:PS-FCH:Kick*
-  - SI-20M1:PS-FCV:Kick*
-  - SI-20M2:PS-FCH:Kick*
-  - SI-20M2:PS-FCV:Kick*
-  - SI-20C2:PS-FCH:Kick*
-  - SI-20C2:PS-FCV:Kick*
-  - SI-20C3:PS-FCH:Kick*
-  - SI-20C3:PS-FCV:Kick*
-  - SI-22M1:PS-FCH:Kick*
-  - SI-22M1:PS-FCV:Kick*
-  - SI-22M2:PS-FCH:Kick*
-  - SI-22M2:PS-FCV:Kick*
-  - SI-22C2:PS-FCH:Kick*
-  - SI-22C2:PS-FCV:Kick*
-  - SI-22C3:PS-FCH:Kick*
-  - SI-22C3:PS-FCV:Kick*
-  - SI-99M1:PS-FCH:Kick*
-  - SI-99M1:PS-FCV:Kick*
-  - SI-99M2:PS-FCH:Kick*
-  - SI-99M2:PS-FCV:Kick*
-  - SI-99C2:PS-FCH:Kick*
-  - SI-99C2:PS-FCV:Kick*
-  - SI-99C3:PS-FCH:Kick*
-  - SI-99C3:PS-FCV:Kick*
-  - SI-01M1:PS-FCH:Kick*
-  - SI-01M1:PS-FCV:Kick*
+  - SI-01M2:PS-FCH:Kick
+  - SI-01M2:PS-FCV:Kick
+  - SI-01C2:PS-FCH:Kick
+  - SI-01C2:PS-FCV:Kick
+  - SI-01C3:PS-FCH:Kick
+  - SI-01C3:PS-FCV:Kick
+  - SI-02M1:PS-FCH:Kick
+  - SI-02M1:PS-FCV:Kick
+  - SI-02M2:PS-FCH:Kick
+  - SI-02M2:PS-FCV:Kick
+  - SI-02C2:PS-FCH:Kick
+  - SI-02C2:PS-FCV:Kick
+  - SI-02C3:PS-FCH:Kick
+  - SI-02C3:PS-FCV:Kick
+  - SI-03M1:PS-FCH:Kick
+  - SI-03M1:PS-FCV:Kick
+  - SI-03M2:PS-FCH:Kick
+  - SI-03M2:PS-FCV:Kick
+  - SI-03C2:PS-FCH:Kick
+  - SI-03C2:PS-FCV:Kick
+  - SI-03C3:PS-FCH:Kick
+  - SI-03C3:PS-FCV:Kick
+  - SI-04M1:PS-FCH:Kick
+  - SI-04M1:PS-FCV:Kick
+  - SI-04M2:PS-FCH:Kick
+  - SI-04M2:PS-FCV:Kick
+  - SI-04C2:PS-FCH:Kick
+  - SI-04C2:PS-FCV:Kick
+  - SI-04C3:PS-FCH:Kick
+  - SI-04C3:PS-FCV:Kick
+  - SI-05M1:PS-FCH:Kick
+  - SI-05M1:PS-FCV:Kick
+  - SI-05M2:PS-FCH:Kick
+  - SI-05M2:PS-FCV:Kick
+  - SI-05C2:PS-FCH:Kick
+  - SI-05C2:PS-FCV:Kick
+  - SI-05C3:PS-FCH:Kick
+  - SI-05C3:PS-FCV:Kick
+  - SI-06M1:PS-FCH:Kick
+  - SI-06M1:PS-FCV:Kick
+  - SI-06M2:PS-FCH:Kick
+  - SI-06M2:PS-FCV:Kick
+  - SI-06C2:PS-FCH:Kick
+  - SI-06C2:PS-FCV:Kick
+  - SI-06C3:PS-FCH:Kick
+  - SI-06C3:PS-FCV:Kick
+  - SI-07M1:PS-FCH:Kick
+  - SI-07M1:PS-FCV:Kick
+  - SI-07M2:PS-FCH:Kick
+  - SI-07M2:PS-FCV:Kick
+  - SI-07C2:PS-FCH:Kick
+  - SI-07C2:PS-FCV:Kick
+  - SI-07C3:PS-FCH:Kick
+  - SI-07C3:PS-FCV:Kick
+  - SI-08M1:PS-FCH:Kick
+  - SI-08M1:PS-FCV:Kick
+  - SI-08M2:PS-FCH:Kick
+  - SI-08M2:PS-FCV:Kick
+  - SI-08C2:PS-FCH:Kick
+  - SI-08C2:PS-FCV:Kick
+  - SI-08C3:PS-FCH:Kick
+  - SI-08C3:PS-FCV:Kick
+  - SI-09M1:PS-FCH:Kick
+  - SI-09M1:PS-FCV:Kick
+  - SI-09M2:PS-FCH:Kick
+  - SI-09M2:PS-FCV:Kick
+  - SI-09C2:PS-FCH:Kick
+  - SI-09C2:PS-FCV:Kick
+  - SI-09C3:PS-FCH:Kick
+  - SI-09C3:PS-FCV:Kick
+  - SI-10M1:PS-FCH:Kick
+  - SI-10M1:PS-FCV:Kick
+  - SI-10M2:PS-FCH:Kick
+  - SI-10M2:PS-FCV:Kick
+  - SI-10C2:PS-FCH:Kick
+  - SI-10C2:PS-FCV:Kick
+  - SI-10C3:PS-FCH:Kick
+  - SI-10C3:PS-FCV:Kick
+  - SI-11M1:PS-FCH:Kick
+  - SI-11M1:PS-FCV:Kick
+  - SI-11M2:PS-FCH:Kick
+  - SI-11M2:PS-FCV:Kick
+  - SI-11C2:PS-FCH:Kick
+  - SI-11C2:PS-FCV:Kick
+  - SI-11C3:PS-FCH:Kick
+  - SI-11C3:PS-FCV:Kick
+  - SI-12M1:PS-FCH:Kick
+  - SI-12M1:PS-FCV:Kick
+  - SI-12M2:PS-FCH:Kick
+  - SI-12M2:PS-FCV:Kick
+  - SI-12C2:PS-FCH:Kick
+  - SI-12C2:PS-FCV:Kick
+  - SI-12C3:PS-FCH:Kick
+  - SI-12C3:PS-FCV:Kick
+  - SI-13M1:PS-FCH:Kick
+  - SI-13M1:PS-FCV:Kick
+  - SI-13M2:PS-FCH:Kick
+  - SI-13M2:PS-FCV:Kick
+  - SI-13C2:PS-FCH:Kick
+  - SI-13C2:PS-FCV:Kick
+  - SI-13C3:PS-FCH:Kick
+  - SI-13C3:PS-FCV:Kick
+  - SI-14M1:PS-FCH:Kick
+  - SI-14M1:PS-FCV:Kick
+  - SI-14M2:PS-FCH:Kick
+  - SI-14M2:PS-FCV:Kick
+  - SI-14C2:PS-FCH:Kick
+  - SI-14C2:PS-FCV:Kick
+  - SI-14C3:PS-FCH:Kick
+  - SI-14C3:PS-FCV:Kick
+  - SI-15M1:PS-FCH:Kick
+  - SI-15M1:PS-FCV:Kick
+  - SI-15M2:PS-FCH:Kick
+  - SI-15M2:PS-FCV:Kick
+  - SI-15C2:PS-FCH:Kick
+  - SI-15C2:PS-FCV:Kick
+  - SI-15C3:PS-FCH:Kick
+  - SI-15C3:PS-FCV:Kick
+  - SI-16M1:PS-FCH:Kick
+  - SI-16M1:PS-FCV:Kick
+  - SI-16M2:PS-FCH:Kick
+  - SI-16M2:PS-FCV:Kick
+  - SI-16C2:PS-FCH:Kick
+  - SI-16C2:PS-FCV:Kick
+  - SI-16C3:PS-FCH:Kick
+  - SI-16C3:PS-FCV:Kick
+  - SI-17M1:PS-FCH:Kick
+  - SI-17M1:PS-FCV:Kick
+  - SI-17M2:PS-FCH:Kick
+  - SI-17M2:PS-FCV:Kick
+  - SI-17C2:PS-FCH:Kick
+  - SI-17C2:PS-FCV:Kick
+  - SI-17C3:PS-FCH:Kick
+  - SI-17C3:PS-FCV:Kick
+  - SI-18M1:PS-FCH:Kick
+  - SI-18M1:PS-FCV:Kick
+  - SI-18M2:PS-FCH:Kick
+  - SI-18M2:PS-FCV:Kick
+  - SI-18C2:PS-FCH:Kick
+  - SI-18C2:PS-FCV:Kick
+  - SI-18C3:PS-FCH:Kick
+  - SI-18C3:PS-FCV:Kick
+  - SI-19M1:PS-FCH:Kick
+  - SI-19M1:PS-FCV:Kick
+  - SI-19M2:PS-FCH:Kick
+  - SI-19M2:PS-FCV:Kick
+  - SI-19C2:PS-FCH:Kick
+  - SI-19C2:PS-FCV:Kick
+  - SI-19C3:PS-FCH:Kick
+  - SI-19C3:PS-FCV:Kick
+  - SI-20M1:PS-FCH:Kick
+  - SI-20M1:PS-FCV:Kick
+  - SI-20M2:PS-FCH:Kick
+  - SI-20M2:PS-FCV:Kick
+  - SI-20C2:PS-FCH:Kick
+  - SI-20C2:PS-FCV:Kick
+  - SI-20C3:PS-FCH:Kick
+  - SI-20C3:PS-FCV:Kick
+  - SI-22M1:PS-FCH:Kick
+  - SI-22M1:PS-FCV:Kick
+  - SI-22M2:PS-FCH:Kick
+  - SI-22M2:PS-FCV:Kick
+  - SI-22C2:PS-FCH:Kick
+  - SI-22C2:PS-FCV:Kick
+  - SI-22C3:PS-FCH:Kick
+  - SI-22C3:PS-FCV:Kick
+  - SI-99M1:PS-FCH:Kick
+  - SI-99M1:PS-FCV:Kick
+  - SI-99M2:PS-FCH:Kick
+  - SI-99M2:PS-FCV:Kick
+  - SI-99C2:PS-FCH:Kick
+  - SI-99C2:PS-FCV:Kick
+  - SI-99C3:PS-FCH:Kick
+  - SI-99C3:PS-FCV:Kick
+  - SI-01M1:PS-FCH:Kick
+  - SI-01M1:PS-FCV:Kick
 
 facs-si-ps-fastcorrs_diag:
   as-ps-diag SI ".*" "FC.*":
-  - SI-01M2:PS-FCH:Diag*
-  - SI-01M2:PS-FCV:Diag*
-  - SI-01C2:PS-FCH:Diag*
-  - SI-01C2:PS-FCV:Diag*
-  - SI-01C3:PS-FCH:Diag*
-  - SI-01C3:PS-FCV:Diag*
-  - SI-02M1:PS-FCH:Diag*
-  - SI-02M1:PS-FCV:Diag*
-  - SI-02M2:PS-FCH:Diag*
-  - SI-02M2:PS-FCV:Diag*
-  - SI-02C2:PS-FCH:Diag*
-  - SI-02C2:PS-FCV:Diag*
-  - SI-02C3:PS-FCH:Diag*
-  - SI-02C3:PS-FCV:Diag*
-  - SI-03M1:PS-FCH:Diag*
-  - SI-03M1:PS-FCV:Diag*
-  - SI-03M2:PS-FCH:Diag*
-  - SI-03M2:PS-FCV:Diag*
-  - SI-03C2:PS-FCH:Diag*
-  - SI-03C2:PS-FCV:Diag*
-  - SI-03C3:PS-FCH:Diag*
-  - SI-03C3:PS-FCV:Diag*
-  - SI-04M1:PS-FCH:Diag*
-  - SI-04M1:PS-FCV:Diag*
-  - SI-04M2:PS-FCH:Diag*
-  - SI-04M2:PS-FCV:Diag*
-  - SI-04C2:PS-FCH:Diag*
-  - SI-04C2:PS-FCV:Diag*
-  - SI-04C3:PS-FCH:Diag*
-  - SI-04C3:PS-FCV:Diag*
-  - SI-05M1:PS-FCH:Diag*
-  - SI-05M1:PS-FCV:Diag*
-  - SI-05M2:PS-FCH:Diag*
-  - SI-05M2:PS-FCV:Diag*
-  - SI-05C2:PS-FCH:Diag*
-  - SI-05C2:PS-FCV:Diag*
-  - SI-05C3:PS-FCH:Diag*
-  - SI-05C3:PS-FCV:Diag*
-  - SI-06M1:PS-FCH:Diag*
-  - SI-06M1:PS-FCV:Diag*
-  - SI-06M2:PS-FCH:Diag*
-  - SI-06M2:PS-FCV:Diag*
-  - SI-06C2:PS-FCH:Diag*
-  - SI-06C2:PS-FCV:Diag*
-  - SI-06C3:PS-FCH:Diag*
-  - SI-06C3:PS-FCV:Diag*
-  - SI-07M1:PS-FCH:Diag*
-  - SI-07M1:PS-FCV:Diag*
-  - SI-07M2:PS-FCH:Diag*
-  - SI-07M2:PS-FCV:Diag*
-  - SI-07C2:PS-FCH:Diag*
-  - SI-07C2:PS-FCV:Diag*
-  - SI-07C3:PS-FCH:Diag*
-  - SI-07C3:PS-FCV:Diag*
-  - SI-08M1:PS-FCH:Diag*
-  - SI-08M1:PS-FCV:Diag*
-  - SI-08M2:PS-FCH:Diag*
-  - SI-08M2:PS-FCV:Diag*
-  - SI-08C2:PS-FCH:Diag*
-  - SI-08C2:PS-FCV:Diag*
-  - SI-08C3:PS-FCH:Diag*
-  - SI-08C3:PS-FCV:Diag*
-  - SI-09M1:PS-FCH:Diag*
-  - SI-09M1:PS-FCV:Diag*
-  - SI-09M2:PS-FCH:Diag*
-  - SI-09M2:PS-FCV:Diag*
-  - SI-09C2:PS-FCH:Diag*
-  - SI-09C2:PS-FCV:Diag*
-  - SI-09C3:PS-FCH:Diag*
-  - SI-09C3:PS-FCV:Diag*
-  - SI-10M1:PS-FCH:Diag*
-  - SI-10M1:PS-FCV:Diag*
-  - SI-10M2:PS-FCH:Diag*
-  - SI-10M2:PS-FCV:Diag*
-  - SI-10C2:PS-FCH:Diag*
-  - SI-10C2:PS-FCV:Diag*
-  - SI-10C3:PS-FCH:Diag*
-  - SI-10C3:PS-FCV:Diag*
-  - SI-11M1:PS-FCH:Diag*
-  - SI-11M1:PS-FCV:Diag*
-  - SI-11M2:PS-FCH:Diag*
-  - SI-11M2:PS-FCV:Diag*
-  - SI-11C2:PS-FCH:Diag*
-  - SI-11C2:PS-FCV:Diag*
-  - SI-11C3:PS-FCH:Diag*
-  - SI-11C3:PS-FCV:Diag*
-  - SI-12M1:PS-FCH:Diag*
-  - SI-12M1:PS-FCV:Diag*
-  - SI-12M2:PS-FCH:Diag*
-  - SI-12M2:PS-FCV:Diag*
-  - SI-12C2:PS-FCH:Diag*
-  - SI-12C2:PS-FCV:Diag*
-  - SI-12C3:PS-FCH:Diag*
-  - SI-12C3:PS-FCV:Diag*
-  - SI-13M1:PS-FCH:Diag*
-  - SI-13M1:PS-FCV:Diag*
-  - SI-13M2:PS-FCH:Diag*
-  - SI-13M2:PS-FCV:Diag*
-  - SI-13C2:PS-FCH:Diag*
-  - SI-13C2:PS-FCV:Diag*
-  - SI-13C3:PS-FCH:Diag*
-  - SI-13C3:PS-FCV:Diag*
-  - SI-14M1:PS-FCH:Diag*
-  - SI-14M1:PS-FCV:Diag*
-  - SI-14M2:PS-FCH:Diag*
-  - SI-14M2:PS-FCV:Diag*
-  - SI-14C2:PS-FCH:Diag*
-  - SI-14C2:PS-FCV:Diag*
-  - SI-14C3:PS-FCH:Diag*
-  - SI-14C3:PS-FCV:Diag*
-  - SI-15M1:PS-FCH:Diag*
-  - SI-15M1:PS-FCV:Diag*
-  - SI-15M2:PS-FCH:Diag*
-  - SI-15M2:PS-FCV:Diag*
-  - SI-15C2:PS-FCH:Diag*
-  - SI-15C2:PS-FCV:Diag*
-  - SI-15C3:PS-FCH:Diag*
-  - SI-15C3:PS-FCV:Diag*
-  - SI-16M1:PS-FCH:Diag*
-  - SI-16M1:PS-FCV:Diag*
-  - SI-16M2:PS-FCH:Diag*
-  - SI-16M2:PS-FCV:Diag*
-  - SI-16C2:PS-FCH:Diag*
-  - SI-16C2:PS-FCV:Diag*
-  - SI-16C3:PS-FCH:Diag*
-  - SI-16C3:PS-FCV:Diag*
-  - SI-17M1:PS-FCH:Diag*
-  - SI-17M1:PS-FCV:Diag*
-  - SI-17M2:PS-FCH:Diag*
-  - SI-17M2:PS-FCV:Diag*
-  - SI-17C2:PS-FCH:Diag*
-  - SI-17C2:PS-FCV:Diag*
-  - SI-17C3:PS-FCH:Diag*
-  - SI-17C3:PS-FCV:Diag*
-  - SI-18M1:PS-FCH:Diag*
-  - SI-18M1:PS-FCV:Diag*
-  - SI-18M2:PS-FCH:Diag*
-  - SI-18M2:PS-FCV:Diag*
-  - SI-18C2:PS-FCH:Diag*
-  - SI-18C2:PS-FCV:Diag*
-  - SI-18C3:PS-FCH:Diag*
-  - SI-18C3:PS-FCV:Diag*
-  - SI-19M1:PS-FCH:Diag*
-  - SI-19M1:PS-FCV:Diag*
-  - SI-19M2:PS-FCH:Diag*
-  - SI-19M2:PS-FCV:Diag*
-  - SI-19C2:PS-FCH:Diag*
-  - SI-19C2:PS-FCV:Diag*
-  - SI-19C3:PS-FCH:Diag*
-  - SI-19C3:PS-FCV:Diag*
-  - SI-20M1:PS-FCH:Diag*
-  - SI-20M1:PS-FCV:Diag*
-  - SI-20M2:PS-FCH:Diag*
-  - SI-20M2:PS-FCV:Diag*
-  - SI-20C2:PS-FCH:Diag*
-  - SI-20C2:PS-FCV:Diag*
-  - SI-20C3:PS-FCH:Diag*
-  - SI-20C3:PS-FCV:Diag*
-  - SI-22M1:PS-FCH:Diag*
-  - SI-22M1:PS-FCV:Diag*
-  - SI-22M2:PS-FCH:Diag*
-  - SI-22M2:PS-FCV:Diag*
-  - SI-22C2:PS-FCH:Diag*
-  - SI-22C2:PS-FCV:Diag*
-  - SI-22C3:PS-FCH:Diag*
-  - SI-22C3:PS-FCV:Diag*
-  - SI-99M1:PS-FCH:Diag*
-  - SI-99M1:PS-FCV:Diag*
-  - SI-99M2:PS-FCH:Diag*
-  - SI-99M2:PS-FCV:Diag*
-  - SI-99C2:PS-FCH:Diag*
-  - SI-99C2:PS-FCV:Diag*
-  - SI-99C3:PS-FCH:Diag*
-  - SI-99C3:PS-FCV:Diag*
-  - SI-01M1:PS-FCH:Diag*
-  - SI-01M1:PS-FCV:Diag*
+  - SI-01M2:PS-FCH:Diag
+  - SI-01M2:PS-FCV:Diag
+  - SI-01C2:PS-FCH:Diag
+  - SI-01C2:PS-FCV:Diag
+  - SI-01C3:PS-FCH:Diag
+  - SI-01C3:PS-FCV:Diag
+  - SI-02M1:PS-FCH:Diag
+  - SI-02M1:PS-FCV:Diag
+  - SI-02M2:PS-FCH:Diag
+  - SI-02M2:PS-FCV:Diag
+  - SI-02C2:PS-FCH:Diag
+  - SI-02C2:PS-FCV:Diag
+  - SI-02C3:PS-FCH:Diag
+  - SI-02C3:PS-FCV:Diag
+  - SI-03M1:PS-FCH:Diag
+  - SI-03M1:PS-FCV:Diag
+  - SI-03M2:PS-FCH:Diag
+  - SI-03M2:PS-FCV:Diag
+  - SI-03C2:PS-FCH:Diag
+  - SI-03C2:PS-FCV:Diag
+  - SI-03C3:PS-FCH:Diag
+  - SI-03C3:PS-FCV:Diag
+  - SI-04M1:PS-FCH:Diag
+  - SI-04M1:PS-FCV:Diag
+  - SI-04M2:PS-FCH:Diag
+  - SI-04M2:PS-FCV:Diag
+  - SI-04C2:PS-FCH:Diag
+  - SI-04C2:PS-FCV:Diag
+  - SI-04C3:PS-FCH:Diag
+  - SI-04C3:PS-FCV:Diag
+  - SI-05M1:PS-FCH:Diag
+  - SI-05M1:PS-FCV:Diag
+  - SI-05M2:PS-FCH:Diag
+  - SI-05M2:PS-FCV:Diag
+  - SI-05C2:PS-FCH:Diag
+  - SI-05C2:PS-FCV:Diag
+  - SI-05C3:PS-FCH:Diag
+  - SI-05C3:PS-FCV:Diag
+  - SI-06M1:PS-FCH:Diag
+  - SI-06M1:PS-FCV:Diag
+  - SI-06M2:PS-FCH:Diag
+  - SI-06M2:PS-FCV:Diag
+  - SI-06C2:PS-FCH:Diag
+  - SI-06C2:PS-FCV:Diag
+  - SI-06C3:PS-FCH:Diag
+  - SI-06C3:PS-FCV:Diag
+  - SI-07M1:PS-FCH:Diag
+  - SI-07M1:PS-FCV:Diag
+  - SI-07M2:PS-FCH:Diag
+  - SI-07M2:PS-FCV:Diag
+  - SI-07C2:PS-FCH:Diag
+  - SI-07C2:PS-FCV:Diag
+  - SI-07C3:PS-FCH:Diag
+  - SI-07C3:PS-FCV:Diag
+  - SI-08M1:PS-FCH:Diag
+  - SI-08M1:PS-FCV:Diag
+  - SI-08M2:PS-FCH:Diag
+  - SI-08M2:PS-FCV:Diag
+  - SI-08C2:PS-FCH:Diag
+  - SI-08C2:PS-FCV:Diag
+  - SI-08C3:PS-FCH:Diag
+  - SI-08C3:PS-FCV:Diag
+  - SI-09M1:PS-FCH:Diag
+  - SI-09M1:PS-FCV:Diag
+  - SI-09M2:PS-FCH:Diag
+  - SI-09M2:PS-FCV:Diag
+  - SI-09C2:PS-FCH:Diag
+  - SI-09C2:PS-FCV:Diag
+  - SI-09C3:PS-FCH:Diag
+  - SI-09C3:PS-FCV:Diag
+  - SI-10M1:PS-FCH:Diag
+  - SI-10M1:PS-FCV:Diag
+  - SI-10M2:PS-FCH:Diag
+  - SI-10M2:PS-FCV:Diag
+  - SI-10C2:PS-FCH:Diag
+  - SI-10C2:PS-FCV:Diag
+  - SI-10C3:PS-FCH:Diag
+  - SI-10C3:PS-FCV:Diag
+  - SI-11M1:PS-FCH:Diag
+  - SI-11M1:PS-FCV:Diag
+  - SI-11M2:PS-FCH:Diag
+  - SI-11M2:PS-FCV:Diag
+  - SI-11C2:PS-FCH:Diag
+  - SI-11C2:PS-FCV:Diag
+  - SI-11C3:PS-FCH:Diag
+  - SI-11C3:PS-FCV:Diag
+  - SI-12M1:PS-FCH:Diag
+  - SI-12M1:PS-FCV:Diag
+  - SI-12M2:PS-FCH:Diag
+  - SI-12M2:PS-FCV:Diag
+  - SI-12C2:PS-FCH:Diag
+  - SI-12C2:PS-FCV:Diag
+  - SI-12C3:PS-FCH:Diag
+  - SI-12C3:PS-FCV:Diag
+  - SI-13M1:PS-FCH:Diag
+  - SI-13M1:PS-FCV:Diag
+  - SI-13M2:PS-FCH:Diag
+  - SI-13M2:PS-FCV:Diag
+  - SI-13C2:PS-FCH:Diag
+  - SI-13C2:PS-FCV:Diag
+  - SI-13C3:PS-FCH:Diag
+  - SI-13C3:PS-FCV:Diag
+  - SI-14M1:PS-FCH:Diag
+  - SI-14M1:PS-FCV:Diag
+  - SI-14M2:PS-FCH:Diag
+  - SI-14M2:PS-FCV:Diag
+  - SI-14C2:PS-FCH:Diag
+  - SI-14C2:PS-FCV:Diag
+  - SI-14C3:PS-FCH:Diag
+  - SI-14C3:PS-FCV:Diag
+  - SI-15M1:PS-FCH:Diag
+  - SI-15M1:PS-FCV:Diag
+  - SI-15M2:PS-FCH:Diag
+  - SI-15M2:PS-FCV:Diag
+  - SI-15C2:PS-FCH:Diag
+  - SI-15C2:PS-FCV:Diag
+  - SI-15C3:PS-FCH:Diag
+  - SI-15C3:PS-FCV:Diag
+  - SI-16M1:PS-FCH:Diag
+  - SI-16M1:PS-FCV:Diag
+  - SI-16M2:PS-FCH:Diag
+  - SI-16M2:PS-FCV:Diag
+  - SI-16C2:PS-FCH:Diag
+  - SI-16C2:PS-FCV:Diag
+  - SI-16C3:PS-FCH:Diag
+  - SI-16C3:PS-FCV:Diag
+  - SI-17M1:PS-FCH:Diag
+  - SI-17M1:PS-FCV:Diag
+  - SI-17M2:PS-FCH:Diag
+  - SI-17M2:PS-FCV:Diag
+  - SI-17C2:PS-FCH:Diag
+  - SI-17C2:PS-FCV:Diag
+  - SI-17C3:PS-FCH:Diag
+  - SI-17C3:PS-FCV:Diag
+  - SI-18M1:PS-FCH:Diag
+  - SI-18M1:PS-FCV:Diag
+  - SI-18M2:PS-FCH:Diag
+  - SI-18M2:PS-FCV:Diag
+  - SI-18C2:PS-FCH:Diag
+  - SI-18C2:PS-FCV:Diag
+  - SI-18C3:PS-FCH:Diag
+  - SI-18C3:PS-FCV:Diag
+  - SI-19M1:PS-FCH:Diag
+  - SI-19M1:PS-FCV:Diag
+  - SI-19M2:PS-FCH:Diag
+  - SI-19M2:PS-FCV:Diag
+  - SI-19C2:PS-FCH:Diag
+  - SI-19C2:PS-FCV:Diag
+  - SI-19C3:PS-FCH:Diag
+  - SI-19C3:PS-FCV:Diag
+  - SI-20M1:PS-FCH:Diag
+  - SI-20M1:PS-FCV:Diag
+  - SI-20M2:PS-FCH:Diag
+  - SI-20M2:PS-FCV:Diag
+  - SI-20C2:PS-FCH:Diag
+  - SI-20C2:PS-FCV:Diag
+  - SI-20C3:PS-FCH:Diag
+  - SI-20C3:PS-FCV:Diag
+  - SI-22M1:PS-FCH:Diag
+  - SI-22M1:PS-FCV:Diag
+  - SI-22M2:PS-FCH:Diag
+  - SI-22M2:PS-FCV:Diag
+  - SI-22C2:PS-FCH:Diag
+  - SI-22C2:PS-FCV:Diag
+  - SI-22C3:PS-FCH:Diag
+  - SI-22C3:PS-FCV:Diag
+  - SI-99M1:PS-FCH:Diag
+  - SI-99M1:PS-FCV:Diag
+  - SI-99M2:PS-FCH:Diag
+  - SI-99M2:PS-FCV:Diag
+  - SI-99C2:PS-FCH:Diag
+  - SI-99C2:PS-FCV:Diag
+  - SI-99C3:PS-FCH:Diag
+  - SI-99C3:PS-FCV:Diag
+  - SI-01M1:PS-FCH:Diag
+  - SI-01M1:PS-FCV:Diag
 
 facs-it-ps_lens:
   as-ps IT-Ra:CO-PSCtrl:
