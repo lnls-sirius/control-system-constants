@@ -785,10 +785,6 @@ facs-ts-ps_corrs:
   - TS-04:PS-CV-1E2:Diag
   - TS-04:PS-CV-2:Diag
 
-facs-si-ap-bl:
-  si-ap-manaca:
-  - SI-09SABL:AP-Manaca-MVS2
-
 facs-si-ap-fofb:
   si-ap-fofb:
   - SI-Glob:AP-FOFB
@@ -2912,4 +2908,3 @@ facs-it-ps_lens:
   - IT-Ra:PS-Lens-1
   - IT-Ra:PS-Lens-2
   - IT-Ra:PS-Lens-3
-
