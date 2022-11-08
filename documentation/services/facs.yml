@@ -1620,6 +1620,22 @@ facs-si-ps_corrs-c134-ia20:
   - SI-20C4:PS-CH:Diag
   - SI-20C4:PS-CV:Diag
 
+facs-si-ps_corrs-qs-sb-ia10:
+  as-ps IA-10RaCtrl:CO-PSCtrl-SI5:
+  - SI-10SB:PS-CH-1
+  - SI-10SB:PS-CH-2
+  - SI-10SB:PS-CV-1
+  - SI-10SB:PS-CV-2
+  - SI-10SB:PS-QS-1
+  - SI-10SB:PS-QS-2
+  as-ps-diag SI "10SB" "(CH|CV|QS).*":
+  - SI-10SB:PS-CH-1:Diag
+  - SI-10SB:PS-CH-2:Diag
+  - SI-10SB:PS-CV-1:Diag
+  - SI-10SB:PS-CV-2:Diag
+  - SI-10SB:PS-QS-1:Diag
+  - SI-10SB:PS-QS-2:Diag
+
 facs-si-ps_trims-qs-m12-ia01:
   as-ps IA-01RaCtrl:CO-PSCtrl-SI1:
   - SI-01M2:PS-QFA
