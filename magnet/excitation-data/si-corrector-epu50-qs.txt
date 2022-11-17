@@ -1,19 +1,35 @@
 # HEADER
 # ======
 # label             si-corrector-epu50-qs
-# harmonics         1 5 9 13
+# harmonics         1 5 9
 # main_harmonic     1 skew
 # rescaling_factor  1.0
-# units             Ampere  T T  T/m^4 T/m^4  T/m^8 T/m^8  T/m^12 T/m^12
+# units             Ampere  T T  T/m^4 T/m^4  T/m^8 T/m^8
 
 # EXCITATION DATA
 # ===============
--003.000  +0.0000e+00 -1.0567e-01  +0.0000e+00 -3.3994e+05  +0.0000e+00 +7.6178e+12  +0.0000e+00 -2.1988e+20
-+003.000  +0.0000e+00 +1.0567e-01  +0.0000e+00 +3.3994e+05  +0.0000e+00 -7.6178e+12  +0.0000e+00 +2.1988e+20
+-0010.0000  -5.3688e-04 -9.5032e-02  +4.9707e+02 -3.2581e+04  +9.0950e+09 +6.6472e+10
+-0008.0000  -4.2823e-04 -7.6027e-02  +3.8830e+02 -2.6002e+04  +8.0716e+09 +5.2567e+10
+-0006.0000  -3.2102e-04 -5.7021e-02  +2.8892e+02 -1.9464e+04  +6.2464e+09 +3.8753e+10
+-0004.0000  -2.1431e-04 -3.8014e-02  +1.9342e+02 -1.2959e+04  +4.0872e+09 +2.5333e+10
+-0002.0000  -1.0743e-04 -1.9007e-02  +9.7890e+01 -6.4745e+03  +1.9342e+09 +1.2433e+10
++0000.0000  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
++0002.0000  +1.0809e-04 +1.9006e-02  -1.0099e+02 +6.4770e+03  -1.6304e+09 -1.2199e+10
++0004.0000  +2.1668e-04 +3.8012e-02  -2.0424e+02 +1.2969e+04  -2.9998e+09 -2.4575e+10
++0006.0000  +3.2530e-04 +5.7018e-02  -3.0731e+02 +1.9490e+04  -4.2784e+09 -3.7716e+10
++0008.0000  +4.3324e-04 +7.6023e-02  -4.0618e+02 +2.6055e+04  -5.7643e+09 -5.2391e+10
++0010.0000  +5.3949e-04 +9.5029e-02  -4.9525e+02 +3.2677e+04  -7.8829e+09 -6.9546e+10
 
 # COMMENTS
 # ========
-# 1. tables needs to be updated with measurement!
+# 1. file generated automatically from rotating coil measurement data
+# 2. timestamp: 2022-11-17-17:05:54.049
+# 3. magnet_type_label: FFC
+# 4. magnet_serial_number: 01,02
+# 5. data_set: QS
+# 6. data was fit with a polynomial of order 4 and remanent/ambient field subtracted.
+# 7. data in https://github.com/lnls-ima/id-sabia/tree/master/feedforward-correctors/model-03/measurement/magnetic/rotcoil
+# 8. script https://github.com/lnls-ima/id-sabia/tree/master/feedforward-correctors/model-03/measurement/magnetic/rotcoil/excdata.py
 
 # POLARITY TABLE
 # ==============

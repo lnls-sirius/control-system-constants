@@ -1,19 +1,35 @@
 # HEADER
 # ======
 # label             si-corrector-epu50-cv
-# harmonics         0
-# main_harmonic     0 normal
+# harmonics         0 2 4
+# main_harmonic     0 skew
 # rescaling_factor  1.0
-# units             Ampere  T*m T*m
+# units             Ampere  T.m T.m  T/m T/m  T/m^3 T/m^3
 
 # EXCITATION DATA
 # ===============
--005.000   -1.8316e-03 +0.0000e+00
-+005.000   +1.8316e-03 +0.0000e+00
+-0010.0000  -1.1989e-06 +5.0096e-04  +4.5168e-03 +5.0232e-01  +3.7716e+00 +3.2425e+02
+-0008.0000  -9.3970e-07 +4.0086e-04  +3.6779e-03 +4.0200e-01  +3.2693e+00 +2.5919e+02
+-0006.0000  -7.0495e-07 +3.0070e-04  +2.7836e-03 +3.0156e-01  +2.5168e+00 +1.9414e+02
+-0004.0000  -4.7747e-07 +2.0049e-04  +1.8607e-03 +2.0105e-01  +1.6632e+00 +1.2924e+02
+-0002.0000  -2.4497e-07 +1.0025e-04  +9.2865e-04 +1.0052e-01  +8.0775e-01 +6.4534e+01
++0000.0000  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00
++0002.0000  +2.6005e-07 -1.0025e-04  -9.1977e-04 -1.0050e-01  -7.6026e-01 -6.4438e+01
++0004.0000  +5.3293e-07 -2.0047e-04  -1.8322e-03 -2.0097e-01  -1.5230e+00 -1.2892e+02
++0006.0000  +8.1153e-07 -3.0067e-04  -2.7460e-03 -3.0142e-01  -2.3881e+00 -1.9367e+02
++0008.0000  +1.0839e-06 -4.0083e-04  -3.6767e-03 -4.0189e-01  -3.5050e+00 -2.5895e+02
++0010.0000  +1.3333e-06 -5.0095e-04  -4.6470e-03 -5.0241e-01  -5.0731e+00 -3.2511e+02
 
 # COMMENTS
 # ========
-# 1. tables needs to be updated with measurement!
+# 1. file generated automatically from rotating coil measurement data
+# 2. timestamp: 2022-11-17-17:05:53.685
+# 3. magnet_type_label: FFC
+# 4. magnet_serial_number: 01,02
+# 5. data_set: CV
+# 6. data was fit with a polynomial of order 4 and remanent/ambient field subtracted.
+# 7. data in https://github.com/lnls-ima/id-sabia/tree/master/feedforward-correctors/model-03/measurement/magnetic/rotcoil
+# 8. script https://github.com/lnls-ima/id-sabia/tree/master/feedforward-correctors/model-03/measurement/magnetic/rotcoil/excdata.py
 
 # POLARITY TABLE
 # ==============
