@@ -795,10 +795,12 @@ facs-si-id_conv:
   - SI-07SP:ID-APU22:Kx
   - SI-08SB:ID-APU22:Kx
   - SI-09SA:ID-APU22:Kx
+  - SI-10SB:ID-EPU50:Kx
   - SI-11SP:ID-APU58:Kx
 
 facs-si-id_epu50:
-  si-id-epu50: []
+  si-id-epu50:
+  - SI-10SB:ID-EPU50
 
 facs-si-ap-sofb:
   si-ap-sofb:
