@@ -1,0 +1,74 @@
+# HEADER
+# ======
+# label             si-quadrupole-q14-qdb1-trim
+# harmonics         0 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+# main_harmonic     1 normal
+# rescaling_factor  1.0
+# units             Ampere  T*m T*m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3  T/m^4 T/m^4  T/m^5 T/m^5  T/m^6 T/m^6  T/m^7 T/m^7  T/m^8 T/m^8  T/m^9 T/m^9  T/m^10 T/m^10  T/m^11 T/m^11  T/m^12 T/m^12  T/m^13 T/m^13
+
+# EXCITATION DATA
+# ===============
+-010.0000 +5.8568e-06 +2.0070e-06  -4.8697e-01 +3.1267e-04  +3.2158e-03 +3.4851e-03  -3.9630e-01 -2.9150e-01  +5.4398e+00 -9.6040e+00  +1.4301e+04 +4.5328e+01  +3.4175e+04 -2.5746e+04  -1.5376e+05 +2.3844e+06  +2.1107e+08 +3.4078e+08  -1.8220e+12 +1.0668e+10  -4.4013e+11 +2.5563e+11  -4.1987e+13 -3.1464e+13  -4.3483e+15 -9.5513e+15  +3.9592e+19 -5.2640e+17  +2.1912e+19 +1.8406e+19
++000.0000 -0.0000e+00 -0.0000e+00  +0.0000e+00 -0.0000e+00  -0.0000e+00 -0.0000e+00  +0.0000e+00 +0.0000e+00  -0.0000e+00 +0.0000e+00  -0.0000e+00 -0.0000e+00  -0.0000e+00 +0.0000e+00  +0.0000e+00 -0.0000e+00  -0.0000e+00 -0.0000e+00  +0.0000e+00 -0.0000e+00  +0.0000e+00 -0.0000e+00  +0.0000e+00 +0.0000e+00  +0.0000e+00 +0.0000e+00  -0.0000e+00 +0.0000e+00  -0.0000e+00 -0.0000e+00
++010.0000 -5.8568e-06 -2.0070e-06  +4.8697e-01 -3.1267e-04  -3.2158e-03 -3.4851e-03  +3.9630e-01 +2.9150e-01  -5.4398e+00 +9.6040e+00  -1.4301e+04 -4.5328e+01  -3.4175e+04 +2.5746e+04  +1.5376e+05 -2.3844e+06  -2.1107e+08 -3.4078e+08  +1.8220e+12 -1.0668e+10  +4.4013e+11 -2.5563e+11  +4.1987e+13 +3.1464e+13  +4.3483e+15 +9.5513e+15  -3.9592e+19 +5.2640e+17  -2.1912e+19 -1.8406e+19
+
+# COMMENTS
+# ========
+# 1. generated automatically with "excdata.py"
+# 2. data interpolated linearly from rotcoil measurements
+# 3. measurement performed with 80A on main coil
+# 4. measurement procedure: 0A -> 10A, 10A -> -10A and -10A -> 0A.
+# 5. average excitation curves for magnets:
+#    Q14-003
+
+# POLARITY TABLE
+# ==============
+#
+# Magnet function         | IntStrength(1) | IntField(2) | ConvSign(3) | Current(4)
+# ------------------------|----------------|-------------|-------------|-----------
+# dipole                  | Angle > 0      | BYL  < 0    | -1.0        | I > 0
+# corrector-horizontal    | HKick > 0      | BYL  > 0    | +1.0        | I > 0
+# corrector-vertical      | VKick > 0      | BXL  < 0    | -1.0        | I > 0
+# quadrupole (focusing)   | KL    > 0      | D1NL < 0    | -1.0        | I > 0
+# quadrupole (defocusing) | KL    < 0      | D1NL > 0    | -1.0        | I > 0
+# quadrupole (skew)       | KL    < 0      | D1SL > 0    | -1.0        | I > 0
+# sextupole  (focusing)   | SL    > 0      | D2NL < 0    | -1.0        | I > 0
+# sextupole  (defocusing) | SL    < 0      | D2NL > 0    | -1.0        | I > 0
+#
+# Defs:
+# ----
+# BYL   := \int{dz By|_{x=y=0}}.
+# BXL   := \int{dz Bx|_{x=y=0}}.
+# D1NL  := \int{dz \frac{dBy}{dx}_{x=y=0}}
+# D2NL  := (1/2!) \int{dz \frac{d^2By}{dx^2}_{x=y=0}}
+# D1SL  := \int{dz \frac{dBx}{dx}_{x=y=0}}
+# Brho  := magnetic rigidity.
+# Angle := ConvSign * BYL / abs(Brho)
+# HKick := ConvSign * BYL / abs(Brho)
+# VKick := ConvSign * BXL / abs(Brho)
+# KL    := ConvSign * D1NL / abs(Brho)
+# KL    := ConvSign * D1SL / abs(Brho)
+# SL    := ConvSign * D2NL / abs(Brho)
+#
+# Obs:
+# ---
+# (1) Parameter definition.
+#     IntStrength values correspond to integrated PolynomA and PolynomB parameters
+#     of usual beam tracking codes, with the exception that VKick has its sign
+#     reversed with respecto to its corresponding value in PolynomA.
+# (2) Sirius coordinate system and Lorentz force.
+# (3) Conversion sign for IntField <-> IntStrength
+# (4) Convention of magnet excitation polarity, so that when I > 0 the strength
+#     of the magnet has the expected conventional sign.
+
+# STATIC DATA FILE FORMAT
+# =======================
+#
+# These static data files should comply with the following formatting rules:
+# 1. If the first alphanumeric character of the line is not the pound sign
+#    then the lines is a comment.
+# 2. If the first alphanumeric character is "#" then if
+#    a) it is followed by "[<parameter>] <value>" a parameter names <parameter>
+#       is define with value <value>. if the string <value> has spaces in it
+#       it is split as a list of strings.
+#    b) otherwise the line is ignored as a comment line.

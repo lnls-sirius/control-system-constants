@@ -167,23 +167,23 @@ SI-Fam:PS-Q2            Sine                 3          0.1          80.0       
 SI-Fam:PS-Q3            Sine                 3          0.1          60.0            60.0         270.0            270.0            0.0               0.0
 SI-Fam:PS-Q4            Sine                 3          0.1          75.0            75.0         270.0            270.0            0.0               0.0
 SI-Fam:PS-SFA0          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
-SI-Fam:PS-SDA0          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
-SI-Fam:PS-SFB0          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
-SI-Fam:PS-SDB0          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
-SI-Fam:PS-SFP0          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
-SI-Fam:PS-SDP0          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
 SI-Fam:PS-SFA1          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
 SI-Fam:PS-SFA2          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
+SI-Fam:PS-SFB0          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
+SI-Fam:PS-SFB1          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
+SI-Fam:PS-SFB2          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
+SI-Fam:PS-SFP0          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
+SI-Fam:PS-SFP1          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
+SI-Fam:PS-SFP2          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
+SI-Fam:PS-SDA0          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
 SI-Fam:PS-SDA1          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
 SI-Fam:PS-SDA2          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
 SI-Fam:PS-SDA3          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
-SI-Fam:PS-SFB1          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
-SI-Fam:PS-SFB2          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
+SI-Fam:PS-SDB0          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
 SI-Fam:PS-SDB1          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
 SI-Fam:PS-SDB2          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
 SI-Fam:PS-SDB3          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
-SI-Fam:PS-SFP1          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
-SI-Fam:PS-SFP2          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
+SI-Fam:PS-SDP0          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
 SI-Fam:PS-SDP1          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
 SI-Fam:PS-SDP2          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
 SI-Fam:PS-SDP3          Sine                 3          0.1          80.0            80.0         270.0            270.0            0.0               0.0
@@ -1024,6 +1024,18 @@ SI-20C3:PS-FCV          DampedSine    15          1.0                   10.0    
 SI-01M1:PS-FCH          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 SI-01M1:PS-FCV          DampedSine    15          1.0                   10.0            0.0           0.0                    0.0                      6.0                     0.0
 
+# --- individual power supplies (ID correctors) ---
+
+# PSNAME                TYPE          NR_CYCLES  FREQ[Hz]    AMPLITUDE[A]    OFFSET[A]     PARAM0:Beg[deg]  PARAM1:End[deg]  PARAM2:Tau[s]     PARAM3:<NOT_USED>
+
+SI-10SB:PS-CH-1         DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
+SI-10SB:PS-CV-1         DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
+SI-10SB:PS-CH-2         DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
+SI-10SB:PS-CV-2         DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
+SI-10SB:PS-QS-1         DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
+SI-10SB:PS-QS-2         DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
+SI-14SB:PS-CH-1         DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
+SI-14SB:PS-CH-2         DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
 
 # === LI ===
 
@@ -1090,3 +1102,14 @@ TS-01:PU-EjeSeptG       Sine          1           0.0                   0.0     
 TS-04:PU-InjSeptF       Sine          1           0.0                   0.0             0.0           0.0                    0.0                      0.0                     0.0
 TS-04:PU-InjSeptG-1     Sine          1           0.0                   0.0             0.0           0.0                    0.0                      0.0                     0.0
 TS-04:PU-InjSeptG-2     Sine          1           0.0                   0.0             0.0           0.0                    0.0                      0.0                     0.0
+
+
+# === IT ===
+
+# --- individual power supplies (lens) ---
+
+# PSNAME                TYPE                 NR_CYCLES  FREQ[Hz]    AMPLITUDE[A]    OFFSET[A]     PARAM0:Beg[deg]  PARAM1:End[deg]  PARAM2:Tau[s]     PARAM3:<NOT_USED>
+
+IT-Ra:PS-Lens-1         DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+IT-Ra:PS-Lens-2         DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+IT-Ra:PS-Lens-3         DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0

@@ -1,5 +1,5 @@
 # List of power supplies of type bo-dclink-fac-2s
 # =============================================
 
-PA-RaPSC03:PS-DCLink-BO1
-PA-RaPSC03:PS-DCLink-BO2
+PA-RaPSC01:PS-DCLink-BO
+PA-RaPSC02:PS-DCLink-BO

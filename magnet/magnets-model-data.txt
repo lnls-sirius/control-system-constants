@@ -609,6 +609,12 @@ SI-10C4:MA-SDP1            252.5821
 SI-10C4:MA-SDP2            251.0521
 SI-10C4:MA-SFP1            251.8021
 SI-10BC:MA-BC              246.2381
+SI-10SB:MA-CH-1            231.6226
+SI-10SB:MA-CV-1            231.6226
+SI-10SB:MA-CH-2            234.9283
+SI-10SB:MA-CV-2            234.9283
+SI-10SB:MA-QS-1            231.1606
+SI-10SB:MA-QS-2            235.3903
 SI-11M1:MA-CH              255.5701
 SI-11M1:MA-CV              255.5701
 SI-11M1:MA-FCH             255.7361
@@ -847,6 +853,8 @@ SI-14C4:MA-SDP1            356.2613
 SI-14C4:MA-SDP2            354.7313
 SI-14C4:MA-SFP1            355.4813
 SI-14BC:MA-BC              349.9173
+SI-14SB:MA-CH-1            335.3681
+SI-14SB:MA-CH-2            338.5381
 SI-15M1:MA-CH              359.2493
 SI-15M1:MA-CV              359.2493
 SI-15M1:MA-FCH             359.4153
