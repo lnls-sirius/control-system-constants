@@ -100,7 +100,7 @@
 # import scipy.interpolate as interp
 # import matplotlib.pyplot as plt
 # import numpy as np
-# 
+#
 # ffwd_table = {
 #     # NOTE: measurements from folder '2022-09-20-SI_wiggler_corr_fw_table',
 #     # where at each gap we measured the orbit distortion relative to
@@ -122,7 +122,7 @@
 #     250.00: (-0.35498669743537903, 0.4352816045284271),
 #     300.00: (0, 0),
 #     }
-# 
+#
 # def interp_ffwd_table():
 #     """."""
 #     gaps = list(ffwd_table.keys())
@@ -132,7 +132,7 @@
 #     tck_ch1 = interp.splrep(gaps, ch1_kicks)
 #     tck_ch2 = interp.splrep(gaps, ch2_kicks)
 #     return gaps, ch1_kicks, ch2_kicks, tck_ch1, tck_ch2
-# 
+#
 # def plot_ffwd_table(*args, nrpts):
 #     """."""
 #     gaps, ch1, ch2, tck_ch1, tck_ch2 = args
@@ -142,20 +142,20 @@
 #     gaps_interp = np.linspace(min(gaps), max(gaps), nrpts)
 #     ch1_interp = interp.splev(gaps_interp, tck_ch1)
 #     ch2_interp = interp.splev(gaps_interp, tck_ch2)
-# 
+#
 #     zero = 0
-#     
+#
 #     # excdata for CH-1
 #     print('-- CH-1 --')
 #     for gap, ch1 in zip(gaps_interp, ch1_interp):
 #         print(f'{gap:06.2f}  {ch1:+.6e} {zero:+.6e}')
 #     print()
-# 
+#
 #     # excdata for CH2
 #     print('-- CH-2 --')
 #     for gap, ch2 in zip(gaps_interp, ch2_interp):
 #         print(f'{gap:06.2f}  {ch2:+.6e} {zero:+.6e}')
-# 
+#
 #     plt.plot(gaps_interp, ch1_interp, '-')
 #     plt.plot(gaps_interp, ch2_interp, '-')
 #     plt.legend(frameon=False, fontsize=16)
@@ -163,7 +163,7 @@
 #     plt.ylabel('corrector current [A]', fontsize=16)
 #     plt.tight_layout()
 #     plt.show()
-# 
+#
 # def run():
 #     """."""
 #     vals = interp_ffwd_table()
