@@ -1,0 +1,25 @@
+<p><span style="font-size:16px"><strong>SIRIUS ConfigDB Service</strong></span></p>
+
+<p>&nbsp;</p>
+
+<p>It is service for saving and restoring SIRIUS control system configurations based on Mongo backend database and a Flask/nginx-uwsgi frontend.</p>
+
+<p>The source code is located at <a href="https://github.com/lnls-sirius/docker-config-db">https://github.com/lnls-sirius/docker-config-db</a></p>
+
+<p>There is a python package implemented to interact with this servive: <a href="https://github.com/lnls-sirius/dev-packages/tree/master/siriuspy/siriuspy/clientconfigdb">https://github.com/lnls-sirius/dev-packages/tree/master/siriuspy/siriuspy/clientconfigdb</a></p>
+
+<p>Currently an instance of the service runs at <a href="http://10.0.38.42/config-db">http://10.0.38.42/config-db</a></p>
+
+<p>Examples of implemented frontend routes:</p>
+
+<ol>
+	<li>Current services stats: <a href="http://10.0.38.42/config-db/stats">http://10.0.38.42/config-db/stats</a></li>
+	<li>List of currently defined&nbsp; configuration types (default route): <a href="http://10.0.38.42/config-db/configs">http://10.0.38.42/config-db/configs</a></li>
+	<li>List of currently saved configurations of a certain type (&quot;global_config&quot;, in this example): <a href="http://10.0.38.42/config-db/configs/global_config">http://10.0.38.42/config-db/configs/global_config</a></li>
+	<li>List of currently discarded configurations of a certain type (&quot;global_config&quot;, in this example): <a href="http://10.0.38.42/config-db/configs/discarded/global_config">http://10.0.38.42/config-db/configs/discarded/global_config</a></li>
+	<li>Get configuration of a certain type (&quot;global_config&quot; here) by its name (&quot;Temp2&quot;, in this example): <a href="http://10.0.38.42/config-db/configs/global_config/Temp2">http://10.0.38.42/config-db/configs/global_config/Temp2</a></li>
+</ol>
+
+<p>If the configuration type or the configuration name has a special character (&#39;(&#39;, &#39;)&#39;, &#39; &#39;, and so on...) the URL need to be encoded. The following online service can be used: <a href="https://www.urlencoder.org/">https://www.urlencoder.org/</a></p>
+
+<p>PS: this HTML file was created with the following online html WYSIWYG editor: <a href="https://onlinehtmleditor.dev/">https://onlinehtmleditor.dev/</a></p>

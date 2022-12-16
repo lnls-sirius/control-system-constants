@@ -1,0 +1,6 @@
+# List of power supplies of type si-sextupole-s15-sdb3-fam
+# ========================================================
+
+# number of power supplies: 1
+
+SI-Fam:PS-SDB3
