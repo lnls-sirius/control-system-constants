@@ -95,7 +95,7 @@
 # 1. Script used to generate table (by Murilo B. Alves):
 #
 # #!/usr/bin/env python-sirius
-# 
+#
 # """."""
 # import scipy.interpolate as interp
 # import matplotlib.pyplot as plt
@@ -168,6 +168,6 @@
 #     """."""
 #     vals = interp_ffwd_table()
 #     plot_ffwd_table(*vals, nrpts=80)
-# 
+#
 # if __name__ == "__main__":
 #     run()
