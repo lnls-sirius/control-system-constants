@@ -100,6 +100,8 @@
             'SI-09C3:PS-CV-2:BCKPLN',
             'SI-09C4:PS-CH:BCKPLN', 'SI-09C4:PS-CV:BCKPLN',
 
+            'SI-10SB:PS-CH-1:BCKPLN', 'SI-10SB:PS-CH-2:BCKPLN',
+            'SI-10SB:PS-CV-1:BCKPLN', 'SI-10SB:PS-CV-2:BCKPLN',
             'SI-10M1:PS-CH:BCKPLN', 'SI-10M1:PS-CV:BCKPLN',
             'SI-10M2:PS-CH:BCKPLN', 'SI-10M2:PS-CV:BCKPLN',
             'SI-10C1:PS-CH:BCKPLN', 'SI-10C1:PS-CV:BCKPLN',
@@ -476,6 +478,8 @@
             'SI-09C2:PS-QS:BCKPLN',
             'SI-09C3:PS-QS:BCKPLN',
 
+            'SI-10SB:PS-QS-1:BCKPLN',
+            'SI-10SB:PS-QS-2:BCKPLN',
             'SI-10M1:PS-QS:BCKPLN',
             'SI-10M2:PS-QS:BCKPLN',
             'SI-10C1:PS-QS:BCKPLN',

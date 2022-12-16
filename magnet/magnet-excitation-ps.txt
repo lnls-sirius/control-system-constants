@@ -1013,6 +1013,12 @@ SI-19C3:MA-FCV               SI-19C3:PS-FCV
 SI-20C3:MA-FCV               SI-20C3:PS-FCV
 
 # --- ID correctors ---
+SI-10SB:MA-CH-1              SI-10SB:PS-CH-1
+SI-10SB:MA-CH-2              SI-10SB:PS-CH-2
+SI-10SB:MA-CV-1              SI-10SB:PS-CV-1
+SI-10SB:MA-CV-2              SI-10SB:PS-CV-2
+SI-10SB:MA-QS-1              SI-10SB:PS-QS-1
+SI-10SB:MA-QS-2              SI-10SB:PS-QS-2
 SI-14SB:MA-CH-1              SI-14SB:PS-CH-1
 SI-14SB:MA-CH-2              SI-14SB:PS-CH-2
 
@@ -1278,6 +1284,7 @@ SI-06SB:ID-APU22                SI-06SB:ID-APU22
 SI-07SP:ID-APU22                SI-07SP:ID-APU22
 SI-08SB:ID-APU22                SI-08SB:ID-APU22
 SI-09SA:ID-APU22                SI-09SA:ID-APU22
+SI-10SB:ID-EPU50                SI-10SB:ID-EPU50
 SI-11SP:ID-APU58                SI-11SP:ID-APU58
 
 
