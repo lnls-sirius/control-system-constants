@@ -1,0 +1,4 @@
+# List of EPU50 Insertion devices
+# ===============================
+
+SI-10SB:ID-EPU50
