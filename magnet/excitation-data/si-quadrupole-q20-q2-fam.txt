@@ -3,7 +3,7 @@
 # label             si-quadrupole-q20-q2-fam
 # harmonics         0 1 2 3 4 5 6 7 8 9 10 11 12 13 14
 # main_harmonic     1 normal
-# rescaling factor  1.00268
+# rescaling_factor  1.00268
 # units             Ampere  T*m T*m  T T  T/m T/m  T/m^2 T/m^2  T/m^3 T/m^3  T/m^4 T/m^4  T/m^5 T/m^5  T/m^6 T/m^6  T/m^7 T/m^7  T/m^8 T/m^8  T/m^9 T/m^9  T/m^10 T/m^10  T/m^11 T/m^11  T/m^12 T/m^12  T/m^13 T/m^13
 
 # EXCITATION DATA
