@@ -96,6 +96,7 @@ LA-RaCtrl:CO-PSCtrl-TB2    5.0
 #IA-12RaCtrl:CO-PSCtrl-SI1  5.0
 #IA-13RaCtrl:CO-PSCtrl-SI1  5.0
 #IA-14RaCtrl:CO-PSCtrl-SI1  5.0
+#IA-14RaCtrl:CO-PSCtrl-WIG  5.0
 #IA-15RaCtrl:CO-PSCtrl-SI1  5.0
 #IA-16RaCtrl:CO-PSCtrl-SI1  5.0
 #IA-17RaCtrl:CO-PSCtrl-SI1  5.0
