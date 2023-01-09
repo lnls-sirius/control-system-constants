@@ -1,7 +1,7 @@
 # The file is generated with script
 # https://github.com/lnls-sirius/scripts/blob/master/bin/sirius-script-ps-devices.py
 # using argument "--ascii"
-# last update: 2022-11-08
+# last update: 2023-01-09
 
 BeagleBones
 |-- IA-01RaCtrl:CO-DCLinkCtrl  [10.128.101.104]
@@ -1228,15 +1228,10 @@ BeagleBones
 |   |   |   +-- IA-14RaPS01:PS-DCLink-AS
 |   |   +-- SI-15M1:PS-QDP2  (6)
 |   |       +-- IA-14RaPS01:PS-DCLink-AS
-|   |-- IA-14RaPS01:PS-UDC-SI3  (FBP)
-|   |   |-- SI-14M1:PS-QS  (7)
-|   |   |   +-- IA-14RaPS01:PS-DCLink-AS
-|   |   +-- SI-14M2:PS-QS  (8)
-|   |       +-- IA-14RaPS01:PS-DCLink-AS
-|   +-- IA-14RaPS01:PS-UDC-SI6  (FBP)
-|       |-- SI-14SB:PS-CH-1  (9)
+|   +-- IA-14RaPS01:PS-UDC-SI3  (FBP)
+|       |-- SI-14M1:PS-QS  (7)
 |       |   +-- IA-14RaPS01:PS-DCLink-AS
-|       +-- SI-14SB:PS-CH-2  (10)
+|       +-- SI-14M2:PS-QS  (8)
 |           +-- IA-14RaPS01:PS-DCLink-AS
 |-- IA-14RaCtrl:CO-PSCtrl-SI2  [10.128.114.122]
 |   |-- IA-14RaPS01:PS-UDC-SI4  (FBP)
@@ -1298,6 +1293,12 @@ BeagleBones
 |       |   +-- IA-14RaPS02:PS-DCLink-SI
 |       +-- SI-14C3:PS-CV-2  (7)
 |           +-- IA-14RaPS02:PS-DCLink-SI
+|-- IA-14RaCtrl:CO-PSCtrl-WIG  [10.128.114.121]
+|   +-- IA-14RaPS01:PS-UDC-SI6  (FBP)
+|       |-- SI-14SB:PS-CH-1  (9)
+|       |   +-- IA-14RaPS01:PS-DCLink-AS
+|       +-- SI-14SB:PS-CH-2  (10)
+|           +-- IA-14RaPS01:PS-DCLink-AS
 |-- IA-15RaCtrl:CO-DCLinkCtrl  [10.128.115.104]
 |   |-- IA-15RaPS01:PS-UDC-SI6  (FBP_DCLink)
 |   |   +-- IA-15RaPS01:PS-DCLink-SI  (1)

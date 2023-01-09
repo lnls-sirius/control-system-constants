@@ -1640,6 +1640,14 @@ facs-si-ps_corrs-qs-sb-ia10:
   - SI-10SB:PS-QS-1:Diag
   - SI-10SB:PS-QS-2:Diag
 
+facs-si-ps_corrs-sb-ia14:
+  as-ps IA-14RaCtrl:CO-PSCtrl-WIG:
+  - SI-14SB:PS-CH-1
+  - SI-14SB:PS-CH-2
+  as-ps-diag SI "14SB" "C(H|V)":
+  - SI-14SB:PS-CH-1:Diag
+  - SI-14SB:PS-CH-2:Diag
+
 facs-si-ps_trims-qs-m12-ia01:
   as-ps IA-01RaCtrl:CO-PSCtrl-SI1:
   - SI-01M2:PS-QFA
@@ -1909,8 +1917,6 @@ facs-si-ps_trims-qs-m12-ia14:
   - SI-15M1:PS-QDP2
   - SI-14M1:PS-QS
   - SI-14M2:PS-QS
-  - SI-14SB:PS-CH-1
-  - SI-14SB:PS-CH-2
   as-ps-diag SI "(14M1|14M2)" "QS":
   - SI-14M1:PS-QS:Diag
   - SI-14M2:PS-QS:Diag
@@ -1921,9 +1927,6 @@ facs-si-ps_trims-qs-m12-ia14:
   - SI-15M1:PS-QDP1:Diag
   - SI-15M1:PS-QDP2:Diag
   - SI-15M1:PS-QFP:Diag
-  as-ps-diag SI "14SB" "C(H|V)":
-  - SI-14SB:PS-CH-1:Diag
-  - SI-14SB:PS-CH-2:Diag
 
 facs-si-ps_trims-qs-m12-ia15:
   as-ps IA-15RaCtrl:CO-PSCtrl-SI1:
@@ -2896,4 +2899,3 @@ facs-it-ps_lens:
   - IT-Ra:PS-Lens-1
   - IT-Ra:PS-Lens-2
   - IT-Ra:PS-Lens-3
-
