@@ -1,0 +1,23 @@
+DEPLOY ARCHIVER VIEWER SERVICE
+==============================
+
+Document update: 2022-05-25
+Main contributers:
+    1. Rafael Lyra (SwC) - rafael.lyra@lnls.br
+    2. Ana Clara (SwC) - ana.clara@lnls.br
+    3. Ximenes Resende (FAC) - ximenes.resende@lnls.br
+
+
+Steps to create and deploy new version of archiver viewer
+
+1 - connect to the server: 'ssh sirius@10.0.38.42'
+2 - go to the folder: 'cd repos-dev/archiver-viewer/scripts'
+3 - update the local git repository: 'git pull'
+4 - build the image with the build-image.sh file
+5 - get the new created tag: 'docker images'
+4 - retag the image with the 'dockerregistry.lnls-sirius.com.br/gca/archiver-viewer' as the name tag: "docker tag 'oldName:tag' 'newname:tag'"
+5 - push the image: "docker push 'imageName'"
+6 - go to the server Folder: 'cd /../../../storage/services/repository/docker-stacks/archiver-viewer'
+7 - comment the image that's being used and add the date of desactivation and a name to the version
+8 - deploy the image: 'docker stack deploy -c docker-compose.yml archiver-viewer'
+9 - view if the status of the images: 'docker stack ps archiver-viewer'

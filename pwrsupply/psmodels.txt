@@ -1100,6 +1100,15 @@ SI-19M2:PS-QS                 FBP
 SI-20M1:PS-QS                 FBP
 SI-20M2:PS-QS                 FBP
 
+SI-10SB:PS-CH-1               FBP
+SI-10SB:PS-CV-1               FBP
+SI-10SB:PS-CH-2               FBP
+SI-10SB:PS-CV-2               FBP
+SI-10SB:PS-QS-1               FBP
+SI-10SB:PS-QS-2               FBP
+SI-14SB:PS-CH-1               FBP
+SI-14SB:PS-CH-2               FBP
+
 # --- SI Fast Correctors
 
 SI-01M2:PS-FCH                FOFB_PS
@@ -1271,6 +1280,7 @@ SI-06SB:ID-APU22              APU
 SI-07SP:ID-APU22              APU
 SI-08SB:ID-APU22              APU
 SI-09SA:ID-APU22              APU
+SI-10SB:ID-EPU50              EPU
 SI-11SP:ID-APU58              APU
 
 

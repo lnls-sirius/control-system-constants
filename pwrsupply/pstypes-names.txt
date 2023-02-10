@@ -111,8 +111,14 @@ si-sextupole-s15-ch          bipolar          corrector-horizontal
 si-sextupole-s15-cv          bipolar          corrector-vertical
 si-sextupole-s15-qs          bipolar          quadrupole-skew
 si-corrector-cv              bipolar          corrector-vertical
-si-corrector-fch             bipolar          corrector-horizontal
-si-corrector-fcv             bipolar          corrector-vertical
+si-corrector-fc1-ch          bipolar          corrector-horizontal
+si-corrector-fc1-cv          bipolar          corrector-vertical
+si-corrector-fc2-ch          bipolar          corrector-horizontal
+si-corrector-fc2-cv          bipolar          corrector-vertical
+si-corrector-wig180          bipolar          corrector-horizontal
+si-corrector-epu50-ch        bipolar          corrector-horizontal
+si-corrector-epu50-cv        bipolar          corrector-vertical
+si-corrector-epu50-qs        bipolar          quadrupole-skew
 si-hping                     bipolar          corrector-horizontal
 si-vping                     bipolar          corrector-vertical
 
@@ -137,3 +143,4 @@ si-id-apu22-1991b            bipolar         id-apu
 si-id-apu22-1991c            bipolar         id-apu
 si-id-apu22-1991d            bipolar         id-apu
 si-id-apu58-1995             bipolar         id-apu
+si-id-epu50                  bipolar         id-epu
