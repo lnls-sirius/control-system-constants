@@ -3,9 +3,9 @@ DEPLOY SOFWARE IN DESKTOPS AND DOCKER IOC IMAGES
 
 Document update: 2022-05-25
 Main contributers:
-    1. Ana Clara (FAC) - ana.clara@lnls.br
+    1. Ana Clara (SwC) - ana.clara@lnls.br
     2. Ximenes Resende (FAC) - ximenes.resende@lnls.br
-    3. Rafael Lyra (FAC) - rafael.lyra@lnls.br
+    3. Rafael Lyra (SwC) - rafael.lyra@lnls.br
 
 
 Steps of a standard deploy in the main folder in lnls-ansible repo:
@@ -17,11 +17,11 @@ Steps of a standard deploy in the main folder in lnls-ansible repo:
 5. make deploy-fac-docker-images # [run playbook that creates updated docker images]
 6. make deploy-tag-lnls-ansible  # [tag deploy version in ansible]
 
-ps: a) at step 4 docker image files 'fac-apps', 'fac-iocs' and 'fac-csconsts' are
+ps: a) at step 4 docker image files 'fac-iocs' and 'fac-csconsts' are
        created with deploy tag shown in step 2. (e.x.: fac-iocs:2021-03-17_16-01-12) and
        pushed into our local docker registry at "dockerregistry.lnls-sirius.com.br/fac/".
-    b) tag vars in .env files of repos docker-machine-applications and docker-control-system-constants
+    b) tag vars in tags.mk file of repo docker-machine-applications and images/.env file of repo docker-control-system-constants
        can be then edited according to deploy target and docker services can be restarted with
         1. cd ~/repos-dev/docker-control-system-constants && make service-stop-fac-csconsts && make service-start-fac-csconsts
-        2. cd ~/repos-dev/docker-machine-applications && make service-stop-highstack-all && make service-start-highstack-all
+        2. cd ~/repos-dev/docker-machine-applications && make service-stop-all && make service-start-all
            (fac services in docker-machine-applications can be restarted one-by-one too, instead of all at the same time.)
