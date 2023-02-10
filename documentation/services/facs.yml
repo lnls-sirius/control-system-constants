@@ -788,6 +788,10 @@ facs-si-ap-fofb:
   si-ap-fofb:
   - SI-Glob:AP-FOFB
 
+facs-si-ap-stabinfo:
+  si-ap-stabinfo:
+  - SI-Glob:AP-StabilityInfo
+
 facs-si-id_conv:
   si-id-conv:
   - SI-06SB:ID-APU22:Kx

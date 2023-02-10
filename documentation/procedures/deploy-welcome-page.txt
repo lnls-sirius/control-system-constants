@@ -3,8 +3,8 @@ DEPLOY SIRIUS WELCOME PAGE SERVICE
 
 Document update: 2022-06-06
 Main contributers:
-    1. Rafael Lyra (FAC) - rafael.lyra@lnls.br
-    2. Ana Clara (FAC) - ana.clara@lnls.br
+    1. Rafael Lyra (SwC) - rafael.lyra@lnls.br
+    2. Ana Clara (SwC) - ana.clara@lnls.br
     3. Ximenes Resende (FAC) - ximenes.resende@lnls.br
 
 
