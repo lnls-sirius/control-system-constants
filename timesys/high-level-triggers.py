@@ -590,7 +590,7 @@
         },
     'SI-01:TI-Mags-FFCorrs': {
         'database': {
-            'Src': {'enums': ('OrbSI', 'Cycle')},
+            'Src': {'enums': ('Cycle', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 3920},
