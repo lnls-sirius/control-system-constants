@@ -588,6 +588,21 @@
             'SI-Fam:PS-SDP2:BCKPLN', 'SI-Fam:PS-SDP3:BCKPLN',
             ),
         },
+    'SI-01:TI-Mags-FFCorrs': {
+        'database': {
+            'Src': {'enums': ('OrbSI', 'Cycle')},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 3920},
+            'Duration': {'value': 2000},
+            'State': {'value': 0},
+            'Polarity': {'value': 1, 'states': (0, 1)},
+        },
+        'channels': (
+            'SI-01M1:PS-FFCH:BCKPLN', 'SI-01M1:PS-FFCV:BCKPLN',
+            'SI-01M2:PS-FFCH:BCKPLN', 'SI-01M2:PS-FFCV:BCKPLN',
+        ),
+    },
     'BO-Glob:TI-Mags-Fams': {
         'database': {
             'Src': {'enums': ('Cycle', )},
