@@ -115,6 +115,8 @@ si-corrector-fc1-ch          bipolar          corrector-horizontal
 si-corrector-fc1-cv          bipolar          corrector-vertical
 si-corrector-fc2-ch          bipolar          corrector-horizontal
 si-corrector-fc2-cv          bipolar          corrector-vertical
+si-corrector-fc1-ffch        bipolar          corrector-horizontal
+si-corrector-fc1-ffcv        bipolar          corrector-vertical
 si-corrector-wig180          bipolar          corrector-horizontal
 si-corrector-epu50-ch        bipolar          corrector-horizontal
 si-corrector-epu50-cv        bipolar          corrector-vertical

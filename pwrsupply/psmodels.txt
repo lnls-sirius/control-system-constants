@@ -1274,6 +1274,14 @@ SI-20C3:PS-FCH                FOFB_PS
 SI-20C3:PS-FCV                FOFB_PS
 
 
+# --- SI Fast Correctors
+
+SI-01M1:PS-FFCH               FBP
+SI-01M1:PS-FFCV               FBP
+SI-01M2:PS-FFCH               FBP
+SI-01M2:PS-FFCV               FBP
+
+
 # --- Sirius Insetion Devices
 
 SI-06SB:ID-APU22              APU

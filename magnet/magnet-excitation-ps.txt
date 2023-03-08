@@ -1022,6 +1022,12 @@ SI-10SB:MA-QS-2              SI-10SB:PS-QS-2
 SI-14SB:MA-CH-1              SI-14SB:PS-CH-1
 SI-14SB:MA-CH-2              SI-14SB:PS-CH-2
 
+# --- Septa feedforward correctors ---
+SI-01M1:MA-FFCH              SI-01M1:PS-FFCH
+SI-01M1:MA-FFCV              SI-01M1:PS-FFCV
+SI-01M2:MA-FFCH              SI-01M2:PS-FFCH
+SI-01M2:MA-FFCV              SI-01M2:PS-FFCV
+
 # --- si-sextupole-s15-qs ---
 SI-01M1:MA-QS                SI-01M1:PS-QS
 SI-01M2:MA-QS                SI-01M2:PS-QS
