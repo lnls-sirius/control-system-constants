@@ -474,6 +474,12 @@ SI-20C3:PS-CV-1         DampedSine           7          0.1         9.0         
 SI-20C3:PS-CV-2         DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 SI-20C4:PS-CV           DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 
+SI-01M1:PS-FFCH         DampedSine           7          0.1         1.0             0.0           0.0              0.0              10.0              0.0
+SI-01M1:PS-FFCV         DampedSine           7          0.1         1.0             0.0           0.0              0.0              10.0              0.0
+SI-01M2:PS-FFCH         DampedSine           7          0.1         1.0             0.0           0.0              0.0              10.0              0.0
+SI-01M2:PS-FFCV         DampedSine           7          0.1         1.0             0.0           0.0              0.0              10.0              0.0
+
+
 # --- individual power supplies (trims) ---
 
 # PSNAME                TYPE                 NR_CYCLES  FREQ[Hz]    AMPLITUDE[A]    OFFSET[A]     PARAM0:Beg[deg]  PARAM1:End[deg]  PARAM2:Tau[s]     PARAM3:<NOT_USED>

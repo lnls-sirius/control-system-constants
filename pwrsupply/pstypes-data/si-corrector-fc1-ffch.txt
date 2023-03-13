@@ -1,0 +1,7 @@
+# List of power supplies of type si-corrector-fc1-ffch
+# ====================================================
+
+# number of power supplies: 2
+
+SI-01M1:PS-FFCH
+SI-01M2:PS-FFCH

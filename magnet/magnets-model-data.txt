@@ -28,6 +28,8 @@ SI-01M2:MA-CH               4.4679
 SI-01M2:MA-CV               4.4679
 SI-01M2:MA-FCH              4.2769
 SI-01M2:MA-FCV              4.2769
+SI-01M2:MA-FFCH             4.2769
+SI-01M2:MA-FFCV             4.2769
 SI-01M2:MA-QDA              4.7629
 SI-01M2:MA-QFA              4.0529
 SI-01M2:MA-QS               3.7279
@@ -1218,6 +1220,8 @@ SI-01M1:MA-CH              513.9281
 SI-01M1:MA-CV              513.9281
 SI-01M1:MA-FCH             514.1191
 SI-01M1:MA-FCV             514.1191
+SI-01M1:MA-FFCH            514.1191
+SI-01M1:MA-FFCV            514.1191
 SI-01M1:MA-QDA             513.6331
 SI-01M1:MA-QFA             514.3431
 SI-01M1:MA-QS              514.6681

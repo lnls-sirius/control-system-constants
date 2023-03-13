@@ -262,6 +262,7 @@ facs-as-ti_general:
   - LI-Glob:TI-SSAmp-Kly2
   - LI-Glob:TI-SSAmp-SHB
   si-ti-trig:
+  - SI-01:TI-Mags-FFCorrs
   - SI-Glob:TI-BbBProcH-Fid
   - SI-Glob:TI-BbBProcH-Trig1
   - SI-Glob:TI-BbBProcH-Trig2
@@ -1653,6 +1654,15 @@ facs-si-ps_trims-qs-m12-ia01:
   - SI-02M1:PS-QDB2
   - SI-01M1:PS-QS
   - SI-01M2:PS-QS
+  - SI-01M1:PS-FFCH
+  - SI-01M1:PS-FFCV
+  - SI-01M2:PS-FFCH
+  - SI-01M2:PS-FFCV
+  as-ps-diag SI "(01M1|01M2)" "FFC.*":
+  - SI-01M2:PS-FFCH:Diag
+  - SI-01M2:PS-FFCV:Diag
+  - SI-01M1:PS-FFCH:Diag
+  - SI-01M1:PS-FFCV:Diag
   as-ps-diag SI "(01M1|01M2)" "QS":
   - SI-01M2:PS-QS:Diag
   - SI-01M1:PS-QS:Diag
@@ -2900,4 +2910,3 @@ facs-it-ps_lens:
   - IT-Ra:PS-Lens-1
   - IT-Ra:PS-Lens-2
   - IT-Ra:PS-Lens-3
-
