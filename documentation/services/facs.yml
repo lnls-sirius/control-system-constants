@@ -2910,3 +2910,7 @@ facs-it-ps_lens:
   - IT-Ra:PS-Lens-1
   - IT-Ra:PS-Lens-2
   - IT-Ra:PS-Lens-3
+
+facs-bl-ap-imgproc:
+  bl-ap-imgproc:
+  - CAX:B:BASLER01
