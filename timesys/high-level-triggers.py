@@ -14,7 +14,7 @@
 #
 # If the requirements above are satisfied, you should then change the branch
 # of the active control-system-constants repo to the branch:
-#    git checktout timesys-add-testbanch-configs
+#    git checktout timesys-testbench-configs
 #
 # 1-) Then, on a clean terminal, you must activate the sirius enviroment
 #    mamba activate sirius
