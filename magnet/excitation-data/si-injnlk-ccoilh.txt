@@ -2,7 +2,7 @@
 # ======
 # label             si-injnlk-ccoilh
 # harmonics         0
-# main_harmonic     0 skew
+# main_harmonic     0 normal
 # rescaling_factor  1.0
 # units             Voltage T*m T*m
 #
