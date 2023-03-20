@@ -228,8 +228,8 @@ facs-as-pu-conv:
   - BO-48D:PU-EjeKckr:Kick
   - SI-01SA:PU-InjDpKckr:Kick
   - SI-01SA:PU-InjNLKckr:Kick
-  - SI-01SA:PU-InjNLKckr:CCoilH
-  - SI-01SA:PU-InjNLKckr:CCoilV
+  - SI-01SA:PU-InjNLKckr:CCoilHKick
+  - SI-01SA:PU-InjNLKckr:CCoilVKick
   - SI-01SA:PU-PingH:Kick
   - SI-19C4:PU-PingV:Kick
   - TB-04:PU-InjSept:Kick
