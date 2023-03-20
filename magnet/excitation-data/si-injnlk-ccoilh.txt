@@ -9,12 +9,17 @@
 
 # EXCITATION DATA
 # ===============
-+000.00   +0.00000000e-00  +0.0000e+00
-+150.00   -6.10422285e-03  +0.0000e+00
++000.00   +0.0000e-00  +0.0000e+00
++150.00   -1.3357e-04  +0.0000e+00
 
 # COMMENTS
 # ========
-# 1. arbitrary data. TODO: update with measurements.
+# 1. excitation data calculated from simulations.
+#    Liu passed this data in Team's chat channel "Upgrade NLK" on 2023-03-17
+#    "Oi Ximenes, temos as seguintes calibrações para as bobinas de
+#    compensação do NLK:
+#      BC_H: V = 150 V, I = 43 A, |By| = 3.61 Gauss, L = 0.37 m
+#      BC_V: V = 150 V, I = 50 A, |Bx| = 4.20 Gauss, L = 0.37 m"
 
 # POLARITY TABLE
 # ==============
