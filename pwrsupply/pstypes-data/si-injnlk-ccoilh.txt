@@ -1,0 +1,6 @@
+# List of power supplies of type si-injnlk-ccoilh
+# ===============================================
+
+# number of power supplies: 1
+
+SI-01SA:PU-InjNLKckr:CCoilH
