@@ -126,6 +126,7 @@ facs-as-ps-dclinks_ia01:
   as-ps IA-01RaCtrl:CO-DCLinkCtrl:
   - IA-01RaPS01:PS-DCLink-AS
   - IA-01RaPS02:PS-DCLink-SI
+  - IA-01RaPS01:PS-DCLink-SI
 
 facs-as-ps-dclinks_ia02:
   as-ps IA-02RaCtrl:CO-DCLinkCtrl:
