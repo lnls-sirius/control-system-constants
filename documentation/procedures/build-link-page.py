@@ -7,6 +7,13 @@
 ### have access to the files to run it properly.                          ###
 #############################################################################
 
+#############################################################################
+### With 2-factor authentication implemented, you have to generate an App ###
+### password through link https://mysignins.microsoft.com/security-info.  ###
+### Use it with your account username, when loging. Save it to text file  ###
+### afterwards, it will not be visible anymore after creating it.         ###
+#############################################################################
+
 example:
     build_link_page.py > gop-procedures.html
 """

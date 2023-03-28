@@ -77,6 +77,8 @@ si-sextupole-s15-sdp3-fam    monopolar        sextupole
 
 si-injdpk                    monopolar        corrector-horizontal
 si-injnlk                    monopolar        corrector-horizontal
+si-injnlk-ccoilh             monopolar        corrector-horizontal
+si-injnlk-ccoilv             monopolar        corrector-vertical
 
 ts-dipole-b-fam              monopolar        dipole
 ts-quadrupole-q14-qf         monopolar        quadrupole
