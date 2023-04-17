@@ -1042,7 +1042,7 @@
             },
         'channels': ('SI-19C4:PU-PingVCtrl:TRIGIN', ),
         },
-    'AS-Glob:TI-Osc-InjNLKckr': {
+    'AS-Glob:TI-Osc-InjSI2': {
         'database': {
             'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
