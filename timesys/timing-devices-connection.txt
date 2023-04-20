@@ -13,7 +13,7 @@
 
 
 
-# 553
+# 558
 AS-RaMO:TI-EVG:OUT0                 RA-RaMO:CO-DIO:P05
 AS-RaMO:TI-EVG:OUT1                 RA-RaMO:CO-DIO:P01
 AS-RaMO:TI-EVG:OUT2                 RA-RaMO:CO-DIO:P02
@@ -45,6 +45,7 @@ CA-RaTim:TI-Fout-2:OUT3             CA-RaCtrl:CO-DIO-1:P048
 CA-RaTim:TI-Fout-2:OUT4             CA-RaCtrl:CO-DIO-6:P12
 CA-RaTim:TI-Fout-2:OUT5             CA-RaCtrl:CO-DIO-7:P06
 CA-RaTim:TI-Fout-2:OUT6             CA-RaCtrl:CO-DIO-5:P18
+CA-RaTim:TI-Fout-2:OUT7             BA-09SA:TI-EVE:UPLINK
 CA-RaTim:TI-Fout-3:OUT0             CA-RaCtrl:CO-DIO-2:P05
 CA-RaTim:TI-Fout-3:OUT1             CA-RaCtrl:CO-DIO-2:P17
 CA-RaTim:TI-Fout-3:OUT2             CA-RaCtrl:CO-DIO-2:P23
@@ -58,7 +59,7 @@ CA-RaTim:TI-Fout-4:OUT2             CA-RaCtrl:CO-DIO-4:P17
 CA-RaTim:TI-Fout-4:OUT3             CA-RaCtrl:CO-DIO-4:P23
 CA-RaTim:TI-Fout-4:OUT4             CA-RaCtrl:CO-DIO-5:P05
 CA-RaTim:TI-Fout-4:OUT5             CA-RaCtrl:CO-DIO-5:P11
-CA-RaTim:TI-Fout-4:OUT7             CA-RaCtrl:CO-DIO-5:P17
+CA-RaTim:TI-Fout-4:OUT6             CA-RaCtrl:CO-DIO-5:P17
 CA-RaTim:TI-Fout-5:OUT0             CA-RaCtrl:CO-DIO-6:P05
 CA-RaTim:TI-Fout-5:OUT1             CA-RaCtrl:CO-DIO-6:P11
 CA-RaTim:TI-Fout-5:OUT2             CA-RaCtrl:CO-DIO-6:P23
@@ -165,6 +166,8 @@ IA-01RaInj05:TI-EVR:OTP6            IA-01RaInj04:TI-OEMultPOF:IN4
 IA-01RaInj05:TI-EVR:OTP7            IA-01RaInj05:TI-OEMultPOF:IN1
 IA-01RaInj05:TI-EVR:OTP8            IA-01RaInj05:TI-OEMultPOF:IN2
 IA-01RaInj05:TI-EVR:OTP9            IA-01RaInj05:TI-OEMultPOF:IN3
+IA-01RaInj05:TI-EVR:OTP10           SI-01SA:TI-OEMultPOF:IN2
+IA-01RaInj05:TI-EVR:OTP11           SI-01SA:TI-OEMultPOF:IN3
 IA-01RaInj05:TI-EVR:OUT0            IA-01RaCtrl:CO-DIO-1:P13
 IA-01RaInj05:TI-EVR:OUT1            IA-01RaCtrl:CO-DIO-1:P14
 IA-01RaInj05:TI-EVR:OUT2            IA-01RaCtrl:CO-DIO-1:P15
@@ -425,7 +428,9 @@ IA-01RaInj04:TI-OEMultPOF:OUT3      TS-04:PU-InjSeptFCtrl:TRIGIN
 IA-01RaInj04:TI-OEMultPOF:OUT4      IA-01RaInj04:PU-Osc:CH1
 IA-01RaInj05:TI-OEMultPOF:OUT1      SI-01SA:PU-InjNLKckrCtrl:TRIGIN
 IA-01RaInj05:TI-OEMultPOF:OUT2      SI-01SA:PU-InjDpKckrCtrl:TRIGIN
-IA-01RaInj05:TI-OEMultPOF:OUT3      SI-01SA:PU-PingHCtrl:TRIGIN
+IA-01RaInj05:TI-OEMultPOF:OUT3      IA-01RaInj05:PU-Osc:AUXIN
+SI-01SA:TI-OEMultPOF:OUT2           SI-01SA:PU-InjNLKckrCtrl-CCoilH:TRIGIN
+SI-01SA:TI-OEMultPOF:OUT3           SI-01SA:PU-InjNLKckrCtrl-CCoilV:TRIGIN
 IA-01RaCtrl:CO-DIO-1:P13            IA-20RaCtrl:CO-DIO-1:P19
 IA-01RaCtrl:CO-DIO-1:P14            IA-20RaCtrl:CO-DIO-1:P20
 IA-01RaCtrl:CO-DIO-1:P15            IA-20RaCtrl:CO-DIO-1:P21

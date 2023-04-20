@@ -1004,7 +1004,11 @@
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
             },
-        'channels': ('SI-01SA:PU-InjNLKckrCtrl:TRIGIN', ),
+        'channels': (
+            'SI-01SA:PU-InjNLKckrCtrl:TRIGIN',
+            'SI-01SA:PU-InjNLKckrCtrl-CCoilH:TRIGIN',
+            'SI-01SA:PU-InjNLKckrCtrl-CCoilV:TRIGIN',
+            ),
         },
     'SI-19C4:TI-PingV': {
         'database': {
@@ -1018,17 +1022,17 @@
             },
         'channels': ('SI-19C4:PU-PingVCtrl:TRIGIN', ),
         },
-    'SI-01SA:TI-PingH': {
+    'AS-Glob:TI-Osc-InjSI2': {
         'database': {
             'Src': {'enums': ('InjSI', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
-            'NrPulses': {'value': 1, 'hilim': 30},
+            'NrPulses': {'value': 1, 'hilim': 2},
             'Duration': {'value': 150, 'hilim': 550},
             'State': {'value': 0},
-            'Polarity': {'value': 1, 'states': (1, 0)},  # EVR-OTP port
-            },
-        'channels': ('SI-01SA:PU-PingHCtrl:TRIGIN', ),
+            'Polarity': {'value': 1, 'states': (2, 0)},  # EVR-OTP port
+        },
+        'channels': ('IA-01RaInj05:PU-Osc:AUXIN', ),
         },
     # ### LLRF ###
     'BO-Glob:TI-LLRF-Rmp': {
