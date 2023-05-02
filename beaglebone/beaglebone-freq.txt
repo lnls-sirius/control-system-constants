@@ -122,3 +122,6 @@ LA-RaCtrl:CO-PSCtrl-TB2    5.0
 #IA-18RaCtrl:CO-PSCtrl-SI3  5.0
 #IA-19RaCtrl:CO-PSCtrl-SI3  5.0
 #IA-20RaCtrl:CO-PSCtrl-SI3  5.0
+
+# ---- EPU50 correctors ---
+IA-10RaPS02:PS-UDC-SI7      20.0
