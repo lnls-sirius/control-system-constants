@@ -126,6 +126,7 @@ facs-as-ps-dclinks_ia01:
   as-ps IA-01RaCtrl:CO-DCLinkCtrl:
   - IA-01RaPS01:PS-DCLink-AS
   - IA-01RaPS02:PS-DCLink-SI
+  - IA-01RaPS01:PS-DCLink-SI
 
 facs-as-ps-dclinks_ia02:
   as-ps IA-02RaCtrl:CO-DCLinkCtrl:
@@ -228,6 +229,8 @@ facs-as-pu-conv:
   - BO-48D:PU-EjeKckr:Kick
   - SI-01SA:PU-InjDpKckr:Kick
   - SI-01SA:PU-InjNLKckr:Kick
+  - SI-01SA:PU-InjNLKckr:CCoilHKick
+  - SI-01SA:PU-InjNLKckr:CCoilVKick
   - SI-01SA:PU-PingH:Kick
   - SI-19C4:PU-PingV:Kick
   - TB-04:PU-InjSept:Kick

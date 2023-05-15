@@ -1277,6 +1277,12 @@ SI-01SA:PM-InjDpKckr            SI-01SA:PU-InjDpKckr
 # --- si-injnlk ---
 SI-01SA:PM-InjNLKckr            SI-01SA:PU-InjNLKckr
 
+# --- si-injnlk-ccoilh ---
+SI-01SA:PM-InjNLKckr:CCoilH     SI-01SA:PU-InjNLKckr:CCoilH
+
+# --- si-injnlk-ccoilv ---
+SI-01SA:PM-InjNLKckr:CCoilV     SI-01SA:PU-InjNLKckr:CCoilV
+
 # --- si-hping ---
 SI-01SA:PM-PingH                SI-01SA:PU-PingH
 

@@ -1,14 +1,16 @@
 # The file is generated with script
 # https://github.com/lnls-sirius/scripts/blob/master/bin/sirius-script-ps-devices.py
 # using argument "--ascii"
-# last update: 2023-03-08
+# last update: 2023-03-10
 
 BeagleBones
 |-- IA-01RaCtrl:CO-DCLinkCtrl  [10.128.101.104]
 |   |-- IA-01RaPS01:PS-UDC-AS  (FBP_DCLink)
 |   |   +-- IA-01RaPS01:PS-DCLink-AS  (1)
-|   +-- IA-01RaPS02:PS-UDC-SI6  (FBP_DCLink)
-|       +-- IA-01RaPS02:PS-DCLink-SI  (2)
+|   |-- IA-01RaPS02:PS-UDC-SI6  (FBP_DCLink)
+|   |   +-- IA-01RaPS02:PS-DCLink-SI  (2)
+|   +-- IA-01RaPS01:PS-UDC-SI7  (FBP_DCLink)
+|       +-- IA-01RaPS01:PS-DCLink-SI  (3)
 |-- IA-01RaCtrl:CO-PSCtrl-BO  [10.128.101.105]
 |   +-- IA-01RaPS01:PS-UDC-BO  (FBP)
 |       |-- BO-01U:PS-CH  (1)
@@ -37,13 +39,13 @@ BeagleBones
 |   |       +-- IA-01RaPS01:PS-DCLink-AS
 |   +-- IA-01RaPS01:PS-UDC-SI6  (FBP)
 |       |-- SI-01M1:PS-FFCH  (8)
-|       |   +-- IA-01RaPS01:PS-DCLink-AS
+|       |   +-- IA-01RaPS01:PS-DCLink-SI
 |       |-- SI-01M1:PS-FFCV  (9)
-|       |   +-- IA-01RaPS01:PS-DCLink-AS
+|       |   +-- IA-01RaPS01:PS-DCLink-SI
 |       |-- SI-01M2:PS-FFCH  (10)
-|       |   +-- IA-01RaPS01:PS-DCLink-AS
+|       |   +-- IA-01RaPS01:PS-DCLink-SI
 |       +-- SI-01M2:PS-FFCV  (11)
-|           +-- IA-01RaPS01:PS-DCLink-AS
+|           +-- IA-01RaPS01:PS-DCLink-SI
 |-- IA-01RaCtrl:CO-PSCtrl-SI2  [10.128.101.122]
 |   |-- IA-01RaPS01:PS-UDC-SI4  (FBP)
 |   |   |-- SI-01M1:PS-CH  (1)
