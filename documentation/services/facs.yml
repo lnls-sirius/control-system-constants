@@ -246,6 +246,7 @@ facs-as-ti_general:
   - AS-Glob:TI-Osc-EjeBO
   - AS-Glob:TI-Osc-InjBO
   - AS-Glob:TI-Osc-InjSI
+  - AS-Glob:TI-Osc-InjSI2
   bo-ti-trig:
   - BO-Glob:TI-LLRF-Gen
   - BO-Glob:TI-LLRF-PsMtn
@@ -2915,5 +2916,9 @@ facs-it-ps_lens:
   - IT-Ra:PS-Lens-3
 
 facs-bl-ap-imgproc:
-  bl-ap-imgproc:
+  bl-ap-imgproc-caxdvf2:
   - CAX:B:BASLER01
+
+facs-si-ap-idff:
+  si-ap-idff SI-10SB:ID-EPU50:
+  - SI-10SB:AP-IDFF
