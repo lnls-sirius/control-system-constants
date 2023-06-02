@@ -1035,6 +1035,10 @@ SI-17C4:MA-SDB1            434.0207
 SI-17C4:MA-SDB2            432.4907
 SI-17C4:MA-SFB1            433.2407
 SI-17BC:MA-BC              427.6767
+SI-17SA:MA-CH-1            412.6312
+SI-17SA:MA-CV-1            412.6312
+SI-17SA:MA-CH-2            416.7969
+SI-17SA:MA-CV-2            416.7969
 SI-18M1:MA-CH              437.0087
 SI-18M1:MA-CV              437.0087
 SI-18M1:MA-FCH             437.1747

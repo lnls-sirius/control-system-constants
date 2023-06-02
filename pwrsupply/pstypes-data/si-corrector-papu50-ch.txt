@@ -1,0 +1,7 @@
+# List of power supplies of type si-corrector-papu50-ch
+# =====================================================
+
+# number of power supplies: 2
+
+SI-17SA:PS-CH-1
+SI-17SA:PS-CH-2

@@ -1109,6 +1109,10 @@ SI-10SB:PS-QS-1               FBP
 SI-10SB:PS-QS-2               FBP
 SI-14SB:PS-CH-1               FBP
 SI-14SB:PS-CH-2               FBP
+SI-17SA:PS-CH-1               FBP
+SI-17SA:PS-CV-1               FBP
+SI-17SA:PS-CH-2               FBP
+SI-17SA:PS-CV-2               FBP
 
 # --- SI Fast Correctors
 
