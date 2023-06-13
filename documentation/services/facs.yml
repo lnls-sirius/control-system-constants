@@ -1649,6 +1649,18 @@ facs-si-ps_corrs-qs-sb-ia10:
   - SI-10SB:PS-QS-1:Diag
   - SI-10SB:PS-QS-2:Diag
 
+facs-si-ps_corrs-sa-ia17:
+  as-ps IA-17RaCtrl:CO-PSCtrl-SI5:
+  - SI-17SA:PS-CH-1
+  - SI-17SA:PS-CH-2
+  - SI-17SA:PS-CV-1
+  - SI-17SA:PS-CV-2
+  as-ps-diag SI "17SA" "(CH|CV).*":
+  - SI-17SA:PS-CH-1:Diag
+  - SI-17SA:PS-CH-2:Diag
+  - SI-17SA:PS-CV-1:Diag
+  - SI-17SA:PS-CV-2:Diag
+
 facs-si-ps_trims-qs-m12-ia01:
   as-ps IA-01RaCtrl:CO-PSCtrl-SI1:
   - SI-01M2:PS-QFA
@@ -2919,6 +2931,11 @@ facs-bl-ap-imgproc:
   bl-ap-imgproc-caxdvf2:
   - CAX:B:BASLER01
 
-facs-si-ap-idff:
+facs-si-ap-idff_epu50:
   si-ap-idff SI-10SB:ID-EPU50:
   - SI-10SB:AP-IDFF
+
+facs-si-ap-idff_papu50:
+  si-ap-idff SI-17SA:ID-PAPU50:
+  - SI-17SA:AP-IDFF
+
