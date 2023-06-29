@@ -803,7 +803,6 @@ facs-si-id_conv:
   - SI-07SP:ID-APU22:Kx
   - SI-08SB:ID-APU22:Kx
   - SI-09SA:ID-APU22:Kx
-  - SI-10SB:ID-EPU50:Kx
   - SI-11SP:ID-APU58:Kx
 
 facs-si-id_epu50:
@@ -2596,13 +2595,16 @@ facs-si-ps_trims-qs-c1234-ia20:
   - SI-20C4:PS-Q2:Diag
 
 facs-si-ps-fastcorrs_conv:
-  si-ps-conv-fastcorrs:
+  si-ps-conv-fastcorrs-ia01:
   - SI-01M2:PS-FCH:Kick
   - SI-01M2:PS-FCV:Kick
   - SI-01C2:PS-FCH:Kick
   - SI-01C2:PS-FCV:Kick
   - SI-01C3:PS-FCH:Kick
   - SI-01C3:PS-FCV:Kick
+  - SI-01M1:PS-FCH:Kick
+  - SI-01M1:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia02:
   - SI-02M1:PS-FCH:Kick
   - SI-02M1:PS-FCV:Kick
   - SI-02M2:PS-FCH:Kick
@@ -2611,6 +2613,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-02C2:PS-FCV:Kick
   - SI-02C3:PS-FCH:Kick
   - SI-02C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia03:
   - SI-03M1:PS-FCH:Kick
   - SI-03M1:PS-FCV:Kick
   - SI-03M2:PS-FCH:Kick
@@ -2619,6 +2622,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-03C2:PS-FCV:Kick
   - SI-03C3:PS-FCH:Kick
   - SI-03C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia04:
   - SI-04M1:PS-FCH:Kick
   - SI-04M1:PS-FCV:Kick
   - SI-04M2:PS-FCH:Kick
@@ -2627,6 +2631,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-04C2:PS-FCV:Kick
   - SI-04C3:PS-FCH:Kick
   - SI-04C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia05:
   - SI-05M1:PS-FCH:Kick
   - SI-05M1:PS-FCV:Kick
   - SI-05M2:PS-FCH:Kick
@@ -2635,6 +2640,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-05C2:PS-FCV:Kick
   - SI-05C3:PS-FCH:Kick
   - SI-05C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia06:
   - SI-06M1:PS-FCH:Kick
   - SI-06M1:PS-FCV:Kick
   - SI-06M2:PS-FCH:Kick
@@ -2643,6 +2649,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-06C2:PS-FCV:Kick
   - SI-06C3:PS-FCH:Kick
   - SI-06C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia07:
   - SI-07M1:PS-FCH:Kick
   - SI-07M1:PS-FCV:Kick
   - SI-07M2:PS-FCH:Kick
@@ -2651,6 +2658,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-07C2:PS-FCV:Kick
   - SI-07C3:PS-FCH:Kick
   - SI-07C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia08:
   - SI-08M1:PS-FCH:Kick
   - SI-08M1:PS-FCV:Kick
   - SI-08M2:PS-FCH:Kick
@@ -2659,6 +2667,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-08C2:PS-FCV:Kick
   - SI-08C3:PS-FCH:Kick
   - SI-08C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia09:
   - SI-09M1:PS-FCH:Kick
   - SI-09M1:PS-FCV:Kick
   - SI-09M2:PS-FCH:Kick
@@ -2667,6 +2676,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-09C2:PS-FCV:Kick
   - SI-09C3:PS-FCH:Kick
   - SI-09C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia10:
   - SI-10M1:PS-FCH:Kick
   - SI-10M1:PS-FCV:Kick
   - SI-10M2:PS-FCH:Kick
@@ -2675,6 +2685,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-10C2:PS-FCV:Kick
   - SI-10C3:PS-FCH:Kick
   - SI-10C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia11:
   - SI-11M1:PS-FCH:Kick
   - SI-11M1:PS-FCV:Kick
   - SI-11M2:PS-FCH:Kick
@@ -2683,6 +2694,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-11C2:PS-FCV:Kick
   - SI-11C3:PS-FCH:Kick
   - SI-11C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia12:
   - SI-12M1:PS-FCH:Kick
   - SI-12M1:PS-FCV:Kick
   - SI-12M2:PS-FCH:Kick
@@ -2691,6 +2703,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-12C2:PS-FCV:Kick
   - SI-12C3:PS-FCH:Kick
   - SI-12C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia13:
   - SI-13M1:PS-FCH:Kick
   - SI-13M1:PS-FCV:Kick
   - SI-13M2:PS-FCH:Kick
@@ -2699,6 +2712,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-13C2:PS-FCV:Kick
   - SI-13C3:PS-FCH:Kick
   - SI-13C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia14:
   - SI-14M1:PS-FCH:Kick
   - SI-14M1:PS-FCV:Kick
   - SI-14M2:PS-FCH:Kick
@@ -2707,6 +2721,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-14C2:PS-FCV:Kick
   - SI-14C3:PS-FCH:Kick
   - SI-14C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia15:
   - SI-15M1:PS-FCH:Kick
   - SI-15M1:PS-FCV:Kick
   - SI-15M2:PS-FCH:Kick
@@ -2715,6 +2730,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-15C2:PS-FCV:Kick
   - SI-15C3:PS-FCH:Kick
   - SI-15C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia16:
   - SI-16M1:PS-FCH:Kick
   - SI-16M1:PS-FCV:Kick
   - SI-16M2:PS-FCH:Kick
@@ -2723,6 +2739,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-16C2:PS-FCV:Kick
   - SI-16C3:PS-FCH:Kick
   - SI-16C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia17:
   - SI-17M1:PS-FCH:Kick
   - SI-17M1:PS-FCV:Kick
   - SI-17M2:PS-FCH:Kick
@@ -2731,6 +2748,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-17C2:PS-FCV:Kick
   - SI-17C3:PS-FCH:Kick
   - SI-17C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia18:
   - SI-18M1:PS-FCH:Kick
   - SI-18M1:PS-FCV:Kick
   - SI-18M2:PS-FCH:Kick
@@ -2739,6 +2757,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-18C2:PS-FCV:Kick
   - SI-18C3:PS-FCH:Kick
   - SI-18C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia19:
   - SI-19M1:PS-FCH:Kick
   - SI-19M1:PS-FCV:Kick
   - SI-19M2:PS-FCH:Kick
@@ -2747,6 +2766,7 @@ facs-si-ps-fastcorrs_conv:
   - SI-19C2:PS-FCV:Kick
   - SI-19C3:PS-FCH:Kick
   - SI-19C3:PS-FCV:Kick
+  si-ps-conv-fastcorrs-ia20:
   - SI-20M1:PS-FCH:Kick
   - SI-20M1:PS-FCV:Kick
   - SI-20M2:PS-FCH:Kick
@@ -2755,8 +2775,6 @@ facs-si-ps-fastcorrs_conv:
   - SI-20C2:PS-FCV:Kick
   - SI-20C3:PS-FCH:Kick
   - SI-20C3:PS-FCV:Kick
-  - SI-01M1:PS-FCH:Kick
-  - SI-01M1:PS-FCV:Kick
 
 facs-si-ps-fastcorrs_diag:
   as-ps-diag SI ".*" "FC.*":
@@ -2938,4 +2956,3 @@ facs-si-ap-idff_epu50:
 facs-si-ap-idff_papu50:
   si-ap-idff SI-17SA:ID-PAPU50:
   - SI-17SA:AP-IDFF
-
