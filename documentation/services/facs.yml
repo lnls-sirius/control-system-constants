@@ -269,6 +269,8 @@ facs-as-ti_general:
   - LI-01:TI-Modltr-2
   - LI-01:TI-Osc-Modltr
   - LI-Fam:TI-ICT
+  - LI-Fam:TI-ICT-Digit
+  - LI-Fam:TI-ICT-Integ
   - LI-Fam:TI-Scrn
   - LI-Glob:TI-LLRF-Kly1
   - LI-Glob:TI-LLRF-Kly2
