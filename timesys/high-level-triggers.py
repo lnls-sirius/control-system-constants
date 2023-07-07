@@ -1158,6 +1158,36 @@
             },
         'channels': ('LA-BIH01RACK2:DI-Osc-1:TRIGIN', ),
         },
+    'LI-Fam:TI-ICT-Integ': {
+        'database': {
+            'Src': {'enums': ('InjBO', )},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1, 'hilim': 2},
+            'Duration': {'value': 150},
+            'State': {'value': 0},
+            'Polarity': {'value': 0, 'states': (0, 1)},
+        },
+        'channels': (
+            'LA-BIH01RACK2:DI-ICTSigCond-1:TRIGIN',
+            'LA-BIH01RACK2:DI-ICTSigCond-2:TRIGIN',
+        ),
+    },
+    'LI-Fam:TI-ICT-Digit': {
+        'database': {
+            'Src': {'enums': ('InjBO', )},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1, 'hilim': 2},
+            'Duration': {'value': 150},
+            'State': {'value': 0},
+            'Polarity': {'value': 0, 'states': (0, 1)},
+        },
+        'channels': (
+            'LA-BIH01RACK2:DI-ICTDig-1:TRIGIN',
+            'LA-BIH01RACK2:DI-ICTDig-2:TRIGIN',
+        ),
+    },
     'LI-01:TI-Osc-Modltr': {
         'database': {
             'Src': {'enums': ('InjBO', )},
