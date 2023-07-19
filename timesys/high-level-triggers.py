@@ -17,6 +17,7 @@
             'Duration': {'value': 2000},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'SI-01M1:PS-CH:BCKPLN', 'SI-01M1:PS-CV:BCKPLN',
@@ -245,6 +246,7 @@
             'Duration': {'value': 2000},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'SI-01C1:PS-Q1:BCKPLN', 'SI-01C1:PS-Q2:BCKPLN',
@@ -424,6 +426,7 @@
             'Duration': {'value': 2000},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'SI-01M1:PS-QS:BCKPLN',
@@ -599,6 +602,7 @@
             'Duration': {'value': 2000},
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
         },
         'channels': (
             'SI-01M1:PS-FFCH:BCKPLN', 'SI-01M1:PS-FFCV:BCKPLN',
@@ -630,6 +634,7 @@
             'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'BO-01U:PS-CH:BCKPLN', 'BO-01U:PS-CV:BCKPLN',
@@ -1574,6 +1579,7 @@
             'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'TB-01:DI-BPM-1:CRT0', 'TB-01:DI-BPM-2:CRT0',
@@ -1591,6 +1597,7 @@
             'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'TS-01:DI-BPM:CRT1', 'TS-02:DI-BPM:CRT1',
@@ -1607,6 +1614,7 @@
             'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'BO-01U:DI-BPM:CRT0', 'BO-02U:DI-BPM:CRT0',
@@ -1645,6 +1653,7 @@
             'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'SI-01M1:DI-BPM:CRT1', 'SI-01M2:DI-BPM:CRT1',
@@ -1757,6 +1766,7 @@
             'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'SI-01M1:DI-BPM:CRT2', 'SI-01M2:DI-BPM:CRT2',
@@ -1869,6 +1879,7 @@
             'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'IA-01RaBPM:BS-FOFBCtrl:CRT5',
