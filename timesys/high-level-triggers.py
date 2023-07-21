@@ -17,6 +17,7 @@
             'Duration': {'value': 2000},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'SI-01M1:PS-CH:BCKPLN', 'SI-01M1:PS-CV:BCKPLN',
@@ -245,6 +246,7 @@
             'Duration': {'value': 2000},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'SI-01C1:PS-Q1:BCKPLN', 'SI-01C1:PS-Q2:BCKPLN',
@@ -424,6 +426,7 @@
             'Duration': {'value': 2000},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'SI-01M1:PS-QS:BCKPLN',
@@ -599,6 +602,7 @@
             'Duration': {'value': 2000},
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
         },
         'channels': (
             'SI-01M1:PS-FFCH:BCKPLN', 'SI-01M1:PS-FFCV:BCKPLN',
@@ -630,6 +634,7 @@
             'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'BO-01U:PS-CH:BCKPLN', 'BO-01U:PS-CV:BCKPLN',
@@ -1574,6 +1579,7 @@
             'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'TB-01:DI-BPM-1:CRT0', 'TB-01:DI-BPM-2:CRT0',
@@ -1591,6 +1597,7 @@
             'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'TS-01:DI-BPM:CRT1', 'TS-02:DI-BPM:CRT1',
@@ -1607,6 +1614,7 @@
             'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'BO-01U:DI-BPM:CRT0', 'BO-02U:DI-BPM:CRT0',
@@ -1645,6 +1653,7 @@
             'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'SI-01M1:DI-BPM:CRT1', 'SI-01M2:DI-BPM:CRT1',
@@ -1748,6 +1757,267 @@
             'SI-20C3:DI-BPM-2:CRT1', 'SI-20C4:DI-BPM:CRT1',
             ),
         },
+    'SI-Fam:TI-BPM-OrbIntlk': {
+        'database': {
+            'Src': {'enums': tuple()},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1},
+            'Duration': {'value': 150},
+            'State': {'value': 0},
+            'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 1, 'states': (2, 0)},
+            },
+        'channels': (
+            'SI-01M1:DI-BPM:CRT4', 'SI-01M2:DI-BPM:CRT4',
+            'SI-01C1:DI-BPM-1:CRT4', 'SI-01C1:DI-BPM-2:CRT4',
+            'SI-01C2:DI-BPM:CRT4', 'SI-01C3:DI-BPM-1:CRT4',
+            'SI-01C3:DI-BPM-2:CRT4', 'SI-01C4:DI-BPM:CRT4',
+
+            'SI-02M1:DI-BPM:CRT4', 'SI-02M2:DI-BPM:CRT4',
+            'SI-02C1:DI-BPM-1:CRT4', 'SI-02C1:DI-BPM-2:CRT4',
+            'SI-02C2:DI-BPM:CRT4', 'SI-02C3:DI-BPM-1:CRT4',
+            'SI-02C3:DI-BPM-2:CRT4', 'SI-02C4:DI-BPM:CRT4',
+
+            'SI-03M1:DI-BPM:CRT4', 'SI-03M2:DI-BPM:CRT4',
+            'SI-03C1:DI-BPM-1:CRT4', 'SI-03C1:DI-BPM-2:CRT4',
+            'SI-03C2:DI-BPM:CRT4', 'SI-03C3:DI-BPM-1:CRT4',
+            'SI-03C3:DI-BPM-2:CRT4', 'SI-03C4:DI-BPM:CRT4',
+
+            'SI-04M1:DI-BPM:CRT4', 'SI-04M2:DI-BPM:CRT4',
+            'SI-04C1:DI-BPM-1:CRT4', 'SI-04C1:DI-BPM-2:CRT4',
+            'SI-04C2:DI-BPM:CRT4', 'SI-04C3:DI-BPM-1:CRT4',
+            'SI-04C3:DI-BPM-2:CRT4', 'SI-04C4:DI-BPM:CRT4',
+
+            'SI-05M1:DI-BPM:CRT4', 'SI-05M2:DI-BPM:CRT4',
+            'SI-05C1:DI-BPM-1:CRT4', 'SI-05C1:DI-BPM-2:CRT4',
+            'SI-05C2:DI-BPM:CRT4', 'SI-05C3:DI-BPM-1:CRT4',
+            'SI-05C3:DI-BPM-2:CRT4', 'SI-05C4:DI-BPM:CRT4',
+
+            'SI-06M1:DI-BPM:CRT4', 'SI-06M2:DI-BPM:CRT4',
+            'SI-06C1:DI-BPM-1:CRT4', 'SI-06C1:DI-BPM-2:CRT4',
+            'SI-06C2:DI-BPM:CRT4', 'SI-06C3:DI-BPM-1:CRT4',
+            'SI-06C3:DI-BPM-2:CRT4', 'SI-06C4:DI-BPM:CRT4',
+
+            'SI-07M1:DI-BPM:CRT4', 'SI-07M2:DI-BPM:CRT4',
+            'SI-07C1:DI-BPM-1:CRT4', 'SI-07C1:DI-BPM-2:CRT4',
+            'SI-07C2:DI-BPM:CRT4', 'SI-07C3:DI-BPM-1:CRT4',
+            'SI-07C3:DI-BPM-2:CRT4', 'SI-07C4:DI-BPM:CRT4',
+
+            'SI-08M1:DI-BPM:CRT4', 'SI-08M2:DI-BPM:CRT4',
+            'SI-08C1:DI-BPM-1:CRT4', 'SI-08C1:DI-BPM-2:CRT4',
+            'SI-08C2:DI-BPM:CRT4', 'SI-08C3:DI-BPM-1:CRT4',
+            'SI-08C3:DI-BPM-2:CRT4', 'SI-08C4:DI-BPM:CRT4',
+
+            'SI-09M1:DI-BPM:CRT4', 'SI-09M2:DI-BPM:CRT4',
+            'SI-09C1:DI-BPM-1:CRT4', 'SI-09C1:DI-BPM-2:CRT4',
+            'SI-09C2:DI-BPM:CRT4', 'SI-09C3:DI-BPM-1:CRT4',
+            'SI-09C3:DI-BPM-2:CRT4', 'SI-09C4:DI-BPM:CRT4',
+
+            'SI-10M1:DI-BPM:CRT4', 'SI-10M2:DI-BPM:CRT4',
+            'SI-10C1:DI-BPM-1:CRT4', 'SI-10C1:DI-BPM-2:CRT4',
+            'SI-10C2:DI-BPM:CRT4', 'SI-10C3:DI-BPM-1:CRT4',
+            'SI-10C3:DI-BPM-2:CRT4', 'SI-10C4:DI-BPM:CRT4',
+
+            'SI-11M1:DI-BPM:CRT4', 'SI-11M2:DI-BPM:CRT4',
+            'SI-11C1:DI-BPM-1:CRT4', 'SI-11C1:DI-BPM-2:CRT4',
+            'SI-11C2:DI-BPM:CRT4', 'SI-11C3:DI-BPM-1:CRT4',
+            'SI-11C3:DI-BPM-2:CRT4', 'SI-11C4:DI-BPM:CRT4',
+
+            'SI-12M1:DI-BPM:CRT4', 'SI-12M2:DI-BPM:CRT4',
+            'SI-12C1:DI-BPM-1:CRT4', 'SI-12C1:DI-BPM-2:CRT4',
+            'SI-12C2:DI-BPM:CRT4', 'SI-12C3:DI-BPM-1:CRT4',
+            'SI-12C3:DI-BPM-2:CRT4', 'SI-12C4:DI-BPM:CRT4',
+
+            'SI-13M1:DI-BPM:CRT4', 'SI-13M2:DI-BPM:CRT4',
+            'SI-13C1:DI-BPM-1:CRT4', 'SI-13C1:DI-BPM-2:CRT4',
+            'SI-13C2:DI-BPM:CRT4', 'SI-13C3:DI-BPM-1:CRT4',
+            'SI-13C3:DI-BPM-2:CRT4', 'SI-13C4:DI-BPM:CRT4',
+
+            'SI-14M1:DI-BPM:CRT4', 'SI-14M2:DI-BPM:CRT4',
+            'SI-14C1:DI-BPM-1:CRT4', 'SI-14C1:DI-BPM-2:CRT4',
+            'SI-14C2:DI-BPM:CRT4', 'SI-14C3:DI-BPM-1:CRT4',
+            'SI-14C3:DI-BPM-2:CRT4', 'SI-14C4:DI-BPM:CRT4',
+
+            'SI-15M1:DI-BPM:CRT4', 'SI-15M2:DI-BPM:CRT4',
+            'SI-15C1:DI-BPM-1:CRT4', 'SI-15C1:DI-BPM-2:CRT4',
+            'SI-15C2:DI-BPM:CRT4', 'SI-15C3:DI-BPM-1:CRT4',
+            'SI-15C3:DI-BPM-2:CRT4', 'SI-15C4:DI-BPM:CRT4',
+
+            'SI-16M1:DI-BPM:CRT4', 'SI-16M2:DI-BPM:CRT4',
+            'SI-16C1:DI-BPM-1:CRT4', 'SI-16C1:DI-BPM-2:CRT4',
+            'SI-16C2:DI-BPM:CRT4', 'SI-16C3:DI-BPM-1:CRT4',
+            'SI-16C3:DI-BPM-2:CRT4', 'SI-16C4:DI-BPM:CRT4',
+
+            'SI-17M1:DI-BPM:CRT4', 'SI-17M2:DI-BPM:CRT4',
+            'SI-17C1:DI-BPM-1:CRT4', 'SI-17C1:DI-BPM-2:CRT4',
+            'SI-17C2:DI-BPM:CRT4', 'SI-17C3:DI-BPM-1:CRT4',
+            'SI-17C3:DI-BPM-2:CRT4', 'SI-17C4:DI-BPM:CRT4',
+
+            'SI-18M1:DI-BPM:CRT4', 'SI-18M2:DI-BPM:CRT4',
+            'SI-18C1:DI-BPM-1:CRT4', 'SI-18C1:DI-BPM-2:CRT4',
+            'SI-18C2:DI-BPM:CRT4', 'SI-18C3:DI-BPM-1:CRT4',
+            'SI-18C3:DI-BPM-2:CRT4', 'SI-18C4:DI-BPM:CRT4',
+
+            'SI-19M1:DI-BPM:CRT4', 'SI-19M2:DI-BPM:CRT4',
+            'SI-19C1:DI-BPM-1:CRT4', 'SI-19C1:DI-BPM-2:CRT4',
+            'SI-19C2:DI-BPM:CRT4', 'SI-19C3:DI-BPM-1:CRT4',
+            'SI-19C3:DI-BPM-2:CRT4', 'SI-19C4:DI-BPM:CRT4',
+
+            'SI-20M1:DI-BPM:CRT4', 'SI-20M2:DI-BPM:CRT4',
+            'SI-20C1:DI-BPM-1:CRT4', 'SI-20C1:DI-BPM-2:CRT4',
+            'SI-20C2:DI-BPM:CRT4', 'SI-20C3:DI-BPM-1:CRT4',
+            'SI-20C3:DI-BPM-2:CRT4', 'SI-20C4:DI-BPM:CRT4',
+            ),
+        },
+    'AS-Fam:TI-BPM-MonitClk': {
+        'database': {
+            'Src': {'enums': tuple()},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1},
+            'Duration': {'value': 150},
+            'State': {'value': 0},
+            'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
+            },
+        'channels': (
+            'TB-01:DI-BPM-1:CRT7', 'TB-01:DI-BPM-2:CRT7',
+            'TB-02:DI-BPM-1:CRT7', 'TB-02:DI-BPM-2:CRT7',
+            'TB-03:DI-BPM:CRT7',
+            'TB-04:DI-BPM:CRT7',
+
+            'BO-01U:DI-BPM:CRT7', 'BO-02U:DI-BPM:CRT7',
+            'BO-03U:DI-BPM:CRT7', 'BO-04U:DI-BPM:CRT7',
+            'BO-05U:DI-BPM:CRT7', 'BO-06U:DI-BPM:CRT7',
+            'BO-07U:DI-BPM:CRT7', 'BO-08U:DI-BPM:CRT7',
+            'BO-09U:DI-BPM:CRT7', 'BO-10U:DI-BPM:CRT7',
+            'BO-11U:DI-BPM:CRT7', 'BO-12U:DI-BPM:CRT7',
+            'BO-13U:DI-BPM:CRT7', 'BO-14U:DI-BPM:CRT7',
+            'BO-15U:DI-BPM:CRT7', 'BO-16U:DI-BPM:CRT7',
+            'BO-17U:DI-BPM:CRT7', 'BO-18U:DI-BPM:CRT7',
+            'BO-19U:DI-BPM:CRT7', 'BO-20U:DI-BPM:CRT7',
+            'BO-21U:DI-BPM:CRT7', 'BO-22U:DI-BPM:CRT7',
+            'BO-23U:DI-BPM:CRT7', 'BO-24U:DI-BPM:CRT7',
+            'BO-25U:DI-BPM:CRT7', 'BO-26U:DI-BPM:CRT7',
+            'BO-27U:DI-BPM:CRT7', 'BO-28U:DI-BPM:CRT7',
+            'BO-29U:DI-BPM:CRT7', 'BO-30U:DI-BPM:CRT7',
+            'BO-31U:DI-BPM:CRT7', 'BO-32U:DI-BPM:CRT7',
+            'BO-33U:DI-BPM:CRT7', 'BO-34U:DI-BPM:CRT7',
+            'BO-35U:DI-BPM:CRT7', 'BO-36U:DI-BPM:CRT7',
+            'BO-37U:DI-BPM:CRT7', 'BO-38U:DI-BPM:CRT7',
+            'BO-39U:DI-BPM:CRT7', 'BO-40U:DI-BPM:CRT7',
+            'BO-41U:DI-BPM:CRT7', 'BO-42U:DI-BPM:CRT7',
+            'BO-43U:DI-BPM:CRT7', 'BO-44U:DI-BPM:CRT7',
+            'BO-45U:DI-BPM:CRT7', 'BO-46U:DI-BPM:CRT7',
+            'BO-47U:DI-BPM:CRT7', 'BO-48U:DI-BPM:CRT7',
+            'BO-49U:DI-BPM:CRT7', 'BO-50U:DI-BPM:CRT7',
+
+            'TS-01:DI-BPM:CRT7', 'TS-02:DI-BPM:CRT7',
+            'TS-03:DI-BPM:CRT7',
+            'TS-04:DI-BPM-1:CRT7', 'TS-04:DI-BPM-2:CRT7',
+
+            'SI-01M1:DI-BPM:CRT7', 'SI-01M2:DI-BPM:CRT7',
+            'SI-01C1:DI-BPM-1:CRT7', 'SI-01C1:DI-BPM-2:CRT7',
+            'SI-01C2:DI-BPM:CRT7', 'SI-01C3:DI-BPM-1:CRT7',
+            'SI-01C3:DI-BPM-2:CRT7', 'SI-01C4:DI-BPM:CRT7',
+
+            'SI-02M1:DI-BPM:CRT7', 'SI-02M2:DI-BPM:CRT7',
+            'SI-02C1:DI-BPM-1:CRT7', 'SI-02C1:DI-BPM-2:CRT7',
+            'SI-02C2:DI-BPM:CRT7', 'SI-02C3:DI-BPM-1:CRT7',
+            'SI-02C3:DI-BPM-2:CRT7', 'SI-02C4:DI-BPM:CRT7',
+
+            'SI-03M1:DI-BPM:CRT7', 'SI-03M2:DI-BPM:CRT7',
+            'SI-03C1:DI-BPM-1:CRT7', 'SI-03C1:DI-BPM-2:CRT7',
+            'SI-03C2:DI-BPM:CRT7', 'SI-03C3:DI-BPM-1:CRT7',
+            'SI-03C3:DI-BPM-2:CRT7', 'SI-03C4:DI-BPM:CRT7',
+
+            'SI-04M1:DI-BPM:CRT7', 'SI-04M2:DI-BPM:CRT7',
+            'SI-04C1:DI-BPM-1:CRT7', 'SI-04C1:DI-BPM-2:CRT7',
+            'SI-04C2:DI-BPM:CRT7', 'SI-04C3:DI-BPM-1:CRT7',
+            'SI-04C3:DI-BPM-2:CRT7', 'SI-04C4:DI-BPM:CRT7',
+
+            'SI-05M1:DI-BPM:CRT7', 'SI-05M2:DI-BPM:CRT7',
+            'SI-05C1:DI-BPM-1:CRT7', 'SI-05C1:DI-BPM-2:CRT7',
+            'SI-05C2:DI-BPM:CRT7', 'SI-05C3:DI-BPM-1:CRT7',
+            'SI-05C3:DI-BPM-2:CRT7', 'SI-05C4:DI-BPM:CRT7',
+
+            'SI-06M1:DI-BPM:CRT7', 'SI-06M2:DI-BPM:CRT7',
+            'SI-06C1:DI-BPM-1:CRT7', 'SI-06C1:DI-BPM-2:CRT7',
+            'SI-06C2:DI-BPM:CRT7', 'SI-06C3:DI-BPM-1:CRT7',
+            'SI-06C3:DI-BPM-2:CRT7', 'SI-06C4:DI-BPM:CRT7',
+
+            'SI-07M1:DI-BPM:CRT7', 'SI-07M2:DI-BPM:CRT7',
+            'SI-07C1:DI-BPM-1:CRT7', 'SI-07C1:DI-BPM-2:CRT7',
+            'SI-07C2:DI-BPM:CRT7', 'SI-07C3:DI-BPM-1:CRT7',
+            'SI-07C3:DI-BPM-2:CRT7', 'SI-07C4:DI-BPM:CRT7',
+
+            'SI-08M1:DI-BPM:CRT7', 'SI-08M2:DI-BPM:CRT7',
+            'SI-08C1:DI-BPM-1:CRT7', 'SI-08C1:DI-BPM-2:CRT7',
+            'SI-08C2:DI-BPM:CRT7', 'SI-08C3:DI-BPM-1:CRT7',
+            'SI-08C3:DI-BPM-2:CRT7', 'SI-08C4:DI-BPM:CRT7',
+
+            'SI-09M1:DI-BPM:CRT7', 'SI-09M2:DI-BPM:CRT7',
+            'SI-09C1:DI-BPM-1:CRT7', 'SI-09C1:DI-BPM-2:CRT7',
+            'SI-09C2:DI-BPM:CRT7', 'SI-09C3:DI-BPM-1:CRT7',
+            'SI-09C3:DI-BPM-2:CRT7', 'SI-09C4:DI-BPM:CRT7',
+
+            'SI-10M1:DI-BPM:CRT7', 'SI-10M2:DI-BPM:CRT7',
+            'SI-10C1:DI-BPM-1:CRT7', 'SI-10C1:DI-BPM-2:CRT7',
+            'SI-10C2:DI-BPM:CRT7', 'SI-10C3:DI-BPM-1:CRT7',
+            'SI-10C3:DI-BPM-2:CRT7', 'SI-10C4:DI-BPM:CRT7',
+
+            'SI-11M1:DI-BPM:CRT7', 'SI-11M2:DI-BPM:CRT7',
+            'SI-11C1:DI-BPM-1:CRT7', 'SI-11C1:DI-BPM-2:CRT7',
+            'SI-11C2:DI-BPM:CRT7', 'SI-11C3:DI-BPM-1:CRT7',
+            'SI-11C3:DI-BPM-2:CRT7', 'SI-11C4:DI-BPM:CRT7',
+
+            'SI-12M1:DI-BPM:CRT7', 'SI-12M2:DI-BPM:CRT7',
+            'SI-12C1:DI-BPM-1:CRT7', 'SI-12C1:DI-BPM-2:CRT7',
+            'SI-12C2:DI-BPM:CRT7', 'SI-12C3:DI-BPM-1:CRT7',
+            'SI-12C3:DI-BPM-2:CRT7', 'SI-12C4:DI-BPM:CRT7',
+
+            'SI-13M1:DI-BPM:CRT7', 'SI-13M2:DI-BPM:CRT7',
+            'SI-13C1:DI-BPM-1:CRT7', 'SI-13C1:DI-BPM-2:CRT7',
+            'SI-13C2:DI-BPM:CRT7', 'SI-13C3:DI-BPM-1:CRT7',
+            'SI-13C3:DI-BPM-2:CRT7', 'SI-13C4:DI-BPM:CRT7',
+
+            'SI-14M1:DI-BPM:CRT7', 'SI-14M2:DI-BPM:CRT7',
+            'SI-14C1:DI-BPM-1:CRT7', 'SI-14C1:DI-BPM-2:CRT7',
+            'SI-14C2:DI-BPM:CRT7', 'SI-14C3:DI-BPM-1:CRT7',
+            'SI-14C3:DI-BPM-2:CRT7', 'SI-14C4:DI-BPM:CRT7',
+
+            'SI-15M1:DI-BPM:CRT7', 'SI-15M2:DI-BPM:CRT7',
+            'SI-15C1:DI-BPM-1:CRT7', 'SI-15C1:DI-BPM-2:CRT7',
+            'SI-15C2:DI-BPM:CRT7', 'SI-15C3:DI-BPM-1:CRT7',
+            'SI-15C3:DI-BPM-2:CRT7', 'SI-15C4:DI-BPM:CRT7',
+
+            'SI-16M1:DI-BPM:CRT7', 'SI-16M2:DI-BPM:CRT7',
+            'SI-16C1:DI-BPM-1:CRT7', 'SI-16C1:DI-BPM-2:CRT7',
+            'SI-16C2:DI-BPM:CRT7', 'SI-16C3:DI-BPM-1:CRT7',
+            'SI-16C3:DI-BPM-2:CRT7', 'SI-16C4:DI-BPM:CRT7',
+
+            'SI-17M1:DI-BPM:CRT7', 'SI-17M2:DI-BPM:CRT7',
+            'SI-17C1:DI-BPM-1:CRT7', 'SI-17C1:DI-BPM-2:CRT7',
+            'SI-17C2:DI-BPM:CRT7', 'SI-17C3:DI-BPM-1:CRT7',
+            'SI-17C3:DI-BPM-2:CRT7', 'SI-17C4:DI-BPM:CRT7',
+
+            'SI-18M1:DI-BPM:CRT7', 'SI-18M2:DI-BPM:CRT7',
+            'SI-18C1:DI-BPM-1:CRT7', 'SI-18C1:DI-BPM-2:CRT7',
+            'SI-18C2:DI-BPM:CRT7', 'SI-18C3:DI-BPM-1:CRT7',
+            'SI-18C3:DI-BPM-2:CRT7', 'SI-18C4:DI-BPM:CRT7',
+
+            'SI-19M1:DI-BPM:CRT7', 'SI-19M2:DI-BPM:CRT7',
+            'SI-19C1:DI-BPM-1:CRT7', 'SI-19C1:DI-BPM-2:CRT7',
+            'SI-19C2:DI-BPM:CRT7', 'SI-19C3:DI-BPM-1:CRT7',
+            'SI-19C3:DI-BPM-2:CRT7', 'SI-19C4:DI-BPM:CRT7',
+
+            'SI-20M1:DI-BPM:CRT7', 'SI-20M2:DI-BPM:CRT7',
+            'SI-20C1:DI-BPM-1:CRT7', 'SI-20C1:DI-BPM-2:CRT7',
+            'SI-20C2:DI-BPM:CRT7', 'SI-20C3:DI-BPM-1:CRT7',
+            'SI-20C3:DI-BPM-2:CRT7', 'SI-20C4:DI-BPM:CRT7',
+            ),
+        },
     'SI-Fam:TI-BPM-PsMtn': {
         'database': {
             'Src': {'enums': ('FOFBS', 'PsMtn')},
@@ -1757,6 +2027,7 @@
             'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'SI-01M1:DI-BPM:CRT2', 'SI-01M2:DI-BPM:CRT2',
@@ -1869,6 +2140,7 @@
             'Duration': {'value': 150},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
             'IA-01RaBPM:BS-FOFBCtrl:CRT5',
