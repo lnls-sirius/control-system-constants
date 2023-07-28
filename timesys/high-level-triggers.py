@@ -1759,7 +1759,7 @@
         },
     'SI-Fam:TI-BPM-OrbIntlk': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1872,7 +1872,7 @@
         },
     'AS-Fam:TI-BPM-MonitClk': {
         'database': {
-            'Src': {'enums': tuple()},
+            'Src': {'enums': ()},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
