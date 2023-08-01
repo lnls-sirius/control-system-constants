@@ -1759,7 +1759,7 @@
         },
     'SI-Fam:TI-BPM-OrbIntlk': {
         'database': {
-            'Src': {'enums': ()},
+            'Src': {'enums': ('Intlk', )},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
