@@ -1,11 +1,8 @@
 name: CS-Consts CD
 
 on:
-  pull_request:
-    branches: master
-# on:
-#   release:
-#     types: [created]
+  release:
+    types: [created]
 
 jobs:
   deploy:
