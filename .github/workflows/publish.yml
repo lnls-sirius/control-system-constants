@@ -25,7 +25,7 @@ jobs:
           password: ${{ secrets.CS_CONSTS }}
 
       - name: Write deploy tag
-        run:  echo "DEPLOY_TAG=${GITHUB_REF_NAME#v}" > .env
+        run:  echo "RELEASE_TAG=${GITHUB_REF_NAME#v}" > .env
 
       - name: Push Docker Compose 🪖
         run: docker-compose push
