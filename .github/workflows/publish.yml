@@ -24,5 +24,8 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.CS_CONSTS }}
 
+      - name: Write deploy tag
+        run:  echo "DEPLOY_TAG=${GITHUB_REF_NAME#v}" > .env
+
       - name: Push Docker Compose 🪖
         run: docker-compose push

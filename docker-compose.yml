@@ -3,7 +3,7 @@ version: '3.8'
 services:
   fac-csconsts:
     container_name: 'facs-csconsts'
-    image: 'ghcr.io/lnls-sirius/control-system-constants:${GITHUB_REF_NAME#v}'
+    image: 'ghcr.io/lnls-sirius/control-system-constants:$RELEASE_TAG'
     build:
       context: .
       labels:
