@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fac-csconsts:
+    container_name: 'facs-csconsts'
+    image: 'ghcr.io/lnls-sirius/control-system-constants:1.58.0'
+    build:
+      context: .
+      labels:
+        - "br.com.lnls-sirius.department=FAC"
+    ports:
+      - 80:80
