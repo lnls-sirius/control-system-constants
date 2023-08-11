@@ -17,17 +17,15 @@ jobs:
       - name: Checkout 🛎️
         uses: actions/checkout@master
 
-      # - name: Build Docker Compose 🏗️
-      #   run: docker-compose build
+      - name: Build Docker Compose 🏗️
+        run: docker-compose build
 
-      - name: test
-        run: echo ${GITHUB_REF}
-      # - name: Login to GitHub Container Registry 🔓
-      #   uses: docker/login-action@v2
-      #   with:
-      #     registry: ghcr.io
-      #     username: ${{ github.actor }}
-      #     password: ${{ secrets.CS_CONSTS }}
+      - name: Login to GitHub Container Registry 🔓
+        uses: docker/login-action@v2
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.CS_CONSTS }}
 
-      # - name: Push Docker Compose 🪖
-      #   run: docker-compose push
+      - name: Push Docker Compose 🪖
+        run: docker-compose push
