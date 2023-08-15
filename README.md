@@ -11,3 +11,6 @@ This repository should be cloned as the 'html' directory at the Sirius control-s
 * magnet: static tables related to the magnets.
 * pwrsupply: static tables related to magnet power supplies.
 * timesys: static tables related to the timing subsystem.
+
+## Deploy Procedure
+The deploy of this webpage should de done in the IBM server 1 (IP address: 10.30.1.50) using docker compose.
