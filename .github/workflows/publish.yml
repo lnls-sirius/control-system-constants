@@ -2,8 +2,7 @@ name: CS-Consts CD
 
 on:
   pull_request:
-    branches:
-      - main
+    branches: master
 
 jobs:
   deploy:
