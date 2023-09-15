@@ -1,24 +1,15 @@
 DEPLOY SIRIUS WELCOME PAGE SERVICE
 ==============================
 
-Document update: 2022-06-06
+Document update: 2023-08-15
 Main contributers:
     1. Rafael Lyra (SwC) - rafael.lyra@lnls.br
     2. Ana Clara (SwC) - ana.clara@lnls.br
     3. Ximenes Resende (FAC) - ximenes.resende@lnls.br
 
 
-Steps to create and deploy new version of archiver viewer
+Steps to create and deploy new version of sirius welcome page:
 
-1 - connect to the server: 'ssh sirius@10.0.38.42'
-2 - go to the folder: 'cd repos-dev/sirius-welcome-page/'
-3 - pull the repository 'git pull'
-4 - go back to the past folder 'cd ..'
-5 - copy the new repository to the right server's location
-    'cp -r sirius-welcome-page /storage/services/repository/docker-stacks/httpd'
-6 - go to the server location 'cd /storage/services/repository/docker-stacks/httpd/'
-7 - see the difference between the repositories with the command 'diff sirius-welcome-page welcome-page'
-8 - remove the altered files in the 'welcome-page' repository with the command
-    'rm 'filename''
-9 - move the new files from the 'sirius-welcome-page' repository to the 'welcome-page' with the command:
-    'mv sirius-welcome-page/'filename' welcome-page/'
+swc.lnls.br/docs/guides/deploy/web/server_ibm
+
+Using the web_page_name: welcome-page
