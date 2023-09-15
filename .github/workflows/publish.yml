@@ -18,7 +18,8 @@ jobs:
         uses: docker/login-action@v2
         with:
           registry: ghcr.io
-          repos-token: ${{ secrets.GITHUB_TOKEN }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Write deploy tag
         run:  echo "RELEASE_TAG=${GITHUB_REF_NAME#v}" > .env
