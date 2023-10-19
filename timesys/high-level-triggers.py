@@ -1283,6 +1283,20 @@
             'BO-50U:DI-VLightCam:TRIGIN',
             ),
         },
+    'BA-CAXB:TI-DVF-2': {
+        'database': {
+            'Src': {'enums': ()},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1, 'hilim': 1000},
+            'Duration': {'value': 150, 'hilim': 500000},
+            'State': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': (
+            'BA-CAXB:DI-ScrnCam:TRIGIN',
+            ),
+        },
     'BO-Glob:TI-TuneProc': {
         'database': {
             'Src': {'enums': ()},
