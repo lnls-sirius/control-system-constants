@@ -1283,7 +1283,7 @@
             'BO-50U:DI-VLightCam:TRIGIN',
             ),
         },
-    'BA-CAXB:TI-DVF-2': {
+    'BA-CAXB:TI-DVF': {
         'database': {
             'Src': {'enums': ()},
             'Delay': {'value': 0.0},
