@@ -1555,6 +1555,22 @@
             },
         'channels': ('SI-14C4:DI-DCCTDig:TRIGIN', ),
         },
+    'SI-13C4:TI-DCCT-PsMtm': {
+        'database': {
+            'Src': {'enums': ('DCT13', 'PsMtm')},
+            'State': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-13C4:DI-DCCTDig:TRIGOUT', ),
+        },
+    'SI-14C4:TI-DCCT-PsMtm': {
+        'database': {
+            'Src': {'enums': ('DCT14', 'PsMtm')},
+            'State': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-14C4:DI-DCCTDig:TRIGOUT', ),
+        },
     'AS-Glob:TI-FCT': {
         # This trigger will work for both FCTs, from TB and TS transpor lines.
         # Two triggers must be sent for each injection pulse, the first will
