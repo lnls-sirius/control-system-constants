@@ -11,11 +11,14 @@
 #    mamba activate sirius
 #
 # 2-) Export the enviroment variables defining where to find the low level PVs:
-#    export EPICS_CA_ADDR_LIST="$EPICS_CA_ADDR_LIST 10.10.10.126 10.20.26.78 10.20.26.82"
-#    export EPICS_PVA_ADDR_LIST="$EPICS_PVA_ADDR_LIST 10.10.10.126 10.20.26.78 10.20.26.82"
+#    export EPICS_CA_ADDR_LIST="de-22rabpm-co-iocsrv de-23rabpm-co-iocsrv de-24rabpm-co-iocsrv s-gie01-l 10.0.38.46:60000 10.0.38.59:60000"
+#    export EPICS_PVA_ADDR_LIST="de-22rabpm-co-iocsrv de-23rabpm-co-iocsrv de-24rabpm-co-iocsrv s-gie01-l 10.0.38.46:60000 10.0.38.59:60000"
+
 #
 # 3-) Export the environment variable pointing to the right cs-consts server:
 #    export SIRIUS_URL_CONSTS=http://localhost
+#   If the above don't work, try this one:
+#    export SIRIUS_URL_CONSTS=http://127.0.0.1
 #
 # 4-) Run the high level testing IOC on you machine:
 #    sirius-ioc-as-ti-control.py
@@ -48,3 +51,5 @@ DE-23RaBPM:TI-EVE:OTP0                DE-23RaBPM:DU-DummyEVE1:IN
 DE-23RaBPM:TI-EVE:OTP1                DE-23RaBPM:DU-DummyEVE2:IN
 DE-23RaBPM:TI-EVE:OUT0                DE-23RaBPM:DU-DummyEVE3:IN
 DE-23RaBPM:TI-EVE:OUT1                DE-23RaBPM:DU-DummyEVE4:IN
+DE-23RaBPM:TI-EVE:DIN0                DE-23RaBPM:DU-DummyEVE5:OUT
+DE-23RaBPM:TI-EVE:DIN1                DE-23RaBPM:DU-DummyEVE6:OUT
