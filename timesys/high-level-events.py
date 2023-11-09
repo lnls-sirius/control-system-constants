@@ -14,5 +14,7 @@
     'TunSI': 'Evt09', 'FOFBS': 'Evt10',
 
     'Dsbld':  'Evt00',
-    'Intlk': 'Evt117', 'PsMtn': 'Evt124',
+    'Intlk': 'Evt117', 'RFKll': 'Evt124',
+    'DCT13': 'Evt125', 'DCT14': 'Evt126',
+    'PsMtm': 'Evt132',
 }
