@@ -1541,7 +1541,7 @@
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('SI-13SA:DI-DCCTDig:TRIGIN', ),
+        'channels': ('SI-13C4:DI-DCCTDig:TRIGIN', ),
         },
     'SI-14C4:TI-DCCT': {
         'database': {
@@ -1553,7 +1553,7 @@
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('SI-14SB:DI-DCCTDig:TRIGIN', ),
+        'channels': ('SI-14C4:DI-DCCTDig:TRIGIN', ),
         },
     'AS-Glob:TI-FCT': {
         # This trigger will work for both FCTs, from TB and TS transpor lines.
