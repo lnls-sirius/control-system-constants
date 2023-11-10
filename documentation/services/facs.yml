@@ -242,6 +242,7 @@ facs-as-pu-conv:
 
 facs-as-ti_general:
   as-ti-trig:
+  - AS-Fam:TI-BPM-MonitClk
   - AS-Fam:TI-Scrn-TBBO
   - AS-Glob:TI-FCT
   - AS-Glob:TI-FillPtrnMon
@@ -285,6 +286,7 @@ facs-as-ti_general:
   - SI-13C4:TI-DCCT
   - SI-14C4:TI-DCCT
   - SI-19C4:TI-PingV
+  - SI-Fam:TI-BPM-OrbIntlk
   - SI-Fam:TI-BPM-PsMtn
   - SI-Fam:TI-FOFB
   - SI-Glob:TI-BbBProcH-Fid
@@ -3021,3 +3023,8 @@ facs-si-ap-idff_epu50:
 facs-si-ap-idff_papu50:
   si-ap-idff SI-17SA:ID-PAPU50:
   - SI-17SA:AP-IDFF
+
+facs-si-ap-orbintlk:
+  si-ap-orbintlk:
+  - SI-Glob:AP-OrbIntlk
+
