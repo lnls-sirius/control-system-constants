@@ -1066,9 +1066,9 @@
             },
         'channels': ('RA-RaBO01:RF-DigPatch:GENERIC', ),
         },
-    'BO-Glob:TI-LLRF-PsMtn': {
+    'BO-Glob:TI-LLRF-PsMtm': {
         'database': {
-            'Src': {'enums': ('InjBO', 'PsMtn', )},
+            'Src': {'enums': ('InjBO', 'RFKll', 'PsMtm')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2},
@@ -1108,9 +1108,9 @@
             # 'RA-RaSIB01:RF-DigPatch:GENERIC',
             ),
         },
-    'SI-Glob:TI-LLRF-PsMtn': {
+    'SI-Glob:TI-LLRF-PsMtm': {
         'database': {
-            'Src': {'enums': ('InjSI', 'PsMtn')},
+            'Src': {'enums': ('InjSI', 'RFKll', 'PsMtm')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1, 'hilim': 2},
@@ -1533,7 +1533,7 @@
         },
     'SI-13C4:TI-DCCT': {
         'database': {
-            'Src': {'enums': ('PsMtn', )},
+            'Src': {'enums': ('RFKll', 'PsMtm')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1541,11 +1541,11 @@
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('SI-13SA:DI-DCCTDig:TRIGIN', ),
+        'channels': ('SI-13C4:DI-DCCTDig:TRIGIN', ),
         },
     'SI-14C4:TI-DCCT': {
         'database': {
-            'Src': {'enums': ('PsMtn', )},
+            'Src': {'enums': ('RFKll', 'PsMtm')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},
@@ -1553,7 +1553,23 @@
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('SI-14SB:DI-DCCTDig:TRIGIN', ),
+        'channels': ('SI-14C4:DI-DCCTDig:TRIGIN', ),
+        },
+    'SI-13C4:TI-DCCT-PsMtm': {
+        'database': {
+            'Src': {'enums': ('DCT13', 'PsMtm')},
+            'State': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-13C4:DI-DCCTDig:TRIGOUT', ),
+        },
+    'SI-14C4:TI-DCCT-PsMtm': {
+        'database': {
+            'Src': {'enums': ('DCT14', 'PsMtm')},
+            'State': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('SI-14C4:DI-DCCTDig:TRIGOUT', ),
         },
     'AS-Glob:TI-FCT': {
         # This trigger will work for both FCTs, from TB and TS transpor lines.
@@ -2032,9 +2048,9 @@
             'SI-20C3:DI-BPM-2:CRT7', 'SI-20C4:DI-BPM:CRT7',
             ),
         },
-    'SI-Fam:TI-BPM-PsMtn': {
+    'SI-Fam:TI-BPM-PsMtm': {
         'database': {
-            'Src': {'enums': ('FOFBS', 'PsMtn')},
+            'Src': {'enums': ('FOFBS', 'RFKll', 'PsMtm')},
             'Delay': {'value': 0.0},
             'RFDelayType': {'value': 1, 'states': (2, 0)},
             'NrPulses': {'value': 1},

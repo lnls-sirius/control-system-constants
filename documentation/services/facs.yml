@@ -257,7 +257,7 @@ facs-as-ti_general:
   - BO-50U:TI-VLightCam
   - BO-RaPSE05:TI-Osc
   - BO-Glob:TI-LLRF-Gen
-  - BO-Glob:TI-LLRF-PsMtn
+  - BO-Glob:TI-LLRF-PsMtm
   - BO-Glob:TI-LLRF-Rmp
   - BO-Glob:TI-Mags-Fams
   - BO-Glob:TI-TuneProc
@@ -286,8 +286,8 @@ facs-as-ti_general:
   - SI-13C4:TI-DCCT
   - SI-14C4:TI-DCCT
   - SI-19C4:TI-PingV
+  - SI-Fam:TI-BPM-PsMtm
   - SI-Fam:TI-BPM-OrbIntlk
-  - SI-Fam:TI-BPM-PsMtn
   - SI-Fam:TI-FOFB
   - SI-Glob:TI-BbBProcH-Fid
   - SI-Glob:TI-BbBProcH-Trig1
@@ -299,7 +299,7 @@ facs-as-ti_general:
   - SI-Glob:TI-BbBProcV-Trig1
   - SI-Glob:TI-BbBProcV-Trig2
   - SI-Glob:TI-LLRF-Gen
-  - SI-Glob:TI-LLRF-PsMtn
+  - SI-Glob:TI-LLRF-PsMtm
   - SI-Glob:TI-LLRF-Rmp
   - SI-Glob:TI-Mags-Bends
   - SI-Glob:TI-Mags-Quads
