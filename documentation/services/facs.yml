@@ -250,6 +250,8 @@ facs-as-ti_general:
   - AS-Glob:TI-Osc-InjBO
   - AS-Glob:TI-Osc-InjSI
   - AS-Glob:TI-Osc-InjSI2
+  ba-ti-trig:
+  - BA-CAXB:TI-DVF
   bo-ti-trig:
   - BO-01D:TI-InjKckr
   - BO-35D:TI-DCCT
@@ -284,7 +286,9 @@ facs-as-ti_general:
   - SI-01SA:TI-InjNLKckr
   - SI-01C2FE:TI-VLightCam
   - SI-13C4:TI-DCCT
+  - SI-13C4:TI-DCCT-PsMtm
   - SI-14C4:TI-DCCT
+  - SI-14C4:TI-DCCT-PsMtm
   - SI-19C4:TI-PingV
   - SI-Fam:TI-BPM-PsMtm
   - SI-Fam:TI-BPM-OrbIntlk
@@ -833,10 +837,6 @@ facs-si-id_conv:
   - SI-08SB:ID-APU22:Kx
   - SI-09SA:ID-APU22:Kx
   - SI-11SP:ID-APU58:Kx
-
-facs-si-id_epu50:
-  si-id-epu50:
-  - SI-10SB:ID-EPU50
 
 facs-si-ap-sofb:
   si-ap-sofb:
@@ -3016,8 +3016,8 @@ facs-bl-ap-imgproc:
   bl-ap-imgproc-caxdvf2:
   - CAX:B:BASLER01
 
-facs-si-ap-idff_epu50:
-  si-ap-idff SI-10SB:ID-EPU50:
+facs-si-ap-idff_delta52:
+  si-ap-idff SI-10SB:ID-DELTA52:
   - SI-10SB:AP-IDFF
 
 facs-si-ap-idff_papu50:
@@ -3027,4 +3027,3 @@ facs-si-ap-idff_papu50:
 facs-si-ap-orbintlk:
   si-ap-orbintlk:
   - SI-Glob:AP-OrbIntlk
-
