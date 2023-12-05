@@ -1571,8 +1571,16 @@
             },
         'channels': ('SI-14C4:DI-DCCTDig:TRIGOUT', ),
         },
+    'SI-Fam:TI-OrbIntlkRedundancy': {
+        'database': {
+            'Src': {'enums': ('ItlkR', )},
+            'State': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH5', ),
+        },
     'AS-Glob:TI-FCT': {
-        # This trigger will work for both FCTs, from TB and TS transpor lines.
+        # This trigger will work for both FCTs, from TB and TS transport lines.
         # Two triggers must be sent for each injection pulse, the first will
         # serve as trigger for the TB FCT and the other for the TS.
         # The delay and duration must be adjusted accordingly to the time it
