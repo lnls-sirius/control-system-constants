@@ -1385,30 +1385,18 @@
             'TS-04:DI-ICTDig:TRIGIN',
             ),
         },
-    # 'SI-Glob:TI-StrkCam-Trig1': {
-    #     'database': {
-    #         'Src': {'enums': ()},
-    #         'Delay': {'value': 0.0},
-    #         'RFDelayType': {'value': 1, 'states': (2, 0)},
-    #         'NrPulses': {'value': 1, 'hilim': 2},
-    #         'Duration': {'value': 150, 'hilim': 550},
-    #         'State': {'value': 0},
-    #         'Polarity': {'value': 1, 'states': (1, 0)},
-    #         },
-    #     'channels': ('BA-01B1RaCtrl:DI-StrkCam:TRIG1', ),
-    #     },
-    # 'SI-Glob:TI-StrkCam-Trig2': {
-    #     'database': {
-    #         'Src': {'enums': ()},
-    #         'Delay': {'value': 0.0},
-    #         'RFDelayType': {'value': 1, 'states': (2, 0)},
-    #         'NrPulses': {'value': 1, 'hilim': 2},
-    #         'Duration': {'value': 150, 'hilim': 550},
-    #         'State': {'value': 0},
-    #         'Polarity': {'value': 1, 'states': (1, 0)},
-    #         },
-    #     'channels': ('BA-01B1RaCtrl:DI-StrkCam:TRIG2', ),
-    #     },
+    'BA-IMBA:TI-StrkCam': {
+        'database': {
+            'Src': {'enums': ()},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1, 'hilim': 2},
+            'Duration': {'value': 150, 'hilim': 550},
+            'State': {'value': 0},
+            'Polarity': {'value': 1, 'states': (1, 0)},
+            },
+        'channels': ('BA-IMBA:DI-StrkCam:TRIG1', ),
+        },
     'SI-Glob:TI-BbBProcH-Trig1': {
         'database': {
             'Src': {'enums': ()},
