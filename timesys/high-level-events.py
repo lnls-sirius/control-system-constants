@@ -12,6 +12,7 @@
     'Cycle': 'Evt05', 'Study': 'Evt06',
     'OrbSI': 'Evt07', 'CplSI': 'Evt08',
     'TunSI': 'Evt09', 'FOFBS': 'Evt10',
+    'Debug': 'Evt11',
 
     'Dsbld':  'Evt00',
     'Intlk': 'Evt117', 'ItlkR': 'Evt118',
