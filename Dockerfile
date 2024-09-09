@@ -7,5 +7,5 @@ WORKDIR /usr/local/apache2/htdocs/
 COPY ./apache2_conf/httpd.conf /usr/local/apache2/conf/httpd.conf
 COPY ./apache2_conf/httpd-mpm.conf /usr/local/apache2/conf/extra/httpd-mpm.conf
 
-RUN mkdir control-system-constants
+RUN mkdir /usr/local/apache2/htdocs/control-system-constants/
 COPY . /usr/local/apache2/htdocs/control-system-constants/
