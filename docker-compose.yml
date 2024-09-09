@@ -9,7 +9,7 @@ services:
       labels:
         - "br.com.lnls-sirius.department=FAC"
     ports:
-      - 80:80
+      - "20080:20080"
 
   fac-csconsts-latest:
     container_name: 'facs-csconsts'
@@ -19,4 +19,4 @@ services:
       labels:
         - "br.com.lnls-sirius.department=FAC"
     ports:
-      - 80:80
+      - "20080:20080"
