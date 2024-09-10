@@ -125,6 +125,9 @@ si-corrector-epu50-cv        bipolar          corrector-vertical
 si-corrector-epu50-qs        bipolar          quadrupole-skew
 si-corrector-papu50-ch       bipolar          corrector-horizontal
 si-corrector-papu50-cv       bipolar          corrector-vertical
+si-corrector-ivu18-ch        bipolar          corrector-horizontal
+si-corrector-ivu80-cv        bipolar          corrector-vertical
+si-corrector-ivu80-lch       bipolar          corrector-horizontal
 si-hping                     bipolar          corrector-horizontal
 si-vping                     bipolar          corrector-vertical
 

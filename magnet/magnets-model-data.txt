@@ -1,13 +1,13 @@
-# This file was generated automatically from the data of the 
-# models of the accelerators in the pymodels repository by the 
-# function: 
+# This file was generated automatically from the data of the
+# models of the accelerators in the pymodels repository by the
+# function:
 #    siriuspy.optics.lattice_survey.generate_model_static_table.
 #
 # If any model change, please, run the script
 # again and copy the generated file to replace this one.
 
 
-#Magnets data 
+#Magnets data
 #-----------
 
 
@@ -437,6 +437,11 @@ SI-08M1:MA-SFB0                  177.8087
 SI-08M1:MA-FCH                   177.9747
 SI-08M1:MA-FCV                   177.9747
 SI-08M1:MA-QDB2                  178.1387
+SI-08SB:MA-CH-1                  180.0364
+SI-08SB:MA-CV-1                  180.0364
+SI-08SB:MA-LCH                   181.4364
+SI-08SB:MA-CV-2                  182.8364
+SI-08SB:MA-CH-2                  182.8364
 SI-08M2:MA-QDB2                  184.7342
 SI-08M2:MA-FCH                   184.8982
 SI-08M2:MA-FCV                   184.8982
@@ -799,8 +804,11 @@ SI-14M1:MA-SFB0                  333.3257
 SI-14M1:MA-FCH                   333.4917
 SI-14M1:MA-FCV                   333.4917
 SI-14M1:MA-QDB2                  333.6557
-SI-14SB:MA-CH-1                  335.5764
-SI-14SB:MA-CH-2                  338.3304
+SI-14SB:MA-CH-1                  335.5534
+SI-14SB:MA-CV-1                  335.5534
+SI-14SB:MA-LCH                   336.9534
+SI-14SB:MA-CV-2                  338.3534
+SI-14SB:MA-CH-2                  338.3534
 SI-14M2:MA-QDB2                  340.2512
 SI-14M2:MA-FCH                   340.4152
 SI-14M2:MA-FCV                   340.4152
