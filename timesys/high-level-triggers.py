@@ -1565,7 +1565,11 @@
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH5', ),
+        'channels': (
+                'IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH5',
+                'IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH5',
+                'IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH5',
+                ),
         },
     'AS-Glob:TI-FCT': {
         # This trigger will work for both FCTs, from TB and TS transport lines.
