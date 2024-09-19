@@ -1090,7 +1090,7 @@
             },
         'channels': (
             'RA-RaSIA01:RF-DigPatch:RAMP',
-            # 'RA-RaSIB01:RF-DigPatch:RAMP',
+            'RA-RaSIB01:RF-DigPatch:RAMP',
             ),
         },
     'SI-Glob:TI-LLRF-Gen': {
@@ -1105,7 +1105,7 @@
             },
         'channels': (
             'RA-RaSIA01:RF-DigPatch:GENERIC',
-            # 'RA-RaSIB01:RF-DigPatch:GENERIC',
+            'RA-RaSIB01:RF-DigPatch:GENERIC',
             ),
         },
     'SI-Glob:TI-LLRF-PsMtm': {
@@ -1120,7 +1120,7 @@
             },
         'channels': (
             'RA-RaSIA01:RF-DigPatch:ET',
-            # 'RA-RaSIB01:RF-DigPatch:ET',
+            'RA-RaSIB01:RF-DigPatch:ET',
             ),
         },
     # #### DIAGNOSTICS ######
