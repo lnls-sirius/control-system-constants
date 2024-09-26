@@ -15,6 +15,12 @@
             {"BBB_IP_1": "10.128.101.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-01RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-01M1:PS-CH/SI-01M1:PS-CV/SI-01M2:PS-CH/SI-01M2:PS-CV,SI-01C2:PS-CH/SI-01C2:PS-CV-1/SI-01C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.101.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-01RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-01C1:PS-Q1/SI-01C1:PS-Q2/SI-01C2:PS-Q3/SI-01C2:PS-Q4,SI-01C4:PS-Q1/SI-01C4:PS-Q2/SI-01C3:PS-Q3/SI-01C3:PS-Q4,SI-01C1:PS-QS/SI-01C2:PS-QS/SI-01C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.101.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-01RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-01C1:PS-CH/SI-01C1:PS-CV/SI-01C4:PS-CH/SI-01C4:PS-CV,SI-01C3:PS-CH/SI-01C3:PS-CV-1/SI-01C3:PS-CV-2"}
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.101.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-01M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.101.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-01C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-01M2-Gamma, SI-01C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.101.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-01C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-01C2-Gamma, SI-01C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.101.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-02M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-01C4-Gamma"}
             ], 
         "MBTemp": [
             {"BBB_IP_1": "10.128.101.106", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA01-CON-MBTEMP-BO-01-05", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [1, 2, 3, 4, 5], "DEVICE_NAME": ""}, 
@@ -58,10 +64,10 @@
             {"BBB_IP_1": "10.128.102.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-02RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-02C1:PS-CH, SI-02C1:PS-CV, SI-02C4:PS-CH, SI-02C4:PS-CV, SI-02C3:PS-CH, SI-02C3:PS-CV-1, SI-02C3:PS-CV-2"}
         ], 
         "CountingPRU": [
-            {"BBB_IP_1": "10.128.102.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-02-M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": ""}, 
-            {"BBB_IP_1": "10.128.102.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-02-C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": ""}, 
-            {"BBB_IP_1": "10.128.102.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-02-C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": ""}, 
-            {"BBB_IP_1": "10.128.102.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-03-M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": ""}
+            {"BBB_IP_1": "10.128.102.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-02M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.102.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-02C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-02M2-Gamma, SI-02C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.102.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-02C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-02C2-Gamma, SI-02C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.102.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-03M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-02C4-Gamma"}
             ], 
         "SIMAR": [
             {"BBB_IP_1": "10.128.102.141", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SIMAR-IA02-RaCtrl1", "DEVICE_TYPE": "SIMAR", "DEVICE_ID": [1], "DEVICE_NAME": ""}
@@ -88,6 +94,12 @@
             {"BBB_IP_1": "10.128.103.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-03RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-03M1:PS-CH, SI-03M1:PS-CV, SI-03M2:PS-CH, SI-03M2:PS-CV, SI-03C2:PS-CH, SI-03C2:PS-CV-1, SI-03C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.103.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-03RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-03C1:PS-Q1, SI-03C1:PS-Q2, SI-03C2:PS-Q3, SI-03C2:PS-Q4, SI-03C4:PS-Q1, SI-03C4:PS-Q2, SI-03C3:PS-Q3, SI-03C3:PS-Q4, SI-03C1:PS-QS, SI-03C2:PS-QS, SI-03C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.103.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-03RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-03C1:PS-CH, SI-03C1:PS-CV, SI-03C4:PS-CH, SI-03C4:PS-CV, SI-03C3:PS-CH, SI-03C3:PS-CV-1, SI-03C3:PS-CV-2"}
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.103.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-03M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.103.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-03C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-03M2-Gamma, SI-03C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.103.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-03C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-03C2-Gamma, SI-03C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.103.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-04M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-03C4-Gamma"}
             ], 
         "SIMAR": [
             {"BBB_IP_1": "10.128.103.141", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SIMAR-IA03-RaCtrl1", "DEVICE_TYPE": "SIMAR", "DEVICE_ID": [1], "DEVICE_NAME": ""}
@@ -113,7 +125,13 @@
             {"BBB_IP_1": "10.128.104.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-04RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-04M1:PS-CH, SI-04M1:PS-CV, SI-04M2:PS-CH, SI-04M2:PS-CV, SI-04C2:PS-CH, SI-04C2:PS-CV-1, SI-04C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.104.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-04RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-04C1:PS-Q1, SI-04C1:PS-Q2, SI-04C2:PS-Q3, SI-04C2:PS-Q4, SI-04C4:PS-Q1, SI-04C4:PS-Q2, SI-04C3:PS-Q3, SI-04C3:PS-Q4, SI-04C1:PS-QS, SI-04C2:PS-QS, SI-04C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.104.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-04RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-04C1:PS-CH, SI-04C1:PS-CV, SI-04C4:PS-CH, SI-04C4:PS-CV, SI-04C3:PS-CH, SI-04C3:PS-CV-1, SI-04C3:PS-CV-2"}
-            ], 
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.104.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-04M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.104.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-04C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-04M2-Gamma, SI-04C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.104.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-04C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-04C2-Gamma, SI-04C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.104.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-05M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-04C4-Gamma"}
+            ],  
         "SIMAR": [
             {"BBB_IP_1": "10.128.104.141", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SIMAR-IA04-RaCtrl1", "DEVICE_TYPE": "SIMAR", "DEVICE_ID": [1], "DEVICE_NAME": ""}
             ]
@@ -140,7 +158,13 @@
             {"BBB_IP_1": "10.128.105.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-05RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-05M1:PS-CH, SI-05M1:PS-CV, SI-05M2:PS-CH, SI-05M2:PS-CV, SI-05C2:PS-CH, SI-05C2:PS-CV-1, SI-05C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.105.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-05RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-05C1:PS-Q1, SI-05C1:PS-Q2, SI-05C2:PS-Q3, SI-05C2:PS-Q4, SI-05C4:PS-Q1, SI-05C4:PS-Q2, SI-05C3:PS-Q3, SI-05C3:PS-Q4, SI-05C1:PS-QS, SI-05C2:PS-QS, SI-05C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.105.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-05RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-05C1:PS-CH, SI-05C1:PS-CV, SI-05C4:PS-CH, SI-05C4:PS-CV, SI-05C3:PS-CH, SI-05C3:PS-CV-1, SI-05C3:PS-CV-2"}
-            ], 
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.105.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-05M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.105.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-05C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-05M2-Gamma, SI-05C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.105.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-05C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-05C2-Gamma, SI-05C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.105.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-06M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-05C4-Gamma"}
+            ],  
         "SIMAR": [
             {"BBB_IP_1": "10.128.105.141", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SIMAR-IA05-RaCtrl1", "DEVICE_TYPE": "SIMAR", "DEVICE_ID": [1], "DEVICE_NAME": ""}
             ]
@@ -166,6 +190,12 @@
             {"BBB_IP_1": "10.128.106.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-06RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-06M1:PS-CH, SI-06M1:PS-CV, SI-06M2:PS-CH, SI-06M2:PS-CV, SI-06C2:PS-CH, SI-06C2:PS-CV-1, SI-06C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.106.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-06RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-06C1:PS-Q1, SI-06C1:PS-Q2, SI-06C2:PS-Q3, SI-06C2:PS-Q4, SI-06C4:PS-Q1, SI-06C4:PS-Q2, SI-06C3:PS-Q3, SI-06C3:PS-Q4, SI-06C1:PS-QS, SI-06C2:PS-QS, SI-06C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.106.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-06RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-06C1:PS-CH, SI-06C1:PS-CV, SI-06C4:PS-CH, SI-06C4:PS-CV, SI-06C3:PS-CH, SI-06C3:PS-CV-1, SI-06C3:PS-CV-2"}
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.106.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-06M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.106.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-06C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-06M2-Gamma, SI-06C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.106.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-06C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-06C2-Gamma, SI-06C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.106.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-07M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-06C4-Gamma"}
             ], 
         "SIMAR": [
             {"BBB_IP_1": "10.128.106.141", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SIMAR-IA06-RaCtrl1", "DEVICE_TYPE": "SIMAR", "DEVICE_ID": [1], "DEVICE_NAME": ""}
@@ -193,6 +223,12 @@
             {"BBB_IP_1": "10.128.107.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-07RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-07M1:PS-CH, SI-07M1:PS-CV, SI-07M2:PS-CH, SI-07M2:PS-CV, SI-07C2:PS-CH, SI-07C2:PS-CV-1, SI-07C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.107.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-07RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-07C1:PS-Q1, SI-07C1:PS-Q2, SI-07C2:PS-Q3, SI-07C2:PS-Q4, SI-07C4:PS-Q1, SI-07C4:PS-Q2, SI-07C3:PS-Q3, SI-07C3:PS-Q4, SI-07C1:PS-QS, SI-07C2:PS-QS, SI-07C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.107.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-07RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-07C1:PS-CH, SI-07C1:PS-CV, SI-07C4:PS-CH, SI-07C4:PS-CV, SI-07C3:PS-CH, SI-07C3:PS-CV-1, SI-07C3:PS-CV-2"}
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.107.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-07M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.107.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-07C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-07M2-Gamma, SI-07C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.107.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-07C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-07C2-Gamma, SI-07C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.107.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-08M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-07C4-Gamma"}
             ], 
         "SIMAR": [
             {"BBB_IP_1": "10.128.107.141", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SIMAR-IA07-RaCtrl1", "DEVICE_TYPE": "SIMAR", "DEVICE_ID": [1], "DEVICE_NAME": ""}
@@ -223,7 +259,13 @@
             {"BBB_IP_1": "10.128.108.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-08RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-08C1:PS-CH, SI-08C1:PS-CV, SI-08C4:PS-CH, SI-08C4:PS-CV, SI-08C3:PS-CH, SI-08C3:PS-CV-1, SI-08C3:PS-CV-2"},
             {"BBB_IP_1": "10.128.108.133", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-08RaCtrl:CO-PSCtrl-SI5", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": "SI-08SB:PS-CH-1, SI-08SB:PS-CH-2, SI-08SB:PS-CV-1, SI-08SB:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.108.134", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-08RaCtrl:CO-PSCtrl-SI6", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1], "DEVICE_NAME": "SI-08SB:PS-LCH"}
-        ], 
+        ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.108.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-08M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.108.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-08C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-08M2-Gamma, SI-08C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.108.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-08C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-08C2-Gamma, SI-08C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.108.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-09M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-08C4-Gamma"}
+            ], 
         "SIMAR": [
             {"BBB_IP_1": "10.128.108.141", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SIMAR-IA08-RaCtrl1", "DEVICE_TYPE": "SIMAR", "DEVICE_ID": [1], "DEVICE_NAME": ""}
             ]
@@ -249,6 +291,12 @@
             {"BBB_IP_1": "10.128.109.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-09RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-09M1:PS-CH, SI-09M1:PS-CV, SI-09M2:PS-CH, SI-09M2:PS-CV, SI-09C2:PS-CH, SI-09C2:PS-CV-1, SI-09C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.109.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-09RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-09C1:PS-Q1, SI-09C1:PS-Q2, SI-09C2:PS-Q3, SI-09C2:PS-Q4, SI-09C4:PS-Q1, SI-09C4:PS-Q2, SI-09C3:PS-Q3, SI-09C3:PS-Q4, SI-09C1:PS-QS, SI-09C2:PS-QS, SI-09C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.109.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-09RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-09C1:PS-CH, SI-09C1:PS-CV, SI-09C4:PS-CH, SI-09C4:PS-CV, SI-09C3:PS-CH, SI-09C3:PS-CV-1, SI-09C3:PS-CV-2"}
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.109.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-09M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.109.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-09C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-09M2-Gamma, SI-09C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.109.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-09C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-09C2-Gamma, SI-09C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.109.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-10M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-09C4-Gamma"}
             ], 
         "SIMAR": [
             {"BBB_IP_1": "10.128.109.141", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SIMAR-IA09-RaCtrl1", "DEVICE_TYPE": "SIMAR", "DEVICE_ID": [1], "DEVICE_NAME": ""}
@@ -276,6 +324,12 @@
             {"BBB_IP_1": "10.128.110.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-10RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-10C1:PS-Q1, SI-10C1:PS-Q2, SI-10C2:PS-Q3, SI-10C2:PS-Q4, SI-10C4:PS-Q1, SI-10C4:PS-Q2, SI-10C3:PS-Q3, SI-10C3:PS-Q4, SI-10C1:PS-QS, SI-10C2:PS-QS, SI-10C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.110.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-10RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-10C1:PS-CH, SI-10C1:PS-CV, SI-10C4:PS-CH, SI-10C4:PS-CV, SI-10C3:PS-CH, SI-10C3:PS-CV-1, SI-10C3:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.110.133", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-10RaCtrl:CO-PSCtrl-SI5", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6], "DEVICE_NAME": "SI-10SB:PS-CH-1,SI-10SB:PS-CH-2,SI-10SB:PS-CV-1,SI-10SB:PS-CV-2,SI-10SB:PS-QS-1,SI-10SB:PS-QS-2"}
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.110.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-10M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.110.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-10C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-10M2-Gamma, SI-10C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.110.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-10C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-10C2-Gamma, SI-10C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.110.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-11M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-10C4-Gamma"}
             ], 
         "SIMAR": [
             {"BBB_IP_1": "10.128.110.141", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SIMAR-IA10-RaCtrl1", "DEVICE_TYPE": "SIMAR", "DEVICE_ID": [2], "DEVICE_NAME": ""}
@@ -298,12 +352,18 @@
             {"BBB_IP_1": "10.128.111.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-11RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-11M1:PS-CH, SI-11M1:PS-CV, SI-11M2:PS-CH, SI-11M2:PS-CV, SI-11C2:PS-CH, SI-11C2:PS-CV-1, SI-11C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.111.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-11RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-11C1:PS-Q1, SI-11C1:PS-Q2, SI-11C2:PS-Q3, SI-11C2:PS-Q4, SI-11C4:PS-Q1, SI-11C4:PS-Q2, SI-11C3:PS-Q3, SI-11C3:PS-Q4, SI-11C1:PS-QS, SI-11C2:PS-QS, SI-11C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.111.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-11RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-11C1:PS-CH, SI-11C1:PS-CV, SI-11C4:PS-CH, SI-11C4:PS-CV, SI-11C3:PS-CH, SI-11C3:PS-CV-1, SI-11C3:PS-CV-2"}
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.111.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-11M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.111.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-11C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-11M2-Gamma, SI-11C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.111.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-11C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-11C2-Gamma, SI-11C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.111.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-12M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-11C4-Gamma"}
             ], 
         "MBTemp": [
             {"BBB_IP_1": "10.128.111.106", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA11-CON-MBTEMP-BO-26-30", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [1, 2, 3, 4, 5], "DEVICE_NAME": ""}, 
             {"BBB_IP_1": "10.128.111.117", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA11-CON-MBTEMP-SR-BEFORE-BC", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [11, 12, 13], "DEVICE_NAME": ""}, 
             {"BBB_IP_1": "10.128.111.118", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA11-CON-MBTEMP-SR-AFTER-BC", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [21, 22, 23], "DEVICE_NAME": ""}
-            ], 
+            ],
         "SIMAR": [
             {"BBB_IP_1": "10.128.111.141", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SIMAR-IA11-RaCtrl1", "DEVICE_TYPE": "SIMAR", "DEVICE_ID": [1], "DEVICE_NAME": ""}
             ]
@@ -327,6 +387,12 @@
             {"BBB_IP_1": "10.128.112.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-12RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-12M1:PS-CH, SI-12M1:PS-CV, SI-12M2:PS-CH, SI-12M2:PS-CV, SI-12C2:PS-CH, SI-12C2:PS-CV-1, SI-12C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.112.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-12RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-12C1:PS-Q1, SI-12C1:PS-Q2, SI-12C2:PS-Q3, SI-12C2:PS-Q4, SI-12C4:PS-Q1, SI-12C4:PS-Q2, SI-12C3:PS-Q3, SI-12C3:PS-Q4, SI-12C1:PS-QS, SI-12C2:PS-QS, SI-12C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.112.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-12RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-12C1:PS-CH, SI-12C1:PS-CV, SI-12C4:PS-CH, SI-12C4:PS-CV, SI-12C3:PS-CH, SI-12C3:PS-CV-1, SI-12C3:PS-CV-2"}
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.112.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-12M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.112.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-12C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-12M2-Gamma, SI-12C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.112.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-12C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-12C2-Gamma, SI-12C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.112.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-13M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-12C4-Gamma"}
             ], 
         "SIMAR": [
             {"BBB_IP_1": "10.128.112.141", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SIMAR-IA12-RaCtrl1", "DEVICE_TYPE": "SIMAR", "DEVICE_ID": [1], "DEVICE_NAME": ""}
@@ -349,6 +415,12 @@
             {"BBB_IP_1": "10.128.113.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-13RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-13M1:PS-CH, SI-13M1:PS-CV, SI-13M2:PS-CH, SI-13M2:PS-CV, SI-13C2:PS-CH, SI-13C2:PS-CV-1, SI-13C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.113.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-13RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-13C1:PS-Q1, SI-13C1:PS-Q2, SI-13C2:PS-Q3, SI-13C2:PS-Q4, SI-13C4:PS-Q1, SI-13C4:PS-Q2, SI-13C3:PS-Q3, SI-13C3:PS-Q4, SI-13C1:PS-QS, SI-13C2:PS-QS, SI-13C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.113.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-13RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-13C1:PS-CH, SI-13C1:PS-CV, SI-13C4:PS-CH, SI-13C4:PS-CV, SI-13C3:PS-CH, SI-13C3:PS-CV-1, SI-13C3:PS-CV-2"}
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.113.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-13M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.113.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-13C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-13M2-Gamma, SI-13C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.113.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-13C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-13C2-Gamma, SI-13C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.113.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-14M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-13C4-Gamma"}
             ], 
         "MBTemp": [
             {"BBB_IP_1": "10.128.113.106", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA13-CON-MBTEMP-BO-31-35", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [1, 2, 3, 4, 5], "DEVICE_NAME": ""}, 
@@ -384,6 +456,12 @@
             {"BBB_IP_1": "10.128.114.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-14RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-14C1:PS-CH, SI-14C1:PS-CV, SI-14C4:PS-CH, SI-14C4:PS-CV, SI-14C3:PS-CH, SI-14C3:PS-CV-1, SI-14C3:PS-CV-2"},
             {"BBB_IP_1": "10.128.114.133", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-14RaCtrl:CO-PSCtrl-SI5", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": "SI-14SB:PS-CH-1, SI-14SB:PS-CH-2, SI-14SB:PS-CV-1, SI-14SB:PS-CV-2"},
             {"BBB_IP_1": "10.128.114.134", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-14RaCtrl:CO-PSCtrl-SI6", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1], "DEVICE_NAME": "SI-14SB:PS-LCH"}        
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.114.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-14M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.114.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-14C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-14M2-Gamma, SI-14C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.114.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-14C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-14C2-Gamma, SI-14C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.114.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-15M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-14C4-Gamma"}
             ], 
         "SIMAR": [
             {"BBB_IP_1": "10.128.114.142", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SIMAR-IA14-RaCtrl1", "DEVICE_TYPE": "SIMAR", "DEVICE_ID": [1], "DEVICE_NAME": ""}
@@ -405,6 +483,12 @@
             {"BBB_IP_1": "10.128.115.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-11RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-15M1:PS-CH, SI-15M1:PS-CV, SI-15M2:PS-CH, SI-15M2:PS-CV, SI-15C2:PS-CH, SI-15C2:PS-CV-1, SI-15C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.115.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-11RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-15C1:PS-Q1, SI-15C1:PS-Q2, SI-15C2:PS-Q3, SI-15C2:PS-Q4, SI-15C4:PS-Q1, SI-15C4:PS-Q2, SI-15C3:PS-Q3, SI-15C3:PS-Q4, SI-15C1:PS-QS, SI-15C2:PS-QS, SI-15C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.115.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-11RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-15C1:PS-CH, SI-15C1:PS-CV, SI-15C4:PS-CH, SI-15C4:PS-CV, SI-15C3:PS-CH, SI-15C3:PS-CV-1, SI-15C3:PS-CV-2"}
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.115.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-15M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.115.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-15C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-15M2-Gamma, SI-15C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.115.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-15C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-15C2-Gamma, SI-15C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.115.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-16M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-15C4-Gamma"}
             ], 
         "MBTemp": [
             {"BBB_IP_1": "10.128.115.106", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA11-CON-MBTEMP-BO-36-40", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [1, 2, 3, 4, 5], "DEVICE_NAME": ""}, 
@@ -432,6 +516,12 @@
             {"BBB_IP_1": "10.128.116.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-16RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-16M1:PS-CH, SI-16M1:PS-CV, SI-16M2:PS-CH, SI-16M2:PS-CV, SI-16C2:PS-CH, SI-16C2:PS-CV-1, SI-16C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.116.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-16RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-16C1:PS-Q1, SI-16C1:PS-Q2, SI-16C2:PS-Q3, SI-16C2:PS-Q4, SI-16C4:PS-Q1, SI-16C4:PS-Q2, SI-16C3:PS-Q3, SI-16C3:PS-Q4, SI-16C1:PS-QS, SI-16C2:PS-QS, SI-16C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.116.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-16RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-16C1:PS-CH, SI-16C1:PS-CV, SI-16C4:PS-CH, SI-16C4:PS-CV, SI-16C3:PS-CH, SI-16C3:PS-CV-1, SI-16C3:PS-CV-2"}
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.116.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-16M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.116.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-16C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-16M2-Gamma, SI-16C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.116.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-16C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-16C2-Gamma, SI-16C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.116.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-17M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-16C4-Gamma"}
             ], 
         "MBTemp": [
             {"BBB_IP_1": "10.128.116.117", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA16-CON-MBTEMP-SR-BEFORE-BC", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [11, 12, 13], "DEVICE_NAME": ""}, 
@@ -460,6 +550,12 @@
             {"BBB_IP_1": "10.128.117.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-17RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-17C1:PS-CH, SI-17C1:PS-CV, SI-17C4:PS-CH, SI-17C4:PS-CV, SI-17C3:PS-CH, SI-17C3:PS-CV-1, SI-17C3:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.117.133", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-17RaCtrl:CO-PSCtrl-SI5", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": "SI-17SA:PS-CH-1, SI-17SA:PS-CH-2, SI-17SA:PS-CV-1, SI-17SA:PS-CV-2"}
             ], 
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.117.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-17M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.117.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-17C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-17M2-Gamma, SI-17C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.117.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-17C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-17C2-Gamma, SI-17C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.117.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-18M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-17C4-Gamma"}
+            ], 
         "MBTemp": [
             {"BBB_IP_1": "10.128.117.106", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA17-CON-MBTEMP-BO-41-45", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [1, 2, 3, 4, 5], "DEVICE_NAME": ""}, 
             {"BBB_IP_1": "10.128.117.117", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA17-CON-MBTEMP-SR-BEFORE-BC", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [11, 12, 13], "DEVICE_NAME": ""}, 
@@ -484,6 +580,12 @@
             {"BBB_IP_1": "10.128.118.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-18RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-18M1:PS-CH, SI-18M1:PS-CV, SI-18M2:PS-CH, SI-18M2:PS-CV, SI-18C2:PS-CH, SI-18C2:PS-CV-1, SI-18C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.118.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-18RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-18C1:PS-Q1, SI-18C1:PS-Q2, SI-18C2:PS-Q3, SI-18C2:PS-Q4, SI-18C4:PS-Q1, SI-18C4:PS-Q2, SI-18C3:PS-Q3, SI-18C3:PS-Q4, SI-18C1:PS-QS, SI-18C2:PS-QS, SI-18C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.118.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-18RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-18C1:PS-CH, SI-18C1:PS-CV, SI-18C4:PS-CH, SI-18C4:PS-CV, SI-18C3:PS-CH, SI-18C3:PS-CV-1, SI-18C3:PS-CV-2"}
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.118.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-18M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.118.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-18C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-18M2-Gamma, SI-18C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.118.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-18C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-18C2-Gamma, SI-18C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.118.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-19M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-18C4-Gamma"}
             ], 
         "MBTemp": [
             {"BBB_IP_1": "10.128.118.117", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA18-CON-MBTEMP-SR-BEFORE-BC", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [11, 12, 13], "DEVICE_NAME": ""}, 
@@ -509,6 +611,12 @@
             {"BBB_IP_1": "10.128.119.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-19RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-19M1:PS-CH, SI-19M1:PS-CV, SI-19M2:PS-CH, SI-19M2:PS-CV, SI-19C2:PS-CH, SI-19C2:PS-CV-1, SI-19C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.119.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-19RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-19C1:PS-Q1, SI-19C1:PS-Q2, SI-19C2:PS-Q3, SI-19C2:PS-Q4, SI-19C4:PS-Q1, SI-19C4:PS-Q2, SI-19C3:PS-Q3, SI-19C3:PS-Q4, SI-19C1:PS-QS, SI-19C2:PS-QS, SI-19C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.119.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-19RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-19C1:PS-CH, SI-19C1:PS-CV, SI-19C4:PS-CH, SI-19C4:PS-CV, SI-19C3:PS-CH, SI-19C3:PS-CV-1, SI-19C3:PS-CV-2"}
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.119.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-19M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.119.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-19C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-19M2-Gamma, SI-19C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.119.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-19C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-19C2-Gamma, SI-19C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.119.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-20M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-19C4-Gamma"}
             ], 
         "MBTemp": [
             {"BBB_IP_1": "10.128.119.106", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA19-CON-MBTEMP-BO-46-50", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [1, 2, 3, 4, 5], "DEVICE_NAME": ""}, 
@@ -537,6 +645,12 @@
             {"BBB_IP_1": "10.128.120.122", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-20RaCtrl:CO-PSCtrl-SI2", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-20M1:PS-CH, SI-20M1:PS-CV, SI-20M2:PS-CH, SI-20M2:PS-CV, SI-20C2:PS-CH, SI-20C2:PS-CV-1, SI-20C2:PS-CV-2"}, 
             {"BBB_IP_1": "10.128.120.131", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-20RaCtrl:CO-PSCtrl-SI3", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "DEVICE_NAME": "SI-20C1:PS-Q1, SI-20C1:PS-Q2, SI-20C2:PS-Q3, SI-20C2:PS-Q4, SI-20C4:PS-Q1, SI-20C4:PS-Q2, SI-20C3:PS-Q3, SI-20C3:PS-Q4, SI-20C1:PS-QS, SI-20C2:PS-QS, SI-20C3:PS-QS"}, 
             {"BBB_IP_1": "10.128.120.132", "BBB_IP_2": "", "BBB_HOSTNAME": "IA-20RaCtrl:CO-PSCtrl-SI4", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3, 4, 5, 6, 7], "DEVICE_NAME": "SI-20C1:PS-CH, SI-20C1:PS-CV, SI-20C4:PS-CH, SI-20C4:PS-CV, SI-20C3:PS-CH, SI-20C3:PS-CV-1, SI-20C3:PS-CV-2"}
+            ],
+        "CountingPRU": [
+            {"BBB_IP_1": "10.128.120.151", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-20M2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [1], "DEVICE_NAME": "Spare"}, 
+            {"BBB_IP_1": "10.128.120.152", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-20C2", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [2], "DEVICE_NAME": "SI-20M2-Gamma, SI-20C1-Gamma"}, 
+            {"BBB_IP_1": "10.128.120.153", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-20C3", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [3], "DEVICE_NAME": "SI-20C2-Gamma, SI-20C3-Gamma"}, 
+            {"BBB_IP_1": "10.128.120.154", "BBB_IP_2": "", "BBB_HOSTNAME": "COUNTINGPRU-SI-01M1", "DEVICE_TYPE": "CountingPRU", "DEVICE_ID": [4], "DEVICE_NAME": "SI-20C4-Gamma"}
             ], 
         "MBTemp": [
             {"BBB_IP_1": "10.128.120.106", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA20-CON-MBTEMP-TS", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""}, 
