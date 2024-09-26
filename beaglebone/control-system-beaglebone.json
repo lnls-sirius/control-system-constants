@@ -1,4 +1,10 @@
 {
+    "Control Network Subnet": {
+        "Equipment Type": [
+            {"Corresponding BeagleBone Node Infos": "IP, Hostname, Connected equipment address and names"}
+        ]
+    },
+
     "101": {
         "MKS": [
             {"BBB_IP_1": "10.128.101.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA01-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""}
