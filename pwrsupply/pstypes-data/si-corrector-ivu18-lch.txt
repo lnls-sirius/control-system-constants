@@ -1,0 +1,7 @@
+# List of power supplies of type si-corrector-ivu18-lch
+# =====================================================
+
+# number of power supplies: 2
+
+SI-08SB:PS-LCH
+SI-14SB:PS-LCH
