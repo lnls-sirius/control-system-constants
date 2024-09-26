@@ -1,5 +1,4 @@
 {
-    // IA-01 subnet -- 10.128.101.*
     "101": {
         "MKS": [
             {"BBB_IP_1": "10.128.101.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA01-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""}
@@ -41,7 +40,6 @@
             ]
         },
     
-    // IA-02 subnet -- 10.128.102.*
     "102": {
         "MKS": [
             {"BBB_IP_1": "10.128.102.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA02-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""}
@@ -74,7 +72,6 @@
             ]
         },
 
-    // IA-03 subnet -- 10.128.103.*
     "103": {
         "MKS": [
             {"BBB_IP_1": "10.128.103.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA03-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""}
@@ -106,7 +103,6 @@
             ]
         },
 
-    // IA-04 subnet -- 10.128.104.*
     "104": {
         "MKS": [
             {"BBB_IP_1": "10.128.104.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA04-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""}
@@ -137,7 +133,6 @@
             ]
         },
 
-    // IA-05 subnet -- 10.128.105.*
     "105": {
         "MKS": [
             {"BBB_IP_1": "10.128.105.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA05-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3], "DEVICE_NAME": ""}
@@ -170,7 +165,6 @@
             ]
         },
 
-    // IA-06 subnet -- 10.128.106.*
     "106": {
         "MKS": [
             {"BBB_IP_1": "10.128.106.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA06-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""}
@@ -202,7 +196,6 @@
             ]
         },
 
-    // IA-07 subnet -- 10.128.107.*
     "107": {
         "MKS": [
             {"BBB_IP_1": "10.128.107.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA07-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3], "DEVICE_NAME": ""}
@@ -235,7 +228,6 @@
             ]
         },
 
-    // IA-08 subnet -- 10.128.108.*
     "108": {
         "MKS": [
             {"BBB_IP_1": "10.128.108.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA08-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""},
@@ -271,7 +263,6 @@
             ]
         },
 
-    // IA-09 subnet -- 10.128.109.*
     "109": {
         "MKS": [
             {"BBB_IP_1": "10.128.109.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA09-VAC-MKS ", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3], "DEVICE_NAME": ""}
@@ -303,7 +294,6 @@
             ]
         },
 
-    // IA-10 subnet -- 10.128.110.*
     "110": {
         "MKS": [
             {"BBB_IP_1": "10.128.110.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA10-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""}
@@ -336,7 +326,6 @@
             ]
         },
 
-    // IA-11 subnet -- 10.128.111.*
     "111": {
         "MKS": [
             {"BBB_IP_1": "10.128.111.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA11-VAC-MKS ", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3], "DEVICE_NAME": ""}
@@ -369,7 +358,6 @@
             ]
         },
 
-    // IA-12 subnet -- 10.128.112.*
     "112": {
         "MKS": [
             {"BBB_IP_1": "10.128.112.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA12-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""}
@@ -399,7 +387,6 @@
             ]
         },
 
-    // IA-13 subnet -- 10.128.113.*
     "113": {
         "MKS": [
             {"BBB_IP_1": "10.128.113.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA13-VAC-MKS ", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3], "DEVICE_NAME": ""}
@@ -432,7 +419,6 @@
             ]
         },
 
-    // IA-14 subnet -- 10.128.114.*
     "114": {
         "MKS": [
             {"BBB_IP_1": "10.128.114.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA14-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""},
@@ -468,7 +454,6 @@
             ]
         },
 
-    // IA-15 subnet -- 10.128.115.*
     "115": {
         "MKS": [
             {"BBB_IP_1": "10.128.115.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA11-VAC-MKS ", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3], "DEVICE_NAME": ""}
@@ -500,7 +485,6 @@
             ]
         },
 
-    // IA-16 subnet -- 10.128.116.*
     "116": {
         "MKS": [
             {"BBB_IP_1": "10.128.116.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA16-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""}
@@ -532,7 +516,6 @@
             ]
         },
 
-    // IA-17 subnet -- 10.128.117.*
     "117": {
         "MKS": [
             {"BBB_IP_1": "10.128.117.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA17-VAC-MKS ", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3], "DEVICE_NAME": ""}
@@ -566,7 +549,6 @@
             ]
         },
 
-    // IA-18 subnet -- 10.128.118.*
     "118": {
         "MKS": [
             {"BBB_IP_1": "10.128.118.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA18-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""}
@@ -596,7 +578,6 @@
             ]
         },
 
-    // IA-19 subnet -- 10.128.119.*
     "119": {
         "MKS": [
             {"BBB_IP_1": "10.128.119.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA19-VAC-MKS ", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4, 5, 6], "DEVICE_NAME": ""}
@@ -628,7 +609,6 @@
             ]
         },
 
-    // IA-20 subnet -- 10.128.120.*
     "120": {
         "MKS": [
             {"BBB_IP_1": "10.128.120.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA20-VAC-MKS-TB-BO-SI", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""}
@@ -668,7 +648,6 @@
             ]
         },
  
-    // Transport Lines subnet -- 10.128.121.*
     "121": {
         "PowerSupply": [
             {"BBB_IP_1": "10.128.121.101", "BBB_IP_2": "", "BBB_HOSTNAME": "LA-RaPS02-CO-PSCtrl-TB", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1], "DEVICE_NAME": "TB-Fam:PS-B"}, 
@@ -685,7 +664,6 @@
             ]
         },
 
-    // Connectivity Room subnet -- 10.128.122.*
     "122": {
         "MBTemp": [
             {"BBB_IP_1": "10.128.122.101", "BBB_IP_2": "", "BBB_HOSTNAME": "CA-CON-MBTEMP-TB-E-UPS", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [1], "DEVICE_NAME": ""}, 
@@ -693,7 +671,6 @@
             ]
         },
 
-    // Power Supplies Room subnet -- RaCtrl-- 10.128.131.*
     "131": {
         "PowerSupply": [
             {"BBB_IP_1": "10.128.131.101", "BBB_IP_2": "", "BBB_HOSTNAME": "PA-RaPSC03:CO-PSCtrl-BO1", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3], "DEVICE_NAME": "BO-Fam:PS-QFDC/DC, BO-Fam:PS-QFAC/DC"}, 
@@ -715,7 +692,6 @@
             ]
         },
 
-    // Power Supplies Room subnet -- RaPSD04-- 10.128.132.*
     "132": {
         "PowerSupply": [
             {"BBB_IP_1": "10.128.132.107", "BBB_IP_2": "", "BBB_HOSTNAME": "PA-RaPSD04:CO-PSCtrl-SI", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2], "DEVICE_NAME": "SI-Fam:PS-B1B2-1, SI-Fam:PS-B1B2-2"}
@@ -725,7 +701,6 @@
             ]
         },
 
-    // Power Supplies Room subnet -- RaPSA02-- 10.128.133.*
     "133": {
         "PowerSupply": [
             {"BBB_IP_1": "10.128.133.108", "BBB_IP_2": "", "BBB_HOSTNAME": "PA-RaPSA02:CO-PSCtrl-SI1", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3], "DEVICE_NAME": "SI-Fam:PS-QFB, SI-Fam:PS-QFP, SI-Fam:PS-QFA"}, 
@@ -736,7 +711,6 @@
             ]
         },
 
-    // Power Supplies Room subnet -- RaPSA05-- 10.128.134.*
     "134": {
         "PowerSupply": [
             {"BBB_IP_1": "10.128.134.110", "BBB_IP_2": "", "BBB_HOSTNAME": "PA-RaPSA05-CO-PSCtrl-SI1", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2], "DEVICE_NAME": "SI-Fam:PS-QDB2, SI-Fam:PS-QDB1"}, 
@@ -746,7 +720,6 @@
         ]
         },
 
-    // Power Supplies Room subnet -- RaPSB02-- 10.128.135.*
     "135": {
         "PowerSupply": [
             {"BBB_IP_1": "10.128.135.112", "BBB_IP_2": "", "BBB_HOSTNAME": "PA-RaPSB02:CO-PSCtrl-SI1", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3], "DEVICE_NAME": "SI-Fam:PS-SDB1, SI-Fam:PS-SFB0, SI-Fam:PS-SDB0"}, 
@@ -754,7 +727,6 @@
             ]
         },
 
-    // Power Supplies Room subnet -- RaPSB06-- 10.128.136.*
     "136": {
         "PowerSupply": [
             {"BBB_IP_1": "10.128.136.114", "BBB_IP_2": "", "BBB_HOSTNAME": "PA-RaPSB06:CO-PSCtrl-SI1", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3], "DEVICE_NAME": "SI-Fam:PS-SDB2, SI-Fam:PS-SDA2, SI-Fam:PS-SDA1"}, 
@@ -765,7 +737,6 @@
             ]
         },
 
-    // Power Supplies Room subnet -- RaPSB09-- 10.128.137.*
     "137": {
         "PowerSupply": [
             {"BBB_IP_1": "10.128.137.116", "BBB_IP_2": "10.128.137.116", "BBB_HOSTNAME": "PA-RaPSB09:CO-PSCtrl-SI1", "DEVICE_TYPE": "PowerSupply", "DEVICE_ID": [1, 2, 3], "DEVICE_NAME": "SI-Fam:PS-SDB3, SI-Fam:PS-SFB1, SI-Fam:PS-SFB2"}, 
