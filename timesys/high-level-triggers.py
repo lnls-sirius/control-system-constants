@@ -1090,7 +1090,7 @@
             },
         'channels': (
             'RA-RaSIA01:RF-DigPatch:RAMP',
-            # 'RA-RaSIB01:RF-DigPatch:RAMP',
+            'RA-RaSIB01:RF-DigPatch:RAMP',
             ),
         },
     'SI-Glob:TI-LLRF-Gen': {
@@ -1105,7 +1105,7 @@
             },
         'channels': (
             'RA-RaSIA01:RF-DigPatch:GENERIC',
-            # 'RA-RaSIB01:RF-DigPatch:GENERIC',
+            'RA-RaSIB01:RF-DigPatch:GENERIC',
             ),
         },
     'SI-Glob:TI-LLRF-PsMtm': {
@@ -1120,7 +1120,7 @@
             },
         'channels': (
             'RA-RaSIA01:RF-DigPatch:ET',
-            # 'RA-RaSIB01:RF-DigPatch:ET',
+            'RA-RaSIB01:RF-DigPatch:ET',
             ),
         },
     # #### DIAGNOSTICS ######
@@ -1565,7 +1565,11 @@
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH5', ),
+        'channels': (
+                'IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH5',
+                'IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH5',
+                'IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH5',
+                ),
         },
     'AS-Glob:TI-FCT': {
         # This trigger will work for both FCTs, from TB and TS transport lines.
