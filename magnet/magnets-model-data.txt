@@ -988,10 +988,6 @@ SI-17M1:MA-FCV                   410.4352
 SI-17M1:MA-QFA                   410.6592
 SI-17M1:MA-QS                    410.9842
 SI-17M1:MA-SFA0                  410.9842
-SI-17SA:MA-CH-1                  414.1149
-SI-17SA:MA-CV-1                  414.1149
-SI-17SA:MA-CH-2                  415.3089
-SI-17SA:MA-CV-2                  415.3089
 SI-17M2:MA-QS                    418.4397
 SI-17M2:MA-SFA0                  418.4397
 SI-17M2:MA-QFA                   418.7647
