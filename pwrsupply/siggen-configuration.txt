@@ -1048,10 +1048,6 @@ SI-14SB:PS-CH-1         DampedSine    7          0.1         2.0             0.0
 SI-14SB:PS-CV-1         DampedSine    7          0.1         2.0             0.0           0.0              0.0              10.0              0.0
 SI-14SB:PS-CH-2         DampedSine    7          0.1         2.0             0.0           0.0              0.0              10.0              0.0
 SI-14SB:PS-CV-2         DampedSine    7          0.1         2.0             0.0           0.0              0.0              10.0              0.0
-SI-17SA:PS-CH-1         DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
-SI-17SA:PS-CV-1         DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
-SI-17SA:PS-CH-2         DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
-SI-17SA:PS-CV-2         DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
 
 # === LI ===
 
