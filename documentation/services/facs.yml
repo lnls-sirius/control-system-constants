@@ -161,7 +161,7 @@ facs-as-ps-dclinks_ia07:
 facs-as-ps-dclinks_ia08:
   as-ps IA-08RaCtrl:CO-DCLinkCtrl:
   - IA-08RaPS01:PS-DCLink-AS
-  - IA-08RaPS02:PS-DCLink-SI
+  - IA-08RaPS02:PS-DCLink-SI1
 
 facs-as-ps-dclinks_ia09:
   as-ps IA-09RaCtrl:CO-DCLinkCtrl:
@@ -191,7 +191,7 @@ facs-as-ps-dclinks_ia13:
 facs-as-ps-dclinks_ia14:
   as-ps IA-14RaCtrl:CO-DCLinkCtrl:
   - IA-14RaPS01:PS-DCLink-AS
-  - IA-14RaPS02:PS-DCLink-SI
+  - IA-14RaPS02:PS-DCLink-SI1
 
 facs-as-ps-dclinks_ia15:
   as-ps IA-15RaCtrl:CO-DCLinkCtrl:

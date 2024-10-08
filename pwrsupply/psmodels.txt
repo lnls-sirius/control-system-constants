@@ -300,7 +300,8 @@ IA-06RaPS02:PS-DCLink-SI      FBP_DCLink
 IA-07RaPS01:PS-DCLink-AS      FBP_DCLink
 IA-07RaPS02:PS-DCLink-SI      FBP_DCLink
 IA-08RaPS01:PS-DCLink-AS      FBP_DCLink
-IA-08RaPS02:PS-DCLink-SI      FBP_DCLink
+IA-08RaPS02:PS-DCLink-SI1     FBP_DCLink
+IA-08RaPS02:PS-DCLink-SI2     FBP_DCLink
 IA-09RaPS01:PS-DCLink-SI      FBP_DCLink
 IA-09RaPS02:PS-DCLink-SI      FBP_DCLink
 IA-10RaPS01:PS-DCLink-AS      FBP_DCLink
@@ -312,7 +313,8 @@ IA-12RaPS02:PS-DCLink-SI      FBP_DCLink
 IA-13RaPS01:PS-DCLink-AS      FBP_DCLink
 IA-13RaPS02:PS-DCLink-SI      FBP_DCLink
 IA-14RaPS01:PS-DCLink-AS      FBP_DCLink
-IA-14RaPS02:PS-DCLink-SI      FBP_DCLink
+IA-14RaPS02:PS-DCLink-SI1     FBP_DCLink
+IA-14RaPS02:PS-DCLink-SI2     FBP_DCLink
 IA-15RaPS01:PS-DCLink-SI      FBP_DCLink
 IA-15RaPS02:PS-DCLink-SI      FBP_DCLink
 IA-16RaPS01:PS-DCLink-AS      FBP_DCLink
@@ -1101,6 +1103,11 @@ SI-19M2:PS-QS                 FBP
 SI-20M1:PS-QS                 FBP
 SI-20M2:PS-QS                 FBP
 
+SI-08SB:PS-CH-1               FBP
+SI-08SB:PS-CH-2               FBP
+SI-08SB:PS-CV-1               FBP
+SI-08SB:PS-CV-2               FBP
+SI-08SB:PS-LCH                FBP
 SI-10SB:PS-CH-1               FBP
 SI-10SB:PS-CV-1               FBP
 SI-10SB:PS-CH-2               FBP
@@ -1109,6 +1116,13 @@ SI-10SB:PS-QS-1               FBP
 SI-10SB:PS-QS-2               FBP
 SI-14SB:PS-CH-1               FBP
 SI-14SB:PS-CH-2               FBP
+SI-14SB:PS-CV-1               FBP
+SI-14SB:PS-CV-2               FBP
+SI-14SB:PS-LCH                FBP
+SI-17SA:PS-CH-1               FBP
+SI-17SA:PS-CV-1               FBP
+SI-17SA:PS-CH-2               FBP
+SI-17SA:PS-CV-2               FBP
 
 # --- SI Fast Correctors
 
