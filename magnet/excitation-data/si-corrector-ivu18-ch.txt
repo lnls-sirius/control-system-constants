@@ -8,13 +8,13 @@
 
 # EXCITATION DATA
 # ===============
--0001.0000  -1.8000e-04 +0.0000e+00
+-0002.0000  -1.0277e-04 +0.0000e+00
 +0000.0000  +0.0000e+00 +0.0000e+00
-+0001.0000  +1.8000e-04 +0.0000e+00
++0002.0000  +1.0277e-04 +0.0000e+00
 
 # COMMENTS
 # ========
-# 1. taken from page 11 of https://cnpemcamp.sharepoint.com/sites/lnls/projects/Undulators/Shared%20Documents/IVU18/FDR/Final%20Design%20Report%20of%20IVU18%20-%2020230531.pdf
+# 1. taken from the following measured data: https://cnpemcamp.sharepoint.com/:x:/r/sites/lnls/projects/Undulators/_layouts/15/Doc.aspx?sourcedoc=%7BB876EDB7-81F6-44CC-BC93-E4E88FCD1044%7D&file=Correctors.xlsx&action=default&mobileredirect=true
 
 # POLARITY TABLE
 # ==============
