@@ -115,6 +115,7 @@ CA-RaCtrl:CO-DIO-3:P21              IA-07RaCtrl:CO-DIO-2:P03
 RA-RaBO01:TI-EVE:OTP0               RA-RaBO01:RF-DigPatch:RAMP
 RA-RaBO01:TI-EVE:OTP1               RA-RaBO01:RF-DigPatch:ET
 RA-RaBO01:TI-EVE:OTP2               RA-RaBO01:RF-DigPatch:GENERIC
+RA-RaBO01:TI-EVE:OTP3               RA-RaBO01:RF-DigPatch:In1
 RA-RaSIA01:TI-EVE:OTP0              RA-RaSIA01:RF-DigPatch:RAMP
 RA-RaSIA01:TI-EVE:OTP1              RA-RaSIA01:RF-DigPatch:ET
 RA-RaSIA01:TI-EVE:OTP2              RA-RaSIA01:RF-DigPatch:GENERIC
