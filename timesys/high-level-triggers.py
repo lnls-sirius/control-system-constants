@@ -671,10 +671,9 @@
             'Duration': {'value': 1000},
             'State': {'value': 0},
             'Polarity': {'value': 0, 'states': (0, 1)},
-            'Direction': {'value': 0, 'states': (0, 2)},
             },
         'channels': (
-            'RA-RaBO01:RF-DigPatch:In1', 
+            'RA-RaBO01:RF-DigPatch:IN1',
             ),
         },
     'TB-Glob:TI-Mags': {
