@@ -1,7 +1,7 @@
 # The file is generated with script
 # https://github.com/lnls-sirius/scripts/blob/master/bin/sirius-script-ps-devices.py
 # using argument "--ascii"
-# last update: 2023-06-07
+# last update: 2024-12-04
 
 BeagleBones
 |-- IA-01RaCtrl:CO-DCLinkCtrl  [10.128.101.104]
@@ -655,8 +655,10 @@ BeagleBones
 |-- IA-08RaCtrl:CO-DCLinkCtrl  [10.128.108.104]
 |   |-- IA-08RaPS01:PS-UDC-AS  (FBP_DCLink)
 |   |   +-- IA-08RaPS01:PS-DCLink-AS  (1)
-|   +-- IA-08RaPS02:PS-UDC-SI6  (FBP_DCLink)
-|       +-- IA-08RaPS02:PS-DCLink-SI  (2)
+|   |-- IA-08RaPS02:PS-UDC-SI6  (FBP_DCLink)
+|   |   +-- IA-08RaPS02:PS-DCLink-SI1  (2)
+|   +-- IA-08RaPS02:PS-UDC-SI9  (FBP_DCLink)
+|       +-- IA-08RaPS02:PS-DCLink-SI2  (3)
 |-- IA-08RaCtrl:CO-PSCtrl-BO  [10.128.108.105]
 |   +-- IA-08RaPS01:PS-UDC-BO  (FBP)
 |       |-- BO-19U:PS-CH  (1)
@@ -705,46 +707,60 @@ BeagleBones
 |-- IA-08RaCtrl:CO-PSCtrl-SI3  [10.128.108.131]
 |   |-- IA-08RaPS02:PS-UDC-SI1  (FBP)
 |   |   |-- SI-08C1:PS-Q1  (1)
-|   |   |   +-- IA-08RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-08RaPS02:PS-DCLink-SI1
 |   |   |-- SI-08C1:PS-Q2  (2)
-|   |   |   +-- IA-08RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-08RaPS02:PS-DCLink-SI1
 |   |   |-- SI-08C2:PS-Q3  (3)
-|   |   |   +-- IA-08RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-08RaPS02:PS-DCLink-SI1
 |   |   +-- SI-08C2:PS-Q4  (4)
-|   |       +-- IA-08RaPS02:PS-DCLink-SI
+|   |       +-- IA-08RaPS02:PS-DCLink-SI1
 |   |-- IA-08RaPS02:PS-UDC-SI2  (FBP)
 |   |   |-- SI-08C4:PS-Q1  (5)
-|   |   |   +-- IA-08RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-08RaPS02:PS-DCLink-SI1
 |   |   |-- SI-08C4:PS-Q2  (6)
-|   |   |   +-- IA-08RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-08RaPS02:PS-DCLink-SI1
 |   |   |-- SI-08C3:PS-Q3  (7)
-|   |   |   +-- IA-08RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-08RaPS02:PS-DCLink-SI1
 |   |   +-- SI-08C3:PS-Q4  (8)
-|   |       +-- IA-08RaPS02:PS-DCLink-SI
+|   |       +-- IA-08RaPS02:PS-DCLink-SI1
 |   +-- IA-08RaPS02:PS-UDC-SI3  (FBP)
 |       |-- SI-08C1:PS-QS  (9)
-|       |   +-- IA-08RaPS02:PS-DCLink-SI
+|       |   +-- IA-08RaPS02:PS-DCLink-SI1
 |       |-- SI-08C2:PS-QS  (10)
-|       |   +-- IA-08RaPS02:PS-DCLink-SI
+|       |   +-- IA-08RaPS02:PS-DCLink-SI1
 |       +-- SI-08C3:PS-QS  (11)
-|           +-- IA-08RaPS02:PS-DCLink-SI
+|           +-- IA-08RaPS02:PS-DCLink-SI1
 |-- IA-08RaCtrl:CO-PSCtrl-SI4  [10.128.108.132]
 |   |-- IA-08RaPS02:PS-UDC-SI4  (FBP)
 |   |   |-- SI-08C1:PS-CH  (1)
-|   |   |   +-- IA-08RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-08RaPS02:PS-DCLink-SI1
 |   |   |-- SI-08C1:PS-CV  (2)
-|   |   |   +-- IA-08RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-08RaPS02:PS-DCLink-SI1
 |   |   |-- SI-08C4:PS-CH  (3)
-|   |   |   +-- IA-08RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-08RaPS02:PS-DCLink-SI1
 |   |   +-- SI-08C4:PS-CV  (4)
-|   |       +-- IA-08RaPS02:PS-DCLink-SI
+|   |       +-- IA-08RaPS02:PS-DCLink-SI1
 |   +-- IA-08RaPS02:PS-UDC-SI5  (FBP)
 |       |-- SI-08C3:PS-CH  (5)
-|       |   +-- IA-08RaPS02:PS-DCLink-SI
+|       |   +-- IA-08RaPS02:PS-DCLink-SI1
 |       |-- SI-08C3:PS-CV-1  (6)
-|       |   +-- IA-08RaPS02:PS-DCLink-SI
+|       |   +-- IA-08RaPS02:PS-DCLink-SI1
 |       +-- SI-08C3:PS-CV-2  (7)
-|           +-- IA-08RaPS02:PS-DCLink-SI
+|           +-- IA-08RaPS02:PS-DCLink-SI1
+|-- IA-08RaCtrl:CO-PSCtrl-SI5  [10.128.108.133]
+|   +-- IA-08RaPS02:PS-UDC-SI7  (FBP)
+|       |-- SI-08SB:PS-CH-1  (1)
+|       |   +-- IA-08RaPS02:PS-DCLink-SI2
+|       |-- SI-08SB:PS-CH-2  (2)
+|       |   +-- IA-08RaPS02:PS-DCLink-SI2
+|       |-- SI-08SB:PS-CV-1  (3)
+|       |   +-- IA-08RaPS02:PS-DCLink-SI2
+|       +-- SI-08SB:PS-CV-2  (4)
+|           +-- IA-08RaPS02:PS-DCLink-SI2
+|-- IA-08RaCtrl:CO-PSCtrl-SI6  [10.128.108.134]
+|   +-- IA-08RaPS02:PS-UDC-SI8  (FBP)
+|       +-- SI-08SB:PS-LCH  (1)
+|           +-- IA-08RaPS02:PS-DCLink-SI2
 |-- IA-09RaCtrl:CO-DCLinkCtrl  [10.128.109.104]
 |   |-- IA-09RaPS01:PS-UDC-SI6  (FBP_DCLink)
 |   |   +-- IA-09RaPS01:PS-DCLink-SI  (1)
@@ -1212,8 +1228,10 @@ BeagleBones
 |-- IA-14RaCtrl:CO-DCLinkCtrl  [10.128.114.104]
 |   |-- IA-14RaPS01:PS-UDC-AS  (FBP_DCLink)
 |   |   +-- IA-14RaPS01:PS-DCLink-AS  (1)
-|   +-- IA-14RaPS02:PS-UDC-SI6  (FBP_DCLink)
-|       +-- IA-14RaPS02:PS-DCLink-SI  (2)
+|   |-- IA-14RaPS02:PS-UDC-SI6  (FBP_DCLink)
+|   |   +-- IA-14RaPS02:PS-DCLink-SI1  (2)
+|   +-- IA-14RaPS02:PS-UDC-SI9  (FBP_DCLink)
+|       +-- IA-14RaPS02:PS-DCLink-SI2  (3)
 |-- IA-14RaCtrl:CO-PSCtrl-BO  [10.128.114.105]
 |   +-- IA-14RaPS01:PS-UDC-BO  (FBP)
 |       |-- BO-35U:PS-CH  (1)
@@ -1239,15 +1257,10 @@ BeagleBones
 |   |   |   +-- IA-14RaPS01:PS-DCLink-AS
 |   |   +-- SI-15M1:PS-QDP2  (6)
 |   |       +-- IA-14RaPS01:PS-DCLink-AS
-|   |-- IA-14RaPS01:PS-UDC-SI3  (FBP)
-|   |   |-- SI-14M1:PS-QS  (7)
-|   |   |   +-- IA-14RaPS01:PS-DCLink-AS
-|   |   +-- SI-14M2:PS-QS  (8)
-|   |       +-- IA-14RaPS01:PS-DCLink-AS
-|   +-- IA-14RaPS01:PS-UDC-SI6  (FBP)
-|       |-- SI-14SB:PS-CH-1  (9)
+|   +-- IA-14RaPS01:PS-UDC-SI3  (FBP)
+|       |-- SI-14M1:PS-QS  (7)
 |       |   +-- IA-14RaPS01:PS-DCLink-AS
-|       +-- SI-14SB:PS-CH-2  (10)
+|       +-- SI-14M2:PS-QS  (8)
 |           +-- IA-14RaPS01:PS-DCLink-AS
 |-- IA-14RaCtrl:CO-PSCtrl-SI2  [10.128.114.122]
 |   |-- IA-14RaPS01:PS-UDC-SI4  (FBP)
@@ -1269,46 +1282,60 @@ BeagleBones
 |-- IA-14RaCtrl:CO-PSCtrl-SI3  [10.128.114.131]
 |   |-- IA-14RaPS02:PS-UDC-SI1  (FBP)
 |   |   |-- SI-14C1:PS-Q1  (1)
-|   |   |   +-- IA-14RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-14RaPS02:PS-DCLink-SI1
 |   |   |-- SI-14C1:PS-Q2  (2)
-|   |   |   +-- IA-14RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-14RaPS02:PS-DCLink-SI1
 |   |   |-- SI-14C2:PS-Q3  (3)
-|   |   |   +-- IA-14RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-14RaPS02:PS-DCLink-SI1
 |   |   +-- SI-14C2:PS-Q4  (4)
-|   |       +-- IA-14RaPS02:PS-DCLink-SI
+|   |       +-- IA-14RaPS02:PS-DCLink-SI1
 |   |-- IA-14RaPS02:PS-UDC-SI2  (FBP)
 |   |   |-- SI-14C4:PS-Q1  (5)
-|   |   |   +-- IA-14RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-14RaPS02:PS-DCLink-SI1
 |   |   |-- SI-14C4:PS-Q2  (6)
-|   |   |   +-- IA-14RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-14RaPS02:PS-DCLink-SI1
 |   |   |-- SI-14C3:PS-Q3  (7)
-|   |   |   +-- IA-14RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-14RaPS02:PS-DCLink-SI1
 |   |   +-- SI-14C3:PS-Q4  (8)
-|   |       +-- IA-14RaPS02:PS-DCLink-SI
+|   |       +-- IA-14RaPS02:PS-DCLink-SI1
 |   +-- IA-14RaPS02:PS-UDC-SI3  (FBP)
 |       |-- SI-14C1:PS-QS  (9)
-|       |   +-- IA-14RaPS02:PS-DCLink-SI
+|       |   +-- IA-14RaPS02:PS-DCLink-SI1
 |       |-- SI-14C2:PS-QS  (10)
-|       |   +-- IA-14RaPS02:PS-DCLink-SI
+|       |   +-- IA-14RaPS02:PS-DCLink-SI1
 |       +-- SI-14C3:PS-QS  (11)
-|           +-- IA-14RaPS02:PS-DCLink-SI
+|           +-- IA-14RaPS02:PS-DCLink-SI1
 |-- IA-14RaCtrl:CO-PSCtrl-SI4  [10.128.114.132]
 |   |-- IA-14RaPS02:PS-UDC-SI4  (FBP)
 |   |   |-- SI-14C1:PS-CH  (1)
-|   |   |   +-- IA-14RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-14RaPS02:PS-DCLink-SI1
 |   |   |-- SI-14C1:PS-CV  (2)
-|   |   |   +-- IA-14RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-14RaPS02:PS-DCLink-SI1
 |   |   |-- SI-14C4:PS-CH  (3)
-|   |   |   +-- IA-14RaPS02:PS-DCLink-SI
+|   |   |   +-- IA-14RaPS02:PS-DCLink-SI1
 |   |   +-- SI-14C4:PS-CV  (4)
-|   |       +-- IA-14RaPS02:PS-DCLink-SI
+|   |       +-- IA-14RaPS02:PS-DCLink-SI1
 |   +-- IA-14RaPS02:PS-UDC-SI5  (FBP)
 |       |-- SI-14C3:PS-CH  (5)
-|       |   +-- IA-14RaPS02:PS-DCLink-SI
+|       |   +-- IA-14RaPS02:PS-DCLink-SI1
 |       |-- SI-14C3:PS-CV-1  (6)
-|       |   +-- IA-14RaPS02:PS-DCLink-SI
+|       |   +-- IA-14RaPS02:PS-DCLink-SI1
 |       +-- SI-14C3:PS-CV-2  (7)
-|           +-- IA-14RaPS02:PS-DCLink-SI
+|           +-- IA-14RaPS02:PS-DCLink-SI1
+|-- IA-14RaCtrl:CO-PSCtrl-SI5  [10.128.114.133]
+|   +-- IA-14RaPS02:PS-UDC-SI7  (FBP)
+|       |-- SI-14SB:PS-CH-1  (1)
+|       |   +-- IA-14RaPS02:PS-DCLink-SI2
+|       |-- SI-14SB:PS-CH-2  (2)
+|       |   +-- IA-14RaPS02:PS-DCLink-SI2
+|       |-- SI-14SB:PS-CV-1  (3)
+|       |   +-- IA-14RaPS02:PS-DCLink-SI2
+|       +-- SI-14SB:PS-CV-2  (4)
+|           +-- IA-14RaPS02:PS-DCLink-SI2
+|-- IA-14RaCtrl:CO-PSCtrl-SI6  [10.128.114.134]
+|   +-- IA-14RaPS02:PS-UDC-SI8  (FBP)
+|       +-- SI-14SB:PS-LCH  (1)
+|           +-- IA-14RaPS02:PS-DCLink-SI2
 |-- IA-15RaCtrl:CO-DCLinkCtrl  [10.128.115.104]
 |   |-- IA-15RaPS01:PS-UDC-SI6  (FBP_DCLink)
 |   |   +-- IA-15RaPS01:PS-DCLink-SI  (1)
@@ -1580,16 +1607,6 @@ BeagleBones
 |       |   +-- IA-17RaPS02:PS-DCLink-SI
 |       +-- SI-17C3:PS-CV-2  (7)
 |           +-- IA-17RaPS02:PS-DCLink-SI
-|-- IA-17RaCtrl:CO-PSCtrl-SI5  [10.128.117.133]
-|   +-- IA-17RaPS01:PS-UDC-SI6  (FBP)
-|       |-- SI-17SA:PS-CH-1  (1)
-|       |   +-- IA-17RaPS01:PS-DCLink-AS
-|       |-- SI-17SA:PS-CH-2  (2)
-|       |   +-- IA-17RaPS01:PS-DCLink-AS
-|       |-- SI-17SA:PS-CV-1  (3)
-|       |   +-- IA-17RaPS01:PS-DCLink-AS
-|       +-- SI-17SA:PS-CV-2  (4)
-|           +-- IA-17RaPS01:PS-DCLink-AS
 |-- IA-18RaCtrl:CO-DCLinkCtrl  [10.128.118.104]
 |   |-- IA-18RaPS01:PS-UDC-SI6  (FBP_DCLink)
 |   |   +-- IA-18RaPS01:PS-DCLink-SI  (1)
