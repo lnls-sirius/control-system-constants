@@ -162,6 +162,7 @@ facs-as-ps-dclinks_ia08:
   as-ps IA-08RaCtrl:CO-DCLinkCtrl:
   - IA-08RaPS01:PS-DCLink-AS
   - IA-08RaPS02:PS-DCLink-SI1
+  - IA-08RaPS02:PS-DCLink-SI2
 
 facs-as-ps-dclinks_ia09:
   as-ps IA-09RaCtrl:CO-DCLinkCtrl:
@@ -192,6 +193,7 @@ facs-as-ps-dclinks_ia14:
   as-ps IA-14RaCtrl:CO-DCLinkCtrl:
   - IA-14RaPS01:PS-DCLink-AS
   - IA-14RaPS02:PS-DCLink-SI1
+  - IA-14RaPS02:PS-DCLink-SI2
 
 facs-as-ps-dclinks_ia15:
   as-ps IA-15RaCtrl:CO-DCLinkCtrl:
@@ -285,6 +287,7 @@ facs-as-ti_bo-general:
   - BO-48D:TI-EjeKckr
   - BO-50U:TI-VLightCam
   - BO-RaPSE05:TI-Osc
+  - BO-Glob:TI-LLRF-FDL
   - BO-Glob:TI-LLRF-Gen
   - BO-Glob:TI-LLRF-PsMtm
   - BO-Glob:TI-LLRF-Rmp
@@ -313,8 +316,8 @@ facs-as-ti_si-general:
   - SI-14C4:TI-DCCT
   - SI-14C4:TI-DCCT-PsMtm
   - SI-19C4:TI-PingV
-  - SI-Fam:TI-BPM-PsMtm
   - SI-Fam:TI-BPM-OrbIntlk
+  - SI-Fam:TI-BPM-PsMtm
   - SI-Fam:TI-FOFB
   - SI-Fam:TI-OrbIntlkRedundancy
   - SI-Glob:TI-BbBProcH-Fid
@@ -848,9 +851,9 @@ facs-si-id_conv:
   si-id-conv:
   - SI-06SB:ID-APU22:Kx
   - SI-07SP:ID-APU22:Kx
-  - SI-08SB:ID-APU22:Kx
   - SI-09SA:ID-APU22:Kx
   - SI-11SP:ID-APU58:Kx
+  - SI-17SA:ID-APU22:Kx
 
 facs-si-ap-sofb:
   si-ap-sofb:
@@ -1675,6 +1678,24 @@ facs-si-ps_corrs-c134-ia20:
   - SI-20C4:PS-CH:Diag
   - SI-20C4:PS-CV:Diag
 
+facs-si-ps_corrs-sb-ia08:
+  as-ps IA-08RaCtrl:CO-PSCtrl-SI5:
+  - SI-08SB:PS-CH-1
+  - SI-08SB:PS-CH-2
+  - SI-08SB:PS-CV-1
+  - SI-08SB:PS-CV-2
+  as-ps-diag SI "08SB" "(CH|CV).*":
+  - SI-08SB:PS-CH-1:Diag
+  - SI-08SB:PS-CH-2:Diag
+  - SI-08SB:PS-CV-1:Diag
+  - SI-08SB:PS-CV-2:Diag
+
+facs-si-ps_corrlong-sb-ia08:
+  as-ps IA-08RaCtrl:CO-PSCtrl-SI6:
+  - SI-08SB:PS-LCH
+  as-ps-diag SI "08SB" LCH:
+  - SI-08SB:PS-LCH:Diag
+
 facs-si-ps_corrs-qs-sb-ia10:
   as-ps IA-10RaCtrl:CO-PSCtrl-SI5:
   - SI-10SB:PS-CH-1
@@ -1691,17 +1712,23 @@ facs-si-ps_corrs-qs-sb-ia10:
   - SI-10SB:PS-QS-1:Diag
   - SI-10SB:PS-QS-2:Diag
 
-facs-si-ps_corrs-sa-ia17:
-  as-ps IA-17RaCtrl:CO-PSCtrl-SI5:
-  - SI-17SA:PS-CH-1
-  - SI-17SA:PS-CH-2
-  - SI-17SA:PS-CV-1
-  - SI-17SA:PS-CV-2
-  as-ps-diag SI "17SA" "(CH|CV).*":
-  - SI-17SA:PS-CH-1:Diag
-  - SI-17SA:PS-CH-2:Diag
-  - SI-17SA:PS-CV-1:Diag
-  - SI-17SA:PS-CV-2:Diag
+facs-si-ps_corrs-sb-ia14:
+  as-ps IA-14RaCtrl:CO-PSCtrl-SI5:
+  - SI-14SB:PS-CH-1
+  - SI-14SB:PS-CH-2
+  - SI-14SB:PS-CV-1
+  - SI-14SB:PS-CV-2
+  as-ps-diag SI "14SB" "(CH|CV).*":
+  - SI-14SB:PS-CH-1:Diag
+  - SI-14SB:PS-CH-2:Diag
+  - SI-14SB:PS-CV-1:Diag
+  - SI-14SB:PS-CV-2:Diag
+
+facs-si-ps_corrlong-sb-ia14:
+  as-ps IA-14RaCtrl:CO-PSCtrl-SI6:
+  - SI-14SB:PS-LCH
+  as-ps-diag SI "14SB" LCH:
+  - SI-14SB:PS-LCH:Diag
 
 facs-si-ps_trims-qs-m12-ia01:
   as-ps IA-01RaCtrl:CO-PSCtrl-SI1:
@@ -1981,8 +2008,6 @@ facs-si-ps_trims-qs-m12-ia14:
   - SI-15M1:PS-QDP2
   - SI-14M1:PS-QS
   - SI-14M2:PS-QS
-  - SI-14SB:PS-CH-1
-  - SI-14SB:PS-CH-2
   as-ps-diag SI "(14M1|14M2)" "QS":
   - SI-14M1:PS-QS:Diag
   - SI-14M2:PS-QS:Diag
@@ -1996,6 +2021,8 @@ facs-si-ps_trims-qs-m12-ia14:
   as-ps-diag SI "14SB" "C(H|V)":
   - SI-14SB:PS-CH-1:Diag
   - SI-14SB:PS-CH-2:Diag
+  - SI-14SB:PS-CV-1:Diag
+  - SI-14SB:PS-CV-2:Diag
 
 facs-si-ps_trims-qs-m12-ia15:
   as-ps IA-15RaCtrl:CO-PSCtrl-SI1:
@@ -3034,10 +3061,7 @@ facs-si-ap-idff_delta52:
   si-ap-idff SI-10SB:ID-DELTA52:
   - SI-10SB:AP-IDFF
 
-facs-si-ap-idff_papu50:
-  si-ap-idff SI-17SA:ID-PAPU50:
-  - SI-17SA:AP-IDFF
-
 facs-si-ap-orbintlk:
   si-ap-orbintlk:
   - SI-Glob:AP-OrbIntlk
+
