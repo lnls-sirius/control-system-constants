@@ -1075,6 +1075,20 @@
             },
         'channels': ('RA-RaBO01:RF-DigPatch:ET', ),
         },
+    'BO-Glob:TI-LLRF-FDL': {
+        'database': {
+            'Src': {'enums': ()},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1},
+            'Duration': {'value': 1000},
+            'State': {'value': 0},
+            'Polarity': {'value': 0, 'states': (0, 1)},
+            },
+        'channels': (
+            'RA-RaBO01:RF-DigPatch:IN1',
+            ),
+        },
     'SI-Glob:TI-LLRF-Rmp': {
         'database': {
             'Src': {'enums': ('InjSI', )},
