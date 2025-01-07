@@ -22,7 +22,10 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Write deploy tag
-        run:  echo "RELEASE_TAG=${GITHUB_REF_NAME#v}" > .env
+        run: echo "RELEASE_TAG=${GITHUB_REF_NAME}" > .env
+
+      - name: Debug RELEASE_TAG
+        run: cat .env
 
       - name: Build Docker Compose 🏗️
         run: docker compose build
