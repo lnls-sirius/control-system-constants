@@ -4,6 +4,8 @@ services:
     image: 'ghcr.io/lnls-sirius/control-system-constants:${RELEASE_TAG}'
     build:
       context: .
+      args:
+        RELEASE_TAG: ${RELEASE_TAG}
       labels:
         - "br.com.lnls-sirius.department=FAC"
     ports:

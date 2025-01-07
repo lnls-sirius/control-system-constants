@@ -1,9 +1,11 @@
 ARG FAC_IMG_HTTPD_TAG=2.4.52-bullseye
-ARG RELEASE_TAG
 
 FROM httpd:${FAC_IMG_HTTPD_TAG}
 
 SHELL ["bash", "-c"]
+
+ARG RELEASE_TAG
+RUN echo "RELEASE_TAG=${RELEASE_TAG}"
 
 WORKDIR /usr/local/apache2/htdocs/
 
