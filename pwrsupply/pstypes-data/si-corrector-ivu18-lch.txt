@@ -1,7 +1,7 @@
-# List of power supplies of type si-corrector-papu50-cv
+# List of power supplies of type si-corrector-ivu18-lch
 # =====================================================
 
 # number of power supplies: 2
 
-SI-17SA:PS-CV-1
-SI-17SA:PS-CV-2
+SI-08SB:PS-LCH
+SI-14SB:PS-LCH

@@ -139,7 +139,6 @@
             'SI-13C3:PS-CV-2:BCKPLN',
             'SI-13C4:PS-CH:BCKPLN', 'SI-13C4:PS-CV:BCKPLN',
 
-            'SI-14SB:PS-CH-1:BCKPLN', 'SI-14SB:PS-CH-2:BCKPLN',
             'SI-14M1:PS-CH:BCKPLN', 'SI-14M1:PS-CV:BCKPLN',
             'SI-14M2:PS-CH:BCKPLN', 'SI-14M2:PS-CV:BCKPLN',
             'SI-14C1:PS-CH:BCKPLN', 'SI-14C1:PS-CV:BCKPLN',
@@ -167,8 +166,6 @@
             'SI-16C3:PS-CV-2:BCKPLN',
             'SI-16C4:PS-CH:BCKPLN', 'SI-16C4:PS-CV:BCKPLN',
 
-            'SI-17SA:PS-CH-1:BCKPLN', 'SI-17SA:PS-CH-2:BCKPLN',
-            'SI-17SA:PS-CV-1:BCKPLN', 'SI-17SA:PS-CV-2:BCKPLN',
             'SI-17M1:PS-CH:BCKPLN', 'SI-17M1:PS-CV:BCKPLN',
             'SI-17M2:PS-CH:BCKPLN', 'SI-17M2:PS-CV:BCKPLN',
             'SI-17C1:PS-CH:BCKPLN', 'SI-17C1:PS-CV:BCKPLN',
@@ -1078,6 +1075,20 @@
             },
         'channels': ('RA-RaBO01:RF-DigPatch:ET', ),
         },
+    'BO-Glob:TI-LLRF-FDL': {
+        'database': {
+            'Src': {'enums': ()},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1},
+            'Duration': {'value': 1000},
+            'State': {'value': 0},
+            'Polarity': {'value': 0, 'states': (0, 1)},
+            },
+        'channels': (
+            'RA-RaBO01:RF-DigPatch:IN1',
+            ),
+        },
     'SI-Glob:TI-LLRF-Rmp': {
         'database': {
             'Src': {'enums': ('InjSI', )},
@@ -1090,7 +1101,7 @@
             },
         'channels': (
             'RA-RaSIA01:RF-DigPatch:RAMP',
-            # 'RA-RaSIB01:RF-DigPatch:RAMP',
+            'RA-RaSIB01:RF-DigPatch:RAMP',
             ),
         },
     'SI-Glob:TI-LLRF-Gen': {
@@ -1105,7 +1116,7 @@
             },
         'channels': (
             'RA-RaSIA01:RF-DigPatch:GENERIC',
-            # 'RA-RaSIB01:RF-DigPatch:GENERIC',
+            'RA-RaSIB01:RF-DigPatch:GENERIC',
             ),
         },
     'SI-Glob:TI-LLRF-PsMtm': {
@@ -1120,7 +1131,7 @@
             },
         'channels': (
             'RA-RaSIA01:RF-DigPatch:ET',
-            # 'RA-RaSIB01:RF-DigPatch:ET',
+            'RA-RaSIB01:RF-DigPatch:ET',
             ),
         },
     # #### DIAGNOSTICS ######
@@ -1565,7 +1576,11 @@
             'State': {'value': 0},
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
-        'channels': ('IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH5', ),
+        'channels': (
+                'IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH5',
+                'IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH5',
+                'IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH5',
+                ),
         },
     'AS-Glob:TI-FCT': {
         # This trigger will work for both FCTs, from TB and TS transport lines.
