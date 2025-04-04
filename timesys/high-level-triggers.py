@@ -1577,6 +1577,7 @@
             'Polarity': {'value': 1, 'states': (1, 0)},
             },
         'channels': (
+                'IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH5',
                 'IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH5',
                 'IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH5',
                 'IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH5',
