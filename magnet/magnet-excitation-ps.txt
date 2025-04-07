@@ -1013,6 +1013,10 @@ SI-19C3:MA-FCV               SI-19C3:PS-FCV
 SI-20C3:MA-FCV               SI-20C3:PS-FCV
 
 # --- ID correctors ---
+SI-06SB:MA-CC1-1             SI-06SB:PS-CC1-1
+SI-06SB:MA-CC1-2             SI-06SB:PS-CC1-2
+SI-06SB:MA-CC2-1             SI-06SB:PS-CC2-1
+SI-06SB:MA-CC2-2             SI-06SB:PS-CC2-2
 SI-08SB:MA-CH-1              SI-08SB:PS-CH-1
 SI-08SB:MA-CH-2              SI-08SB:PS-CH-2
 SI-08SB:MA-CV-1              SI-08SB:PS-CV-1

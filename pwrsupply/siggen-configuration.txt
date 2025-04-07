@@ -1034,6 +1034,10 @@ SI-01M1:PS-FCV          DampedSine    15          1.0                   10.0    
 
 # PSNAME                TYPE          NR_CYCLES  FREQ[Hz]    AMPLITUDE[A]    OFFSET[A]     PARAM0:Beg[deg]  PARAM1:End[deg]  PARAM2:Tau[s]     PARAM3:<NOT_USED>
 
+SI-06SB:PS-CC1-1        DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
+SI-06SB:PS-CC1-2        DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
+SI-06SB:PS-CC2-1        DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
+SI-06SB:PS-CC2-2        DampedSine    7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
 SI-08SB:PS-CH-1         DampedSine    7          0.1         2.0             0.0           0.0              0.0              10.0              0.0
 SI-08SB:PS-CV-1         DampedSine    7          0.1         2.0             0.0           0.0              0.0              10.0              0.0
 SI-08SB:PS-CH-2         DampedSine    7          0.1         2.0             0.0           0.0              0.0              10.0              0.0

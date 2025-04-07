@@ -1678,6 +1678,18 @@ facs-si-ps_corrs-c134-ia20:
   - SI-20C4:PS-CH:Diag
   - SI-20C4:PS-CV:Diag
 
+facs-si-ps_corrs-sb-ia06:
+  as-ps IA-06RaCtrl:CO-PSCtrl-SI5:
+  - SI-06SB:PS-CC1-1
+  - SI-06SB:PS-CC1-2
+  - SI-06SB:PS-CC2-1
+  - SI-06SB:PS-CC2-2
+  as-ps-diag SI "06SB" "CC.*":
+  - SI-06SB:PS-CC1-1:Diag
+  - SI-06SB:PS-CC1-2:Diag
+  - SI-06SB:PS-CC2-1:Diag
+  - SI-06SB:PS-CC2-2:Diag
+
 facs-si-ps_corrs-sb-ia08:
   as-ps IA-08RaCtrl:CO-PSCtrl-SI5:
   - SI-08SB:PS-CH-1
@@ -3064,4 +3076,3 @@ facs-si-ap-idff_delta52:
 facs-si-ap-orbintlk:
   si-ap-orbintlk:
   - SI-Glob:AP-OrbIntlk
-
