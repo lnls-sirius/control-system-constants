@@ -14,8 +14,18 @@
 
 # COMMENTS
 # ========
-# 1. arbitrary data.
-#   TODO: update with real measurements.
+# 1. CC1 and CC2 coil correctors generate oblique fields, not horizontal
+#    nor vertical.
+# 2. Besides, since the coils are linked to the movable ID cassettes, their
+#    integrated fields depend not only on the excitation coil currents
+#    but also on the gap.
+# 3. Registered here is the integrated field (regardless of its direction)
+#    as a normal field.
+# 4. Power supply polarization defined during istallation is consistetly
+#    between CC1 and CC2, but so far is arbitrary
+# 5. Excitation data at this point is arbitrary (not characterized).
+#    TODO: it maybe be measured in the future using electrom beam
+#    closed orbit distortions.
 
 # POLARITY TABLE
 # ==============
