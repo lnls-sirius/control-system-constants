@@ -317,6 +317,10 @@ SI-06M1:MA-SFB0                  125.9697
 SI-06M1:MA-FCH                   126.1357
 SI-06M1:MA-FCV                   126.1357
 SI-06M1:MA-QDB2                  126.2997
+SI-06SB:MA-CC1-1                 128.0000
+SI-06SB:MA-CC2-1                 128.0000
+SI-06SB:MA-CC1-2                 130.0000
+SI-06SB:MA-CC2-2                 130.0000
 SI-06M2:MA-QDB2                  132.8952
 SI-06M2:MA-FCH                   133.0592
 SI-06M2:MA-FCV                   133.0592

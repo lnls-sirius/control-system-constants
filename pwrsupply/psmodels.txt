@@ -1103,6 +1103,10 @@ SI-19M2:PS-QS                 FBP
 SI-20M1:PS-QS                 FBP
 SI-20M2:PS-QS                 FBP
 
+SI-06SB:PS-CC1-1              FBP
+SI-06SB:PS-CC1-2              FBP
+SI-06SB:PS-CC2-1              FBP
+SI-06SB:PS-CC2-2              FBP
 SI-08SB:PS-CH-1               FBP
 SI-08SB:PS-CH-2               FBP
 SI-08SB:PS-CV-1               FBP
