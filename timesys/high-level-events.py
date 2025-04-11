@@ -6,7 +6,7 @@
 #
 # This file maps the aliases of the events used in Sirius
 # operation system with their code name.
-{
+{  # noqa: B018
     'Linac': 'Evt01', 'InjBO': 'Evt02',
     'InjSI': 'Evt03', 'RmpBO': 'Evt04',
     'Cycle': 'Evt05', 'Study': 'Evt06',
@@ -15,6 +15,7 @@
 
     'Dsbld':  'Evt00',
     'Intlk': 'Evt117', 'ItlkR': 'Evt118',
+    'LLRFA': 'Evt121', 'LLRFB': 'Evt122',
     'RFKll': 'Evt124',
     'DCT13': 'Evt125', 'DCT14': 'Evt126',
     'PsMtm': 'Evt132',

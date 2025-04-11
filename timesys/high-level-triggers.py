@@ -6,7 +6,7 @@
 #
 # This file define the triggers used in Sirius operation system and
 # maps them with several important properties.
-{
+{  # noqa: B018
     # ### Magnets ###
     'SI-Glob:TI-Mags-Corrs': {
         'database': {
