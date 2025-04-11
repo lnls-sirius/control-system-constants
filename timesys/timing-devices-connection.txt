@@ -13,7 +13,7 @@
 
 
 
-# 592
+# 588
 AS-RaMO:TI-EVG:OUT0                 RA-RaMO:CO-DIO:P05
 AS-RaMO:TI-EVG:OUT1                 RA-RaMO:CO-DIO:P01
 AS-RaMO:TI-EVG:OUT2                 RA-RaMO:CO-DIO:P02
@@ -45,11 +45,9 @@ CA-RaTim:TI-Fout-1:OUT5             CA-RaCtrl:CO-DIO-9:P10
 CA-RaTim:TI-Fout-1:OUT6             CA-RaCtrl:CO-DIO-3:P15
 CA-RaTim:TI-Fout-2:OUT0             CA-RaCtrl:CO-DIO-4:P18
 CA-RaTim:TI-Fout-2:OUT2             CA-RaCtrl:CO-DIO-8:P03
-CA-RaTim:TI-Fout-2:OUT3             CA-RaCtrl:CO-DIO-1:P048
 CA-RaTim:TI-Fout-2:OUT4             CA-RaCtrl:CO-DIO-6:P12
 CA-RaTim:TI-Fout-2:OUT5             CA-RaCtrl:CO-DIO-7:P06
 CA-RaTim:TI-Fout-2:OUT6             CA-RaCtrl:CO-DIO-5:P18
-CA-RaTim:TI-Fout-2:OUT7             CA-RaCtrl:CO-DIO-4:P15
 CA-RaTim:TI-Fout-3:OUT0             CA-RaCtrl:CO-DIO-2:P05
 CA-RaTim:TI-Fout-3:OUT1             CA-RaCtrl:CO-DIO-2:P17
 CA-RaTim:TI-Fout-3:OUT2             CA-RaCtrl:CO-DIO-2:P23
@@ -89,7 +87,6 @@ CA-RaCtrl:CO-DIO-8:P03              IA-20RaCtrl:CO-DIO-2:P03
 CA-RaCtrl:CO-DIO-6:P12              IA-16RaCtrl:CO-DIO-2:P06
 CA-RaCtrl:CO-DIO-7:P06              IA-18RaCtrl:CO-DIO-2:P06
 CA-RaCtrl:CO-DIO-5:P18              IA-14RaCtrl:CO-DIO-2:P06
-CA-RaCtrl:CO-DIO-4:P15              IA-10RaCtrl:CO-DIO-2:P03
 CA-RaCtrl:CO-DIO-2:P05              IA-01RaCtrl:CO-DIO-2:P05
 CA-RaCtrl:CO-DIO-2:P17              IA-02RaCtrl:CO-DIO-2:P05
 CA-RaCtrl:CO-DIO-2:P23              IA-03RaCtrl:CO-DIO-2:P05
@@ -136,7 +133,6 @@ IA-20RaCtrl:CO-DIO-2:P03            IA-20RaDiag01:TI-EVR:UPLINK
 IA-16RaCtrl:CO-DIO-2:P06            IA-16RaBbB:TI-EVE:UPLINK
 IA-18RaCtrl:CO-DIO-2:P06            IA-18RaDiag04:TI-EVE:UPLINK
 IA-14RaCtrl:CO-DIO-2:P06            IA-14RaDiag03:TI-EVE:UPLINK
-IA-10RaCtrl:CO-DIO-2:P03            BA-MNCA:TI-EVE:UPLINK
 IA-01RaCtrl:CO-DIO-2:P05            IA-01RaBPM:TI-AMCFPGAEVR:SFP8
 IA-02RaCtrl:CO-DIO-2:P05            IA-02RaBPM:TI-AMCFPGAEVR:SFP8
 IA-03RaCtrl:CO-DIO-2:P05            IA-03RaBPM:TI-AMCFPGAEVR:SFP8
@@ -613,17 +609,21 @@ BO-02U:TI-OESglSFP:INTX             IA-20RaDiag01:TI-EVR:INRX1
 
 
 # CONNECTIONS NOT USED
-# 28
+# 32
 # BO-01D:TI-OESglSFPPS-1:PWROUT       BO-01D:TI-OESglSFP-1:PWRIN
 # BO-01D:TI-OESglSFPPS-2:PWROUT       BO-01D:TI-OESglSFP-2:PWRIN
 # BO-02U:TI-OESglSFPPS:PWROUT         BO-02U:TI-OESglSFP:PWRIN
 # BO-50U:TI-OESglSFPPS:PWROUT         BO-50U:TI-OESglSFP:PWRIN
+# CA-RaTim:TI-Fout-2:OUT3             CA-RaCtrl:CO-DIO-1:P048
+# CA-RaTim:TI-Fout-2:OUT7             CA-RaCtrl:CO-DIO-4:P15
 # CA-RaCtrl:CO-DIO-11:P20             BA-CAXA:CO-DIO:P02
 # CA-RaCtrl:CO-DIO-11:P21             BA-CAXA:CO-DIO:P03
 # CA-RaCtrl:CO-DIO-11:P22             BA-CAXA:CO-DIO:P04
 # CA-RaCtrl:CO-DIO-11:P23             BA-CAXA:CO-DIO:P05
 # CA-RaCtrl:CO-DIO-11:P24             BA-CAXA:CO-DIO:P06
 # CA-RaCtrl:CO-DIO-1:P044             RA-RaSIA01:CO-DIO:P044
+# CA-RaCtrl:CO-DIO-4:P15              IA-10RaCtrl:CO-DIO-2:P03
+# IA-10RaCtrl:CO-DIO-2:P03            BA-MNCA:IN-Rack:CABOSOLTO
 # LI-IET01RACK1:TI-OERFRx:SIGNAL      LI-01:EG-EGun:RFIN
 # RA-RaMO:RF-SigPass:FRONTSMA7+1.3DBM RA-RaMO:TI-OERFTx:SIGNAL
 # RA-RaMO:RF-SigPass:FRONTSMA8+6.8DBM AS-RaMO:TI-EVG:RFIN
