@@ -1810,6 +1810,7 @@
             'Polarity': {'value': 0, 'states': (0, 1)},
             'Direction': {'value': 1, 'states': (2, 0)},
             },
+        # WARN: *crates* listed here should be removed from SI-Fam:TI-BPM-OutOrbIntlk
         'channels': (
             'SI-06M1:DI-BPM:CRT4', 'SI-06M2:DI-BPM:CRT4',
 
@@ -1818,6 +1819,60 @@
             'SI-10M1:DI-BPM:CRT4', 'SI-10M2:DI-BPM:CRT4',
 
             'SI-14M1:DI-BPM:CRT4', 'SI-14M2:DI-BPM:CRT4',
+            ),
+        },
+    'SI-Fam:TI-BPM-OutOrbIntlk': {
+        'database': {
+            'Src': {'enums': ('Intlk', )},
+            'Delay': {'value': 0.0},
+            'RFDelayType': {'value': 1, 'states': (2, 0)},
+            'NrPulses': {'value': 1},
+            'Duration': {'value': 150},
+            'State': {'value': 0},
+            'Polarity': {'value': 0, 'states': (0, 1)},
+            'Direction': {'value': 1, 'states': (2, 0)},
+            },
+        # WARN: make sure this list does not include any *crates* used by SI-Fam:TI-BPM-OrbIntlk
+        'channels': (
+            'SI-01M1:DI-BPM:CRT4', 'SI-01M2:DI-BPM:CRT4',
+
+            'SI-02M1:DI-BPM:CRT4', 'SI-02M2:DI-BPM:CRT4',
+
+            'SI-03M1:DI-BPM:CRT4', 'SI-03M2:DI-BPM:CRT4',
+
+            'SI-04M1:DI-BPM:CRT4', 'SI-04M2:DI-BPM:CRT4',
+
+            'SI-05M1:DI-BPM:CRT4', 'SI-05M2:DI-BPM:CRT4',
+
+            #'SI-06M1:DI-BPM:CRT4', 'SI-06M2:DI-BPM:CRT4',
+
+            'SI-07M1:DI-BPM:CRT4', 'SI-07M2:DI-BPM:CRT4',
+
+            #'SI-08M1:DI-BPM:CRT4', 'SI-08M2:DI-BPM:CRT4',
+
+            'SI-09M1:DI-BPM:CRT4', 'SI-09M2:DI-BPM:CRT4',
+
+            #'SI-10M1:DI-BPM:CRT4', 'SI-10M2:DI-BPM:CRT4',
+
+            'SI-11M1:DI-BPM:CRT4', 'SI-11M2:DI-BPM:CRT4',
+
+            'SI-12M1:DI-BPM:CRT4', 'SI-12M2:DI-BPM:CRT4',
+
+            'SI-13M1:DI-BPM:CRT4', 'SI-13M2:DI-BPM:CRT4',
+
+            #'SI-14M1:DI-BPM:CRT4', 'SI-14M2:DI-BPM:CRT4',
+
+            'SI-15M1:DI-BPM:CRT4', 'SI-15M2:DI-BPM:CRT4',
+
+            'SI-16M1:DI-BPM:CRT4', 'SI-16M2:DI-BPM:CRT4',
+
+            'SI-17M1:DI-BPM:CRT4', 'SI-17M2:DI-BPM:CRT4',
+
+            'SI-18M1:DI-BPM:CRT4', 'SI-18M2:DI-BPM:CRT4',
+
+            'SI-19M1:DI-BPM:CRT4', 'SI-19M2:DI-BPM:CRT4',
+
+            'SI-20M1:DI-BPM:CRT4', 'SI-20M2:DI-BPM:CRT4',
             ),
         },
     'AS-Fam:TI-BPM-MonitClk': {
