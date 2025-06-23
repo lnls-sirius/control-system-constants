@@ -238,7 +238,7 @@
 
     "108": {
         "MKS": [
-            {"BBB_IP_1": "10.128.108.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA08-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""},
+            {"BBB_IP_1": "10.128.108.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA08-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4, 6], "DEVICE_NAME": ""},
             {"BBB_IP_1": "10.128.108.107", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA08-IVU-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [5], "DEVICE_NAME": ""}
             ],
         "4UHV": [
