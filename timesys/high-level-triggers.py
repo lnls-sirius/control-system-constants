@@ -1579,6 +1579,7 @@
             },
         'channels': (
                 'IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH5',
+                'IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH5',
                 'IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH5',
                 'IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH5',
                 'IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH5',
@@ -1815,6 +1816,8 @@
         'channels': (
             'SI-06M1:DI-BPM:CRT4', 'SI-06M2:DI-BPM:CRT4',
 
+            'SI-07M1:DI-BPM:CRT4', 'SI-07M2:DI-BPM:CRT4',
+
             'SI-08M1:DI-BPM:CRT4', 'SI-08M2:DI-BPM:CRT4',
 
             'SI-10M1:DI-BPM:CRT4', 'SI-10M2:DI-BPM:CRT4',
@@ -1847,7 +1850,7 @@
 
             #'SI-06M1:DI-BPM:CRT4', 'SI-06M2:DI-BPM:CRT4',
 
-            'SI-07M1:DI-BPM:CRT4', 'SI-07M2:DI-BPM:CRT4',
+            #'SI-07M1:DI-BPM:CRT4', 'SI-07M2:DI-BPM:CRT4',
 
             #'SI-08M1:DI-BPM:CRT4', 'SI-08M2:DI-BPM:CRT4',
 
