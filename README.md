@@ -9,6 +9,7 @@ This repository should be cloned as the 'html' directory at the Sirius control-s
 * documentation: general documentation on Sirius, including drawings, pictures, etc.
 * macschedule: machine schedule files.
 * magnet: static tables related to the magnets.
+* orbintlk: static tables related to orbit interlock settings.
 * pwrsupply: static tables related to magnet power supplies.
 * timesys: static tables related to the timing subsystem.
 
