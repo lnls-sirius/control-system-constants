@@ -381,6 +381,10 @@ SI-07M1:MA-SFP0                  151.8892
 SI-07M1:MA-FCH                   152.0552
 SI-07M1:MA-FCV                   152.0552
 SI-07M1:MA-QDP2                  152.2192
+SI-07SP:MA-CC1-1                 154.0000
+SI-07SP:MA-CC2-1                 154.0000
+SI-07SP:MA-CC1-2                 156.0000
+SI-07SP:MA-CC2-2                 156.0000
 SI-07M2:MA-QDP2                  158.8147
 SI-07M2:MA-FCH                   158.9787
 SI-07M2:MA-FCV                   158.9787
