@@ -1107,6 +1107,10 @@ SI-06SB:PS-CC1-1              FBP
 SI-06SB:PS-CC1-2              FBP
 SI-06SB:PS-CC2-1              FBP
 SI-06SB:PS-CC2-2              FBP
+SI-07SP:PS-CC1-1              FBP
+SI-07SP:PS-CC1-2              FBP
+SI-07SP:PS-CC2-1              FBP
+SI-07SP:PS-CC2-2              FBP
 SI-08SB:PS-CH-1               FBP
 SI-08SB:PS-CH-2               FBP
 SI-08SB:PS-CV-1               FBP
@@ -1299,8 +1303,6 @@ SI-01M2:PS-FFCV               FBP
 
 # --- Sirius Insetion Devices
 
-SI-06SB:ID-APU22              APU
-SI-07SP:ID-APU22              APU
 SI-08SB:ID-IVU18              IVU
 SI-09SA:ID-APU22              APU
 SI-11SP:ID-APU58              APU

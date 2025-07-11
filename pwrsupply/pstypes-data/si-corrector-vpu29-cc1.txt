@@ -1,7 +1,9 @@
 # List of power supplies of type si-corrector-vpu29-cc1
 # =====================================================
 
-# number of power supplies: 2
+# number of power supplies: 4
 
 SI-06SB:PS-CC1-1
 SI-06SB:PS-CC1-2
+SI-07SP:PS-CC1-1
+SI-07SP:PS-CC1-2
