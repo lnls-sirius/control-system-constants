@@ -1032,6 +1032,10 @@ SI-10SB:MA-CV-1              SI-10SB:PS-CV-1
 SI-10SB:MA-CV-2              SI-10SB:PS-CV-2
 SI-10SB:MA-QS-1              SI-10SB:PS-QS-1
 SI-10SB:MA-QS-2              SI-10SB:PS-QS-2
+SI-11SP:MA-CH-1              SI-11SP:PS-CH-1
+SI-11SP:MA-CH-2              SI-11SP:PS-CH-2
+SI-11SP:MA-CV-1              SI-11SP:PS-CV-1
+SI-11SP:MA-CV-2              SI-11SP:PS-CV-2
 SI-14SB:MA-CH-1              SI-14SB:PS-CH-1
 SI-14SB:MA-CH-2              SI-14SB:PS-CH-2
 SI-14SB:MA-CV-1              SI-14SB:PS-CV-1
