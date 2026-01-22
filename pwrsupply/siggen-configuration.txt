@@ -7,29 +7,29 @@
 
 TB-Fam:PS-B             DampedSquaredSine    32          0.25        300.0           0.0           0.0              0.0              16.0              0.0
 
-TB-01:PS-QD1            DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-01:PS-QF1            DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-02:PS-QD2A           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-02:PS-QD2B           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-02:PS-QF2A           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-02:PS-QF2B           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-03:PS-QD3            DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-03:PS-QF3            DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-04:PS-QD4            DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-04:PS-QF4            DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
+TB-01:PS-QD1            DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-01:PS-QF1            DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-02:PS-QD2A           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-02:PS-QD2B           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-02:PS-QF2A           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-02:PS-QF2B           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-03:PS-QD3            DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-03:PS-QF3            DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-04:PS-QD4            DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-04:PS-QF4            DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
 
-TB-01:PS-CH-1           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-01:PS-CH-2           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-01:PS-CV-1           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-01:PS-CV-2           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-02:PS-CH-1           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-02:PS-CH-2           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-02:PS-CV-1           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-02:PS-CV-2           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-04:PS-CH-1           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-04:PS-CH-2           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-04:PS-CV-1           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
-TB-04:PS-CV-2           DampedSine           100         2.0          10.0           0.0           0.0              0.0               2.0              0.0
+TB-01:PS-CH-1           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-01:PS-CH-2           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-01:PS-CV-1           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-01:PS-CV-2           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-02:PS-CH-1           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-02:PS-CH-2           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-02:PS-CV-1           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-02:PS-CV-2           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-04:PS-CH-1           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-04:PS-CH-2           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-04:PS-CV-1           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
+TB-04:PS-CV-2           DampedSine           7           0.1          10.0           0.0           0.0              0.0              10.0              0.0
 
 # === BO ===
 
