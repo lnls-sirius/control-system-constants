@@ -854,7 +854,6 @@ facs-si-di-fpmosc:
 
 facs-si-id_conv:
   si-id-conv:
-  - SI-07SP:ID-APU22:Kx
   - SI-09SA:ID-APU22:Kx
   - SI-11SP:ID-APU58:Kx
   - SI-17SA:ID-APU22:Kx
@@ -1723,6 +1722,18 @@ facs-si-ps_corrlong-sb-ia08:
   - SI-08SB:PS-LCH
   as-ps-diag SI "08SB" LCH:
   - SI-08SB:PS-LCH:Diag
+
+facs-si-ps-corrs-sp-ia11:
+  as-ps IA-11RaCtrl:CO-PSCtrl-SI5:
+  - SI-11SP:PS-CH-1
+  - SI-11SP:PS-CH-2
+  - SI-11SP:PS-CV-1
+  - SI-11SP:PS-CV-2
+  as-ps-diag SI "11SP" "(CH|CV).*":
+  - SI-11SP:PS-CH-1:Diag
+  - SI-11SP:PS-CH-2:Diag
+  - SI-11SP:PS-CV-1:Diag
+  - SI-11SP:PS-CV-2:Diag
 
 facs-si-ps_corrs-qs-sb-ia10:
   as-ps IA-10RaCtrl:CO-PSCtrl-SI5:
@@ -3085,19 +3096,10 @@ facs-bl-ap-imgproc:
   bl-ap-imgproc-caxdvf2:
   - CAX:B:BASLER01
 
-facs-si-ap-idff_delta52:
+facs-si-ap-idff_delta52-sb10:
   si-ap-idff SI-10SB:ID-DELTA52:
   - SI-10SB:AP-IDFF
-
-facs-si-ap-idff_ivu18-sb08:
-  si-ap-idff SI-08SB:ID-IVU18:
-  - SI-08SB:AP-IDFF
-
-facs-si-ap-idff_ivu18-sb14:
-  si-ap-idff SI-14SB:ID-IVU18:
-  - SI-14SB:AP-IDFF
 
 facs-si-ap-orbintlk:
   si-ap-orbintlk:
   - SI-Glob:AP-OrbIntlk
-
