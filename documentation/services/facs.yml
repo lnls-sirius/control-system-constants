@@ -1723,6 +1723,18 @@ facs-si-ps_corrlong-sb-ia08:
   as-ps-diag SI "08SB" LCH:
   - SI-08SB:PS-LCH:Diag
 
+facs-si-ps-corrs-sp-ia11:
+  as-ps IA-11RaCtrl:CO-PSCtrl-SI5:
+  - SI-11SP:PS-CH-1
+  - SI-11SP:PS-CH-2
+  - SI-11SP:PS-CV-1
+  - SI-11SP:PS-CV-2
+  as-ps-diag SI "11SP" "(CH|CV).*":
+  - SI-11SP:PS-CH-1:Diag
+  - SI-11SP:PS-CH-2:Diag
+  - SI-11SP:PS-CV-1:Diag
+  - SI-11SP:PS-CV-2:Diag
+
 facs-si-ps_corrs-qs-sb-ia10:
   as-ps IA-10RaCtrl:CO-PSCtrl-SI5:
   - SI-10SB:PS-CH-1
@@ -3096,4 +3108,3 @@ facs-si-rf_monitor:
   si-rf-monitor:
   - SI-03SP:RF-CryoMod-1
   - SI-03SP:RF-CryoMod-2
-
