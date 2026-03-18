@@ -1,34 +1,35 @@
 # HEADER
 # ======
-# label             si-corrector-ue44-cv
-# harmonics         0 2 4
-# main_harmonic     0 skew
+# label             si-corrector-ue44-qs
+# harmonics         1 5 9
+# main_harmonic     1 skew
 # rescaling_factor  1.0
-# units             Ampere  T.m T.m  T/m T/m  T/m^3 T/m^3
+# units             Ampere  T T  T/m^4 T/m^4  T/m^8 T/m^8
 
 # EXCITATION DATA
 # ===============
--0005.0000  -3.0765e-05  +1.1635e-03  +1.0967e-03  -1.9722e-02  +2.5279e+00  -1.3022e+00  
--0004.0000  -2.8683e-05  +9.2934e-04  +9.2351e-04  -1.5764e-02  +2.4419e+00  -1.2122e+00  
--0003.0000  -2.6600e-05  +6.9522e-04  +7.5031e-04  -1.1807e-02  +2.3559e+00  -1.1222e+00  
--0002.0000  -2.4518e-05  +4.6110e-04  +5.7711e-04  -7.8489e-03  +2.2700e+00  -1.0322e+00  
--0001.0000  -2.2435e-05  +2.2697e-04  +4.0391e-04  -3.8913e-03  +2.1840e+00  -9.4217e-01  
-+0000.0000  -2.0353e-05  -7.1476e-06  +2.3071e-04  +6.6320e-05  +2.0981e+00  -8.5217e-01  
-+0001.0000  -1.8270e-05  -2.4127e-04  +5.7504e-05  +4.0239e-03  +2.0121e+00  -7.6218e-01  
-+0002.0000  -1.6187e-05  -4.7539e-04  -1.1570e-04  +7.9815e-03  +1.9262e+00  -6.7218e-01  
-+0003.0000  -1.4105e-05  -7.0951e-04  -2.8890e-04  +1.1939e-02  +1.8402e+00  -5.8219e-01  
-+0004.0000  -1.2022e-05  -9.4363e-04  -4.6210e-04  +1.5897e-02  +1.7542e+00  -4.9219e-01  
-+0005.0000  -9.9397e-06  -1.1778e-03  -6.3530e-04  +1.9854e-02  +1.6683e+00  -4.0220e-01  
+-0010.0000  -8.6993e-04  -9.4859e-02  +1.0405e+02  -3.5010e+04  +9.8708e+09  +5.9709e+10  
+-0008.0000  -6.9733e-04  -7.5901e-02  +1.1041e+02  -2.7984e+04  +7.6951e+09  +4.7507e+10  
+-0006.0000  -5.2472e-04  -5.6944e-02  +1.1676e+02  -2.0959e+04  +5.5195e+09  +3.5305e+10  
+-0004.0000  -3.5212e-04  -3.7986e-02  +1.2312e+02  -1.3933e+04  +3.3439e+09  +2.3103e+10  
+-0002.0000  -1.7952e-04  -1.9028e-02  +1.2947e+02  -6.9074e+03  +1.1683e+09  +1.0901e+10  
++0000.0000  -6.9223e-06  -7.0657e-05  +1.3582e+02  +1.1825e+02  -1.0073e+09  -1.3009e+09  
++0000.0000  -6.9223e-06  -7.0657e-05  +1.3582e+02  +1.1825e+02  -1.0073e+09  -1.3009e+09  
++0002.0000  +1.6568e-04  +1.8887e-02  +1.4218e+02  +7.1439e+03  -3.1829e+09  -1.3503e+10  
++0004.0000  +3.3828e-04  +3.7845e-02  +1.4853e+02  +1.4170e+04  -5.3585e+09  -2.5705e+10  
++0006.0000  +5.1088e-04  +5.6802e-02  +1.5488e+02  +2.1195e+04  -7.5341e+09  -3.7907e+10  
++0008.0000  +6.8348e-04  +7.5760e-02  +1.6124e+02  +2.8221e+04  -9.7097e+09  -5.0109e+10  
++0010.0000  +8.5608e-04  +9.4718e-02  +1.6759e+02  +3.5247e+04  -1.1885e+10  -6.2310e+10
 
 # COMMENTS
 # ========
 # 1. file generated automatically from rotating coil measurement data
-# 2. timestamp: 2022-11-17-17:05:53.685
+# 2. timestamp: 2022-11-17-17:05:54.049
 # 3. magnet_type_label: FFC
 # 4. magnet_serial_number: 01,02
-# 5. data_set: CV
+# 5. data_set: QS
 # 6. data was fit with a polynomial of order 4 and remanent/ambient field subtracted.
-# 7. data in https://cnpemcamp.sharepoint.com/sites/EngenhariaeTecnologia/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FEngenhariaeTecnologia%2FDocumentos%20Compartilhados%2FProjetos%2F1%20%2D%20Projetos%20DAT%2FENT004%2E074%20%2D%20ONDULADOR%20UE44%2FCorretoras%20Dipolares%20e%20QS%2Fmedidas%5Fondulador%5FUE44%5Fcorretoras&p=true&ct=1773854129952&or=Teams%2DHL&ga=1&LOF=1
+# 7. data in https://cnpemcamp.sharepoint.com/sites/EngenhariaeTecnologia/Documentos%20Compartilhados/Forms/AllItems.aspx?id=%2Fsites%2FEngenhariaeTecnologia%2FDocumentos%20Compartilhados%2FProjetos%2F1%20%2D%20Projetos%20DAT%2FENT004%2E074%20%2D%20ONDULADOR%20UE44%2FCorretoras%20Dipolares%20e%20QS%2Fmedidas%5Fondulador%5FUE44%5FQS&viewid=8e73266a%2D3c79%2D4052%2D90f2%2Da07640ec07c8&p=true&ct=1773841766792&or=Teams%2DHL&LOF=1
 
 # POLARITY TABLE
 # ==============
