@@ -633,6 +633,7 @@ SI-11M1:MA-CV                    255.5672
 SI-11M1:MA-SFP0                  255.5672
 SI-11M1:MA-FCH                   255.7332
 SI-11M1:MA-FCV                   255.7332
+SI-11M1:MA-QDP2                  255.8972
 SI-11SP:MA-QS-1                  256.4199
 SI-11SP:MA-CH-1                  256.9449
 SI-11SP:MA-CV-1                  256.9449
