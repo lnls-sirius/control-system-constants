@@ -307,7 +307,8 @@ IA-09RaPS02:PS-DCLink-SI      FBP_DCLink
 IA-10RaPS01:PS-DCLink-AS      FBP_DCLink
 IA-10RaPS02:PS-DCLink-SI      FBP_DCLink
 IA-11RaPS01:PS-DCLink-AS      FBP_DCLink
-IA-11RaPS02:PS-DCLink-SI      FBP_DCLink
+IA-11RaPS02:PS-DCLink-SI1     FBP_DCLink
+IA-11RaPS02:PS-DCLink-SI2     FBP_DCLink
 IA-12RaPS01:PS-DCLink-SI      FBP_DCLink
 IA-12RaPS02:PS-DCLink-SI      FBP_DCLink
 IA-13RaPS01:PS-DCLink-AS      FBP_DCLink
@@ -1126,6 +1127,11 @@ SI-11SP:PS-CH-1               FBP
 SI-11SP:PS-CV-1               FBP
 SI-11SP:PS-CH-2               FBP
 SI-11SP:PS-CV-2               FBP
+SI-11SP:PS-QS-1               FBP
+SI-11SP:PS-QS-2               FBP
+SI-11SP:PS-LCH-1              FBP
+SI-11SP:PS-LCV-1              FBP
+SI-11SP:PS-LCV-2              FBP
 SI-14SB:PS-CH-1               FBP
 SI-14SB:PS-CH-2               FBP
 SI-14SB:PS-CV-1               FBP

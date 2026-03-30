@@ -1,0 +1,7 @@
+# List of power supplies of type si-corrector-ue44-qs
+# ===================================================
+
+# number of power supplies: 2
+
+SI-11SP:PS-QS-1
+SI-11SP:PS-QS-2
