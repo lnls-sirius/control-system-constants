@@ -1311,8 +1311,6 @@ SI-19C4:PM-PingV                SI-19C4:PU-PingV
 
 
 # --- SI Insertion Devices ---
-
-SI-08SB:ID-APU22                SI-08SB:ID-APU22
 SI-09SA:ID-APU22                SI-09SA:ID-APU22
 
 
