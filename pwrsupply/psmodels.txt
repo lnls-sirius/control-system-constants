@@ -1313,7 +1313,6 @@ SI-01M2:PS-FFCV               FBP
 
 SI-08SB:ID-IVU18              IVU
 SI-09SA:ID-APU22              APU
-SI-11SP:ID-APU58              APU
 SI-14SB:ID-IVU18              IVU
 
 
