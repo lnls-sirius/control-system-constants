@@ -1036,6 +1036,11 @@ SI-11SP:MA-CH-1              SI-11SP:PS-CH-1
 SI-11SP:MA-CH-2              SI-11SP:PS-CH-2
 SI-11SP:MA-CV-1              SI-11SP:PS-CV-1
 SI-11SP:MA-CV-2              SI-11SP:PS-CV-2
+SI-11SP:MA-QS-1              SI-11SP:PS-QS-1
+SI-11SP:MA-QS-2              SI-11SP:PS-QS-2
+SI-11SP:MA-LCH-1             SI-11SP:PS-LCH-1
+SI-11SP:MA-LCV-1             SI-11SP:PS-LCV-1
+SI-11SP:MA-LCV-2             SI-11SP:PS-LCV-2
 SI-14SB:MA-CH-1              SI-14SB:PS-CH-1
 SI-14SB:MA-CH-2              SI-14SB:PS-CH-2
 SI-14SB:MA-CV-1              SI-14SB:PS-CV-1
