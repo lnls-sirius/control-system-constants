@@ -1582,6 +1582,7 @@
                 'IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH5',
                 'IA-08RaBPM:TI-AMCFPGAEVR:FMC2CH5',
                 'IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH5',
+                'IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH5',
                 'IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH5',
                 ),
         },
@@ -1822,6 +1823,8 @@
 
             'SI-10M1:DI-BPM:CRT4', 'SI-10M2:DI-BPM:CRT4',
 
+            'SI-11M1:DI-BPM:CRT4', 'SI-11M2:DI-BPM:CRT4',
+
             'SI-14M1:DI-BPM:CRT4', 'SI-14M2:DI-BPM:CRT4',
             ),
         },
@@ -1858,7 +1861,7 @@
 
             #'SI-10M1:DI-BPM:CRT4', 'SI-10M2:DI-BPM:CRT4',
 
-            'SI-11M1:DI-BPM:CRT4', 'SI-11M2:DI-BPM:CRT4',
+            #'SI-11M1:DI-BPM:CRT4', 'SI-11M2:DI-BPM:CRT4',
 
             'SI-12M1:DI-BPM:CRT4', 'SI-12M2:DI-BPM:CRT4',
 
