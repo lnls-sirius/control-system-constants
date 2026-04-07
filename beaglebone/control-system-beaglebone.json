@@ -114,7 +114,8 @@
             {"BBB_IP_1": "10.128.104.101", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA04-VAC-MKS", "DEVICE_TYPE": "MKS", "DEVICE_ID": [1, 2, 3, 4], "DEVICE_NAME": ""}
             ],
         "4UHV": [
-            {"BBB_IP_1": "10.128.104.102", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA04-VAC-4UHV-BO-SI", "DEVICE_TYPE": "4UHV", "DEVICE_ID": [11, 12, 13, 14], "DEVICE_NAME": ""}
+            {"BBB_IP_1": "10.128.104.102", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA04-VAC-4UHV-BO", "DEVICE_TYPE": "4UHV", "DEVICE_ID": [11, 12], "DEVICE_NAME": ""},
+            {"BBB_IP_1": "10.128.104.103", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA04-VAC-4UHV-SI", "DEVICE_TYPE": "4UHV", "DEVICE_ID": [13, 14, 15], "DEVICE_NAME": ""}
         ],
         "MBTemp": [
             {"BBB_IP_1": "10.128.104.117", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA04-CON-MBTEMP-SR-BEFORE-BC", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [11, 12, 13], "DEVICE_NAME": ""},
