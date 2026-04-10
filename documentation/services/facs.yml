@@ -161,8 +161,7 @@ facs-as-ps-dclinks_ia07:
 facs-as-ps-dclinks_ia08:
   as-ps IA-08RaCtrl:CO-DCLinkCtrl:
   - IA-08RaPS01:PS-DCLink-AS
-  - IA-08RaPS02:PS-DCLink-SI1
-  - IA-08RaPS02:PS-DCLink-SI2
+  - IA-08RaPS02:PS-DCLink-SI
 
 facs-as-ps-dclinks_ia09:
   as-ps IA-09RaCtrl:CO-DCLinkCtrl:
@@ -177,7 +176,8 @@ facs-as-ps-dclinks_ia10:
 facs-as-ps-dclinks_ia11:
   as-ps IA-11RaCtrl:CO-DCLinkCtrl:
   - IA-11RaPS01:PS-DCLink-AS
-  - IA-11RaPS02:PS-DCLink-SI
+  - IA-11RaPS02:PS-DCLink-SI1
+  - IA-11RaPS02:PS-DCLink-SI2
 
 facs-as-ps-dclinks_ia12:
   as-ps IA-12RaCtrl:CO-DCLinkCtrl:
@@ -192,8 +192,7 @@ facs-as-ps-dclinks_ia13:
 facs-as-ps-dclinks_ia14:
   as-ps IA-14RaCtrl:CO-DCLinkCtrl:
   - IA-14RaPS01:PS-DCLink-AS
-  - IA-14RaPS02:PS-DCLink-SI1
-  - IA-14RaPS02:PS-DCLink-SI2
+  - IA-14RaPS02:PS-DCLink-SI
 
 facs-as-ps-dclinks_ia15:
   as-ps IA-15RaCtrl:CO-DCLinkCtrl:
@@ -780,8 +779,8 @@ facs-bo-ps_corrs-ia20:
   as-ps-diag BO "4(7|9)(U|D)" "(CH|CV)":
   - BO-47U:PS-CH:Diag
   - BO-47U:PS-CV:Diag
-  - BO-49U:PS-CV:Diag
   - BO-49D:PS-CH:Diag
+  - BO-49U:PS-CV:Diag
 
 facs-ts-ps_dips:
   as-ps LA-RaPS02:CO-PSCtrl-TS1:
@@ -1723,18 +1722,6 @@ facs-si-ps_corrlong-sb-ia08:
   as-ps-diag SI "08SB" LCH:
   - SI-08SB:PS-LCH:Diag
 
-facs-si-ps_corrs-sp-ia11:
-  as-ps IA-11RaCtrl:CO-PSCtrl-SI5:
-  - SI-11SP:PS-CH-1
-  - SI-11SP:PS-CH-2
-  - SI-11SP:PS-CV-1
-  - SI-11SP:PS-CV-2
-  as-ps-diag SI "11SP" "(CH|CV).*":
-  - SI-11SP:PS-CH-1:Diag
-  - SI-11SP:PS-CH-2:Diag
-  - SI-11SP:PS-CV-1:Diag
-  - SI-11SP:PS-CV-2:Diag
-
 facs-si-ps_corrs-qs-sb-ia10:
   as-ps IA-10RaCtrl:CO-PSCtrl-SI5:
   - SI-10SB:PS-CH-1
@@ -1750,6 +1737,36 @@ facs-si-ps_corrs-qs-sb-ia10:
   - SI-10SB:PS-CV-2:Diag
   - SI-10SB:PS-QS-1:Diag
   - SI-10SB:PS-QS-2:Diag
+
+facs-si-ps_corrs-sp-ia11:
+  as-ps IA-11RaCtrl:CO-PSCtrl-SI5:
+  - SI-11SP:PS-CH-1
+  - SI-11SP:PS-CH-2
+  - SI-11SP:PS-CV-1
+  - SI-11SP:PS-CV-2
+  as-ps-diag SI "11SP" "(CH|CV).*":
+  - SI-11SP:PS-CH-1:Diag
+  - SI-11SP:PS-CH-2:Diag
+  - SI-11SP:PS-CV-1:Diag
+  - SI-11SP:PS-CV-2:Diag
+
+facs-si-ps_corrlong-sp-ia11:
+  as-ps IA-11RaCtrl:CO-PSCtrl-SI7:
+  - SI-11SP:PS-LCH-1
+  - SI-11SP:PS-LCV-1
+  - SI-11SP:PS-LCV-2
+  as-ps-diag SI "11SP" "(LCH|LCV).*":
+  - SI-11SP:PS-LCH-1:Diag
+  - SI-11SP:PS-LCV-1:Diag
+  - SI-11SP:PS-LCV-2:Diag
+
+facs-si-ps_qs-sp-ia11:
+  as-ps IA-11RaCtrl:CO-PSCtrl-SI6:
+  - SI-11SP:PS-QS-1
+  - SI-11SP:PS-QS-2
+  as-ps-diag SI "11SP" QS:
+  - SI-11SP:PS-QS-1:Diag
+  - SI-11SP:PS-QS-2:Diag
 
 facs-si-ps_corrs-sb-ia14:
   as-ps IA-14RaCtrl:CO-PSCtrl-SI5:
@@ -2888,3 +2905,4 @@ facs-si-rf_monitor:
   si-rf-monitor:
   - SI-03SP:RF-CryoMod-1
   - SI-03SP:RF-CryoMod-2
+
