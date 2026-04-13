@@ -1,0 +1,6 @@
+# List of power supplies of type si-corrector-ue44-lch
+# ====================================================
+
+# number of power supplies: 1
+
+SI-11SP:PS-LCH-1
