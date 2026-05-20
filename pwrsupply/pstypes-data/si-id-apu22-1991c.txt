@@ -1,4 +1,0 @@
-# List of APU22 Insertion devices
-# ===============================
-
-# SI-06SB:ID-APU22

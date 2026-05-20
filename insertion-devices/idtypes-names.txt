@@ -1,0 +1,16 @@
+# ID type names
+# =============
+
+# idtype                     polarity         magnetic_function
+# -------------------------------------------------------------
+
+si-id-apu22-1991a            bipolar         id-apu
+si-id-apu22-1991b            bipolar         id-apu
+si-id-apu22-1991c            bipolar         id-apu
+si-id-apu22-1991d            bipolar         id-apu
+si-id-apu58-1995             bipolar         id-apu
+si-id-epu50                  bipolar         id-epu
+si-id-delta52                bipolar         id-delta
+si-id-ivu18                  bipolar         id-ivu
+si-id-vpu29                  bipolar         id-vpu
+si-id-ue44                   bipolar         id-ue

@@ -1,0 +1,19 @@
+# Insertion Device Model Mapping
+# ==============================
+#
+
+# --- Sirius Insetion Devices
+
+SI-09SA:ID-APU22                APU
+SI-17SA:ID-APU22                APU
+
+# SI-10SB:ID-EPU50                EPU
+SI-10SB:ID-DELTA52              DELTA
+
+SI-08SB:ID-IVU18                IVU
+SI-14SB:ID-IVU18                IVU
+
+SI-06SB:ID-VPU29                VPU
+SI-07SP:ID-VPU29                VPU
+
+SI-11SP:ID-UE44                 UE
