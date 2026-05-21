@@ -1,0 +1,4 @@
+# List of insertion devices of si-id-vpu29-a
+# ==========================================
+
+SI-07SP:ID-VPU29
