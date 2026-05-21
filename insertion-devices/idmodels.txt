@@ -7,8 +7,8 @@
 SI-09SA:ID-APU22                APU
 SI-17SA:ID-APU22                APU
 
-# SI-10SB:ID-EPU50                EPU
 SI-10SB:ID-DELTA52              DELTA
+SI-12SB:ID-EPU50                EPU
 
 SI-08SB:ID-IVU18                IVU
 SI-14SB:ID-IVU18                IVU

@@ -11,6 +11,8 @@ si-id-apu22-1991d            bipolar         id-apu
 si-id-apu58-1995             bipolar         id-apu
 si-id-epu50                  bipolar         id-epu
 si-id-delta52                bipolar         id-delta
-si-id-ivu18                  bipolar         id-ivu
-si-id-vpu29                  bipolar         id-vpu
+si-id-ivu18-1                bipolar         id-ivu
+si-id-ivu18-2                bipolar         id-ivu
+si-id-vpu29-a                bipolar         id-vpu
+si-id-vpu29-b                bipolar         id-vpu
 si-id-ue44                   bipolar         id-ue

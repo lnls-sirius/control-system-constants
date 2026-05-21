@@ -1,5 +1,0 @@
-# List of insertion devices of si-id-apu22-1191a
-# ==============================================
-
-SI-06SB:ID-VPU29
-SI-07SP:ID-VPU29
