@@ -214,7 +214,7 @@
 # COMMENTS
 # ========
 #
-# 1. Measurement data at the undulators sharepoint:
+# 1. Measurement data at the undulators sharepoint in the folder:
 #    https://cnpemcamp.sharepoint.com/:f:/s/lnls/projects/Undulators/IgBpAvt3uf_1S7GbpbJE43ZEAQcuq71O0H_gg_74WeOCOC8?e=kFCQ4v
 #
 # 2. K ~ 93.3729/(T.m) * (lambda * B)
@@ -229,4 +229,6 @@
 #    increased in the fitting process.
 #
 # 4. Excdata is generated with script
-#    'generate_tables.ipynb'
+#    'generate_tables.ipynb' at the lnls-ids organization github in the
+#    excitation_data folder of the repo:
+#    https://github.com/lnls-ids/insertion-devices.git'

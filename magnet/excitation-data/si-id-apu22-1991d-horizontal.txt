@@ -214,8 +214,9 @@
 # COMMENTS
 # ========
 #
-# 1. Measurement data at the lnls-ima organization in the repo:
-#    lnls-ima/id-ema.git
+# 1. Measurement data at the lnls-ima organization github in the repo:
+#    https://github.com/lnls-ima/id-ema.git
+#    This undulator used to be from EMA beamline, but it is now from SAPUCAIA.
 #
 # 2. K ~ 93.3729/(T.m) * (lambda * B)
 #    This table contains lambda * B as a function of the ID configuration.
@@ -229,4 +230,6 @@
 #    increased in the fitting process.
 #
 # 4. Excdata is generated with script
-#    'generate_tables.ipynb'
+#    'generate_tables.ipynb' at the lnls-ids organization github in the
+#    excitation_data folder of the repo:
+#    https://github.com/lnls-ids/insertion-devices.git'
