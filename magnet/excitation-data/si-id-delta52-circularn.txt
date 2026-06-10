@@ -1,6 +1,6 @@
 # HEADER
 # ======
-# label             si-id-delta52-circular
+# label             si-id-delta52-circularn
 # harmonics         0
 # main_harmonic     0 normal
 # rescaling_factor  1.0
