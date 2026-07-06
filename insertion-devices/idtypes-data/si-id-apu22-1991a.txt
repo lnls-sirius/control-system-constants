@@ -1,5 +1,3 @@
 # List of insertion devices of si-id-apu22-1991a
 # ==============================================
-# NOTE: check this!
-
-SI-09SA:ID-APU22
+# NOTE: Out of Tunel

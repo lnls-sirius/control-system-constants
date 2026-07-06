@@ -1,5 +1,4 @@
 # List of insertion devices of si-id-apu22-1991b
 # ==============================================
-# NOTE: check this!
 
-SI-17SA:ID-APU22
+SI-09SA:ID-APU22
