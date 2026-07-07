@@ -1,0 +1,4 @@
+# List of insertion devices of si-id-vpu29-b
+# ==========================================
+
+SI-06SB:ID-VPU29

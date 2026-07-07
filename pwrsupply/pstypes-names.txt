@@ -147,14 +147,3 @@ bo-dclink-fac-2p4s           none            none
 as-dclink-fbp                none            none
 as-dclink-regatron-master    none            none
 as-dclink-regatron-slave     none            none
-
-
-# Insertion devices
-# -----------------
-
-si-id-apu22-1991a            bipolar         id-apu
-si-id-apu22-1991b            bipolar         id-apu
-si-id-apu22-1991c            bipolar         id-apu
-si-id-apu22-1991d            bipolar         id-apu
-si-id-apu58-1995             bipolar         id-apu
-si-id-epu50                  bipolar         id-epu

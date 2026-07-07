@@ -1,0 +1,4 @@
+# List of insertion devices of si-id-ivu18-2
+# ==========================================
+
+SI-08SB:ID-IVU18
