@@ -1245,7 +1245,6 @@
             'TB-02:DI-ScrnCam-1:TRIGIN',
             'TB-02:DI-ScrnCam-2:TRIGIN',
             'TB-03:DI-ScrnCam:TRIGIN',
-            'TB-04:DI-ScrnCam:TRIGIN',
             'BO-01D:DI-ScrnCam-1:TRIGIN',
             'BO-01D:DI-ScrnCam-2:TRIGIN',
             'BO-02U:DI-ScrnCam:TRIGIN',
