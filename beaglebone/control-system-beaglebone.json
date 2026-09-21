@@ -489,7 +489,7 @@
             ],
         "MBTemp": [
             {"BBB_IP_1": "10.128.115.106", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA11-CON-MBTEMP-BO-36-40", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [1, 2, 3, 4, 5], "DEVICE_NAME": ""},
-            {"BBB_IP_1": "10.128.115.117", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA11-CON-MBTEMP-SR-BEFORE-BC", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [11, 12, 13], "DEVICE_NAME": ""},
+            {"BBB_IP_1": "10.128.115.117", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA11-CON-MBTEMP-SR-BEFORE-BC", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [11, 12, 13, 14], "DEVICE_NAME": ""},
             {"BBB_IP_1": "10.128.115.118", "BBB_IP_2": "", "BBB_HOSTNAME": "BBB-SALA11-CON-MBTEMP-SR-AFTER-BC", "DEVICE_TYPE": "MBTemp", "DEVICE_ID": [21, 22, 23], "DEVICE_NAME": ""}
             ],
         "SIMAR": [
