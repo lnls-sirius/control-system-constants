@@ -886,6 +886,12 @@ SI-15M1:MA-SFP0                  359.2452
 SI-15M1:MA-FCH                   359.4112
 SI-15M1:MA-FCV                   359.4112
 SI-15M1:MA-QDP2                  359.5752
+SI-15SP:MA-QS-1                  360.4199
+SI-15SP:MA-CH-1                  360.9449
+SI-15SP:MA-CV-1                  360.9449
+SI-15SP:MA-CH-2                  365.4449
+SI-15SP:MA-CV-2                  365.4449
+SI-15SP:MA-QS-2                  365.9699
 SI-15M2:MA-QDP2                  366.1707
 SI-15M2:MA-FCH                   366.3347
 SI-15M2:MA-FCV                   366.3347
