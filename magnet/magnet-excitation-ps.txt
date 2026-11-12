@@ -1046,6 +1046,12 @@ SI-14SB:MA-CH-2              SI-14SB:PS-CH-2
 SI-14SB:MA-CV-1              SI-14SB:PS-CV-1
 SI-14SB:MA-CV-2              SI-14SB:PS-CV-2
 SI-14SB:MA-LCH               SI-14SB:PS-LCH
+SI-15SP:MA-CH-1              SI-15SP:PS-CH-1
+SI-15SP:MA-CH-2              SI-15SP:PS-CH-2
+SI-15SP:MA-CV-1              SI-15SP:PS-CV-1
+SI-15SP:MA-CV-2              SI-15SP:PS-CV-2
+SI-15SP:MA-QS-1              SI-15SP:PS-QS-1
+SI-15SP:MA-QS-2              SI-15SP:PS-QS-2
 
 # --- Septa feedforward correctors ---
 SI-01M1:MA-FFCH              SI-01M1:PS-FFCH
