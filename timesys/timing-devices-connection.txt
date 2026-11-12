@@ -13,7 +13,7 @@
 
 
 
-# 597
+# 601
 AS-RaMO:TI-EVG:OUT0                 RA-RaMO:CO-DIO:P05
 AS-RaMO:TI-EVG:OUT1                 RA-RaMO:CO-DIO:P01
 AS-RaMO:TI-EVG:OUT2                 RA-RaMO:CO-DIO:P02
@@ -44,6 +44,7 @@ CA-RaTim:TI-Fout-1:OUT4             CA-RaCtrl:CO-DIO-9:P09
 CA-RaTim:TI-Fout-1:OUT5             CA-RaCtrl:CO-DIO-9:P10
 CA-RaTim:TI-Fout-1:OUT6             CA-RaCtrl:CO-DIO-3:P15
 CA-RaTim:TI-Fout-2:OUT0             CA-RaCtrl:CO-DIO-4:P18
+CA-RaTim:TI-Fout-2:OUT1             CA-RaCtrl:CO-DIO-6:P06
 CA-RaTim:TI-Fout-2:OUT2             CA-RaCtrl:CO-DIO-8:P03
 CA-RaTim:TI-Fout-2:OUT3             CA-RaCtrl:CO-DIO-4:P06
 CA-RaTim:TI-Fout-2:OUT4             CA-RaCtrl:CO-DIO-6:P12
@@ -84,6 +85,7 @@ CA-RaCtrl:CO-DIO-9:P09              PA-RaCtrl:CO-DIO:P051
 CA-RaCtrl:CO-DIO-9:P10              PA-RaCtrl:CO-DIO:P046
 CA-RaCtrl:CO-DIO-3:P15              IA-06RaCtrl:CO-DIO-2:P03
 CA-RaCtrl:CO-DIO-4:P18              IA-10RaCtrl:CO-DIO-2:P06
+CA-RaCtrl:CO-DIO-6:P06              IA-15RaCtrl:CO-DIO-2:P06
 CA-RaCtrl:CO-DIO-8:P03              IA-20RaCtrl:CO-DIO-2:P03
 CA-RaCtrl:CO-DIO-4:P06              IA-08RaCtrl:CO-DIO-2:P06
 CA-RaCtrl:CO-DIO-6:P12              IA-16RaCtrl:CO-DIO-2:P06
@@ -131,6 +133,7 @@ PA-RaCtrl:CO-DIO:P051               PA-RaCtrl:TI-EVR-1:UPLINK
 PA-RaCtrl:CO-DIO:P046               PA-RaCtrl:TI-EVR-2:UPLINK
 IA-06RaCtrl:CO-DIO-2:P03            IA-06RaBPM:TI-EVR:UPLINK
 IA-10RaCtrl:CO-DIO-2:P06            IA-10RaBPM:TI-EVR:UPLINK
+IA-15RaCtrl:CO-DIO-2:P06            IA-15RaBPM:TI-EVR:UPLINK
 IA-20RaCtrl:CO-DIO-2:P03            IA-20RaDiag01:TI-EVR:UPLINK
 IA-08RaCtrl:CO-DIO-2:P06            IA-08RaCtrl:CO-DIO-2:P21
 IA-16RaCtrl:CO-DIO-2:P06            IA-16RaBbB:TI-EVE:UPLINK
@@ -227,6 +230,7 @@ IA-06RaBPM:TI-EVR:DIN0              IA-06RaBPM:TI-AMCFPGAEVR:FMC2CH5
 IA-06RaBPM:TI-EVR:DIN1              IA-07RaBPM:TI-AMCFPGAEVR:FMC2CH5
 IA-10RaBPM:TI-EVR:DIN0              IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH5
 IA-10RaBPM:TI-EVR:DIN1              IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH5
+IA-15RaBPM:TI-EVR:DIN0              IA-15RaBPM:TI-AMCFPGAEVR:FMC2CH5
 IA-20RaDiag01:TI-EVR:OTP0           IA-20RaDiag01:TI-OEMultPOF-1:IN1
 IA-20RaDiag01:TI-EVR:OTP1           IA-20RaDiag01:TI-OEMultPOF-1:IN2
 IA-20RaDiag01:TI-EVR:OTP2           IA-20RaDiag01:TI-OEMultPOF-1:IN3
