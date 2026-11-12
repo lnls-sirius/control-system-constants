@@ -1826,6 +1826,8 @@
             'SI-11M1:DI-BPM:CRT4', 'SI-11M2:DI-BPM:CRT4',
 
             'SI-14M1:DI-BPM:CRT4', 'SI-14M2:DI-BPM:CRT4',
+
+            'SI-15M1:DI-BPM:CRT4', 'SI-15M2:DI-BPM:CRT4',
             ),
         },
     'SI-Fam:TI-BPM-OutOrbIntlk': {
@@ -1869,7 +1871,7 @@
 
             #'SI-14M1:DI-BPM:CRT4', 'SI-14M2:DI-BPM:CRT4',
 
-            'SI-15M1:DI-BPM:CRT4', 'SI-15M2:DI-BPM:CRT4',
+            #'SI-15M1:DI-BPM:CRT4', 'SI-15M2:DI-BPM:CRT4',
 
             'SI-16M1:DI-BPM:CRT4', 'SI-16M2:DI-BPM:CRT4',
 
