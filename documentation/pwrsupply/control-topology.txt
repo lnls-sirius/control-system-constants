@@ -1,7 +1,7 @@
 # The file is generated with script
 # https://github.com/lnls-sirius/scripts/blob/master/bin/sirius-script-ps-devices.py
 # using argument "--ascii"
-# last update: 2026-11-05
+# last update: 2026-11-12
 
 BeagleBones
 |-- IA-01RaCtrl:CO-DCLinkCtrl  [10.128.101.104]
@@ -1479,6 +1479,12 @@ BeagleBones
 |       |   +-- IA-15RaPS02:PS-DCLink-SI
 |       +-- SI-15SP:PS-QS-2  (2)
 |           +-- IA-15RaPS02:PS-DCLink-SI
+|-- IA-15RaCtrl:CO-PSCtrl-SI7  [10.128.115.123]
+|   +-- IA-15RaPS03:PS-UDC-SI1  (SWLSSirius)
+|       +-- SI-15SP:ID-S3PW:PSCenCoil  (1)
+|-- IA-15RaCtrl:CO-PSCtrl-SI8  [10.128.115.124]
+|   +-- IA-15RaPS03:PS-UDC-SI2  (SWLSSirius)
+|       +-- SI-15SP:ID-S3PW:PSLatCoil  (1)
 |-- IA-16RaCtrl:CO-DCLinkCtrl  [10.128.116.104]
 |   |-- IA-16RaPS01:PS-UDC-AS  (FBP_DCLink)
 |   |   +-- IA-16RaPS01:PS-DCLink-AS  (1)

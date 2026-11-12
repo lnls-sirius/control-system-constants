@@ -1315,6 +1315,10 @@ SI-01M2:PS-FFCH               FBP
 SI-01M2:PS-FFCV               FBP
 
 
+# --- ID power supplies
+SI-15SP:ID-S3PW:PSCenCoil     SWLSSirius
+SI-15SP:ID-S3PW:PSLatCoil     SWLSSirius
+
 
 # ______ IT ______
 
