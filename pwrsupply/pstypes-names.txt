@@ -139,6 +139,9 @@ si-corrector-ue44-lcv        bipolar          corrector-vertical
 si-hping                     bipolar          corrector-horizontal
 si-vping                     bipolar          corrector-vertical
 
+si-s3pw-cencoil              none             none
+si-s3pw-latcoil              none             none
+
 it-lens                      bipolar          lens
 
 

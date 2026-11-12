@@ -1148,3 +1148,8 @@ TS-04:PU-InjSeptG-2     Sine          1           0.0                   0.0     
 IT-Ra:PS-Lens-1         DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 IT-Ra:PS-Lens-2         DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
 IT-Ra:PS-Lens-3         DampedSine           7          0.1         9.0             0.0           0.0              0.0              10.0              0.0
+
+
+# === ID device power supplies ===
+SI-15SP:ID-S3PW:PSCenCoil   DampedSine        7          0.1         5.0             0.0           0.0              0.0              10.0              0.0
+SI-15SP:ID-S3PW:PSLatCoil   DampedSine        7          0.1         5.0             0.0           0.0              0.0              10.0              0.0

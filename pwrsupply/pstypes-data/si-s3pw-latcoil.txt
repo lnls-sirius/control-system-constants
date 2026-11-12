@@ -1,0 +1,6 @@
+# List of power supplies of type si-s3pw-latcoil
+# ==============================================
+
+# number of power supplies: 1
+
+SI-15SP:ID-S3PW:PSLatCoil
