@@ -61,7 +61,8 @@ facs-as-ap-diag:
   - TS-04:PU-InjSeptG-2:Diag
   as-rf-diag:
   - BO-05D:RF-P5Cav:Diag
-  - SI-02SB:RF-P7Cav:Diag
+  - SI-03SP:RF-SRFCav-A:Diag
+  - SI-03SP:RF-SRFCav-B:Diag
   li-ap-diag:
   - LI-01:EG-HVPS:Diag
   - LI-01:EG-FilaPS:Diag
@@ -779,8 +780,8 @@ facs-bo-ps_corrs-ia20:
   as-ps-diag BO "4(7|9)(U|D)" "(CH|CV)":
   - BO-47U:PS-CH:Diag
   - BO-47U:PS-CV:Diag
-  - BO-49D:PS-CH:Diag
   - BO-49U:PS-CV:Diag
+  - BO-49D:PS-CH:Diag
 
 facs-ts-ps_dips:
   as-ps LA-RaPS02:CO-PSCtrl-TS1:
@@ -854,8 +855,8 @@ facs-si-di-fpmosc:
 facs-si-id_conv:
   si-id-conv:
   - SI-09SA:ID-APU22:Kx
-  - SI-11SP:ID-APU58:Kx
   - SI-17SA:ID-APU22:Kx
+  - SI-20SB:ID-APU22:Kx
 
 facs-si-ap-sofb:
   si-ap-sofb:
@@ -2900,6 +2901,14 @@ facs-si-ap-idff_delta52-sb10:
 facs-si-ap-orbintlk:
   si-ap-orbintlk:
   - SI-Glob:AP-OrbIntlk
+
+facs-si-id-s3pw_cencoil:
+  as-ps IA-15RaCtrl:CO-PSCtrl-SI7:
+  - SI-15SP:ID-S3PW:PSCenCoil
+
+facs-si-id-s3pw_latcoil:
+  as-ps IA-15RaCtrl:CO-PSCtrl-SI8:
+  - SI-15SP:ID-S3PW:PSLatCoil
 
 facs-si-rf_monitor:
   si-rf-monitor:
