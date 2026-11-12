@@ -1583,6 +1583,7 @@
                 'IA-10RaBPM:TI-AMCFPGAEVR:FMC2CH5',
                 'IA-11RaBPM:TI-AMCFPGAEVR:FMC2CH5',
                 'IA-14RaBPM:TI-AMCFPGAEVR:FMC2CH5',
+                'IA-15RaBPM:TI-AMCFPGAEVR:FMC2CH5',
                 ),
         },
     'AS-Glob:TI-FCT': {
