@@ -1,2 +1,4 @@
 # List of APU58 Insertion devices
 # ===============================
+
+SI-16SB:ID-APU58
