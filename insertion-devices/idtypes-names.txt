@@ -13,6 +13,7 @@ si-id-epu50                  bipolar         id-epu
 si-id-delta52                bipolar         id-delta
 si-id-ivu18-1                bipolar         id-ivu
 si-id-ivu18-2                bipolar         id-ivu
+si-id-s3pw-001               bipolar         id-s3pw
 si-id-vpu29-a                bipolar         id-vpu
 si-id-vpu29-b                bipolar         id-vpu
 si-id-ue44                   bipolar         id-ue
