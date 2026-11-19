@@ -1,4 +1,4 @@
-ARG FAC_IMG_HTTPD_TAG=2.4.52-bullseye
+ARG FAC_IMG_HTTPD_TAG=2.4.64-bookworm
 
 FROM httpd:${FAC_IMG_HTTPD_TAG}
 
