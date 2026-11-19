@@ -1135,6 +1135,12 @@ SI-14SB:PS-CH-2               FBP
 SI-14SB:PS-CV-1               FBP
 SI-14SB:PS-CV-2               FBP
 SI-14SB:PS-LCH                FBP
+SI-15SP:PS-CH-1               FBP
+SI-15SP:PS-CV-1               FBP
+SI-15SP:PS-CH-2               FBP
+SI-15SP:PS-CV-2               FBP
+SI-15SP:PS-QS-1               FBP
+SI-15SP:PS-QS-2               FBP
 
 # --- SI Fast Correctors
 
@@ -1308,6 +1314,10 @@ SI-01M1:PS-FFCV               FBP
 SI-01M2:PS-FFCH               FBP
 SI-01M2:PS-FFCV               FBP
 
+
+# --- ID power supplies
+SI-15SP:ID-S3PW:PSCenCoil     SWLSSirius
+SI-15SP:ID-S3PW:PSLatCoil     SWLSSirius
 
 
 # ______ IT ______

@@ -1,0 +1,7 @@
+# List of power supplies of type si-corrector-s3pw-cv
+# ===================================================
+
+# number of power supplies: 2
+
+SI-15SP:PS-CV-1
+SI-15SP:PS-CV-2
