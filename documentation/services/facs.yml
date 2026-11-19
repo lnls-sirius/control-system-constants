@@ -855,6 +855,7 @@ facs-si-di-fpmosc:
 facs-si-id_conv:
   si-id-conv:
   - SI-09SA:ID-APU22:Kx
+  - SI-16SB:ID-APU58:Kx
   - SI-17SA:ID-APU22:Kx
   - SI-20SB:ID-APU22:Kx
 
@@ -1786,6 +1787,26 @@ facs-si-ps_corrlong-sb-ia14:
   - SI-14SB:PS-LCH
   as-ps-diag SI "14SB" LCH:
   - SI-14SB:PS-LCH:Diag
+
+facs-si-ps_corrs-sp-ia15:
+  as-ps IA-15RaCtrl:CO-PSCtrl-SI5:
+  - SI-15SP:PS-CH-1
+  - SI-15SP:PS-CH-2
+  - SI-15SP:PS-CV-1
+  - SI-15SP:PS-CV-2
+  as-ps-diag SI "15SP" "(CH|CV).*":
+  - SI-15SP:PS-CH-1:Diag
+  - SI-15SP:PS-CH-2:Diag
+  - SI-15SP:PS-CV-1:Diag
+  - SI-15SP:PS-CV-2:Diag
+
+facs-si-ps_qs-sp-ia15:
+  as-ps IA-15RaCtrl:CO-PSCtrl-SI6:
+  - SI-15SP:PS-QS-1
+  - SI-15SP:PS-QS-2
+  as-ps-diag SI "15SP" QS:
+  - SI-15SP:PS-QS-1:Diag
+  - SI-15SP:PS-QS-2:Diag
 
 facs-si-ps_trims-qs-m12-ia01:
   as-ps IA-01RaCtrl:CO-PSCtrl-SI1:
@@ -2914,4 +2935,3 @@ facs-si-rf_monitor:
   si-rf-monitor:
   - SI-03SP:RF-CryoMod-1
   - SI-03SP:RF-CryoMod-2
-
